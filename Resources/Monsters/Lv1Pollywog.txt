@@ -1,0 +1,52 @@
+Name:  Pollywog
+
+Biography
+Description: A tadpole-like creature that hovers over the ground with a gentle swimming motion. <p>
+They are most commonly found in swampy areas, but can be found all over the world, in every biome.</p>
+PrimaryClass: Pollywog
+Code: Instinctive Soldier OR Guard
+Level: 1
+Appearance: Generally yellow of body with a webbed salmon-pink tail that takes up the majority of its length.
+It has two beady eyes and a mouth full of small, blunt teeth that are intended to tear and chew wild
+plants, or badly pinch a would-be predator.
+Behavior: Generally pleasant around humans and creatures foreign to its environment and will flee
+from known predators. However, if anything strays too closely to the body of water it calls home, it will
+go on the offensive.
+
+Vitals
+Health: 35
+Mana: 17
+Stamina: 12
+Focus: 15
+
+Scores
+Element: Water
+Movement: 4sq
+Carry: 7u
+PrimaryDamage: 8 neutral (Teeth)
+SecondaryDamage: 5 water (Tail)
+
+Stats
+Melee (Power: 4, Evasion:  10)
+Magic (Power: 5, Evasion:  9)
+Skill (Power: 3, Evasion:  9)
+
+Talents
+Craft: 1
+Harvest: 0
+Scholar: -2
+Navigate: 2
+Acrobatic: -2
+Entertain: 0
+
+Equipment
+PrimaryWeapon: Teeth (Melee, L, 0.5u, Cost:  7AP, Pwr: 2 Neutral, Quickdraw)
+SecondaryWeapon: Tail (Melee, VL, 0.2u, Cost:  5AP, Pwr: 1 Water, Reach)
+Tools: None
+Consumables: None
+
+Loot
+Experience: 100
+Gil: 25
+Loot: 1x Uncooked Monster Meat (Becomes Monster Meat after cooking for 1 hour).
+Luck > 15: Pollywog Pearl (Consumable/Mineral, Value:  300, Benefit:  Destroy and gain +1 to your next check)

@@ -1,0 +1,46 @@
+#Name:|
+
+Biography
+#Level:|
+#Code:|
+#PrimaryClass:|
+#Description:|
+#Appearance:|
+#Behavior:|
+
+Vitals
+#Health:|
+#Mana:|
+#Stamina:|
+#Focus:|
+
+Scores
+#Element:|
+#Movement:|
+#Carry:|
+#PrimaryDamage:|
+#SecondaryDamage:|
+
+Stats
+#Melee:| (Power: , Evasion: )|
+#Magic:| (Power: , Evasion: )|
+#Skill:| (Power: , Evasion: )|
+
+Talents
+#Craft:|
+#Harvest:|
+#Scholar:|
+#Navigate:|
+#Acrobatic:|
+#Entertain:|
+
+Equipment
+#PrimaryWeapon:|
+#SecondaryWeapon:|
+#Tools:|
+#Consumables:|
+
+Loot
+#Experience:|
+#Gil:|
+#Loot:|

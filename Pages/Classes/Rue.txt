@@ -1,0 +1,103 @@
+- Good damage
+- Good defensive abilities
+- Take shape of previously slain opponents.
+- Poor agility
+- Reliant on magic
+
+Title
+Rue
+
+Subtitle
+Shapeshifting Avenger
+
+Description
+A stranger surrounded in mystery and enchantment. They possess the disturbing power
+to take the form of the recently deceased, often using it to their advantage in fights.
+    No one knows where the original Rues came from or where they learned their
+shapeshifting trick. Legend has it that they aren't even truly human, instead,
+being magical creatures wrought in the shape of humans by ancient magicians.
+No Rue has ever given a straight answer to that theory, which seems to be the
+only consistent quality that they cling to.
+
+VITALS
+Health 45
+Mana 15
+Stamina 17
+Focus 12
+
+SCORES
+Movement 4sq
+Carry 5u
+Element Electric & Light
+
+STATS
+Melee Power: 6, Evasion: 10
+Magic Power: 5, Evasion: 8
+Skill Power: 3, Evasion: 10
+
+ABILITIES
+Innate. Acquire Shape
+    Magic-Support-Reaction
+    Trigger: A an enemy combatant dies.
+    Use: 2mna
+    Give yourself a Shape token based on the dead combatant.
+    Shape token: For 5AP you reassign your appearance, Scores, Stats, and Abilities to those of the combatant you got this token from.
+    For 5AP you can return to your original state.
+1. Carry Spirit
+    Magic-Support-Action
+    Use: 5Mna
+    Range: 0sq
+    If an ally had died since your last turn, you may create a Spirit token from a fragment of their spirit.
+    Spirit Token: While on the same square of a body that is over 0HP, for 5AP the token can be destroyed, releasing the spirit into the new body.
+2. Block
+    Melee-Defense-Reaction
+    Trigger: An enemy attacks you.
+    Use: 3Sta
+    Using a primary or secondary weapon, incoming damage is reduced by 2{Mle}.
+3. Avenge Ally
+    Skill-Support-Reaction
+    Trigger: An ally dies.
+    Luck: 10
+    OnPass: Increase your Melee Power by 1.
+4. Arc Slash
+    Melee-Offensive-Action
+    Use: 10AP
+    Range: 2sq
+    Every enemy combatant within range takes 1{Mle} damage.
+5.Path of Duty
+    Magic-Defensive-Reaction
+    Trigger: You are targeted by a Magic-type ability.
+    Use: 5Mna
+    Restore TL Stamina, and Focus.
+6.Inner Power
+    Skill-Support-Action
+    Use: 40AP + 1/battle
+    Double the Power scores of your Magic, Melee, and Skill.
+7.Call Friend
+    Skill-Support-Reaction
+    Trigger: You finished making a movement action.
+    Use: 3fcs
+    Choose an ally. They may make a free movement action in your direction.
+8.Wander
+    Skill-Support-Action
+    Use: 10AP
+    Roll d20 (A), d20 (B),
+    South is towards your starting position.
+    If A > 10, move up to 1sq{TL} east; else, move up to 1sq{TL} west.
+    If B > 10, move up to 1sq{TL} north; else, move up to 1sq{TL} south.
+9.Dive Slash
+    Melee-Offensive-Action
+    Use: 10AP + 7Sta
+    Range: CL
+    Choose an enemy within range and leap through the air towards them.
+    Make a free attack action with +5 to your accuracy check.
+10.Combo
+    Skill-Support-Reaction
+    Trigger: You hit with a basic attack action.
+    Use: 3sta, 3/Round
+    Luck: 15
+    OnPass: Make another attack action at the damaged combatant.
+
+
+Ultimate Ability: Ultimate Power
+Ultimate Ability: Path of Free Will

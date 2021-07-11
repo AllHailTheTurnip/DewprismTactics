@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dewprism Tactics - Monster Guide</title>
+    <link href="../Resources/GeneralStyle.css" rel="stylesheet">
+    <script src="../Resources/MonsterLoader.js"></script>
+    <style>
+        div.Index {
+            width: 45%;
+            float: left;
+        }
+
+        div.About {
+            width: 45%;
+            float: right;
+        }
+
+        button {
+            font-family: Dewprism;
+            background: transparent;
+            border-color: transparent;
+            font-size: inherit;
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+<a href="../index.html" class="Menu">Return to Index</a>
+
+<h1>Monster Guide</h1>
+<div class="Side">
+    This is the Monster Guide - an in-depth explanation of monster mechanics, how to use them, and a listing
+    of their basic scores. Each monster has a level assigned to them, including scores that reflect
+    that level. They also have a class and will have access to the abilities of that class - of which
+    can be found in the <a href="ClassesDir.html">classes</a> section.
+</div>
+<div class="Wide">
+    <h2>
+        Codes and Roles
+    </h2>
+    The world is full of dangerous creatures, and while many of them might end up as your opponents, it should be
+    noted that not all creatures think and act same. They each possess varying degrees of intelligence,
+    mingled amidst instincts and values. In the treasure hunting field, this is referred to as their
+    thinking pattern, or their "code".
+    <p>
+        Their code is composed of two factors: their intelligence and their role. Their intelligence indicates
+        general ability to act in battle, such as how they go about plans, when they'll retreat, and who they'll attack
+        first.
+    </p>
+    <p>
+        Factoring is their role - the part they play on their team. The more intelligent the creature, the more easily
+        they can re-allocate roles in order to maintain best formation.
+    </p>
+
+    Degrees of Intelligence.
+    <ul>
+        <li>
+            Drone - Stupid and incapable of reason or tactics beyond just attacking.<br>
+            <i>King Ants, Marionettes, Mandolas, Pumpkins.</i>
+        </li>
+        <li>
+            Instinctive - Has a sense of self-preservation and can recognize the threat of a foe
+            by their shape, size, and movements.<br>
+            <i>Pollywogs, Ootangs, Wabbits.</i>
+        </li>
+        <li>
+            Sapient - Possesses emotional and psychological intelligence to make risk/reward
+            value judgements; can rationalize if what they're fighting for is worth protecting.
+            <i>Bubbas, Witches, Specters, Gamulians, humans. </i>
+        </li>
+        <li>
+            Wise - Can devise strategies to make the fight as easy for them as possible, weighing
+            expended effort versus accomplished work.<br>
+            <i>Witches, Humans, Bell, Duke, Psycho Master.</i>
+        </li>
+        <li>
+            Brilliant - Can actively invent new strategies, tactics, and plans, as if viewing the battle
+            from a top-down view, intuitively reading opponents and accurately guessing their every move.<br>
+            <i>Atenacous, Wylaf, Phantom Valen, Doll Master.</i>
+        </li>
+    </ul>
+
+    Combatant Roles.
+    <ul>
+        <li>
+            Bystander - Not actually invested in the fight and just wants to live.
+        </li>
+        <li>
+            Leader - The central tether of the group, giving out orders to their subordinates.<br>
+            If they die, their group may lose confidence and scatter.
+        </li>
+        <li>
+            Soldier - Their role is neutralize the enemy team, defeating the closest opponents first.
+        </li>
+        <li>
+            Support - Their role is to aid their group by offering healing, supplies, and food.
+        </li>
+        <li>
+            Guard - They stay close to a particular member and protect them.
+        </li>
+        <li>
+            Hunter - They go after enemy party members that are the most vulnerable.
+        </li>
+        <li>
+            Assassin - They go after the enemy leader.
+        </li>
+    </ul>
+
+    <h2>
+        Decision Making
+    </h2>
+    Depending on their code, characters can generally predict what a combatant will do during a fight.
+    The more intelligent a foe is, the more likely it is to make the intelligent decision, or
+    more accurately, the one that makes your life harder.
+    <p>
+        At the beginning of each turn, the DM makes a check to help determine the intelligence of their actions
+        for the round.
+    </p>
+    <ul>
+        <li>
+            <b>Drone</b>. No check made; always the most obvious decision.
+        </li>
+        <li>
+            <b>Instinctive</b>. 1d20+4 > 20; upon success, an intelligent decision is made.
+        </li>
+        <li>
+            <b>Sapient</b>. 1d20+8 > 20; upon success, an intelligent decision is made.
+        </li>
+        <li>
+            <b>Wise</b>. 1d20+12 > 20; upon success, an intelligent decision is made.
+        </li>
+        <li>
+            <b>Brilliant</b>. No check made; always the most intelligent decision.
+        </li>
+    </ul>
+    <p>
+        As a reminder: a creature's intelligence describes its ability to consistently and properly
+        deviate from its own role in order to best serve the goal of its team rather than just
+        itself. More intelligent creatures will behave more flexibly, while less intelligent creatures
+        behave more rigidly, sometimes doing nothing at all if they fail to deviate from their own role.
+    </p>
+    <p>
+        As the stakes rise, you'll fight many creatures - monsters and people - who are more than
+        willing to sacrifice their lives if it means just a chance of stopping you taking what is most precious to
+        them or others.
+    </p>
+
+    <h2>
+        Monster Types
+    </h2>
+    Over the years, treasure hunters have come across monsters of all shapes and sizes, some larger
+    than others. To help categorize these differences, they coined a set of terms that just seemed to
+    stick. The bigger they are,
+    the stronger they'll be. But keep in mind, it's rare that a monster gets too big, where more
+    than likely they'll become the alpha of their group.
+    <p>
+        By default, all monsters are typed as mobs. To change its type, take the template and scale-up
+        (or -down) its stats.
+    </p>
+
+    <ul>
+        <li>
+            <b>Runt</b><br>
+            <ul>
+                <li>
+                    Vitals: x0.5
+                </li>
+                <li>
+                    Stat Powers: x0.5
+                </li>
+                <li>
+                    Loot and Experience: x0.5
+                </li>
+            </ul>
+
+            (Be sure to round-down.)
+        </li>
+        <li>
+            <b>Mob</b><br>
+            <ul>
+                <li>
+                    Vitals: x1
+                </li>
+                <li>
+                    Power: x1
+                </li>
+                <li>
+                    Loot and Experience: x1
+                </li>
+            </ul>
+        </li>
+        <li>
+            <b>Miniboss</b><br>
+            <ul>
+                <li>
+                    Vitals: x1.5
+                </li>
+                <li>
+                    Power: x1.5
+                </li>
+                <li>
+                    Loot and Experience: x1.5
+                </li>
+                <li>
+                    Access to their class's first listed Master Ability
+                </li>
+            </ul>
+        </li>
+        <li>
+            <b>Boss</b><br>
+            <ul>
+                <li>
+                    Vitals: x2
+                </li>
+                <li>
+                    Power: x2
+                </li>
+                <li>
+                    Loot and Experience: x2
+                </li>
+                <li>
+                    Access to all three of their class's listed Master Abilities.
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    In essence, if you want to make anything stronger, just multiply its Vitals, Stats's powers,
+    and rewards by a number. The listed coefficients are intended to be used for monsters that
+    are accompanied by 3-4 mobs.
+
+    <h2>
+        Loot and Experience
+    </h2>
+    By the time combat ends and you stand victorious,
+    every enemy that initially challenged you is considered defeated and you are rewarded an amount
+    of experience points.
+    <p>
+        The same applies for loot. Any materials, equipment, gil, and other goodies dropped
+        either upon defeat - either when they die, are knocked out, or while they run away.
+    </p>
+    <p>
+        Loot doesn't technically exist to be collected until <i>after</i> the battle has ended.
+        At that point, loot (and experience, somehow) is gathered into a pile. By default, experience
+        is instantly divided equally (as possible) among the players of the party. From there, players
+        can divide the loot among themselves as they see fit - hopefully in a peaceful, rational manner.
+    </p>
+
+    <h2>
+        Leveling-up Monsters
+    </h2>
+    If you want to fight stronger monsters, you can level them up. This works in a manner similar to
+    how your characters level up.
+    <p>
+        To do this, you only need a bit of multiplication. First find the base class of the monster
+        and multiply its affected scores (vitals, power, dropped experience) by the level you want
+        it to become. Make sure when multiplying vitals, that you finally divide its stamina, mana, and focus
+        by 5.
+    </p>
+    <p>
+        For leveling-down a monster, you can use the same process described above, but stopping at a lower
+        level than the one listed in the Monster Guide.
+    </p>
+
+    <h2>
+        Custom Monsters
+    </h2>
+    If you want to create your own monsters, you can follow a simple process. However, it should be
+    warned that this is a tricky process, where if you're not careful, you might create a beast
+    that's either too powerful or too weak, or just generally unfun. In consideration, all monsters
+    have classes that players are also able to take, mix-and-match with - so don't give your custom
+    monster something that you wouldn't potentially want the rest of your party having.
+    <p>
+        To begin,
+        at this point, you as the GM will be familiar with monsters enough that you understand the core
+        principles of their design, such as balance, focus, and strengths and weaknesses.
+    </p>
+
+    <ol>
+        <li>
+            <b>Conceptualize</b><br>
+            Conceive an idea for the monster you wish to create. Consider their theme, how they
+            complement the other monsters, how they challenge the players, their strengths,
+            their weaknesses; which classes would be strongest against them and which would have the
+            hardest time.
+            <p>
+                Where do your custom monsters come from? Where can they be found? Are they runts
+                or clever? What loot do they drop upon defeat?
+            </p>
+            <p>
+                Once you've come up with a concept, write as much of it as you can before going
+                onto the next step.
+            </p>
+        </li>
+        <li>
+            <b>Vitals</b><br>
+            Write down the level-1 Vital scores of the monster. Keep in mind that the average base health
+            for any mob is 45, meaning it takes exactly 3 hits with an average-grade weapon to defeat it.
+            <p>
+                For Focus, Stamina, and Mana, the average starting value is 15. These numbers tend
+                to fluctuate depending on the class's design, whither they're heavily dependent on
+                a particular vital, and how long you want them to be able to last in a fight.
+            </p>
+        </li>
+        <li>
+            <b>Scores</b><br>
+            The most important thing you should think about for a monster's Scores is its element.
+            The monster's element indicates where it essentially lies in the critical food-chain.
+            If it's a non-standard element like light, metal, or noble, then that means there will be
+            fewer classes around that can potentially critically harm it.
+            <p>
+                Next, consider its Movement score. The average is 4, which is scaled to most battlefields
+                such that it can move across an average-sized battlefield from one side to
+                the other in 2 rounds.
+            </p>
+            <p>
+                Its carry score isn't as normally important as a monster, but when a player takes
+                its class, it'll determine how much they can carry on their person. This is where you
+                might want to consider if a monster would be too dependent on things or not.
+            </p>
+            <p>
+                Primary and Secondary Damages aren't immediately determined until you know
+                their Stats and which weapons they're equipped with.
+            </p>
+        </li>
+        <li>
+            <b>Stats</b><br>
+            The monster's Stats are going to be the meat of its build - its <i>punch</i>, if you would.
+            It determines how quickly it can neutralize an opponent, while also determining
+            how long it might take to neutralize it.
+            <p>
+                The average Power score is 3, while the average Evasion score is 10.
+            </p>
+            <p>
+                A Power score of 4 is considered heavy, and 5 is very heavy - it's rare that a
+                monster should start with anything above 4, and unheard of it for it to start at 6+.
+            </p>
+            <p>
+                Imagine its Evasion scores as a health multiplier for certain attacks. Since 10 is half
+                of 20, then naturally, it means only half of the attacks will hit, thereby doubling your
+                health. Increasing that to 15 means only one in four attacks are likely to hit,
+                while anything higher is unheard of.
+            </p>
+        </li>
+        <li>
+            <b>Talents</b><br>
+            Unlike adventurers, monsters don't develop talents, but instead grow into their talents, as befitting
+            their natural abilities. Based on the parts they were born with, they'll better at certain tasks than
+            others.
+            <ul>
+                <li>
+                    -2 to -1 is poor.
+                </li>
+                <li>
+                    0-1 is okay.
+                </li>
+                <li>
+                    3-4 is good.
+                </li>
+                <li>
+                    5-6 is great.
+                </li>
+            </ul>
+        </li>
+        <li>
+            <b>Equipment</b><br>
+            Monsters typically don't have weapons - but they can have natural weapons, such as claws,
+            teeth, spines, tails, and thick skulls. Choose two to be their primary and secondary weapons.
+            <p>
+                A monster's natural gifts might also count as tools, and can substitute
+                for a tool that could be purchased by the players at the store.
+            </p>
+            <p>
+                Few monsters have consumables, and fewer still have anything significant
+                they can use, like a revival coin.
+            </p>
+        </li>
+        <li>
+            <b>Loot and Experience</b><br>
+            All mobs drop 100xp, multiplied by their level. Loot, however, is static.
+            <p>
+                What a monster drops as far as loot is concerned isn't always
+                relevant to what the monster what, with the exception of materials.
+            </p>
+            <p>
+                Typically, monsters drop materials, which can be used for creating
+                items later on.
+            </p>
+            <p>
+                Generally, minibosses and bosses will drop quest-items necessary
+                for advancement in the dungeon or campaign.
+            </p>
+        </li>
+    </ol>
+
+
+</div>
+<!-- Note to self, restore class with Index when I have a server.-->
+<div class="Wide">
+    <h2>
+        Index
+    </h2>
+    <h3>
+        Monsters
+    </h3>
+    <ul>
+        <li>
+            <button onclick="OpenFileByName('../Resources/Monsters/Lv1Pollywog.txt')">Pollywog</button>
+        </li>
+        <li>
+            Mandola
+        </li>
+        <li>
+            <button onclick="OpenFileByName('../Resources/Monsters/Lv1SaberTiger.txt')">Saber Tiger</button>
+        </li>
+        <li>
+            Stinger
+        </li>
+        <li>
+            Gargoyle
+        </li>
+        <li>
+            Gudon
+        </li>
+        <li>
+            King Ant
+        </li>
+        <li>
+            Imp
+        </li>
+        <li>
+            Cockadoo
+        </li>
+        <li>
+            Fungie
+        </li>
+        <li>
+            Puppet
+        </li>
+        <li>
+            Specter
+        </li>
+        <li>
+            Skeleton
+        </li>
+        <li>
+            Ootang
+        </li>
+        <li>
+            Gamulian
+        </li>
+        <li>
+            Fire Blob
+        </li>
+        <li>
+            Bubba
+        </li>
+        <li>
+            Wabbit
+        </li>
+        <li>
+            Pumpkin
+        </li>
+        <li>
+            Witch
+        </li>
+        <li>
+            Behemoth
+        </li>
+        <li>
+            Shaolon
+        </li>
+        <li>
+            Hellhound
+        </li>
+        <li>
+            Jinn
+        </li>
+    </ul>
+    <h3>
+        Minibosses
+    </h3>
+    <ul>
+        <li>
+            Blood & Smokey
+        </li>
+    </ul>
+    <h3>
+        Bosses
+    </h3>
+    <ul>
+        <li>
+            Nightmare
+        </li>
+        <li>
+            Skull Beast
+        </li>
+    </ul>
+
+</div>
+
+<div class="About" id="About" hidden>
+    <h1 id="AbtName">
+        Name
+    </h1>
+
+    <b>
+        Level:
+    </b><span id="AbtLevel"></span><br>
+    <b>
+        Code:
+    </b><span id="AbtCode"></span><br>
+    <b>
+        Class:
+    </b> <span id="AbtPrimaryClass"></span>
+    <br>
+
+    <b>
+        Description:
+    </b>
+    <span id="AbtDescription"></span><br>
+
+    <b>
+        Appearance:
+    </b><span id="AbtAppearance"></span><br>
+
+    <b>
+        Behavior:
+    </b><span id="AbtBehavior"></span><br>
+
+
+    <h2>
+        Vitals
+    </h2>
+    <b>
+        Health:
+    </b><span id="AbtHealth"></span><br>
+    <b>
+        Mana:
+    </b><span id="AbtMana"></span><br>
+    <b>
+        Stamina:
+    </b><span id="AbtStamina"></span><br>
+    <b>
+        Focus:
+    </b><span id="AbtFocus"></span><br>
+
+    <h2>
+        Scores
+    </h2>
+    <b>
+        Element:
+    </b><span id="AbtElement"></span><br>
+    <b>
+        Movement:
+    </b><span id="AbtMovement"></span><br>
+    <b>
+        Carry:
+    </b><span id="AbtCarry"></span><br>
+    <b>
+        Primary Damage:
+    </b><span id="AbtPrimaryDamage"></span><br>
+    <b>
+        Secondary Damage:
+    </b><span id="AbtSecondaryDamage"></span><br>
+
+    <h2>
+        Stats
+    </h2>
+    <b>
+        Melee:
+    </b><span id="AbtMelee"></span><br>
+    <b>
+        Magic:
+    </b><span id="AbtMagic"></span><br>
+    <b>
+        Skill:
+    </b><span id="AbtSkill"></span><br>
+
+    <h2>
+        Talents
+    </h2>
+    <b>
+        Craft:
+    </b><span id="AbtCraft"></span><br>
+    <b>
+        Harvest:
+    </b><span id="AbtHarvest"></span><br>
+    <b>
+        Scholar:
+    </b><span id="AbtScholar"></span><br>
+    <b>
+        Navigate:
+    </b><span id="AbtNavigate"></span><br>
+    <b>
+        Acrobatic:
+    </b><span id="AbtAcrobatic"></span><br>
+    <b>
+        Entertain:
+    </b><span id="AbtEntertain"></span><br>
+
+    <h2>
+        Equipment:
+    </h2>
+    <b>
+        Primary Weapon:
+    </b><span id="AbtPrimaryWeapon"></span><br>
+    <b>
+        Secondary Weapon:
+    </b><span id="AbtSecondaryWeapon"></span><br>
+    <b>
+        Tools:
+    </b><span id="AbtTools"></span><br>
+    <b>
+        Consumables:
+    </b><span id="AbtConsumables"></span><br>
+
+    <h2>
+        Loot and Experience
+    </h2>
+    <b>
+        Experience:
+    </b><span id="AbtExperience"></span><br>
+    <b>
+        Gil:
+    </b><span id="AbtGil"></span><br>
+    <b>
+        Loot:
+    </b><span id="AbtLoot"></span>
+
+</div>
+</body>
+</html>

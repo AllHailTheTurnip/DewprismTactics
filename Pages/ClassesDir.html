@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dewprism Tactics - Classes</title>
+    <link rel="stylesheet" href="../Resources/GeneralStyle.css">
+    <script src="../Resources/MonsterLoader.js"></script>
+    <style>
+        div {
+            display: inline-block;
+            margin-top: 0px;
+        }
+
+        div.Classes {
+            width: 40%;
+            margin-left: 1%;
+            float: left;
+        }
+
+        div.Template {
+            width: 48%;
+            margin-right: 1%;
+            float: right;
+            display: none;
+        }
+
+        ol {
+            margin-left: -20px;
+        }
+
+    </style>
+</head>
+<body>
+<a href="../index.html" class="Menu">Return to Index</a>
+<h1>Classes</h1>
+<!-- Note: Replace with previous class when I get a server. -->
+<div class="Wide">
+    <p>Below is a comprehensive list of playable classes for Dewprism Tactics.</p>
+    <h3>In Progress...</h3>
+    <ul>
+        <li>Pollywog</li>
+        <li>Saber Tiger</li>
+        <li>Rue</li>
+        <li>Mint</li>
+        <li>Skull Beast</li>
+    </ul>
+
+    <h2>Monster-inspired Classes</h2>
+    <ul>
+        <li>
+            <a href="#" onclick="OpenFileByName('../Pages/Classes/Pollywog.txt')">Pollywog</a>
+        </li>
+        <li>
+            Mandola
+        </li>
+        <li>
+            <a href="#" onclick="OpenFileByName('../Pages/Classes/SaberTiger.txt')">Saber Tiger</a>
+        </li>
+        <li>
+            Stinger
+        </li>
+        <li>
+            Gargoyle
+        </li>
+        <li>
+            Gudon
+        </li>
+        <li>
+            King Ant
+        </li>
+        <li>
+            Imp
+        </li>
+        <li>
+            Cockadoo
+        </li>
+        <li>
+            Fungie
+        </li>
+        <li>
+            Puppet
+        </li>
+        <li>
+            Specter
+        </li>
+        <li>
+            Skeleton
+        </li>
+        <li>
+            Ootang
+        </li>
+        <li>
+            Gamulian
+        </li>
+        <li>
+            Fire Blob
+        </li>
+        <li>
+            Bubba
+        </li>
+        <li>
+            Wabbit
+        </li>
+        <li>
+            Pumpkin
+        </li>
+        <li>
+            Witch
+        </li>
+        <li>
+            Behemoth
+        </li>
+        <li>
+            Shaolon
+        </li>
+        <li>
+            Hellhound
+        </li>
+        <li>
+            Jinn
+        </li>
+    </ul>
+
+    <h2>Boss-inspired Classes</h2>
+    <ul>
+        <li>
+            Racketeer
+        </li>
+        <li>
+            Nightmare
+        </li>
+        <li>
+            <a href="#" onclick="OpenFileByName('../Pages/Classes/SkullBeast.txt')">Skull Beast</a>
+        </li>
+        <li>
+            Shadow Legend Duke
+        </li>
+        <li>
+            Belle
+        </li>
+        <li>
+            Hexagon
+        </li>
+        <li>
+            Starlight Duke
+        </li>
+        <li>
+            Fist of Fire Duke
+        </li>
+        <li>
+            Chimera
+        </li>
+        <li>
+            Cloud Whale
+        </li>
+        <li>
+            Wylaf
+        </li>
+        <li>
+            Gorotan
+        </li>
+        <li>
+            Maya
+        </li>
+        <li>
+            Psycho Master
+        </li>
+        <li>
+            Trap Master
+        </li>
+        <li>
+            Mode Master
+        </li>
+        <li>
+            Atenacius
+        </li>
+        <li>
+            Phantom Valen
+        </li>
+        <li>
+            Dewprism Valen
+        </li>
+        <li>
+            Morning Dew
+        </li>
+        <li>
+            Evening Dew
+        </li>
+    </ul>
+
+    <h2>Humanoid-inspired Classes</h2>
+    <ul>
+        <li>
+            <a href="#" onclick="OpenFileByName('../Pages/Classes/Rue.txt')">Rue</a>
+        </li>
+        <li>
+            <a href="#" onclick="OpenFileByName('../Pages/Classes/Mint.txt')">Mint</a>
+        </li>
+        <li>Rod the Bladestar</li>
+    </ul>
+</div>
+<div class="Template" id="Template">
+    <h1 id="!Title" style="text-align: center"></h1>
+    <h2 id="!Subtitle" style="text-align: center"></h2>
+    <span id="!Description">
+
+    </span>
+    <br>
+
+    <h2>Vitals</h2>
+    <b>Health: </b><span id="!Health"></span><br>
+    <b>Stamina: </b><span id="!Stamina"></span><br>
+    <b>Mana: </b><span id="!Mana"></span><br>
+    <b>Focus: </b><span id="!Focus"></span><br>
+
+    <h2>Scores</h2>
+    <b>Movement: </b><span id="!Movement"></span><br>
+    <b>Carry: </b><span id="!Carry"></span><br>
+    <b>Element: </b><span id="!Element"></span><br>
+
+    <h2>Stats</h2>
+    <b>Melee: </b><span id="!Melee"></span><br>
+    <b>Magic: </b><span id="!Magic"></span><br>
+    <b>Skill: </b><span id="!Skill"></span><br>
+
+    <h2>Abilities</h2>
+    Innate. <span id="Innate"></span>
+    <hr>
+    <ol>
+        <li id="A1">
+
+        </li>
+        <hr>
+        <li id="A2">
+
+        </li>
+        <hr>
+        <li id="A3">
+
+        </li>
+        <hr>
+        <li id="A4">
+
+        </li>
+        <hr>
+        <li id="A5">
+
+        </li>
+        <hr>
+        <li id="A6">
+
+        </li>
+        <hr>
+        <li id="A7">
+
+        </li>
+        <hr>
+        <li id="A8">
+
+        </li>
+        <hr>
+        <li id="A9">
+
+        </li>
+        <hr>
+        <li id="A10">
+
+        </li>
+        <hr>
+    </ol>
+    <hr>
+    <h2>Master Abilities</h2>
+    <ul>
+        <li id="MA1">
+
+        </li>
+        <li id="MA2">
+
+        </li>
+        <li id="MA3">
+
+        </li>
+    </ul>
+
+</div>
+</body>
+
+</html>

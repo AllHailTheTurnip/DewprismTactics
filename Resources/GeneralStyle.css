@@ -1,0 +1,164 @@
+body {
+    background: url("Banner.png") white no-repeat fixed center;
+    font-family: Dewprism;
+    line-height: 1.35;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 0px;
+}
+
+body.GreenMagic {
+    background-image: url("Green.jpg");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: right bottom;
+}
+
+body.BlueMagic {
+    background-image: url("Blue_Alt.jpg");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: right bottom;
+}
+
+div {
+    width: 50%;
+    border: solid black 1px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+div.Side {
+    border: 0px;
+    margin-left: 0px;
+}
+
+div.Wide {
+    width: 90%;
+}
+
+p {
+    text-indent: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+table {
+    border: black solid 1px;
+    border-spacing: 8px;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+th.NameCol {
+    width: 20%;
+}
+
+th.CostCol {
+    width: 10%;
+}
+
+th.SlotCol
+{
+    width: 10%;
+}
+
+th.UsesCol
+{
+    width: 5%;
+}
+
+
+th {
+    width: 500px;
+    alignment: center;
+}
+
+tr {
+    border: black solid;
+}
+
+td {
+    border: 1px black solid;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+p.tab {
+    margin-left: 40px;
+}
+
+@font-face {
+    font-family: Dewprism;
+    src: url("dpcomic.ttf");
+}
+
+a.Menu {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    z-index: 100;
+    padding: 5px;
+    background-color: white;
+    border: black 1px solid;
+}
+
+div.Menu {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    z-index: 100;
+    padding: 5px;
+    background-color: white;
+    border: black 1px solid;
+    width: 15%;
+    text-align: center;
+}
+
+ul, ol {
+    margin-top: 0px;
+}
+
+span.Fire {
+    color: red;
+}
+
+span.Water {
+    color: blue;
+}
+
+span.Nature {
+    color: green;
+}
+
+span.Darkness {
+    color: black;
+    font-weight: bold;
+}
+
+span.Light {
+    color: violet;
+}
+
+span.Electric {
+    color: deepskyblue;
+    font-style: italic;
+}
+
+span.Metal {
+    color: grey;
+    font-weight: bold;
+}
+
+span.Noble {
+    color: gold;
+    font-weight: bold;
+}
+
+span.Neutral {
+    color: grey;
+}

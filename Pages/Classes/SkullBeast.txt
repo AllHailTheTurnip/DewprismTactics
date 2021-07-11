@@ -1,0 +1,90 @@
+Skull beast
+Persistent Juggernaut
+
+Description
+A warrior trained in the legendary arts of the Skull Beast - they fear neither defeat nor death. Training begins at a
+young age, moulding their mind, body, and spirit through harsh training to push them beyond normal limits. Over the
+course of their training they become well acquainted with pain, suffering, and death - and coming back again.
+    Today, Skull Beasts tend to travel alone, drawing fear and woe to whichever town they go. Some say they're a bad omen,
+bringing bad luck, while others say that they are the bad luck. Who can say for certain? Yet their presence inspires
+something instinctual in a person: don't fight them unless you plan to lose.
+
+VITALS
+Health 30
+Mana 15
+Stamina 25
+Focus 15
+
+SCORES
+Movement 5sq
+Carry 10u
+Element Fire
+
+STATS
+Melee Power: 3, Evasion: 12
+Magic Power: 5, Evasion: 14
+Skill Power: 4, Evasion: 9
+
+ABILITIES
+Innate. Self Resurrection
+    Skill-Defensive-Reactive
+    Trigger: Your health reaches 0.
+    Use: 5mna.
+    Your corpse is given a Revival counter (2).
+    At the end of each round, reduce counter by 1.
+    At 0, you revive with fully restored Vital scores.
+1. Upscale
+    Magic-Support-Action
+    Use: 20AP + 10mna
+    Halve your Melee Evasion and double your Melee Power.
+2. Full Charge
+    Melee-Offensive-Action
+    Use: 20AP + 5sta
+    Range: Battlefield
+    For the duration of this action you are unaffected by difficult terrain.
+    Make a free movement action.
+    Make a Melee check against any combatants you pass by; on fail, they take 2{Mle} neutral damage.
+3. Enormous Leap
+    Melee-Supportive-Action
+    Use: 2sta
+    Range: 5+{CL}sq
+    Ignore a surface's elevation and jump up (or down) to it.
+4. Reckless Shove
+    Melee-Offensive-Action
+    Use: 10AP
+    Check: Melee
+    OnPass: The enemy is knocked prone.
+5. Jump Back
+    Melee-Defensive-Reaction
+    Trigger: User falls into a bottomless pit.
+    Use: 1Sta
+    Luck: 5
+    OnPass: Make a free movement action out of the pit from where you fell.
+6. Firebreath
+    Magic-Offensive-Action
+    Use: 10AP + 7Mna
+    Range: 5sq cone
+    Check: Melee
+    OnHit: target takes 3{Mgc} fire damage.
+7. Fireball
+    Magic-Offensive-Action
+    Use: 10AP + 5Mna
+    Range: 5sq
+    Check: Melee
+    OnHit: target takes 5{Mgc} fire damage.
+8. Horrifying Screech
+    Skill-Offensive-Action
+    Use: 10AP + 5fcs
+    Range: 5+{CL}sq radius
+    Check: Skill
+    OnPass: Target is forced away from user until outside of range.
+9. Rampage
+    Skill-Support-Action
+    Use: 15fcs + 10mna
+    Place a Rampage marker upon yourself.
+    Destroy the marker after 1+({TL}/4) turns.
+    Rampage marker: Taken damage is halved and Offensive actions cost TL{1} less AP to use (min 5AP).
+10. Rest
+    Skill-Support-Action
+    Use: 30AP
+    Recover 50% of your max Health, Stamina, Mana, and Focus.

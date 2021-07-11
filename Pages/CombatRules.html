@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dewprism Tactics - Combat Rules</title>
+    <link rel="stylesheet" href="../Resources/GeneralStyle.css">
+</head>
+<body>
+<div class="Menu">
+    <a href="../index.html">Return to Index</a>
+    <a href="#Directory">Back to Directory</a>
+</div>
+
+<h1>
+    Combat
+</h1>
+<div class="Side">
+    Treasure hunting is a lucrative and (often) noble business, taking you all across the world from lush and
+    rainy forests, all the way into the forgotten depths of the earth through catacombs and dungeons.
+    Yet no matter how carefully you may have planned it out, you'll come across some kind of opponent at one point
+    or another. <br>
+    <p>And that's okay, because you're a treasure hunter. Naturally, you come equipped with the skills and
+        abilities necessary to see you through the battle safely and in (mostly) one piece.</p>
+    <p>
+        But beware, though. The world is full of powerful creatures with sharp teeth, keen wits, and bit of magic
+        to boot. A treasure hunter's best asset will be their wisdom, in particular, knowing their limits.
+    </p>
+</div>
+
+<div id="Directory">
+    <h2>Directory</h2>
+    <ul>
+        <li>
+            <a href="#BattleTransience">Battle Transience</a>
+        </li>
+        <li>
+            <a href="#TurnsAndActions">Turns and Actions</a>
+        </li>
+        <li>
+            <a href="#CommonActions">Common Actions</a>
+        </li>
+        <li>
+            <a href="#Elements">Elements</a>
+        </li>
+        <li>
+            <a href="#MetaLogic">Meta Logic</a>
+        </li>
+        <li>
+            <a href="#Abilities">Abilities</a>
+        </li>
+        <li>
+            <a href="#DeathAndDefeat">Death and Defeat</a>
+        </li>
+        <li>
+            <a href="#SmallEncounters">Small Encounters</a>
+        </li>
+        <li>
+            <a href="#ExperienceAndRewards">Experience and Rewards</a>
+        </li>
+    </ul>
+</div>
+<div class="Wide">
+    <h2 id="BattleTransience">
+        Battle Transience
+    </h2>
+    The first rule of combat is Battle Transience: <i>what happens in battle, stays in the battle.</i>
+    Or more accurately, any changes made to your character are undone
+    after the end of the battle. You might think of combat as though it were an alternate reality from
+    the one you started in. This essentially covers anything done to you or your allies through actions and abilities,
+    such as changes to your vital scores, status effects, and markers, counters, props, and mobs.
+    <p>
+        There are a few exceptions.
+    </p>
+    <ul>
+        <li>
+            Death. If you die in combat, you'll remain dead after it unless you spend a revival coin.
+        </li>
+        <li>
+            Revival Coins. If you revive yourself with a revival coin, the coin will remain lost after combat.
+        </li>
+        <li>
+            Rewards. Your victories in combat are remembered and rewarded. After combat, you'll
+            receive experience points and drops from the creatures you slayed.
+        </li>
+        <li>
+            Consumables. Potions, rations, antidotes, and other limited-use remain used.
+        </li>
+    </ul>
+    In the same respect, if you come into battle with missing equipment or stat changes, anything you
+    did in combat to change those values are undone to the way before at the start. Minor encounters
+    and obstacles don't count as combat, and may tax you in small ways before the real battle.
+    <p>
+        Though it may not seem like it at first, battle transience is ultimately to the advantage of your character.
+        You don't have to overstock on equipment, allowing you to travel lighter and more battle-ready. Though
+        any bonuses from your abilities don't last, any lost equipment and penalties that would have been permanent
+        in battle are recovered.
+    </p>
+
+    <h3>
+        Enlarged Scope
+    </h3>
+    As an optional rule, the players (including the DM) can enlarge the scope of Battle Transience
+    to include other measurable sequences of time and space, such as the dungeon itself, the entire day,
+    or the entire week.
+    <p>
+        This is for the purpose of making the game just a bit harder, since then, resources would remain
+        lost longer and player revivals would have to wait longer.
+    </p>
+    <p>
+        For example, if the transience was increased
+        to cover the entire dungeon and not just the battles inside, if a player character died in one of the
+        battles, then even though they had a revival coin on their person, the coin wouldn't take effect
+        until after the rest of the party decided to head back to town.
+    </p>
+    <br>
+    <ul>
+        <li>
+            <b>Dungeon Transience</b><br>
+            Battle Transience would not take effect until after the players left the dungeon or general area.
+        </li>
+        <li>
+            <b>Day Transience</b><br>
+            Battle Transience would not take effect until after the day had ended, at the stroke of midnight.
+        </li>
+        <li>
+            <b>Week Transience</b><br>
+            Battle Transience would not take effect until the start of next Sunday.
+        </li>
+        <li>
+            <b>Quest Transience</b><br>
+            Battle Transience does not take effect until after the quest has ended.
+        </li>
+    </ul>
+</div>
+<div id="TurnsAndActions" class="Wide">
+    <h2>
+        Turns and Actions
+    </h2>
+    Combat begins when one party instigates a fight with another party. This happens either when one or more
+    combatants realize that a fight is about to start and choose to take the initiative, or when they're attacked.
+    <p>
+        In the case of being attacked, as soon as the attack action is resolved, initiative is rolled. Otherwise,
+        when reacting to a threat, you just roll initiative.
+    </p>
+    <p>
+        Combat ultimately ends when there are no more combatants left to carry on the fight, either on your
+        side or the enemy's side. Combatants can be neutralized either by leaving the battlefield (fleeing), by
+        being killed, or by being otherwise incapable of fighting.
+    </p>
+    <p>
+        Once the battle ends, XP and loot is given out to the players in exchange for the creatures they helped
+        defeat.
+    </p>
+
+    <h3>
+        Initiative
+    </h3>
+    At the beginning of combat, each combatant rolls 1d20 and the value is recorded for the DM to use. Whoever
+    got the higher roll goes first.
+    <p>
+        If two or more combatants get the same score, then they roll again, marking their score with an A or B to
+        indicate who goes first.
+    </p>
+    <p>
+        In addition to the combatants, an initiative labeled "COUNTERS" is created. COUNTERS is granted an initiative
+        score of 99, always going first. There is no COUNTERS combatant, and is used solely to help players remember
+        when to update their counters and other start-of-round effects.
+    </p>
+
+    <h3>
+        Turns and Rounds
+    </h3>
+    Battle is measured in turns and rounds. Once per round each player takes their turn, starting
+    from highest to lowest. A turn (in-game) typically lasts 5 seconds. Once all players have taken their turns,
+    the round ends and a new one begins.
+    <p>
+        When it's a player's turn, they first update any counters/timed effects that are on their person.
+        Any extra effects, such as poison, gradual healing, or burn, are then applied. Finally,
+        they are granted 20 Action Points (AP) with which to spend on actions. Common
+        actions and abilities all use AP.
+    </p>
+    <h3>
+        Charging Actions
+    </h3>
+    You cannot make an action if you can't offer enough AP - however, you can choose to <b>charge</b> it instead.
+    In charging an action, you spend any remaining AP on the action and remain in place while you wait for more AP
+    from your next turn. While charging, you cannot
+    make reactions or actions, and all of your Evasion scores are reduced to 0.
+    <p>
+        When your next turn comes around
+        and you are granted more AP, the amount is automatically spent on your charged action. Once the action is fully
+        paid for, the action is finally made.
+    </p>
+    <p>
+        Some AP costs have an exclamation mark (!) attached, meaning that the ability can be burned.
+        As an option, you may execute the ability immediately and then charge for it later. While charging after burning
+        an ability, normal rules of reduced evasion score and inaction are still in effect. However,
+        unlike normal abilities, this one cannot be canceled - you must wait until your AP is above 0.
+    </p>
+</div>
+<div class="Wide" id="CommonActions">
+    <h2>
+        Common Actions
+    </h2>
+    Every combatant possesses a set of basic actions that they can perform regardless of their primary class. These
+    are called common actions.
+    <p>
+        To make an action, first declare which action you want to make, then spend the AP. Some actions
+        require that you spend Stamina, Focus, or Mana, or else they won't work. You may also be required
+        to roll dice to see if the action works.
+    </p>
+
+    <hr>
+    <h3>
+        Movement
+    </h3>
+    AP Cost: 10<br>
+    Declare that you are moving and to where.
+    Move left, right, forward, or backward into an adjacent square. You may do this up to as many times as your
+    Movement score allows.
+    <br><sub>Moving diagonally counts as two squares.</sub><br>
+    <h4>
+        Leaping
+    </h4>
+    You may leap across a 1sq chasm so long as you have enough movement left to make the distance,
+    and you're not already leaping from difficult terrain.
+
+    <h4>
+        Difficult Terrain
+    </h4>
+    While moving into or through terrain that is so bumpy and cluttered that it inhibits your movement,
+    it costs 2sq to move 1sq.
+    <h4>
+        Bottomless Pits
+    </h4>
+    If you fall into a bottomless pit, fear not! for you only take a quarter of your max health
+    in damage, and if you survive, you'll return to the battlefield at your starting
+    position on your next turn.
+
+    <h4>
+        Climbing and Steps
+    </h4>
+    Maps often have terrain of varying heights, denoted by their colors and any height-markers placed by them.
+    On a map, a height of 0 is the median, while anything greater is higher and anything lower is below. <br>
+    You can freely traverse between heights up to a difference of 0.5, where 0.5 counts as difficult terrain.
+    <br>
+    You cannot freely traverse blocks with a height-difference of 1 or greater, but must make an Acrobatics talent
+    check, beating 10 to pass. For every 1 unit of height in difference, add another 5 to the difficulty.
+
+    <h4>
+        Swimming
+    </h4>
+    You may swim through water and other thin liquids, treating it as difficult terrain.
+    <br>You will suffocate (and die) if you're under water for more than 3 turns.
+
+    <hr>
+    <h3>
+        Basic Attack
+    </h3>
+    AP Cost: 10 <br>
+    Declare who you are attacking and which weapon you'll be using to do it.
+    You may attack any combatant that is in an adjacent or same square.<br>
+    First, make a hit check and compare against your opponent's melee evasion score. If the result
+    meets or exceeds their evasion, then the attack hits.<br>
+    Damage dealt is equal to your Primary or Secondary Attack score, depending on which weapon you used.<br>
+    <br>
+    If your hit check rolled a natural 20, then your attack goes critical and inflicts double damage.
+    Additionally, if your hit check rolled a natural 1, then not only does your attack miss, but
+    you fall flat on your face, becoming <a href="TermsAndDefinitions.html#Prone">prone</a> .
+    <h4>
+        Ranged Attacks
+    </h4>
+    Some weapons, such as bows, crossbows, slings, and magic staffs, can also make ranged attacks by firing
+    projectiles. As part of their attributes, a type of arrow is listed - either your mana, or projectiles
+    from your inventory. Whenever a ranged attack is made, one of the projectiles is removed from your
+    inventory.
+    <p>
+        Ranged weapons have a range score listing their minimum and maximum project ranges.
+        When measuring the distance, you'll trace the line vertically and horizontally towards the
+        opponent as though making a movement action. If the target is equal to or within the distance, they
+        can be aimed at - otherwise, the attack will fall short.
+    </p>
+    <p>
+        Additionally, if the target is adjacent to you in another or same square, you can make
+        a melee attack at it, treating the weapon's Pwr score as 1 instead.
+    </p>
+    <hr>
+    <h3>
+        Defend with Shield
+    </h3>
+    AP Cost: 10<br>
+    Declare that you are defending and which shield you'll be using. Add the shield's Protection
+    to your Health until the start of your next turn.<br>
+    The shield's protection score is not damaged by defending - only the bonus health.
+
+    <hr>
+    <h3>
+        Use Equipment
+    </h3>
+    AP Cost: 10<br>
+    Declare that you wish to use either one of your weapon, tools, materials, or consumables,
+    and how you wish to use it. By this action you can:
+    <ul>
+        <li>
+            Swap, equip, store one of your weapons,
+        </li>
+        <li>
+            Consume a consumable item, or,
+        </li>
+        <li>
+            Swap, equip, or store one of your tools.
+        </li>
+    </ul>
+    Additionally, with any piece of equipment, you can give one one of them to an adjacent ally, granted
+    that they are also willing to accept the equipment into either their inventory or into a free hand. In the case
+    of stacked items, you may treat them as a single item when giving or receiving. Finally, if you just don't
+    want an object, you can drop it on the ground, where it will remain until destroyed or recovered by another
+    combatant.
+    <p>
+        As a note: temporary bonuses gained from consumables cannot stack if used in succession.
+    </p>
+
+    <hr>
+    <h3>
+        Destroy
+    </h3>
+    AP Cost: 30 <br>
+    Declare that you wish to destroy an object.
+    Target an unequipped item, such as a prop, a weapon, clothing, or accessory, and destroy it.<br>
+    The destroyed item no longer offers any benefits, including an attack bonus, or abilities.<br>
+    Additionally, you can also target environment features such as bushes, small trees, doors,
+    pillars, and stairs.
+
+    <hr>
+    <h3>
+        Talent Checks
+    </h3>
+    AP Cost: 10 <br>
+    Declare that you'd like to make a Talent check and wait for the DM to determine how difficult it will be
+    to accomplish. A larger scale check may also require more AP to fulfill, and may even require more than
+    one turn.
+    <br>First spending the AP and then make the check. Upon success, the task is fulfilled as usual.<br>
+
+    Keep in mind that Efficiency checks are impossible in combat.
+
+    <hr>
+    <h3>
+        Execute
+    </h3>
+    AP Cost: 15 <br>
+    While an opponent is unconscious or in the KO state and you're in the same square, you can kill them.
+
+    <hr>
+    <h3>
+        Befriend
+    </h3>
+    AP Cost: 15 <br>
+    If a monster's intelligence code is either drone, instinctive, or sapient, you can move
+    to an adjacent square, and toss a Monster Treat at its feet.
+    <p>
+        Make a Luck check.
+    </p>
+    <ul>
+        <li>
+            <b>Instinctive</b><br> Beat 18.
+        </li>
+        <li>
+            <b>Sapient</b><br> Beat 20. (Impossible without modifiers)
+        </li>
+    </ul>
+    To improve your chances, reduce the difficulty by 1 for every 1/4 of its Health
+    it's missing.
+    <p>
+        Upon success, the monster becomes neutral to your party and will no longer fight.
+    </p>
+    <p>
+        At the end of combat, roll the check again, and if you're successful, the
+        monster will come submissively creeping out of the bushes and join beside
+        the party. It is now your new ally, and will no longer attack your party when you pass
+        through the territory again.
+    </p>
+    <p>
+        Should you return with a Monster Collar, you can equip it to the friendly monster's Tool
+        slot, in which it is now an official member of your party. It gets a name, a character sheet,
+        can gain experience and level-up, and eventually gain Master status.
+        You can take it with you into town without drawing the attention of the guards, and some
+        hotels will even allow it inside.
+    </p>
+    <p>
+        Keep in mind, however, that while it's possible to befriend minibosses
+        and bosses, once they join your party, they lose their miniboss/boss
+        status and gain the stats of regular party members.
+    </p>
+    <p>
+        Meanwhile, only Sapient monsters
+        can use equipment without assistance from another party member.
+    </p>
+    <p>
+        Revival Coins do not work on anything less than Instinctive-intelligence monsters.
+    </p>
+</div>
+<div id="Elements" class="Wide">
+    <h2>
+        Elements
+    </h2>
+    Many creatures and abilities possess attributes called elements that indicate their
+    basic make-up. In nature and in combat, elements can influence each other in often
+    extreme ways.<br>
+
+    Elements that are strong against another element will inflict double damage.<br>
+    Elements that are weak against another element will inflict half damage.
+
+    <ul>
+        <li>
+            <span class="Fire">Fire</span> is strong against <span class="Nature">Nature</span>, and weak against <span
+                class="Water">Water</span>.
+        </li>
+        <li>
+            <span class="Water">Water</span> is strong against <span class="Fire">Fire</span>, and weak against <span
+                class="Nature">Nature</span>.
+        </li>
+        <li>
+            <span class="Nature">Nature</span> is strong against <span class="Water">Water</span> , and weak against
+            <span class="Fire">Fire</span> .
+        </li>
+        <li>
+            <span class="Darkness">Darkness</span> and <span class="Light">Light</span> are both strong and weak against
+            each other.
+        </li>
+        <li>
+            <span class="Metal">Metal</span> and <span class="Electric">Electric</span> are both strong and weak against
+            each other.
+        </li>
+        <li>
+            <span class="Noble">Noble</span> is strong against <span class="Noble">Noble</span>.
+        </li>
+        <li>
+            <span class="Neutral"></span> Neutral is neither strong nor weak against anything.
+        </li>
+    </ul>
+
+    <img src="../Resources/ElementChart.png" style="margin-right: auto; margin-left: auto; display: block"/>
+
+
+    For example...
+    <ul>
+        <li>
+            A fighter uses a water-based attack against a fire-based monster. Because the monster's element is
+            weak to the attack's element, instead of taking 10 damage, it takes 20.
+        </li>
+        <li>
+            A fighter uses a water-based attack against a nature-based monster. Because the monster's element
+            is strong to the attack's element, instead of taking 10 damage, it takes 5.
+        </li>
+        <li>
+            A fighter uses a water-based attack against a water-based monster. Because the monster's element
+            is neither weak nor strong to the attack's element, no bonus is applied.
+        </li>
+    </ul>
+
+</div>
+
+<div id="MetaLogic" class="Wide">
+    <h2>
+        Meta Logic
+    </h2>
+    While in combat, it is assumed that everyone is bound to the same basic combat rules, such that actions
+    all cost the same amount for everyone, all the time; that abilities and actions do as they are assumed
+    to for everyone, all the time.
+    <p>
+        This is the for benefit of the players that, if they know the rules, then they can generally
+        know what to expect from enemies and from each other. </p>
+    <p>
+        Though you might wish to be creative - and there will be times when that is allowed - your creative
+        endeavors may not always be possible. If they are, then it should be expected that your enemies
+        will exploit the same creative loopholes as you.
+    </p>
+</div>
+<div id="Abilities" class="Wide">
+    <h2>
+        Abilities
+    </h2>
+    Abilities are special actions that are best understood as simple programs. They contain common keywords, use
+    conditions,
+    and instructions that tell you how the ability works, when it can and can't be used. When executing
+    an ability, read along its attributes from beginning to end, executing instructions as their
+    conditions are met.<br>
+    <h3>
+        Application
+    </h3>
+    <p>
+        When considering an action, first refer to its application identifier.
+    </p>
+    <ul>
+        <li>
+            Actions are only used on your turn.
+        </li>
+        <li>
+            Reactions are only used in response to an event.
+        </li>
+        <li>
+            Passives can be used at any time.
+        </li>
+    </ul>
+
+    <h3>Placeholders</h3>
+    Most abilities also have variable values that, as your character grows, also grow.
+    These are called placeholders, and they are identified as a single number appended
+    by a set of curly-braces with an abbreviate stat inside. Each placeholder is meant
+    to be used for multiplication, where the initial number is multiplied by the power level
+    of the referenced stat.<br>
+    For example...
+    <ul>
+        <li>
+            2{Mgc} is read as 2 x Magic Power.
+        </li>
+        <li>
+            3{Skl} is read as 3 x Skill Power.
+        </li>
+        <li>
+            4{Mle} is read as 3 x Melee Power.
+        </li>
+    </ul>
+    If a placeholder doesn't have a number listed, assume it is 1. <br>
+    Other placeholders also include...
+    <ul>
+        <li>
+            CL, representing as Class Level, how many levels you've taken in your current class.
+        </li>
+        <li>
+            TL, representing Total Level, your character's overall level.
+        </li>
+    </ul>
+
+    <h3>
+        Use
+    </h3>
+    Abilities are seldom free and must be paid for with AP and vital resources.
+    Subtract the required resources from your character as indicated by Use attribute. Resources
+    such as AP, Stamina, Mana, and Focus, may be listed there. If no AP is listed, then the score does
+    not cost AP to use.
+    <p>
+        Some abilities, as part of their Use attribute, can only be invoked a limited amount of times
+        per battle. This is listed as X/battle or X/Round, where X is most often 1 or 3.
+        Even if you have enough resources to invoke the ability, if you've used it too many
+        times, you cannot use it again.
+    </p>
+    <p>
+        Though not as common, some abilities that spawn objects like weapons, potion, and buildings,
+        will require an amount of materials to build. Like spending vitals and AP, you'll spend
+        the listed materials as part of the Use condition.
+    </p>
+    <h3>
+        Accuracy
+    </h3>
+    Many abilities have an Accuracy attribute that indicate a d20 must be rolled and a difficulty score
+    beaten before the effects of the ability can be executed. After you've paid for the ability,
+    make a d20 check. If the check passes, then the Ability's OnPass/OnHit attribute is invoked.
+    <p>
+        Hit checks will refer to the Evasion score that the ability is targeting in a
+        <i>Accuracy: [Evasion]</i> format. Most checks are just Luck rolls, and will read <i>Luck: X</i>,
+        where X is a value between 1 and 20.
+    </p>
+
+    <h3>
+        Range
+    </h3>
+    Many Abilities have range specifiers that indicate how close (or far away) a combatant
+    has to be in order for the ability to be able to target them. Most often this is limited to
+    how close something is, but special attack require they be further away than the listed score.
+    A more-than sign (>) specifies that the target must be equal to or further than the listed score.
+    <p>
+        Some abilities allow you to choose a target within an area, such as a cone, a circle, a beam, or
+        the whole battlefield.
+    </p>
+    <ul>
+        <li>
+            <b>Cones</b> extend out from your person in a tall triangle shape, starting from your person
+            at 1sq in width, stretching out 3sq, then widening 1sq left and right, and stretching out again,
+            until it reaches the listed length.
+        </li>
+        <li>
+            <b>Circles</b> extend out in all directions, up to the listed range away in squares.
+        </li>
+        <li>
+            <b>Beams</b> target every combatant within a line of range; every square that would be touched
+            by a line is considered part of the range.
+        </li>
+    </ul>
+
+    <h3>
+        Trigger
+    </h3>
+    Reaction abilities are used in response to an action or event, most often in response to
+    an enemy combatant. Once a Trigger's condition(s) have been met (if listed, you may choose to pay
+    the Use cost) and then execute the rest of the Ability.
+    <h3>
+        Common Effect Keywords.
+    </h3>
+    Below is a list of common keywords. Though you'll see more keywords, keep in mind that they are all
+    self-explanatory.
+    <ul>
+        <li>
+            Create. An object, such as a weapon or a token, is created from thin air.
+        </li>
+        <li>
+            Destroy. Opposite of Create, an object is turned into thin air.
+        </li>
+        <li>
+            Make an [Action]. You make a free action.
+        </li>
+        <li>
+            Restore. Something that was damaged, such as a vital score or a stat, is restored by an amount.
+        </li>
+        <li>
+            Damage. Reduce the targeted score by an amount.
+        </li>
+        <li>
+            Repair. Something that was destroyed, such as a weapon or a prop, is restored in full.
+        </li>
+        <li>
+            Remove. The target loses something of theirs.
+        </li>
+        <li>
+            Add. The target is granted something of yours.
+        </li>
+        <li>
+            Disable. A status effect for actions and abilities, in which the affected target can no
+            longer be used.
+        </li>
+        <li>
+            Increase. Increase the targeted score by an amount of points.
+        </li>
+        <li>
+            Reduce. Reduce the targeted score by an amount of points.
+        </li>
+        <li>
+            Strong To. The target gains an additional specifier as to what they do double damage to.
+        </li>
+        <li>
+            Weak To. The target gains an additional specifier as to what they do half damage to.
+        </li>
+        <li>
+            Immune To. The target becomes immune to a certain damage, effect, or other specifier.
+        </li>
+        <li>
+            Worthless To. The target can no longer affect a target with a certain target.
+        </li>
+    </ul>
+</div>
+<div class="Wide" id="DeathAndDefeat">
+    <h2>
+        Death and Defeat
+    </h2>
+    All combat must come to an end eventually, and while your might side might have won, not all
+    of your allies may have made it out alive.
+
+    <h3>
+        Knocked Out
+    </h3>
+    When your character's health is reduced to 0, they become Knocked Out (KO). While in the
+    Knocked Out status, all of your character's Evasion scores are reduced to 0 and you
+    cannot make actions or reactions.
+    <p>
+        Unless executed, finished off, or revived, your character will remain unconscious for the rest
+        of the battle.
+    </p>
+
+    <h3>
+        Death
+    </h3>
+    Once your health reaches negative-half its max score, your character is dead. Their spirit has departed
+    from their person and all biological functions have ceased to continue.
+    <p>
+        In accordance with the rule of <a href="#BattleTransience">Battle Transience</a>, if your character
+        dies before the battle is over and they don't have a revival coin, they remain dead after the battle.
+    </p>
+    <p>
+        If there was a revival coin on your person at the time of the battle's end, then the coin is destroyed
+        and your character comes back to life with an amount of health, determined by the quality of the coin.
+    </p>
+
+    <hr>
+    <h3>Return by Death</h3>
+    In the event of a permanent death or team kill, players can petition the DM invoke the rule of
+    Return by Death.
+    The entire escapade up to that moment is rescinded, returning the team back to their last
+    safe location (such as the town inn). The team find themselves wrapping up a discussion about
+    a hypothetical scenario in which one or more of them all die in battle.
+    Being disregarded as being highly unlikely, if not entirely impossible, the team laughs it off.
+    However, as they step away from the table to resume their adventure, each of them carries the
+    burdensome memory of that past life, the pain of watching their friends die,
+    and the sting of their own real death. They will never again be quite the same...
+    <hr>
+    Any battles the players have already proven themselves at can be won again at no cost to their coins.
+    This way, the players can easily return to their previous fights, or find a point to branch off from
+    and try from another direction.
+</div>
+<div class="Wide" id="SmallEncounters">
+    <h2>
+        Small Encounters
+    </h2>
+    Smaller, lower-stakes battles can be reduced to obstacle-like encounters that each combatant completed
+    by making a check against. These encounters offer rewards and penalties like any other battle, but with
+    one major twist: since they're part of narrative time, they are exempt from the rule of battle transience.
+    With small encounters taxing the party's resources, larger battles will become more significant.
+    <p>
+        A small encounter can be anything from a fight against a small group of monsters,
+        to overcoming a tall obstacle. Each are treated the same way and pose similar penalties for
+        failure.
+    </p>
+    <p>
+        The DM first presents the small encounter either as mandatory or as optional. In a mandatory
+        encounter, the obstacle has surprised the players and they <i>must</i> react; likewise, in an
+        optional encounter, the obstacle has been noticed first and the players have the ability to turn
+        around.
+    </p>
+    <p>
+        Some encounters may require materials or tools to be able to complete, such as in repairing a broken
+        bridge, or in swimming to the bottom of a lake. In the case of materials, before any checks are made,
+        the players must come together and provide the required materials. With mandatory tools, only players
+        with the proper tools can make the check.
+    </p>
+    <p>
+        Any players participating in tackling the encounter each make a check to overcome it. The difficulty
+        is determined by the DM by looking at the scale and potential threat of the encounter, then giving
+        it a score between 8 and 25. Obstacles with a difficulty below 8 should not be considered
+        serious obstacles, being too easy to overcome. Difficulties over 20 should be considered potentially
+        too difficult for players to overcome.
+    </p>
+    <h3>
+        Obstacles
+    </h3>
+    In the case of an obstacle, the DM prompts the players to make an efficiency check against the determined
+    difficulty score. Upon success, the players overcome the obstacle normally. Upon failure, the players
+    still pass the obstacle, but with a penalty such as time, resources, and potentially - a revival coin.
+    <p>
+        The DM can determine how well passing and failing turns out based on the below list.
+    </p>
+    <ul>
+        <li>
+            <b>Pass by 0 or higher</b>: General success; average time taken and no extra resources consumed.
+        </li>
+        <li>
+            <b>Pass by 6 or higher</b>: Great success; completed 50% faster than average with only 50% of
+            expected resources consumed.
+        </li>
+        <li>
+            <b>Pass by 12 or higher</b>: Amazing success; completed 100% faster than average with no resources
+            consumed.
+        </li>
+        <li>
+            <b>Fail by 0 or lower</b>: Adequate success; took a little longer than expected with no extra
+            resources consumed.
+        </li>
+        <li>
+            <b>Failure by 6 or lower</b>: Sloppy success; took 50% longer than expected and with 50% more
+            resources.
+        </li>
+        <li>
+            <b>Failure by 12 or lower</b>: Horrible success; took 100% longer than expected and with 100% more
+            resources.
+        </li>
+    </ul>
+    While anything might be considered a resource, there should generally be no penalty of focus, mana,
+    stamina, or health for passing the check. Instead, failure of the bare minimum should set the par
+    for what's at risk for your well-being, with each successive grade of failure increasing the penalty
+    by 50% and then 100%.
+    <p>
+        For example, if you would risk 10 points of your health for an adequate success, then a sloppy success
+        would penalize 15 points, and a horrible success would take 20.
+    </p>
+
+    <h3>
+        Battles
+    </h3>
+    Against a small battle, the DM first summarizes the challenge of the battle to the players as a single
+    difficulty score ranging between 8 and 25. Scores between 8 are considered too easy and that the players
+    will automatically win, while scores above 18 should be considered too hard and that the players will
+    most certainly lose.
+    <p>
+        Additionally, the DM should quickly summarize the threat of an encounter by how it might tax
+        their resources. Unlike in obstacles, even if you win, you will still take damage, and only by a
+        perfect success can you get off without penalty.
+    </p>
+    <p>
+        Since there are no fighting talents, the combatants improvise by creating Melee, Magic, and Skill
+        talents based on the base starting power values of their classes. For example: <i>A class's starting
+        Melee power might be 5, and therefore the Melee talent would also be 5.</i>
+    </p>
+    <p>
+        The players choose which of their talents they wish to use and then make the check. No matter what,
+        they'll succeed, but based on how well they rolled, the penalties and rewards may vary. Before the
+        fight, the players should be told about what damage they might suffer from a normal fight - what
+        how much mana, stamina, focus, health, and consumables they might expect to lose.
+    </p>
+    <ul>
+        <li>
+            <b>Pass by 0 or higher</b>: General success; 100% of the predicted resources are expended.
+        </li>
+        <li>
+            <b>Pass by 6 or higher</b>: Great success; 50% of the predicted resources are expended.
+        </li>
+        <li>
+            <b>Pass by 12 or higher</b>: Amazing success; 0% of the predicted resources are expended.
+        </li>
+        <li>
+            <b>Fail by 0 or lower</b>: Adequate success; 100% of the predicted resources are expended.
+        </li>
+        <li>
+            <b>Fail by 6 or lower</b>: Sloppy success; 200% of the predicted resources are expended.
+        </li>
+        <li>
+            <b>Fail by 12 or lower</b>: Horrible success; 400% of the predicted resources are expended.
+        </li>
+    </ul>
+    No matter how poorly everyone rolled, so long as at least one player is left alive, then it's considered
+    a victory. Anyone who died expends a revival coin (if they have one) and the adventure moves on.
+    <p>
+        Rewards are then given out for their success as if they had won the fight normally.
+    </p>
+</div>
+<div class="Wide" id="ExperienceAndRewards">
+    <h2>
+        Experience and Rewards
+    </h2>
+    At the end of a battle loot from slayed monsters is collected and experience is rewarded.
+    Each monster drops their own loot upon death, while each battle has its own loot just for winning. (Where
+    that loot comes from, no one knows!)
+    <p>
+        All experience is collected and then divided equally among the combatants (including the ones who died)
+        early on. Loot is presumably collected into a neat pile, at which the characters briefly sit around
+        and divide the spoils among themselves.
+    </p>
+    <p>
+        Many monsters may have the chance to drop a better spoil of loot. This is done with a luck check,
+        and on its monster sheet the chance will be marked with the score that must beaten. Upon beating
+        that score, you get the new, better loot drop instead of the other one.
+    </p>
+    <p>
+        After having killed multiple monsters, the DM decide how the loot drops are done.
+        There are a few ways, each of which can be fast and/or fun depending on the
+        circumstances. Whichever way is decided upon, they DM should stay consistent
+        throughout the rest of the game.
+    </p>
+
+    <ul>
+        <li>
+            Only one check is made as the check for every slain monster.
+        </li>
+        <li>
+            One check is made for every kind of monster.
+        </li>
+        <li>
+            Every monster gets its own check.
+        </li>
+        <li>
+            Each player rolls for the monsters they killed.
+        </li>
+        <li>
+            If the monster was killed by a critical hit, then it grants the
+            best drop of loot.
+        </li>
+        <li>
+            If a special objective (revealed to the party) was accomplished
+            by the time the battle was won, the best loot is dropped from
+            all monsters.
+        </li>
+    </ul>
+
+    <hr>
+    Not all campaigns utilize experience points, and that's perfectly okay. Instead, if the campaign is
+    utilizing milestones, then after each boss battle, each combatant gets to level-up.
+</div>
+</body>
+</html>
+
+
+<!--
+
+"what happens in combat stays in combat"
+how combat starts and ends
+rounds and turns
+	action points
+common actions
+	movement
+	attack
+	defend
+	destroy object
+	checks
+	execute
+Elements
+abilities
+death and defeat
+battles as obstacles
+experience
+
+
+ -->

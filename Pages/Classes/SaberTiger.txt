@@ -1,0 +1,89 @@
+Saber Tiger
+Subtitle Swift and Lethal
+
+Description
+Saber Tigers are expert assassins, trained in a variety of fighting methods ranging from
+the secret arts to the dark arts.
+    Stranger than mere killers, their methodology can be
+gruesome and quite possibly sickening, where at times it becomes hard to find respectable
+work. Factoring against that, with their reputation for success, Saber Tigers have become
+prime commission for crime lords and kings alike.
+
+VITALS
+Health: 30
+Mana: 15
+Stamina: 13
+Focus: 17
+
+SCORES
+Movement: 7sq
+Carry: 5u
+Element: Nature
+
+STATS
+Melee (Power: 4, Evasion: 12)
+Magic (Power: 4, Evasion: 10)
+Skill (Power: 6, Evasion: 9)
+
+ABILITIES
+Innate. Assassinate
+    Skill-Offensive-Action
+    Use: 10AP + 10Fcs + 5Sta
+    Range: 2{TL}
+    Leap through the air into the same square as your target.
+    Luck: 10
+    OnPass: Target takes damage equal to their remaining health.
+1. Leap
+    Skill-Support-Action
+    Use: 10AP.
+    Jump horizontally or vertically, up to your Movement, across.
+2. Dismember
+    Melee-Offensive-Action
+    Use: 10AP + 5Sta
+    Range: 1sq
+    Accuracy: Melee
+    OnPass: Choose to disable either your opponent's primary or secondary attacks (the primary or secondary weapon are also dropped.)
+3. Lick Wounds
+    Melee-Supportive-Action
+    Use: 10AP
+    Range: 1sq
+    Restore 3{TL} health to yourself or your target.
+4. Bloody Feast
+    Melee-Supportive-Passive
+    Use: 5AP
+    Attacking a KO'd target restores health equal to half the damage inflicted.
+5. Tactical Retreat
+    Melee-Supportive-Reaction
+    Use: 3sta
+    Trigger: An ally takes damage.
+    Range: TL{1sq}
+    Make a free movement action and take a nearby ally within range with you by your side.
+6. Conjure Strike Point
+    Magic-Defensive-Action
+    Use: 30AP
+    Range: 1sq
+    Create a Strike Point prop that is shaped like a leafy-green bush.
+    While standing in the same square as the prop, your Skill evasion gains +5.
+7. Sharpen Edge
+    Skill-Support-Action
+    Cost: 31-{TL}AP
+    Increase your critical multiplier by 1.
+8. Fearsome Roar
+    Skill-Offensive-Action
+    Cost: 10AP
+    Range: All enemies within 3{TL} of you.
+    Accuracy: Skill
+    OnPass: Reduce the target's Magic evasion by 3.
+9. Conjure Assassin's Blade
+    Magic-Support-Action
+    Use: 5Mna
+    Range: CL{1}sq
+    Add an Assassin's Blade into yours or an ally's inventories.
+    Assassin's Blade (1H-VL, Pwr: 1 Metal, Rng: 0sq, Crit: dmg 3x, Sever 5{CL})
+10. Vanish
+    Magic-Defensive-Reaction
+    Trigger: You are attacked.
+    Use: 8Mna
+    Luck: 10-1{CL} (Min 5)
+    You vanish into thin air and end your turn. On your next turn you reappear at your choice of location anywhere
+    on the battlefield.
