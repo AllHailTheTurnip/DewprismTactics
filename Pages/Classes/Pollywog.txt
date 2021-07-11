@@ -1,80 +1,80 @@
-Pollywog
-Mobile and Adaptable
+Title: Pollywog|
+Subtitle: Mobile and Adaptable|
 
-Description
+Description:
 A survivalist found among the harshest environments on the planet. Unfettered by neither land or sea,
-    they tend to travel the world from one land to the next, putting their well-earned wisdom to good use
-    with one odd job after the next.
-    In art and song they've been depicted as eternal travelers, under a sacred oath to live without
+    <p>they tend to travel the world from one land to the next, putting their well-earned wisdom to good use
+    with one odd job after the next.</p>
+    <p>In art and song they've been depicted as eternal travelers, under a sacred oath to live without
 worldly attachments and physical possessions. While in this respect it is closer to a matter of
 culture, no one can deny that culture of skills that are passed on and nurtured into each
-generation of Wanderer has, to some degree, made them ideal for traveling the world.
+generation of Wanderer has, to some degree, made them ideal for traveling the world.</p>|
 
 
 VITALS
-Health 35
-Mana 17
-Stamina 12
-Focus 15
+Health: 35|
+Mana: 17|
+Stamina: 12|
+Focus: 15|
 
 SCORES
-Movement 4sq
-Carry 7u
-Element Water
+Movement: 4sq|
+Carry: 7u|
+Element: Water|
 
 STATS
-Melee (Power: 4, Evasion: 10)
-Magic (Power: 5, Evasion: 9)
-Skill (Power: 3, Evasion: 9)
+Melee: (Power: 4, Evasion: 10)|
+Magic: (Power: 5, Evasion: 9)|
+Skill: (Power: 3, Evasion: 9)|
 
 ABILITIES
-Innate. Elemental Adaptation
+Innate: Elemental Adaptation
     Magic-Support-Action
     Use: 5AP
-    Change your base element to any of the core elements.
-1. Hover
+    Change your base element to any of the core elements.|
+A1: Hover
     Skill-Support-Passive
-    Your movement is unaffected by difficult or dangerous terrain, even while swimming.
-2. Quick Slap
+    Your movement is unaffected by difficult or dangerous terrain, even while swimming.|
+A2: Quick Slap
     Melee-Offensive-Action
     Use: 7AP
-    Make an unarmed water attack.
-3. Chomp
+    Make an unarmed water attack.|
+A3: Chomp
     Melee-Offensive-Action
     Cost: 12AP
     Range: Adjacent
-    Enemy takes 1{Mle} neutral damage.
-4. Forge Spawn
+    Enemy takes 1{Mle} neutral damage.|
+A4: Forge Spawn
     Skill-Support-Action
     Cost: 5Foc
     Place a Puddle prop at your feet. The Puddle contains 2 Egg tokens.
-    Upon your death, an egg hatches and you respawn at the Puddle.
-5. Water Gun
+    Upon your death, an egg hatches and you respawn at the Puddle.|
+A5: Water Gun
     Skill-Offensive-Action
     Cost 10AP + 3Foc
     Range: 5sq
     Accuracy: Melee
-    OnPass: Target takes 3{Skl}+3 water dmg.
-6. Follow
+    OnPass: Target takes 3{Skl}+3 water dmg.|
+A6: Follow
     Melee-Support-Reaction
     Trigger: An ally makes a movement action.
     Cost: 2 Sta
-    Make a free movement action to follow in their direction.
-7. Hide
+    Make a free movement action to follow in their direction.|
+A7: Hide
     Melee-Defensive-Reaction
     Trigger: A combatant's turn begins.
     Cost: 5 Sta
-    You may gain Stealth status and make a free movement action.
-8. Nurture
+    You may gain Stealth status and make a free movement action.|
+A8: Nurture
     Magic-Support-Action
     Cost: 10AP
     Range: Adjacent
-    Restore 2{Mgc} Health to an ally.
-9. Regroup
+    Restore 2{Mgc} Health to an ally.|
+A9: Regroup
     Magic-Support-Action
     Cost: 5 Mna
-    Choose an ally to be given a Regroup token. The user of the token may destroy the token and teleport beside the token's donor.
-10. Gang-up
+    Choose an ally to be given a Regroup token. The user of the token may destroy the token and teleport beside the token's donor.|
+A10: Gang-up
     Magic-Support-Action
     Cost: 4 Mna
-    All allies on the battlefield are pulled 3+{CL}sq towards you.
+    All allies on the battlefield are pulled 3+{CL}sq towards you.|
