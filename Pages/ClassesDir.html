@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Dewprism Tactics - Classes</title>
     <link rel="stylesheet" href="../Resources/GeneralStyle.css">
-    <script src="../Resources/MonsterLoader.js"></script>
+    <script src="../Resources/TextAttributeLoader.js"></script>
     <style>
         div {
             display: inline-block;
@@ -21,7 +21,6 @@
             width: 48%;
             margin-right: 1%;
             float: right;
-            display: none;
         }
 
         ol {
@@ -34,7 +33,7 @@
 <a href="../index.html" class="Menu">Return to Index</a>
 <h1>Classes</h1>
 <!-- Note: Replace with previous class when I get a server. -->
-<div class="Wide">
+<div class="Classes">
     <p>Below is a comprehensive list of playable classes for Dewprism Tactics.</p>
     <h3>In Progress...</h3>
     <ul>
@@ -48,13 +47,13 @@
     <h2>Monster-inspired Classes</h2>
     <ul>
         <li>
-            <a href="#" onclick="OpenFileByName('../Pages/Classes/Pollywog.txt')">Pollywog</a>
+            <a href="#" onclick="LoadClass('../Pages/Classes/Pollywog.txt')">Pollywog</a>
         </li>
         <li>
             Mandola
         </li>
         <li>
-            <a href="#" onclick="OpenFileByName('../Pages/Classes/SaberTiger.txt')">Saber Tiger</a>
+            <a href="#" onclick="LoadClass('../Pages/Classes/SaberTiger.txt')">Saber Tiger</a>
         </li>
         <li>
             Stinger
@@ -130,7 +129,7 @@
             Nightmare
         </li>
         <li>
-            <a href="#" onclick="OpenFileByName('../Pages/Classes/SkullBeast.txt')">Skull Beast</a>
+            <a href="#" onclick="LoadClass('../Pages/Classes/SkullBeast.txt')">Skull Beast</a>
         </li>
         <li>
             Shadow Legend Duke
@@ -191,37 +190,37 @@
     <h2>Humanoid-inspired Classes</h2>
     <ul>
         <li>
-            <a href="#" onclick="OpenFileByName('../Pages/Classes/Rue.txt')">Rue</a>
+            <a href="#" onclick="LoadClass('../Pages/Classes/Rue.txt')">Rue</a>
         </li>
         <li>
-            <a href="#" onclick="OpenFileByName('../Pages/Classes/Mint.txt')">Mint</a>
+            <a href="#" onclick="LoadClass('../Pages/Classes/Mint.txt')">Mint</a>
         </li>
         <li>Rod the Bladestar</li>
     </ul>
 </div>
 <div class="Template" id="Template">
-    <h1 id="!Title" style="text-align: center"></h1>
-    <h2 id="!Subtitle" style="text-align: center"></h2>
-    <span id="!Description">
+    <h1 id="Title" style="text-align: center"></h1>
+    <h2 id="Subtitle" style="text-align: center"></h2>
+    <span id="Description">
 
     </span>
     <br>
 
     <h2>Vitals</h2>
-    <b>Health: </b><span id="!Health"></span><br>
-    <b>Stamina: </b><span id="!Stamina"></span><br>
-    <b>Mana: </b><span id="!Mana"></span><br>
-    <b>Focus: </b><span id="!Focus"></span><br>
+    <b>Health: </b><span id="Health"></span><br>
+    <b>Stamina: </b><span id="Stamina"></span><br>
+    <b>Mana: </b><span id="Mana"></span><br>
+    <b>Focus: </b><span id="Focus"></span><br>
 
     <h2>Scores</h2>
-    <b>Movement: </b><span id="!Movement"></span><br>
-    <b>Carry: </b><span id="!Carry"></span><br>
-    <b>Element: </b><span id="!Element"></span><br>
+    <b>Movement: </b><span id="Movement"></span><br>
+    <b>Carry: </b><span id="Carry"></span><br>
+    <b>Element: </b><span id="Element"></span><br>
 
     <h2>Stats</h2>
-    <b>Melee: </b><span id="!Melee"></span><br>
-    <b>Magic: </b><span id="!Magic"></span><br>
-    <b>Skill: </b><span id="!Skill"></span><br>
+    <b>Melee: </b><span id="Melee"></span><br>
+    <b>Magic: </b><span id="Magic"></span><br>
+    <b>Skill: </b><span id="Skill"></span><br>
 
     <h2>Abilities</h2>
     Innate. <span id="Innate"></span>
