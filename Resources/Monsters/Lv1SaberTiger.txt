@@ -1,52 +1,52 @@
-Name: Saber Tiger
+Name: Saber Tiger|
 
 Biography
 Description: A feline predator with sharp teeth and a grey coat covered with black spots. It's most commonly found
-in savannas but in recent years started migrating to the wet lands, upsetting the food chain as the new apex predator.
-PrimaryClass: Saber Tiger
-Code: Instinctive Leader OR Hunter OR Assassin
-Level: 1
+in savannas but in recent years started migrating to the wet lands, upsetting the food chain as the new apex predator.|
+PrimaryClass: Saber Tiger|
+Code: Instinctive Leader OR Hunter OR Assassin|
+Level: 1|
 Appearance: A large feline with a grey coat, sharp teeth, yellow-eyes, a long tail dipped in black, and a grey coat
-spotted with black.
+spotted with black.|
 Behavior: Largely unchallenged in its environment, it has learned to instinctively fear humanoids. However, once its
 territory has been invaded, it will on the offensive. Rather than outright attack, it will pounce upon its prey, going
-for the neck if possible.
+for the neck if possible.|
 
 
 Vitals
-Health: 30
-Mana: 15
-Stamina: 13
-Focus: 17
+Health: 30|
+Mana: 15|
+Stamina: 13|
+Focus: 17|
 
 Scores
-Element: Nature
-Movement: 7sq
-Carry: 5u
-PrimaryDamage: 18 (Teeth)
-SecondaryDamage: 18 (Claws)
+Element: Nature|
+Movement: 7sq|
+Carry: 5u|
+PrimaryDamage: 18 (Teeth)|
+SecondaryDamage: 18 (Claws)|
 
 Stats
-Melee (Power: 4, Evasion: 12)
-Magic (Power: 4, Evasion: 10)
-Skill (Power: 6, Evasion: 9)
+Melee: (Power: 4, Evasion: 12)|
+Magic: (Power: 4, Evasion: 10)|
+Skill: (Power: 6, Evasion: 9)|
 
 Talents
-Craft: -1
-Harvest: 0
-Scholar: 1
-Navigate: 4
-Acrobatic: 5
-Entertain: 0
+Craft: -1|
+Harvest: 0|
+Scholar: 1|
+Navigate: 4|
+Acrobatic: 5|
+Entertain: 0|
 
 Equipment
-PrimaryWeapon: Teeth (Skill, M, 1u, Use:  10AP, Pwr:  3 neutral, Sever)
-SecondaryWeapon: Claws (Skill, M, 1u, Use:  10AP, Pwr:  3 metal, Artisan)
-Tools: Padded Feet (+4 to Stealth-based talent checks)
-Consumables: None
+PrimaryWeapon: Teeth (Skill, M, 1u, Use:  10AP, Pwr:  3 neutral, Sever)|
+SecondaryWeapon: Claws (Skill, M, 1u, Use:  10AP, Pwr:  3 metal, Artisan)|
+Tools: Padded Feet (+4 to Stealth-based talent checks)|
+Consumables: None|
 
 Loot
-Experience: 100
-Gil: 25
+Experience: 100|
+Gil: 25|
 Loot: Saber Tooth (Material:  Mineral, Value:  25gil)
-Luck > 15:  Saber Tiger Pelt (Material:  Fabric, value:  100)
+Luck > 15:  Saber Tiger Pelt (Material:  Fabric, value:  100)|

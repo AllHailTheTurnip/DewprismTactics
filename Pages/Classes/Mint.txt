@@ -1,90 +1,92 @@
-Mint
-Brilliant Magician
+Title: Mint|
+Subtitle: Brilliant Magician|
 
-Description
+Description:
 Highly skilled magic users that can actively re-engineer their spells on the fly to suit their every situation.
 Their title, Mint, is a vestige to their first days as high-price mercenaries that would cost the buyer "a mint" to
 command. Though many Mints today are self-employed and aren't making small fortunes with every gig, their legendary
 arcane prowess remains.
-    Mints come from anywhere and can be found all around, most often out searching for treasure and glory.
-    They'll be acting on someone's behalf as often as they aren't.
+    <p>Mints come from anywhere and can be found all around, most often out searching for treasure and glory.
+    They'll be acting on someone's behalf as often as they aren't.</p>|
 
 
 VITALS
-Health 30
-Mana 25
-Stamina 15
-Focus 10
+Health: 30|
+Mana: 25|
+Stamina: 15|
+Focus: 10|
 
 SCORES
-Movement 4sq
-Carry 7u
-Element Noble
+Movement: 4sq|
+Carry: 7u|
+Element: Noble|
 
 STATS
-Melee (Power: 5, Evasion: 8)
-Magic (Power: 6, Evasion: 8)
-Skill (Power: 4, Evasion: 8)
+Melee: (Power: 5, Evasion: 8)|
+Magic: (Power: 6, Evasion: 8)|
+Skill: (Power: 4, Evasion: 8)|
 
 ABILITIES
-Innate. Switch Magic Element
+Innate: Switch Magic Element
     Magic-Support-Action
     Use: 2fcs
     Change the listed element(s) of your magic-type ability to either fire, water, or nature.
     At level 5, you may include metal and electric to choose from.
     At level 10, you may include light and dark to choose from.
-    At level 15, you may include noble and neutral to choose from.
-1. Switch Magic Shape
+    At level 15, you may include noble and neutral to choose from.|
+A1: Switch Magic Shape
     Magic-Support-Action
     Use: 10AP
-    Set the range of your magic-type ability to either cone, circle, or double-ranged beam.
-2. Flying Kick
+    Set the range of your magic-type ability to either cone, circle, or double-ranged beam.|
+A2: Flying Kick
     Melee-Offensive-Action
     Use: 10AP
     Range: 5sq
     Increase your critical-success range by 5 and your critical-failure range by 5 until the end of your turn.
     Choose a target within range and leap through the air into their square, making a free attack action
-    when you arrive.
-3. Scheme
+    when you arrive.|
+A3: Scheme
     Skill-Support-Action
     Use: 30AP + 5fcs
     Create a Scheme counter (3) and grant it to yourself or an ally.
-    Scheme counter: 1+{TL}/3 bonus to all the holder's Talent and Accuracy checks for the next (X) turns.
-4. Magic Burst
+    Scheme counter: 1+{TL}/3 bonus to all the holder's Talent and Accuracy checks for the next (X) turns.|
+A4: Magic Burst
     Magic-Offensive-Action
     Use: 5Mna
     Accuracy: Magic
     Range: 3sq Cone
-    OnHit: Target takes 3{Mgc} neutral damage.
-5. Spur Power
+    OnHit: Target takes 3{Mgc} neutral damage.|
+A5: Spur Power
     Melee-Support-Reaction
     Trigger: A melee attack hits.
-    Restore TL Mana.
-6. Switch Magic Mode
+    Restore TL Mana.|
+A6: Switch Magic Mode
     Magic-Support-Action
     Use: 10AP + 3fcs
-    Change a magic-type action to target allies and restore instead of damage Health, or the reverse.
-7. Fireball
+    Change a magic-type action to target allies and restore instead of damage Health, or the reverse.|
+A7: Fireball
     Magic-Offensive-Action
     Use: 10AP + 3mna
     Range: 5sq
     Accuracy: Melee
-    OnHit: Target takes 3{Mgc} fire damage. On critical, target catches fire (Burning 1{TL}).
-8. Acquire Magic
+    OnHit: Target takes 3{Mgc} fire damage. On critical, target catches fire (Burning 1{TL}).|
+A8: Acquire Magic
     Magic-Support-Action
     Use: 10AP + 5fcs
-    While over a KO'd or dead combatant, choose one of their Magic-type abilities to add to your abilities list.
-9. Create Ice Wall
+    While over a KO'd or dead combatant, choose one of their Magic-type abilities to add to your abilities list.|
+A9: Create Ice Wall
     Magic-Defensive-Action
     Use: 10AP + (1-5mna as X)
     Range: 5sq
     Create X Ice Block obstacles.
-    Tree obstacle: 1sq cube of ice. 10{Mgc} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.
-10. Ward Danger
+    Tree obstacle: 1sq cube of ice. 10{Mgc} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
+A10: Ward Danger
     Magic-Defensive-Action
     Use: 5AP + 5mna
     Range: 5sq
     Create a Ward marker and grant it to yourself or an ally within range (max 1/combatant).
-    Ward marker: while marked, +5 to Magic Evasion.
+    Ward marker: while marked, +5 to Magic Evasion.|
 
-Master Ability: World Domination
+MA1: World Domination|
+MA2:|
+MA3:|
