@@ -44,11 +44,12 @@ A3: Chomp
     Cost: 12AP
     Range: Adjacent
     Enemy takes 1{Mle} neutral damage.|
-A4: Forge Spawn
+A4: Lay Egg
     Skill-Support-Action
     Cost: 5Foc
-    Place a Puddle prop at your feet. The Puddle contains 2 Egg tokens.
-    Upon your death, an egg hatches and you respawn at the Puddle.|
+    Place an Egg prop at your feet.
+    Upon your death, the egg hatches and you respawn at the Puddle - all your Vital scores and status effects
+    are restored to their battle-start states.|
 A5: Water Gun
     Skill-Offensive-Action
     Cost 10AP + 3Foc
