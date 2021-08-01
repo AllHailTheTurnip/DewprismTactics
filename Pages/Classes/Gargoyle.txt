@@ -1,31 +1,105 @@
-Description
-???
+flight
+AoE
+turn to stone
+Weak base stats, but good abilities
+
+Title: Gargoyle|
+Subtitle: Winged Warrior|
+Description: The first Gargoyles warriors were thralls of their gargoyle masters, victims of dark magic that twisted
+their minds and bodies. With the demise of their masters, the Gargoyle warriors were set free, and while nearly
+all of them lost their dark powers after that, a few noticed that the changes were permanent.
+    In the new world, Gargoyles are regarded as strange and fearsome, with harsh skin like stone, fold-out wings
+that carry them through the air, and a cry like a storm of knives. It's a wonder why they aren't sought after more.
+    Today, you can find Gargoyles as vagabonds - strangers - in a world that doesn't quite know what to do with them.|
 
 VITALS
-Health 45
-Mana 15
-Stamina 15
-Focus 15
+Health: 45
+Mana: 22|
+Stamina: 13|
+Focus: 8|
 
 SCORES
-Movement 4sq
-Carry 10u
-Element Neutral
+Movement: 4sq|
+Carry: 10u|
+Element: Dark|
 
 STATS
-Melee Power: 5, Evasion: 10
-Magic Power: 5, Evasion: 10
-Skill Power: 5, Evasion: 10
+Melee: (Power: 4, Evasion: 8)|
+Magic: (Power: 5, Evasion: 9)|
+Skill: (Power: 4, Evasion: 7)|
 
 Abilities
-Innate.
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+Innate: Stone Wings
+Magic-Support-Passive
+While conscious, you are uninhibited by gravity and can thus move vertically up to 3{Melee/5}sq into the air.
+In addition, you are unaffected by difficult terrain and its hazards.|
+
+A1:Sonic Screech
+Magic-Offensive-Action
+Use: 10AP + 4mna!
+Range: 3sq+{Magic/5} cone (includes allies)
+Accuracy: Magic
+OnPass: Target takes 3{Magic} wind damage.|
+
+A2:Stone Skin
+Magic-Defensive-Passive
+Reduce taken damage by 1{Melee} to a minimum of 1.|
+
+A3:Curse with Weakness
+Magic-Offensive-Action
+Use: 12AP + 3mna
+Range: 3sq+TL
+Luck: 15
+OnPass: Targeted enemy is now weak to the element of your choice (excluding neutral).|
+
+A4:Curse of Doom
+Magic-Offensive-Action
+Use: 10AP-7mna
+Range: 1sq + {Melee/5}
+Luck: 17
+OnPass: Target gets Doomed 3.|
+
+A5:Seal Magic
+Magic-Offensive-Action
+Use: 15AP
+Range: 1sq+{Magic/5} LoS
+Accuracy: Magic
+OnPass: Target becomes Dispirited 3|
+
+A6:Bad Omen
+Magic-Offensive-Action
+Use: 10AP
+Range: 5sq instant
+Accuracy: Magic
+OnPass: Target's Luck checks get -2.|
+
+A7:Ward Against Danger
+Magic-Defensive-Reaction
+Trigger: An allie within 3sq is targeted by an enemy.
+Use: Xmna
+Effect: Targeted allie gets +X/3 to their Evasion scores until the end of the action.|
+
+A8: Eagle Eye
+Skill-Support-Passive
+Increase the range of your LoS abilities by your current elevation score. |
+
+A9: Petrify
+Magic-Offensive-Action
+Use: 10AP + 10mna
+Range: 2sq
+Accuracy: Magic
+Roll twice for this ability.
+Subtract 5+{TL}AP from their next turn for every passed check.|
+
+A10: Rip and Tear
+Melee-Offensive-Action
+Use: 12AP
+Range: Melee
+Accuracy: Melee
+Roll 1+{TL/5} times for this ability.
+Target takes 1{Melee} damage
+Target is now bleeding.|
+
+MA1: Perfect Petrification|
+MA2: Ascension|
+MA3: Universal Cry|

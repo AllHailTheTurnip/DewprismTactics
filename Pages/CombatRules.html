@@ -59,6 +59,154 @@
         </li>
     </ul>
 </div>
+<div id="TurnsAndActions" class="Wide">
+    <h2>
+        Turns and Actions
+    </h2>
+    Combat begins when one party instigates a fight with another party. This happens either when one or more
+    combatants realize that a fight is about to start and choose to take the initiative, or when they're attacked.
+    <p>
+        In the case of being attacked, as soon as the attack action is resolved, initiative is rolled. Otherwise,
+        when reacting to a threat, you just roll initiative.
+    </p>
+    <p>
+        Combat ultimately ends when there are no more combatants left to carry on the fight, either on your
+        side or the enemy's side. Combatants can be neutralized either by leaving the battlefield (fleeing), by
+        being killed, or by being otherwise incapable of fighting.
+    </p>
+    <p>
+        Once the battle ends, XP and loot is given out to the players in exchange for the creatures they helped
+        defeat.
+    </p>
+
+    <h3>
+        Targeting
+    </h3>
+    Many actions and abilities require you to target another combatant. There is a variety of ways
+    with which you can target an opponent. Each way is different, in that it has its own limits.
+    <ul>
+        <li>
+            <b>Melee</b><br>
+            An attack against an adjacent target - adjacent meaning that the target is to your
+            left, right, in font, or back square.<br>
+            Often weapons with an enhanced range will also allow you to aim diagonally.
+        </li>
+        <li>
+            <b>Line of Sight (LoS)</b><br>
+            The attack travels up to its range specification and will damage the first target it comes
+            across.<br>
+            It cannot skip combatants or travel through walls.
+        </li>
+        <li>
+            <b>AoE</b><br>
+            The attack has a shape (cone, beam, or sphere) and targets every combatant within its range.
+        </li>
+        <li>
+            <b>Instant</b><br>
+            The attack has a range but ignores walls and combatants standing between you and your target.
+        </li>
+    </ul>
+    Unless specified, if an ability only has range specified, assume it's a projectile. If it has neither
+    range nor targeting parameter, assume it's melee. Finally, if the ability itself has no range attribute,
+    then the effect is universal - meaning it is uninhibited by range.
+
+    <h3>
+        Initiative
+    </h3>
+    At the beginning of combat, each combatant draws their weapons and readies to fight. Everyone rolls
+    1d20 and the value is recorded for the DM to use. Whoever got the higher roll goes first.
+    <p>
+        If two or more combatants get the same score, then they roll again, marking their score with an A or B to
+        indicate who goes first.
+    </p>
+    <p>
+        In addition to the combatants, an initiative labeled "COUNTERS" is created. COUNTERS is granted an initiative
+        score of 99, always going first. There is no COUNTERS combatant, and is used solely to help players remember
+        when to update their counters and other start-of-round effects.
+    </p>
+    <h4>
+        Surprise Attacks
+    </h4>
+    If a combatant (or the party) was caught off guard as combat began - such that none of them were
+    expecting a fight to happen at that very moment - they roll as normal, but their weapon is not drawn.
+
+
+    <h3>
+        Turns and Rounds
+    </h3>
+    Battle is measured in turns and rounds. Once per round each player takes their turn, starting
+    from highest to lowest. A turn (in-game) typically lasts 5 seconds. Once all players have taken their turns,
+    the round ends and a new one begins.
+    <p>
+        When it's a player's turn, they first update any counters/timed effects that are on their person.
+        Any extra effects, such as poison, gradual healing, or burn, are then applied. Finally,
+        they are granted 20 Action Points (AP) with which to spend on actions. Common
+        actions and abilities all use AP.
+    </p>
+
+    <h3>
+        Using Actions and Abilities
+    </h3>
+    Actions and abilities are seldom free and must be paid for with AP and/or vital resources.<br>
+    <p>
+        All basic actions require an amount of AP, while almost all abilities require AP and an amount
+        of stamina, mana, and focus. While you're able to spend an excess of AP and be stuck charging,
+        you cannot spend more of a vital resource (mana, stamina, focus) than what you have, and if you
+        don't have enough, then the ability can't be used.
+    </p>
+    <p>
+        Subtract the required resources from your character as indicated by Use attribute. Resources
+        such as AP, Stamina, Mana, and Focus, may be listed there. If no AP is listed, then the score does
+        not cost AP to use.
+    </p>
+    <p>
+        Some abilities, as part of their Use attribute, can only be invoked a limited amount of times
+        per battle. This is listed as X/battle or X/Round, where X is most often 1 or 3.
+        Even if you have enough resources to invoke the ability, if you've used it too many
+        times, you cannot use it again.
+    </p>
+    <p>
+        Though not as common, some abilities that spawn objects like weapons, potion, and buildings,
+        will require an amount of materials to build. Like spending vitals and AP, you'll spend
+        the listed materials as part of the Use condition.
+    </p>
+    <p>
+        Every once in a while, you may see the variable X in the use cost, such as with XAP or Xsta.<br>
+        This means that you spend as much of the resources as you want, in affect setting the value
+        of other X's in the ability.
+    </p>
+
+    <h4>
+        Status Effects
+    </h4>
+    Status effects are temporary modifiers that most often hinder your performance. It might be that
+    you're bleeding and will soon pass out, or that maybe you've been blessed with great accuracy.
+    <p>
+        When you get a status effect, you can only have it once and must wait until it has worn off
+        or is removed for you to take the status effect again. This also means that status effects
+        cannot stack effects.
+    </p>
+
+    <h3>
+        Charging Actions
+    </h3>
+    You cannot make an action if you can't offer enough AP - however, you can choose to <b>charge</b> it instead.
+    In charging an action, you spend any remaining AP on the action and remain in place while you wait for more AP
+    from your next turn. While charging, you cannot
+    make reactions or actions, and all of your Evasion scores are reduced to 0.
+    <p>
+        When your next turn comes around
+        and you are granted more AP, the amount is automatically spent on your charged action. Once the action is fully
+        paid for, the action is finally made.
+    </p>
+    <h4>
+        Pay by Burn
+    </h4>
+    Some AP costs have an exclamation mark (!) attached, meaning that the ability can be burned.
+    If you don't have the AP but still have the Stamina, Mana, and/or Focus, you may execute the ability immediately,
+    driving your AP into the negatives. Afterwards you're in cooldown, where the normal rules of charging are in affect
+    until your AP is above 0 again. This cannot be canceled.
+</div>
 <div class="Wide">
     <h2 id="BattleTransience">
         Battle Transience
@@ -132,72 +280,6 @@
         </li>
     </ul>
 </div>
-<div id="TurnsAndActions" class="Wide">
-    <h2>
-        Turns and Actions
-    </h2>
-    Combat begins when one party instigates a fight with another party. This happens either when one or more
-    combatants realize that a fight is about to start and choose to take the initiative, or when they're attacked.
-    <p>
-        In the case of being attacked, as soon as the attack action is resolved, initiative is rolled. Otherwise,
-        when reacting to a threat, you just roll initiative.
-    </p>
-    <p>
-        Combat ultimately ends when there are no more combatants left to carry on the fight, either on your
-        side or the enemy's side. Combatants can be neutralized either by leaving the battlefield (fleeing), by
-        being killed, or by being otherwise incapable of fighting.
-    </p>
-    <p>
-        Once the battle ends, XP and loot is given out to the players in exchange for the creatures they helped
-        defeat.
-    </p>
-
-    <h3>
-        Initiative
-    </h3>
-    At the beginning of combat, each combatant rolls 1d20 and the value is recorded for the DM to use. Whoever
-    got the higher roll goes first.
-    <p>
-        If two or more combatants get the same score, then they roll again, marking their score with an A or B to
-        indicate who goes first.
-    </p>
-    <p>
-        In addition to the combatants, an initiative labeled "COUNTERS" is created. COUNTERS is granted an initiative
-        score of 99, always going first. There is no COUNTERS combatant, and is used solely to help players remember
-        when to update their counters and other start-of-round effects.
-    </p>
-
-    <h3>
-        Turns and Rounds
-    </h3>
-    Battle is measured in turns and rounds. Once per round each player takes their turn, starting
-    from highest to lowest. A turn (in-game) typically lasts 5 seconds. Once all players have taken their turns,
-    the round ends and a new one begins.
-    <p>
-        When it's a player's turn, they first update any counters/timed effects that are on their person.
-        Any extra effects, such as poison, gradual healing, or burn, are then applied. Finally,
-        they are granted 20 Action Points (AP) with which to spend on actions. Common
-        actions and abilities all use AP.
-    </p>
-    <h3>
-        Charging Actions
-    </h3>
-    You cannot make an action if you can't offer enough AP - however, you can choose to <b>charge</b> it instead.
-    In charging an action, you spend any remaining AP on the action and remain in place while you wait for more AP
-    from your next turn. While charging, you cannot
-    make reactions or actions, and all of your Evasion scores are reduced to 0.
-    <p>
-        When your next turn comes around
-        and you are granted more AP, the amount is automatically spent on your charged action. Once the action is fully
-        paid for, the action is finally made.
-    </p>
-    <p>
-        Some AP costs have an exclamation mark (!) attached, meaning that the ability can be burned.
-        As an option, you may execute the ability immediately and then charge for it later. While charging after burning
-        an ability, normal rules of reduced evasion score and inaction are still in effect. However,
-        unlike normal abilities, this one cannot be canceled - you must wait until your AP is above 0.
-    </p>
-</div>
 <div class="Wide" id="CommonActions">
     <h2>
         Common Actions
@@ -219,8 +301,13 @@
     Move left, right, forward, or backward into an adjacent square. You may do this up to as many times as your
     Movement score allows.
     <br><sub>Moving diagonally counts as two squares.</sub><br>
+
+    <h4>Hop</h4>
+    To help you close the gap between yourself a nearby opponent, you may move an additional 1sq,
+    but you cannot make another Movement action for the rest of the turn.
+
     <h4>
-        Leaping
+        Leap
     </h4>
     You may leap across a 1sq chasm so long as you have enough movement left to make the distance,
     and you're not already leaping from difficult terrain.
@@ -228,14 +315,21 @@
     <h4>
         Difficult Terrain
     </h4>
-    While moving into or through terrain that is so bumpy and cluttered that it inhibits your movement,
-    it costs 2sq to move 1sq.
+    While moving into or through terrain that is horribly bumpy and cluttered,
+    your movement is inhibited and it costs 2sq to move 1sq.<br>
+    Additionally, KO'd and dead opponents count as difficult terrain.
+
+    <h4>Occupied terrain</h4>
+    You cannot end your movement in a square that is already occupied by an opponent.
+    There isn't enough room to move, so your Evasion scores will be reduced to 0.
+
     <h4>
         Bottomless Pits
     </h4>
     If you fall into a bottomless pit, fear not! for you only take a quarter of your max health
     in damage, and if you survive, you'll return to the battlefield at your starting
     position on your next turn.
+    <br><sub>Lava counts as a bottomless pit.</sub><br>
 
     <h4>
         Climbing and Steps
@@ -247,6 +341,10 @@
     You cannot freely traverse blocks with a height-difference of 1 or greater, but must make an Acrobatics talent
     check, beating 10 to pass. For every 1 unit of height in difference, add another 5 to the difficulty.
 
+    <h4>Fall Damage</h4>
+    If you are pushed off a ledge and into the air, you'll fall to the ground and take neutral damage
+    equal to 3 X however many squares you fell. You do not take fall damage for falling less than 1sq.
+
     <h4>
         Swimming
     </h4>
@@ -257,7 +355,7 @@
     <h3>
         Basic Attack
     </h3>
-    AP Cost: 10 <br>
+    AP Cost: [see weapon AP cost] <br>
     Declare who you are attacking and which weapon you'll be using to do it.
     You may attack any combatant that is in an adjacent or same square.<br>
     First, make a hit check and compare against your opponent's melee evasion score. If the result
@@ -284,16 +382,35 @@
         Additionally, if the target is adjacent to you in another or same square, you can make
         a melee attack at it, treating the weapon's Pwr score as 1 instead.
     </p>
+    <h4>
+        The Highground
+    </h4>
+    Your attack checks gain +2 for every 1 square of elevation you have over an opponent.<br>
+    You cannot make non-ranged attack against a combatant that is more than 1 square above or below you.
+
     <hr>
     <h3>
-        Defend with Shield
+        Defending with Shield
     </h3>
     AP Cost: 10<br>
     Declare that you are defending and which shield you'll be using. Add the shield's Protection
     to your Health until the start of your next turn.<br>
     The shield's protection score is not damaged by defending - only the bonus health.
-
+    <h3>
+        Guarding
+    </h3>
+    AP Cost: 10<br>
+    Declare that you are guarding and then temporarily increase your Health by your Melee Power
+    until the start of your next turn. This health is stacked on top of your normal health and takes
+    damage first.
     <hr>
+
+    <h3>
+        Unarmed Attacks
+    </h3>
+    Your kicks and punches also count as weapons with a power level equal to 1. They are non-lethal
+    and you cannot reduce an opponent's health below 0 with them.
+
     <h3>
         Use Equipment
     </h3>
@@ -302,7 +419,7 @@
     and how you wish to use it. By this action you can:
     <ul>
         <li>
-            Swap, equip, store one of your weapons,
+            Swap, draw, equip, store one of your weapons,
         </li>
         <li>
             Consume a consumable item, or,
@@ -332,6 +449,17 @@
     pillars, and stairs.
 
     <hr>
+
+    <h3>
+        Withhold Action
+    </h3>
+    Withhold an action to use later on in the round.<br>
+    AP Cost: 5 + action's cost.<br>
+    Declare which action (or ability) you are withholding. During the round, either at the beginning or end
+    of a combatant's action, you may finally use the action. If you don't use the action, it is lost at
+    the beginning of your next turn and no AP (or resources) is refunded.
+    <hr>
+
     <h3>
         Talent Checks
     </h3>
@@ -348,7 +476,8 @@
         Execute
     </h3>
     AP Cost: 15 <br>
-    While an opponent is unconscious or in the KO state and you're in the same square, you can kill them.
+    While an opponent is unconscious or in the KO state and you're in an adjacent square, you can kill them.
+    This means reducing their Health points to negative-half their full amount.
 
     <hr>
     <h3>
@@ -404,7 +533,7 @@
         Elements
     </h2>
     Many creatures and abilities possess attributes called elements that indicate their
-    basic make-up. In nature and in combat, elements can influence each other in often
+    basic make-up. In wind and in combat, elements can influence each other in often
     extreme ways.<br>
 
     Elements that are strong against another element will inflict double damage.<br>
@@ -412,15 +541,15 @@
 
     <ul>
         <li>
-            <span class="Fire">Fire</span> is strong against <span class="Nature">Nature</span>, and weak against <span
+            <span class="Fire">Fire</span> is strong against <span class="Wind">Wind</span>, and weak against <span
                 class="Water">Water</span>.
         </li>
         <li>
             <span class="Water">Water</span> is strong against <span class="Fire">Fire</span>, and weak against <span
-                class="Nature">Nature</span>.
+                class="Wind">Wind</span>.
         </li>
         <li>
-            <span class="Nature">Nature</span> is strong against <span class="Water">Water</span>, and weak against
+            <span class="Wind">Wind</span> is strong against <span class="Water">Water</span>, and weak against
             <span class="Fire">Fire</span> .
         </li>
         <li>
@@ -440,8 +569,8 @@
             weak against <span class="Electric">Electric</span>
         </li>
         <li>
-            <span class="Noble">Noble</span> is strong against <span class="Noble">Noble</span> and weak
-            against nothing.
+            <span class="Noble">Noble</span> is strong against everything and weak
+            against <span class="Noble">Noble</span>.
         </li>
         <li>
             <span class="Neutral"></span> Neutral is neither strong nor weak against anything.
@@ -458,7 +587,7 @@
             weak to the attack's element, instead of taking 10 damage, it takes 20.
         </li>
         <li>
-            A fighter uses a water-based attack against a nature-based monster. Because the monster's element
+            A fighter uses a water-based attack against a wind-based monster. Because the monster's element
             is strong to the attack's element, instead of taking 10 damage, it takes 5.
         </li>
         <li>
@@ -521,13 +650,13 @@
     For example...
     <ul>
         <li>
-            2{Mgc} is read as 2 x Magic Power.
+            2{Magic} is read as 2 x Magic Power.
         </li>
         <li>
-            3{Skl} is read as 3 x Skill Power.
+            3{Skill} is read as 3 x Skill Power.
         </li>
         <li>
-            4{Mle} is read as 3 x Melee Power.
+            4{Melee} is read as 3 x Melee Power.
         </li>
     </ul>
     If a placeholder doesn't have a number listed, assume it is 1. <br>
@@ -541,24 +670,6 @@
         </li>
     </ul>
 
-    <h3>
-        Use
-    </h3>
-    Abilities are seldom free and must be paid for with AP and vital resources.
-    Subtract the required resources from your character as indicated by Use attribute. Resources
-    such as AP, Stamina, Mana, and Focus, may be listed there. If no AP is listed, then the score does
-    not cost AP to use.
-    <p>
-        Some abilities, as part of their Use attribute, can only be invoked a limited amount of times
-        per battle. This is listed as X/battle or X/Round, where X is most often 1 or 3.
-        Even if you have enough resources to invoke the ability, if you've used it too many
-        times, you cannot use it again.
-    </p>
-    <p>
-        Though not as common, some abilities that spawn objects like weapons, potion, and buildings,
-        will require an amount of materials to build. Like spending vitals and AP, you'll spend
-        the listed materials as part of the Use condition.
-    </p>
     <h3>
         Accuracy
     </h3>

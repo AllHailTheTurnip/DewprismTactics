@@ -42,8 +42,8 @@ A2: Quick Slap
 A3: Chomp
     Melee-Offensive-Action
     Cost: 12AP
-    Range: Adjacent
-    Enemy takes 1{Mle} neutral damage.|
+    Range: Melee
+    Enemy takes 1{Melee} neutral damage.|
 A4: Lay Egg
     Skill-Support-Action
     Cost: 5Foc
@@ -53,9 +53,9 @@ A4: Lay Egg
 A5: Water Gun
     Skill-Offensive-Action
     Cost 10AP + 3Foc
-    Range: 5sq
+    Range: 5sq LoS
     Accuracy: Melee
-    OnPass: Target takes 3{Skl}+3 water dmg.|
+    OnPass: Target takes 3{Skill}+3 water dmg.|
 A6: Follow
     Melee-Support-Reaction
     Trigger: An ally makes a movement action.
@@ -69,8 +69,8 @@ A7: Hide
 A8: Nurture
     Magic-Support-Action
     Cost: 10AP
-    Range: Adjacent
-    Restore 2{Mgc} Health to an ally.|
+    Range: Melee
+    Restore 2{Magic} Health to an ally.|
 A9: Regroup
     Magic-Support-Action
     Cost: 5 Mna

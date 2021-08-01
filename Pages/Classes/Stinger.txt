@@ -1,31 +1,96 @@
-Description
-???
+Title: Stinger|
+Subtitle: Agile and Piercing|
+Description: The name stinger comes from the combative style of the West Heaven imperial guards who
+use a blend of puncturing weapons and acrobatics techniques to defeat opponents. In recent years the
+style has been migrated across the planet, being adapted to new climates.
+<p>
+Today, Stingers are generally understood to be fighters that use a blend of poisons, needles,
+and good footwork. They can be spotted just about anywhere - especially by the thorns of their armor.
+</p>|
 
 VITALS
-Health 45
-Mana 15
-Stamina 15
-Focus 15
+Health: 30|
+Mana: 10|
+Stamina: 15|
+Focus: 20|
 
 SCORES
-Movement 4sq
-Carry 10u
-Element Neutral
+Movement: 5sq|
+Carry: 8u|
+Element: Wind|
 
 STATS
-Melee Power: 5, Evasion: 10
-Magic Power: 5, Evasion: 10
-Skill Power: 5, Evasion: 10
+Melee: (Power: 4, Evasion: 14)|
+Magic: (Power: 3, Evasion: 9)|
+Skill: (Power: 6, Evasion: 12)|
 
 Abilities
-Innate.
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+Innate: Thorny Armor
+Skill-Defensive-Reaction
+Trigger: An enemy enters (even while moving) an adjacent square.
+Inflict 1{Skill} metal damage to each enemy in an adjacent square.|
+
+A1: Tactical Roll
+Skill-Defensive-Reaction
+Trigger: You are attacked by an enemy.
+Use: 3 stamina
+Increase your Melee Evasion by 5 until the end of the attack.
+After the attack is resolved, move 1+(TL/4)sq in any diagonally direction.|
+
+A2: Shrink Down
+Magic-Defensive-Action
+Use: 5AP + 10mna
+Double your Evasion scores, halve your Power scores, and give yourself a Growback token.
+Growback token: Undo the effects of Shrink Down (double your Power scores and halve your Evasion scores)|
+
+A3: Coat with Poison
+Skill-Offensive-Action
+Use: 10AP + 4fcs
+Range: Any of your weapon's or an adjacent allie's weapons.
+If it doesn't already have it, give it the attribute of Poison 1{Skill}.|
+
+A4: Sever Artery
+Skill-Offensive-Reaction
+Trigger: You declare a basic melee action.
+Use: 5AP + 5fcs
+Range: 1sq
+Until the end of your turn, the acting weapon has Bleed 2{Skill}.|
+
+A5: Throwing Needles
+Skill-Passive-Action
+Use: 10AP
+Create 1{TL} Throwing Needles and equip as secondary weapon (if possible).
+Throwing Needle (Type: Skill, WC: VL, Use: 5AP, Pwr: 1. Weight: 0.2u; it costs 0AP to draw this weapon)|
+
+A6: Acupuncture
+Skill-Support-Action
+Use: 10AP
+Range: An adjacent allie.
+Luck: 12
+Restore a disabled ability or disabled action.|
+
+A7: Pierce Token
+Skill-Offensive-Action
+Use: 10AP + 3fcs
+Range: 5sq+(TL/4)
+Accuracy: Skill
+OnPass: Destroy a targeted token.|
+
+A8:Conjure Antidote
+Skill-Support-Action
+Use: 15AP
+Range: Self
+Add 1x Antidote to your inventory.|
+
+A9:Throw Caltrop
+Skill-Defensive-Action
+Use: 5AP + 5fcs
+Range: 3sq
+Place Caltrop props on up to {Skill}/6 unique squares.
+Caltrop prop: Counts as difficult terrain. Upon entering square, take {Skill} damage.|
+
+A10:Suture
+Skill-Support-Action
+Use: 8AP
+Range: Adjacent Combatant
+Removes Bleed|

@@ -40,19 +40,19 @@ A1: Upscale
 A2: Full Charge
     Melee-Offensive-Action
     Use: 20AP + 5sta
-    Range: Battlefield
+    Range: Melee
     For the duration of this action you are unaffected by difficult terrain.
     Make a free movement action.
-    Make a Melee check against any combatants you pass by; on fail, they take 2{Mle} neutral damage.|
+    Make a Melee check against any combatants you pass by; on fail, they take 2{Melee} neutral damage.|
 A3: Enormous Leap
     Melee-Supportive-Action
     Use: 2sta
-    Range: 5+{CL}sq
+    Range: 5+{CL}sq LoS
     Ignore a surface's elevation and jump up (or down) to it.|
 A4: Reckless Shove
     Melee-Offensive-Action
     Use: 10AP
-    Check: Melee
+    Accuracy: Melee
     OnPass: The enemy is knocked prone.|
 A5: Jump Back
     Melee-Defensive-Reaction
@@ -64,27 +64,29 @@ A6: Firebreath
     Magic-Offensive-Action
     Use: 10AP + 7Mna
     Range: 5sq cone
-    Check: Melee
-    OnHit: target takes 3{Mgc} fire damage.|
+    Accuracy: Melee
+    OnHit: target takes 3{Magic} fire damage.|
 A7: Fireball
     Magic-Offensive-Action
     Use: 10AP + 5Mna
-    Range: 5sq
-    Check: Melee
-    OnHit: target takes 5{Mgc} fire damage.|
+    Range: 5sq LoS
+    Accuracy: Melee
+    OnHit: target takes 5{Magic} fire damage.|
 A8: Horrifying Screech
     Skill-Offensive-Action
     Use: 10AP + 5fcs
     Range: 5+{CL}sq radius
-    Check: Skill
+    Accuracy: Skill
     OnPass: Target is forced away from user until outside of range.|
 A9: Rampage
-    Skill-Support-Action
-    Use: 15fcs + 10mna
+    Melee-Support-Action
+    Use: 15fcs + 10sta
     Place a Rampage marker upon yourself.
     Destroy the marker after 1+({TL}/4) turns.
-    Rampage marker: Taken damage is halved and Offensive actions cost TL{1} less AP to use (min 5AP).|
+    Rampage marker: Taken damage is halved and Offensive actions cost half to use (min 5AP).|
 A10: Rest
     Skill-Support-Action
-    Use: 30AP
-    Recover 50% of your max Health, Stamina, Mana, and Focus.|
+    Use: 20AP for Mode A, OR 30AP for Mode B
+    Mode A: Recover 50% of your max Health, Stamina, Mana, and Focus.
+    Mode B: Recover 50% of your max Health, Stamina, Mana, and Focus and remove any negative status effects.|
+

@@ -30,7 +30,7 @@ ABILITIES
 Innate: Switch Magic Element
     Magic-Support-Action
     Use: 2fcs
-    Change the listed element(s) of your magic-type ability to either fire, water, or nature.
+    Change the listed element(s) of your magic-type ability to either fire, water, or Wind.
     At level 5, you may include metal and electric to choose from.
     At level 10, you may include light and dark to choose from.
     At level 15, you may include noble and neutral to choose from.|
@@ -41,7 +41,7 @@ A1: Switch Magic Shape
 A2: Flying Kick
     Melee-Offensive-Action
     Use: 10AP
-    Range: 5sq
+    Range: 5sq LoS
     Increase your critical-success range by 5 and your critical-failure range by 5 until the end of your turn.
     Choose a target within range and leap through the air into their square, making a free attack action
     when you arrive.|
@@ -55,7 +55,7 @@ A4: Magic Burst
     Use: 5Mna
     Accuracy: Magic
     Range: 3sq Cone
-    OnHit: Target takes 3{Mgc} neutral damage.|
+    OnHit: Target(s) takes 3{Magic} neutral damage.|
 A5: Spur Power
     Melee-Support-Reaction
     Trigger: A melee attack hits.
@@ -67,9 +67,9 @@ A6: Switch Magic Mode
 A7: Fireball
     Magic-Offensive-Action
     Use: 10AP + 3mna
-    Range: 5sq
+    Range: 5sq LoS
     Accuracy: Melee
-    OnHit: Target takes 3{Mgc} fire damage. On critical, target catches fire (Burning 1{TL}).|
+    OnHit: Target takes 3{Magic} fire damage. On critical, target catches fire (Burning 1{TL}).|
 A8: Acquire Magic
     Magic-Support-Action
     Use: 10AP + 5fcs
@@ -77,13 +77,13 @@ A8: Acquire Magic
 A9: Create Ice Wall
     Magic-Defensive-Action
     Use: 10AP + (1-5mna as X)
-    Range: 5sq
+    Range: 5sq instant
     Create X Ice Block obstacles.
-    Tree obstacle: 1sq cube of ice. 10{Mgc} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
+    Tree obstacle: 1sq cube of ice. 10{Magic} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
 A10: Ward Danger
     Magic-Defensive-Action
     Use: 5AP + 5mna
-    Range: 5sq
+    Range: 5sq LoS
     Create a Ward marker and grant it to yourself or an ally within range (max 1/combatant).
     Ward marker: while marked, +5 to Magic Evasion.|
 

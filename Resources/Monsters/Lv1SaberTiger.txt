@@ -20,7 +20,7 @@ Stamina: 13|
 Focus: 17|
 
 Scores
-Element: Nature|
+Element: Wind|
 Movement: 7sq|
 Carry: 5u|
 PrimaryDamage: 18 (Teeth)|

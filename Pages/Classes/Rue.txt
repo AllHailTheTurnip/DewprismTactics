@@ -36,7 +36,7 @@ Skill: (Power: 3, Evasion: 10)|
 ABILITIES
 Innate: Acquire Shape
     Magic-Support-Reaction
-    Trigger: A an enemy combatant dies.
+    Trigger: An enemy combatant dies.
     Use: 2mna
     Give yourself a Shape token based on the dead combatant.
     Shape token: For 5AP you reassign your appearance, Scores, Stats, and Abilities to those of the combatant you got this token from.
@@ -51,7 +51,7 @@ A2: Block
     Melee-Defense-Reaction
     Trigger: An enemy attacks you.
     Use: 3Sta
-    Using a primary or secondary weapon, incoming damage is reduced by 2{Mle}.|
+    Using a primary or secondary weapon, incoming damage is reduced by 2{Melee}.|
 A3: Avenge Ally
     Skill-Support-Reaction
     Trigger: An ally dies.
@@ -60,8 +60,8 @@ A3: Avenge Ally
 A4: Arc Slash
     Melee-Offensive-Action
     Use: 10AP
-    Range: 2sq
-    Every enemy combatant within range takes 1{Mle} damage.|
+    Range: 2sq melee
+    Every enemy combatant within range takes 1{Melee} damage.|
 A5: Path of Duty
     Magic-Defensive-Reaction
     Trigger: You are targeted by a Magic-type ability.
@@ -79,14 +79,14 @@ A7: Call Friend
 A8: Wander
     Skill-Support-Action
     Use: 10AP
-    Roll d20 (A), d20 (B),
+    Roll d20 (A), d20 (B)
     South is towards your starting position.
-    If A > 10, move up to 1sq{TL} east; else, move up to 1sq{TL} west.
-    If B > 10, move up to 1sq{TL} north; else, move up to 1sq{TL} south.|
+    If A > 10, move up to 3sq+1sq{TL} east; else, move up to 3sq+1sq{TL} west.
+    If B > 10, move up to 3sq+1sq{TL} north; else, move up to 3sq+1sq{TL} south.|
 A9: Dive Slash
     Melee-Offensive-Action
     Use: 10AP + 7Sta
-    Range: CL
+    Range: CL LoS
     Choose an enemy within range and leap through the air towards them.
     Make a free attack action with +5 to your accuracy check.|
 A10: Combo
