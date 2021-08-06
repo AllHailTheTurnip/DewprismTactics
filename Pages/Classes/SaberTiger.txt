@@ -1,7 +1,9 @@
 Title: Saber Tiger|
 Subtitle: Swift and Lethal|
 
-Description:
+Title:|
+Subtitle:|
+Description:|:
 Saber Tigers are expert assassins, trained in a variety of fighting methods ranging from
 the secret arts to the dark arts.
     <p>Stranger than mere killers, their methodology can be

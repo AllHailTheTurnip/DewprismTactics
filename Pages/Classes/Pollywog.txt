@@ -1,6 +1,5 @@
 Title: Pollywog|
 Subtitle: Mobile and Adaptable|
-
 Description:
 A survivalist found among the harshest environments on the planet. Unfettered by neither land or sea,
     <p>they tend to travel the world from one land to the next, putting their well-earned wisdom to good use

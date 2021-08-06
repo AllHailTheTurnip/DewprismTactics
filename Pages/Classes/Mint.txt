@@ -1,6 +1,5 @@
 Title: Mint|
 Subtitle: Brilliant Magician|
-
 Description:
 Highly skilled magic users that can actively re-engineer their spells on the fly to suit their every situation.
 Their title, Mint, is a vestige to their first days as high-price mercenaries that would cost the buyer "a mint" to

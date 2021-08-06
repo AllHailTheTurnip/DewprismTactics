@@ -1,5 +1,11 @@
-Description
-???
+Slow - hard to move
+Ranged -
+regenerative "plantlike"
+Wall-like
+
+Title:|
+Subtitle:|
+Description:|
 
 VITALS
 Health: 45|
