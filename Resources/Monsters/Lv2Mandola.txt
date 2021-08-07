@@ -1,0 +1,53 @@
+Name:Mandola|
+Level:2|
+Code:Drone-Soldier|
+PrimaryClass:Mandola|
+
+Biography
+Description:Mandolas are viscous plants that lure in unsuspecting victims before attacking them with
+their bullet seeds. They tend to live all around, often in murky swamps and on barren cliffsides.|
+
+Appearance:Large green plants with a hinged mouth filled with sharp teeth. On top is a large blossom
+of purple flower petals. |
+
+Behavior:Being planted to their starting position, they cannot make movement actions. For this reason,
+they do their best to be on their guards, luring in potential prey, and then going in for the kill.|
+
+Vitals
+Health:100|
+Mana:15|
+Stamina:10|
+Focus:27|
+
+Scores
+Element:Wind|
+Movement:0sq|
+Carry:6u|
+PrimaryDamage: 12|
+SecondaryDamage: --|
+
+Stats
+Melee: (Power: 12, Evasion: 8)|
+Magic: (Power: 6, Evasion: 10)|
+Skill: (Power: 12, Evasion: 6)|
+
+Talents
+Craft:--|
+Harvest:1|
+Scholar:--|
+Navigate:--|
+Acrobatic:-6|
+Entertain:--|
+
+Equipment
+PrimaryWeapon:Teeth(WC:VL, Use: 5AP, Pwr: 1, Weight: 0.2u)|
+SecondaryWeapon:--|
+Tools:None|
+Consumables:None|
+
+Loot
+Experience:100|
+Gil:25|
+Loot:
+1x Ripe Seeds(Consumable. Restore 2sta)
+Luck > 18: 1x Mandola Sapling (Monster. Keep in the sun and water daily. Grows into a lv1 Mandola after 3 months.)|

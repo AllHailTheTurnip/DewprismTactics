@@ -1,0 +1,52 @@
+Name:Stinger|
+Level:2|
+Code:Instinctive-Leader/Soldier/Support/Assassin|
+PrimaryClass:Stinger|
+
+Biography
+Description:A cute, not-so-cuddly creature of the forest, most common to the cliffs.
+They use their spines and quick moves to tackle intruders.|
+
+Appearance:Something like a combination of a cat and porcupine.
+It has a coat of quills on its back.|
+
+Behavior:They tend to live in small mobs on the side of cliffs, often tunneling
+in and out of walls to make their burrows.|
+
+Vitals
+Health:60|
+Mana:12|
+Stamina:18|
+Focus:25|
+
+Scores
+Element:Wind|
+Movement:5sq|
+Carry:8u|
+PrimaryDamage:8|
+SecondaryDamage:16|
+
+Stats
+Melee: (Power: 8, Evasion: 14)|
+Magic: (Power: 6, Evasion: 9)|
+Skill: (Power: 12, Evasion: 12)|
+
+Talents
+Craft:0|
+Harvest:1|
+Scholar:-1|
+Navigate:4|
+Acrobatic:2|
+Entertain:0|
+
+Equipment
+PrimaryWeapon: Quills(WC: VL, Use: 5AP, Pwr: 1, Weight: 0.2u, Ranged)|
+SecondaryWeapon: Bite(WC: L, Use: 7AP, Pwr: 2, Weight: 0.5u, Bleed)|
+Tools:--|
+Consumables: 5x Quil Ammo|
+
+Loot
+Experience:200xp|
+Gil:50|
+Loot:Stinger Quil (Material. Value: 25)
+Luck > 6: +2x Stinger Quil (Material. Value: 25)|

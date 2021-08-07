@@ -1,0 +1,52 @@
+Name:Gargoyle|
+Level:2|
+Code:Instinctive-Soldier|
+PrimaryClass:Gargoyle|
+
+Biography
+Description: Ancient stone guardians enchanted with the task to guard a particular location
+for all time. They are draconian in shape and vague humanoid, with wings, claws,
+teeth.|
+
+Appearance:Reptilian-humanoid creatures of stone. They have canine-like jaws, long ears,
+twisted, snarling faces, and gaunt, harsh bodies.|
+
+Behavior:They are stone up until you draw close to the point they're trying to protect.
+After that, they gain malleability and come to life to attack the trespasser.|
+
+Vitals
+Health:90|
+Mana:27|
+Stamina:16|
+Focus:10|
+
+Scores
+Element:Dark|
+Movement:4sq|
+Carry:10u|
+PrimaryDamage:|
+SecondaryDamage:|
+
+Stats
+Melee: (Power: 8, Evasion: 8)|
+Magic: (Power: 10, Evasion: 9)|
+Skill: (Power: 8, Evasion: 7)|
+
+Talents
+Craft:--|
+Harvest:--|
+Scholar:--|
+Navigate:0|
+Acrobatic:--|
+Entertain:--|
+
+Equipment
+PrimaryWeapon:Teeth(WC: M, Use: 10AP, Pwr: 3, Weight:--)|
+SecondaryWeapon:Claws(WC: L, Use: 7AP, Pwr: 2, Weight:--, Bleed)|
+Tools:--|
+Consumables:--|
+
+Loot
+Experience:200xp|
+Gil:50|
+Loot:1x Gem (Material:Mineral, Value: 150)|

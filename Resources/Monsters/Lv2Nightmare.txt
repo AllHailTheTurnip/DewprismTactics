@@ -1,0 +1,51 @@
+Name:Nightmare|
+Level:2 Boss|
+Code:Instinctive-Soldier|
+PrimaryClass:Nightmare|
+
+Biography
+Description: The utterly enormous equine guardian of Cadamon's Atelier above Carona Forest.|
+
+Appearance: A goliath-sized midnight-blue equine protected by scrollwork armor. It has a
+white mane and eyes like little red gems that burn with a supernatural rage.|
+
+Behavior:Once a trespasser gets too close to the doorway, it will drop in from the sky
+seemingly out from the blue. If that doesn't crush the trespasser, then the battle will
+commence with a flurry of stampedes and hard-hitting kicks.|
+
+Vitals
+Health: 400|
+Mana: 100|
+Stamina: 124|
+Focus: 48|
+
+Scores
+Element: Darkness|
+Movement: 6sq|
+Carry: 20u|
+PrimaryDamage: 32|
+SecondaryDamage: --|
+
+Stats
+Melee: (Power: 8, Evasion: 12)|
+Magic: (Power: 10, Evasion: 12)|
+Skill: (Power: 4, Evasion: 10)|
+
+Talents
+Craft:0|
+Harvest:0|
+Scholar:-1|
+Navigate:6|
+Acrobatic:3|
+Entertain:0|
+
+Equipment
+PrimaryWeapon:Hooves(WC: H, Use: 10AP+1sta, Pwr:4, Weight:--)|
+SecondaryWeapon:--|
+Tools:--|
+Consumables:--|
+
+Loot
+Experience:800xp|
+Gil:250|
+Loot:2x Silver Coins, 4x General Health potions, 2x Mana Potions|

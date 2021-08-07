@@ -1,46 +1,48 @@
-#Name:|
+Name:|
+Level:|
+Code:|
+PrimaryClass:|
 
 Biography
-#Level:|
-#Code:|
-#PrimaryClass:|
-#Description:|
-#Appearance:|
-#Behavior:|
+Description:|
+
+Appearance:|
+
+Behavior:|
 
 Vitals
-#Health:|
-#Mana:|
-#Stamina:|
-#Focus:|
+Health:|
+Mana:|
+Stamina:|
+Focus:|
 
 Scores
-#Element:|
-#Movement:|
-#Carry:|
-#PrimaryDamage:|
-#SecondaryDamage:|
+Element:|
+Movement:|
+Carry:|
+PrimaryDamage:|
+SecondaryDamage:|
 
 Stats
-#Melee:| (Power: , Evasion: )|
-#Magic:| (Power: , Evasion: )|
-#Skill:| (Power: , Evasion: )|
+Melee: (Power: , Evasion: )|
+Magic: (Power: , Evasion: )|
+Skill: (Power: , Evasion: )|
 
 Talents
-#Craft:|
-#Harvest:|
-#Scholar:|
-#Navigate:|
-#Acrobatic:|
-#Entertain:|
+Craft:|
+Harvest:|
+Scholar:|
+Navigate:|
+Acrobatic:|
+Entertain:|
 
 Equipment
-#PrimaryWeapon:|
-#SecondaryWeapon:|
-#Tools:|
-#Consumables:|
+PrimaryWeapon:|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
 
 Loot
-#Experience:|
-#Gil:|
-#Loot:|
+Experience:|
+Gil:|
+Loot:|
