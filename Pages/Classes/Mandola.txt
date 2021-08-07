@@ -3,38 +3,108 @@ Ranged -
 regenerative "plantlike"
 Wall-like
 
-Title:|
-Subtitle:|
-Description:|
+Title:Mandola|
+Subtitle:Evergreen Sentinel|
+Description:The Mandola is a type of fighter named for the viscious Mandola plants that grow in rocky
+terrain. The plants, which adapted through the years to cling to life and fight with bullet seeds and
+sharp teeth, live on in the legacy of the new Mandolas. They are part herbalist, part sniper. and part
+guard tower.
+<p>
+The Mandola's creed is to protect without flaw. They stay their ground, rooted like plants, turning
+any hostile environment into their home. Many of them have even discovered the secrets of natural
+regeneration and can recover from just about any injury in a matter of minutes. Yet like all plants,
+no Mandola is truly ever the same, as they vary from region to region. </p>|
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 50|
+Mana: 12|
+Stamina: 8|
+Focus: 22|
 
 SCORES
-Movement: 4sq|
-Carry: 10u|
-Element: Neutral|
+Movement: 2sq|
+Carry: 6u|
+Element: Wind|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 6, Evasion: 8)|
+Magic: (Power: 3, Evasion: 10)|
+Skill: (Power: 6, Evasion: 6)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
-A10:|
+Innate:Take Root
+Melee-Support-Action
+Use: 15AP
+Your Movement is reduced to 0sq as you become affixed to the surface of your choice; you are unaffected by
+forced-movement effects.
+At the end of your turn, restore 3{Melee} Health.|
+
+A1:Seed Gun
+Skill-Offensive-Action
+Use: 10AP+3fcs
+Range: 5sq
+Make three accuracy checks as part of this ability.
+Accuracy: Skill
+For each hit, deal 2{Skill} damage.|
+
+A2:Blossom
+Skill-Offensive-Action
+Use: 20AP
+AoE: 1{Skill}sq sphere
+Check: Skill
+OnPass: Affected enemy makes a free Movement action in the direction of your position.|
+
+A3:Photosynthesis
+Skill-Support-Action
+Use: 10AP+3Skl
+Increase max Health and current Health by 1{Melee}|
+
+A4:Parasite Spore
+Skill-Offensive-Reaction
+Trigger: You take damage.
+Use: 3Sta
+Luck: 8
+The attacker is given a Spore marker.
+You are the Spore marker's creator.
+Spore Marker: Lose 1{Creator's Skill} health. The creator gains any health lost this way.|
+
+A5:Grow Bark
+Melee-Defensive-Action
+Use: 20AP
+Increase Melee:Evasion by 1.|
+
+A6:Tangle of Vines
+Skill-Support-Passive
+Enemy combatants cannot pass through the same square as you.|
+
+A7:Acid Splash
+Melee-Offensive-Action/Reaction
+Trigger: You are attacked
+Use: 10AP
+Range: 2sq
+Accuracy: Melee
+OnPass: Choose a positive status effect to undo.|
+
+A8:Attract Bees
+Skill-Defensive-Action
+Use: 7AP+5Sta
+Create a Bee Swarm token anywhere along the (relative) south border of the battlefield.
+At the end of your turn, the Bee Swarm token moves 3sq towards the nearest enemy Combatant,
+whereupon entering the square, the token is destroyed and the enemy takes 3{Skill} damage.|
+
+A9:Bear Fruit
+Melee-Support-Action
+Use: 25AP
+This ability rolls for Luck three times.
+Luck: 10
+OnPass: Create a consumable Fruit prop in your inventory.
+Fruit Prop: On consumption, restore 15{TL} Health.|
+
+A10: Flytrap Trigger
+Skill-Support-Action
+Use: 1/turn, 1 ability at a time.
+Choose one of your Abilities and, if it is Passive or Action, add on the Reaction application descriptor.
+The Ability can now be triggered for 5AP when you take damage.|
 
 MA1:|
 MA2:|

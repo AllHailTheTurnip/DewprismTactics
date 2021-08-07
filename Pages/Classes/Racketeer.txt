@@ -1,13 +1,20 @@
-Title:|
-Subtitle:|
-Description:|
+Title:Racketeer|
+Subtitle:Backhanded Fighter|
+Description:Racketeers are far from an oddity in the world - they are born and bred in the poorest
+pits of society, quietly devouring each other like unborn sharks they are strong enough
+to break free. Eventually, they leave their nest and into the searing light of day. Their scars cross
+their faces like canyons, their teeth are mangled and stained brown,
+their skin is like leather, and their eyes are bloodshot with an insatiable hunger for blood and smoke.
+<p>Though not all racketeers go off to become the plight of the civilized world, the few that get wise
+and learn to blend in with the commonfolk go on to become sellswords and manhunters. They are are a deadly
+mixture of prudence and brutality.</p>|
 ???
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 40|
+Mana: 13|
+Stamina: 20|
+Focus: 13|
 
 SCORES
 Movement: 4sq|
@@ -15,22 +22,80 @@ Carry: 10u|
 Element: Neutral|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 5, Evasion: 8)|
+Magic: (Power: 5, Evasion: 12)|
+Skill: (Power: 6, Evasion: 12)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
-A10:|
+Innate:Hack-N-Slash
+Melee-Offensive-Action
+Use: 10AP + 5sta
+Choose a combatant and move {Movement}sq in their initial direction.
+When you enter within melee-range of the opponent, deal 1{Melee} damage. The target is pushed back 1sq.
+Continue to move until you run out of Movement.|
+
+A1:Doubleteam
+Melee-Offensive-Passive
+When attacking an enemy, you may spend an additional 5fcs to to grant a free basic attack to the allie of your choice.|
+
+A2:Shove
+Melee-Offensive-Action
+Use: 10AP+5sta
+Range: Melee
+Accuracy: Melee
+OnPass: Enemy is forced away from up to 1+{TL/3}sq.|
+
+A3:Kidnap
+Melee-Offensive-Action
+Use: 10AP+3sta
+Range: Melee
+Accuracy: Melee
+OnPass: The target is grabbed. The user makes a free Movement action with the target in tow. Release the target.|
+
+A4:Smash Item
+Melee-Offensive-Action
+Use:10AP
+Range: Melee
+Look at the target's Equipment and choose an item to target.
+Accuracy: Skill
+OnPass: Targeted item is destroyed.|
+
+A5: Cornering the Prey
+Melee-Support-Reaction
+Trigger: You confirm a hit against an opponent.
+For the duration of the action, increase your primary power by 1 for every wall adjacent to the target.|
+
+A6:Intimidate
+Skill-Offensive-Action
+Use: 15AP+3fcs
+Accuracy: Skill
+OnPass: Target's Movement is reduced by 2sq+{CL} (to a minimum of 1sq) until the end of their turn.|
+
+A7:Menacing Invitation
+Skill-Support-Action
+Use: 10AP+5sta
+Range: Melee
+Choose an allie to the be the Menacing Invitation's destination.
+Add a Menacing Invitation consumable to the target's inventory (Weighs nothing).
+Menacing Invitation: On consumption, translate yourself to the destination.|
+
+A8:Burgle
+Skill-Offensive-Action
+Use: 10AP
+Range: Melee
+Accuracy: Melee
+OnPass: Choose an item from the target's inventory and add it to your own.|
+
+A9:Tactical Retreat
+Skill-Defense-Reaction
+Trigger: Your health is reduced to 1{Melee} or less.
+Use: 5sta
+Make a free Movement action, but you can only move in the opposite direction of your attacker.|
+
+A10:Sharpen Blades
+Skill-Support-Action
+Use: 30AP
+Increase your critical threshold by 1.|
 
 MA1:|
 MA2:|
