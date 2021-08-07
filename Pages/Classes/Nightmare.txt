@@ -1,36 +1,105 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Title:Nightmare|
+Subtitle:Stampeding Champion|
+Description:Nightmares are the last vestiges of a bygone era, back in a time of renown chivalry.
+The first Nightmares were demon-riders, masters of all weapons and, when mounted on horseback, a
+force to be feared.
+<p>Today, Nightmares are a rare breed, hardly recognizable as a caste, yet unmistakable in combat. They
+are thunderous and might like a force of nature. Their supernatural strength and agility
+catches most people off guard - often making it seem like they fall right out of the sky. They have been
+guardians and warriors - yet wherever one goes, it is wisest to just stay out of their way.
+</p>|
+
+Top-down
+Great scores
+Good stats
+limited abilities
+mobile-magic based
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 50|
+Mana: 20|
+Stamina: 25|
+Focus: 10|
 
 SCORES
-Movement: 4sq|
-Carry: 10u|
-Element: Neutral|
+Movement: 6sq|
+Carry: 20u|
+Element: Darkness|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 4, Evasion: 12)|
+Magic: (Power: 5, Evasion: 12)|
+Skill: (Power: 2, Evasion: 10)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
-A10:|
+Innate:Meteoric Crash
+Magic-Offensive-Action
+Use: 30AP!+8mna
+Choose a combatant to target, then jump into the sky (ignoring the ceiling) and leave the battlefield.
+When your AP is above 0, fall from the sky (ignoring the ceiling) into the target's square.
+AoE: 2sq circle
+Accuracy: Melee
+OnPass: Affected enemy combatants take 3{Melee+2} lightning damage.
+OnFail: Unaffected enemy combatants are pushed away from you until they leave the AoE.|
+
+A1:Chase
+Melee-Offensive-Action
+Use: 10AP+Xsta
+Target: Enemy combatant
+Accuracy: Melee
+Move up to Xsq in direction of target. Target must spend Xsta or else take 3{Melee} damage.|
+
+A2:Royal Armor
+Magic-Defensive-Passive
+Reduce incoming damage by 1{Melee}|
+
+A3:Roar!
+Magic-Offensive-Action
+Use: 5mna
+AoE: {TL}sq sphere
+Luck: 12
+OnPass: Target loses 5AP from their next action. Luck checks are reduced by 2 until end of combat.|
+
+A4:Throw into the Sky
+Magic/Melee-Offensive-Action
+Use: 10sta
+Range: Melee
+Target is hurled into the sky. On their next they fall to the ground and take 15{TL} fall damage.|
+
+A5:Hop
+Melee-Support-Action
+Use: 1sta+1/turn
+Move {Movement/4}sq in any direction.|
+
+A6:Manifest
+Magic-Support-Action
+Use: 10AP+Xmna
+Restore X{Magic} Health.|
+
+A7:Circle of Protection
+Magic-Defensive-Action
+Use: 10mna+1/turn
+Choose a target square or combatant to give the Circle of Protection marker.
+Circle of Protection: As a free action, the marker's creator can teleport to any square
+within 3sq of the marker's position.|
+
+A8:Carry
+Melee-Support-Passive
+Allies can climb onto your person as though it were a 1sq block. When you move, any allies
+on top of you are also moved.|
+
+A9:Shockwave
+Magic-Offensive-Action
+Use: 15AP!+5mna
+AoE: 1{TL}sq radius
+Combatants within AoE are pushed away from you until outside of AoE.
+Accuracy: Melee
+OnPass: Enemy combatants take 2{Magic} Lightning damage.|
+
+A10:Honed Strike
+Magic-Support-Action
+Use: 10AP+3mna
+Increase your Skill accuracy checks by 1.|
 
 MA1:|
 MA2:|
