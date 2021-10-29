@@ -1,36 +1,90 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Title: King Ant|
+Subtitle: Soldier from the Depths|
+Description: King Ant is a moniker that was originally taken by escaped slave-soldiers of the Heaven Kingdom, prior
+to nation's split. Conscripted from infancy as simply Soldier Ants, they were raised to be brutal and fearless fighters
+ - matched only by their perfect obedience. However, with collapse of the old regime, many slaves found the opportunity
+ to flee to freedom, and many did. These new soldiers, possessing only their skills as soldiers,
+ took on new titles as King Ants - those who are owned by no one.<br>
+ Today, King Ants typically roam in bands of 3-10, though few have been known to wonder solo. They are recognized
+ throughout primarily as mercenaries who rarely take a client more than once before setting on their way. However,
+ when working as a group, they become nearly unstoppable.|
+
++ Good with teams
++ good ranged
++ Resistance to neutral and noble attacks.
++ Good abilities
+- Poor at up-close range
+- helpless alone
+- Unskilled in magic
+- Poor Vitals, Scores, and Stats
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 25|
+Mana: 10|
+Stamina: 10|
+Focus: 10|
 
 SCORES
 Movement: 4sq|
-Carry: 10u|
-Element: Neutral|
+Carry: 12u|
+Element: Fire|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 3, Evasion: 11)|
+Magic: (Power: 1, Evasion: 8)|
+Skill: (Power: 4, Evasion: 11)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
-A10:|
+Innate: Assault Rifle
+Skill-Offense-Action
+(Choose Mode A or B)
+A Mode
+    Use: 10AP
+    Range: 5sq
+    Accuracy: Skill
+    Effect: Make 3 Accuracy checks against the target; each success inflicts 3{Skill} damage.
+
+B Mode
+    Use: 10AP
+    Range: 2sq Cone AoE
+    Accuracy: Melee
+    Effect: Make an Accuracy check against up to 3 targets; each success inflicts 3{Skill} damage.|
+
+A1: Ready Attack
+Skill-Support-Action
+Use: 2sta+3fcs
+Effect: Choose an action-based Ability or basic Action to ready. Treat the readied action as a reaction that
+is triggered when you are attacked. This lasts until the start of your next turn.|
+
+A2: Multi-slash
+Skill-Offense-Action
+Use: 5sta+10AP
+Effect: Target and make a basic attack action against every enemy within melee-range of you.|
+
+A3: Firing Line
+Skill-Support-Action
+Cost: 5sta+3fcs+20AP
+Effect: Each ally within 1+{Skill/5}sq gets 10+{CL}AP for their next turn.|
+
+A4: Ignoble
+Magic-Support-Passive
+Effect: Neutral- and Noble-element damage is halved and cannot inflict critical.|
+
+A5: Improved Aim|
+Skill-Support-Passive
+Cost: Xfcs (up to {PL})
+Effect: Increase your Accuracy checks by +X;
+
+A6: Terraform
+Melee-Support-Action
+Cost: 5sta+20AP!
+Effect: Put away (both) your weapons and remove a full cubic unit of material from an adjacent square (ceiling, floor, or wall).
+While holding the cube of material, you can only make Movement actions or, as a free action, place the cube down.|
+
+A7: Odor Trail|
+A8: Pincers|
+A9: Oversize|
+A10: Break Bonds|
 
 MA1:|
 MA2:|

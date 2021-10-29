@@ -1,36 +1,101 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Title: Gudon|
+Subtitle: Hotblooded Guardian|
+Description: Strong, durable, and focused, gudons are a class of guard that utilize
+magical firebreath and good positioning to surprise and subdue heedless invaders.
+
+The first gudons warriors were a tribal folk who lived in caves and learned to fight
+by observing the firebreathing reptiles of the same name. As the world outside developed
+and colonizing forces eventually found their cave, the gudon warriors were forced into
+the world of light for good. Yet rather than assimilate, their warriors put their
+talents to the test as security escorts, miners, and hunters. Thanks to their
+low-light vision, their natural hardiness in scarce environments, and their unique
+magic, gudons made a name for themselves. More than anything, this popularity was
+how their culture would survive. |
+
+low-speed
+fire-elemental
+low-light vision
+venomous unarmed attack
+taste-the-air
+camouflage
+Regenerate lost limbs
+fire-breathing
+wide-swipe
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
+Health: 60|
+Mana: 20|
+Stamina: 10|
 Focus: 15|
 
 SCORES
-Movement: 4sq|
-Carry: 10u|
-Element: Neutral|
+Movement: 3sq|
+Carry: 15u|
+Element: Fire|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
+Melee: (Power: 5, Evasion: 8)|
 Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Skill: (Power: 4, Evasion: 6)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
-A10:|
+Innate:Firebreath
+Magic-Offense-Action
+Use: 5mna+10AP
+Range: 2sq+{mgc/5}
+AoE: Beam
+Accuracy: Melee
+Damage: 4{Mgc} fire|
+
+A1:Venom Fangs
+Melee-Offense-Passive
+Your unarmed attacks inflict Poison 1|
+
+A2:Hardy Appetite
+Skill-Support-Passive
+Stamina, Mana, and/or Focus regained from consumables is increased by 5{PL}|
+
+A3:Camouflage
+Melee-Defense-Action
+Use: 10AP
+Effect: End your turn. Increase your Skill's Evasion by 5+{Melee} until your next action.|
+
+A4:Regenerate
+Magic-Support-Passive
+Use: 7mna+5AP
+Effect: Choose a disabled ability/action and re-enable it.|
+
+A5:Heavy Sweep
+Melee-Offense-Action
+Use: 7sta+10AP
+Range: every square that shares a border.
+Accuracy: Melee
+OnHit: Inflict primary damage. On Critical, target becomes Prone.|
+
+A6:Shed Scales
+Melee-Support-Action
+Use: 30AP!
+Effect: Increase base Movement by 1sq. Reduce max health by -5.|
+
+A7:Circle Sweep
+Melee-Offense-Action
+Use: 15AP!
+Range: 1sq Circle AoE, 3 adjacent squares
+Accuracy: Melee
+Damage: 3{Melee}|
+
+A8:Low-Light Vision
+Skill-Support-Passive
+Effect: You are unaffected by Visibility penalties under 100%.|
+
+A9:Stable Stance
+Melee-Support-Passive
+Use: 2sta
+Effect: You cannot be knocked Prone.|
+
+A10:Carnivore
+Melee-Support-Passive
+Effect: When making an unarmed attack, you may half your inflicted damage and regain an equal amount as health.|
 
 MA1:|
 MA2:|
