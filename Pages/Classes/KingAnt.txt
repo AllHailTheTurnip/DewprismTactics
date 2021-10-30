@@ -70,10 +70,10 @@ A4: Ignoble
 Magic-Support-Passive
 Effect: Neutral- and Noble-element damage is halved and cannot inflict critical.|
 
-A5: Improved Aim|
+A5: Improved Aim
 Skill-Support-Passive
 Cost: Xfcs (up to {PL})
-Effect: Increase your Accuracy checks by +X;
+Effect: Increase your Accuracy checks by +X;|
 
 A6: Terraform
 Melee-Support-Action
@@ -81,10 +81,27 @@ Cost: 5sta+20AP!
 Effect: Put away (both) your weapons and remove a full cubic unit of material from an adjacent square (ceiling, floor, or wall).
 While holding the cube of material, you can only make Movement actions or, as a free action, place the cube down.|
 
-A7: Odor Trail|
-A8: Pincers|
-A9: Oversize|
-A10: Break Bonds|
+A7: Odor Trail
+Melee-Support-Action
+Use: Xsta
+Make a free movement action, each square you move into creates an Odor prop.
+Odor prop: Movement between adjacent Odor props counts as one square of movement.|
+
+A8: Conjure Pincers
+Melee-Offense-Action
+Use: 5sta+20AP
+Effect: Conjure a Pincers weapon into your free hand (if both hands are full, it appears in your inventory)
+Pincers (Type: Skill, WC: M, Use: 10AP, Power: 3, Weight: 1u, Element: Wind; Sever)|
+
+A9: Oversize
+Melee-Support-Passive
+Effect: At the start of combat, your melee:power is doubled and your melee:evasion is halved.|
+
+A10: Break Bonds
+Melee-Support-Action
+Use: 10AP
+Luck: 15
+Remove any status effects that target your Movement.|
 
 MA1:|
 MA2:|
