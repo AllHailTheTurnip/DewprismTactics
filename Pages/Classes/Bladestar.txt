@@ -18,10 +18,10 @@ their creations to the test in sparring matches and battles.
 - Low Vitals and Stats
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 30|
+Mana: 10|
+Stamina: 10|
+Focus: 12|
 
 SCORES
 Movement: 4sq|
@@ -29,15 +29,34 @@ Carry: 10u|
 Element: Neutral|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 4, Evasion: 6)|
+Magic: (Power: 4, Evasion: 7)|
+Skill: (Power: 4, Evasion: 6)|
 
 Abilities
-Innate: Invent Weapon|
-A1: Upgrade Damage|
-A2: Upgrade Use|
-A3: Upgrade Attributes|
+Innate: Invent Weapon
+Skill-Support-Action
+Use Cost: 2Sta+3fcs+20AP!
+Effect: Any weapons are moved to inventory.
+Choose one type: Melee, Magic, Skill.
+Choose an Attribute any attribute from the primary Attribute list.
+Create a Medium-weight weapon of your chosen type and chosen Attribute; add it into your free hand.|
+
+A1: Upgrade Damage
+Skill-Support-Action
+Use: 3fcs+15AP
+Effect: Increase the damage of any weapon you have equipped by 1.|
+
+A2: Upgrade Use
+Skill-Support-Action
+Use: 2fcs+15AP
+Effect: Reduce the Sta/Fcs/Mgc use-cost of an equipped weapon by 1 (minimum 0).
+Otherwise, reduce the AP cost of an equipped weapon by 2 (minimum 2).|
+
+A3: Upgrade Attributes
+Effect: 5mgs+20AP
+Use: Choose an attribute of an equipped weapon and increase by 50% (rounded up).|
+
 A4: Reconfigure Attribute|
 A5: Reconfigure Element|
 A6: Arrow Dash|
