@@ -54,16 +54,54 @@ Effect: Reduce the Sta/Fcs/Mgc use-cost of an equipped weapon by 1 (minimum 0).
 Otherwise, reduce the AP cost of an equipped weapon by 2 (minimum 2).|
 
 A3: Upgrade Attributes
+Skill-Support-Action
 Effect: 5mgs+20AP
 Use: Choose an attribute of an equipped weapon and increase by 50% (rounded up).|
 
-A4: Reconfigure Attribute|
-A5: Reconfigure Element|
-A6: Arrow Dash|
-A7: Improve Style|
-A8: Stoke Heart|
-A9: Tap Out|
-A10: Summon Animal Companion|
+A4: Reconfigure Attribute
+Skill-Support-Action
+Use: 5fcs+15AP
+Effect: Switch out an equipped weapon's attribute for another one.|
+
+A5: Reconfigure Element
+Magic-Support-Action
+Cost: 5mgc+10AP
+Effect: Choose a weapon and change its element to one of your choosing.|
+
+A6: Falcon Strike
+Skill-Offense-Action
+Use: (3+Xsta)+2fcs+10AP
+Range: 3sq+{X}
+Accuracy: Skill
+Damage: 3{Skill}
+OnHit: Luck > 15; on success, target becomes prone.|
+
+A7: Hone Style
+Skill-Support-Action
+Use: 5fcs
+Effect: Choose a type: Skill, Magic, or Melee. Gain +10 Evasion against abilities of that type.|
+
+A8: Stoke Heart
+Melee-Support-Action
+Use: 7sta+10AP
+Effect: Gain advantage on all checks for the next 1+{Magic/5} turns.|
+
+A9: Tap Out
+Skill-Defense-Reaction
+Trigger: Your health reaches 0.
+Use: 5sta+3fcs
+Effect: You are removed from the battlefield and your health is set to 1.|
+
+A10: Summon Animal Companion
+Skill-support-Action
+Use: 3fcs+5AP
+Effect: Create a creature with Vital, Scores, and Stats equal to 1/4th of yours.
+Choose a special special ability for it...
+A. Flight (The animal can move in any direction, including vertical)
+B. Night Eyes (The animal treats lighting conditions as regular)
+C. Gills (The animal can breathe under water)
+D. Paws (The animal's speed is double yours).
+The animal appears in the same square as the one you started in, and takes its turns after yours.|
 
 MA1:|
 MA2:|
