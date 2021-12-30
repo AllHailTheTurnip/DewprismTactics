@@ -42,13 +42,13 @@ A1: Leap
 A2: Dismember
     Melee-Offensive-Action
     Use: 10AP + 5Sta
-    Range: Melee
+    Range: Reach
     Accuracy: Melee
     OnPass: Choose to disable either your opponent's primary or secondary attacks (the primary or secondary weapon are also dropped.)|
 A3: Lick Wounds
     Melee-Supportive-Action
     Use: 10AP
-    Range: Melee
+    Range: Reach
     Restore 3{TL} health to yourself or your target.|
 A4: Bloody Feast
     Melee-Supportive-Passive

@@ -94,7 +94,7 @@ Subtract 5+{TL}AP from their next turn for every passed check.|
 A10: Rip and Tear
 Melee-Offensive-Action
 Use: 12AP
-Range: Melee
+Range: Reach
 Accuracy: Melee
 Roll 1+{TL/5} times for this ability.
 Target takes 1{Melee} damage

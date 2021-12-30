@@ -1,36 +1,111 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Interloper
+A giant red parrot
+Kinda slow, fat.
+Hovers up-and-down
+Doesn't touch ground
+Good with language?
+Very very loud!
+Forms a flock
+Lays eggs?
+
+Title:Cockadoo|
+Subtitle:Spirit of Teamwork|
+Description:As the saying goes, "Birds of a feather flock together," and the same is true for the Cockadoo. Cockadoos
+have traditionally been a nomadic folk, migrating south for the winter with their feathered friends. As per the
+tradition of their folk, they dress in color clothes, singing their ancient songs, and bringing delight (and
+apprehension) wherever they go.
+Cockadoos are believe in teams, and while one Cockadoo isn't much on his own, a team of them can leave ruins. They've
+learned from the animals, and they've learned from the land they've traveled for so long - and most of all, they've
+learned the value of a companion. Their abilities focus on coordinating and empowering their fellow fighters to
+gain the advantage over their opponents, while they themselves have primarily reactionary abilities.|
 
 VITALS
-Health: 45|
+Health: 20|
 Mana: 15|
-Stamina: 15|
+Stamina: 20|
 Focus: 15|
 
 SCORES
-Movement: 4sq|
-Carry: 10u|
-Element: Neutral|
+Movement: 3sq|
+Carry: 7u|
+Element: Wind|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 5, Evasion: 14)|
+Magic: (Power: 4, Evasion: 10)|
+Skill: (Power: 6, Evasion: 12)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
-A10:|
+Innate: Proximity Strike
+Skill-Defensive-Reaction
+Use: 3fcs
+Trigger: An opponent enters within 1sq of you.
+Make a Basic Attack action against the encroaching target.|
+
+A1: Conjure Pit
+Magic-Support-Action
+Use: 15AP+5mna
+Range: 1sq
+Effect: Choose an adjacent square terrain and destroy it, creating up to a 1+{Magic/5} deep pit.|
+
+A2: Peck!
+Melee-Offensive-Action|
+Use: 7AP
+Range: Reach
+Accuracy: Melee
+Damage: 2{Skill}
+Luck: 15
+OnPass: Bleeding {Skill}
+
+A3: Flight
+Melee-Support-Passive
+Effect: When making a Movement Action, you may move half your speed in any direction.|
+
+A4: Copy Spell
+Skill-Support-Reaction
+Cost: 5fcs
+Trigger: A combatant within 2sq+{Skill/5} uses a Magic-type ability.
+Luck: 8
+OnPass: You gain the targeted spell as an ability, indexed after your tenth ability.
+You may only copy one ability at a time.|
+
+A5: Deafening Screech
+Melee-Offensive-Action
+Use: 10AP+5sta+2fcs
+Range: All enemy combatants within {Melee/2}sq.
+Accuracy: Melee
+OnPass: Target is now deaf. Any Magic-type ability checks now have disadvantage.|
+
+A6: Gift of Wings
+Skill-Support-Action
+Use: 10AP+3fcs
+Range: 1+[PL/5] friendly combatant.
+Effect: Target gain Flight until the end of their next turn.|
+
+A7: Gather Flock
+Magic-Support-Action
+Use: 10AP+3mna
+Range: Any ally within 10sq+{Magic/5}.
+Effect: Choose one target to be the waypoint. Choose up to 1+{Magic/10} allies to be subjects.
+Each subject is instantly relocated to an adjacent square beside the waypoint.|
+
+A8: Hatch Egg.
+Melee-Support-Action
+Use: 15AP+5sta
+Range: Your square.
+Effect: Create a copy of yourself. Your copy has your exact base Scores, Abilities, and Evasion Stats,
+ while having Vitals and Power Stats equal to 1/4 your own.
+ You choose the monster's Role, but its intelligence is equal to a Drone.
+ Its initiative is equal to yours, and takes its turn after you.|
+
+A9: Rocket Flap
+Melee-Support-Action
+Use: 5sta
+Effect: Move vertically to 3sq+{Melee/10} into the air and into an adjacent square.|
+
+A10: Slow Fall
+Melee-Support-Passive
+Effect: You do not take fall damage.|
 
 MA1:|
 MA2:|

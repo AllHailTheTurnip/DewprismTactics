@@ -1,36 +1,77 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Very very small person (1-2ft tall)
+Basically toadstool from SUPER MARIOOOO
+Magical :D
+Smashes you flat with his mushroom-skull.
+Waddles around
+Horns - conjure and blow a horn (TOOT!)
+Conjure enormous, flattening ball.
+Waste your time.
+Can sprout out of the ground.
+
+Title: Fungie|
+Subtitle: Playful Spirits|
+Description: The original fungies were toadstools from a magical forest that were gifted with life. Yet stricken with
+mortality - that they might one day die - they chose to spend their limited years having fun. They played, danced,
+played music, and sang. Yet ever weary of other mortals, they always vanished into when someone neared by. Traditionally,
+they been the staunch friends of other magical creatures, and even wizards.
+Today, though natural fungie remain limited to their home dwellings, their druids - Fungie, of the same title -
+carry on their free-spirited nature across the world. Telling their stories, singing their songs, and using their
+tricks. Fungie today are known as carefree folk, singing and dancing in the woodland way.|
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 30|
+Mana: 20|
+Stamina: 10|
+Focus: 5|
 
 SCORES
-Movement: 4sq|
-Carry: 10u|
-Element: Neutral|
+Movement: 3sq|
+Carry: 8u|
+Element: Water|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 4, Evasion: 10)|
+Magic: (Power: 7, Evasion: 14)|
+Skill: (Power: 3, Evasion: 6)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
-A10:|
+Innate: Headbash
+Melee-Offensive-Action
+Use: 10AP+2sta
+Range: 2sq
+Accuracy: Melee
+Damage: 3{Melee}
+OnHit: Target loses 5AP from their next turn.|
+
+A1: Defensive Stance
+Skill-Defensive-Action
+Use: 10AP+3fcs
+Effect: End your turn. Until the start of your next turn, if you're attacked,
+you may use your Innate ability for free.|
+
+A2: Conjure Tuba
+Magic-Support-Action
+Use: 10AP+3mna
+Range: Self|
+Effect: Generate a Tuba.
+Tuba (WC: VH, AP: 10+2sta, Power: 0 Wind, Weight: 4u; Pushes target back {Melee/5}sq.)
+
+A3: Conjure Enormous Ball
+Magic-Support-Action|
+Use:10AP+3mna
+Range: Beneath Self
+Effect: Conjure a ball with a diameter of 3sq.
+The ball is magical and can only be moved by standing on it and walking backwards at half Movement.
+If you move the ball into an enemy's square, they must spend 3sta to move into another square, or else
+take 3{Melee} damage.
+
+A4: Waddle Waddle|
+A5: Waste Time|
+A6: Give Instructions|
+A7: Invite To Play|
+A8: Sprout |
+A9: Regrow |
+A10: Grant Wish|
 
 MA1:|
 MA2:|

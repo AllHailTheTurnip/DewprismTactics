@@ -42,7 +42,7 @@ A1: Upscale
 A2: Full Charge
     Melee-Offensive-Action
     Use: 20AP + 5sta
-    Range: Melee
+    Range: Reach
     For the duration of this action you are unaffected by difficult terrain.
     Make a free movement action.
     Make a Melee check against any combatants you pass by; on fail, they take 2{Melee} neutral damage.|

@@ -96,6 +96,7 @@ A10: Summon Animal Companion
 Skill-support-Action
 Use: 3fcs+5AP
 Effect: Create a creature with Vital, Scores, and Stats equal to 1/4th of yours.
+You control the creature.
 Choose a special special ability for it...
 A. Flight (The animal can move in any direction, including vertical)
 B. Night Eyes (The animal treats lighting conditions as regular)

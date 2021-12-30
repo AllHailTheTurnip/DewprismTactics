@@ -41,7 +41,7 @@ A2: Quick Slap
 A3: Chomp
     Melee-Offensive-Action
     Cost: 12AP
-    Range: Melee
+    Range: Reach
     Enemy takes 1{Melee} neutral damage.|
 A4: Lay Egg
     Skill-Support-Action
@@ -68,7 +68,7 @@ A7: Hide
 A8: Nurture
     Magic-Support-Action
     Cost: 10AP
-    Range: Melee
+    Range: Reach
     Restore 2{Magic} Health to an ally.|
 A9: Regroup
     Magic-Support-Action

@@ -1,36 +1,122 @@
-Title:|
-Subtitle:|
-Description:|
-???
+
+
+Title: Imp|
+Subtitle: Enchanted Prankster|
+Description: Imps have always been around the world - whether as invisible spirits in the woods and old houses, or
+dancing and joking around in the company of wizards. Imps are magical, possessing a sect of magic arts thought
+long lost to the mortal realm. However, not all Imps are of impish descent, for there are many folk - mortals like
+you and me - who have learned took up the ancient magics. These mortals, also called Imps, carry on the fun
+and play of the originals, pranking and joking across the land, wherever the wind should take them.<br>
+Or maybe causing trouble for a well-meaning wizard or two.<br>
+Imps have more tricks up their sleeves than they know what to do with, and can be either a delight or a
+great frustration, depending on if you're on their good-side or not. Surely, they have it in them
+to be the sliest thieves, the most cunning of foxes, and the most mysterious of mages - if it weren't for
+the fact that every one of their spells was a novelty joke.|
 
 VITALS
-Health: 45|
+Health: 35|
 Mana: 15|
-Stamina: 15|
-Focus: 15|
+Stamina: 10|
+Focus: 5|
 
 SCORES
-Movement: 4sq|
+Movement: 3sq|
 Carry: 10u|
-Element: Neutral|
+Element: Water|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 3, Evasion: 10)|
+Magic: (Power: 4, Evasion: 18)|
+Skill: (Power: 3, Evasion: 14)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
-A10:|
+Innate: Starburst
+Magic-Offense-Action
+Use: 10AP+1mna
+Range: 3sq+[PL/4]
+Accuracy: Skill
+Damage: 3{Magic}
+OnHit: Target is knocked prone.|
+
+A1: Conjure Block
+Magic-Support-Action
+Use: 10AP+3mna
+Range: 2sq
+Effect: Conjure a solid block of magical material.
+The block occupies a full square of space and cannot be passed through.
+The block has 75+[75PL] health; at 0 health, the block vanishes.|
+
+A2: Desecrate
+Skill-Offense-Action
+Use: 15AP+5fcs
+Range: Reach
+Effect: Target an inanimate object that is currently not equipped by an opponent.
+That object loses all/any magical effects.|
+
+A3: Trip!
+Skill-Passive-Reaction
+Trigger: Enemy makes Movement Action within ability range.
+Use: 1fcs
+Range: 1sq+[PL/4]
+Luck: 15
+OnPass: Target loses 1sq of Movement until their next turn.
+If their Movement would be reduced to 0, they become prone.|
+
+A4: Swap Items
+Magic-Offense-Action
+Use: 10AP+5mna
+Range: 5sq+[PL/3]
+Accuracy: Magic
+OnPass: Exchange an unequipped item from your inventory with an unequipped
+item of your choice from the target's inventory.|
+
+A5: Swap Abilities
+Magic-Offense-Action
+Use: 15AP+5mna
+Range: 3sq
+Accuracy: Magic
+OnPass: Roll two d20's and halve the results (rounded up). The first d20 targets your abilities from 1 to 10,
+while the second d20 targets your opponent's abilities from 1 to 10. Exchange the two targeted abilities.|
+
+A6: Swap Places
+Magic-Offense-Action
+Use: 10AP+5mna
+Reduce Use cost by 1AP+1mna when you reach level 4, 8, 12, 16, and 20.
+Range: 10sq
+Accuracy: Magic
+OnPass: Choose yourself and a target (animate or inanimate) and swap locations with them.|
+
+A7: Bind To Object
+Magic-Defense-Action
+Use: 5AP+7mna
+Range: Reach
+Effect: Choose an inanimate and non-enchanted object of 1sq+{PL/4} or smaller dimension to inhabit.
+Your physical form is bound within the object.
+While bound to an object, you may only make Movement actions.
+If the object is destroyed while you're bound and you are remove from the battle.|
+
+A8: New Master
+Skill-Support-Action
+Use: 10AP+3fcs
+Range: Reach
+Effect: Choose an 1+{CL/5} allies on the battlefield to be your Master.
+At any point during your turns, you may choose to give any amount of your Health, Stamina, Mana, or Focus to the other.|
+
+A9: Become Invisible
+Magic-Support-Action
+Use: 10AP+5mna
+Range: Self
+Effect: You turn completely invisible; you cast no shadow and light passes completely through you.
+While invisible, your Dodge- and Skill-Evasion scores are raised to 20.
+At the beginning of each turn, spend 2mna to remain invisible.
+If you take damage or run out of mana, you become visible again.|
+
+A10: Jinx!
+Magic-Offense-Action
+Use: 8AP+3mna
+Range: 4sq+{PL/5}
+Luck: 15
+OnPass: Target is jinxed. All their luck check are inverted (20-1d20).|
 
 MA1:|
 MA2:|

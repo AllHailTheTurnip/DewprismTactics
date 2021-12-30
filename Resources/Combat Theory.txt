@@ -1,0 +1,96 @@
+In General
+- People are better-off with equipment.
+- Base stats are linear
+- equipment can level-up too
+
+Base Power Ranges
+V. Low	3
+Low	    4
+Avg	    5
+High	6
+V. High	7
+
+Evasion Ranges (meet-or-beat to hit)
+VP	2
+P	6
+Avg	10
+G	14
+VG	18	
+
+Weapon Damage Multipliers
+VL	1	
+L	2		
+Avg	3	
+H	4
+VH	5		
+
+Average Damage Ranges
+VL: 	5
+L: 	    10
+Avg: 	15
+H:	    20
+VH: 	25
+
+Base Health Ranges
+VL	15
+L	30
+Avg	45
+H	60
+VH	75
+
+Base MSF Ranges
+- VL	5
+- L	    10
+- A	    15
+- H	    20
+- VH	25
+
+Speed Ranges
+VS	2
+S	3
+M	4
+F	5
+VF	6
+
+Carry Ranges
+VL	5
+L	7
+A	10
+G	13
+VG	15
+
+Health Factors
+- Ability (bonuses)
+- Score (sets base)
+
+Health Multipliers
+Pest =      0.5
+Mob =       1
+Player =    1
+Miniboss =  4
+Boss =      8
+
+Damage Factors
+- Ability (increases damage)
+- Scores (sets base damage)
+- Weapon (multipliers base damage)
+- Level (increases base damage)
+
+AP Cost Ranges
+VBA	5
+BA	7
+A	10
+AV	15
+VAV	20
+
+MSF Cost Ranges
+Free	0
+Little	1
+Average	3
+Great	5
+Max	    7
+
+
+
+
+		

@@ -63,7 +63,7 @@ OnPass: Target loses 5AP from their next action. Luck checks are reduced by 2 un
 A4:Throw into the Sky
 Magic/Melee-Offensive-Action
 Use: 10sta
-Range: Melee
+Range: Reach
 Target is hurled into the sky. On their next they fall to the ground and take 15{TL} fall damage.|
 
 A5:Hop
