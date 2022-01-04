@@ -65,13 +65,44 @@ The ball is magical and can only be moved by standing on it and walking backward
 If you move the ball into an enemy's square, they must spend 3sta to move into another square, or else
 take 3{Melee} damage.
 
-A4: Waddle Waddle|
-A5: Waste Time|
-A6: Give Instructions|
-A7: Invite To Play|
-A8: Sprout |
+A4: Waddle Waddle
+Melee-Support-Action|
+Use: 5AP+3sta
+Effect: Make a Movement action.
+
+A5: Summon Flying Star
+Magic-Support-Action
+Use: 10AP+3mna
+Effect: Create a Flying Star prop in any adjacent square.
+The star occupies a square of
+space and is considered flat. Spend 5AP+2mna to move the prop up to {Magic} squares in
+any direction.
+The star has 15{PL} health, 0 evasion, and vanishes when its health reaches 0.|
+
+A6: Give Instructions
+Skill-Support-Action
+Use: 10AP+5fcs
+Range: 3sq
+Effect: Choose an ally and reduce the AP cost of their next action by 5 (minimum 0).|
+
+A7: Play While Waiting
+Skill-Support-Action
+Use: 10AP+7mna
+Range: 1sq+{PL}
+Effect: Remove an ally from the battlefield. While away, they cannot make actions
+or be targeted by any effects. Once their turn begins, they return to the battlefield at their
+ original position.
+Luck: 15
+OnPass: The ally is granted advantage on their next roll.|
+
+A8: Conjure See-Saw!
+Magic-Support-Action
+Use: 10AP+3mna
+Range: 3sq|
+Effect: A 1x3sq see-saw appears on the battlefield.
+
 A9: Regrow |
-A10: Grant Wish|
+A10: Conjure See-Saw |
 
 MA1:|
 MA2:|
