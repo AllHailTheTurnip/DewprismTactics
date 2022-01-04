@@ -98,11 +98,20 @@ OnPass: The ally is granted advantage on their next roll.|
 A8: Conjure See-Saw!
 Magic-Support-Action
 Use: 10AP+3mna
-Range: 3sq|
-Effect: A 1x3sq see-saw appears on the battlefield.
+Range: 3sq
+Effect: A 1x3sq see-saw appears on the battlefield.|
 
-A9: Regrow |
-A10: Conjure See-Saw |
+A9: Regrow
+Melee-Support-Action
+Use: 25AP
+Effect: Restore 30{PL} health. Any disabled abilities are re-enabled.|
+
+A10: Restart with Pitfall
+Magic-Support-Action
+Use: 10AP+3mna
+Range: 3sq+{PL}
+Target: Yourself or an ally.
+Effect: When the target respawns after falling down a bottomless pit, they don't take any damage.|
 
 MA1:|
 MA2:|
