@@ -66,8 +66,8 @@
     Combat begins when one party instigates a fight with another party. This happens either when one or more
     combatants realize that a fight is about to start and choose to take the initiative, or when they're attacked.
     <p>
-        In the case of being attacked, as soon as the attack action is resolved, initiative is rolled. Otherwise,
-        when reacting to a threat, you just roll initiative.
+        In the case of being attacked, as soon as the attack action is resolved, initiative is calculated. Otherwise,
+        when reacting to a threat, you calculate initiative as normal.<br>
     </p>
     <p>
         Combat ultimately ends when there are no more combatants left to carry on the fight, either on your
@@ -86,10 +86,9 @@
     with which you can target an opponent. Each way is different, in that it has its own limits.
     <ul>
         <li>
-            <b>Reach</b><br>
-            An attack against an adjacent target - adjacent meaning that the target is to your
-            left, right, in font, or back square.<br>
+            <b>Nearby</b><br>
             Often weapons with an enhanced range will also allow you to aim diagonally.
+            An attack against a target within the same space as you with either a melee or ranged ability or weapon.
         </li>
         <li>
             <b>Line of Sight (LoS)</b><br>
@@ -99,7 +98,7 @@
         </li>
         <li>
             <b>AoE</b><br>
-            The attack has a shape (cone, beam, or sphere) and targets every combatant within its range.
+            The attack has a shape (cone, beam, or sphere) and targets every designated combatant within its range.
         </li>
         <li>
             <b>Instant</b><br>
@@ -113,8 +112,8 @@
     <h3>
         Initiative
     </h3>
-    At the beginning of combat, each combatant draws their weapons and readies to fight. Everyone rolls
-    1d20 and the value is recorded for the DM to use. Whoever got the higher roll goes first.
+    At the beginning of combat, each combatant draws their weapons and readies to fight.<br>
+    Every combatant rolls 1d20, adding in their Initiative score. Whoever rolls highest goes first.s
     <p>
         If two or more combatants get the same score, then they roll again, marking their score with an A or B to
         indicate who goes first.
@@ -297,31 +296,16 @@
         Movement
     </h3>
     AP Cost: 10<br>
-    Declare that you are moving and to where.
-    Move left, right, forward, or backward into an adjacent square. You may do this up to as many times as your
-    Movement score allows.
-    <br><sub>Moving diagonally counts as two squares.</sub><br>
-
-    <h4>Hop</h4>
-    To help you close the gap between yourself a nearby opponent, you may move an additional 1sq,
-    but you cannot make another Movement action for the rest of the turn.
-
-    <h4>
-        Leap
-    </h4>
-    You may leap across a 1sq chasm so long as you have enough movement left to make the distance,
-    and you're not already leaping from difficult terrain.
+    Declare that you are moving and to where.<br>
+    Move to any adjacent space connected to your space with a dotted border.<br>
+    You cannot enter into a space unless its border is dotted.
 
     <h4>
         Difficult Terrain
     </h4>
-    While moving into or through terrain that is horribly bumpy and cluttered,
-    your movement is inhibited and it costs 2sq to move 1sq.<br>
-    Additionally, KO'd and dead opponents count as difficult terrain.
-
-    <h4>Occupied terrain</h4>
-    You cannot end your movement in a square that is already occupied by an opponent.
-    There isn't enough room to move, so your Evasion scores will be reduced to 0.
+    It costs 15AP to move into terrain that is terribly bumpy, cluttered, or otherwise difficult to navigate.<br>
+    Often, difficult terrain will require a check to enter or leave from. This check will test either your
+    Melee, Skill, or Magic Power scores against a difficulty.
 
     <h4>
         Bottomless Pits
@@ -332,18 +316,14 @@
     <br><sub>Lava counts as a bottomless pit.</sub><br>
 
     <h4>
-        Climbing and Steps
+        Ascending and Descending
     </h4>
-    Maps often have terrain of varying heights, denoted by their colors and any height-markers placed by them.
-    On a map, a height of 0 is the median, while anything greater is higher and anything lower is below. <br>
-    You can freely traverse between heights up to a difference of 0.5, where 0.5 counts as difficult terrain.
-    <br>
-    You cannot freely traverse blocks with a height-difference of 1 or greater, but must make an Acrobatics talent
-    check, beating 10 to pass. For every 1 unit of height in difference, add another 5 to the difficulty.
+    Most maps have varying topography, with ramps, stairs, and hills to help the player reach higher elevations. <br>
+    Spaces of steeply varying heights, such as stairs and rock-walls, are treated as difficult terrain.
 
     <h4>Fall Damage</h4>
     If you are pushed off a ledge and into the air, you'll fall to the ground and take neutral damage
-    equal to 3 X however many squares you fell. You do not take fall damage for falling less than 1sq.
+    equal to 15 times however many spaces you fell. You do not take fall damage for not leaving your space.
 
     <h4>
         Swimming
@@ -357,10 +337,10 @@
     </h3>
     AP Cost: [see weapon AP cost] <br>
     Declare who you are attacking and which weapon you'll be using to do it.
-    You may attack any combatant that is in an adjacent or same square.<br>
+    You may attack any combatant that is within the same space as you.<br>
     First, make a hit check and compare against your opponent's melee evasion score. If the result
-    meets or exceeds their evasion, then the attack hits.<br>
-    Damage dealt is equal to your Primary or Secondary Attack score, depending on which weapon you used.<br>
+    meets or exceeds their evasion, the attack hits.<br>
+    Damage dealt is equal to your Primary or Secondary Attack score, depending on which slot your weapon occupied.<br>
     <br>
     If your hit check rolled a natural 20, then your attack goes critical and inflicts double damage.
     Additionally, if your hit check rolled a natural 1, then not only does your attack miss, but
@@ -373,20 +353,20 @@
     from your inventory. Whenever a ranged attack is made, one of the projectiles is removed from your
     inventory.
     <p>
-        Ranged weapons have a range score listing their minimum and maximum project ranges.
-        When measuring the distance, you'll trace the line vertically and horizontally towards the
-        opponent as though making a movement action. If the target is equal to or within the distance, they
-        can be aimed at - otherwise, the attack will fall short.
+        Ranged weapons have a range score listing their minimum and maximum ranges. Measure the distance in spaces.
+        If the target is in the same space as you, the distance is 0. If they're in the next space over,
+        it's a distance of 1, and so on. <br>
+        If the target is out of your distance, the attack will fall short.
     </p>
     <p>
-        Additionally, if the target is adjacent to you in another or same square, you can make
+        Additionally, if the target is in the same space as you but you don't have ammo, you can make
         a melee attack at it, treating the weapon's Pwr score as 1 instead.
     </p>
     <h4>
         The Highground
     </h4>
-    Your attack checks gain +2 for every 1 square of elevation you have over an opponent.<br>
-    You cannot make non-ranged attack against a combatant that is more than 1 square above or below you.
+    Your attack checks gain +2 for every 1 space of elevation you have over an opponent.<br>
+    You may make ranged attacks against combatants that are more than 1 space above or below you.
 
     <hr>
     <h3>
@@ -395,7 +375,9 @@
     AP Cost: 10<br>
     Declare that you are defending and which shield you'll be using. Add the shield's Protection
     to your Health until the start of your next turn.<br>
-    The shield's protection score is not damaged by defending - only the bonus health.
+    The shield's protection score is not damaged by defending - only the bonus health. If the health bonus is depleted,
+    any excess damage rolls over.
+
     <h3>
         Guarding
     </h3>
@@ -404,6 +386,13 @@
     until the start of your next turn. This health is stacked on top of your normal health and takes
     damage first.
     <hr>
+
+    <h3>
+        Taking Cover
+    </h3>
+    AP Cost: 10<br>
+    If your area has cover that isn't already occupied, declare that you are taking cover and where.
+    While taking cover, increase your Evasion scores by 5 each.
 
     <h3>
         Unarmed Attacks
@@ -476,7 +465,8 @@
         Execute
     </h3>
     AP Cost: 15 <br>
-    While an opponent is unconscious or in the KO state and you're in an adjacent square, you can kill them.
+    While an opponent is unconscious or in the KO state and you're alone with them in the same square, you can kill
+    them.
     This means reducing their Health points to negative-half their full amount.
 
     <hr>
@@ -485,7 +475,7 @@
     </h3>
     AP Cost: 15 <br>
     If a monster's intelligence code is either drone, instinctive, or sapient, you can move
-    to an adjacent square, and toss a Monster Treat at its feet.
+    to move into the same space and toss a Monster Treat at its feet.
     <p>
         Make a Luck check.
     </p>
@@ -500,7 +490,7 @@
     To improve your chances, reduce the difficulty by 1 for every 1/4 of its Health
     it's missing.
     <p>
-        Upon success, the monster becomes neutral to your party and will no longer fight.
+        Upon success, the monster becomes neutral to your party and will no longer want to fight.
     </p>
     <p>
         At the end of combat, roll the check again, and if you're successful, the
@@ -547,7 +537,6 @@
             If your weapon doesn't have an element, use your own element.<br>
         </li>
     </ol>
-
 
 
     Elements that are strong against another element will inflict double damage.<br>
@@ -670,7 +659,7 @@
             3{Skill} is read as 3 x Skill Power.
         </li>
         <li>
-            4{Melee} is read as 3 x Melee Power.
+            4{Melee} is read as 4 x Melee Power.
         </li>
     </ul>
     If a placeholder doesn't have a number listed, assume it is 1. <br>
@@ -701,23 +690,14 @@
     </h3>
     Many Abilities have range specifiers that indicate how close (or far away) a combatant
     has to be in order for the ability to be able to target them. Most often this is limited to
-    how close something is, but special attack require they be further away than the listed score.
+    how close something is, but some special attack require they be further away than the listed score.
     A more-than sign (>) specifies that the target must be equal to or further than the listed score.
     <p>
-        Some abilities allow you to choose a target within an area, such as a cone, a circle, a beam, or
-        the whole battlefield.
+        Some abilities allow you to choose a target within a space, or series of spaces, or the whole battlefield.
     </p>
     <ul>
         <li>
-            <b>Cones</b> extend out from your person in a tall triangle shape, starting from your person
-            at 1sq in width, stretching out 3sq, then widening 1sq left and right, and stretching out again,
-            until it reaches the listed length.
-        </li>
-        <li>
-            <b>Circles</b> extend out in all directions, up to the listed range away in squares.
-        </li>
-        <li>
-            <b>Beams</b> target every combatant within a line of range; every square that would be touched
+            <b>Beams</b> target every combatant within a line of range; every space that would be touched
             by a line is considered part of the range.
         </li>
     </ul>
