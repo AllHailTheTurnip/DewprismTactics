@@ -29,7 +29,7 @@ Stamina: 10|
 Focus: 15|
 
 SCORES
-Movement: 3sq|
+Initiative: 8|
 Carry: 15u|
 Element: Fire|
 
@@ -42,7 +42,7 @@ Abilities
 Innate:Firebreath
 Magic-Offense-Action
 Use: 5mna+10AP
-Range: 2sq+{mgc/5}
+Range: 0sp+{mgc/15}
 AoE: Beam
 Accuracy: Melee
 Damage: 4{Mgc} fire|
@@ -69,18 +69,18 @@ A5:Heavy Sweep
 Melee-Offense-Action
 Use: 7sta+10AP
 Range: every square that shares a border.
-Accuracy: Melee
+Accuracy: 0sp
 OnHit: Inflict primary damage. On Critical, target becomes Prone.|
 
 A6:Shed Scales
 Melee-Support-Action
 Use: 30AP!
-Effect: Increase base Movement by 1sq. Reduce max health by -5.|
+Effect: Reduce Movement AP cost by 3 (min 3). Reduce max health by -5.|
 
 A7:Circle Sweep
 Melee-Offense-Action
 Use: 15AP!
-Range: 1sq Circle AoE, 3 adjacent squares
+Range: 0sp AoE
 Accuracy: Melee
 Damage: 3{Melee}|
 
@@ -90,7 +90,6 @@ Effect: You are unaffected by Visibility penalties under 100%.|
 
 A9:Stable Stance
 Melee-Support-Passive
-Use: 2sta
 Effect: You cannot be knocked Prone.|
 
 A10:Carnivore
