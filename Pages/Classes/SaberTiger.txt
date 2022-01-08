@@ -18,7 +18,7 @@ Stamina: 13|
 Focus: 17|
 
 SCORES
-Movement: 7sq|
+Initiative: 15|
 Carry: 5u|
 Element: Wind|
 
@@ -31,24 +31,24 @@ ABILITIES
 Innate: Assassinate
     Skill-Offensive-Action
     Use: 10AP + 10Fcs + 5Sta
-    Range: 2{TL}
+    Range: 1+{TL/4}sp
     Leap through the air into the same square as your target.
     Luck: 10
     OnPass: Target takes damage equal to their remaining health.|
 A1: Leap
     Skill-Support-Action
     Use: 10AP.
-    Jump horizontally or vertically, up to your Movement, across.|
+    Jump horizontally or vertically, 1sp.|
 A2: Dismember
     Melee-Offensive-Action
-    Use: 10AP + 5Sta
-    Range: Reach
+    Use: 10AP+5Sta
+    Range: 0sp
     Accuracy: Melee
     OnPass: Choose to disable either your opponent's primary or secondary attacks (the primary or secondary weapon are also dropped.)|
 A3: Lick Wounds
     Melee-Supportive-Action
     Use: 10AP
-    Range: Reach
+    Range: 0sp
     Restore 3{TL} health to yourself or your target.|
 A4: Bloody Feast
     Melee-Supportive-Passive
@@ -60,12 +60,10 @@ A5: Tactical Retreat
     Trigger: An ally takes damage.
     Range: TL{1sq} instant
     Make a free movement action and take a nearby ally within range with you by your side.|
-A6: Conjure Strike Point
-    Magic-Defensive-Action
-    Use: 30AP
-    Range: 1sq LoS
-    Create a Strike Point prop that is shaped like a leafy-green bush.
-    While standing in the same square as the prop, your Skill evasion gains +5.|
+A6: Astounding Speed
+    Melee-Support-Reaction
+    Trigger: You make a basic Movement action
+    You may move an additional space.
 A7: Sharpen Edge
     Skill-Support-Action
     Cost: 31-{TL}AP
@@ -79,7 +77,7 @@ A8: Fearsome Roar
 A9: Conjure Assassin's Blade
     Magic-Support-Action
     Use: 5Mna
-    Range: CL{1}sq instant
+    Range: ({CL}/4)sp instant
     Add an Assassin's Blade into yours or an ally's inventories.
     Assassin's Blade (1H-VL, Pwr: 1 Metal, Rng: 0sq, Crit: dmg 3x, Sever 5{CL})|
 A10: Vanish

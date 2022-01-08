@@ -13,13 +13,13 @@ that carry them through the air, and a cry like a storm of knives. It's a wonder
     Today, you can find Gargoyles as vagabonds - strangers - in a world that doesn't quite know what to do with them.|
 
 VITALS
-Health: 45
+Health: 45|
 Mana: 22|
 Stamina: 13|
 Focus: 8|
 
 SCORES
-Movement: 4sq|
+Initiative: 8|
 Carry: 10u|
 Element: Dark|
 
@@ -36,40 +36,40 @@ In addition, you are unaffected by difficult terrain and its hazards.|
 
 A1:Sonic Screech
 Magic-Offensive-Action
-Use: 10AP + 4mna!
-Range: 3sq+{Magic/5} cone (includes allies)
+Use: 10AP+4mna!
+Range: 0sp AoE
 Accuracy: Magic
 OnPass: Target takes 3{Magic} wind damage.|
 
 A2:Stone Skin
 Magic-Defensive-Passive
-Reduce taken damage by 1{Melee} to a minimum of 1.|
+Reduce taken damage by {Melee} to a minimum of 1.|
 
 A3:Curse with Weakness
 Magic-Offensive-Action
 Use: 12AP + 3mna
-Range: 3sq+TL
+Range: 0sp+(TL/3)
 Luck: 15
 OnPass: Targeted enemy is now weak to the element of your choice (excluding neutral).|
 
 A4:Curse of Doom
 Magic-Offensive-Action
 Use: 10AP-7mna
-Range: 1sq + {Melee/5}
+Range: 0sq+{Melee/15}
 Luck: 17
 OnPass: Target gets Doomed 3.|
 
 A5:Seal Magic
 Magic-Offensive-Action
 Use: 15AP
-Range: 1sq+{Magic/5} LoS
+Range: 0sq+{Magic/15} LoS
 Accuracy: Magic
 OnPass: Target becomes Dispirited 3|
 
 A6:Bad Omen
 Magic-Offensive-Action
 Use: 10AP
-Range: 5sq instant
+Range: 0sp instant
 Accuracy: Magic
 OnPass: Target's Luck checks get -2.|
 
@@ -86,7 +86,7 @@ Increase the range of your LoS abilities by your current elevation score. |
 A9: Petrify
 Magic-Offensive-Action
 Use: 10AP + 10mna
-Range: 2sq
+Range: 0sp
 Accuracy: Magic
 Roll twice for this ability.
 Subtract 5+{TL}AP from their next turn for every passed check.|
@@ -94,7 +94,7 @@ Subtract 5+{TL}AP from their next turn for every passed check.|
 A10: Rip and Tear
 Melee-Offensive-Action
 Use: 12AP
-Range: Reach
+Range: 0sp
 Accuracy: Melee
 Roll 1+{TL/5} times for this ability.
 Target takes 1{Melee} damage

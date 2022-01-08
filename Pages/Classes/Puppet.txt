@@ -1,6 +1,15 @@
-Title:|
-Subtitle:|
-Description:|
+Short
+Cursed/Magic
+Guardians
+Undead
+Graceless
+Simple
+Gang-up
+Can be controlled
+
+Title: Puppet|
+Subtitle: Cursed Soldiers|
+Description: |
 ???
 
 VITALS
@@ -10,7 +19,7 @@ Stamina: 15|
 Focus: 15|
 
 SCORES
-Movement: 4sq|
+Initiative: 10|
 Carry: 10u|
 Element: Neutral|
 
