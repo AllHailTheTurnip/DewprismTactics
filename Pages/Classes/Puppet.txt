@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
 Title:|
@@ -26,6 +27,11 @@ would never be set free, but would guard their tomb until the ends of days. Thou
 has |
 >>>>>>> Stashed changes
 >>>>>>> main
+=======
+Title:|
+Subtitle:|
+Description:|
+>>>>>>> parent of a37f5b2 (Update Puppet.txt)
 ???
 
 VITALS
