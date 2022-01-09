@@ -490,14 +490,13 @@
     </tr>
     <tr>
         <td>
-            Movement
+            Initiative
         </td>
         <td>
-            How many squares you move in a movement action.
+            How quick you are to act in combat.
         </td>
         <td>
-            Determined by your primary class. When you make a movement action, you may move up to an amount of
-            squares along the battlefield.
+            Determined by your primary class. When battle begins, you add your initiative to your roll.
         </td>
     </tr>
     <tr>
@@ -509,7 +508,7 @@
         </td>
         <td>
             A general measurement of how strong your back is, the greater your Carry, the more things you can carry
-            on your person at one time. Exceeding it can penalize your movement, slowing you down.
+            on your person at one time. Exceeding it can penalize your movement actions, slowing you down.
         </td>
     </tr>
     <tr>
@@ -703,7 +702,7 @@
     </tr>
     <tr>
         <td>
-            Use.
+            Use
         </td>
         <td>
             What resources are required to use the ability.
@@ -718,10 +717,10 @@
             Range
         </td>
         <td>
-            How far-reaching your ability is.
+            How far-reaching your ability or attack is.
         </td>
         <td>
-            Many abilities have projectiles or an area of affect. These ranges are measured in squares as Xsq.
+            Many abilities have projectiles or an area of affect. These ranges are measured in spaces as Xsp.
         </td>
     </tr>
     <tr>
@@ -732,20 +731,7 @@
             A wide field of range.
         </td>
         <td>
-            AoE stands for Area of Effect, where all combatants within the specified range are targeted by an ability.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Cone
-        </td>
-        <td>
-            A shape of AoE.
-        </td>
-        <td>
-            Similarly shaped to a triangle, effecting the first square in front of you, and then growing by 2sq for
-            every 1sq it moves outward, eventually looking like an upside-down pyramid.<br>
-            <img src="../Resources/AoeConeExample.png" style="width: 50%" alt="Cool picture">
+            AoE stands for Area of Effect, where all enemy combatants within the space(s) are targeted by an ability.
         </td>
     </tr>
     <tr>
@@ -756,8 +742,7 @@
             A shape of AoE.
         </td>
         <td>
-            Shaped like a long line, it targets every combatant within its row.<br>
-            If you're aiming diagonally, you'd also target every square the beam's width
+            Shaped like a long line, it targets every combatant within its path.<br>
             touches.
             <img src="../Resources/AoEBeamExample.PNG" style="height: 25%" alt="Cool picture">
         </td>
@@ -959,7 +944,7 @@
             A tangle or rope has gotten around your feet, constricting their movement.
         </td>
         <td>
-            You cannot move until.
+            You cannot make movement actions until X turns have passed.
         </td>
     </tr>
     <tr>
@@ -970,7 +955,7 @@
             Your feet are tangled up in cord, slowing your movement.
         </td>
         <td>
-            Your movement is halved for the next X turns.
+            Your movement action's AP Cost is doubled for the next X turns.
         </td>
     </tr>
     <tr>
@@ -1221,7 +1206,7 @@
             The area in which combatants fight each other.
         </td>
         <td>
-            Typically a 2D plane utilizing a square grid to represent width and length.<br>
+            Typically a 2D plane utilizing marked spaces to represent navigable areas and pathways.<br>
             Small symbols representing combatants are depicted upon it.
         </td>
     </tr>
@@ -1239,10 +1224,10 @@
     </tr>
     <tr>
         <td>
-            Grid
+            Space
         </td>
         <td>
-            A Two-dimensional array of squares, where each square represents a 5ft space.
+            A two-dimensional array of spatially associated shapes with dotted edges.
         </td>
         <td>
             Used as the general standard of movement for combatants.
