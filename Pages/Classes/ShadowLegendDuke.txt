@@ -81,7 +81,7 @@ Use: 5fcs+1/turn
 Range: Self
 Condition: Your dominant hand is empty.
 Effect: Conjure an Ancient Sword into your dominant hand.
-Ancient Sword: Type: Mle, WC: Med, Use: 10AP, Pwr: 3, Wght: 1u.
+Ancient Sword: Type: Mle, WC: Med, Use: 10AP, Pwr: 3, Wght: 1u.|
 
 A7: Catch Weapon
 Skill-Defense-Reaction
@@ -93,7 +93,7 @@ OnPass: No damage is taken.|
 A8: Useful Distraction
 Skill-Support-Reaction
 Trigger: A combatant attacks you while an allie is in an adjacent square.
-Effect: The allie gets to make a free luck roll. Upon beating 15, they steal the item at the bottom in their inventory.
+Effect: The allie gets to make a free luck roll. Upon beating 15, they steal the item at the bottom in their inventory.|
 
 A9: Resist Friendly Fire
 Skill-Support-Passive
