@@ -44,7 +44,7 @@ function onLoadMonster() {
 
     // Scores
     SetHTMLByID("Element");
-    SetHTMLByID("Movement");
+    SetHTMLByID("Initiative");
     SetHTMLByID("Carry");
     SetHTMLByID("PrimaryDamage");
     SetHTMLByID("SecondaryDamage");
@@ -85,7 +85,7 @@ function onLoadClass()
     var Stamina = "Stamina";
     var Mana = "Mana";
     var Focus = "Focus";
-    var Movement = "Movement";
+    var Initiative = "Initiative";
     var Carry = "Carry";
     var Element = "Element";
     var Melee = "Melee";
@@ -99,7 +99,7 @@ function onLoadClass()
     document.getElementById(Health).innerText = GetTxtAttribute(Health);
     document.getElementById(Mana).innerText = GetTxtAttribute(Mana);
     document.getElementById(Focus).innerText = GetTxtAttribute(Focus);
-    document.getElementById(Movement).innerText = GetTxtAttribute(Movement);
+    document.getElementById(Initiative).innerText = GetTxtAttribute(Initiative);
     document.getElementById(Carry).innerText = GetTxtAttribute(Carry);
     document.getElementById(Element).innerText = GetTxtAttribute(Element);
     document.getElementById(Melee).innerText = GetTxtAttribute(Melee);

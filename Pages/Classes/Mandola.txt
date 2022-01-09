@@ -22,7 +22,7 @@ Stamina: 8|
 Focus: 22|
 
 SCORES
-Movement: 2sq|
+Initiative: 5|
 Carry: 6u|
 Element: Wind|
 
@@ -35,14 +35,14 @@ Abilities
 Innate:Take Root
 Melee-Support-Action
 Use: 15AP
-Your Movement is reduced to 0sq as you become affixed to the surface of your choice; you are unaffected by
+Your Movement is disabled as you become affixed to the surface of your choice; you are unaffected by
 forced-movement effects.
 At the end of your turn, restore 3{Melee} Health.|
 
 A1:Seed Gun
 Skill-Offensive-Action
 Use: 10AP+3fcs
-Range: 5sq
+Range: 1sp
 Make three accuracy checks as part of this ability.
 Accuracy: Skill
 For each hit, deal 2{Skill} damage.|
@@ -50,9 +50,9 @@ For each hit, deal 2{Skill} damage.|
 A2:Blossom
 Skill-Offensive-Action
 Use: 20AP
-AoE: 1{Skill}sq sphere
+AoE: 1+({PL}/4)sp sphere
 Check: Skill
-OnPass: Affected enemy makes a free Movement action in the direction of your position.|
+OnPass: Affected enemy makes a Movement action in the direction of your position.|
 
 A3:Photosynthesis
 Skill-Support-Action
@@ -81,7 +81,7 @@ A7:Acid Splash
 Melee-Offensive-Action/Reaction
 Trigger: You are attacked
 Use: 10AP
-Range: 2sq
+Range: 0sp
 Accuracy: Melee
 OnPass: Choose a positive status effect to undo.|
 
@@ -89,7 +89,7 @@ A8:Attract Bees
 Skill-Defensive-Action
 Use: 7AP+5Sta
 Create a Bee Swarm token anywhere along the (relative) south border of the battlefield.
-At the end of your turn, the Bee Swarm token moves 3sq towards the nearest enemy Combatant,
+At the end of your turn, the Bee Swarm token moves 1sp towards the nearest enemy Combatant,
 whereupon entering the square, the token is destroyed and the enemy takes 3{Skill} damage.|
 
 A9:Bear Fruit

@@ -25,7 +25,7 @@ Stamina: 10|
 Focus: 10|
 
 SCORES
-Movement: 4sq|
+Initiative: 10|
 Carry: 12u|
 Element: Fire|
 
@@ -40,15 +40,15 @@ Skill-Offense-Action
 (Choose Mode A or B)
 A Mode
     Use: 10AP
-    Range: 5sq
+    Range: 0sp
     Accuracy: Skill
     Effect: Make 3 Accuracy checks against the target; each success inflicts 3{Skill} damage.
 
 B Mode
-    Use: 10AP
+    Use: 1sp
     Range: 2sq Cone AoE
     Accuracy: Melee
-    Effect: Make an Accuracy check against up to 3 targets; each success inflicts 3{Skill} damage.|
+    Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts 3{Skill} damage.|
 
 A1: Ready Attack
 Skill-Support-Action
@@ -59,12 +59,12 @@ is triggered when you are attacked. This lasts until the start of your next turn
 A2: Multi-slash
 Skill-Offense-Action
 Use: 5sta+10AP
-Effect: Target and make a basic attack action against every enemy within melee-range of you.|
+Effect: Target and make a basic attack action against every enemy into 0sp of you.|
 
 A3: Firing Line
 Skill-Support-Action
 Cost: 5sta+3fcs+20AP
-Effect: Each ally within 1+{Skill/5}sq gets 10+{CL}AP for their next turn.|
+Effect: Each ally within {Skill/15}sq gets 10+{CL}AP for their next turn.|
 
 A4: Ignoble
 Magic-Support-Passive
@@ -78,8 +78,9 @@ Effect: Increase your Accuracy checks by +X;|
 A6: Terraform
 Melee-Support-Action
 Cost: 5sta+20AP!
-Effect: Put away (both) your weapons and remove a full cubic unit of material from an adjacent square (ceiling, floor, or wall).
-While holding the cube of material, you can only make Movement actions or, as a free action, place the cube down.|
+Effect: Create a Cube prop.
+Remove cubic meter of material from the surrounding environment.
+Cube prop: For 10AP, can be moved 1sp. Can cover 1 combatant at a time.|
 
 A7: Odor Trail
 Melee-Support-Action

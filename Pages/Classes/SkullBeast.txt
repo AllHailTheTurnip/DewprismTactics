@@ -18,7 +18,7 @@ Stamina: 25|
 Focus: 15|
 
 SCORES
-Movement: 5sq|
+Initiative: 12|
 Carry: 10u|
 Element: Fire|
 
@@ -37,11 +37,11 @@ Innate: Self Resurrection
     At 0, you revive with fully restored Vital scores.|
 A1: Upscale
     Magic-Support-Action
-    Use: 20AP + 10mna
+    Use: 20AP+7mna
     Halve your Melee Evasion and double your Melee Power.|
 A2: Full Charge
     Melee-Offensive-Action
-    Use: 20AP + 5sta
+    Use: 20AP+5sta
     Range: Reach
     For the duration of this action you are unaffected by difficult terrain.
     Make a free movement action.
@@ -49,12 +49,14 @@ A2: Full Charge
 A3: Enormous Leap
     Melee-Supportive-Action
     Use: 2sta
-    Range: 5+{CL}sq LoS
+    Range: 1+{CL/3}sq LoS
     Ignore a surface's elevation and jump up (or down) to it.|
 A4: Reckless Shove
     Melee-Offensive-Action
     Use: 10AP
     Accuracy: Melee
+    Damage: {Melee}
+    Luck: 10
     OnPass: The enemy is knocked prone.|
 A5: Jump Back
     Melee-Defensive-Reaction
@@ -65,24 +67,24 @@ A5: Jump Back
 A6: Firebreath
     Magic-Offensive-Action
     Use: 10AP + 7Mna
-    Range: 5sq cone
+    Range: 0sp (up to three targets)
     Accuracy: Melee
-    OnHit: target takes 3{Magic} fire damage.|
+    OnHit: target(s) take 3{Magic} fire damage.|
 A7: Fireball
     Magic-Offensive-Action
     Use: 10AP + 5Mna
-    Range: 5sq LoS
+    Range: 0sp
     Accuracy: Melee
     OnHit: target takes 5{Magic} fire damage.|
 A8: Horrifying Screech
     Skill-Offensive-Action
     Use: 10AP + 5fcs
-    Range: 5+{CL}sq radius
+    Range: {CL/3}sp radius AoE
     Accuracy: Skill
     OnPass: Target is forced away from user until outside of range.|
 A9: Rampage
     Melee-Support-Action
-    Use: 15fcs + 10sta
+    Use: 15fcs+10sta
     Place a Rampage marker upon yourself.
     Destroy the marker after 1+({TL}/4) turns.
     Rampage marker: Taken damage is halved and Offensive actions cost half to use (min 5AP).|
