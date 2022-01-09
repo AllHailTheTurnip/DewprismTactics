@@ -42,9 +42,9 @@ A1: Throwing Stars
 Skill-Offense-Action
 Use: 3fcs+10AP
 Range: 0sp
-Select up to three combatants within range to target. Only one check is made against all three of them.
+Select up to three combatants within range to target. A check is made against each one.
 Accuracy: Skill
-OnHit: Target takes 1[Focus] Metal damage.|
+OnHit: Target takes 3{Skill} Metal damage.|
 
 A2: Shadow Clone Technique: Mantis Mirrorhouse
 Magic-Defense-Action
@@ -63,8 +63,8 @@ Melee-Offense-Action
 Use: 5fcs+2sta+15AP
 Range: 0sp
 Accuracy: Skill
-OnHit: Roll 1d20.
-1-5: Inflict 3[Skill] damage to their Health.
+OnHit: Inflict 3[Melee] damage to their Health. Roll 1d20.
+1-5: Inflict 1[Skill] damage to their Health
 6-10: Inflict 1[Skill] damage to their Stamina.
 11-15: Inflict 1[Skill] damage to their Mana.
 16-20: Inflict 1[Skill] damage to their Focus.|
@@ -92,8 +92,8 @@ OnPass: No damage is taken.|
 
 A8: Useful Distraction
 Skill-Support-Reaction
-Trigger: A combatant attacks you while an allie is in an adjacent square.
-Effect: The allie gets to make a free luck roll. Upon beating 15, they steal the item at the bottom in their inventory.|
+Trigger: A combatant attacks you while an allie is in the same space.
+Effect: The allie gets to make a free luck roll. Upon beating 8, they steal an unequipped item from the top of the target's inventory.|
 
 A9: Resist Friendly Fire
 Skill-Support-Passive
@@ -102,7 +102,7 @@ You cannot be damaged or affected by damage or status affects from allies.|
 A10: Guess Next Move
 Skill-Support-Action
 Use: 3fcs+5AP
-Effect: Declare an enemy combatant and ally combatant. The enemy gets disadvantage on any checks against them
+Effect: Declare an enemy combatant and ally combatant (or yourself). The enemy gets disadvantage on any checks against them
 until the start of your next turn.|
 
 MA1:|

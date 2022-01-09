@@ -71,11 +71,13 @@ Spore Marker: Lose 1{Creator's Skill} health. The creator gains any health lost 
 A5:Grow Bark
 Melee-Defensive-Action
 Use: 20AP
-Increase Melee:Evasion by 1.|
+Increase Melee:Evasion by 2 (Max 20).|
 
 A6:Tangle of Vines
-Skill-Support-Passive
-Enemy combatants cannot pass through the same square as you.|
+Skill-Defensive-Action
+Use: 10AP+5sta
+Create a Tangle of Vine prop in your square.
+Tangle of Vine: Enemy actions made in the same square as this prop cost an extra 5AP+1sta.|
 
 A7:Acid Splash
 Melee-Offensive-Action/Reaction
