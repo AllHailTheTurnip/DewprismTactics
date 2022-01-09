@@ -22,7 +22,7 @@ Stamina: 25|
 Focus: 10|
 
 SCORES
-Initiative: 13|
+Movement: 6sq|
 Carry: 20u|
 Element: Darkness|
 
@@ -37,17 +37,17 @@ Magic-Offensive-Action
 Use: 30AP!+8mna
 Choose a combatant to target, then jump into the sky (ignoring the ceiling) and leave the battlefield.
 When your AP is above 0, fall from the sky (ignoring the ceiling) into the target's square.
-Range: 0sp AoE
+AoE: 2sq circle
 Accuracy: Melee
 OnPass: Affected enemy combatants take 3{Melee+2} lightning damage.
 OnFail: Unaffected enemy combatants are pushed away from you until they leave the AoE.|
 
 A1:Chase
 Melee-Offensive-Action
-Use: 10AP+(Xsta/3)
+Use: 10AP+Xsta
 Target: Enemy combatant
 Accuracy: Melee
-Move up to Xsp in direction of target. Target must spend Xsta and move Xsp away or else take 3{Melee} damage.|
+Move up to Xsq in direction of target. Target must spend Xsta or else take 3{Melee} damage.|
 
 A2:Royal Armor
 Magic-Defensive-Passive
@@ -56,21 +56,20 @@ Reduce incoming damage by 1{Melee}|
 A3:Roar!
 Magic-Offensive-Action
 Use: 5mna
-Range: {TL/4}sp AoE
+AoE: {TL}sq sphere
 Luck: 12
 OnPass: Target loses 5AP from their next action. Luck checks are reduced by 2 until end of combat.|
 
 A4:Throw into the Sky
 Magic/Melee-Offensive-Action
 Use: 10sta
-Range: 0sp
+Range: Reach
 Target is hurled into the sky. On their next they fall to the ground and take 15{TL} fall damage.|
 
-A5: Gallop
-Melee-Support-Reaction
-Trigger: You make a Movement action.
-Use: 2sta
-Move an addition 1sq.|
+A5:Hop
+Melee-Support-Action
+Use: 1sta+1/turn
+Move {Movement/4}sq in any direction.|
 
 A6:Manifest
 Magic-Support-Action
@@ -80,12 +79,14 @@ Restore X{Magic} Health.|
 A7:Circle of Protection
 Magic-Defensive-Action
 Use: 10mna+1/turn
-Choose a combatant to give the Circle of Protection marker.
-Circle of Protection: As a free action, the marker's creator can teleport to the Circle of Protection.|
+Choose a target square or combatant to give the Circle of Protection marker.
+Circle of Protection: As a free action, the marker's creator can teleport to any square
+within 3sq of the marker's position.|
 
 A8:Carry
 Melee-Support-Passive
-Allies can climb onto your person. When you move, any allies on top of you are also moved.|
+Allies can climb onto your person as though it were a 1sq block. When you move, any allies
+on top of you are also moved.|
 
 A9:Shockwave
 Magic-Offensive-Action

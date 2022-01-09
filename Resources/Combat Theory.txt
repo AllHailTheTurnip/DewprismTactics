@@ -45,12 +45,12 @@ Base MSF Ranges
 - H	    20
 - VH	25
 
-Initiative Ranges
-VS	5
-S	8
-M	10
-F	12
-VF	15
+Speed Ranges
+VS	2
+S	3
+M	4
+F	5
+VF	6
 
 Carry Ranges
 VL	5

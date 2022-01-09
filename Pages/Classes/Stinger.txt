@@ -15,7 +15,7 @@ Stamina: 15|
 Focus: 20|
 
 SCORES
-Initiative: 10|
+Movement: 5sq|
 Carry: 8u|
 Element: Wind|
 
@@ -46,14 +46,14 @@ Growback token: Undo the effects of Shrink Down (double your Power scores and ha
 A3: Coat with Poison
 Skill-Offensive-Action
 Use: 10AP + 4fcs
-Range: Any ally on the battlefield.
+Range: Any of your weapon's or an adjacent allie's weapons.
 If it doesn't already have it, give it the attribute of Poison 1{Skill}.|
 
 A4: Sever Artery
 Skill-Offensive-Reaction
 Trigger: You declare a basic melee action.
 Use: 5AP + 5fcs
-Range: 0sp
+Range: 1sq
 Until the end of your turn, the acting weapon has Bleed 2{Skill}.|
 
 A5: Throwing Needles
@@ -65,16 +65,16 @@ Throwing Needle (Type: Skill, WC: VL, Use: 5AP, Pwr: 1. Weight: 0.2u; it costs 0
 A6: Acupuncture
 Skill-Support-Action
 Use: 10AP
-Range: Ally in same square.
+Range: An adjacent allie.
 Luck: 12
 Restore a disabled ability or disabled action.|
 
-A7: Pierce Piece
+A7: Pierce Token
 Skill-Offensive-Action
 Use: 10AP + 3fcs
-Range: 0sq+(TL/4)
+Range: 5sq+(TL/4)
 Accuracy: Skill
-OnPass: Destroy a targeted token or prop.|
+OnPass: Destroy a targeted token.|
 
 A8:Conjure Antidote
 Skill-Support-Action
@@ -85,12 +85,12 @@ Add 1x Antidote to your inventory.|
 A9:Throw Caltrop
 Skill-Defensive-Action
 Use: 5AP + 5fcs
-Range: 0sp
+Range: 3sq
 Place Caltrop props on up to {Skill}/6 unique squares.
 Caltrop prop: Counts as difficult terrain. Upon entering square, take {Skill} damage.|
 
 A10:Suture
 Skill-Support-Action
 Use: 8AP
-Range: Combatant in same space.
+Range: Adjacent Combatant
 Removes Bleed|

@@ -26,7 +26,7 @@ Stamina: 20|
 Focus: 15|
 
 SCORES
-Initiative: 8|
+Movement: 3sq|
 Carry: 7u|
 Element: Wind|
 
@@ -39,21 +39,19 @@ Abilities
 Innate: Proximity Strike
 Skill-Defensive-Reaction
 Use: 3fcs
-Trigger: An opponent enters same space as you.
+Trigger: An opponent enters within 1sq of you.
 Make a Basic Attack action against the encroaching target.|
 
 A1: Conjure Pit
 Magic-Support-Action
 Use: 15AP+5mna
-Range: 0sp
-Effect: Create a pit on this space.
-When an enemy combatant enters into a space with the pit, check and compare below their melee-evasion.
-On failure, they are become prone.|
+Range: 1sq
+Effect: Choose an adjacent square terrain and destroy it, creating up to a 1+{Magic/5} deep pit.|
 
 A2: Peck!
 Melee-Offensive-Action|
 Use: 7AP
-Range: 0sp
+Range: Reach
 Accuracy: Melee
 Damage: 2{Skill}
 Luck: 15
@@ -66,7 +64,7 @@ Effect: When making a Movement Action, you may move half your speed in any direc
 A4: Copy Spell
 Skill-Support-Reaction
 Cost: 5fcs
-Trigger: A combatant within {Skill/15}sp uses a Magic-type ability.
+Trigger: A combatant within 2sq+{Skill/5} uses a Magic-type ability.
 Luck: 8
 OnPass: You gain the targeted spell as an ability, indexed after your tenth ability.
 You may only copy one ability at a time.|
@@ -74,27 +72,27 @@ You may only copy one ability at a time.|
 A5: Deafening Screech
 Melee-Offensive-Action
 Use: 10AP+5sta+2fcs
-Range: All enemy combatants within {Melee/10}sp.
+Range: All enemy combatants within {Melee/2}sq.
 Accuracy: Melee
 OnPass: Target is now deaf. Any Magic-type ability checks now have disadvantage.|
 
 A6: Gift of Wings
 Skill-Support-Action
 Use: 10AP+3fcs
-Range: [PL/5] friendly combatant.
+Range: 1+[PL/5] friendly combatant.
 Effect: Target gain Flight until the end of their next turn.|
 
 A7: Gather Flock
 Magic-Support-Action
 Use: 10AP+3mna
-Range: Any ally within 1sp+{Magic/15}.
+Range: Any ally within 10sq+{Magic/5}.
 Effect: Choose one target to be the waypoint. Choose up to 1+{Magic/10} allies to be subjects.
 Each subject is instantly relocated to an adjacent square beside the waypoint.|
 
 A8: Hatch Egg.
 Melee-Support-Action
 Use: 15AP+5sta
-Range: 0sp.
+Range: Your square.
 Effect: Create a copy of yourself. Your copy has your exact base Scores, Abilities, and Evasion Stats,
  while having Vitals and Power Stats equal to 1/4 your own.
  You choose the monster's Role, but its intelligence is equal to a Drone.

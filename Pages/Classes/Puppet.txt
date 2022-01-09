@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
 Title:|
@@ -32,6 +33,11 @@ Title:|
 Subtitle:|
 Description:|
 >>>>>>> parent of a37f5b2 (Update Puppet.txt)
+=======
+Title:|
+Subtitle:|
+Description:|
+>>>>>>> parent of c8a131c (Finished adapting to spaces.)
 ???
 
 VITALS
@@ -41,7 +47,7 @@ Stamina: 15|
 Focus: 15|
 
 SCORES
-Initiative: 10|
+Movement: 4sq|
 Carry: 10u|
 Element: Neutral|
 

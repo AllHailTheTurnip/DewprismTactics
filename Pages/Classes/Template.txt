@@ -10,7 +10,7 @@ Stamina: 15|
 Focus: 15|
 
 SCORES
-Initiative: 10|
+Movement: 4sq|
 Carry: 10u|
 Element: Neutral|
 

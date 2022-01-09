@@ -23,7 +23,7 @@ Stamina: 17|
 Focus: 12|
 
 SCORES
-Initiative: 10|
+Movement: 4sq|
 Carry: 5u|
 Element: Electric & Light|
 
@@ -43,7 +43,7 @@ Innate: Acquire Shape
 A1: Carry Spirit
     Magic-Support-Action
     Use: 5Mna
-    Range: 0sp
+    Range: 0sq
     If an ally had died since your last turn, you may create a Spirit token from a fragment of their spirit.
     Spirit Token: While on the same square of a body that is over 0HP, for 5AP the token can be destroyed, releasing the spirit into the new body.|
 A2: Block
@@ -59,7 +59,7 @@ A3: Avenge Ally
 A4: Arc Slash
     Melee-Offensive-Action
     Use: 10AP
-    Range: 0sp
+    Range: 2sq melee
     Every enemy combatant within range takes 1{Melee} damage.|
 A5: Path of Duty
     Magic-Defensive-Reaction
@@ -78,14 +78,14 @@ A7: Call Friend
 A8: Wander
     Skill-Support-Action
     Use: 10AP
-    Roll d20 as 'A', d20 as 'B'
+    Roll d20 (A), d20 (B)
     South is towards your starting position.
-    If A > 10, move up to 1sp+{TL/5} east; else, move up to 1sp+{TL/5} west.
-    If B > 10, move up to 1sp+{TL/5} north; else, move up to 1sp+{TL/5} south.|
+    If A > 10, move up to 3sq+1sq{TL} east; else, move up to 3sq+1sq{TL} west.
+    If B > 10, move up to 3sq+1sq{TL} north; else, move up to 3sq+1sq{TL} south.|
 A9: Dive Slash
     Melee-Offensive-Action
     Use: 10AP + 7Sta
-    Range: {CL/4} LoS
+    Range: CL LoS
     Choose an enemy within range and leap through the air towards them.
     Make a free attack action with +5 to your accuracy check.|
 A10: Combo

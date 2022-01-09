@@ -22,7 +22,7 @@ Stamina: 15|
 Focus: 20|
 
 SCORES
-Initiative: 12|
+Movement: 6sq|
 Carry: 5u|
 Element: Dark|
 
@@ -35,36 +35,36 @@ Abilities
 Innate: *Poof*
 Skill-Support-Action
 Use: 1fcs+1sta+1mna+5AP
-Range: 1+[CL/3]sq
-Effect: Relocate yourself to any space within range.|
+Range: 3+[CL]sq
+Effect: Relocate yourself to any square within range.|
 
 A1: Throwing Stars
 Skill-Offense-Action
 Use: 3fcs+10AP
-Range: 0sp
-Select up to three combatants within range to target. Only one check is made against all three of them.
+Range: 5sq cone
 Accuracy: Skill
-OnHit: Target takes 1[Focus] Metal damage.|
+OnHit: Target takes 1[Focus] Metal damage.
+Select up to three combatants within range to target. Only one check is made against all three of them.|
 
 A2: Shadow Clone Technique: Mantis Mirrorhouse
 Magic-Defense-Action
 Use: 5mna+10AP
-Range: [Skill/15]sq
-You become surrounded by illusionary copies of yourself. Increase your Evasion scores by 2+[Skill/10] until your next
-turn. When your turn starts, you burn 10AP and make a basic attack action.|
+Range: [Skill]/3sq
+You become surrounded by illusionary copies of yourself. Increase your Evasion scores by [Skill] until your next
+turn. When your turn starts, you burn 10AP to make a basic attack action.|
 
 A3: Water Walk
 Focus-Support-Passive
+Use: --
 You can walk on water without sinking (or choose to fall in, it's cool).
 Likewise, waterfalls are treated as solid objects that can be climbed.|
 
 A4: Secret Fist
 Melee-Offense-Action
 Use: 5fcs+2sta+15AP
-Range: 0sp
 Accuracy: Skill
 OnHit: Roll 1d20.
-1-5: Inflict 3[Skill] damage to their Health.
+1-5: Inflict 1[Skill] damage to their Health.
 6-10: Inflict 1[Skill] damage to their Stamina.
 11-15: Inflict 1[Skill] damage to their Mana.
 16-20: Inflict 1[Skill] damage to their Focus.|

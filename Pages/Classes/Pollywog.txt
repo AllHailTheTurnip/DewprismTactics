@@ -17,7 +17,7 @@ Stamina: 12|
 Focus: 15|
 
 SCORES
-Initiative: 10|
+Movement: 4sq|
 Carry: 7u|
 Element: Water|
 
@@ -37,11 +37,11 @@ A1: Hover
 A2: Quick Slap
     Melee-Offensive-Action
     Use: 7AP
-    Make an unarmed water-type attack.|
+    Make an unarmed water attack.|
 A3: Chomp
     Melee-Offensive-Action
     Cost: 12AP
-    Range: 0sp
+    Range: Reach
     Enemy takes 1{Melee} neutral damage.|
 A4: Lay Egg
     Skill-Support-Action
@@ -52,29 +52,29 @@ A4: Lay Egg
 A5: Water Gun
     Skill-Offensive-Action
     Cost 10AP + 3Foc
-    Range: 1sp
+    Range: 5sq LoS
     Accuracy: Melee
     OnPass: Target takes 3{Skill}+3 water dmg.|
 A6: Follow
     Melee-Support-Reaction
     Trigger: An ally makes a movement action.
-    Cost: 2Sta
+    Cost: 2 Sta
     Make a free movement action to follow in their direction.|
 A7: Hide
     Melee-Defensive-Reaction
     Trigger: A combatant's turn begins.
-    Cost: 5Sta
+    Cost: 5 Sta
     You may gain Stealth status and make a free movement action.|
 A8: Nurture
     Magic-Support-Action
     Cost: 10AP
-    Range: 0sp
+    Range: Reach
     Restore 2{Magic} Health to an ally.|
 A9: Regroup
     Magic-Support-Action
-    Cost: 5Mna
+    Cost: 5 Mna
     Choose an ally to be given a Regroup token. The user of the token may destroy the token and teleport beside the token's donor.|
 A10: Gang-up
     Magic-Support-Action
     Cost: 4 Mna
-    All allies on the battlefield are pulled {CL}sq towards you.|
+    All allies on the battlefield are pulled 3+{CL}sq towards you.|

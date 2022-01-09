@@ -16,7 +16,7 @@ Stamina: 15|
 Focus: 10|
 
 SCORES
-Initiative: 10|
+Movement: 4sq|
 Carry: 7u|
 Element: Noble|
 
@@ -40,7 +40,7 @@ A1: Switch Magic Shape
 A2: Flying Kick
     Melee-Offensive-Action
     Use: 10AP
-    Range: 0sp LoS
+    Range: 5sq LoS
     Increase your critical-success range by 5 and your critical-failure range by 5 until the end of your turn.
     Choose a target within range and leap through the air into their square, making a free attack action
     when you arrive.|
@@ -48,12 +48,12 @@ A3: Scheme
     Skill-Support-Action
     Use: 30AP + 5fcs
     Create a Scheme counter (3) and grant it to yourself or an ally.
-    Scheme counter: 1+{TL/3} bonus to all the holder's Talent and Accuracy checks for the next (X) turns.|
+    Scheme counter: 1+{TL}/3 bonus to all the holder's Talent and Accuracy checks for the next (X) turns.|
 A4: Magic Burst
     Magic-Offensive-Action
     Use: 5Mna
     Accuracy: Magic
-    Range: 0sp (Target up to 1+{TL/4} enemies)
+    Range: 3sq Cone
     OnHit: Target(s) takes 3{Magic} neutral damage.|
 A5: Spur Power
     Melee-Support-Reaction
@@ -66,7 +66,7 @@ A6: Switch Magic Mode
 A7: Fireball
     Magic-Offensive-Action
     Use: 10AP + 3mna
-    Range: 0sp LoS
+    Range: 5sq LoS
     Accuracy: Melee
     OnHit: Target takes 3{Magic} fire damage. On critical, target catches fire (Burning 1{TL}).|
 A8: Acquire Magic
@@ -76,13 +76,13 @@ A8: Acquire Magic
 A9: Create Ice Wall
     Magic-Defensive-Action
     Use: 10AP + (1-5mna as X)
-    Range: 0sp instant
+    Range: 5sq instant
     Create X Ice Block obstacles.
     Tree obstacle: 1sq cube of ice. 10{Magic} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
 A10: Ward Danger
     Magic-Defensive-Action
     Use: 5AP + 5mna
-    Range: 0sp LoS
+    Range: 5sq LoS
     Create a Ward marker and grant it to yourself or an ally within range (max 1/combatant).
     Ward marker: while marked, +5 to Magic Evasion.|
 

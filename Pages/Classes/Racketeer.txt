@@ -17,7 +17,7 @@ Stamina: 20|
 Focus: 13|
 
 SCORES
-Initiative: 10|
+Movement: 4sq|
 Carry: 10u|
 Element: Neutral|
 
@@ -29,10 +29,10 @@ Skill: (Power: 6, Evasion: 12)|
 Abilities
 Innate:Hack-N-Slash
 Melee-Offensive-Action
-Use: 13AP+5sta
-Choose a combatant and move 1sp in their initial direction.
-When you enter within melee-range of the opponent, deal 1{Melee} damage. The target is knocked prone.
-If possible, continue to move into the next space in a straight line.|
+Use: 10AP + 5sta
+Choose a combatant and move {Movement}sq in their initial direction.
+When you enter within melee-range of the opponent, deal 1{Melee} damage. The target is pushed back 1sq.
+Continue to move until you run out of Movement.|
 
 A1:Doubleteam
 Melee-Offensive-Passive
@@ -41,21 +41,21 @@ When attacking an enemy, you may spend an additional 5fcs to to grant a free bas
 A2:Shove
 Melee-Offensive-Action
 Use: 10AP+5sta
-Range: 0sp
+Range: Reach
 Accuracy: Melee
-OnPass: Enemy is forced away from up to {TL/4}sp.|
+OnPass: Enemy is forced away from up to 1+{TL/3}sq.|
 
 A3:Kidnap
 Melee-Offensive-Action
 Use: 10AP+3sta
-Range: 0sp
+Range: Reach
 Accuracy: Melee
 OnPass: The target is grabbed. The user makes a free Movement action with the target in tow. Release the target.|
 
 A4:Smash Item
 Melee-Offensive-Action
 Use:10AP
-Range: 0sp
+Range: Reach
 Look at the target's Equipment and choose an item to target.
 Accuracy: Skill
 OnPass: Targeted item is destroyed.|
@@ -74,7 +74,7 @@ OnPass: Target's Movement is reduced by 2sq+{CL} (to a minimum of 1sq) until the
 A7:Menacing Invitation
 Skill-Support-Action
 Use: 10AP+5sta
-Range: 0sp
+Range: Reach
 Choose an allie to the be the Menacing Invitation's destination.
 Add a Menacing Invitation consumable to the target's inventory (Weighs nothing).
 Menacing Invitation: On consumption, translate yourself to the destination.|
@@ -82,7 +82,7 @@ Menacing Invitation: On consumption, translate yourself to the destination.|
 A8:Burgle
 Skill-Offensive-Action
 Use: 10AP
-Range: 0sp
+Range: Reach
 Accuracy: Melee
 OnPass: Choose an item from the target's inventory and add it to your own.|
 
