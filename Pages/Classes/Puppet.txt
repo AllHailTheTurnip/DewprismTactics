@@ -1,6 +1,24 @@
+<<<<<<< Updated upstream
 Title:|
 Subtitle:|
 Description:|
+=======
+Short
+Cursed/Magic
+Guardians
+Undead
+Graceless
+Simple
+Gang-up
+Can be controlled
+
+Title: Puppet|
+Subtitle: Cursed Soldiers|
+Description: The original puppets were slave soldiers, who, in their final hours, were cursed
+to live forever in the cold confines of leather dolls. Even in the death of their master they
+would never be set free, but would guard their tomb until the ends of days. Though that practice
+has |
+>>>>>>> Stashed changes
 ???
 
 VITALS
