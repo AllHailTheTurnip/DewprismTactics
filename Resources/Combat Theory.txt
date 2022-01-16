@@ -31,7 +31,7 @@ Avg: 	15
 H:	    20
 VH: 	25
 
-Base Health Ranges
+Health Ranges
 VL	15
 L	30
 Avg	45
@@ -64,8 +64,8 @@ Health Factors
 - Score (sets base)
 
 Health Multipliers
-Pest =      0.5
-Mob =       1
+Pest =      0.1
+Mob =       0.3
 Player =    1
 Miniboss =  4
 Boss =      8

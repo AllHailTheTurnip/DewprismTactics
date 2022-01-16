@@ -1,46 +1,107 @@
-Short
-Cursed/Magic
-Guardians
-Undead
-Graceless
-Simple
-Gang-up
-Can be controlled
-
 Title: Puppet|
 Subtitle: Cursed Soldiers|
-Description: |
+Description: During their mortal lives they were soldiers bound in eternal slavery to
+wizarding masters. Even in death their chains remained; their masters bound their souls
+within crude puppets. And so they remained as soldiers ever after, endlessly patrolling
+long after their masters had died and the world at large moved on.
+<p> Though the practice of soul-binding has long since been outlawed, puppets can
+still be found throughout the world, often in long-forgotten tombs and fortresses. Yet
+there are other puppets out roaming the open world, often in service to somebody,
+and sometimes alone, looking for someone to call their master.
+</p><p>
+No puppet remembers who they were in their past life, but much of their character - personality,
+quirks, and behaviors - persists. They are rational creatures with irrational natures:
+they can reason and make weighted decisions, but their inmost natures decree that they
+should serve a master. There are legends of puppets who have had their eternal chains broken,
+but they are just legends.
+</p>|
 ???
 
 VITALS
-Health: 45|
-Mana: 15|
+Health: 30|
+Mana: 10|
 Stamina: 15|
-Focus: 15|
+Focus: 17|
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 13|
+Carry: 8u|
+Element: Wind|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 3, Evasion: 12)|
+Magic: (Power: 4, Evasion: 10)|
+Skill: (Power: 3, Evasion: 6)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
-A10:|
+Innate: High Alert
+Skill-Defensive-Reaction
+Range: CL/5
+Trigger: An enemy combatant enters within range.
+Effect: Make a free basic attack against the intruding enemy combatant.|
 
-MA1:|
+A1: Strung-Up
+Melee-Defense-Passive
+Effect: You are immune to Prone.|
+
+A2: Enchanted Object
+Magic-Support-Passive
+Effect: Increase Magic-type checks by +3.|
+
+A3: Patrol
+Melee-Support-Action
+Use: 3sta
+Effect: Make a Movement action.|
+
+A4: Unliving
+Magic-Support-Passive
+Effect: Immune to Asleep, Bleeding, and Poison.|
+
+A5: Wild Flail
+Melee-Offensive-Action
+Use: 10AP
+Effect: Make an unarmed attack (include only your base power for damage) with +5 to its accuracy check.
+You may spend an additional 3sta to make an extra unarmed attack, or 7sta to make two extra unarmed attacks.|
+
+A6: Mime Action
+Magic-Defense-Reaction
+Trigger: A combatant makes an action.
+Range: Line of Sight
+Luck: 15
+Use: 7fcs
+Effect: Execute the same action as the target after their action is resolved.|
+
+A7: Gang Attack
+Skill-Offensive-Reaction
+Trigger: You attack a combatant.
+Effect: Any allies within the same space as your target may spend 5fcs to make a free basic attack action at
+the same target.|
+
+A8: Conjure Controller
+Magic-Support-Action
+Use: 7AP+3mna
+Range: 0sp
+Effect: Create a Controller item and give it to an ally within range. You are regarded as the Controller's puppet.
+Controller: While equipped, treat the puppet as an extension of yourself; any actions you make, you may have the
+puppet perform instead.|
+
+A9: Reassemble
+Skill-Support-Passive
+Range: 0sp
+Effect: While KO'd, an ally within range may spend 15AP to revive you at 1HP.
+While dead, an ally within range may spend 30AP to revive you at 1HP.|
+
+A10: Steal Part
+Skill-Defense-Action
+Use: 12AP+5fcs
+Range: 0sp
+Accuracy: Skill
+Effect: Remove a negative status effect and give it to a combatant within range.|
+
+MA1: Full Alert
+Skill-Defense-Reaction
+Range: CL/5
+Trigger: An enemy combatant makes a movement action within range.
+Effect: Make a free action (ability or basic) against the intruding combatant.|
 MA2:|
 MA3:|

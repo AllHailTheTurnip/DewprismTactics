@@ -19,7 +19,7 @@ VITALS
 Health: 50|
 Mana: 12|
 Stamina: 8|
-Focus: 22|
+Focus: 20|
 
 SCORES
 Initiative: 5|
