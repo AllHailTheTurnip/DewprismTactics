@@ -1,10 +1,6 @@
 Title: Saber Tiger|
 Subtitle: Swift and Lethal|
-
-Title:|
-Subtitle:|
-Description:|:
-Saber Tigers are expert assassins, trained in a variety of fighting methods ranging from
+Description: Saber Tigers are expert assassins, trained in a variety of fighting methods ranging from
 the secret arts to the dark arts.
     <p>Stranger than mere killers, their methodology can be
 gruesome and quite possibly sickening, where at times it becomes hard to find respectable
@@ -63,7 +59,7 @@ A5: Tactical Retreat
 A6: Astounding Speed
     Melee-Support-Reaction
     Trigger: You make a basic Movement action
-    You may move an additional space.
+    You may move an additional space.|
 A7: Sharpen Edge
     Skill-Support-Action
     Cost: 31-{TL}AP
