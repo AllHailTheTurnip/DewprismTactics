@@ -42,13 +42,13 @@ A Mode
     Use: 10AP
     Range: 0sp
     Accuracy: Skill
-    Effect: Make 3 Accuracy checks against the target; each success inflicts 3{Skill} damage.
+    Effect: Make 3 Accuracy checks against the target; each success inflicts 3{SklPwr} damage.
 
 B Mode
     Use: 1sp
     Range: 2sq Cone AoE
     Accuracy: Melee
-    Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts 3{Skill} damage.|
+    Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts 3{SklPwr} damage.|
 
 A1: Ready Attack
 Skill-Support-Action
@@ -96,7 +96,7 @@ Pincers (Type: Skill, WC: M, Use: 10AP, Power: 3, Weight: 1u, Element: Wind; Sev
 
 A9: Oversize
 Melee-Support-Passive
-Effect: At the start of combat, your melee:power is doubled and your melee:evasion is halved.|
+Effect: At the start of combat, your {MlePwr} is doubled and your MleEva is halved.|
 
 A10: Break Bonds
 Melee-Support-Action

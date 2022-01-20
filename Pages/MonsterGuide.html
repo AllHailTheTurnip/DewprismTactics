@@ -153,25 +153,29 @@
     Over the years, treasure hunters have come across monsters of all shapes and sizes, some larger
     than others. To help categorize these differences, they coined a set of terms that just seemed to
     stick. The bigger they are,
-    the stronger they'll be. But keep in mind, it's rare that a monster gets too big, where more
-    than likely they'll become the alpha of their group.
+    the stronger they'll be. But keep in mind, the bigger a monster becomes, the more likely they'll
+    become the alpha of their group.
     <p>
-        By default, all monsters are typed as mobs. To change its type, take the template and scale-up
-        (or -down) its stats.
+        By default, all monsters are typed as mobs. To change its type, take the template below and apply
+        <b>Factor and Replace</b> (FaR) as necessary.
     </p>
+    <div>
+        Factor and Replace X (FaR)<br>
+        Estimate how many 5's factor into the value, then recalculate the value where 5 is replace with X.
+    </div>
 
     <ul>
         <li>
             <b>Runt</b><br>
             <ul>
                 <li>
-                    Vitals: x0.25
+                    Vitals: FaR 1.
                 </li>
                 <li>
-                    Damage: x0.25
+                    Power Scores: Reduce by 2.
                 </li>
                 <li>
-                    Loot and Experience: x0.25
+                    Loot and Experience: Divide by 4.
                 </li>
             </ul>
 
@@ -181,10 +185,10 @@
             <b>Mob</b><br>
             <ul>
                 <li>
-                    Vitals: x0.5
+                    Vitals: FaR 3
                 </li>
                 <li>
-                    Power Scores: x0.5
+                    Power Scores: Reduce by 1.
                 </li>
                 <li>
                     Loot and Experience: x1
@@ -192,16 +196,33 @@
             </ul>
         </li>
         <li>
+            <b>Heavy</b>
+            <ul>
+                <li>
+                    Vitals: Do Not Adjust.
+                </li>
+                <li>
+                    Power Scores: Do Not Adjust.
+                </li>
+                <li>
+                    Loot and Experience: x1.5
+                </li>
+            </ul>
+        </li>
+        <li>
             <b>Miniboss</b><br>
             <ul>
                 <li>
-                    Vitals: x2
+                    Vitals: FaR 7
+                </li>
+                <li>
+                    Power Score: Increase by 1.
                 </li>
                 <li>
                     Loot and Experience: x2
                 </li>
                 <li>
-                    Access to their class's first listed Master Ability
+                    Access to one of their class's listed Master Abilities.
                 </li>
             </ul>
         </li>
@@ -209,13 +230,16 @@
             <b>Boss</b><br>
             <ul>
                 <li>
-                    Vitals: x4
+                    Vitals: FaR 9.
+                </li>
+                <li>
+                    Power Score: Increase by 2.
                 </li>
                 <li>
                     Loot and Experience: x4
                 </li>
                 <li>
-                    Access to all three of their class's listed Master Abilities.
+                    Access to two of their class's listed Master Abilities.
                 </li>
             </ul>
         </li>
@@ -401,13 +425,16 @@
     </h3>
     <ul>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1Pollywog.txt')">Pollywog</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv1PollywogMob.txt')">Pollywog (Level 1 Mob)</button>
         </li>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1Mandola.txt')">Mandola</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv1PollywogMob.txt')">Baby Pollywog (Level 1 Runt)</button>
         </li>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1SaberTiger.txt')">Saber Tiger</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv1Mandola.txt')">Mandola (Level 1 Mob)</button>
+        </li>
+        <li>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv1SaberTiger.txt')">Saber Tiger (Level 1 Mob)</button>
         </li>
         <li>
             Stinger
@@ -504,6 +531,9 @@
         Level:
     </b><span id="AbtLevel"></span><br>
     <b>
+        Type:
+    </b><span id="AbtType"></span><br>
+    <b>
         Code:
     </b><span id="AbtCode"></span><br>
     <b>
@@ -548,8 +578,8 @@
         Element:
     </b><span id="AbtElement"></span><br>
     <b>
-        Movement:
-    </b><span id="AbtMovement"></span><br>
+        Initiative:
+    </b><span id="AbtInitiative"></span><br>
     <b>
         Carry:
     </b><span id="AbtCarry"></span><br>

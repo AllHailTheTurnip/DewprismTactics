@@ -1,9 +1,6 @@
 Title: Skull beast|
 Subtitle: Persistent Juggernaut|
-
-Title:|
-Subtitle:|
-Description:|:
+Description:
 A warrior trained in the legendary arts of the Skull Beast - they fear neither defeat nor death. Training begins at a
 young age, moulding their mind, body, and spirit to push them beyond normal limits. Over the
 course of their training they become well acquainted with pain, suffering, death - and coming back again.
@@ -38,14 +35,14 @@ Innate: Self Resurrection
 A1: Upscale
     Magic-Support-Action
     Use: 20AP+7mna
-    Halve your Melee Evasion and double your Melee Power.|
+    Halve your MleEva and double your MlePwr.|
 A2: Full Charge
     Melee-Offensive-Action
     Use: 20AP+5sta
     Range: Reach
     For the duration of this action you are unaffected by difficult terrain.
     Make a free movement action.
-    Make a Melee check against any combatants you pass by; on fail, they take 2{Melee} neutral damage.|
+    Make a Melee check against any combatants you pass by; on fail, they take 2{MlePwr} neutral damage.|
 A3: Enormous Leap
     Melee-Supportive-Action
     Use: 2sta
@@ -55,7 +52,7 @@ A4: Reckless Shove
     Melee-Offensive-Action
     Use: 10AP
     Accuracy: Melee
-    Damage: {Melee}
+    Damage: {MlePwr}
     Luck: 10
     OnPass: The enemy is knocked prone.|
 A5: Jump Back
@@ -69,13 +66,13 @@ A6: Firebreath
     Use: 10AP + 7Mna
     Range: 0sp (up to three targets)
     Accuracy: Melee
-    OnHit: target(s) take 3{Magic} fire damage.|
+    OnHit: target(s) take 3{MgcPwr} fire damage.|
 A7: Fireball
     Magic-Offensive-Action
     Use: 10AP + 5Mna
     Range: 0sp
     Accuracy: Melee
-    OnHit: target takes 5{Magic} fire damage.|
+    OnHit: target takes 5{MgcPwr} fire damage.|
 A8: Horrifying Screech
     Skill-Offensive-Action
     Use: 10AP + 5fcs

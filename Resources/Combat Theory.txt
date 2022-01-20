@@ -31,7 +31,7 @@ Avg: 	15
 H:	    20
 VH: 	25
 
-Health Ranges
+Health Ranges (Difficulty * WC * 3)
 VL	15
 L	30
 Avg	45
@@ -90,7 +90,32 @@ Average	3
 Great	5
 Max	    7
 
+----------------
+Sub5 for Y (S5)
+Take the value of X and divide by 5, then substitute 5 for Y. Calculate the new value.
+
+To Modify a Monster's Health...
+Break into factors and reduce (or increase) one of the 5's.
+Runt = -2
+Mob = -1
+heavy = +0
+Miniboss = +1
+Boss = +2
+
+To modify a monster's SMF vitals...
+Find factors and adjust the 5 by X.
+Runt = -2
+Mob = -1
+Heavy = 0
+MBoss = +1
+Boss = +2
+
+To modify a monster's damage.
+Reduce (or increase) their Power scores across the board by an amount.
+Runt = -2
+Mob = -1
+heavy = +0
+Miniboss = +1
+Boss = +2
 
 
-
-		

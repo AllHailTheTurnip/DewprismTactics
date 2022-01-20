@@ -44,7 +44,7 @@ Use: 3fcs+10AP
 Range: 0sp
 Select up to three combatants within range to target. A check is made against each one.
 Accuracy: Skill
-OnHit: Target takes 3{Skill} Metal damage.|
+OnHit: Target takes 3{SklPwr} Metal damage.|
 
 A2: Shadow Clone Technique: Mantis Mirrorhouse
 Magic-Defense-Action
@@ -63,11 +63,11 @@ Melee-Offense-Action
 Use: 5fcs+2sta+15AP
 Range: 0sp
 Accuracy: Skill
-OnHit: Inflict 3[Melee] damage to their Health. Roll 1d20.
-1-5: Inflict 1[Skill] damage to their Health
-6-10: Inflict 1[Skill] damage to their Stamina.
-11-15: Inflict 1[Skill] damage to their Mana.
-16-20: Inflict 1[Skill] damage to their Focus.|
+OnHit: Inflict 3{MlePwr} damage to their Health. Roll 1d20.
+1-5: Inflict 1{SklPwr} damage to their Health
+6-10: Inflict 1{SklPwr} damage to their Stamina.
+11-15: Inflict 1{SklPwr} damage to their Mana.
+16-20: Inflict 1{SklPwr} damage to their Focus.|
 
 A5:Energy Wave
 Magic-Offensive-Action

@@ -40,7 +40,7 @@ Melee-Offensive-Action
 Use: 10AP+2sta
 Range: 0sp
 Accuracy: Melee
-Damage: 3{Melee}
+Damage: 3{MlePwr}
 OnHit: Target loses 5AP from their next turn.|
 
 A1: Defensive Stance
@@ -63,7 +63,7 @@ Range: 0sp
 Effect: Conjure a ball with a diameter of 0sp (3~ meters wide).
 The ball is magical and can only be moved by standing on it and spending 10AP.
 If you move the ball into an enemy's space, they must spend 3sta to move into another space, or else
-take 3{Melee} damage.
+take 3{MlePwr} damage.
 
 A4: Waddle Waddle
 Melee-Support-Action|

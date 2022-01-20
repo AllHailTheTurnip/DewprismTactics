@@ -39,11 +39,11 @@ Magic-Offensive-Action
 Use: 10AP+4mna!
 Range: 0sp AoE
 Accuracy: Magic
-OnPass: Target takes 3{Magic} wind damage.|
+OnPass: Target takes 3{MgcPwr} wind damage.|
 
 A2:Stone Skin
 Magic-Defensive-Passive
-Reduce taken damage by {Melee} to a minimum of 1.|
+Reduce taken damage by {MlePwr} to a minimum of 1.|
 
 A3:Curse with Weakness
 Magic-Offensive-Action
@@ -97,7 +97,7 @@ Use: 12AP
 Range: 0sp
 Accuracy: Melee
 Roll 1+{TL/5} times for this ability.
-Target takes 1{Melee} damage
+Target takes 1{MlePwr} damage
 Target is now bleeding.|
 
 MA1: Perfect Petrification|

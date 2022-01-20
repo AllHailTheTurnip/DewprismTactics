@@ -35,7 +35,7 @@ Magic-Offense-Action
 Use: 10AP+1mna
 Range: [PL/4]
 Accuracy: Skill
-Damage: 3{Magic}
+Damage: 3{MgcPwr}
 OnHit: Target is knocked prone.|
 
 A1: Conjure Block
@@ -108,7 +108,7 @@ Magic-Support-Action
 Use: 10AP+5mna
 Range: Self
 Effect: You turn completely invisible; you cast no shadow and light passes completely through you.
-While invisible, your Dodge- and Skill-Evasion scores are raised to 20.
+While invisible, your MleEva- and SklEva scores are raised to 20.
 At the beginning of each turn, spend 2mna to remain invisible.
 If you take damage or run out of mana, you become visible again.|
 

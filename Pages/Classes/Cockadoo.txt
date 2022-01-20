@@ -47,7 +47,7 @@ Magic-Support-Action
 Use: 15AP+5mna
 Range: 0sp
 Effect: Create a pit on this space.
-When an enemy combatant enters into a space with the pit, check and compare below their melee-evasion.
+When an enemy combatant enters into a space with the pit, check and compare below their MleEva.
 On failure, they are become prone.|
 
 A2: Peck!
@@ -55,9 +55,9 @@ Melee-Offensive-Action|
 Use: 7AP
 Range: 0sp
 Accuracy: Melee
-Damage: 2{Skill}
+Damage: 2{SklPwr}
 Luck: 15
-OnPass: Bleeding {Skill}
+OnPass: Bleeding {SklPwr}
 
 A3: Flight
 Melee-Support-Passive

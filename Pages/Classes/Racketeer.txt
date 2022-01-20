@@ -31,7 +31,7 @@ Innate:Hack-N-Slash
 Melee-Offensive-Action
 Use: 13AP+5sta
 Choose a combatant and move 1sp in their initial direction.
-When you enter within melee-range of the opponent, deal 1{Melee} damage. The target is knocked prone.
+When you enter within melee-range of the opponent, deal 1{MlePwr} damage. The target is knocked prone.
 If possible, continue to move into the next space in a straight line.|
 
 A1:Doubleteam
@@ -88,7 +88,7 @@ OnPass: Choose an item from the target's inventory and add it to your own.|
 
 A9:Tactical Retreat
 Skill-Defense-Reaction
-Trigger: Your health is reduced to 1{Melee} or less.
+Trigger: Your health is reduced to 1{MlePwr} or less.
 Use: 5sta
 Make a free Movement action, but you can only move in the opposite direction of your attacker.|
 

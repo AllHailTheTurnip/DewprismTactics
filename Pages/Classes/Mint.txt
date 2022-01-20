@@ -54,7 +54,7 @@ A4: Magic Burst
     Use: 5Mna
     Accuracy: Magic
     Range: 0sp (Target up to 1+{TL/4} enemies)
-    OnHit: Target(s) takes 3{Magic} neutral damage.|
+    OnHit: Target(s) takes 3{MgcPwr} neutral damage.|
 A5: Spur Power
     Melee-Support-Reaction
     Trigger: A melee attack hits.
@@ -68,7 +68,7 @@ A7: Fireball
     Use: 10AP + 3mna
     Range: 0sp LoS
     Accuracy: Melee
-    OnHit: Target takes 3{Magic} fire damage. On critical, target catches fire (Burning 1{TL}).|
+    OnHit: Target takes 3{MgcPwr} fire damage. On critical, target catches fire (Burning 1{TL}).|
 A8: Acquire Magic
     Magic-Support-Action
     Use: 10AP + 5fcs
@@ -78,13 +78,13 @@ A9: Create Ice Wall
     Use: 10AP + (1-5mna as X)
     Range: 0sp instant
     Create X Ice Block obstacles.
-    Tree obstacle: 1sq cube of ice. 10{Magic} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
+    Tree obstacle: 1sq cube of ice. 10{MgcPwr} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
 A10: Ward Danger
     Magic-Defensive-Action
     Use: 5AP + 5mna
     Range: 0sp LoS
     Create a Ward marker and grant it to yourself or an ally within range (max 1/combatant).
-    Ward marker: while marked, +5 to Magic Evasion.|
+    Ward marker: while marked, +5 to MgcEva.|
 
 MA1: World Domination|
 MA2:|

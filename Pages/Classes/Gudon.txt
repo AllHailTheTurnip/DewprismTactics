@@ -45,7 +45,7 @@ Use: 5mna+10AP
 Range: 0sp+{mgc/15}
 AoE: Beam
 Accuracy: Melee
-Damage: 4{Mgc} fire|
+Damage: 4{MgcPwr} fire|
 
 A1:Venom Fangs
 Melee-Offense-Passive
@@ -58,7 +58,7 @@ Stamina, Mana, and/or Focus regained from consumables is increased by 5{PL}|
 A3:Camouflage
 Melee-Defense-Action
 Use: 10AP
-Effect: End your turn. Increase your Skill's Evasion by 5+{Melee} until your next action.|
+Effect: End your turn. Increase your SklEva by 5+{MlePwr} until your next action.|
 
 A4:Regenerate
 Magic-Support-Passive
@@ -82,7 +82,7 @@ Melee-Offense-Action
 Use: 15AP!
 Range: 0sp AoE
 Accuracy: Melee
-Damage: 3{Melee}|
+Damage: 3{MlePwr}|
 
 A8:Low-Light Vision
 Skill-Support-Passive

@@ -39,7 +39,7 @@ Choose a combatant to target, then jump into the sky (ignoring the ceiling) and 
 When your AP is above 0, fall from the sky (ignoring the ceiling) into the target's square.
 Range: 0sp AoE
 Accuracy: Melee
-OnPass: Affected enemy combatants take 3{Melee+2} lightning damage.
+OnPass: Affected enemy combatants take 3{MleEva+2} lightning damage.
 OnFail: Unaffected enemy combatants are pushed away from you until they leave the AoE.|
 
 A1:Chase
@@ -47,11 +47,11 @@ Melee-Offensive-Action
 Use: 10AP+(Xsta/3)
 Target: Enemy combatant
 Accuracy: Melee
-Move up to Xsp in direction of target. Target must spend Xsta and move Xsp away or else take 3{Melee} damage.|
+Move up to Xsp in direction of target. Target must spend Xsta and move Xsp away or else take 3{MlePwr} damage.|
 
 A2:Royal Armor
 Magic-Defensive-Passive
-Reduce incoming damage by 1{Melee}|
+Reduce incoming damage by 1{MlePwr}|
 
 A3:Roar!
 Magic-Offensive-Action
@@ -75,7 +75,7 @@ Move an addition 1sq.|
 A6:Manifest
 Magic-Support-Action
 Use: 10AP+Xmna
-Restore X{Magic} Health.|
+Restore X{MgcPwr} Health.|
 
 A7:Circle of Protection
 Magic-Defensive-Action
@@ -93,7 +93,7 @@ Use: 15AP!+5mna
 AoE: 1{TL}sq radius
 Combatants within AoE are pushed away from you until outside of AoE.
 Accuracy: Melee
-OnPass: Enemy combatants take 2{Magic} Lightning damage.|
+OnPass: Enemy combatants take 2{MgcPwr} Lightning damage.|
 
 A10:Honed Strike
 Magic-Support-Action

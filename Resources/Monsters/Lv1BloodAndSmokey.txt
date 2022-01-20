@@ -1,5 +1,6 @@
 Name:Blood And Smokey|
-Level:1 Minibosses|
+Type: Minibosses|
+Level: 1|
 Code:Sapient-Soldiers|
 PrimaryClass:Racketeer|
 
@@ -28,22 +29,22 @@ They are both protected by Plot Armor, and when one of them gets knocked-out, a 
 is initiated where Blood calls for a retreat and they both flee the scene.|
 
 Vitals
-Health:80|
-Mana:26|
-Stamina:40|
-Focus:26|
+Health:56|
+Mana:13 = 17|
+Stamina:20 = 28|
+Focus:13= 17|
 
 Scores
 Element:Neutral|
-Movement:4sq|
+Initiative:10|
 Carry:10u|
-PrimaryDamage:15|
+PrimaryDamage:18|
 SecondaryDamage:--|
 
 Stats
-Melee: (Power: 5, Evasion: 8)|
-Magic: (Power: 5, Evasion: 12)|
-Skill: (Power: 6, Evasion: 12)|
+Melee: (Power: 6, Evasion: 8)|
+Magic: (Power: 6, Evasion: 12)|
+Skill: (Power: 7, Evasion: 12)|
 
 Talents
 Craft:-1|
@@ -54,7 +55,7 @@ Acrobatic:0|
 Entertain:0|
 
 Equipment
-PrimaryWeapon:Rusted Machete(WC: M, 10AP, Pwr: 3, Weight: 1u, Quickdraw)|
+PrimaryWeapon:Rusted Machete(Melee, WC: M, 10AP, Pwr: 3, Weight: 1u, Quickdraw)|
 SecondaryWeapon:--|
 Tools:Explorer's Kit|
 Consumables:2x Monster Meat|

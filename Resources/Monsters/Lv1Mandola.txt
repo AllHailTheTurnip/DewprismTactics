@@ -1,4 +1,5 @@
 Name:Mandola|
+Type:Mob
 Level:1|
 Code:Drone-Soldier|
 PrimaryClass:Mandola|
@@ -14,22 +15,22 @@ Behavior:Being planted to their starting position, they cannot make movement act
 they do their best to be on their guards, luring in potential prey, and then going in for the kill.|
 
 Vitals
-Health:50|
-Mana:12|
-Stamina:8|
-Focus:22|
+Health: 30|
+Mana: 8|
+Stamina: 6|
+Focus: 14|
 
 Scores
 Element:Wind|
-Movement:0sq|
+Initiative: 5|
 Carry:6u|
-PrimaryDamage: 6|
+PrimaryDamage: 5|
 SecondaryDamage: --|
 
 Stats
-Melee: (Power: 6, Evasion: 8)|
-Magic: (Power: 3, Evasion: 10)|
-Skill: (Power: 6, Evasion: 6)|
+Melee: (Power: 5, Evasion: 8)|
+Magic: (Power: 2, Evasion: 10)|
+Skill: (Power: 5, Evasion: 6)|
 
 Talents
 Craft:--|
@@ -40,7 +41,7 @@ Acrobatic:-6|
 Entertain:--|
 
 Equipment
-PrimaryWeapon:Teeth(WC:VL, Use: 5AP, Pwr: 1, Weight: 0.2u)|
+PrimaryWeapon: Teeth(Melee, WC:VL, Use: 5AP, Pwr: 1, Weight: 0.2u)|
 SecondaryWeapon:--|
 Tools:None|
 Consumables:None|

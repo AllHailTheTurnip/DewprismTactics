@@ -73,7 +73,7 @@ Skill-Offense-Action
 Use: (3+Xsta)+2fcs+10AP
 Range: 0sp+{X/4}
 Accuracy: Skill
-Damage: 3{Skill}
+Damage: 3{SklPwr}
 OnHit: Luck > 15; on success, target becomes prone.|
 
 A7: Hone Style

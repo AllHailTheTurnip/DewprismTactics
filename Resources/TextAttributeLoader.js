@@ -29,6 +29,7 @@ function onLoadMonster() {
 
     // Biography.
     SetHTMLByID("Name");
+    SetHTMLByID("Type")
     SetHTMLByID("Level");
     SetHTMLByID("Code");
     SetHTMLByID("PrimaryClass");

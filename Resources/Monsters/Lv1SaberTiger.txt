@@ -1,5 +1,5 @@
 Name: Saber Tiger|
-
+Type: Mob
 Biography
 Description: A feline predator with sharp teeth and a grey coat covered with black spots. It's most commonly found
 in savannas but in recent years started migrating to the wet lands, upsetting the food chain as the new apex predator.|
@@ -14,22 +14,22 @@ for the neck if possible.|
 
 
 Vitals
-Health: 30|
-Mana: 15|
-Stamina: 13|
-Focus: 17|
+Health: 18|
+Mana: 9|
+Stamina: 9|
+Focus: 10|
 
 Scores
 Element: Wind|
-Movement: 7sq|
+Initiative: 15|
 Carry: 5u|
-PrimaryDamage: 18 (Teeth)|
-SecondaryDamage: 18 (Claws)|
+PrimaryDamage: 15 (Teeth)|
+SecondaryDamage: 15 (Claws)|
 
 Stats
-Melee: (Power: 4, Evasion: 12)|
-Magic: (Power: 4, Evasion: 10)|
-Skill: (Power: 6, Evasion: 9)|
+Melee: (Power: 3, Evasion: 12)|
+Magic: (Power: 3, Evasion: 10)|
+Skill: (Power: 5, Evasion: 9)|
 
 Talents
 Craft: -1|

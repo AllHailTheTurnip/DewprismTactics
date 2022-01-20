@@ -1,5 +1,7 @@
 Name: Pollywog|
 
+Type: Runt|
+
 Description: A tadpole-like creature that hovers over the ground with a gentle swimming motion. <p>
 They are most commonly found in swampy areas, but can be found all over the world, in every biome.</p>|
 
@@ -18,22 +20,22 @@ from known predators. However, if anything strays too closely to the body of wat
 go on the offensive.|
 
 Vitals
-Health: 35|
-Mana: 17|
-Stamina: 12|
-Focus: 15|
+Health: 7|
+Mana: 9|
+Stamina: 4|
+Focus: 3|
 
 Scores
 Element: Water|
-Movement: 4sq|
+Initiative: 10|
 Carry: 7u|
-PrimaryDamage: 8 neutral (Teeth)|
-SecondaryDamage: 5 water (Tail)|
+PrimaryDamage: 2 neutral (Teeth)|
+SecondaryDamage: 2 water (Tail)|
 
 Stats
-Melee: (Power: 4, Evasion:  10)|
-Magic: (Power: 5, Evasion:  9)|
-Skill: (Power: 3, Evasion:  9)|
+Melee: (Power: 2, Evasion:  10)|
+Magic: (Power: 3, Evasion:  9)|
+Skill: (Power: 1, Evasion:  9)|
 
 Talents
 Craft: 1|

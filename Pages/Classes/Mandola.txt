@@ -37,7 +37,7 @@ Melee-Support-Action
 Use: 15AP
 Your Movement is disabled as you become affixed to the surface of your choice; you are unaffected by
 forced-movement effects.
-At the end of your turn, restore 3{Melee} Health.|
+At the end of your turn, restore 3{MlePwr} Health.|
 
 A1:Seed Gun
 Skill-Offensive-Action
@@ -45,7 +45,7 @@ Use: 10AP+3fcs
 Range: 1sp
 Make three accuracy checks as part of this ability.
 Accuracy: Skill
-For each hit, deal 2{Skill} damage.|
+For each hit, deal 2{SklPwr} damage.|
 
 A2:Blossom
 Skill-Offensive-Action
@@ -57,7 +57,7 @@ OnPass: Affected enemy makes a Movement action in the direction of your position
 A3:Photosynthesis
 Skill-Support-Action
 Use: 10AP+3Skl
-Increase max Health and current Health by 1{Melee}|
+Increase max Health and current Health by 1{MlePwr}|
 
 A4:Parasite Spore
 Skill-Offensive-Reaction
@@ -71,7 +71,7 @@ Spore Marker: Lose 1{Creator's Skill} health. The creator gains any health lost 
 A5:Grow Bark
 Melee-Defensive-Action
 Use: 20AP
-Increase Melee:Evasion by 2 (Max 20).|
+Increase MleEva by 2 (Max 20).|
 
 A6:Tangle of Vines
 Skill-Defensive-Action
@@ -92,7 +92,7 @@ Skill-Defensive-Action
 Use: 7AP+5Sta
 Create a Bee Swarm token anywhere along the (relative) south border of the battlefield.
 At the end of your turn, the Bee Swarm token moves 1sp towards the nearest enemy Combatant,
-whereupon entering the square, the token is destroyed and the enemy takes 3{Skill} damage.|
+whereupon entering the square, the token is destroyed and the enemy takes 3{SklPwr} damage.|
 
 A9:Bear Fruit
 Melee-Support-Action
