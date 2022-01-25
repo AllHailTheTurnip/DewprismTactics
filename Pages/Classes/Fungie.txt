@@ -66,16 +66,16 @@ If you move the ball into an enemy's space, they must spend 3sta to move into an
 take 3{MlePwr} damage.
 
 A4: Waddle Waddle
-Melee-Support-Action|
+Melee-Support-Action
 Use: 5AP+3sta
-Effect: Make a Movement action.
+Effect: Make a Movement action.|
 
 A5: Summon Flying Star
 Magic-Support-Action
 Use: 10AP+3mna
 Effect: Create a Flying Star prop in your space.
 The star occupies a 1 square meter of space and is considered flat.
-Spend 5AP+2mna to move the prop up to 1+{Magic/10} spaces in any direction.
+Spend 5AP+2mna to move the prop up to 1+{MgcPwr/10} spaces in any direction.
 The star has 15{PL} health, 0 evasion, and vanishes when its health reaches 0.|
 
 A6: Give Instructions

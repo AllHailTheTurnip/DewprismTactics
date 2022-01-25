@@ -16,6 +16,17 @@ for (let i = 0; i < totalResults; i++) {
     absoluteSum += value;
 }
 
+function InjectIntoElement() {
+    const divider = document.getElementById('DiceRoller');
+    divider.innerHTML =
+        `
+        Dice Roller.
+        <br>
+        <button onclick="Roll()">Roll</button>
+        <p id="result"></p>
+        `;
+}
+
 function ShuffleResults() {
     let randResult = [];
     for (let i = 0; i < totalResults; i++) {
@@ -73,3 +84,7 @@ function Roll() {
 }
 
 ShuffleResults();
+
+
+
+

@@ -92,7 +92,7 @@ Skill-Defensive-Action
 Use: 7AP+5Sta
 Create a Bee Swarm token anywhere along the (relative) south border of the battlefield.
 At the end of your turn, the Bee Swarm token moves 1sp towards the nearest enemy Combatant,
-whereupon entering the square, the token is destroyed and the enemy takes 3{SklPwr} damage.|
+whereupon it moves into the square, the token is destroyed and the enemy takes 3{SklPwr} damage.|
 
 A9:Bear Fruit
 Melee-Support-Action

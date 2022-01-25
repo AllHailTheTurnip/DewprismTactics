@@ -11,6 +11,7 @@
             display: block;
         }
     </style>
+    <script type="text/javascript" src="../Resources/AutoIndexer.js"></script>
 </head>
 <body class="GreenMagic">
 <div class="Menu">
@@ -19,18 +20,15 @@
 
 <h1>Terms and Definitions</h1>
 <h2>Index</h2>
-<ul>
-    <li><a href="#GeneralTerms">General Terms</a></li>
+<ul id="Index">
+    <!--<li><a href="#GeneralTerms">General Terms</a></li>
     <li><a href="#Biography">Biography</a></li>
     <li><a href="#Vitals">Vitals</a></li>
     <li><a href="#Equipment">Equipment</a></li>
     <li><a href="#Stats">Stats</a></li>
     <li><a href="#Scores">Scores</a></li>
     <li><a href="#Abilities">Abilities</a></li>
-    <li><a href="#AbilityTerms">Ability Terms</a></li>
-    <li><a href="#Statuses">Statuses</a></li>
-    <li><a href="#Elements">Elements</a></li>
-    <li><a href="#Combat">Combat</a></li>
+    <li><a href="#AbilityTerms">Ability Terms</a></li>-->
 </ul>
 
 
@@ -1446,7 +1444,7 @@
     </tr>
 
     <!-- Conditions -->
-    <tr>
+    <tr id="Conditions">
         <th>
             Conditions
         </th>
@@ -1547,6 +1545,10 @@
         </td>
     </tr>
 </table>
-
+<footer>
+    <script>
+        PopulateIndex();
+    </script>
+</footer>
 </body>
 </html>
