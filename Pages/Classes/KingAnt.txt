@@ -46,7 +46,7 @@ A Mode
 
 B Mode
     Use: 1sp
-    Range: 2sq Cone AoE
+    Range: 0sp AoE
     Accuracy: Melee
     Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts 3{SklPwr} damage.|
 
@@ -64,7 +64,7 @@ Effect: Target and make a basic attack action against every enemy into 0sp of yo
 A3: Firing Line
 Skill-Support-Action
 Cost: 5sta+3fcs+20AP
-Effect: Each ally within {Skill/15}sq gets 10+{CL}AP for their next turn.|
+Effect: Each ally within {Skill/15}sp gets 10+{CL}AP for their next turn.|
 
 A4: Ignoble
 Magic-Support-Passive
@@ -85,8 +85,8 @@ Cube prop: For 10AP, can be moved 1sp. Can cover 1 combatant at a time.|
 A7: Odor Trail
 Melee-Support-Action
 Use: Xsta
-Make a free movement action, each square you move into creates an Odor prop.
-Odor prop: Movement between adjacent Odor props counts as one square of movement.|
+Make a free movement action, each space you move into creates an Odor prop.
+Odor prop: Movement between adjacent Odor props counts as one space of movement.|
 
 A8: Conjure Pincers
 Melee-Offense-Action

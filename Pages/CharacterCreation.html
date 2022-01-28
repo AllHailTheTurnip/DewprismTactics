@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <title>Dewprism Tactics - Character Creation</title>
     <link href="../Resources/GeneralStyle.css" rel="stylesheet">
+    <script type="text/javascript" src="../Resources/ReturnMenu.js"></script>
+    <script type="text/javascript" src="../Resources/CharacterCreationIndexer.js"></script>
 </head>
-<body>
-<div class="Menu">
-    <a href="../index.html">Return to Index</a><br>
-    <a href="#Directory" style="margin-top: 5%">Back to Top</a>
-</div>
+<body id="TopOfDocument">
 
 <h1 id="Directory">
     Character Creation
@@ -27,7 +25,7 @@
     <p>
         We'll begin with breaking down the process into three steps.
     </p>
-    <ol>
+    <ol id="Index">
         <li>
             <a href="#Biography">Biography</a>
             <ul>
@@ -280,7 +278,7 @@
 </div>
 
 <div>
-    <h3 id="Equipment">Equipment</h3>
+    <h2 id="Equipment">Equipment</h2>
     While out adventuring, it's always good to come equipped. You'll need food, medicine, tools,
     and, most of all, weapons. Beware finding yourself under-equipped while out in the great unknown
     - as it could be days before you can make the trip back to town.
@@ -345,7 +343,7 @@
         There are three attributes for each slot: common, rare, and magic.
     </ul>
     <hr>
-    <h4>Your Weapon</h4>
+    <h3>Your Weapon</h3>
     Each treasure hunter comes into the story with naught but the clothes on their backs and their trusty weapon.<br>
     No tools, or materials. They even spent their last gil just for the ticket to town! The only place they
     have left to go is up.
@@ -637,18 +635,18 @@
             </ul>
         </li>
     </ol>
-    <h4>
+    <h3>
         Finishing Touches
-    </h4>
+    </h3>
     Now that you have a weapon, make sure you update your Primary Damage score. Your Primary Damage
     is equal to your Melee Power times your Primary Weapon's Power. Likewise, if you're wielding
     a Secondary Weapon with a Power score, you'll write in the score for your Secondary damage too.
 </div>
 
 <div>
-    <h3 id="StartingTheAdventure">
+    <h2 id="StartingTheAdventure">
         Starting the Adventure
-    </h3>
+    </h2>
     Now that you know who your character is, where they've come from, and why they're on this quest,
     you should work together with the other players - including the DM - on how all of your character come
     together for the campaign.
@@ -664,5 +662,10 @@
     </p>
 </div>
 </body>
-
+<footer>
+    <script>
+        ImplementReturnMenu();
+        PopulateIndex();
+    </script>
+</footer>
 </html>

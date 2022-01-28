@@ -69,7 +69,7 @@ A6:Intimidate
 Skill-Offensive-Action
 Use: 15AP+3fcs
 Accuracy: Skill
-OnPass: Target's Movement is reduced by 2sq+{CL} (to a minimum of 1sq) until the end of their turn.|
+OnPass: Target cannot make any basic Movement actions until the end of their next turn.|
 
 A7:Menacing Invitation
 Skill-Support-Action

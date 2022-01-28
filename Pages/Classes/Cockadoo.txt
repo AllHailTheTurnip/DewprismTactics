@@ -89,7 +89,7 @@ Magic-Support-Action
 Use: 10AP+3mna
 Range: Any ally within 1sp+{Magic/15}.
 Effect: Choose one target to be the waypoint. Choose up to 1+{Magic/10} allies to be subjects.
-Each subject is instantly relocated to an adjacent square beside the waypoint.|
+Each subject is instantly relocated to an adjacent space beside the waypoint.|
 
 A8: Hatch Egg.
 Melee-Support-Action
@@ -103,7 +103,7 @@ Effect: Create a copy of yourself. Your copy has your exact base Scores, Abiliti
 A9: Rocket Flap
 Melee-Support-Action
 Use: 5sta
-Effect: Move vertically to 3sq+{Melee/10} into the air and into an adjacent square.|
+Effect: Move vertically to 1+{Melee/10}sp into the air and into an adjacent space.|
 
 A10: Slow Fall
 Melee-Support-Passive

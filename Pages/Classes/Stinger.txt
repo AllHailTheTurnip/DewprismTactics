@@ -27,15 +27,15 @@ Skill: (Power: 6, Evasion: 12)|
 Abilities
 Innate: Thorny Armor
 Skill-Defensive-Reaction
-Trigger: An enemy enters (even while moving) an adjacent square.
-Inflict 1{SklPwr} metal damage to each enemy in an adjacent square.|
+Trigger: An enemy enters (even while moving) same space.
+Inflict 1{SklPwr} metal damage to each enemy in same space.|
 
 A1: Tactical Roll
 Skill-Defensive-Reaction
 Trigger: You are attacked by an enemy.
 Use: 3 stamina
 Increase your MleEva by 5 until the end of the attack.
-After the attack is resolved, move 1+(TL/4)sq in any diagonally direction.|
+After the attack is resolved, move 1+(TL/4)sp in any diagonally direction.|
 
 A2: Shrink Down
 Magic-Defensive-Action
@@ -65,14 +65,14 @@ Throwing Needle (Type: Skill, WC: VL, Use: 5AP, Pwr: 1. Weight: 0.2u; it costs 0
 A6: Acupuncture
 Skill-Support-Action
 Use: 10AP
-Range: Ally in same square.
+Range: Ally in same space.
 Luck: 12
 Restore a disabled ability or disabled action.|
 
 A7: Pierce Piece
 Skill-Offensive-Action
 Use: 10AP + 3fcs
-Range: 0sq+(TL/4)
+Range: 0s[+(TL/4)
 Accuracy: Skill
 OnPass: Destroy a targeted token or prop.|
 
@@ -86,8 +86,8 @@ A9:Throw Caltrop
 Skill-Defensive-Action
 Use: 5AP + 5fcs
 Range: 0sp
-Place Caltrop props on up to {SklPwr}/6 unique squares.
-Caltrop prop: Counts as difficult terrain. Upon entering square, take {SklPwr} damage.|
+Place {SklPwr}/6 Caltrop props in your space.
+Caltrop prop: Counts as difficult terrain. Upon entering space, take 1{SklPwr} damage.|
 
 A10:Suture
 Skill-Support-Action

@@ -102,7 +102,7 @@ A. Flight (The animal can move in any direction, including vertical)
 B. Night Eyes (The animal treats lighting conditions as regular)
 C. Gills (The animal can breathe under water)
 D. Paws (The animal's speed is double yours).
-The animal appears in the same square as the one you started in, and takes its turns after yours.|
+The animal appears in the same space as the one you started in, and takes its turns after yours.|
 
 MA1:|
 MA2:|

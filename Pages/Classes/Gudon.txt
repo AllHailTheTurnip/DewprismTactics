@@ -68,7 +68,7 @@ Effect: Choose a disabled ability/action and re-enable it.|
 A5:Heavy Sweep
 Melee-Offense-Action
 Use: 7sta+10AP
-Range: every square that shares a border.
+Range: every adjacent space.
 Accuracy: 0sp
 OnHit: Inflict primary damage. On Critical, target becomes Prone.|
 

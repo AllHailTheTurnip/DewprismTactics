@@ -46,7 +46,7 @@ A2: Full Charge
 A3: Enormous Leap
     Melee-Supportive-Action
     Use: 2sta
-    Range: 1+{CL/3}sq LoS
+    Range: 1+{CL/3}sp LoS
     Ignore a surface's elevation and jump up (or down) to it.|
 A4: Reckless Shove
     Melee-Offensive-Action

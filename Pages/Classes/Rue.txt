@@ -45,7 +45,7 @@ A1: Carry Spirit
     Use: 5Mna
     Range: 0sp
     If an ally had died since your last turn, you may create a Spirit token from a fragment of their spirit.
-    Spirit Token: While on the same square of a body that is over 0HP, for 5AP the token can be destroyed, releasing the spirit into the new body.|
+    Spirit Token: While on the same space of a body that is over 0HP, for 5AP the token can be destroyed, releasing the spirit into the new body.|
 A2: Block
     Melee-Defense-Reaction
     Trigger: An enemy attacks you.

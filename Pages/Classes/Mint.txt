@@ -42,7 +42,7 @@ A2: Flying Kick
     Use: 10AP
     Range: 0sp LoS
     Increase your critical-success range by 5 and your critical-failure range by 5 until the end of your turn.
-    Choose a target within range and leap through the air into their square, making a free attack action
+    Choose a target within range and leap through the air into their space, making a free attack action
     when you arrive.|
 A3: Scheme
     Skill-Support-Action
@@ -78,7 +78,7 @@ A9: Create Ice Wall
     Use: 10AP + (1-5mna as X)
     Range: 0sp instant
     Create X Ice Block obstacles.
-    Tree obstacle: 1sq cube of ice. 10{MgcPwr} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
+    Tree obstacle: 1 cubic-meter cube of ice. 10{MgcPwr} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
 A10: Ward Danger
     Magic-Defensive-Action
     Use: 5AP + 5mna

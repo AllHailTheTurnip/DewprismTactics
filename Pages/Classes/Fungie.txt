@@ -52,18 +52,18 @@ you may use your Innate ability for free.|
 A2: Conjure Tuba
 Magic-Support-Action
 Use: 10AP+3mna
-Range: Self|
+Range: Self
 Effect: Generate a Tuba.
-Tuba (WC: VH, AP: 10+2sta, Power: 0 Wind, Weight: 4u; Pushes target back {Melee/5}sq.)
+Tuba (WC: VH, AP: 10+2sta, Power: 0 Wind, Weight: 4u; Pushes target back {Melee/5}sp.)|
 
 A3: Conjure Enormous Ball
-Magic-Support-Action|
+Magic-Support-Action
 Use:10AP+3mna
 Range: 0sp
-Effect: Conjure a ball with a diameter of 0sp (3~ meters wide).
+Effect: Conjure a ball prop with a diameter of 0sp (3~ meters wide).
 The ball is magical and can only be moved by standing on it and spending 10AP.
-If you move the ball into an enemy's space, they must spend 3sta to move into another space, or else
-take 3{MlePwr} damage.
+If you move the ball from or into an enemy's space, they must spend 3sta to move into another space, or else
+take 3{MlePwr} damage.|
 
 A4: Waddle Waddle
 Melee-Support-Action

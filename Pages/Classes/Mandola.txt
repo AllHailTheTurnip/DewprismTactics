@@ -76,8 +76,8 @@ Increase MleEva by 2 (Max 20).|
 A6:Tangle of Vines
 Skill-Defensive-Action
 Use: 10AP+5sta
-Create a Tangle of Vine prop in your square.
-Tangle of Vine: Enemy actions made in the same square as this prop cost an extra 5AP+1sta.|
+Create a Tangle of Vine prop in your space.
+Tangle of Vine: Enemy actions made in the same space as this prop cost an extra 5AP+1sta.|
 
 A7:Acid Splash
 Melee-Offensive-Action/Reaction
@@ -92,7 +92,7 @@ Skill-Defensive-Action
 Use: 7AP+5Sta
 Create a Bee Swarm token anywhere along the (relative) south border of the battlefield.
 At the end of your turn, the Bee Swarm token moves 1sp towards the nearest enemy Combatant,
-whereupon it moves into the square, the token is destroyed and the enemy takes 3{SklPwr} damage.|
+whereupon it moves into the space, the token is destroyed and the nearest enemy takes 3{SklPwr} damage.|
 
 A9:Bear Fruit
 Melee-Support-Action

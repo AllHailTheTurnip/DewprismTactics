@@ -46,8 +46,6 @@ function PopulateIndex() {
 
 
     document.getElementById('Index').innerHTML = finalIndex;
-
-    //document.getElementById('Index').innerHTML = totalTableHeaders;
 }
 
 

@@ -28,7 +28,7 @@ Innate: Assassinate
     Skill-Offensive-Action
     Use: 10AP + 10Fcs + 5Sta
     Range: 1+{TL/4}sp
-    Leap through the air into the same square as your target.
+    Leap through the air into the same space as your target.
     Luck: 10
     OnPass: Target takes damage equal to their remaining health.|
 A1: Leap
@@ -49,17 +49,18 @@ A3: Lick Wounds
 A4: Bloody Feast
     Melee-Supportive-Passive
     Use: 5AP
-    Attacking a KO'd target restores health equal to half the damage inflicted.|
+    Attacking a dead target restores health equal to half the damage inflicted.|
 A5: Tactical Retreat
     Melee-Supportive-Reaction
     Use: 3sta
     Trigger: An ally takes damage.
-    Range: TL{1sq} instant
+    Range: {TL/2}sp instant
     Make a free movement action and take a nearby ally within range with you by your side.|
 A6: Astounding Speed
     Melee-Support-Reaction
     Trigger: You make a basic Movement action
-    You may move an additional space.|
+    Use: 3sta
+    You move an additional space.|
 A7: Sharpen Edge
     Skill-Support-Action
     Cost: 31-{TL}AP
@@ -75,7 +76,7 @@ A9: Conjure Assassin's Blade
     Use: 5Mna
     Range: ({CL}/4)sp instant
     Add an Assassin's Blade into yours or an ally's inventories.
-    Assassin's Blade (1H-VL, Pwr: 1 Metal, Rng: 0sq, Crit: dmg 3x, Sever 5{CL})|
+    Assassin's Blade (1H-VL, Pwr: 1 Metal, Rng: 0sp, Crit: dmg 3x, Sever 5{CL})|
 A10: Vanish
     Magic-Defensive-Reaction
     Trigger: You are attacked.

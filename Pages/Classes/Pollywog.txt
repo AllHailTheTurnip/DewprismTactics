@@ -77,4 +77,4 @@ A9: Regroup
 A10: Gang-up
     Magic-Support-Action
     Cost: 4 Mna
-    All allies on the battlefield are pulled {CL}sq towards you.|
+    All allies on the battlefield are pulled {CL}sp towards you.|

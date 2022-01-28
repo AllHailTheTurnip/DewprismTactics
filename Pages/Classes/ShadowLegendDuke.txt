@@ -35,7 +35,7 @@ Abilities
 Innate: *Poof*
 Skill-Support-Action
 Use: 1fcs+1sta+1mna+5AP
-Range: 1+[CL/3]sq
+Range: 1+[CL/3]sp
 Effect: Relocate yourself to any space within range.|
 
 A1: Throwing Stars

@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <title>Dewprism Tactics - Combat Rules</title>
     <link rel="stylesheet" href="../Resources/GeneralStyle.css">
+    <script type="text/javascript" src="../Resources/CombatRulesIndexer.js">
+    </script>
+    <script type="text/javascript" src="../Resources/ReturnMenu.js"></script>
 </head>
-<body>
-<div class="Menu">
-    <a href="../index.html">Return to Index</a><br>
-    <a href="#Directory">Back to Directory</a>
-</div>
-
+<body id="TopOfDocument">
 <h1>
     Combat
 </h1>
@@ -59,8 +57,9 @@
         </li>
     </ul>
 </div>
-<div id="TurnsAndActions" class="Wide">
-    <h2>
+<span id="Content">
+   <div class="Wide">
+    <h2 id="TurnsAndActions">
         Turns and Actions
     </h2>
     Combat begins when one party instigates a fight with another party. This happens either when one or more
@@ -279,8 +278,8 @@
         </li>
     </ul>
 </div>
-<div class="Wide" id="CommonActions">
-    <h2>
+<div class="Wide">
+    <h2 id="CommonActions">
         Common Actions
     </h2>
     Every combatant possesses a set of basic actions that they can perform regardless of their primary class. These
@@ -544,8 +543,8 @@
         Revival Coins do not work on anything less than Instinctive-intelligence monsters.
     </p>
 </div>
-<div id="Elements" class="Wide">
-    <h2>
+<div class="Wide">
+    <h2 id="Elements">
         Elements
     </h2>
     Many creatures and abilities possess attributes called elements that indicate their
@@ -627,8 +626,8 @@
 
 </div>
 
-<div id="MetaLogic" class="Wide">
-    <h2>
+<div class="Wide">
+    <h2 id="MetaLogic">
         Meta Logic
     </h2>
     While in combat, it is assumed that everyone is bound to the same basic combat rules, such that actions
@@ -643,8 +642,8 @@
         will exploit the same creative loopholes as you.
     </p>
 </div>
-<div id="Abilities" class="Wide">
-    <h2>
+<div class="Wide">
+    <h2 id="Abilities">
         Abilities
     </h2>
     Abilities are special actions that are best understood as simple programs. They contain common keywords, use
@@ -788,8 +787,8 @@
         </li>
     </ul>
 </div>
-<div class="Wide" id="DeathAndDefeat">
-    <h2>
+<div class="Wide">
+    <h2 id="DeathAndDefeat">
         Death and Defeat
     </h2>
     All combat must come to an end eventually, and while your might side might have won, not all
@@ -802,7 +801,8 @@
     Knocked Out status, all of your character's Evasion scores are reduced to 0 and you
     cannot make actions or reactions.
     <p>
-        Unless executed, finished off, or revived, your character will remain unconscious for the rest
+        While knocked-out, you cannot take damage unless an ability specifically allows it. <br>
+        Unless executed or revived, your character will remain unconscious for the rest
         of the battle.
     </p>
 
@@ -836,8 +836,8 @@
     This way, the players can easily return to their previous fights, or find a point to branch off from
     and try from another direction.
 </div>
-<div class="Wide" id="SmallEncounters">
-    <h2>
+<div class="Wide">
+    <h2 id="SmallEncounters">
         Small Encounters
     </h2>
     Smaller, lower-stakes battles can be reduced to obstacle-like encounters that each combatant completed
@@ -960,8 +960,8 @@
         Rewards are then given out for their success as if they had won the fight normally.
     </p>
 </div>
-<div class="Wide" id="ExperienceAndRewards">
-    <h2>
+<div class="Wide">
+    <h2 id="ExperienceAndRewards">
         Experience and Rewards
     </h2>
     At the end of a battle loot from slayed monsters is collected and experience is rewarded.
@@ -1012,7 +1012,15 @@
     Not all campaigns utilize experience points, and that's perfectly okay. Instead, if the campaign is
     utilizing milestones, then after each boss battle, each combatant gets to level-up.
 </div>
+</span>
+
 </body>
+<footer>
+    <script>
+        PopulateIndex();
+        ImplementReturnMenu();
+    </script>
+</footer>
 </html>
 
 

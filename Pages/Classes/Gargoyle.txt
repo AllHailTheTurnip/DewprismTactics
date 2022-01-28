@@ -31,7 +31,7 @@ Skill: (Power: 4, Evasion: 7)|
 Abilities
 Innate: Stone Wings
 Magic-Support-Passive
-While conscious, you are uninhibited by gravity and can thus move vertically up to 3{Melee/5}sq into the air.
+While conscious, you are uninhibited by gravity and can thus move vertically up to 3{Melee/5}sp into the air.
 In addition, you are unaffected by difficult terrain and its hazards.|
 
 A1:Sonic Screech
@@ -55,14 +55,14 @@ OnPass: Targeted enemy is now weak to the element of your choice (excluding neut
 A4:Curse of Doom
 Magic-Offensive-Action
 Use: 10AP-7mna
-Range: 0sq+{Melee/15}
+Range: 0sp+{Melee/15}
 Luck: 17
 OnPass: Target gets Doomed 3.|
 
 A5:Seal Magic
 Magic-Offensive-Action
 Use: 15AP
-Range: 0sq+{Magic/15} LoS
+Range: 0sp+{Magic/15} LoS
 Accuracy: Magic
 OnPass: Target becomes Dispirited 3|
 
@@ -75,7 +75,7 @@ OnPass: Target's Luck checks get -2.|
 
 A7:Ward Against Danger
 Magic-Defensive-Reaction
-Trigger: An allie within 3sq is targeted by an enemy.
+Trigger: An allie within 0sp is targeted by an enemy.
 Use: Xmna
 Effect: Targeted allie gets +X/3 to their Evasion scores until the end of the action.|
 
