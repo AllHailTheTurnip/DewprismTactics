@@ -1,36 +1,80 @@
-Title:|
-Subtitle:|
-Description:|
+Ghost
+Water/told type thing
+Undead
+
+Can...
+- Walk through walls X
+- Pass through mundane things X
+- Invisible X
+- Cause fear X
+- Freeze breath/touch X
+- Drown (Like The Ring) X
+- Flood X
+- Paralyze X
+
+Title: Specter|
+Subtitle: Otherworldly Terror|
+Description: A kind of ghost, Specters have carried nothing with them from their past life except for their anger and
+suffering - as to the cause of that, not even they know. And so, they wander the earth looking for a solution, often
+spending an eternity in a strange and alien world.<br>
+When a specter comes around the room becomes cold and fires go out. Their breath can paralyze you and their touch can
+turn you to ice. Walls, barriers, and mundane weapons mean nothing to them.<br>
+Despite their pain and suffering, not all Specters are monsters, but in time, they all go that way. A young Specter is
+blessed with the chance to redeem their immortal souls and pass onto the next life
+- hopefully, they don't run out of time.|
 ???
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
+Health: 15|
+Mana: 30|
+Stamina: 5|
 Focus: 15|
 
 SCORES
 Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Carry: 5u|
+Element: Water/Dark|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
+Melee: (Power: 3, Evasion: 8)|
+Magic: (Power: 6, Evasion: 10)|
 Skill: (Power: 5, Evasion: 10)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
-A10:|
+Innate: Mundane Immunity
+Magic-Support-Passive
+Effect: You are immune to neutral-type damage.|
+
+A1: Ghost Step
+Magic-Support-Reaction
+Trigger: You make from one space to another.
+Use: 3mna
+Effect: You can move through solid surfaces, ignoring barriers and walls, until the end of your turn.|
+
+A2: Invisible
+Magic-Defense-Action
+Use: 7mna
+Effect: Turn invisible, where all your Evasion scores are increased to 20.
+While invisible, no one except your allies can see you, however other invisible combatants can see you.
+Performing any checks will cause you to become visible again.|
+
+A3: Haunt
+Magic-Attack-Action
+Use: 10AP+3mna+3fcs
+Range: {TL/5}sp
+Accuracy: Skill
+OnHit: Target loses {MgcPwr} focus.|
+
+A4: Arcane Shield
+Magic-Defense-Reaction
+|
+
+A5: Terrify|
+A6: Paralyze|
+A7: Drown|
+A8: Freezing Touch|
+A9: Flood|
+A10: Possession|
 
 MA1:|
 MA2:|
