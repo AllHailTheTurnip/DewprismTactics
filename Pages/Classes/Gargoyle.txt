@@ -36,14 +36,14 @@ In addition, you are unaffected by difficult terrain and its hazards.|
 
 A1:Sonic Screech
 Magic-Offensive-Action
-Use: 10AP+4mna!
+Use: 10AP+4mna
 Range: 0sp AoE
 Accuracy: Magic
 OnPass: Target takes 3{MgcPwr} wind damage.|
 
 A2:Stone Skin
 Magic-Defensive-Passive
-Reduce taken damage by {MlePwr} to a minimum of 1.|
+Effect: Reduce taken damage by {MlePwr} to a minimum of 1.|
 
 A3:Curse with Weakness
 Magic-Offensive-Action

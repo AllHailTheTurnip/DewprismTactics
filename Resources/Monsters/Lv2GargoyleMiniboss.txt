@@ -1,4 +1,5 @@
 Name:Gargoyle|
+Type: Miniboss
 Level:2|
 Code:Instinctive-Soldier|
 PrimaryClass:Gargoyle|
@@ -14,35 +15,35 @@ twisted, snarling faces, and gaunt, harsh bodies.|
 Behavior:They are stone up until you draw close to the point they're trying to protect.
 After that, they gain malleability and come to life to attack the trespasser.|
 
-Vitals
-Health:90|
-Mana:27|
-Stamina:16|
-Focus:10|
+VITALS
+Health: 126|
+Mana: 60|
+Stamina: 34|
+Focus: 20|
 
 Scores
 Element:Dark|
-Movement:4sq|
+Initiative:8|
 Carry:10u|
-PrimaryDamage:|
-SecondaryDamage:|
+PrimaryDamage:30|
+SecondaryDamage:20|
 
-Stats
-Melee: (Power: 8, Evasion: 8)|
-Magic: (Power: 10, Evasion: 9)|
-Skill: (Power: 8, Evasion: 7)|
+STATS
+Melee: (Power: 10, Evasion: 8)|
+Magic: (Power: 12, Evasion: 9)|
+Skill: (Power: 10, Evasion: 7)|
 
 Talents
 Craft:--|
 Harvest:--|
 Scholar:--|
 Navigate:0|
-Acrobatic:--|
+Acrobatic:1|
 Entertain:--|
 
 Equipment
-PrimaryWeapon:Teeth(WC: M, Use: 10AP, Pwr: 3, Weight:--)|
-SecondaryWeapon:Claws(WC: L, Use: 7AP, Pwr: 2, Weight:--, Bleed)|
+PrimaryWeapon:Teeth(Melee, WC: M, Use: 10AP, Pwr: 3, Weight:--)|
+SecondaryWeapon:Claws(Skill, WC: L, Use: 7AP, Pwr: 2, Weight:--, Bleed)|
 Tools:--|
 Consumables:--|
 

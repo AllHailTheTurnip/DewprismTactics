@@ -1,5 +1,5 @@
 Name: Saber Tiger|
-Type: Mob
+Type: Runt|
 Biography
 Description: A feline predator with sharp teeth and a grey coat covered with black spots. It's most commonly found
 in savannas but in recent years started migrating to the wet lands, upsetting the food chain as the new apex predator.|
@@ -13,23 +13,23 @@ territory has been invaded, it will on the offensive. Rather than outright attac
 for the neck if possible.|
 
 
-Vitals
-Health: 18|
-Mana: 9|
-Stamina: 9|
-Focus: 10|
+VITALS
+Health: 6|
+Mana: 3|
+Stamina: 5|
+Focus: 5|
 
 Scores
 Element: Wind|
 Initiative: 15|
 Carry: 5u|
-PrimaryDamage: 15 (Teeth)|
-SecondaryDamage: 15 (Claws)|
+PrimaryDamage: 12 (Teeth)|
+SecondaryDamage: 12 (Claws)|
 
-Stats
-Melee: (Power: 3, Evasion: 12)|
-Magic: (Power: 3, Evasion: 10)|
-Skill: (Power: 5, Evasion: 9)|
+STATS
+Melee: (Power: 2, Evasion: 12)|
+Magic: (Power: 2, Evasion: 10)|
+Skill: (Power: 4, Evasion: 9)|
 
 Talents
 Craft: -1|
@@ -46,7 +46,7 @@ Tools: Padded Feet (+4 to Stealth-based talent checks)|
 Consumables: None|
 
 Loot
-Experience: 100|
-Gil: 25|
+Experience: 25|
+Gil: 7|
 Loot: Saber Tooth (Material:  Mineral, Value:  25gil)
 Luck > 15:  Saber Tiger Pelt (Material:  Fabric, value:  100)|

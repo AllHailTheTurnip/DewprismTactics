@@ -15,13 +15,13 @@ Can...
 Title: Specter|
 Subtitle: Otherworldly Terror|
 Description: A kind of ghost, Specters have carried nothing with them from their past life except for their anger and
-suffering - as to the cause of that, not even they know. And so, they wander the earth looking for a solution, often
-spending an eternity in a strange and alien world.<br>
+suffering - as to the cause of that, not even they know. And so, they wander the earth looking for a solution - often
+spending an eternity in a strange and increasingly-alien world.<br>
 When a specter comes around the room becomes cold and fires go out. Their breath can paralyze you and their touch can
 turn you to ice. Walls, barriers, and mundane weapons mean nothing to them.<br>
-Despite their pain and suffering, not all Specters are monsters, but in time, they all go that way. A young Specter is
-blessed with the chance to redeem their immortal souls and pass onto the next life
-- hopefully, they don't run out of time.|
+Specters come into the world with no memories of their past lives, but they are rational and coherent enough to know
+what must be done. Only if they can solve the mystery of their past-live's miseries will they be able to pass on into
+the next one - that is, if they don't go mad before then.|
 ???
 
 VITALS
@@ -67,14 +67,57 @@ OnHit: Target loses {MgcPwr} focus.|
 
 A4: Arcane Shield
 Magic-Defense-Reaction
-|
+Effect: Damage that would be afflicted to your health can be redirected to your Mana pool instead.|
 
-A5: Terrify|
-A6: Paralyze|
-A7: Drown|
-A8: Freezing Touch|
-A9: Flood|
-A10: Possession|
+A5: Terrify
+Magic-Offensive-Action
+Use: 13AP+1fcs
+Range: 1sp (Choose up to 1+{TL/5} targets.)
+Accuracy: Skill
+OnHit: Target loses {FcsPwr} focus.|
+
+A6: Paralyzing Presence
+Magic-Offensive-Action
+Use: 15AP+3fcs
+Range: 0sp
+Luck: 15
+OnPass: Target gains Paralyzed 3.|
+
+A7: Drown
+Magic-Offensive-Action
+Use: 10AP+7mna
+Range: 0sp
+Accuracy: Magic
+OnHit: Target gains Doomed 3.|
+
+A8: Freezing Touch
+Magic-Offensive-Action
+Use: 10AP+3mna
+Range: 0sp
+Accuracy: Melee
+OnHit: Target becomes Frozen 1+{TL/10}.|
+
+A9: Flood
+Magic-Support-Action
+Use: 30AP+3mna
+Range: 0sp
+Effect: Water gushes out of the floors and pours from the ceiling.
+Enough water to fill 1/2 a space is created, but will spill out if it is not contained.|
+
+
+A10: Possession
+Magic-Support-Action
+Use: 10AP+7mna
+Range:0sp
+Luck: 10-{TL/2}
+Effect: Take possession of a KO'd target's body. While possessing, substitute your
+Health, Melee, Magic, and Skill scores with yours.
+At Class Level 5, you can draw from the target's Mana, Focus, and Stamina pools.
+At Class Level 10, you gain access to their Abilities.
+At Class Level 15, you can possess the target if they're dead; substitute their Health
+with yours.
+At Class Level 20, targets cannot become conscious again until you leave.
+Duration: 3 turns, or until the target regains consciousness.|
 
 MA1:|
 MA2:|

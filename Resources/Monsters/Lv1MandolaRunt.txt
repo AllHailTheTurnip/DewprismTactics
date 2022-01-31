@@ -1,5 +1,5 @@
 Name:Mandola|
-Type:Mob
+Type:Runt|
 Level:1|
 Code:Drone-Soldier|
 PrimaryClass:Mandola|
@@ -14,23 +14,23 @@ of purple flower petals. |
 Behavior:Being planted to their starting position, they cannot make movement actions. For this reason,
 they do their best to be on their guards, luring in potential prey, and then going in for the kill.|
 
-Vitals
-Health: 30|
-Mana: 8|
-Stamina: 6|
-Focus: 14|
+VITALS
+Health: 10|
+Mana: 4|
+Stamina: 4|
+Focus: 4|
 
 Scores
 Element:Wind|
 Initiative: 5|
 Carry:6u|
-PrimaryDamage: 5|
+PrimaryDamage: 4|
 SecondaryDamage: --|
 
-Stats
-Melee: (Power: 5, Evasion: 8)|
-Magic: (Power: 2, Evasion: 10)|
-Skill: (Power: 5, Evasion: 6)|
+STATS
+Melee: (Power: 4, Evasion: 8)|
+Magic: (Power: 1, Evasion: 10)|
+Skill: (Power: 4, Evasion: 6)|
 
 Talents
 Craft:--|
@@ -47,8 +47,8 @@ Tools:None|
 Consumables:None|
 
 Loot
-Experience:100|
-Gil:25|
+Experience:25|
+Gil:7|
 Loot:
 1x Ripe Seeds(Consumable. Restore 2sta)
 Luck > 18: 1x Mandola Sapling (Monster. Keep in the sun and water daily. Grows into a lv1 Mandola after 3 months.)|

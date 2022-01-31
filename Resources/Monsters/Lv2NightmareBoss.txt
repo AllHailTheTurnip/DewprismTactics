@@ -1,5 +1,6 @@
 Name:Nightmare|
-Level:2 Boss|
+Level:2|
+Type: Miniboss|
 Code:Instinctive-Soldier|
 PrimaryClass:Nightmare|
 
@@ -13,23 +14,23 @@ Behavior:Once a trespasser gets too close to the doorway, it will drop in from t
 seemingly out from the blue. If that doesn't crush the trespasser, then the battle will
 commence with a flurry of stampedes and hard-hitting kicks.|
 
-Vitals
-Health: 400|
-Mana: 100|
-Stamina: 124|
-Focus: 48|
+VITALS
+Health: 180|
+Mana: 36|
+Stamina: 45|
+Focus: 18|
 
 Scores
 Element: Darkness|
-Movement: 6sq|
+Initiative: 13|
 Carry: 20u|
-PrimaryDamage: 32|
+PrimaryDamage: 48|
 SecondaryDamage: --|
 
-Stats
-Melee: (Power: 8, Evasion: 12)|
-Magic: (Power: 10, Evasion: 12)|
-Skill: (Power: 4, Evasion: 10)|
+STATS
+Melee: (Power: 12, Evasion: 12)|
+Magic: (Power: 14, Evasion: 12)|
+Skill: (Power: 8, Evasion: 10)|
 
 Talents
 Craft:0|
@@ -40,12 +41,12 @@ Acrobatic:3|
 Entertain:0|
 
 Equipment
-PrimaryWeapon:Hooves(WC: H, Use: 10AP+1sta, Pwr:4, Weight:--)|
+PrimaryWeapon:Hooves(Melee, WC: H, Use: 10AP+1sta, Pwr:4, Weight:--)|
 SecondaryWeapon:--|
 Tools:--|
 Consumables:--|
 
 Loot
-Experience:800xp|
-Gil:250|
-Loot:2x Silver Coins, 4x General Health potions, 2x Mana Potions|
+Experience:400xp|
+Gil:200|
+Loot:4x Silver Coins, 6x General Health potions, 4x Mana Potions|

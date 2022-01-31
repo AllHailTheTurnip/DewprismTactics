@@ -1,0 +1,51 @@
+Name:Stinger|
+Level:1|
+Type: Mob|
+Code:Instinctive Support/Hunter|
+PrimaryClass:Stinger|
+
+Biography
+Description:Related to mainland porcupines, Stingers stand-out with their bald, flat faces.
+They are predators, living in cliff-side burrows and leaving long enough to go hunting.|
+
+Appearance:Short stubby legs, a coat of brown quills, and a bald, flat face with large eyes.|
+
+Behavior:Generally shying away from conflict, they only engage if provoked. Once provoked, they'll
+attack the offender until it leaves the area of is neutralized.|
+
+VITALS
+Health: 18|
+Mana: 6|
+Stamina: 9|
+Focus: 12|
+
+Scores
+Element:Wind|
+Initiative:10|
+Carry:8u|
+PrimaryDamage:6|
+SecondaryDamage:--|
+
+STATS
+Melee: (Power: 3, Evasion: 14)|
+Magic: (Power: 2, Evasion: 9)|
+Skill: (Power: 5, Evasion: 12)|
+
+Talents
+Craft:1|
+Harvest:2|
+Scholar:-1|
+Navigate:1|
+Acrobatic:0|
+Entertain:-1|
+
+Equipment
+PrimaryWeapon:Coat of Quills (Melee, WC: L, Pwr: 2; Bleeding {SklPwr})|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience:100|
+Gil:25|
+Loot: Stinger Quil (Component, Value: 3 gil)|

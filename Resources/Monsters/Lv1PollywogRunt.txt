@@ -52,7 +52,7 @@ Tools: None|
 Consumables: None|
 
 Loot
-Experience: 100|
-Gil: 25|
+Experience: 25|
+Gil: 7|
 Loot: 1x Uncooked Monster Meat (Becomes Monster Meat after cooking for 1 hour).
 Luck > 15: Pollywog Pearl (Consumable/Mineral, Value:  300, Benefit:  Destroy and gain +1 to your next check)|
