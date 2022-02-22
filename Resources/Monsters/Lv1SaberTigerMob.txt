@@ -27,8 +27,8 @@ PrimaryDamage: 15 (Teeth)|
 SecondaryDamage: 15 (Claws)|
 
 Stats
-Melee: (Power: 3, Evasion: 12)|
-Magic: (Power: 3, Evasion: 10)|
+Melee: (Power: 2, Evasion: 12)|
+Magic: (Power: 2, Evasion: 10)|
 Skill: (Power: 5, Evasion: 9)|
 
 Talents
@@ -40,7 +40,7 @@ Acrobatic: 5|
 Entertain: 0|
 
 Equipment
-PrimaryWeapon: Teeth (Skill, M, 1u, Use:  10AP, Pwr:  3 neutral, Sever)|
+PrimaryWeapon: Teeth (Skill, M, 1u, Use:  10AP, Pwr:  3 neutral)|
 SecondaryWeapon: Claws (Skill, M, 1u, Use:  10AP, Pwr:  3 metal, Artisan)|
 Tools: Padded Feet (+4 to Stealth-based talent checks)|
 Consumables: None|

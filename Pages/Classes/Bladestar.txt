@@ -29,9 +29,9 @@ Carry: 10u|
 Element: Neutral|
 
 STATS
-Melee: (Power: 4, Evasion: 6)|
-Magic: (Power: 4, Evasion: 7)|
-Skill: (Power: 4, Evasion: 6)|
+Melee: (Power: 4, Evasion: 8)|
+Magic: (Power: 4, Evasion: 10)|
+Skill: (Power: 4, Evasion: 8)|
 
 Abilities
 Innate: Invent Weapon
@@ -68,31 +68,23 @@ Magic-Support-Action
 Cost: 5mgc+10AP
 Effect: Choose a weapon and change its element to one of your choosing.|
 
-A6: Falcon Strike
-Skill-Offense-Action
-Use: (3+Xsta)+2fcs+10AP
-Range: 0sp+{X/4}
-Accuracy: Skill
-Damage: 3{SklPwr}
-OnHit: Luck > 15; on success, target becomes prone.|
-
-A7: Hone Style
+A6: Hone Style
 Skill-Support-Action
 Use: 5fcs
 Effect: Choose a type: Skill, Magic, or Melee. Gain +10 Evasion against abilities of that type.|
 
-A8: Stoke Heart
+A7: Stoke Heart
 Melee-Support-Action
 Use: 7sta+10AP
 Effect: Gain advantage on all checks for the next 1+{Magic/5} turns.|
 
-A9: Tap Out
+A8: Tap Out
 Skill-Defense-Reaction
 Trigger: Your health reaches 0.
 Use: 5sta+3fcs
 Effect: You are removed from the battlefield and your health is set to 1.|
 
-A10: Summon Animal Companion
+A9: Summon Animal Companion
 Skill-support-Action
 Use: 3fcs+5AP
 Effect: Create a creature with Vital, Scores, and Stats equal to 1/4th of yours.

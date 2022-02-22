@@ -11,11 +11,11 @@ High	6
 V. High	7
 
 Evasion Ranges (meet-or-beat to hit)
-VP	2
-P	6
+VP	5
+P	8
 Avg	10
-G	14
-VG	18	
+G	12
+VG	15
 
 Weapon Damage Multipliers
 VL	1	

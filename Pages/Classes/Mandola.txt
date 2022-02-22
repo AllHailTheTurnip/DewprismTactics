@@ -102,12 +102,6 @@ Luck: 10
 OnPass: Create a consumable Fruit prop in your inventory.
 Fruit Prop: On consumption, restore 15{TL} Health.|
 
-A10: Flytrap Trigger
-Skill-Support-Action
-Use: 1/turn, 1 ability at a time.
-Choose one of your Abilities and, if it is Passive or Action, add on the Reaction application descriptor.
-The Ability can now be triggered for 5AP when you take damage.|
-
 MA1:|
 MA2:|
 MA3:|

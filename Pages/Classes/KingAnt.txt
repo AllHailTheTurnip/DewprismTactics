@@ -94,11 +94,7 @@ Use: 5sta+20AP
 Effect: Conjure a Pincers weapon into your free hand (if both hands are full, it appears in your inventory)
 Pincers (Type: Skill, WC: M, Use: 10AP, Power: 3, Weight: 1u, Element: Wind; Sever)|
 
-A9: Oversize
-Melee-Support-Passive
-Effect: At the start of combat, your {MlePwr} is doubled and your MleEva is halved.|
-
-A10: Break Bonds
+A9: Break Bonds
 Melee-Support-Action
 Use: 10AP
 Luck: 15

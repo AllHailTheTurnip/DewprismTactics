@@ -30,7 +30,7 @@ SecondaryDamage: --|
 Stats
 Melee: (Power: 5, Evasion: 8)|
 Magic: (Power: 2, Evasion: 10)|
-Skill: (Power: 5, Evasion: 6)|
+Skill: (Power: 5, Evasion: 5)|
 
 Talents
 Craft:--|

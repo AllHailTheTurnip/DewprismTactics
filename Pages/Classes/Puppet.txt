@@ -55,12 +55,12 @@ Effect: Make a Movement action.|
 
 A4: Unliving
 Magic-Support-Passive
-Effect: Immune to Asleep, Bleeding, and Poison.|
+Effect: Immune to Asleep, Bleeding, and Poison|
 
 A5: Wild Flail
 Melee-Offensive-Action
 Use: 10AP
-Effect: Make an unarmed attack (include only your base power for damage) with +5 to its accuracy check.
+Effect: Make an unarmed attack (include only your Melee Power for damage) with +5 to its accuracy check.
 You may spend an additional 3sta to make an extra unarmed attack, or 7sta to make two extra unarmed attacks.|
 
 A6: Mime Action
@@ -90,13 +90,6 @@ Skill-Support-Passive
 Range: 0sp
 Effect: While KO'd, an ally within range may spend 15AP to revive you at 1HP.
 While dead, an ally within range may spend 30AP to revive you at 1HP.|
-
-A10: Steal Part
-Skill-Defense-Action
-Use: 12AP+5fcs
-Range: 0sp
-Accuracy: Skill
-Effect: Remove a negative status effect and give it to a combatant within range.|
 
 MA1: Full Alert
 Skill-Defense-Reaction

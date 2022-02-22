@@ -39,7 +39,7 @@ Choose a combatant to target, then jump into the sky (ignoring the ceiling) and 
 When your AP is above 0, fall from the sky (ignoring the ceiling) into the target's space.
 Range: 0sp AoE
 Accuracy: Melee
-OnPass: Affected enemy combatants take 3{MleEva+2} lightning damage.
+OnPass: Affected enemy combatants take 3{MleEva+2} electric damage.
 OnFail: Unaffected enemy combatants are pushed away from you until they leave the AoE.|
 
 A1:Chase
@@ -77,25 +77,19 @@ Magic-Support-Action
 Use: 10AP+Xmna
 Restore X{MgcPwr} Health.|
 
-A7:Circle of Protection
-Magic-Defensive-Action
-Use: 10mna+1/turn
-Choose a combatant to give the Circle of Protection marker.
-Circle of Protection: As a free action, the marker's creator can teleport to the Circle of Protection.|
-
-A8:Carry
+A7:Carry
 Melee-Support-Passive
 Allies can climb onto your person. When you move, any allies on top of you are also moved.|
 
-A9:Shockwave
+A8:Shockwave
 Magic-Offensive-Action
 Use: 15AP!+5mna
 AoE: 1{TL}sp radius
 Combatants within AoE are pushed away from you until outside of AoE.
 Accuracy: Melee
-OnPass: Enemy combatants take 2{MgcPwr} Lightning damage.|
+OnPass: Enemy combatants take 2{MgcPwr} electric damage.|
 
-A10:Honed Strike
+A9:Hone Strike
 Magic-Support-Action
 Use: 10AP+3mna
 Increase your Skill accuracy checks by 1.|

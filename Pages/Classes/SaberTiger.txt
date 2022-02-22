@@ -19,17 +19,17 @@ Carry: 5u|
 Element: Wind|
 
 STATS
-Melee: (Power: 4, Evasion: 12)|
-Magic: (Power: 4, Evasion: 10)|
+Melee: (Power: 3, Evasion: 12)|
+Magic: (Power: 3, Evasion: 10)|
 Skill: (Power: 6, Evasion: 9)|
 
 ABILITIES
 Innate: Assassinate
     Skill-Offensive-Action
-    Use: 10AP + 10Fcs + 5Sta
+    Use: 10AP + 3Fcs + 3Sta
     Range: 1+{TL/4}sp
     Leap through the air into the same space as your target.
-    Luck: 10
+    Luck: 18
     OnPass: Target takes damage equal to their remaining health.|
 A1: Leap
     Skill-Support-Action
@@ -64,7 +64,7 @@ A6: Astounding Speed
 A7: Sharpen Edge
     Skill-Support-Action
     Cost: 31-{TL}AP
-    Increase your critical multiplier by 1.|
+    Increase your Crit scores by 1.|
 A8: Fearsome Roar
     Skill-Offensive-Action
     Cost: 10AP
@@ -76,11 +76,4 @@ A9: Conjure Assassin's Blade
     Use: 5Mna
     Range: ({CL}/4)sp instant
     Add an Assassin's Blade into yours or an ally's inventories.
-    Assassin's Blade (1H-VL, Pwr: 1 Metal, Rng: 0sp, Crit: dmg 3x, Sever 5{CL})|
-A10: Vanish
-    Magic-Defensive-Reaction
-    Trigger: You are attacked.
-    Use: 8Mna
-    Luck: 10-1{CL} (Min 5)
-    You vanish into thin air and end your turn. On your next turn you reappear at your choice of location anywhere
-    on the battlefield.|
+    Assassin's Blade (Skill, 1H-VL, Pwr: 1 Metal, Rng: 0sp, Skill Crit +2)|

@@ -31,8 +31,8 @@ Element: Water|
 
 STATS
 Melee: (Power: 4, Evasion: 10)|
-Magic: (Power: 7, Evasion: 14)|
-Skill: (Power: 3, Evasion: 6)|
+Magic: (Power: 7, Evasion: 15)|
+Skill: (Power: 3, Evasion: 5)|
 
 Abilities
 Innate: Headbash
@@ -105,13 +105,6 @@ A9: Regrow
 Melee-Support-Action
 Use: 25AP
 Effect: Restore 30{PL} health. Any disabled abilities are re-enabled.|
-
-A10: Restart with Pitfall
-Magic-Support-Action
-Use: 10AP+3mna
-Range: {PL/5}
-Target: Yourself or an ally.
-Effect: When the target respawns after falling down a bottomless pit, they don't take any damage.|
 
 MA1:|
 MA2:|

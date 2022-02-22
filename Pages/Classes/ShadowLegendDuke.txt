@@ -95,11 +95,7 @@ Skill-Support-Reaction
 Trigger: A combatant attacks you while an allie is in the same space.
 Effect: The allie gets to make a free luck roll. Upon beating 8, they steal an unequipped item from the top of the target's inventory.|
 
-A9: Resist Friendly Fire
-Skill-Support-Passive
-You cannot be damaged or affected by damage or status affects from allies.|
-
-A10: Guess Next Move
+A9: Guess Next Move
 Skill-Support-Action
 Use: 3fcs+5AP
 Effect: Declare an enemy combatant and ally combatant (or yourself). The enemy gets disadvantage on any checks against them

@@ -97,15 +97,7 @@ Range: 0sp
 Accuracy: Melee
 OnHit: Target becomes Frozen 1+{TL/10}.|
 
-A9: Flood
-Magic-Support-Action
-Use: 30AP+3mna
-Range: 0sp
-Effect: Water gushes out of the floors and pours from the ceiling.
-Enough water to fill 1/2 a space is created, but will spill out if it is not contained.|
-
-
-A10: Possession
+A9: Possession
 Magic-Support-Action
 Use: 10AP+7mna
 Range:0sp

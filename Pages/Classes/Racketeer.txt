@@ -92,11 +92,6 @@ Trigger: Your health is reduced to 1{MlePwr} or less.
 Use: 5sta
 Make a free Movement action, but you can only move in the opposite direction of your attacker.|
 
-A10:Sharpen Blades
-Skill-Support-Action
-Use: 30AP
-Increase your critical threshold by 1.|
-
 MA1:|
 MA2:|
 MA3:|

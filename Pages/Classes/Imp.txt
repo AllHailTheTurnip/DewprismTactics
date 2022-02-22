@@ -47,14 +47,7 @@ The block occupies 1 cubic meter of space.
 Can provide cover for 1 combatant at a time.
 The block has 75+[75PL] health; at 0 health, the block vanishes.|
 
-A2: Desecrate
-Skill-Offense-Action
-Use: 15AP+5fcs
-Range: 0sp
-Effect: Target an inanimate object that is currently not equipped by an opponent.
-That object loses all/any magical effects.|
-
-A3: Trip!
+A2: Trip!
 Skill-Passive-Reaction
 Trigger: Enemy makes Movement Action within ability range.
 Use: 1fcs
@@ -63,7 +56,7 @@ Luck: 15
 OnPass: Target's next Movement costs an additional 2sta.
 If their stamina at 2 or less, they become prone.|
 
-A4: Swap Items
+A3: Swap Items
 Magic-Offense-Action
 Use: 10AP+5mna
 Range: [CL/3]
@@ -71,7 +64,7 @@ Accuracy: Magic
 OnPass: Exchange an unequipped item from your inventory with an unequipped
 item of your choice from the target's inventory.|
 
-A5: Swap Abilities
+A4: Swap Abilities
 Magic-Offense-Action
 Use: 15AP+5mna
 Range: 0sp
@@ -79,7 +72,7 @@ Accuracy: Magic
 OnPass: Roll two d20's and halve the results (rounded up). The first d20 targets your abilities from 1 to 10,
 while the second d20 targets your opponent's abilities from 1 to 10. Exchange the two targeted abilities.|
 
-A6: Swap Places
+A5: Swap Places
 Magic-Offense-Action
 Use: 10AP+5mna
 Reduce Use cost by 1AP+1mna when you reach level 4, 8, 12, 16, and 20.
@@ -87,7 +80,7 @@ Range: 3sp
 Accuracy: Magic
 OnPass: Choose yourself and a target (animate or inanimate) and swap locations with them.|
 
-A7: Bind To Object
+A6: Bind To Object
 Magic-Defense-Action
 Use: 5AP+7mna
 Range: 0sp
@@ -96,14 +89,14 @@ Your physical form is bound within the object.
 While bound to an object, you may only make Movement actions.
 If the object is destroyed while you're bound and you are remove from the battle.|
 
-A8: New Master
+A7: New Master
 Skill-Support-Action
 Use: 10AP+3fcs
 Range: 0sp
 Effect: Choose 1+{CL/5} allies on the battlefield to be your Master.
 At any point during your turns, you may choose to give any amount of your Health, Stamina, Mana, or Focus to the other.|
 
-A9: Become Invisible
+A8: Become Invisible
 Magic-Support-Action
 Use: 10AP+5mna
 Range: Self
@@ -112,7 +105,7 @@ While invisible, your MleEva- and SklEva scores are raised to 20.
 At the beginning of each turn, spend 2mna to remain invisible.
 If you take damage or run out of mana, you become visible again.|
 
-A10: Jinx!
+A9: Jinx!
 Magic-Offense-Action
 Use: 8AP+3mna
 Range: {PL/5}

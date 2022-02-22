@@ -49,47 +49,40 @@ Use: 10AP + 4fcs
 Range: Any ally on the battlefield.
 If it doesn't already have it, give it the attribute of Poison 1{SklPwr}.|
 
-A4: Sever Artery
-Skill-Offensive-Reaction
-Trigger: You declare a basic melee action.
-Use: 5AP + 5fcs
-Range: 0sp
-Until the end of your turn, the acting weapon has Bleed 2{SklPwr}.|
-
-A5: Throwing Needles
+A4: Throwing Needles
 Skill-Passive-Action
 Use: 10AP
 Create 1{TL} Throwing Needles and equip as secondary weapon (if possible).
 Throwing Needle (Type: Skill, WC: VL, Use: 5AP, Pwr: 1. Weight: 0.2u; it costs 0AP to draw this weapon)|
 
-A6: Acupuncture
+A5: Acupuncture
 Skill-Support-Action
 Use: 10AP
 Range: Ally in same space.
 Luck: 12
 Restore a disabled ability or disabled action.|
 
-A7: Pierce Piece
+A6: Pierce Piece
 Skill-Offensive-Action
 Use: 10AP + 3fcs
 Range: 0s[+(TL/4)
 Accuracy: Skill
 OnPass: Destroy a targeted token or prop.|
 
-A8:Conjure Antidote
+A7:Conjure Antidote
 Skill-Support-Action
 Use: 15AP
 Range: Self
 Add 1x Antidote to your inventory.|
 
-A9:Throw Caltrop
+A8:Throw Caltrop
 Skill-Defensive-Action
 Use: 5AP + 5fcs
 Range: 0sp
 Place {SklPwr}/6 Caltrop props in your space.
 Caltrop prop: Counts as difficult terrain. Upon entering space, take 1{SklPwr} damage.|
 
-A10:Suture
+A9:Suture
 Skill-Support-Action
 Use: 8AP
 Range: Combatant in same space.

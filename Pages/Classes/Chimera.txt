@@ -1,36 +1,99 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Title:Chimera|
+Subtitle: Three-headed Monster|
+Description: Chimeras are not natural, but are instead glued together from many living
+things, resulting in an abomination. Though there are relatively few of them out in the
+world, their reputation is widely known and feared. Their unnatural state has shrouded
+them in terror, making them up to be almost demonic.<br>
+<p>Truthfully, chimeras are lost individuals in a constant battle for their own
+sense of identity. Being sewn together from so many constituents, many tend to
+lose themselves later in life, succumbing to a madness that aligns closer
+to wild animals than humans.</p>
+<p>Most often, chimeras roam the land in search of belonging. However, they have
+nothing much to offer - aside from their savage power.</p>|
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
+Health: 60|
+Mana: 17|
+Stamina: 13|
 Focus: 15|
 
 SCORES
 Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Carry: 12u|
+Element: Dark/Electric|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 4, Evasion: 12)|
+Magic: (Power: 6, Evasion: 10)|
+Skill: (Power: 5, Evasion: 12)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
-A10:|
+Innate: Shadowstep
+Magic-Support-Action
+Use: 10AP+5mna
+Effect: Target a combatant and teleport to their space. You gain Stealth.|
+
+A1: Following Weapon
+Magic-Offensive-Action
+Use: 10AP+5mna
+Range: {TL/5}
+Effect: Choose up to 1+{Skill/15} targets within range.
+Throw your primary weapon; you cannot use it while it's in flight.
+At the beginning of a target's turn, they must spend {MgsPwr}sta to dodge your weapon, otherwise
+ they take {Melee Damage}.
+Once all targets have avoided or taken damage, you regain your weapon.|
+
+A2: Death's Head
+Magic-Offensive-Action
+Use: 10AP+7mna
+Range: 1sp
+Accuracy: Magic
+OnPass: Target gets Doomed 3.|
+
+A3: Sleeper's Head
+Magic-Offensive-Action
+Use: 10AP+3mna
+Range: 1sp
+Accuracy: Magic
+OnPass: Target gets Asleep 3.|
+
+A4: Dragon's head
+Magic-Offensive-Action
+Use: 10AP+5mna
+Range: 0sp AoE
+Accuracy: Melee
+OnHit: Combatant takes 3{MgcPwr} fire damage.|
+
+A5: Wild Swipe
+Melee-Offensive-Action
+Use: 10AP+3sta
+Range: 0sp AoE
+Accuracy: Skill
+OnHit: Combatant takes 2{MlePwr} damage|
+
+A6: Lightning Storm
+Magic-Offensive-Action
+Use: 25AP+7mna!
+Range: Battlefield AoE
+Accuracy: Skill
+OnHit: Enemy takes 3{MgcPwr} electric damage.|
+
+A7: Immense Height
+Melee-Support-Passive
+Effect: Enemies 1sp above you are considered within melee-range.|
+
+A8: Crescent Dash
+Skill-Offensive-Action
+Use: 10AP+3sta+3mna
+Effect: Move up 2 spaces away. You make make a free basic attack against any one
+enemy as you pass them.|
+
+A9: Disgusting Laughter
+Skill-Offensive-Action
+Use: 10AP+5mna
+Range: 1sp AoE
+Luck: 10
+OnPass: Enemy gets Slowed 3.|
 
 MA1:|
 MA2:|

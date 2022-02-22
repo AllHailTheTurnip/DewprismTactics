@@ -17,8 +17,11 @@ Scores
 Element:
 Movement:
 Carry:
-Primary Damage:
-Secondary Damage:
+Tool:
+Melee Damage:   Crit:
+Magic Damage:   Crit:
+Skill Damage:   Crit:
+
 
 Stats
 Melee (Power:  , Evasion:  )

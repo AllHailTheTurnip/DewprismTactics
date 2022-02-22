@@ -79,13 +79,7 @@ A8: Horrifying Screech
     Range: {CL/3}sp radius AoE
     Accuracy: Skill
     OnPass: Target is forced away from user until outside of range.|
-A9: Rampage
-    Melee-Support-Action
-    Use: 15fcs+10sta
-    Place a Rampage marker upon yourself.
-    Destroy the marker after 1+({TL}/4) turns.
-    Rampage marker: Taken damage is halved and Offensive actions cost half to use (min 5AP).|
-A10: Rest
+A9: Rest
     Skill-Support-Action
     Use: 20AP for Mode A, OR 30AP for Mode B
     Mode A: Recover 50% of your max Health, Stamina, Mana, and Focus.

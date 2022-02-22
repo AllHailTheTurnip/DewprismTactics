@@ -66,29 +66,25 @@ A5: Path of Duty
     Trigger: You are targeted by a Magic-type ability.
     Use: 5Mna
     Restore TL Stamina, and Focus.|
-A6: Inner Power
-    Skill-Support-Action
-    Use: 40AP + 1/battle
-    Double your MlePwr, MgcPwr, and SklPwr.|
-A7: Call Friend
+A6: Call Friend
     Skill-Support-Reaction
     Trigger: You finished making a movement action.
     Use: 3fcs
     Choose an ally. They may make a free movement action in your direction.|
-A8: Wander
+A7: Wander
     Skill-Support-Action
     Use: 10AP
     Roll d20 as 'A', d20 as 'B'
     South is towards your starting position.
     If A > 10, move up to 1sp+{TL/5} east; else, move up to 1sp+{TL/5} west.
     If B > 10, move up to 1sp+{TL/5} north; else, move up to 1sp+{TL/5} south.|
-A9: Dive Slash
+A8: Dive Slash
     Melee-Offensive-Action
     Use: 10AP + 7Sta
     Range: {CL/4} LoS
     Choose an enemy within range and leap through the air towards them.
     Make a free attack action with +5 to your accuracy check.|
-A10: Combo
+A9: Combo
     Skill-Support-Reaction
     Trigger: You hit with a basic attack action.
     Use: 3sta, 3/Round
@@ -96,6 +92,6 @@ A10: Combo
     OnPass: Make another attack action at the damaged combatant.|
 
 
-MA1: Ultimate Power|
+MA1: Inner Power|
 MA2: Path of Free Will|
 MA3:|

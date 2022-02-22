@@ -117,7 +117,6 @@ function onLoadClass()
     document.getElementById("A7").innerText = GetTxtAttribute("A7");
     document.getElementById("A8").innerText = GetTxtAttribute("A8");
     document.getElementById("A9").innerText = GetTxtAttribute("A9");
-    document.getElementById("A10").innerText = GetTxtAttribute("A10");
     document.getElementById("MA1").innerText = GetTxtAttribute("MA1");
     document.getElementById("MA2").innerText = GetTxtAttribute("MA2");
     document.getElementById("MA3").innerText = GetTxtAttribute("MA3");

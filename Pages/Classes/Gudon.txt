@@ -36,7 +36,7 @@ Element: Fire|
 STATS
 Melee: (Power: 5, Evasion: 8)|
 Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 4, Evasion: 6)|
+Skill: (Power: 4, Evasion: 5)|
 
 Abilities
 Innate:Firebreath
@@ -77,22 +77,15 @@ Melee-Support-Action
 Use: 30AP!
 Effect: Reduce Movement AP cost by 3 (min 3). Reduce max health by -5.|
 
-A7:Circle Sweep
-Melee-Offense-Action
-Use: 15AP!
-Range: 0sp AoE
-Accuracy: Melee
-Damage: 3{MlePwr}|
-
-A8:Low-Light Vision
+A7:Low-Light Vision
 Skill-Support-Passive
 Effect: You are unaffected by Visibility penalties under 100%.|
 
-A9:Stable Stance
+A8:Stable Stance
 Melee-Support-Passive
 Effect: You cannot be knocked Prone.|
 
-A10:Carnivore
+A9:Carnivore
 Melee-Support-Passive
 Effect: When making an unarmed attack, you may half your inflicted damage and regain an equal amount as health.|
 

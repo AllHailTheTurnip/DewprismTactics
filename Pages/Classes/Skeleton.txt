@@ -1,44 +1,93 @@
-Title:|
-Subtitle:|
-Description:|
-???
+
+
+Title: Skeleton|
+Subtitle: Withered Warrior|
+Description: Some believe that the first skeleton was a monk who, after fasting for
+30 days, achieved a heightened-state of being and, instead of succumbing to starvation,
+became nearly immortal. Before ascending, he taught everything he knew to his disciples.
+Later on, when their nation was attacked by raiders and the disciples were scattered
+across the empire, they used their knowledge to help them survive.<br>
+    <p>While that's still considered a myth, it is absolutely certain that Skeleton
+    have their name for a reason. Their fasting has reduced them to skin and bones,
+    yet their heightened states have granted power. A mysterious magic surrounds them.</p>|
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 15|
+Mana: 5|
+Stamina: 5|
+Focus: 5|
 
 SCORES
 Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Carry: 5u|
+Element: Wind/Dark|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
+Melee: (Power: 3, Evasion: 12)|
 Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Skill: (Power: 6, Evasion: 15)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
-A10:|
+Innate: Tireless
+Melee-Support-Passive
+Effect: At the end of each of your turns, your Mana, Stamina, and Focus
+are restored to full.|
+
+A1: Undead
+Magic-Support-Passive
+Effect: Does not become Knocked-Out at 0 Health. Immune to Doom. Cannot drown.
+Healing from enemy combatants is taken as damage.|
+
+A2: Play Dead
+Skill-Support-Action/Reaction
+Trigger: You take damage (voluntary).
+Use: 10AP
+Effect: You falsely gain the Dead status, taking the appearance of a dead combatant.
+While falsely dead, the only action you can make is to remove the Dead status.|
+
+A3: Salvage Bone Weapon
+Skill-Support-Action
+Use: 15AP + 5sta
+Effect: While in the same space as a dead combatant, conjure a Bone Weapon.
+Bone Weapon
+(Type: [First highest of target's base Mana, Stamina, or Focus],
+WC: NA,
+Use: [target's MleEva],
+Rank: [target's base MlePwr],
+Weight: 1u)
+At Class-Level 10: Weapon also gets Attribute equal to target's Innate ability.|
+
+A4: Skeletal
+Magic-Support-Passive
+Effect: Any taken melee-type damage is halved.|
+
+A5: Savage Strike
+Skill-Offensive-Action
+Use: 10AP
+Range: 0sp
+Accuracy: Melee
+Dmg: 2{MlePwr}
+Luck: 10
+OnPass: Disabled Skills (Target cannot make Skill-type actions.)|
+
+A6: Lightweight
+Melee-Support-Passive
+Effect: +10 to Acrobatics checks.|
+
+A7: Fragile
+Melee-Support-Passive
+Effect: Taken critical damage is doubled.|
+
+A8: Reassemble
+Magic-Support-Action
+Cost: 5AP+3fcs+5mna
+Effect: Remove a negative status effect.|
+
+A9: Horrifying
+Skill-Defensive-Action
+Cost: 5fcs
+Accuracy: Skill
+OnPass: Opponent returns to their previous space.|
 
 MA1:|
 MA2:|

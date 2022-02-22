@@ -185,15 +185,31 @@
             If you exceed your Carry, your movement and be penalized.
         </li>
         <li>
-            <b>Primary Damage</b>.<br>
-            A value calculated from your melee power times your primary weapon's power score.
-            Basic attacks and abilities that hit with your primary weapon deal this amount of damage.
+            <b>Tool</b>.<br>
+            Your equipped tool. It grants a bonus based on its effects.
         </li>
         <li>
-            <b>Secondary Damage</b>.<br>
-            A value calculated from your melee power times your secondary weapon's power score.
-            Basic attacks and abilities that use your secondary weapon will deal this amount of damage.
-            In the case of shields and other utilities, no score is listed.
+            <b>Melee Damage</b>.<br>
+            A value based on your Melee Power, multiplied by the Rank of your equipped Melee-type weapon.
+            If no Melee-type weapon is equipped, multiply by 1.
+            Melee-type attacks use this as their default damage.
+        </li>
+        <li>
+            <b>Magic Damage</b>.<br>
+            A value based on your Magic Power, multiplied by the Rank of your equipped Magic-type weapon.
+            If no Magic-type weapon is equipped, multiply by 1.
+            Magic-type attacks use this as their default damage.
+        </li>
+        <li>
+            <b>Skill Damage</b>.<br>
+            A value based on your Skill Power, multiplied by the Rank of your equipped Skill-type weapon.
+            If no Skill-type weapon is equipped, multiply by 1.
+            Skill-type attacks use this as their default damage.
+        </li>
+        <li>
+            <b>Crit</b>.<br>
+            Beside each damage score is a score called Crit, which stands for Critical Damage.<br>
+            Crit is equal to its associated score, where Power is increased by 1.
         </li>
     </ul>
     <hr>
@@ -290,11 +306,11 @@
     <ul>
         <li>
             <b>Primary Weapon</b><br>
-            The weapon in your dominant hand. Attributes listed, aside from its name, are Power, Use, and Weight.
+            The weapon in your dominant hand. Attributes listed, aside from its name, are Rank, Use, and Weight.
         </li>
         <li>
             <b>Secondary Weapon</b><br>
-            The weapon in your non-dominant hand. Attributes listed, aside from its name, are Power, Use, and Weight.
+            The weapon in your non-dominant hand. Attributes listed, aside from its name, are Rank, Use, and Weight.
         </li>
         <li>
             <b>Tools</b><br>
@@ -344,7 +360,8 @@
     </ul>
     <hr>
     <h3>Your Weapon</h3>
-    Each treasure hunter comes into the story with naught but the clothes on their backs and their trusty weapon.<br>
+    Each treasure hunter comes into the story with naught but the clothes on their backs, their trusty weapon, and
+    a health potion.<br>
     No tools, or materials. They even spent their last gil just for the ticket to town! The only place they
     have left to go is up.
     <p>
@@ -386,7 +403,7 @@
                         Use
                     </th>
                     <th>
-                        Power
+                        Rank
                     </th>
                     <th>
                         Weight
@@ -464,177 +481,62 @@
                 </tr>
             </table>
         </li>
-        <!-- Element -->
-        <li>
-            Element<br>
-            The <a href="TermsAndDefinitions.html#Elements">element</a> of your weapon determines what it
-            does the most damage to.
-            <table style="width: inherit">
-                <tr>
-                    <th>
-                        Element
-                    </th>
-                    <th>
-                        2x Damage
-                    </th>
-                    <th>
-                        1/2 Damage
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        Fire
-                    </td>
-                    <td>
-                        Wind
-                    </td>
-                    <td>
-                        Water
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Wind
-                    </td>
-                    <td>
-                        Water
-                    </td>
-                    <td>
-                        Fire
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Water
-                    </td>
-                    <td>
-                        Fire
-                    </td>
-                    <td>
-                        Wind
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Light
-                    </td>
-                    <td>
-                        Dark
-                    </td>
-                    <td>
-                        Light
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Darkness
-                    </td>
-                    <td>
-                        Light
-                    </td>
-                    <td>
-                        Darkness
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Metal
-                    </td>
-                    <td>
-                        Electric
-                    </td>
-                    <td>
-                        Metal
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Electric
-                    </td>
-                    <td>
-                        Metal
-                    </td>
-                    <td>
-                        Electric
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Neutral
-                    </td>
-                    <td>
-                        None
-                    </td>
-                    <td>
-                        None
-                    </td>
-                </tr>
-            </table>
-        </li>
-        <!-- Attributes -->
-        <li>
-            Attribute.<br>
-            Choose an attribute to help flesh-out the dynamic of your weapon.
-            <ul>
-                <li>
-                    Divided. <br>
-                    Reduce weapon's WC variables by half (use decimal if necessary).
-                    The weapon has an exact copy that can be equipped as a secondary weapon.
-                </li>
-                <li>
-                    Oversized. <br>
-                    Increase weapon's Power by 1.<br>
-                    Weapon takes up primary and secondary slots.
-                </li>
-                <li>
-                    Ranged.<br>
-                    Weapon can be used for ranged projectile attacks up to 2sp away.<br>
-                    When using, subtract 1x unit of ammunition from your inventory consumables.
-                </li>
-                <li>
-                    Quickdraw.<br>
-                    It is a free action to draw this weapon.
-                </li>
-                <li>
-                    Throwable.<br>
-                    Toss the weapon up to 1sp away as a basic attack.<br>
-                    Note: you'll have to pick it up later for 5AP.
-                </li>
-                <li>
-                    Sever.<br>
-                    On hit, weapon causes Bleeding TL{6}.
-                </li>
-                <li>
-                    Poisoned.<br>
-                    On hit, target takes Poison TL{5}
-                </li>
-                <li>
-                    Ignite.<br>
-                    On hit, weapon causes Burn TL{5}
-                </li>
-                <li>
-                    Push.<br>
-                    On hit, target is forced away 1sp.
-                </li>
-                <li>
-                    Parry.<br>
-                    Spend 1sta to increase your Melee, Magic, and Skill evasion scores by +2 until the next round.
-                </li>
-                <li>
-                    Artisan.<br>
-                    Critical-hit threshold increased by 1 (crit at 19 instead of 20).
-                </li>
-                <li>
-                    Honed.<br>
-                    Increase accuracy checks for this weapon by 2.
-                </li>
-                <li>
-                    Charmed.<br>
-                    Rolling 1 on accuracy checks does not invoke critical-failure.
-                </li>
-            </ul>
-        </li>
     </ol>
+    <h3>
+        Background Kit
+    </h3>
+    When starting a campaign, you don't always have to start in the same destitute condition. Instead,
+    if the DM wills it, each player can start out with a kit of support items and some money to help
+    get them started.
+    <table style="width: 100%">
+        <tr>
+            <th>Difficulty</th>
+            <th>Kit</th>
+        </tr>
+        <tr>
+            <td>
+                Easy
+            </td>
+            <td>
+                5x Lesser Potion of Healing<br>
+                750 Gil
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Medium
+            </td>
+            <td>
+                3x Lesser Potion of Healing<br>
+                400 Gil
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hard
+            </td>
+            <td>
+                1x Lesser Potion of Healing<br>
+                100 Gil
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Brutal
+            </td>
+            <td>
+                Nothing, lol.
+            </td>
+        </tr>
+    </table>
+    <br>
+    <h4>
+        Level Adjustments
+    </h4>
+    In addition,
+    if the the party is starting out as higher-level adventurers, the quality and quantity of their
+    starting kits can also be adjusted.
+    <ul></ul>
     <h3>
         Finishing Touches
     </h3>
