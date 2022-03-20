@@ -1,4 +1,8 @@
-Title:|
+
+
+
+
+Title: Gamulian|
 Subtitle:|
 Description:|
 ???
@@ -20,17 +24,29 @@ Magic: (Power: 5, Evasion: 10)|
 Skill: (Power: 5, Evasion: 10)|
 
 Abilities
-Innate:|
-A1:|
-A2:|
-A3:|
-A4:|
+Innate: Summon Kin|
+A1: Nap|
+A2: Gore|
+A3: Retaliate|
+A4: |
 A5:|
 A6:|
 A7:|
 A8:|
 A9:|
 
+Known facts
+- Wild boars
+    - Sleep a lot
+    - Have tusks
+- Lots of them
+- Live in tree villages
+    - Good at climbing
+    - Good at building
+- Fight with spears
+- Dance around bonfires
+- Swarm
+- Won't attack until attacked.
 
 MA1:|
 MA2:|
