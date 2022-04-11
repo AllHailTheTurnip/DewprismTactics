@@ -14,10 +14,9 @@ Stamina:
 Focus:
 
 Scores
+Initiative:
 Element:
-Movement:
 Carry:
-Tool:
 Melee Damage:   Crit:
 Magic Damage:   Crit:
 Skill Damage:   Crit:
