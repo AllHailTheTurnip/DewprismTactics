@@ -52,11 +52,12 @@ Sideboard
 ...
 ...
 
-Equipment
+Equipment:
 Primary Weapon:
 Secondary Weapon:
 Tools:
 Consumables:
+Gil:
 Materials:
 - Meat:
 - Wood:
