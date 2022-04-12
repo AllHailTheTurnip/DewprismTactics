@@ -1,5 +1,5 @@
 Name:Blood And Smokey|
-Type: Minibosses|
+Type: Miniboss|
 Level: 1|
 Code:Sapient-Soldiers|
 PrimaryClass:Racketeer|
@@ -21,7 +21,8 @@ He has the better features of his brother, yet hardly anything resembling charis
 direction. He wears a shirt the color of sweat and dust, and khaki suspender pants. A
 machete much like his brother's dangers at his side.|
 
-Behavior:There is no strategy. Their primary objective is to hack and slash at their
+Behavior:When deployed to the battlefield, two tokens are created, each bearing the listed VSSA's.
+There is no strategy. Their primary objective is to hack and slash at their
 opponent until they win or have to make a tactical retreat.
 Blood and Smokey each have the same stats, abilities, and equipment. They behave separately
 from each other, getting their own initiative scores.
@@ -29,10 +30,10 @@ They are both protected by Plot Armor, and when one of them gets knocked-out, a 
 is initiated where Blood calls for a retreat and they both flee the scene.|
 
 Vitals
-Health:56|
-Mana:13 = 17|
-Stamina:20 = 28|
-Focus:13= 17|
+Health: 56|
+Mana: 17|
+Stamina: 28|
+Focus: 17|
 
 Scores
 Element:Neutral|
@@ -56,7 +57,7 @@ Acrobatic:0|
 Entertain:0|
 
 Equipment
-PrimaryWeapon:Rusted Machete(Melee, WC: M, 10AP, Pwr: 3, Weight: 1u, Quickdraw)|
+PrimaryWeapon: Rusted Machete(Melee, WC: M, 10AP, Pwr: 3, Weight: 1u, Quickdraw)|
 SecondaryWeapon:--|
 Tools:Explorer's Kit|
 Consumables:2x Monster Meat|
@@ -64,5 +65,5 @@ Consumables:2x Monster Meat|
 Loot
 Experience:300xp|
 Gil:5|
-Loot:1x Bronze Coin, 2x Monster Treat
-Luck > 10: +1x Silver Coin, +2x Monster Treat, 1x Monster Collar|
+Loot: 1x Bronze Coin, 2x Monster Treat
+Luck 10: +1x Silver Coin, +2x Monster Treat, 1x Monster Collar|
