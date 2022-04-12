@@ -45,7 +45,7 @@ Create a Medium-weight weapon of your chosen type and chosen Attribute; add it i
 A1: Upgrade Damage
 Skill-Support-Action
 Use: 3fcs+15AP
-Effect: Increase the damage of any weapon you have equipped by 1.|
+Effect: Increase the rank of any weapon you have equipped by 1.|
 
 A2: Upgrade Use
 Skill-Support-Action
