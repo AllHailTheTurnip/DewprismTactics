@@ -24,8 +24,9 @@ Scores
 Element:Wind|
 Initiative: 5|
 Carry:6u|
-PrimaryDamage: 5|
-SecondaryDamage: --|
+Melee Damage: 5, Crit: 10
+Magic Damage: 2, Crit: 4
+Skill Damage: 5, Crit: 10
 
 Stats
 Melee: (Power: 5, Evasion: 8)|
@@ -41,7 +42,7 @@ Acrobatic:-6|
 Entertain:--|
 
 Equipment
-PrimaryWeapon: Teeth(Melee, WC:VL, Use: 5AP, Pwr: 1, Weight: 0.2u)|
+PrimaryWeapon: Teeth(Melee, WC:VL, Use: 5AP, Rnk: 1, Weight: 0.2u)|
 SecondaryWeapon:--|
 Tools:None|
 Consumables:None|

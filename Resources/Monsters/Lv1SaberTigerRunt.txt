@@ -23,8 +23,9 @@ Scores
 Element: Wind|
 Initiative: 15|
 Carry: 5u|
-PrimaryDamage: 12 (Teeth)|
-SecondaryDamage: 12 (Claws)|
+Melee Damage: 1, Crit: 2
+Magic Damage: 1, Crit: 2
+Skill Damage: 12/12, Crit: 16/16
 
 STATS
 Melee: (Power: 1, Evasion: 12)|

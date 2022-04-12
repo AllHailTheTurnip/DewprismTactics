@@ -45,7 +45,7 @@ Use: 10AP+3fcs
 Range: 1sp
 Make three accuracy checks as part of this ability.
 Accuracy: Skill
-For each hit, deal 2{SklPwr} damage.|
+For each hit, deal 1{SklPwr} damage.|
 
 A2:Blossom
 Skill-Offensive-Action

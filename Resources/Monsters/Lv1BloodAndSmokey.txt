@@ -38,8 +38,9 @@ Scores
 Element:Neutral|
 Initiative:10|
 Carry:10u|
-PrimaryDamage:18|
-SecondaryDamage:--|
+Melee Damage: 18, Crit: 24)
+Magic Damage: 6, Crit: 12)
+Skill Damage: 7, Crit: 14)
 
 Stats
 Melee: (Power: 6, Evasion: 8)|

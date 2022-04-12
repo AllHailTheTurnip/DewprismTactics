@@ -29,8 +29,9 @@ Scores
 Element: Water|
 Initiative: 10|
 Carry: 7u|
-PrimaryDamage: 2 neutral (Teeth)|
-SecondaryDamage: 2 water (Tail)|
+Melee Damage: 4/2, Crit: 12/8
+Magic Damage: 3, Crit: 6
+Skill Damage: 1, Crit: 2
 
 Stats
 Melee: (Power: 2, Evasion:  10)|

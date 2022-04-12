@@ -191,25 +191,25 @@
         <li>
             <b>Melee Damage</b>.<br>
             A value based on your Melee Power, multiplied by the Rank of your equipped Melee-type weapon.
-            If no Melee-type weapon is equipped, multiply by 1.
+            If no Melee-type weapon is equipped, assume the Rank is 1.
             Melee-type attacks use this as their default damage.
         </li>
         <li>
             <b>Magic Damage</b>.<br>
             A value based on your Magic Power, multiplied by the Rank of your equipped Magic-type weapon.
-            If no Magic-type weapon is equipped, multiply by 1.
+            If no Magic-type weapon is equipped, assume the Rank is 1.
             Magic-type attacks use this as their default damage.
         </li>
         <li>
             <b>Skill Damage</b>.<br>
             A value based on your Skill Power, multiplied by the Rank of your equipped Skill-type weapon.
-            If no Skill-type weapon is equipped, multiply by 1.
+            If no Skill-type weapon is equipped, assume the Rank is 1.
             Skill-type attacks use this as their default damage.
         </li>
         <li>
             <b>Crit</b>.<br>
             Beside each damage score is a score called Crit, which stands for Critical Damage.<br>
-            Crit is equal to its associated score, where Power is increased by 1.
+            Crit is equal to its associated score, where it's weapon's Rank is increased by 1.
         </li>
     </ul>
     <hr>
@@ -544,9 +544,9 @@
         Your Damage Scores
     </h3>
     You have three kinds of damage scores: Melee, Magic, and Skill.<br>
-    Your melee damage is equal to your Melee Power times your melee weapon's rank. If no melee-type weapon is equipped, your Melee Power is 1.<br>
-    Your magic damage is equal to your Magic Power times your magic weapon's rank. If no magic-type weapon is equipped, your Magic Power is 1.<br>
-    Your skill damage is equal to your Skill Power times your skill weapon's rank. If no skill-type weapon is equipped, your Skill Power is 1.<br>
+    Your melee damage is equal to your Melee Power times your melee weapon's rank. If no melee-type weapon is equipped, your Melee Damage is equal to Melee Damage.<br>
+    Your magic damage is equal to your Magic Power times your magic weapon's rank. If no magic-type weapon is equipped, your Magic Power is equal to Magic Damage.<br>
+    Your skill damage is equal to your Skill Power times your skill weapon's rank. If no skill-type weapon is equipped, your Skill Power is equal to Skill Damage.<br>
 
 </div>
 

@@ -25,8 +25,9 @@ Scores
 Element:Dark|
 Initiative:8|
 Carry:10u|
-PrimaryDamage:30|
-SecondaryDamage:20|
+Melee Damage: 30, Crit: 40
+Magic Damage: 12, Crit: 24
+Skill Damage: 20, Crit: 30
 
 STATS
 Melee: (Power: 10, Evasion: 8)|
