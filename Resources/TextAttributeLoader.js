@@ -47,8 +47,9 @@ function onLoadMonster() {
     SetHTMLByID("Element");
     SetHTMLByID("Initiative");
     SetHTMLByID("Carry");
-    SetHTMLByID("PrimaryDamage");
-    SetHTMLByID("SecondaryDamage");
+    SetHTMLByID("MeleeDamage");
+    SetHTMLByID("MagicDamage");
+    SetHTMLByID("SkillDamage");
 
     // Stats
     SetHTMLByID("Melee");

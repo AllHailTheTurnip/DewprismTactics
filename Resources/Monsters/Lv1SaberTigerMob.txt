@@ -23,9 +23,9 @@ Scores
 Element: Wind|
 Initiative: 15|
 Carry: 5u|
-Melee Damage: 2, Crit: 4
-Magic Damage: 2, Crit: 4
-Skill Damage: 15/15, Crit: 20/20
+MeleeDamage: 2, Crit: 4|
+MagicDamage: 2, Crit: 4|
+SkillDamage: 15/15, Crit: 20/20|
 
 Stats
 Melee: (Power: 2, Evasion: 12)|

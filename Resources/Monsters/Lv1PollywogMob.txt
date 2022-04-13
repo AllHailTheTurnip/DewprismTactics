@@ -29,9 +29,9 @@ Scores
 Element: Water|
 Initiative: 10|
 Carry: 7u|
-Melee Damage: 6/3, Crit: 9/6
-Magic Damage: 4, Crit: 8
-Skill Damage: 2, Crit: 6
+MeleeDamage: 6/3, Crit: 9/6|
+MagicDamage: 4, Crit: 8|
+SkillDamage: 2, Crit: 6|
 
 Stats
 Melee: (Power: 3, Evasion:  10)|

@@ -1,5 +1,5 @@
 Name:Gargoyle|
-Type: Miniboss
+Type: Miniboss (2x Heavy)
 Level:2|
 Code:Instinctive-Soldier|
 PrimaryClass:Gargoyle|
@@ -16,23 +16,23 @@ Behavior:They are stone up until you draw close to the point they're trying to p
 After that, they gain malleability and come to life to attack the trespasser.|
 
 VITALS
-Health: 126|
-Mana: 60|
-Stamina: 34|
-Focus: 20|
+Health: 90|
+Mana: 27|
+Stamina: 16|
+Focus: 10|
 
 Scores
 Element:Dark|
 Initiative:8|
 Carry:10u|
-Melee Damage: 30, Crit: 40
-Magic Damage: 12, Crit: 24
-Skill Damage: 20, Crit: 30
+MeleeDamage: 24, Crit: 32|
+MagicDamage: 10, Crit: 2|
+SkillDamage: 16, Crit: 24|
 
 STATS
-Melee: (Power: 10, Evasion: 8)|
-Magic: (Power: 12, Evasion: 9)|
-Skill: (Power: 10, Evasion: 7)|
+Melee: (Power: 8, Evasion: 8)|
+Magic: (Power: 10, Evasion: 9)|
+Skill: (Power: 8, Evasion: 7)|
 
 Talents
 Craft:--|
@@ -49,6 +49,6 @@ Tools:--|
 Consumables:--|
 
 Loot
-Experience:200xp|
-Gil:50|
+Experience:150xp|
+Gil:75|
 Loot:1x Gem (Material:Mineral, Value: 150)|

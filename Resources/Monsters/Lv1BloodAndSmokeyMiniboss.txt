@@ -1,8 +1,8 @@
 Name:Blood And Smokey|
-Type: Miniboss|
+Type: Miniboss (2x Heavy)|
 Level: 1|
-Code:Sapient-Soldiers|
-PrimaryClass:Racketeer|
+Code: Sapient-Soldiers|
+PrimaryClass: Racketeer|
 
 Biography
 Description:A raggedy duo of thugs. They don't have much in the way of brains, let alone
@@ -30,23 +30,23 @@ They are both protected by Plot Armor, and when one of them gets knocked-out, a 
 is initiated where Blood calls for a retreat and they both flee the scene.|
 
 Vitals
-Health: 56|
-Mana: 17|
-Stamina: 28|
-Focus: 17|
+Health: 40|
+Mana: 13|
+Stamina: 20|
+Focus: 13|
 
 Scores
 Element:Neutral|
 Initiative:10|
 Carry:10u|
-Melee Damage: 18, Crit: 24)
-Magic Damage: 6, Crit: 12)
-Skill Damage: 7, Crit: 14)
+MeleeDamage: 15, Crit: 20|
+MagicDamage: 5, Crit: 10|
+SkillDamage: 6, Crit: 12|
 
 Stats
-Melee: (Power: 6, Evasion: 8)|
-Magic: (Power: 6, Evasion: 12)|
-Skill: (Power: 7, Evasion: 12)|
+Melee: (Power: 5, Evasion: 8)|
+Magic: (Power: 5, Evasion: 12)|
+Skill: (Power: 6, Evasion: 12)|
 
 Talents
 Craft:-1|
@@ -63,7 +63,7 @@ Tools:Explorer's Kit|
 Consumables:2x Monster Meat|
 
 Loot
-Experience:300xp|
-Gil:5|
+Experience:150xp|
+Gil:75|
 Loot: 1x Bronze Coin, 2x Monster Treat
 Luck 10: +1x Silver Coin, +2x Monster Treat, 1x Monster Collar|

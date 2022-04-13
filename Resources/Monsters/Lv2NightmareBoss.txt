@@ -24,9 +24,9 @@ Scores
 Element: Darkness|
 Initiative: 13|
 Carry: 20u|
-Melee Damage: 48, Crit: 60
-Magic Damage: 14, Crit: 28
-Skill Damage: 8, Crit: 16
+MeleeDamage: 48, Crit: 60|
+MagicDamage: 14, Crit: 28|
+SkillDamage: 8, Crit: 16|
 
 STATS
 Melee: (Power: 12, Evasion: 12)|
