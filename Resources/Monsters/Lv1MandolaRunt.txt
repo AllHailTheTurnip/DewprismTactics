@@ -39,7 +39,7 @@ Harvest:1|
 Scholar:--|
 Navigate:--|
 Acrobatic:-6|
-Entertain:--|
+Arts:--|
 
 Equipment
 PrimaryWeapon: Teeth(Melee, WC:VL, Use: 5AP, Pwr: 1, Weight: 0.2u)|

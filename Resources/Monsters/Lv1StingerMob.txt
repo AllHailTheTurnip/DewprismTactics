@@ -38,7 +38,7 @@ Harvest:2|
 Scholar:-1|
 Navigate:1|
 Acrobatic:0|
-Entertain:-1|
+Arts:-1|
 
 Equipment
 PrimaryWeapon:Coat of Quills (Melee, WC: L, Pwr: 2; Bleeding {SklPwr})|

@@ -35,7 +35,7 @@ Harvest:|
 Scholar:|
 Navigate:|
 Acrobatic:|
-Entertain:|
+Arts:|
 
 Equipment
 PrimaryWeapon:|

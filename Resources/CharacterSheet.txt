@@ -33,7 +33,7 @@ Harvest	 :
 Scholar	 :
 Navigate :
 Acrobatic:
-Entertain:
+Arts:
 
 Abilities
 Innate:

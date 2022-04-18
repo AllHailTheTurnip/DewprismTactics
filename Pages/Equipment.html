@@ -17,8 +17,8 @@
 <div class="Menu">
     <a href="../index.html">Return to Index</a><br>
     <a href="#Directory">Return to Directory</a>
-    <a href="#Weapons">Weapons</a>
-    <a href="#WeaponAttributes">Weapon Upgrades</a>
+    <a href="#PrimaryWeapons">Weapons</a>
+    <a href="#WeaponAttributes">Weapon Attributes</a>
 </div>
 
 <h1>Inventory</h1>
@@ -30,6 +30,12 @@
         </li>
         <li>
             <a href="#Consumables">Consumables</a>
+        </li>
+        <li>
+            <a href="#PrimaryWeapons">Weapons</a>
+        </li>
+        <li>
+            <a href="#WeaponAttributes">Weapon Upgrades</a>
         </li>
     </ul>
 </div>
@@ -253,7 +259,7 @@
             necessary to host a great party.
         </td>
         <td>
-            +10 to Entertain talent checks.
+            +10 to Arts talent checks.
         </td>
         <td>
             2,500
@@ -480,7 +486,7 @@ It is possible to have another S-tier relic if an Aeon did not care to flaunt th
             everything from snake-bites to the flu.
         </td>
         <td>
-            Remove Poison.
+            Removes Poison.
         </td>
         <td>
             500
@@ -495,7 +501,7 @@ It is possible to have another S-tier relic if an Aeon did not care to flaunt th
             The contents are transparent and odorless.
         </td>
         <td>
-            Give your weapon Poison 3{TL}.
+            Give your weapon Poisoned 3.
         </td>
         <td>
             300
@@ -640,7 +646,7 @@ It is possible to have another S-tier relic if an Aeon did not care to flaunt th
         </td>
     </tr>
     <tr>
-        <td>
+        <td id="WeaponPart">
             Weapon Part
         </td>
         <td>
@@ -651,7 +657,7 @@ It is possible to have another S-tier relic if an Aeon did not care to flaunt th
 
         </td>
         <td>
-            10,000
+            5,000
         </td>
     </tr>
     <tr>
@@ -670,111 +676,225 @@ It is possible to have another S-tier relic if an Aeon did not care to flaunt th
             10,000
         </td>
     </tr>
-</table>
-
-<h2>Weapons</h2>
-<table class="Wide" id="Weapons">
     <tr>
-        <th>Name</th>
-        <th>Score</th>
-        <th>Cost</th>
+        <td>
+            Tonic of Muscle
+        </td>
+        <td>
+            A little black glass bottle with a dirty white label and a cork stopper.
+            Inside is a black, syrupy mixture that gives off nauseating fumes. However,
+            it is said to be a mixture of rare and exotic herbs that can improve
+            the physique.
+        </td>
+        <td>
+            Permanently increase your Melee:Power score by 5.<br>
+            This effect is cumulative, meaning that drinking more will increase the multiplier.<br>
+        </td>
+        <td>
+            10,000
+        </td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>
+            Tonic of Spirit
+        </td>
+        <td>
+            A transparent glass bottle with a cork stopper. Inside is a mixture of unknown substance,
+            rapidly changing hues and physical states. It is reportedly made from a mixture of
+            tears belonging to unknown gods.
+        </td>
+        <td>
+            Permanently increase your Magic:Power score by 5.<br>
+            This effect is cumulative, meaning that drinking more will increase the multiplier.<br>
+        </td>
+        <td>
+            10,000
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Tonic of Mind
+        </td>
+        <td>
+            An aquamarine glass bottle with a clear-white substance. It is odorless, tasteless, and non-viscous.
+            It is said to be made from a blend oils found only in creatures from the bottom of the ocean.
+        </td>
+        <td>
+            Permanently increase your Skill:Power score by 5.<br>
+            This effect is cumulative, meaning that drinking more will increase the multiplier.<br>
+        </td>
+        <td>
+            10,000
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Tonic of Vitality
+        </td>
+        <td>
+            A tall red bottle containing a brown, thick liquid. The mixture smells like rotting leaves,
+            and appears to be so.
+        </td>
+        <td>
+            Permanently increase your Health score by 30 and your Stamina, Mana, and Focus scores by 5.<br>
+            This effect is cumulative, meaning that drinking more will increase the multiplier.<br>
+        </td>
+        <td>
+            10,000
+        </td>
+    </tr>
+</table>
+
+<h2>Primary Weapons</h2>
+<table class="Wide" id="PrimaryWeapons">
+    <tr>
+        <th style="width: 20%" >Name</th>
+        <th>Scores</th>
+        <th style="width: 20%">Cost</th>
+    </tr>
+    <tr>
+        <td>Machete</td>
+        <td>Type: Melee, WC: M, Use: 10AP, Rank: 3, Wt: 1u</td>
+        <td>500</td>
+    </tr>
+    <tr>
+        <td>
+            Basic Staff
+        </td>
+        <td>
+            Type: Magic, WC: M, Use: 10AP, Rank: 3, Wt: 1u
+        </td>
+        <td>
+            650
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Whip
+        </td>
+        <td>
+            Type: Skill, WC: M, Use: 10AP, Rank: 3, Wt: 1u
+        </td>
+        <td>
+            450
+        </td>
+    </tr>
+</table>
+<h2>
+    Secondary Weapons
+</h2>
+<table class="Wide" id="SecondaryWeapons" >
+    <tr>
+        <th style="width: 20%" >Name</th>
+        <th>Scores</th>
+        <th style="width: 20%">Cost</th>
+    </tr>
+    <tr>
+        <td>Standard Shield</td>
+        <td>Protection: 3{MlePwr}</td>
+        <td>500</td>
+    </tr>
+    <tr>
+        <td>Parrying Dagger</td>
+        <td>Type: Melee, WC: VL, Use: 5AP, Rank: 1, Wt: 0.2u; Parry</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>Throwing Knife</td>
+        <td>Type: Skill, WC: VL, Use: 5AP, Rank: 1, Wt: 0.2u; Thrown</td>
+        <td>200</td>
     </tr>
 </table>
 <h2>Weapon Attributes</h2>
 <table class="Wide" id="WeaponAttributes">
     <tr>
-        <th>Name</th>
+        <th style="width: 15%">Name</th>
         <th>Description</th>
         <th>Benefits</th>
-        <th>Cost</th>
+        <th style="width: 15%">Service Price</th>
     </tr>
     <tr>
         <td>Divided</td>
         <td>The weapon was forged into two smaller versions of the origin.</td>
         <td>Reduce weapon's WC variables by half (use decimal if necessary).
             The weapon has an exact copy that can be equipped as a secondary weapon.</td>
-        <td></td>
+        <td>1,000</td>
     </tr>
     <tr>
-        <td>Oversized</td>
+        <td>Oversized X</td>
         <td>For weapon was made far too large for its intended size.</td>
-        <td>Increase weapon's Power by 1.<br>
+        <td>Increase weapon's Power by X.<br>
             Weapon takes up primary and secondary slots.</td>
-        <td></td>
+        <td>2,500</td>
     </tr>
     <tr>
-        <td>Ranged</td>
+        <td>Ranged X</td>
         <td>The weapon is able to fire projectiles at the expense of its close-range capabilities.</td>
-        <td> Weapon can be used for ranged projectile attacks up to 2sp away.<br>
+        <td> Weapon can be used for ranged projectile attacks up to Xsp away.<br>
             When using, subtract 1x unit of ammunition from your inventory consumables.</td>
-        <td></td>
+        <td>2,500</td>
     </tr>
     <tr>
         <td>Quickdraw</td>
         <td>The weapon's shape has been refined to make it quick to draw.</td>
         <td>It is a free action to draw this weapon.</td>
-        <td></td>
+        <td>500</td>
     </tr>
     <tr>
-        <td>Throwable</td>
+        <td>Throwable X</td>
         <td>The weapon was redesigned to be easily and accurately thrown.</td>
-        <td>Toss the weapon up to 1sp away as a basic attack.<br>
+        <td>Toss the weapon up to Xsp away as a basic attack.<br>
             Note: you'll have to pick it up later for 5AP.</td>
-        <td></td>
+        <td>650</td>
     </tr>
     <tr>
-        <td>Sever</td>
+        <td>Sever X</td>
         <td>The weapon's edge is particularly sharp, digging deep and causing excessive bleeding.</td>
-        <td>On hit, weapon causes Bleeding 3{TL}.</td>
-        <td></td>
+        <td>On hit, weapon causes Bleeding X{TL}.</td>
+        <td>1,000</td>
     </tr>
     <tr>
-        <td>Poisoned</td>
+        <td>Poisoned X</td>
         <td>The weapon's edge has been dipped in poison.</td>
-        <td>On critical hit, target takes Poison 3{TL}</td>
-        <td></td>
+        <td>On critical hit, target takes Poison X{TL}. Note: Poison cannot be stacked.</td>
+        <td>800</td>
     </tr>
     <tr>
-        <td>Spark</td>
+        <td>Spark X</td>
         <td>The weapon's metal is an alloy that sparks upon contact.</td>
-        <td>On critical hit, weapon causes Burn 3{TL}</td>
-        <td></td>
+        <td>On critical hit, weapon causes Burn X{TL}</td>
+        <td>350</td>
     </tr>
     <tr>
-        <td>Push</td>
+        <td>Push X</td>
         <td>Upon connection with the target, they're pushed backwards.</td>
-        <td>On critical hit, target is forced away 1sp.</td>
-        <td></td>
+        <td>On critical hit, target is forced away Xsp.</td>
+        <td>750</td>
     </tr>
     <tr>
-        <td>Parry</td>
+        <td>Parry X</td>
         <td>The weapon is particularly sturdy, granting the user a degree of protection.</td>
-        <td>Spend 1sta to increase your Melee, Magic, and Skill evasion scores by +2 until the next round.</td>
-        <td></td>
+        <td>Spend 1sta to increase your Melee, Magic, and Skill evasion scores by +X until the next round.</td>
+        <td>600</td>
     </tr>
     <tr>
-        <td>Artisan</td>
+        <td>Artisan X</td>
         <td>The weapon was masterfully crafted, making it more prone to critical damage.</td>
-        <td>Critical-hit threshold increased by 1 (critical damage at 19 instead of 20).</td>
-        <td></td>
+        <td>Critical-hit threshold increased by X (critical damage at 20-X instead of just 20).</td>
+        <td>1,000</td>
     </tr>
     <tr>
-        <td>Honed</td>
+        <td>Honed X</td>
         <td>This weapon was designed with accuracy in mind.</td>
-        <td>Increase accuracy checks for this weapon by 2.</td>
-        <td></td>
+        <td>Increase accuracy checks for this weapon by X.</td>
+        <td>1,000</td>
     </tr>
     <tr>
-        <td>Charmed</td>
+        <td>Charmed X</td>
         <td>A blessing on this weapon predisposes it against bad luck.</td>
-        <td>Rolling 1 on accuracy checks does not invoke critical-failure.</td>
-        <td></td>
+        <td>Rolling 1 on accuracy checks does not invoke critical-failure,
+            and while equipped increases luck checks by +X.</td>
+        <td>3,000</td>
     </tr>
 </table>
 </body>

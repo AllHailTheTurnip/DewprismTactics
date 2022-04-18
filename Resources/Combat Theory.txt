@@ -1,7 +1,6 @@
 In General
 - People are better-off with equipment.
 - Base stats are linear
-- equipment can level-up too
 
 Base Power Ranges
 V. Low	3
@@ -18,11 +17,11 @@ G	12
 VG	15
 
 Weapon Damage Multipliers
-VL	1	
-L	2		
-Avg	3	
+VL	1
+L	2
+Avg	3
 H	4
-VH	5		
+VH	5
 
 Average Damage Ranges
 VL: 	5
@@ -90,6 +89,15 @@ Average	3
 Great	5
 Max	    7
 
+
+Talent Ranges
+Awful       -10
+Bad         -5
+Poor        -2
+Average     0
+Good        +2
+Great       +5
+Masterful   +10
 ----------------
 Sub5 for Y (S5)
 Take the value of X and divide by 5, then substitute 5 for Y. Calculate the new value.

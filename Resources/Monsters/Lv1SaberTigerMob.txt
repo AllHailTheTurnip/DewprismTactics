@@ -38,7 +38,7 @@ Harvest: 0|
 Scholar: 1|
 Navigate: 4|
 Acrobatic: 5|
-Entertain: 0|
+Arts: 0|
 
 Equipment
 PrimaryWeapon: Teeth (Skill, M, 1u, Use:  10AP, Pwr:  3 neutral)|

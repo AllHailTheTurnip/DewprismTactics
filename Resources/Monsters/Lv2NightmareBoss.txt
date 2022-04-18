@@ -39,7 +39,7 @@ Harvest:0|
 Scholar:-1|
 Navigate:6|
 Acrobatic:3|
-Entertain:0|
+Arts:0|
 
 Equipment
 PrimaryWeapon:Hooves(Melee, WC: H, Use: 10AP+1sta, Pwr:4, Weight:--)|

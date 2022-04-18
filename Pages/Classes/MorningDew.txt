@@ -4,20 +4,20 @@ Description:|
 ???
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 75|
+Mana: 20|
+Stamina: 5|
+Focus: 5|
 
 SCORES
 Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Carry: 7u|
+Element: Light|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 3, Evasion: 15)|
+Magic: (Power: 7, Evasion: 15)|
+Skill: (Power: 3, Evasion: 15)|
 
 Abilities
 Innate:|

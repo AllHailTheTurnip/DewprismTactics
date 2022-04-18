@@ -62,7 +62,7 @@ function onLoadMonster() {
     SetHTMLByID("Scholar");
     SetHTMLByID("Navigate");
     SetHTMLByID("Acrobatic");
-    SetHTMLByID("Entertain");
+    SetHTMLByID("Arts");
 
     // Equipment
     SetHTMLByID("PrimaryWeapon");

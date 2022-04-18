@@ -54,7 +54,7 @@ Harvest:2|
 Scholar:-2|
 Navigate:2|
 Acrobatic:0|
-Entertain:0|
+Arts:0|
 
 Equipment
 PrimaryWeapon: Rusted Machete(Melee, WC: M, 10AP, Pwr: 3, Weight: 1u, Quickdraw)|

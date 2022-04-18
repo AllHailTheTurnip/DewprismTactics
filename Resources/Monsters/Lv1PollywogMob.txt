@@ -44,7 +44,7 @@ Harvest: 0|
 Scholar: -2|
 Navigate: 2|
 Acrobatic: -2|
-Entertain: 0|
+Arts: 0|
 
 Equipment
 PrimaryWeapon: Teeth (Melee, L, 0.5u, Cost:  7AP, Pwr: 2 Neutral, Quickdraw)|
