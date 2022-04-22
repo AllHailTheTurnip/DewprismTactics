@@ -49,6 +49,6 @@ Tools:--|
 Consumables:--|
 
 Loot
-Experience:150xp|
-Gil:75|
-Loot:1x Gem (Material:Mineral, Value: 150)|
+Experience:150xp each|
+Gil:75 each|
+Loot:1x Gem (Material:Mineral, Value: 150) each|
