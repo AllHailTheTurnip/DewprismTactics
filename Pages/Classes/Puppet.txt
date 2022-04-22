@@ -36,6 +36,7 @@ Skill: (Power: 3, Evasion: 6)|
 Abilities
 Innate: High Alert
 Skill-Defensive-Reaction
+Use: 3fcs
 Range: CL/5
 Trigger: An enemy combatant enters within range.
 Effect: Make a free basic attack against the intruding enemy combatant.|
@@ -48,9 +49,9 @@ A2: Enchanted Object
 Magic-Support-Passive
 Effect: Increase Magic-type checks by +3.|
 
-A3: Patrol
+A3: Scout
 Melee-Support-Action
-Use: 3sta
+Use: 5AP
 Effect: Make a Movement action.|
 
 A4: Unliving
