@@ -1,13 +1,52 @@
+:root
+{
+    --TrueMin: 16px;
+    --StdFS: 2vw;
+    --MinFS: 1.5vw;
+    --H1FS: 5vw;
+    --H2FS: 4.5vw;
+    --H3FS: 4vw;
+    --H4FS: 3.5vw;
+    --H5FS: 3vw;
+}
+
 body {
     background: url("Banner.png") white no-repeat fixed center;
-    font-family: Dewprism;
+    font-family: Dewprism, serif;
     line-height: 1.35;
+    font-size: max(var(--StdFS), var(--TrueMin));
 }
 
 h1, h2, h3, h4, h5 {
-    line-height: 0px;
+    word-wrap: break-word;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
+h1
+{
+    font-size: max(var(--H1FS), var(--TrueMin));
+}
+
+h2
+{
+    font-size: max(var(--H2FS), var(--TrueMin));
+}
+
+h3
+{
+    font-size: max(var(--H3FS), var(--TrueMin));
+}
+
+h4
+{
+    font-size: max(var(--H4FS), var(--TrueMin));
+}
+
+h5
+{
+    font-size: max(var(--H5FS), var(--TrueMin));
+}
 body.GreenMagic {
     background-image: url("Green.jpg");
     background-repeat: no-repeat;
@@ -23,7 +62,8 @@ body.BlueMagic {
 }
 
 div {
-    width: 50%;
+    width: 50vw;
+    font-size: inherit;
     border: solid black 1px;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 7px;
@@ -35,6 +75,7 @@ div {
 div.Side {
     border: 0px;
     margin-left: 0px;
+    font-size: var(--MinFS);
 }
 
 div.Wide {
@@ -42,9 +83,10 @@ div.Wide {
 }
 
 p {
-    text-indent: 40px;
+    text-indent: 5vw;
     margin-bottom: 0px;
     margin-top: 0px;
+    font-size: inherit;
 }
 
 table {
@@ -90,6 +132,7 @@ td {
 
 p.tab {
     margin-left: 40px;
+    font-size: 5vw;
 }
 
 @font-face {
@@ -121,6 +164,7 @@ div.Menu {
 
 ul, ol {
     margin-top: 0px;
+    font-size: max(var(--StdFS), var(--TrueMin));
 }
 
 span.Fire {

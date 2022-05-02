@@ -47,6 +47,6 @@ Tools:|
 Consumables:|
 
 Loot
-Experience:100|
-Gil:25|
+Experience:25|
+Gil:7|
 Loot: Stinger Quil (Component, Value: 3 gil)|

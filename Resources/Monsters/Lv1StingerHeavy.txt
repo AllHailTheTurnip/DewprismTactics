@@ -1,6 +1,6 @@
 Name:Stinger|
 Level:1|
-Type: Mob|
+Type: Heavy|
 Code:Instinctive Support/Hunter|
 PrimaryClass:Stinger|
 
@@ -14,23 +14,23 @@ Behavior:Generally shying away from conflict, they only engage if provoked. Once
 attack the offender until it leaves the area of is neutralized.|
 
 VITALS
-Health: 18|
-Mana: 6|
-Stamina: 9|
-Focus: 12|
+Health: 30|
+Mana: 10|
+Stamina: 15|
+Focus: 20|
 
 Scores
 Element:Wind|
 Initiative:10|
 Carry:8u|
-MeleeDamage: 6, Crit: 9|
-MagicDamage: 2, Crit: 4|
-SkillDamage: 5, Crit: 10|
+MeleeDamage: 8, Crit: 12|
+MagicDamage: 3, Crit: 6|
+SkillDamage: 6, Crit: 12|
 
 STATS
-Melee: (Power: 3, Evasion: 14)|
-Magic: (Power: 2, Evasion: 9)|
-Skill: (Power: 5, Evasion: 12)|
+Melee: (Power: 4, Evasion: 14)|
+Magic: (Power: 3, Evasion: 9)|
+Skill: (Power: 6, Evasion: 12)|
 
 Talents
 Craft:1|
@@ -47,6 +47,6 @@ Tools:|
 Consumables:|
 
 Loot
-Experience:100|
-Gil:25|
-Loot: 2x Stinger Quil (Component, Value: 3 gil)|
+Experience:150|
+Gil:37|
+Loot: 4x Stinger Quil (Component, Value: 3 gil), Luck 10: Gold Quil (25 gil)|
