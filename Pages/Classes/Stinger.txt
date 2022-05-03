@@ -40,8 +40,8 @@ After the attack is resolved, move 1+(TL/4)sp in any diagonally direction.|
 A2: Shrink Down
 Magic-Defensive-Action
 Use: 5AP + 10mna
-Double your Evasion scores, halve your Power scores, and give yourself a Growback token.
-Growback token: Undo the effects of Shrink Down (double your Power scores and halve your Evasion scores)|
+Increase Evasion scores by 50%, reduce your Power scores by 50%.
+At the beginning of your next turn, restore your Evasion and Power scores.|
 
 A3: Coat with Poison
 Skill-Offensive-Action
@@ -79,7 +79,7 @@ A8:Throw Caltrop
 Skill-Defensive-Action
 Use: 5AP + 5fcs
 Range: 0sp
-Place {SklPwr}/6 Caltrop props in your space.
+Place a Caltrop props in your space.
 Caltrop prop: Counts as difficult terrain. Upon entering space, take 1{SklPwr} damage.|
 
 A9:Suture
