@@ -69,8 +69,8 @@ Magic-Defense-Reaction
 Trigger: A combatant makes an action.
 Range: Line of Sight
 Luck: 15
-Use: 7fcs
-Effect: Execute the same action as the target after their action is resolved.|
+Use: 3fcs
+Effect: Execute the same action, for free, using the same scores, as the target after their action is resolved.|
 
 A7: Gang Attack
 Skill-Offensive-Reaction

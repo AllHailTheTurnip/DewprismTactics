@@ -27,7 +27,7 @@ Skill: (Power: 6, Evasion: 12)|
 Abilities
 Innate: Thorny Armor
 Skill-Defensive-Reaction
-Trigger: An enemy enters (even while moving) same space.
+Trigger: An enemy declares making a melee-range attack against you.
 Inflict 1{SklPwr} metal damage to each enemy in same space.|
 
 A1: Tactical Roll
