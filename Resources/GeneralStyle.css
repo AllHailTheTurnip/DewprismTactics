@@ -1,13 +1,13 @@
 :root
 {
     --TrueMin: 16px;
-    --StdFS: 2vw;
-    --MinFS: 1.5vw;
-    --H1FS: 5vw;
-    --H2FS: 4.5vw;
-    --H3FS: 4vw;
-    --H4FS: 3.5vw;
-    --H5FS: 3vw;
+    --StdFS: 1vw;
+    --MinFS: 0.75vw;
+    --H1FS: 2.25vw;
+    --H2FS: 2vw;
+    --H3FS: 1.75vw;
+    --H4FS: 1.5vw;
+    --H5FS: 1.25vw;
 }
 
 body {

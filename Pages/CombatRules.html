@@ -432,32 +432,6 @@ If your hit check rolled a natural 20, you use your Crit score for damage instea
         If the target is out of your distance, the attack will fall short.
     </p>
     <p>
-        Some spaces count as providing protection against outside attacks, such as rooms and wooded areas. When
-        firing into these areas, the target receives an Evasion bonus based on how protected they are.
-    <ul>
-        <li>
-            Very Low Protection: +1
-        </li>
-        <li>
-            Low Protection: +3
-        </li>
-        <li>
-            Medium Low Protection: +5
-        </li>
-        <li>
-            High Protection: +7
-        </li>
-        <li>
-            Very High Protection: +9
-        </li>
-        <li>
-            Full Protection: +20<br>
-            You gain full when you're in a fully enclosed area. The doors and windows are shut and no one can see
-            you.
-        </li>
-    </ul>
-    </p>
-    <p>
         Additionally, if the target is in the same space as you but you don't have ammo, you can make
         a melee attack at it, treating the weapon's Pwr score as 1 instead.
     </p>
@@ -504,10 +478,33 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <h3>
         Taking Cover
     </h3>
-    AP Cost: 10<br>
+    AP Cost: 5<br>
     If your area has cover that isn't already occupied, declare that you are taking cover and where.
     While taking cover, attacks checks from outside your space are penalized 5 points.
     If an enemy enters your space, the penalty is canceled.
+    <ul>
+        <li>
+            Very Low Protection: +1
+        </li>
+        <li>
+            Low Protection: +3
+        </li>
+        <li>
+            Medium Low Protection: +5
+        </li>
+        <li>
+            High Protection: +7
+        </li>
+        <li>
+            Very High Protection: +9
+        </li>
+        <li>
+            Full Protection: +20<br>
+            You gain full when you're in a fully enclosed area. The doors and windows are shut and no one can see
+            you.
+        </li>
+    </ul>
+
     <h3>
         Unarmed Attacks
     </h3>
@@ -517,7 +514,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <h3>
         Use Equipment
     </h3>
-    AP Cost: 10<br>
+    AP Cost: 5<br>
     Declare that you wish to use either one of your weapon, tools, materials, or consumables,
     and how you wish to use it. By this action you can:
     <ul>
@@ -525,7 +522,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
             Swap, draw, equip, store one of your weapons,
         </li>
         <li>
-            Consume a consumable item, or,
+            Consume a consumable item and benefit from its effects, or,
         </li>
         <li>
             Swap, equip, or store one of your tools.
@@ -544,9 +541,10 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <h3>
         Destroy
     </h3>
-    AP Cost: 30 <br>
+    AP Cost: 20 <br>
     Declare that you wish to destroy an object.
-    Target an unequipped item, such as a prop, a weapon, clothing, or accessory, and destroy it.<br>
+    Target an unequipped item outside of a target's inventory, such as a prop, a weapon, clothing,
+    or accessory, and destroy it.<br>
     The destroyed item no longer offers any benefits, including an attack bonus, or abilities.<br>
     Additionally, you can also target environment features such as bushes, small trees, doors,
     pillars, and stairs.
@@ -566,7 +564,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <h3>
         Talent Checks
     </h3>
-    AP Cost: 10 <br>
+    AP Cost: 5 <br>
     Declare that you'd like to make a Talent check and wait for the DM to determine how difficult it will be
     to accomplish. A larger scale check may also require more AP to fulfill, and may even require more than
     one turn.
@@ -595,13 +593,13 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     </p>
     <ul>
         <li>
-            <b>Drone</b><br> Beat 14
+            <b>Drone</b><br> Beat 16
         </li>
         <li>
             <b>Instinctive</b><br> Beat 18.
         </li>
         <li>
-            <b>Sapient</b><br> Beat 20. (Impossible without modifiers)
+            <b>Sapient</b><br> Beat 20.
         </li>
     </ul>
     To improve your chances, reduce the difficulty by 1 for every 1/4 of its Health
@@ -610,7 +608,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         Upon success, the monster becomes neutral to your party and will no longer want to fight.
     </p>
     <p>
-        At the end of combat, roll the check again, and if you're successful, the
+        At the end of combat, roll luck 10, and if you're successful, the
         monster will come submissively creeping out of the bushes and join beside
         the party. It is now your new ally, and will no longer attack your party when you pass
         through the territory again.
@@ -625,14 +623,11 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <p>
         Keep in mind, however, that while it's possible to befriend minibosses
         and bosses, once they join your party, they lose their miniboss/boss
-        status and gain the stats of regular party members.
+        status and regain the stats of regular party members.
     </p>
     <p>
         Meanwhile, only Sapient monsters
         can use equipment without assistance from another party member.
-    </p>
-    <p>
-        Revival Coins do not work on anything less than Instinctive-intelligence monsters.
     </p>
 </div>
 <div class="Wide">
@@ -656,8 +651,8 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     </ol>
 
 
-    Elements that are strong against another element will inflict double damage.<br>
-    Elements that are weak against another element will inflict half damage.
+    Elements that are strong against another element will inflict 50% more damage.<br>
+    Elements that are weak against another element will inflict 50% less damage.
 
     <ul>
         <li>
@@ -722,8 +717,8 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <h2 id="MetaLogic">
         Meta Logic
     </h2>
-    While in combat, it is assumed that everyone is bound to the same basic combat rules, such that actions
-    all cost the same amount for everyone, all the time; that abilities and actions do as they are assumed
+    While in combat, it is assumed that the written rules come first everyone is bound to the same basic combat rules, such that narrative sense
+    comes second; that abilities and actions do as they are assumed
     to for everyone, all the time.
     <p>
         This is the for benefit of the players that, if they know the rules, then they can generally
@@ -731,7 +726,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <p>
         Though you might wish to be creative - and there will be times when that is allowed - your creative
         endeavors may not always be possible. If they are, then it should be expected that your enemies
-        will exploit the same creative loopholes as you.
+        will take the same liberties you have.
     </p>
 </div>
 <div class="Wide">

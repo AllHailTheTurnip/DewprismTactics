@@ -64,7 +64,7 @@ A6: Fireball
     Use: 10AP + 3mna
     Range: 0sp LoS
     Accuracy: Melee
-    OnHit: Target takes 3{MgcPwr} fire damage. On critical, target catches fire (Burning 1{TL}).|
+    OnHit: Target takes 3{MgcPwr} fire damage. On hit, target catches fire (Burning 1{TL}).|
 A7: Acquire Magic
     Magic-Support-Action
     Use: 10AP + 5fcs

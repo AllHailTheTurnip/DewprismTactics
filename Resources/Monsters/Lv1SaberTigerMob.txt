@@ -49,5 +49,5 @@ Consumables: None|
 Loot
 Experience: 100|
 Gil: 25|
-Loot: Saber Tooth (Material:  Mineral, Value:  25gil)
+Loot: Saber Tooth (Material: Mineral, Value: 25gil)
 Luck > 15:  Saber Tiger Pelt (Material:  Fabric, value:  100)|
