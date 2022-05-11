@@ -46,7 +46,6 @@ A1:Chase
 Melee-Offensive-Action
 Use: 10AP+(Xsta/3)
 Target: Enemy combatant
-Accuracy: Melee
 Move up to Xsp in direction of target. Target must spend Xsta and move Xsp away or else take 3{MlePwr} damage.|
 
 A2:Royal Armor
@@ -64,6 +63,7 @@ A4:Throw into the Sky
 Magic/Melee-Offensive-Action
 Use: 10sta
 Range: 0sp
+Accuracy: Melee
 Target is hurled into the sky. On their next they fall to the ground and take 15{TL} fall damage.|
 
 A5: Gallop
