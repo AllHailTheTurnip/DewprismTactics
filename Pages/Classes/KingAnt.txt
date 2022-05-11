@@ -45,8 +45,8 @@ A Mode
     Effect: Make 3 Accuracy checks against the target; each success inflicts 3{SklPwr} damage.
 
 B Mode
-    Use: 1sp
-    Range: 0sp AoE
+    Use: 10AP
+    Range: 1sp AoE
     Accuracy: Melee
     Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts 3{SklPwr} damage.|
 
