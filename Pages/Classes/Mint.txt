@@ -36,10 +36,10 @@ Innate: Switch Magic Element
 A1: Flying Kick
     Melee-Offensive-Action
     Use: 10AP
-    Range: 0sp LoS
-    Increase your critical-success range by 5 and your critical-failure range by 5 until the end of your turn.
-    Choose a target within range and leap through the air into their space, making a free attack action
-    when you arrive.|
+    Range: 1sp LoS
+    Increase your critical-success range by 5 and your critical-failure range by 5 until the end of this action.
+    Choose a target within range and leap through the air into their space as a free Movement action, making a free
+    attack action against them as you arrive.|
 A2: Scheme
     Skill-Support-Action
     Use: 30AP + 5fcs
