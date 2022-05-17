@@ -52,7 +52,7 @@ A4: Reckless Shove
     Melee-Offensive-Action
     Use: 10AP
     Accuracy: Melee
-    Damage: {MlePwr}
+    Damage: 1{MlePwr}
     Luck: 10
     OnPass: The enemy is knocked prone.|
 A5: Jump Back
@@ -84,4 +84,19 @@ A9: Rest
     Use: 20AP for Mode A, OR 30AP for Mode B
     Mode A: Recover 50% of your max Health, Stamina, Mana, and Focus.
     Mode B: Recover 50% of your max Health, Stamina, Mana, and Focus and remove any negative status effects.|
+
+MA1: Unresting
+    Magic-Support-Passive
+    Effect: Once per turn, you may execute a Magic-type ability for free.
+
+MA2: Throw
+    Melee-Offensive-Action
+    Use: 10AP
+    Range: 0sp
+    Effect: The target is thrown {TL} spaces in the direction of your choice.|
+
+MA3: Merciless Chase
+    Melee-Offensive-Reaction
+    Trigger: Your health reaches 0.
+    Effect: Movement actions cost 10AP. You are immune to non-critical damage.|
 

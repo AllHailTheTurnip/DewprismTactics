@@ -47,7 +47,7 @@ A1: Defensive Stance
 Skill-Defensive-Action
 Use: 10AP+3fcs
 Effect: End your turn. Until the start of your next turn, if you're attacked,
-you may use your Innate ability for free.|
+you may use your Doctrine ability for free.|
 
 A2: Conjure Tuba
 Magic-Support-Action

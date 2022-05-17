@@ -55,7 +55,7 @@ WC: NA,
 Use: [target's MleEva],
 Rank: [target's base MlePwr],
 Weight: 1u)
-At Class-Level 10: Weapon also gets Attribute equal to target's Innate ability.|
+At Class-Level 10: Weapon also gets Attribute equal to target's Doctrine ability.|
 
 A4: Skeletal
 Magic-Support-Passive

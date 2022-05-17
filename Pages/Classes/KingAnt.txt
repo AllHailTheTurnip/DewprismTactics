@@ -30,9 +30,9 @@ Carry: 12u|
 Element: Fire|
 
 STATS
-Melee: (Power: 3, Evasion: 11)|
-Magic: (Power: 1, Evasion: 8)|
-Skill: (Power: 4, Evasion: 11)|
+Melee: (Power: 4, Evasion: 11)|
+Magic: (Power: 3, Evasion: 8)|
+Skill: (Power: 6, Evasion: 11)|
 
 Abilities
 Innate: Assault Rifle

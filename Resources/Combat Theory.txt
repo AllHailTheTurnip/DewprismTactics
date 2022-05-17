@@ -126,4 +126,10 @@ heavy = +0
 Miniboss = +1
 Boss = +2
 
+Monster base XP
+Runt        25
+Mob         50
+Heavy       100
+Miniboss    200
+Boss        400
 

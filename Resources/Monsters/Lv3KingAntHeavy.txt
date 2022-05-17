@@ -1,0 +1,51 @@
+Name:King Ant|
+Type:Mob|
+Level:3|
+Code:Drone-Soldier|
+PrimaryClass:King Ant|
+
+Biography
+Description:An enormous ant with huge pincers and a thorax that fires pellets.|
+
+Appearance:Giant red-bodied ant, big as a cow.|
+
+Behavior:Territorial to predators and invasive species. It lives in relative peace with the Gudons,
+but is offensive towards everything else.|
+
+Vitals
+Health: 75|
+Mana: 14|
+Stamina: 14|
+Focus: 14|
+
+Scores
+Element:Fire|
+Initiative:10|
+Carry:12u|
+MeleeDamage: 12, Crit:24|
+MagicDamage: 9, Crit:18|
+SkillDamage: 54, Crit:72|
+
+Stats
+Melee: (Power: 12, Evasion: 11)|
+Magic: (Power: 9, Evasion: 8)|
+Skill: (Power: 18, Evasion: 11)|
+
+Talents
+Craft:0|
+Harvest:5|
+Scholar:--|
+Navigate:10|
+Acrobatic:0|
+Arts:--|
+
+Equipment
+PrimaryWeapon:Thorax Rifle (Type: Skill, WC: M, Use: 10AP, Rank: 3, Range 1sp|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience:150|
+Gil:35|
+Loot: 1x Pincer Set(Materials, Value: 25gil), 1x Pellet Sack (Worth 10x Ammo)|

@@ -1,0 +1,50 @@
+Name:Skull Beast|
+Type:Boss|
+Level:4|
+Code:Instinctive-Guard|
+PrimaryClass:Skull Beast|
+
+Biography
+Description:The guardian of Cadamon's atelier.|
+
+Appearance:An enormous monster made from bones, resembling a dragon.|
+
+Behavior:Hides in the shadows below, and waits to strike once a trespasser appears.|
+
+Vitals
+Health: 216|
+Mana: 51|
+Stamina: 89|
+Focus: 51|
+
+Scores
+Element:Fire|
+Initiative:12|
+Carry:10u|
+MeleeDamage: 80, Crit:100|
+MagicDamage: 18, Crit:36|
+SkillDamage: 24, Crit:48|
+
+Stats
+Melee: (Power: 20, Evasion: 12)|
+Magic: (Power: 18, Evasion: 14)|
+Skill: (Power: 24, Evasion: 9)|
+
+Talents
+Craft:--|
+Harvest:--|
+Scholar:--|
+Navigate:6|
+Acrobatic:10|
+Arts:--|
+
+Equipment
+PrimaryWeapon: Claws (Type: Melee, WC: H, Cost: 10AP+1sta, Rank: 4, Push 1)|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience:400|
+Gil:450|
+Loot: 1x Silver Coin, 1x Weapon Part (Material, worth 5,000gil)|

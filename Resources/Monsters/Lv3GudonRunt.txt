@@ -1,0 +1,52 @@
+Name: Gudon|
+Type: Runt|
+Level: 3|
+Code: Sapient-Leader/Guard/Soldier|
+PrimaryClass:Gudon|
+
+Biography
+Description:It lives in dark caverns, subsisting off cave fish. It uses its enormous tail to swat at opponents,
+as well as its fiery breath.|
+
+Appearance:An enormous lizard with bright red scaled and yellow patterning, it possess a huge tail.|
+
+Behavior:Prefers to stay near warmth, minding its own business so it can live in harmony with the King Ants. However,
+once approached by strangers, it will lash out.|
+
+Vitals
+Health: 36|
+Mana: 6|
+Stamina: 2|
+Focus: 3|
+
+Scores
+Element:Fire|
+Initiative:8|
+Carry:15|
+MeleeDamage: 45, Crit: 54|
+MagicDamage: 9, Crit: 18|
+SkillDamage: 6, Crit: 12|
+
+Stats
+Melee: (Power: 9, Evasion: 8)|
+Magic: (Power: 9, Evasion: 10)|
+Skill: (Power: 6, Evasion: 5)|
+
+Talents
+Craft:--|
+Harvest:0|
+Scholar:--|
+Navigate:8|
+Acrobatic:-4|
+Arts:--|
+
+Equipment
+PrimaryWeapon:Tail (Type: Melee, WC: VH Use: 10AP+2sta, Rank: 5; Push 1)|
+SecondaryWeapon:|
+Tools:--|
+Consumables:--|
+
+Loot
+Experience: 25|
+Gil: 25|
+Loot: 1x Gudon Meat (Consumable. Eat to restore 25% max health.)|

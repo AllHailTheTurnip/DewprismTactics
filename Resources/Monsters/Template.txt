@@ -21,8 +21,9 @@ Scores
 Element:|
 Initiative:|
 Carry:|
-PrimaryDamage:|
-SecondaryDamage:|
+MeleeDamage:    , Crit:|
+MagicDamage:    , Crit:|
+SkillDamage:    , Crit:|
 
 Stats
 Melee: (Power: , Evasion: )|

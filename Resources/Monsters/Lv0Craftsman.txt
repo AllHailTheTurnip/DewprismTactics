@@ -1,0 +1,56 @@
+Name:Craftsman|
+Type:NPC|
+Level:0|
+Code:Wise-[any role]|
+PrimaryClass:None|
+
+Biography
+Description: A villager who learned to craft things and now does it for a living.
+Craftsmen tend to be skilled in a particular field of your choosing.
+To make a more experienced Craftsman, grant them a higher Craft skill.<br>
+- Journeyman +5<br>
+- Expert +7<br>
+- Master +10|
+
+Appearance: Typically a leather apron and boots for use in their workshop.|
+
+Behavior: They typically live in a room above or behind their workshop. Apprentices often live in smaller
+bunks and with few possessions.|
+
+Vitals
+Health:5|
+Mana:0|
+Stamina:5|
+Focus:3|
+
+Scores
+Element:Neutral|
+Initiative:0|
+Carry:5u|
+MeleeDamage: 2, Crit:4|
+MagicDamage: 1, Crit:1|
+SkillDamage: 1, Crit:1|
+
+Stats
+Melee: (Power: 2, Evasion: 5)|
+Magic: (Power: 1, Evasion: 5)|
+Skill: (Power: 1, Evasion: 5)|
+
+Talents
+Craft:2|
+Harvest:0|
+Scholar:0|
+Navigate:0|
+Acrobatic:0|
+Arts:0|
+
+Equipment
+PrimaryWeapon:|
+SecondaryWeapon:|
+Tools: [Tool of the Trade (+3 to designated trade.)]|
+Consumables:|
+
+Loot
+Experience:1|
+Gil:5|
+Loot:|
