@@ -75,7 +75,7 @@ div {
 div.Side {
     border: 0px;
     margin-left: 0px;
-    font-size: var(--MinFS);
+    font-size: max(var(--StdFS), var(--TrueMin));
 }
 
 div.Wide {
