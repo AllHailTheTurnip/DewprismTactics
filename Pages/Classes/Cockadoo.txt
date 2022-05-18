@@ -43,13 +43,13 @@ Trigger: An opponent enters same space as you.
 Make a Basic Attack action against the encroaching target.|
 
 A1: Peck!
-Melee-Offensive-Action|
+Melee-Offensive-Action
 Use: 7AP
 Range: 0sp
 Accuracy: Melee
 Damage: 2{SklPwr}
 Luck: 15
-OnPass: Bleeding {SklPwr}
+OnPass: Bleeding {SklPwr}|
 
 A2: Flight
 Melee-Support-Passive
