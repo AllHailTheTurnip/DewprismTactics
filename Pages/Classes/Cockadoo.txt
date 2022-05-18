@@ -52,8 +52,9 @@ Luck: 15
 OnPass: Bleeding {SklPwr}|
 
 A2: Flight
-Melee-Support-Passive
-Effect: When making a Movement Action, you may move half your speed in any direction.|
+Melee-Movement-Action
+Use: 20AP
+Effect: Move 1sp in any direction; you are not affected by difficult terrain.|
 
 A3: Copy Spell
 Skill-Support-Reaction
