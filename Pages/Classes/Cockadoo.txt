@@ -96,7 +96,7 @@ Effect: Create a copy of yourself. Your copy has your exact base Scores, Abiliti
 A8: Rocket Flap
 Melee-Support-Action
 Use: 5sta
-Effect: Move vertically to 1+{Melee/10}sp into the air and into an adjacent space.|
+Effect: Move across up to 1+{MlePwr/10}sp through the air and into an another ground space.|
 
 A9: Slow Fall
 Melee-Support-Passive
