@@ -75,7 +75,7 @@ OnHit: Inflict primary damage. On Critical, target becomes Prone.|
 A6:Shed Scales
 Melee-Support-Action
 Use: 30AP!
-Effect: Reduce Movement AP cost by 3 (min 3). Reduce max health by -5.|
+Effect: Reduce Movement AP cost by 5 (min 3). Reduce max health by -5.|
 
 A7:Low-Light Vision
 Skill-Support-Passive

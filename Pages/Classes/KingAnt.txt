@@ -42,13 +42,13 @@ A Mode
     Use: 10AP
     Range: 0sp
     Accuracy: Skill
-    Effect: Make 3 Accuracy checks against the target; each success inflicts 3{SklPwr} damage.
+    Effect: Make 3 Accuracy checks against the target; each success inflicts 1{SklPwr} damage.
 
 B Mode
     Use: 10AP
     Range: 1sp AoE
     Accuracy: Melee
-    Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts 3{SklPwr} damage.|
+    Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts 1{SklPwr} damage.|
 
 A1: Ready Attack
 Skill-Support-Action
