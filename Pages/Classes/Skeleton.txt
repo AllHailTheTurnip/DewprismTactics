@@ -30,8 +30,7 @@ Skill: (Power: 6, Evasion: 15)|
 Abilities
 Innate: Tireless
 Melee-Support-Passive
-Effect: At the end of each of your turns, your Mana, Stamina, and Focus
-are restored to full.|
+Effect: Spend 5AP to restore 5 mana, 5 stamina, and 5 focus.|
 
 A1: Undead
 Magic-Support-Passive

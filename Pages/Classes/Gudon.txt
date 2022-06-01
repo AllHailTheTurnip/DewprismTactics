@@ -68,8 +68,8 @@ Effect: Choose a disabled ability/action and re-enable it.|
 A5:Heavy Sweep
 Melee-Offense-Action
 Use: 7sta+10AP
-Range: every adjacent space.
-Accuracy: 0sp
+Range: Every opponent within adjacent space.
+Accuracy: Melee
 OnHit: Inflict primary damage. On Critical, target becomes Prone.|
 
 A6:Shed Scales
