@@ -44,13 +44,13 @@ A2: Scheme
     Skill-Support-Action
     Use: 30AP + 5fcs
     Create a Scheme counter (3) and grant it to yourself or an ally.
-    Scheme counter: 1+{TL/3} bonus to all the holder's Talent and Accuracy checks for the next (X) turns.|
+    Scheme counter: r1+{TL/3} bonus to all the holder's Talent and Accuracy checks for the next (X) turns.|
 A3: Magic Burst
     Magic-Offensive-Action
     Use: 5Mna
     Accuracy: Magic
-    Range: 0sp (Target up to 1+{TL/4} enemies)
-    OnHit: Target(s) takes 3{MgcPwr} neutral damage.|
+    Range: 0sp (Target up to r1+{TL/4} enemies)
+    OnHit: Target(s) takes r3{MgcPwr} neutral damage.|
 A4: Spur Power
     Melee-Support-Reaction
     Trigger: A melee attack hits.
@@ -64,7 +64,7 @@ A6: Fireball
     Use: 10AP + 3mna
     Range: 0sp LoS
     Accuracy: Melee
-    OnHit: Target takes 3{MgcPwr} fire damage. On crit, target catches fire (Burning 1{TL}).|
+    OnHit: Target takes r3{MgcPwr} fire damage. On crit, target catches fire (Burning 1{TL}).|
 A7: Acquire Magic
     Magic-Support-Action
     Use: 10AP + 5fcs
@@ -74,7 +74,7 @@ A8: Create Ice Wall
     Use: 10AP + (1-5mna as X)
     Range: 0sp instant
     Create X Ice Block obstacles.
-    Tree obstacle: 1 cubic-meter cube of ice. 10{MgcPwr} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
+    Tree obstacle: 1 cubic-meter cube of ice. r10{MgcPwr} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
 A9: Ward Danger
     Magic-Defensive-Action
     Use: 5AP + 5mna
