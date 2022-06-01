@@ -75,7 +75,7 @@ Effect: +10 to Acrobatics checks.|
 
 A7: Fragile
 Melee-Support-Passive
-Effect: Taken critical damage is doubled.|
+Effect: All damage taken is treated as critical.|
 
 A8: Reassemble
 Magic-Support-Action
