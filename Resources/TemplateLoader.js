@@ -46,7 +46,7 @@ document.getElementById()
         document.getElementById(Magic).innerText = getSection(Magic);
         document.getElementById(Skill).innerText = getSection(Skill);
         document.getElementById(Description).innerHTML = getSection(Description);
-        document.getElementById("Innate").innerText = getSection("Innate");
+        document.getElementById("Doctrine").innerText = getSection("Doctrine");
         document.getElementById("A1").innerText = getSection("A1");
         document.getElementById("A2").innerText = getSection("A2");
         document.getElementById("A3").innerText = getSection("A3");

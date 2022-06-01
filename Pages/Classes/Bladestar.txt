@@ -34,7 +34,7 @@ Magic: (Power: 4, Evasion: 10)|
 Skill: (Power: 4, Evasion: 8)|
 
 Abilities
-Innate: Invent Weapon
+Doctrine: Invent Weapon
 Skill-Support-Action
 Use Cost: 2Sta+3fcs+20AP!
 Effect: Any weapons are moved to inventory.

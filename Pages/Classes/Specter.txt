@@ -41,7 +41,7 @@ Magic: (Power: 6, Evasion: 10)|
 Skill: (Power: 5, Evasion: 10)|
 
 Abilities
-Innate: Mundane Immunity
+Doctrine: Mundane Immunity
 Magic-Support-Passive
 Effect: You are immune to neutral-type damage.|
 

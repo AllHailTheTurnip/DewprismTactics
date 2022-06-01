@@ -32,7 +32,7 @@ Magic: (Power: 3, Evasion: 10)|
 Skill: (Power: 6, Evasion: 6)|
 
 Abilities
-Innate:Take Root
+Doctrine:Take Root
 Melee-Support-Action
 Use: 15AP
 Your Movement is disabled as you become affixed to the surface of your choice; you are unaffected by

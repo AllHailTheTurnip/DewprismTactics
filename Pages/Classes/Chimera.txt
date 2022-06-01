@@ -28,7 +28,7 @@ Magic: (Power: 6, Evasion: 10)|
 Skill: (Power: 5, Evasion: 12)|
 
 Abilities
-Innate: Shadowstep
+Doctrine: Shadowstep
 Magic-Support-Action
 Use: 10AP+5mna
 Effect: Target a combatant and teleport to their space. You gain Stealth.|

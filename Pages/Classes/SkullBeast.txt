@@ -25,7 +25,7 @@ Magic: (Power: 5, Evasion: 14)|
 Skill: (Power: 4, Evasion: 9)|
 
 ABILITIES
-Innate: Self Resurrection
+Doctrine: Self Resurrection
     Skill-Defensive-Reactive
     Trigger: Your health reaches 0.
     Use: 5mna.

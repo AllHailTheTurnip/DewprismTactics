@@ -27,7 +27,7 @@ Magic: (Power: 5, Evasion: 9)|
 Skill: (Power: 3, Evasion: 9)|
 
 ABILITIES
-Innate: Elemental Adaptation
+Doctrine: Elemental Adaptation
     Magic-Support-Action
     Use: 5AP
     Change your base element to any of the core elements.|

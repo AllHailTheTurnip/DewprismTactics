@@ -24,7 +24,7 @@ Magic: (Power: 5, Evasion: 10)|
 Skill: (Power: 5, Evasion: 10)|
 
 Abilities
-Innate: Summon Kin|
+Doctrine: Summon Kin|
 A1: Nap|
 A2: Gore|
 A3: Retaliate|

@@ -20,7 +20,7 @@ Magic: (Power: 5, Evasion: 10)|
 Skill: (Power: 5, Evasion: 10)|
 
 Abilities
-Innate.
+Doctrine.
 A1:|
 A2:|
 A3:|

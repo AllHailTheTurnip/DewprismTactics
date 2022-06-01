@@ -34,7 +34,7 @@ Magic: (Power: 4, Evasion: 10)|
 Skill: (Power: 3, Evasion: 6)|
 
 Abilities
-Innate: High Alert
+Doctrine: High Alert
 Skill-Defensive-Reaction
 Use: 3fcs
 Range: CL/5

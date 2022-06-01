@@ -27,7 +27,7 @@ Magic: (Power: 5, Evasion: 12)|
 Skill: (Power: 6, Evasion: 12)|
 
 Abilities
-Innate:Hack-N-Slash
+Doctrine:Hack-N-Slash
 Melee-Offensive-Action
 Use: 13AP+5sta
 Choose a combatant and move 1sp in their initial direction.

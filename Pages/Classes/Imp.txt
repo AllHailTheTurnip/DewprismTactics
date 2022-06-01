@@ -30,7 +30,7 @@ Magic: (Power: 4, Evasion: 18)|
 Skill: (Power: 3, Evasion: 14)|
 
 Abilities
-Innate: Starburst
+Doctrine: Starburst
 Magic-Offense-Action
 Use: 10AP+1mna
 Range: [PL/4]

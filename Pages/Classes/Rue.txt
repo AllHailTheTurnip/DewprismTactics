@@ -33,7 +33,7 @@ Magic: (Power: 5, Evasion: 8)|
 Skill: (Power: 3, Evasion: 10)|
 
 ABILITIES
-Innate: Acquire Shape
+Doctrine: Acquire Shape
     Magic-Support-Reaction
     Trigger: An enemy combatant dies.
     Use: 2mna

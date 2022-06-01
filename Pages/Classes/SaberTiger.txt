@@ -24,7 +24,7 @@ Magic: (Power: 3, Evasion: 10)|
 Skill: (Power: 6, Evasion: 9)|
 
 ABILITIES
-Innate: Assassinate
+Doctrine: Assassinate
     Skill-Offensive-Action
     Use: 10AP + 3Fcs + 3Sta
     Range: 1+{TL/4}sp

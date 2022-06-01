@@ -108,7 +108,7 @@ function onLoadClass()
     document.getElementById(Magic).innerText = GetTxtAttribute(Magic);
     document.getElementById(Skill).innerText = GetTxtAttribute(Skill);
     document.getElementById(Description).innerHTML = GetTxtAttribute(Description);
-    document.getElementById("Innate").innerText = GetTxtAttribute("Innate");
+    document.getElementById("Doctrine").innerText = GetTxtAttribute("Doctrine");
     document.getElementById("A1").innerText = GetTxtAttribute("A1");
     document.getElementById("A2").innerText = GetTxtAttribute("A2");
     document.getElementById("A3").innerText = GetTxtAttribute("A3");

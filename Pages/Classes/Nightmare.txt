@@ -32,7 +32,7 @@ Magic: (Power: 5, Evasion: 12)|
 Skill: (Power: 2, Evasion: 10)|
 
 Abilities
-Innate:Meteoric Crash
+Doctrine:Meteoric Crash
 Magic-Offensive-Action
 Use: 30AP!+8mna
 Choose a combatant to target, then jump into the sky (ignoring the ceiling) and leave the battlefield.

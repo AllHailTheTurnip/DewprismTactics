@@ -26,7 +26,7 @@ Magic: (Power: 6, Evasion: 8)|
 Skill: (Power: 4, Evasion: 8)|
 
 ABILITIES
-Innate: Switch Magic Element
+Doctrine: Switch Magic Element
     Magic-Support-Action
     Use: 2fcs
     Change the listed element(s) of your magic-type ability to either fire, water, or Wind.

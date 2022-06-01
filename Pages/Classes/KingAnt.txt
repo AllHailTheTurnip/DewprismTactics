@@ -35,7 +35,7 @@ Magic: (Power: 3, Evasion: 8)|
 Skill: (Power: 6, Evasion: 11)|
 
 Abilities
-Innate: Assault Rifle
+Doctrine: Assault Rifle
 Skill-Offense-Action
 (Choose Mode A or B)
 A Mode

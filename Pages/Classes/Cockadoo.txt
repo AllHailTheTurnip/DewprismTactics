@@ -36,7 +36,7 @@ Magic: (Power: 4, Evasion: 10)|
 Skill: (Power: 6, Evasion: 12)|
 
 Abilities
-Innate: Proximity Strike
+Doctrine: Proximity Strike
 Skill-Defensive-Reaction
 Use: 3fcs
 Trigger: An opponent enters same space as you.

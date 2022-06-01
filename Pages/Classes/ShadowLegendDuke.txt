@@ -32,7 +32,7 @@ Magic: (Power: 4, Evasion: 13)|
 Skill: (Power: 3, Evasion: 14)|
 
 Abilities
-Innate: *Poof*
+Doctrine: *Poof*
 Skill-Support-Action
 Use: 1fcs+1sta+1mna+5AP
 Range: 1+[CL/3]sp
