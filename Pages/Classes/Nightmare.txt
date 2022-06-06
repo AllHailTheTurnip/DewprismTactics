@@ -50,7 +50,7 @@ Move up to Xsp in direction of target. Target must spend Xsta and move Xsp away 
 
 A2:Royal Armor
 Magic-Defensive-Passive
-Reduce incoming damage by 1{MlePwr}|
+    Effect: Incoming critical damage is treated as non-critical; it is reduced to deal base damage.
 
 A3:Roar!
 Magic-Offensive-Action
