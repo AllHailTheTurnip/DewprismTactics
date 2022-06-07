@@ -53,7 +53,7 @@ A3: Magic Burst
     OnHit: Target(s) takes r3{MgcPwr} neutral damage.|
 A4: Spur Power
     Melee-Support-Reaction
-    Trigger: A melee attack hits.
+    Trigger: When you take melee damage.
     Restore TL Mana.|
 A5: Switch Magic Mode
     Magic-Support-Action
