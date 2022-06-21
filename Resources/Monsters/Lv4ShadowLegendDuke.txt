@@ -12,7 +12,7 @@ Appearance:A 5'6ft man dressed in blue and white leather, with aviator goggles.|
 Behavior:Cocky, polite, but way in over his head.|
 
 VITALS
-Health: 540|
+Health: 648|
 Mana: 40|
 Stamina: 27|
 Focus: 40|
