@@ -101,6 +101,15 @@ Use: 3fcs+5AP
 Effect: Declare an enemy combatant and ally combatant (or yourself). The enemy gets disadvantage on any checks against them
 until the start of your next turn.|
 
-MA1:|
-MA2:|
+MA1: Snag!
+Skill-Support-Reaction
+Trigger: Your health reaches 0
+Target: Any combatant that was, at any point, in the same space as you during combat.
+Effect: Choose an item from their inventory and add it to yours or an ally's. |
+
+MA2: Study
+Skill-Support-Passive
+Effect: At the beginning of combat, learn an ability from each enemy combatant and add the abilities
+to your abilities list in addition to the ones you already have. This lasts until the end of combat.|
+
 MA3:|

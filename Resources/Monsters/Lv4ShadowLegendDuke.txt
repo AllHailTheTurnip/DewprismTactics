@@ -1,0 +1,50 @@
+Name:Shadow Legend Duke|
+Type:Boss|
+Level:4|
+Code:Wise-Hunter|
+PrimaryClass:Shadow Legend Duke|
+
+Biography
+Description:The macho-yet-submission sidekick of Belle. He acts as the group's engineer and go-getter.|
+
+Appearance:A 5'6ft man dressed in blue and white leather, with aviator goggles.|
+
+Behavior:Cocky, polite, but way in over his head.|
+
+VITALS
+Health: 540|
+Mana: 40|
+Stamina: 27|
+Focus: 40|
+
+SCORES
+Initiative: 12|
+Carry: 5u|
+Element: Dark|
+MeleeDamage: 20, Crit: 40|
+MagicDamage: 24. Crit: 48|
+SkillDamage: 40, Crit: 60|
+
+STATS
+Melee: (Power: 20, Evasion: 12)|
+Magic: (Power: 24, Evasion: 13)|
+Skill: (Power: 20, Evasion: 14)|
+
+Talents
+Craft:+7|
+Harvest:1|
+Scholar:+2|
+Navigate:+3|
+Acrobatic:+7|
+Arts:2|
+
+Equipment
+PrimaryWeapon: Leather Gloves (Type: Skill, WC: L, Use: 7ap, Rank: 2, 0.5u; Honed 3|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience:|
+Gil:|
+Loot:|

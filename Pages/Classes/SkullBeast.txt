@@ -42,7 +42,7 @@ A2: Full Charge
     Range: Reach
     For the duration of this action you are unaffected by difficult terrain.
     Make a free movement action.
-    Make a Melee check against any combatants you pass by; on fail, they take 2{MlePwr} neutral damage.|
+    Make a Melee check against any combatants you pass by; on hit, they take 2{MlePwr} neutral damage.|
 A3: Enormous Leap
     Melee-Supportive-Action
     Use: 2sta
@@ -98,5 +98,5 @@ MA2: Throw
 MA3: Merciless Chase
     Melee-Offensive-Reaction
     Trigger: Your health reaches 0.
-    Effect: Movement actions cost 10AP. You are immune to non-critical damage.|
+    Effect: Movement actions cost 5AP. You are immune to non-critical damage.|
 
