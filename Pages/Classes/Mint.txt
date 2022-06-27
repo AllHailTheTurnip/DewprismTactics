@@ -49,8 +49,8 @@ A3: Magic Burst
     Magic-Offensive-Action
     Use: 5Mna
     Accuracy: Magic
-    Range: 0sp (Target up to r1+{TL/4} enemies)
-    OnHit: Target(s) takes r3{MgcPwr} neutral damage.|
+    Range: 0sp (Target up to (1)+{TL/4} enemies)
+    OnHit: Target(s) takes (3){MgcPwr} neutral damage.|
 A4: Spur Power
     Melee-Support-Reaction
     Trigger: When you take melee damage.
@@ -64,7 +64,7 @@ A6: Fireball
     Use: 10AP + 3mna
     Range: 0sp LoS
     Accuracy: Melee
-    OnHit: Target takes r3{MgcPwr} fire damage. On crit, target catches fire (Burning 1{TL}).|
+    OnHit: Target takes (3){MgcPwr} fire damage. On crit, target catches fire (Burning 1{TL}).|
 A7: Acquire Magic
     Magic-Support-Action
     Use: 10AP + 5fcs

@@ -35,7 +35,7 @@ Magic-Offense-Action
 Use: 10AP+1mna
 Range: [PL/4]
 Accuracy: Skill
-Damage: 3{MgcPwr}
+Damage: (3){MgcPwr}
 OnHit: Target is knocked prone.|
 
 A1: Conjure Block
@@ -110,7 +110,7 @@ Magic-Offense-Action
 Use: 8AP+3mna
 Range: {PL/5}
 Luck: 15
-OnPass: Target is jinxed. All their luck check are inverted (20-1d20).|
+OnPass: Target is jinxed. All their luck have disadvantage.|
 
 MA1:|
 MA2:|

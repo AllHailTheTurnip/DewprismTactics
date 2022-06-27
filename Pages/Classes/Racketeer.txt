@@ -31,7 +31,7 @@ Doctrine:Hack-N-Slash
 Melee-Offensive-Action
 Use: 13AP+5sta
 Choose a combatant and move 1sp in their initial direction.
-When you enter within melee-range of the opponent, deal 1{MlePwr} damage. The target is knocked prone.
+When you enter within melee-range of the opponent, deal (1){MlePwr} damage. The target is knocked prone.
 If possible, continue to move into the next space in a straight line.|
 
 A1:Doubleteam
@@ -69,7 +69,8 @@ A6:Intimidate
 Skill-Offensive-Action
 Use: 15AP+3fcs
 Accuracy: Skill
-OnPass: Target cannot make any basic Movement actions until the end of their next turn.|
+OnPass: Target cannot make any basic Movement actions until the end of their next turn.
+OnCrit: Target also cannot use any class Abilities until the end of their next turn.|
 
 A7:Menacing Invitation
 Skill-Support-Action

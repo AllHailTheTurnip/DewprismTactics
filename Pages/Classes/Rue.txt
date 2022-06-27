@@ -50,17 +50,17 @@ A2: Block
     Melee-Defense-Reaction
     Trigger: An enemy attacks you.
     Use: 3Sta
-    Using a primary or secondary weapon, incoming damage is reduced by 2MlePwr.|
+    Using a primary or secondary weapon, incoming damage is reduced by (2){MlePwr}.|
 A3: Avenge Ally
     Skill-Support-Reaction
     Trigger: An ally dies.
     Luck: 10
-    OnPass: Increase your MlePwr by 1.|
+    OnPass: Increase your {MlePwr} by (1).|
 A4: Arc Slash
     Melee-Offensive-Action
     Use: 10AP
     Range: 0sp
-    Every enemy combatant within range takes 1MlePwr damage.|
+    Every enemy combatant within range takes (1){MlePwr} damage.|
 A5: Path of Duty
     Magic-Defensive-Reaction
     Trigger: You are targeted by a Magic-type ability.
@@ -89,7 +89,8 @@ A9: Combo
     Trigger: You hit with a basic attack action.
     Use: 3sta, 3/Round
     Luck: 15
-    OnPass: Make another attack action at the damaged combatant.|
+    OnPass: Make another attack action at the damaged combatant.
+    OnCrit: Increase the attack's Rank by 1.|
 
 
 MA1: Inner Power|

@@ -39,32 +39,32 @@ Choose a combatant to target, then jump into the sky (ignoring the ceiling) and 
 When your AP is above 0, fall from the sky (ignoring the ceiling) into the target's space.
 Range: 0sp AoE
 Accuracy: Melee
-OnPass: Affected enemy combatants take 3{MleEva+2} electric damage.
+OnPass: Affected enemy combatants take (3){MleEva+2} electric damage.
 OnFail: Unaffected enemy combatants are pushed away from you until they leave the AoE.|
 
 A1:Chase
 Melee-Offensive-Action
 Use: 10AP+(Xsta/3)
 Target: Enemy combatant
-Move up to Xsp in direction of target. Target must spend Xsta and move Xsp away or else take 3{MlePwr} damage.|
+Move up to Xsp in direction of target. Target must spend Xsta and move Xsp away or else take (3){MlePwr} damage.|
 
 A2:Royal Armor
 Magic-Defensive-Passive
-    Effect: Incoming critical damage is treated as non-critical; it is reduced to deal base damage.|
+Effect: Incoming critical damage is treated as non-critical; it is reduced to deal base damage.|
 
 A3:Roar!
 Magic-Offensive-Action
 Use: 5mna
 Range: {TL/4}sp AoE
 Luck: 12
-OnPass: Target loses 5AP from their next action. Luck checks are reduced by 2 until end of combat.|
+OnPass: Target loses 5AP from their next action. Luck checks are reduced by (2) until end of combat.|
 
 A4:Throw into the Sky
 Magic/Melee-Offensive-Action
 Use: 10sta
 Range: 0sp
 Accuracy: Melee
-Target is hurled into the sky. On their next they fall to the ground and take 15{TL} fall damage.|
+Target is hurled into the sky. On their next they fall to the ground and take [(3)5]{TL} fall damage.|
 
 A5: Gallop
 Melee-Support-Reaction
@@ -87,7 +87,7 @@ Use: 15AP!+5mna
 AoE: 1{TL}sp radius
 Combatants within AoE are pushed away from you until outside of AoE.
 Accuracy: Melee
-OnPass: Enemy combatants take 2{MgcPwr} electric damage.|
+OnPass: Enemy combatants take (2){MgcPwr} electric damage.|
 
 A9:Hone Strike
 Magic-Support-Action

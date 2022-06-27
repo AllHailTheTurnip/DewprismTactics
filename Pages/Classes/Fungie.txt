@@ -40,7 +40,7 @@ Melee-Offensive-Action
 Use: 10AP+2sta
 Range: 0sp
 Accuracy: Melee
-Damage: 3{MlePwr}
+Damage: (3){MlePwr}
 OnHit: Target loses 5AP from their next turn.|
 
 A1: Defensive Stance
@@ -63,7 +63,7 @@ Range: 0sp
 Effect: Conjure a ball prop with a diameter of 0sp (3~ meters wide).
 The ball is magical and can only be moved by standing on it and spending 10AP.
 If you move the ball from or into an enemy's space, they must spend 3sta to move into another space, or else
-take 3{MlePwr} damage.|
+take (3){MlePwr} damage.|
 
 A4: Waddle Waddle
 Melee-Support-Action
@@ -92,7 +92,7 @@ Effect: Remove an ally from the battlefield. While away, they cannot make action
 or be targeted by any effects. Once their turn begins, they return to the battlefield at their
  original position.
 Luck: 15
-OnPass: The ally is granted advantage on their next roll.|
+OnPass: The ally is granted advantage on their next (1) roll(s).|
 
 A8: Conjure See-Saw!
 Magic-Support-Action

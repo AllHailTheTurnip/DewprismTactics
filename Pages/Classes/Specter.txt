@@ -61,9 +61,10 @@ Performing any checks will cause you to become visible again.|
 A3: Haunt
 Magic-Attack-Action
 Use: 10AP+3mna+3fcs
+Rank: 1
 Range: {TL/5}sp
 Accuracy: Skill
-OnHit: Target loses {MgcPwr} focus.|
+OnHit: Target loses r{MgcPwr} focus.|
 
 A4: Arcane Shield
 Magic-Defense-Reaction
@@ -74,7 +75,7 @@ Magic-Offensive-Action
 Use: 13AP+1fcs
 Range: 1sp (Choose up to 1+{TL/5} targets.)
 Accuracy: Skill
-OnHit: Target loses {FcsPwr} focus.|
+OnHit: Target loses (1){FcsPwr} focus.|
 
 A6: Paralyzing Presence
 Magic-Offensive-Action
@@ -88,7 +89,7 @@ Magic-Offensive-Action
 Use: 10AP+7mna
 Range: 0sp
 Accuracy: Magic
-OnHit: Target gains Doomed 3.|
+OnHit: Target gains Doomed 3-(0).|
 
 A8: Freezing Touch
 Magic-Offensive-Action
@@ -109,7 +110,8 @@ At Class Level 10, you gain access to their Abilities.
 At Class Level 15, you can possess the target if they're dead; substitute their Health
 with yours.
 At Class Level 20, targets cannot become conscious again until you leave.
-Duration: 3 turns, or until the target regains consciousness.|
+Duration: 3 turns, or until the target regains consciousness.
+OnCrit: Treat your CL as if it was +5 greater for this ability.|
 
 MA1:|
 MA2:|

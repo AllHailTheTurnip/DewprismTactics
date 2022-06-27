@@ -28,7 +28,7 @@ Abilities
 Doctrine: Thorny Armor
 Skill-Defensive-Reaction
 Trigger: An enemy declares making a melee-range attack against you.
-Inflict 1{SklPwr} metal damage to each enemy in same space.|
+Inflict (1){SklPwr} metal damage to each enemy in same space.|
 
 A1: Tactical Roll
 Skill-Defensive-Reaction
@@ -47,12 +47,12 @@ A3: Coat with Poison
 Skill-Offensive-Action
 Use: 10AP + 4fcs
 Range: Any ally on the battlefield.
-If it doesn't already have it, give it the attribute of Poison 1{SklPwr}.|
+If it doesn't already have it, give it the attribute of Poison (1){SklPwr}.|
 
 A4: Throwing Needles
 Skill-Passive-Action
 Use: 10AP
-Create 1{TL} Throwing Needles and equip as secondary weapon (if possible).
+Create (1){TL} Throwing Needles and equip as secondary weapon (if possible).
 Throwing Needle (Type: Skill, WC: VL, Use: 5AP, Pwr: 1. Weight: 0.2u; it costs 0AP to draw this weapon)|
 
 A5: Acupuncture
@@ -65,7 +65,7 @@ Restore a disabled ability or disabled action.|
 A6: Pierce Piece
 Skill-Offensive-Action
 Use: 10AP + 3fcs
-Range: 0s[+(TL/4)
+Range: 0s[+(TL/4)]
 Accuracy: Skill
 OnPass: Destroy a targeted token or prop.|
 
@@ -84,6 +84,6 @@ Caltrop prop: Counts as difficult terrain. Upon entering space, take 1{SklPwr} d
 
 A9:Suture
 Skill-Support-Action
-Use: 8AP
+Use: 5AP
 Range: Combatant in same space.
 Removes Bleed|

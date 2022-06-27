@@ -45,7 +45,7 @@ Use: 5mna+10AP
 Range: 0sp+{mgc/15}
 AoE: Beam
 Accuracy: Melee
-Damage: 4{MgcPwr} fire|
+Damage: (4){MgcPwr} fire|
 
 A1:Venom Fangs
 Melee-Offense-Passive

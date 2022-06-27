@@ -40,7 +40,7 @@ Range: {TL/5}
 Effect: Choose up to 1+{Skill/15} targets within range.
 Throw your primary weapon; you cannot use it while it's in flight.
 At the beginning of a target's turn, they must spend {MgsPwr}sta to dodge your weapon, otherwise
- they take {Melee Damage}.
+ they take (1){MleDamage}.
 Once all targets have avoided or taken damage, you regain your weapon.|
 
 A2: Death's Head
@@ -48,35 +48,35 @@ Magic-Offensive-Action
 Use: 10AP+7mna
 Range: 1sp
 Accuracy: Magic
-OnPass: Target gets Doomed 3.|
+OnPass: Target gets Doomed 3-(0).|
 
 A3: Sleeper's Head
 Magic-Offensive-Action
 Use: 10AP+3mna
 Range: 1sp
 Accuracy: Magic
-OnPass: Target gets Asleep 3.|
+OnPass: Target gets Asleep (3).|
 
 A4: Dragon's head
 Magic-Offensive-Action
 Use: 10AP+5mna
 Range: 0sp AoE
 Accuracy: Melee
-OnHit: Combatant takes 3{MgcPwr} fire damage.|
+OnHit: Combatant takes (3){MgcPwr} fire damage.|
 
 A5: Wild Swipe
 Melee-Offensive-Action
 Use: 10AP+3sta
 Range: 0sp AoE
 Accuracy: Skill
-OnHit: Combatant takes 2{MlePwr} damage|
+OnHit: Combatant takes (2){MlePwr} damage|
 
 A6: Lightning Storm
 Magic-Offensive-Action
 Use: 25AP+7mna!
 Range: Battlefield AoE
 Accuracy: Skill
-OnHit: Enemy takes 3{MgcPwr} electric damage.|
+OnHit: Enemy takes (3){MgcPwr} electric damage.|
 
 A7: Immense Height
 Melee-Support-Passive
@@ -93,7 +93,7 @@ Skill-Offensive-Action
 Use: 10AP+5mna
 Range: 1sp AoE
 Luck: 10
-OnPass: Enemy gets Slowed 3.|
+OnPass: Enemy gets Slowed (3).|
 
 MA1:|
 MA2:|

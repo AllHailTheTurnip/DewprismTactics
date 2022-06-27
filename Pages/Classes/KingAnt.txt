@@ -42,13 +42,13 @@ A Mode
     Use: 10AP
     Range: 0sp
     Accuracy: Skill
-    Effect: Make 3 Accuracy checks against the target; each success inflicts 1{SklPwr} damage.
+    Effect: Make 3 Accuracy checks against the target; each success inflicts (1){SklPwr} damage.
 
 B Mode
     Use: 10AP
     Range: 1sp AoE
     Accuracy: Melee
-    Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts 1{SklPwr} damage.|
+    Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts r{SklPwr} damage.|
 
 A1: Ready Attack
 Skill-Support-Action
@@ -64,11 +64,11 @@ Effect: Target and make a basic attack action with an equipped non-range weapon 
 A3: Firing Line
 Skill-Support-Action
 Cost: 5sta+3fcs+20AP
-Effect: Each ally within {Skill/15}sp gets 10+{CL}AP for their next turn.|
+Effect: Each ally within {SklPwr/15}sp gets 10+{CL}AP for their next turn.|
 
 A4: Ignoble
 Magic-Support-Passive
-Effect: Neutral- and Noble-element damage is halved and cannot inflict critical.|
+Effect: Noble-element is treated as Neutral, and Neutral cannot inflict critical damage.|
 
 A5: Improved Aim
 Skill-Support-Passive

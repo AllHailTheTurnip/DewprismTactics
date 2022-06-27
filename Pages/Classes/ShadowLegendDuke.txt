@@ -44,14 +44,14 @@ Use: 3fcs+10AP
 Range: 0sp
 Select up to three combatants within range to target. A check is made against each one.
 Accuracy: Skill
-OnHit: Target takes 3{SklPwr} Metal damage.|
+OnHit: Target takes (3){SklPwr} Metal damage.|
 
 A2: Shadow Clone Technique: Mantis Mirrorhouse
 Magic-Defense-Action
 Use: 5mna+10AP
-Range: [Skill/15]sp
-You become surrounded by illusionary copies of yourself. Increase your Evasion scores by 2+[Skill/10] until your next
-turn. When your turn starts, you burn 10AP and make a basic attack action.|
+Range: [SklPwr/15]sp
+You become surrounded by illusionary copies of yourself. Increase your Evasion scores by 2+[SklPwr/10] until your next
+turn. When your turn starts, you burn 10AP and make a basic attack action against anyone within range.|
 
 A3: Water Walk
 Focus-Support-Passive
@@ -64,17 +64,17 @@ Use: 5fcs+2sta+15AP
 Range: 0sp
 Accuracy: Skill
 OnHit: Inflict 3{MlePwr} damage to their Health. Roll 1d20.
-1-5: Inflict 1{SklPwr} damage to their Health
-6-10: Inflict 1{SklPwr} damage to their Stamina.
-11-15: Inflict 1{SklPwr} damage to their Mana.
-16-20: Inflict 1{SklPwr} damage to their Focus.|
+1-5: Inflict (1){SklPwr} damage to their Health
+6-10: Inflict (1){SklPwr} damage to their Stamina.
+11-15: Inflict (1){SklPwr} damage to their Mana.
+16-20: Inflict (1){SklPwr} damage to their Focus.|
 
 A5:Energy Wave
 Magic-Offensive-Action
 Use: 5mna+10AP
 Accuracy: Magic
 AoE: 1sp beam
-OnHit: Target takes 3{MgcPwr} water damage.|
+OnHit: Target takes (3){MgcPwr} water damage.|
 
 A6:Summon Ancient Weapon
 Use: 5fcs+1/turn
@@ -88,7 +88,8 @@ Skill-Defense-Reaction
 Trigger: A combatant makes a melee attack against you.
 Use: 3Fcs
 Luck: 15-[PL/2]
-OnPass: No damage is taken.|
+OnPass: No damage is taken.
+OnCrit: The caught weapon is taken and added to your inventory.|
 
 A8: Useful Distraction
 Skill-Support-Reaction

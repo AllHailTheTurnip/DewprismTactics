@@ -42,7 +42,7 @@ A2: Full Charge
     Range: Reach
     For the duration of this action you are unaffected by difficult terrain.
     Make a free movement action.
-    Make a Melee check against any combatants you pass by; on hit, they take 2{MlePwr} neutral damage.|
+    Make a Melee check against any combatants you pass by; on hit, they take (2){MlePwr} neutral damage.|
 A3: Enormous Leap
     Melee-Supportive-Action
     Use: 2sta
@@ -52,33 +52,36 @@ A4: Reckless Shove
     Melee-Offensive-Action
     Use: 10AP
     Accuracy: Melee
-    Damage: 1{MlePwr}
+    Damage: (1){MlePwr}
     Luck: 10
-    OnPass: The enemy is knocked prone.|
+    OnPass: The enemy is knocked prone
+    OnCrit: The enemy is moved away from you by 1sp.|
 A5: Jump Back
     Melee-Defensive-Reaction
     Trigger: User falls into a bottomless pit.
     Use: 1Sta
     Luck: 5
-    OnPass: Make a free movement action out of the pit from where you fell.|
+    OnPass: Make a free movement action out of the pit from where you fell.
+    OnCrit: User may also make a free attack action.|
 A6: Firebreath
     Magic-Offensive-Action
     Use: 10AP + 7Mna
     Range: 0sp (up to three targets)
     Accuracy: Melee
-    OnHit: target(s) take 3{MgcPwr} fire damage.|
+    OnHit: targets take (3){MgcPwr} fire damage.|
 A7: Fireball
     Magic-Offensive-Action
     Use: 10AP + 5Mna
     Range: 0sp
     Accuracy: Melee
-    OnHit: target takes 5{MgcPwr} fire damage.|
+    OnHit: target takes (5){MgcPwr} fire damage.|
 A8: Horrifying Screech
     Skill-Offensive-Action
     Use: 10AP + 5fcs
     Range: {CL/3}sp radius AoE
     Accuracy: Skill
-    OnPass: Target is forced away from user until outside of range.|
+    OnPass: Target is forced away from user until outside of range.
+    OnCrit: Target loses 10AP from their next turn.|
 A9: Rest
     Skill-Support-Action
     Use: 20AP for Mode A, OR 30AP for Mode B
@@ -98,5 +101,5 @@ MA2: Throw
 MA3: Merciless Chase
     Melee-Offensive-Reaction
     Trigger: Your health reaches 0.
-    Effect: Movement actions cost 5AP. You are immune to non-critical damage.|
+    Effect: You are immune to being knocked-out. Movement actions cost 5AP. You are immune to non-critical damage.|
 

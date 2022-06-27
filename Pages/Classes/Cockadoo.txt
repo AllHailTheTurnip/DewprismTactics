@@ -47,9 +47,9 @@ Melee-Offensive-Action
 Use: 7AP
 Range: 0sp
 Accuracy: Melee
-Damage: 2{SklPwr}
+Damage: (2){SklPwr}
 Luck: 15
-OnPass: Bleeding {SklPwr}|
+OnPass: Bleeding (1){SklPwr}|
 
 A2: Flight
 Melee-Movement-Action
@@ -62,7 +62,8 @@ Cost: 5fcs
 Trigger: A combatant within {Skill/15}sp uses a Magic-type ability.
 Luck: 8
 OnPass: You gain the targeted spell as an ability, indexed after your tenth ability.
-You may only copy one ability at a time.|
+You may only copy one ability at a time.
+OnCrit: Increase the copied spell's Rank by 1 (if applicable).|
 
 A4: Deafening Screech
 Melee-Offensive-Action
