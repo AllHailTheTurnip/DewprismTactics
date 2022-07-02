@@ -1,37 +1,85 @@
+
+
 Title: Hexagon|
-Subtitle:|
-Description:|
-???
+Subtitle: Indestructible Guardian|
+Description: Hexagons are the unstoppable warriors of the battlefield. Their impregnable hulls and their gift
+of flight made them as terrifying wards of chaos. A millennia ago they served on behalf of their Aeon masters,
+but today they are few and far between, lost to the sands of time, or to wandering the earth.
+
+Legend has it the first Hexagons were made from rogue magicians who, once captured, were robbed of their
+wills, and had their bodies replaced with hulking metal suits. Trapped inside without any will but that of their
+masters, they were cursed to a false life for the rest of eternity.|
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 0|
+Mana: 0|
+Stamina: 0|
+Focus: 0|
 
 SCORES
 Initiative: 10|
 Carry: 10u|
-Element: Neutral|
+Element: Metal|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 6, Evasion: 5)|
+Magic: (Power: 3, Evasion: 12)|
+Skill: (Power: 3, Evasion: 12)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Mobile Fortress
+Melee-Defense-Passive
+Effect:
+At the beginning of your turn, while conscious, you must pay a total of 3 points
+between your stamina, mana, and focus. If you cannot pay, you must pay 15 Health instead.
+Any damage you take is reduced by 3 ranks to a minimum of 0.|
+
+A1: Immense Size
+Melee-Defense-Passive
+Effect: You count as being 1sp tall. It costs 10AP to climb on top of you.|
+
+A2: Immense Frame Alpha
+Melee-Defensive-Passive
+Effect: Increase your base Health by 25{TL}. All actions cost an additional 5AP.|
+
+A3: Immense Frame Beta
+Melee-Defensive-Passive
+Effect: Increase your base Health by 25{TL}. All actions cost an additional 5AP.|
+
+A4: Immense Frame Gamma
+Melee-Defensive-Passive
+Effect: Increase your base Health by 25{TL}. All actions cost an additional 5AP.|
+
+A5: Airborne
+Skill-Support-Passive
+Effect: You can move in any direction (including vertical) and are not affected by difficult terrain.|
+
+A6: Mana Battery
+Magic-Support-Passive
+Effect: Increase your base Mana by 5{TL}|
+
+A7: Stamina Battery
+Melee-Support-Passive
+Effect: Increase your base Stamina by 5{TL}|
+
+A8: Focus Battery
+Skill-Support-Passive
+Effect: Increase your base Focus by 5{TL}|
+
+A9: Seize
+Melee-Offensive-Action
+Use: 10AP+3sta
+Range: 0sp
+Accuracy: Melee
+Effect: Targeted combatant cannot leave your space until the beginning of your next turn.|
 
 
-MA1:|
+Scheme
+- 80% defense = 8 def abilities
+- 10% support = 1 support ability
+- 10% offense = 1 offense ability
+
+
+MA1: Invincible|
 MA2:|
 MA3:|
