@@ -322,8 +322,8 @@
             </li>
             <li>
                 <b>Rank</b><br>
-                Effectively the coefficient of your damage score. The higher the ranking score, the greater
-                your final damage score will be.<br>
+                Listed in between parenthesis (most often beside the damage variable).
+                The higher the ranking score, the better the final result will be.<br>
                 Your critical score for base damage is also determined from your weapon's rank by increasing it by 1.
             </li>
             <li>
@@ -804,8 +804,12 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     make a d20 check. If the check passes, then the Ability's OnPass/OnHit attribute is invoked.
     <p>
         Hit checks will refer to the enemy Evasion score that the ability is targeting in a
-        <i>Accuracy: [Evasion]</i> format. Most checks are just Luck rolls, and will read <i>Luck: X</i>,
+        <i>Accuracy: [Evasion]</i> format. Many checks are just Luck rolls, and will read <i>Luck: X</i>,
         where X is a value between 1 and 20.
+    </p>
+    <p>
+        Remember, if you roll a natural 20 on an ability, its rank (found between parenthesis) increases by
+        1 for the rest duration of the check.
     </p>
 
     <h3>
@@ -872,10 +876,10 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
             Reduce. Reduce the targeted score by an amount of points.
         </li>
         <li>
-            Strong To. The target gains an additional specifier as to what they do double damage to.
+            Strong Against. The target gains an additional specifier as to what they do double damage to.
         </li>
         <li>
-            Weak To. The target gains an additional specifier as to what they do half damage to.
+            Weak Against. The target gains an additional specifier as to what they do half damage to.
         </li>
         <li>
             Immune To. The target becomes immune to a certain damage, effect, or other specifier.
@@ -1104,7 +1108,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         </li>
         <li>
             If the monster was killed by a critical hit, then it grants the
-            best drop of loot.
+            best drop of loot (assume you rolled a nat 20 for the drop).
         </li>
         <li>
             If a special objective (revealed to the party) was accomplished

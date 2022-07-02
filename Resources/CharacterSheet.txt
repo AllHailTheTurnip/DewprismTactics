@@ -33,7 +33,7 @@ Harvest	 :
 Scholar	 :
 Navigate :
 Acrobatic:
-Arts:
+Arts     :
 
 Abilities
 Doctrine:
