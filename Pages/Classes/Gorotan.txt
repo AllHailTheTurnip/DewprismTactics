@@ -1,36 +1,98 @@
-Title:|
-Subtitle:|
-Description:|
-???
+
+
+Title:Gorotan|
+Subtitle:Electrically Charged Hunter|
+Description: The first Gorotans were disciples of the feline god Goro, a massive feline
+who first created lightning and sent Omnitheon to the abyss in the First of Days. Their
+ancient order has existed since the first millennia, and though now it is old and whithered,
+these thunderous monks continue live the legend.|
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
+Health: 60|
+Mana: 20|
+Stamina: 10|
 Focus: 15|
 
 SCORES
-Initiative: 10|
+Initiative: 15|
 Carry: 10u|
-Element: Neutral|
+Element: Electric|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 3, Evasion: 5)|
+Magic: (Power: 5, Evasion: 8)|
+Skill: (Power: 3, Evasion: 10)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Lightning Strike
+Magic-Offensive-Action
+Use: 10AP
+Range: 3sp+1{TL/4}
+Accuracy: Skill
+Damage: Deal electric Magic Damage to the target.|
 
+A1: Star Barrier
+Magic-Defensive-Action
+Use: 3mna+5AP+1/turn
+Effect: Choose to target enemy combatants either in the same space or at 3sp away.
+Targeted enemies must make a Skill self-check, whereupon failure take 1{MgcPwr} electric
+damage.
+
+A2: Mrow!
+Melee-Offensive-Action
+Use: 5AP
+Range: 2sp circle AoE
+Accuracy: Skill
+Effect: Targets have -(2) on their next check.|
+
+A3: Swipe
+Melee-Offensive-Action
+Use: 10AP
+Range: 0sp
+Effect: Target takes 1{SklDmg} neutral damage.|
+
+A4: Pounce
+Melee-Offensive-Action
+Use: 10AP+3sta
+Range: 2sp
+Effect: Move to a space within range as a free Movement action.
+Enemies must spend 3sta to move to another space or else take
+1{MleDmg} neutral damage.|
+
+A5: Electric Arc
+Magic-Offensive-Action
+Use: 10AP+3mna
+Range: 1sp
+Accuracy: Melee
+The target must spend 3sta to move another space or else
+the accuracy check gains +5.
+OnHit: The target takes electric Magic Damage.|
+
+A6: Prowl
+Skill-Defensive-Action
+Use: 5fcs
+Effect: You do not trigger Reaction-applicable abilities until
+the start of your next turn.|
+
+A7: Charge Up!
+Magic-Support-Action
+Use: 10mna+10AP
+Range: 1sp
+Effect: Restore 5 Mana to an allie and increase the ranks of all of their applicable
+abilities by 1.|
+
+A8: Deflate
+Magic-Support-Reaction
+Trigger: Your health reaches 0.
+Effect: You shrink down to the size 1u item and can be carried
+either in one hand or in an inventory.|
+
+A9: Bestow Power
+Magic-Support-Action
+Use: 1/battle
+Range: 0sp
+Effect: Your health is reduced to 0. The targeted allie gains your
+Doctrine Ability as an extra ability.|
 
 MA1:|
 MA2:|
