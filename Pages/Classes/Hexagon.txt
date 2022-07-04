@@ -23,8 +23,8 @@ Element: Metal|
 
 STATS
 Melee: (Power: 6, Evasion: 5)|
-Magic: (Power: 3, Evasion: 12)|
-Skill: (Power: 3, Evasion: 12)|
+Magic: (Power: 3, Evasion: 8)|
+Skill: (Power: 3, Evasion: 5)|
 
 Abilities
 Doctrine: Mobile Fortress
@@ -45,7 +45,7 @@ Every 5 Health spent 3 points of either Stamina, Mana, and/or Focus (leftover po
 
 A3: Power Conversion Gamma
 Skill-Support-Passive
-Effect: You can spend 3 points of Mana, Stamina, and/or Focus to regain 5 Health.|
+Effect: You can spend 5 points of Mana, Stamina, and/or Focus to regain 5 Health.|
 
 A4: Overcharge Burst
 Skill-Offensive-Action
