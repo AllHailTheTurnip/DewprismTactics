@@ -31,7 +31,7 @@ Doctrine: Mobile Fortress
 Melee-Defense-Passive
 Effect:
 At the beginning of your turn, while conscious, you must pay a total of 3 points
-between your stamina, mana, and focus. If you cannot pay, you must pay 15 Health instead.
+between your stamina, mana, and focus.
 Any damage you take is reduced by (3) ranks to a minimum of 0.|
 
 A1: Immense Size
@@ -41,7 +41,7 @@ Effect: You count as being 1sp tall. It costs 10AP to climb on top (or off) of y
 A2: Power Conversion Alpha
 Skill-Support-Passive
 Effect: When prompted to spend Stamina, Mana, or Focus, you can spend your Health instead.
-Every 5 Health spent 3 points of either Stamina, Mana, and/or Focus (leftover points are lost).|
+Every 5 Health spent equates to 3 points of either Stamina, Mana, and/or Focus (leftover points are lost).|
 
 A3: Power Conversion Gamma
 Skill-Support-Passive
