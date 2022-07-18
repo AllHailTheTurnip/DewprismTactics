@@ -1,0 +1,53 @@
+Name: Specter|
+Type: Heavy|
+Level: 5|
+Code: Instinctive Assassin/Hunter|
+PrimaryClass: Specter|
+
+Biography
+Description: Lost spirits that dwell within eternal darkness. They prey upon
+the unsuspecting before drowning them in misery and dread.|
+
+Appearance: A large bundle of clothes that float in the air as if submerged in water.|
+
+Behavior: They surprise-attack their prey.|
+
+Vitals
+Health: 15|
+Mana: 30|
+Stamina: 5|
+Focus: 15|
+
+Scores
+Element: Water/Dark|
+Initiative: 10|
+Carry: 5u|
+MeleeDamage: 3, Crit:6|
+MagicDamage: 6, Crit:12|
+SkillDamage: 5, Crit:10|
+
+Stats
+Melee: (Power: 3, Evasion: 8)|
+Magic: (Power: 6, Evasion: 10)|
+Skill: (Power: 5, Evasion: 10)|
+
+Talents
+Craft: --|
+Harvest: --|
+Scholar: --|
+Navigate: 3|
+Acrobatic: 0|
+Arts: --|
+
+Equipment
+PrimaryWeapon:|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience: 150|
+Gil: 150|
+Loot: 3x Perma-Ice (Material, 10gil)
+Luck 10: Soul Fragment (Material, 25gil)
+Luck: 18: Bone Fragment (Consumable, +10 to next accuracy check)|

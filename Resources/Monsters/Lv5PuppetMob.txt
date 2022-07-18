@@ -1,0 +1,52 @@
+Name: Puppet|
+Type: Mob|
+Level: 5|
+Code: Drone Leader/Hunter/Soldier|
+PrimaryClass: Puppet|
+
+Biography
+Description: Enchanted dolls filled with beans, pebbles, and other loose kipple.
+Like machines, they stalk their hallways forever, looking for intruders to defeat.|
+
+Appearance: Leather dolls dressed in tin armor. They're faceless.|
+
+Behavior: Puppets patrol their hallways until an intruder has been detected.|
+
+Vitals
+Health: 90|
+Mana: 11|
+Stamina: 17|
+Focus: 22|
+
+Scores
+Element: Wind|
+Initiative: 13|
+Carry: 8u|
+MeleeDamage: 30, Crit: 40|
+MagicDamage: 15, Crit: 30|
+SkillDamage: 10, Crit: 20|
+
+Stats
+Melee: (Power: 10, Evasion: 12)|
+Magic: (Power: 15, Evasion: 10)|
+Skill: (Power: 10, Evasion: 6)|
+
+Talents
+Craft: --|
+Harvest: --|
+Scholar: --|
+Navigate: 0|
+Acrobatic: 0|
+Arts: 0|
+
+Equipment
+PrimaryWeapon: Machete (Type: Melee, WC: 3, Cost: 10AP, Rank: 3, Wt: 1u)|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience: 50|
+Gil: 50|
+Loot: 2x Leather Strip (Material, 15gil)
+Luck 10: Soul Gem (Material, 25gil)|

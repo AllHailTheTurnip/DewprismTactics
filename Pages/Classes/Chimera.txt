@@ -95,6 +95,22 @@ Range: 1sp AoE
 Luck: 10
 OnPass: Enemy gets Slowed (3).|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Bar Escape
+Skill-Offensive-Passive
+Effect: While in combat, it is impossible
+for your opponents to flee the battlefield.|
+
+MA2: Item Tether
+Magic-Support-Passive
+Effect: Your life can be bound to an item that is contained within you.
+Upon death, the item is dropped.
+You can be resurrected for 50 mana paid at once.|
+
+MA3: Soul Transfer
+Magic-Defensive-Reaction
+Trigger: You die.
+Effect: If a copy of your body exists within 1 mile of you,
+your soul can transfer to the new body.
+Note: To make a craft a new body, you'll need
+1,000gil worth of materials, a Craft score of 15, and 24 hours of labor.|
+

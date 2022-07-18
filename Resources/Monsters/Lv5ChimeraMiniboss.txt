@@ -1,0 +1,52 @@
+Name: Chimera|
+Type: Miniboss|
+Level: 5|
+Code: Instinctive Leader|
+PrimaryClass: Chimera|
+
+Biography
+Description: An enormously tall figure made out of three creatures: a human boy,
+a skeleton, and a dragon. It uses its enormous scythe to inflict damage.|
+
+Appearance: Tall with black pants, two torsos, three heads, and two arms.|
+
+Behavior: It hides in the shadows and sneaks up upon unsuspecting prey.
+Once the battle begins, the doors are locked solid.|
+
+Vitals
+Health: 420|
+Mana: 46|
+Stamina: 33|
+Focus: 47|
+
+Scores
+Element: Dark/Electric|
+Initiative: 10|
+Carry: 12u|
+MeleeDamage: 25, Crit: 50|
+MagicDamage: 35, Crit: 70|
+SkillDamage: 90, Crit: 120|
+
+Stats
+Melee: (Power: 25, Evasion: 12)|
+Magic: (Power: 35, Evasion: 10)|
+Skill: (Power: 30, Evasion: 12)|
+
+Talents
+Craft: 0|
+Harvest: 0|
+Scholar: 0|
+Navigate: 0|
+Acrobatic: 3|
+Arts: 0|
+
+Equipment
+PrimaryWeapon: Red Scythe (Type: Skill, WC: 3, Cost: 10AP, Rank: 3, Wt: 1u; Range 1)|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience: 200|
+Gil: 200|
+Loot: 1x Solid Shadow (Material, 100gil)|

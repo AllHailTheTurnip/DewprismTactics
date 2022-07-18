@@ -1,0 +1,53 @@
+Name: Specter|
+Type: Mob|
+Level: 5|
+Code: Instinctive Assassin/Hunter|
+PrimaryClass: Specter|
+
+Biography
+Description: Lost spirits that dwell within eternal darkness. They prey upon
+the unsuspecting before drowning them in misery and dread.|
+
+Appearance: Tall, blue, and whispish, like bundled cloth.|
+
+Behavior: They surprise-attack their prey.|
+
+Vitals
+Health: 6|
+Mana: 18|
+Stamina: 3|
+Focus: 9|
+
+Scores
+Element: Water/Dark|
+Initiative: 10|
+Carry: 5u|
+MeleeDamage: 2, Crit:4|
+MagicDamage: 5, Crit:10|
+SkillDamage: 3, Crit:6|
+
+Stats
+Melee: (Power: 2, Evasion: 8)|
+Magic: (Power: 5, Evasion: 10)|
+Skill: (Power: 3, Evasion: 10)|
+
+Talents
+Craft: --|
+Harvest: --|
+Scholar: --|
+Navigate: 3|
+Acrobatic: 0|
+Arts: --|
+
+Equipment
+PrimaryWeapon:|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience: 50|
+Gil: 50|
+Loot: 2x Perma-Ice (Material, 10gil)
+Luck 15: Soul Fragment (Material, 25gil)|
+
