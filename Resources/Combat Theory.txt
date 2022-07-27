@@ -30,7 +30,7 @@ Avg: 	15
 H:	    20
 VH: 	25
 
-Health Ranges (Difficulty * WC * 3)
+Health Ranges (WC * 5 * 3)
 VL	15
 L	30
 Avg	45

@@ -37,9 +37,9 @@ A1: Following Weapon
 Magic-Offensive-Action
 Use: 10AP+5mna
 Range: {TL/5}
-Effect: Choose up to 1+{Skill/15} targets within range.
+Effect: Choose up to 1+{SklPwr/15} targets within range.
 Throw your primary weapon; you cannot use it while it's in flight.
-At the beginning of a target's turn, they must spend {MgsPwr}sta to dodge your weapon, otherwise
+At the beginning of a target's turn, they must spend Stamina equal to your {MleEva} to dodge your weapon, otherwise
  they take (1){MleDamage}.
 Once all targets have avoided or taken damage, you regain your weapon.|
 

@@ -47,7 +47,7 @@ Effect: You are immune to neutral-type damage.|
 
 A1: Ghost Step
 Magic-Support-Reaction
-Trigger: You make from one space to another.
+Trigger: You move from one space to another.
 Use: 3mna
 Effect: You can move through solid surfaces, ignoring barriers and walls, until the end of your turn.|
 
@@ -61,10 +61,9 @@ Performing any checks will cause you to become visible again.|
 A3: Haunt
 Magic-Attack-Action
 Use: 10AP+3mna+3fcs
-Rank: 1
 Range: {TL/5}sp
 Accuracy: Skill
-OnHit: Target loses r{MgcPwr} focus.|
+OnHit: Target loses (1){MgcPwr} focus.|
 
 A4: Arcane Shield
 Magic-Defense-Reaction
@@ -80,14 +79,14 @@ OnHit: Target loses (1){FcsPwr} focus.|
 A6: Paralyzing Presence
 Magic-Offensive-Action
 Use: 15AP+3fcs
-Range: 0sp
+Range: 1sp
 Luck: 15
 OnPass: Target gains Paralyzed 3.|
 
 A7: Drown
 Magic-Offensive-Action
 Use: 10AP+7mna
-Range: 0sp
+Range: 1sp
 Accuracy: Magic
 OnHit: Target gains Doomed 3-(0).|
 
@@ -101,9 +100,9 @@ OnHit: Target becomes Frozen 1+{TL/10}.|
 A9: Possession
 Magic-Support-Action
 Use: 10AP+7mna
-Range:0sp
+Range: 0sp
 Luck: 10-{TL/2}
-Effect: Take possession of a KO'd target's body. While possessing, substitute your
+Effect: Take possession of a KO'd target's body. While possessing, substitute theirs
 Health, Melee, Magic, and Skill scores with yours.
 At Class Level 5, you can draw from the target's Mana, Focus, and Stamina pools.
 At Class Level 10, you gain access to their Abilities.
