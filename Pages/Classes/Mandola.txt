@@ -56,7 +56,7 @@ OnPass: Affected enemy makes a Movement action in the direction of your position
 
 A3:Photosynthesis
 Skill-Support-Action
-Use: 10AP+3Skl
+Use: 10AP+3fcs
 Increase max Health and current Health by (1){MlePwr}|
 
 A4:Parasite Spore
