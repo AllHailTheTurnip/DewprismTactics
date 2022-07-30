@@ -1,50 +1,119 @@
 Attacks
-1 Burning Star
-2 Burning Wave
-6 Burning Line
-3 Uppercut
-4 Diving Strike
-5 Firelight Strikes
-7 Struggle
-8 Explosive Touch
-9 String Combo
-A Gift Item
 
-
-Title:|
-Subtitle:|
-Description:|
-???
+Title: Fist of Fire|
+Subtitle: Rapid-fire Melee Fighter|
+Description: The Fist of Fire branches from the very same order as the Shadow Legends.
+The Fists of Fire believe in a brilliant, passionate life. Much like a fire, they burn bright
+and hot, often leading them to early graves.
+<p>
+The Fist of Fire fighter specializes in a close- to mid-range combat, utilizing
+utilizing special techniques to string together powerful attacks before
+their opponent can fit one in.
+</p>|
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 25|
+Mana: 10|
+Stamina: 18|
+Focus: 12|
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 15|
+Carry: 7u|
+Element: Fire|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 6, Evasion: 8, Accuracy: +3)|
+Magic: (Power: 4, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 5, Evasion: 12, Accuracy: +5)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Flurry of Blows
+Melee-Offensive-Action
+Use: 3sta+3fcs+10AP
+Range: 0sp
+Effect: Make 2+{TL/5} Skill Accuracy checks.
+Inflict (1){MlePwr} fire damage per hit.|
 
+A1: Burning Star
+Melee-Offensive-Action
+Use: 3sta+5mna+10AP
+Range: 0sp AoE
+Accuracy: Magic+5
+Dmg: (4){MgcPwr} fire
+OnCrit: Target gets Burning 3|
 
-MA1:|
-MA2:|
-MA3:|
+A2: Burning Path
+Melee-Offensive-Action
+Use: 3sta+3mna+10AP
+Range: 1sp AoE Ray
+Accuracy: Magic
+Dmg: (2){MgcPwr} fire
+OnCrit: Target gets Burning 3|
+
+A3: Momentum
+Skill-Support-Reaction
+Trigger: You declare that you are about to use an ability.
+Use: 1/turn
+Effect: You may increase the Use-cost by 50% to increase its Rank by 1
+for the duration of the turn.|
+
+A4: Diving Strike
+Melee-Offensive-Action
+Use: 10AP
+Effect: Target a combatant exactly 2sp away. You leap through the air, ignoring
+difficult terrain, and land in their space.
+Make a basic attack against the targeted combatant.|
+
+A5: Hold Back
+Melee-Defensive-Action
+Use: 7sta+5AP
+Effect: All enemy combatants in an adjacent of your choice space cannot move out of the space
+until the end of your next turn.
+Your turn ends.
+If you fall unconscious or die before the end of your next turn, the effect is canceled.|
+
+A6: Explosive Touch
+Magic-Offensive-Action
+Use: 10AP+5mna
+Range: 0sp
+Effect: The touched item violently explodes (destroying it in the process).
+Every combatant (including you) in the space must pass a Melee Evasion self-check
+to avoid taking damage. Upon failure, the combatant takes (unit weight){MgcPwr} damage.
+To explode an item currently in possession of an enemy combatant, the
+owner must pass a Skill Evasion self-check.
+You may only target single-part items between 1u-5u in weight.|
+
+A7: Combo
+Skill-Offensive-Reaction
+Trigger: You finish resolving an action.
+Luck: 15
+OnPass: The Use cost of the next action is reduced by 50%.|
+
+A8: Gift Item|
+Skill-Support-Action
+Range: 0sp
+Effect: You may give an item to an ally.|
+
+A9: Uppercut
+Skill-Offensive-Action
+Cost: 10AP
+Range: 0sp
+Accuracy: Skill
+Dmg: (2){SklPwr}
+Luck: 10
+OnPass: Target becomes Prone.|
+
+MA1: Full Hold Back
+Melee-Defensive-Action
+Effect: Target in adjacent space of your choice cannot leave the space until
+the end of your next turn.|
+
+MA2: Rush!
+Skill-Offensive-Passive
+Effect: Offensive-type class abilities cost 25% less.|
+
+MA3: Pursue
+Melee-Support-Passive
+Use: 3/turn
+Effect: Make a free Movement action.|

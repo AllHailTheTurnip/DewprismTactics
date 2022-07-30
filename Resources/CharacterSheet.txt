@@ -23,9 +23,9 @@ Skill Damage:   Crit:
 
 
 Stats
-Melee (Power:  , Evasion:  )
-Magic (Power:  , Evasion:  )
-Skill (Power:  , Evasion:  )
+Melee (Power:  , Evasion:  , Accuracy: )
+Magic (Power:  , Evasion:  , Accuracy: )
+Skill (Power:  , Evasion:  , Accuracy: )
 
 Talents
 Craft	 :

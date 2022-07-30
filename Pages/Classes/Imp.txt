@@ -26,8 +26,8 @@ Element: Water|
 
 STATS
 Melee: (Power: 3, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 4, Evasion: 18, Accuracy: 0)|
-Skill: (Power: 3, Evasion: 14, Accuracy: 0)|
+Magic: (Power: 4, Evasion: 18, Accuracy: +4)|
+Skill: (Power: 3, Evasion: 14, Accuracy: -1)|
 
 Abilities
 Doctrine: Starburst

@@ -22,8 +22,8 @@ Element: Noble|
 
 STATS
 Melee: (Power: 5, Evasion: 8, Accuracy: 0)|
-Magic: (Power: 6, Evasion: 8, Accuracy: 0)|
-Skill: (Power: 4, Evasion: 8, Accuracy: 0)|
+Magic: (Power: 6, Evasion: 8, Accuracy: +5)|
+Skill: (Power: 4, Evasion: 8, Accuracy: -1)|
 
 ABILITIES
 Doctrine: Switch Magic Element
@@ -49,8 +49,8 @@ A3: Magic Burst
     Magic-Offensive-Action
     Use: 5Mna
     Accuracy: Magic
-    Range: 0sp (Target up to (1)+{TL/4} enemies)
-    OnHit: Target(s) takes (3){MgcPwr} neutral damage.|
+    Range: 0sp (Target up to 1+{TL/4} enemies)
+    OnHit: Target(s) takes (1){MgcPwr} damage.|
 A4: Spur Power
     Melee-Support-Reaction
     Trigger: When you take melee damage.

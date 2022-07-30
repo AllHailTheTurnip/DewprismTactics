@@ -31,9 +31,9 @@ Carry: 7u|
 Element: Wind|
 
 STATS
-Melee: (Power: 5, Evasion: 15, Accuracy: 0)|
+Melee: (Power: 5, Evasion: 15, Accuracy: +5)|
 Magic: (Power: 4, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 6, Evasion: 12, Accuracy: 0)|
+Skill: (Power: 6, Evasion: 12, Accuracy: -2)|
 
 Abilities
 Doctrine: Proximity Strike

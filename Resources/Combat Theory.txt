@@ -16,6 +16,19 @@ Avg	10
 G	12
 VG	15
 
+Accuracy Ranges (They tend to vary)
+VL  -5
+    -4
+    -3
+L   -2
+    -1
+M   +0
+    +1
+H   +2
+    +3
+    +4
+VH  +5
+
 Weapon Damage Multipliers
 VL	1
 L	2

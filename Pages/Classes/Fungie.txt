@@ -30,9 +30,9 @@ Carry: 8u|
 Element: Water|
 
 STATS
-Melee: (Power: 4, Evasion: 10)|
-Magic: (Power: 7, Evasion: 15)|
-Skill: (Power: 3, Evasion: 5)|
+Melee: (Power: 4, Evasion: 10, Evasion: +1)|
+Magic: (Power: 7, Evasion: 15, Evasion: +2)|
+Skill: (Power: 3, Evasion: 5, Evasion: 0)|
 
 Abilities
 Doctrine: Headbash

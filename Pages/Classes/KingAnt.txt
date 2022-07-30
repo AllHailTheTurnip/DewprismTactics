@@ -30,9 +30,9 @@ Carry: 12u|
 Element: Fire|
 
 STATS
-Melee: (Power: 4, Evasion: 11, Accuracy: 0)|
-Magic: (Power: 3, Evasion: 8, Accuracy: 0)|
-Skill: (Power: 6, Evasion: 11, Accuracy: 0)|
+Melee: (Power: 4, Evasion: 11, Accuracy: +2)|
+Magic: (Power: 3, Evasion: 8, Accuracy: -1)|
+Skill: (Power: 6, Evasion: 11, Accuracy: +1)|
 
 Abilities
 Doctrine: Assault Rifle

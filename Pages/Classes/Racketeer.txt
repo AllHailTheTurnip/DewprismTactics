@@ -22,9 +22,9 @@ Carry: 10u|
 Element: Neutral|
 
 STATS
-Melee: (Power: 5, Evasion: 8, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 12, Accuracy: 0)|
-Skill: (Power: 6, Evasion: 12, Accuracy: 0)|
+Melee: (Power: 5, Evasion: 8, Accuracy: +2)|
+Magic: (Power: 5, Evasion: 12, Accuracy: -3)|
+Skill: (Power: 6, Evasion: 12, Accuracy: -1)|
 
 Abilities
 Doctrine:Hack-N-Slash

@@ -29,9 +29,9 @@ Carry: 8u|
 Element: Wind|
 
 STATS
-Melee: (Power: 3, Evasion: 12, Accuracy: 0)|
+Melee: (Power: 3, Evasion: 12, Accuracy: -2)|
 Magic: (Power: 4, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 3, Evasion: 6)|
+Skill: (Power: 3, Evasion: 6, Accuracy: +1)|
 
 Abilities
 Doctrine: High Alert

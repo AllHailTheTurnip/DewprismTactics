@@ -24,9 +24,9 @@ Carry: 10u|
 Element: Dark|
 
 STATS
-Melee: (Power: 4, Evasion: 8, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 9, Accuracy: 0)|
-Skill: (Power: 4, Evasion: 7, Accuracy: 0)|
+Melee: (Power: 4, Evasion: 8, Accuracy: +1)|
+Magic: (Power: 5, Evasion: 9, Accuracy: +3)|
+Skill: (Power: 4, Evasion: 7, Accuracy: -2)|
 
 Abilities
 Doctrine: Stone Wings

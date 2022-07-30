@@ -27,9 +27,9 @@ Carry: 5u|
 Element: Dark|
 
 STATS
-Melee: (Power: 3, Evasion: 12)|
-Magic: (Power: 4, Evasion: 13)|
-Skill: (Power: 3, Evasion: 14)|
+Melee: (Power: 3, Evasion: 12, Accuracy: +0)|
+Magic: (Power: 4, Evasion: 13, Accuracy: +2)|
+Skill: (Power: 3, Evasion: 14, Accuracy: +2)|
 
 Abilities
 Doctrine: *Poof*

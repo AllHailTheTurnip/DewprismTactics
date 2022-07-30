@@ -20,15 +20,14 @@ Element: Wind|
 
 STATS
 Melee: (Power: 3, Evasion: 12, Accuracy: 0)|
-Magic: (Power: 3, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 6, Evasion: 9, Accuracy: 0)|
+Magic: (Power: 3, Evasion: 10, Accuracy: -1)|
+Skill: (Power: 6, Evasion: 9, Accuracy: +1)|
 
 ABILITIES
 Doctrine: Assassinate
     Skill-Offensive-Action
     Use: 10AP + 3Fcs + 3Sta
-    Rank: 1
-    Range: r+{TL/4}sp
+    Range: (1)+{TL/4}sp
     Leap through the air into the same space as your target.
     Luck: 18
     OnPass: Target takes damage equal to their remaining health.|
@@ -45,9 +44,8 @@ A2: Dismember
 A3: Lick Wounds
     Melee-Supportive-Action
     Use: 10AP
-    Rank: 3
     Range: 0sp
-    Restore r{TL} health to yourself or your target.|
+    Restore (3){TL} health to yourself or your target.|
 A4: Bloody Feast
     Melee-Supportive-Passive
     Use: 5AP
@@ -70,8 +68,7 @@ A7: Sharpen Edge
 A8: Fearsome Roar
     Skill-Offensive-Action
     Cost: 10AP
-    Rank: 3
-    Range: All enemies within 3{TL} of you.
+    Range: All enemies within (3){TL} of you.
     Accuracy: Skill
     OnPass: Reduce the target's Magic evasion by r.|
 A9: Conjure Assassin's Blade
