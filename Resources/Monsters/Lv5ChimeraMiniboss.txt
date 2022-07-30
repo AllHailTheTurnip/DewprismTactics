@@ -48,5 +48,5 @@ Consumables:|
 
 Loot
 Experience: 200|
-Gil: 200|
+Gil: 600|
 Loot: 1x Solid Shadow (Material, 100gil)|

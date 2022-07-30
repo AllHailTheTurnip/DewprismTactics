@@ -27,9 +27,9 @@ Carry: 20u|
 Element: Darkness|
 
 STATS
-Melee: (Power: 4, Evasion: 12)|
-Magic: (Power: 5, Evasion: 12)|
-Skill: (Power: 2, Evasion: 10)|
+Melee: (Power: 4, Evasion: 12, Accuracy: 0)|
+Magic: (Power: 5, Evasion: 12, Accuracy: 0)|
+Skill: (Power: 2, Evasion: 10, Accuracy: 0)|
 
 Abilities
 Doctrine:Meteoric Crash

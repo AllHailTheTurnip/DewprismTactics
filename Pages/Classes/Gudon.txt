@@ -34,9 +34,9 @@ Carry: 15u|
 Element: Fire|
 
 STATS
-Melee: (Power: 5, Evasion: 8)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 4, Evasion: 5)|
+Melee: (Power: 5, Evasion: 8, Accuracy: 0)|
+Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 4, Evasion: 5, Accuracy: 0)|
 
 Abilities
 Doctrine:Firebreath

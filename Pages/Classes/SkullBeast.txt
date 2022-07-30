@@ -20,9 +20,9 @@ Carry: 10u|
 Element: Fire|
 
 STATS
-Melee: (Power: 3, Evasion: 12)|
-Magic: (Power: 5, Evasion: 14)|
-Skill: (Power: 4, Evasion: 9)|
+Melee: (Power: 3, Evasion: 12, Accuracy: 0)|
+Magic: (Power: 5, Evasion: 14, Accuracy: 0)|
+Skill: (Power: 4, Evasion: 9, Accuracy: 0)|
 
 ABILITIES
 Doctrine: Self Resurrection

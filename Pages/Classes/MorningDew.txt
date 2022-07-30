@@ -15,9 +15,9 @@ Carry: 7u|
 Element: Light|
 
 STATS
-Melee: (Power: 3, Evasion: 15)|
-Magic: (Power: 7, Evasion: 15)|
-Skill: (Power: 3, Evasion: 15)|
+Melee: (Power: 3, Evasion: 15, Accuracy: 0)|
+Magic: (Power: 7, Evasion: 15, Accuracy: 0)|
+Skill: (Power: 3, Evasion: 15, Accuracy: 0)|
 
 Abilities
 Doctrine:|

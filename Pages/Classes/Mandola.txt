@@ -27,9 +27,9 @@ Carry: 6u|
 Element: Wind|
 
 STATS
-Melee: (Power: 6, Evasion: 8)|
-Magic: (Power: 3, Evasion: 10)|
-Skill: (Power: 6, Evasion: 6)|
+Melee: (Power: 6, Evasion: 8, Accuracy: 0)|
+Magic: (Power: 3, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 6, Evasion: 6, Accuracy: 0)|
 
 Abilities
 Doctrine:Take Root

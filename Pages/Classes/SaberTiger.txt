@@ -19,9 +19,9 @@ Carry: 5u|
 Element: Wind|
 
 STATS
-Melee: (Power: 3, Evasion: 12)|
-Magic: (Power: 3, Evasion: 10)|
-Skill: (Power: 6, Evasion: 9)|
+Melee: (Power: 3, Evasion: 12, Accuracy: 0)|
+Magic: (Power: 3, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 6, Evasion: 9, Accuracy: 0)|
 
 ABILITIES
 Doctrine: Assassinate

@@ -20,9 +20,9 @@ Carry: 8u|
 Element: Wind|
 
 STATS
-Melee: (Power: 4, Evasion: 14)|
-Magic: (Power: 3, Evasion: 9)|
-Skill: (Power: 6, Evasion: 12)|
+Melee: (Power: 4, Evasion: 14, Accuracy: 0)|
+Magic: (Power: 3, Evasion: 9, Accuracy: 0)|
+Skill: (Power: 6, Evasion: 12, Accuracy: 0)|
 
 Abilities
 Doctrine: Thorny Armor

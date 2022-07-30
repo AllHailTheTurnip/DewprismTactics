@@ -21,9 +21,9 @@ Carry: 7u|
 Element: Noble|
 
 STATS
-Melee: (Power: 5, Evasion: 8)|
-Magic: (Power: 6, Evasion: 8)|
-Skill: (Power: 4, Evasion: 8)|
+Melee: (Power: 5, Evasion: 8, Accuracy: 0)|
+Magic: (Power: 6, Evasion: 8, Accuracy: 0)|
+Skill: (Power: 4, Evasion: 8, Accuracy: 0)|
 
 ABILITIES
 Doctrine: Switch Magic Element

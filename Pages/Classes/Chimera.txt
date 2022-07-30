@@ -23,9 +23,9 @@ Carry: 12u|
 Element: Dark/Electric|
 
 STATS
-Melee: (Power: 4, Evasion: 12)|
-Magic: (Power: 6, Evasion: 10)|
-Skill: (Power: 5, Evasion: 12)|
+Melee: (Power: 4, Evasion: 12, Accuracy: 0)|
+Magic: (Power: 6, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 5, Evasion: 12, Accuracy: 0)|
 
 Abilities
 Doctrine: Shadowstep
@@ -47,7 +47,7 @@ A2: Death's Head
 Magic-Offensive-Action
 Use: 10AP+7mna
 Range: 1sp
-Accuracy: Magic
+Luck: 16
 OnPass: Target gets Doomed 3-(0).|
 
 A3: Sleeper's Head
@@ -62,7 +62,7 @@ Magic-Offensive-Action
 Use: 10AP+5mna
 Range: 0sp AoE
 Accuracy: Melee
-OnHit: Combatant takes (3){MgcPwr} fire damage.|
+OnHit: Combatants takes (3){MgcPwr} fire damage.|
 
 A5: Wild Swipe
 Melee-Offensive-Action

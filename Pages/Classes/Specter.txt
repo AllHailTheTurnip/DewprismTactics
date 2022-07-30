@@ -36,9 +36,9 @@ Carry: 5u|
 Element: Water/Dark|
 
 STATS
-Melee: (Power: 3, Evasion: 8)|
-Magic: (Power: 6, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 3, Evasion: 8, Accuracy: 0)|
+Magic: (Power: 6, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
 
 Abilities
 Doctrine: Mundane Immunity

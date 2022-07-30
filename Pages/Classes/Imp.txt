@@ -25,9 +25,9 @@ Carry: 10u|
 Element: Water|
 
 STATS
-Melee: (Power: 3, Evasion: 10)|
-Magic: (Power: 4, Evasion: 18)|
-Skill: (Power: 3, Evasion: 14)|
+Melee: (Power: 3, Evasion: 10, Accuracy: 0)|
+Magic: (Power: 4, Evasion: 18, Accuracy: 0)|
+Skill: (Power: 3, Evasion: 14, Accuracy: 0)|
 
 Abilities
 Doctrine: Starburst

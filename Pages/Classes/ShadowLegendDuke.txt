@@ -41,7 +41,7 @@ Effect: Relocate yourself to any space within range.|
 A1: Throwing Stars
 Skill-Offense-Action
 Use: 3fcs+10AP
-Range: 0sp
+Range: 1sp
 Select up to three combatants within range to target. A check is made against each one.
 Accuracy: Skill
 OnHit: Target takes (3){SklPwr} Metal damage.|
@@ -80,12 +80,12 @@ A6:Summon Ancient Weapon
 Use: 5fcs+1/turn
 Range: Self
 Condition: Your dominant hand is empty.
-Effect: Conjure an Ancient Sword into your dominant hand.
+Effect: Conjure an Ancient Sword into your dominant hand. Choose its element.
 Ancient Sword: Type: Mle, WC: Med, Use: 10AP, Pwr: 3, Wght: 1u.|
 
 A7: Catch Weapon
 Skill-Defense-Reaction
-Trigger: A combatant makes a melee attack against you.
+Trigger: A combatant makes an attack with their primary or secondary weapon.
 Use: 3Fcs
 Luck: 15-[PL/2]
 OnPass: No damage is taken.

@@ -29,8 +29,8 @@ Carry: 8u|
 Element: Wind|
 
 STATS
-Melee: (Power: 3, Evasion: 12)|
-Magic: (Power: 4, Evasion: 10)|
+Melee: (Power: 3, Evasion: 12, Accuracy: 0)|
+Magic: (Power: 4, Evasion: 10, Accuracy: 0)|
 Skill: (Power: 3, Evasion: 6)|
 
 Abilities

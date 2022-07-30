@@ -1,3 +1,16 @@
+Attacks
+1 Burning Star
+2 Burning Wave
+6 Burning Line
+3 Uppercut
+4 Diving Strike
+5 Firelight Strikes
+7 Struggle
+8 Explosive Touch
+9 String Combo
+A Gift Item
+
+
 Title:|
 Subtitle:|
 Description:|

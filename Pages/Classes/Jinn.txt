@@ -15,8 +15,8 @@ Carry: 10u|
 Element: Neutral|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
+Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
+Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
 Skill: (Power: 5, Evasion: 10)|
 
 Abilities

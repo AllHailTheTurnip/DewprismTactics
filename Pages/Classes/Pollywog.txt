@@ -22,9 +22,9 @@ Carry: 7u|
 Element: Water|
 
 STATS
-Melee: (Power: 4, Evasion: 10)|
-Magic: (Power: 5, Evasion: 9)|
-Skill: (Power: 3, Evasion: 9)|
+Melee: (Power: 4, Evasion: 10, Accuracy: 0)|
+Magic: (Power: 5, Evasion: 9, Accuracy: 0)|
+Skill: (Power: 3, Evasion: 9, Accuracy: 0)|
 
 ABILITIES
 Doctrine: Elemental Adaptation
@@ -70,9 +70,8 @@ A7: Hide
 A8: Nurture
     Magic-Support-Action
     Cost: 10AP
-    Rank: 2
     Range: 0sp
-    Restore r{MgcPwr} Health to an ally.|
+    Restore (2){MgcPwr} Health to an ally.|
 A9: Regroup
     Magic-Support-Action
     Cost: 5Mna
