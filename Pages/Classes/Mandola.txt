@@ -50,7 +50,7 @@ For each hit, deal (1){SklPwr} damage.|
 A2:Blossom
 Skill-Offensive-Action
 Use: 20AP
-AoE: (1)+({PL}/4)sp sphere
+AoE: (1)+({TL}/4)sp sphere
 Check: Skill
 OnPass: Affected enemy makes a Movement action in the direction of your position.|
 

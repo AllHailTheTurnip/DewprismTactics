@@ -76,7 +76,7 @@ Use: 10AP+3mna
 Effect: Create a Flying Star prop in your space.
 The star occupies a 1 square meter of space and is considered flat.
 Spend 5AP+2mna to move the prop up to 1+{MgcPwr/10} spaces in any direction.
-The star has 15{PL} health, 0 evasion, and vanishes when its health reaches 0.|
+The star has 15{TL} health, 0 evasion, and vanishes when its health reaches 0.|
 
 A6: Give Instructions
 Skill-Support-Action
@@ -87,7 +87,7 @@ Effect: Choose an ally and reduce the AP cost of their next action by 5 (minimum
 A7: Play While Waiting
 Skill-Support-Action
 Use: 10AP+7mna
-Range: {PL/15}
+Range: {TL/15}
 Effect: Remove an ally from the battlefield. While away, they cannot make actions
 or be targeted by any effects. Once their turn begins, they return to the battlefield at their
  original position.
@@ -104,7 +104,7 @@ See Saw prop: while one combatant is standing on an end, the other end becomes a
 A9: Regrow
 Melee-Support-Action
 Use: 25AP
-Effect: Restore 30{PL} health. Any disabled abilities are re-enabled.|
+Effect: Restore 30{TL} health. Any disabled abilities are re-enabled.|
 
 MA1:|
 MA2:|

@@ -33,7 +33,7 @@ Abilities
 Doctrine: Starburst
 Magic-Offense-Action
 Use: 10AP+1mna
-Range: [PL/4]
+Range: [TL/4]
 Accuracy: Skill
 Damage: (3){MgcPwr}
 OnHit: Target is knocked prone.|
@@ -51,7 +51,7 @@ A2: Trip!
 Skill-Passive-Reaction
 Trigger: Enemy makes Movement Action within ability range.
 Use: 1fcs
-Range: [PL/4]
+Range: [TL/4]
 Luck: 15
 OnPass: Target's next Movement costs an additional 2sta.
 If their stamina at 2 or less, they become prone.|
@@ -108,7 +108,7 @@ If you take damage or run out of mana, you become visible again.|
 A9: Jinx!
 Magic-Offense-Action
 Use: 8AP+3mna
-Range: {PL/5}
+Range: {TL/5}
 Luck: 15
 OnPass: Target is jinxed. All their luck have disadvantage.|
 

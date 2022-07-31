@@ -53,7 +53,7 @@ Your unarmed attacks inflict Poison 1|
 
 A2:Hardy Appetite
 Skill-Support-Passive
-Stamina, Mana, and/or Focus regained from consumables is increased by 5{PL}|
+Stamina, Mana, and/or Focus regained from consumables is increased by 5{TL}|
 
 A3:Camouflage
 Melee-Defense-Action

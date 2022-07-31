@@ -87,7 +87,7 @@ A7: Catch Weapon
 Skill-Defense-Reaction
 Trigger: A combatant makes an attack with their primary or secondary weapon.
 Use: 3Fcs
-Luck: 15-[PL/2]
+Luck: 15-[TL/2]
 OnPass: No damage is taken.
 OnCrit: The caught weapon is taken and added to your inventory.|
 

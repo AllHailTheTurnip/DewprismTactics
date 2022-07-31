@@ -75,7 +75,7 @@ OnPass: Target is now deaf. Any Magic-type ability checks now have disadvantage.
 A5: Gift of Wings
 Skill-Support-Action
 Use: 10AP+3fcs
-Range: [PL/5] friendly combatant.
+Range: [TL/5] friendly combatant.
 Effect: Target gain Flight until the end of their next turn.|
 
 A6: Gather Flock

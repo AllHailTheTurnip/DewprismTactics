@@ -72,7 +72,7 @@ Effect: Noble-element is treated as Neutral, and Neutral cannot inflict critical
 
 A5: Improved Aim
 Skill-Support-Passive
-Cost: Xfcs (up to {PL})
+Cost: Xfcs (up to {TL})
 Effect: Increase your Accuracy checks by +X;|
 
 A6: Terraform
