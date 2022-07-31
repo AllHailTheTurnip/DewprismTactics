@@ -1,0 +1,50 @@
+Name: Duke|
+Type: Boss|
+Level: 5|
+Code: Wise-Hunter|
+PrimaryClass: Fist of Fire|
+
+Biography
+Description: The Fire-hearted Duke.|
+
+Appearance: A man dressed in white and blue.|
+
+Behavior: Out to defeat the weakest in the party.|
+
+Vitals
+Health: 225|
+Mana: 18|
+Stamina: 34|
+Focus: 24|
+
+Scores
+Element: Fire|
+Initiative: 15|
+Carry: 7u|
+MeleeDamage: 40, Crit: 80|
+MagicDamage: 30, Crit: 60|
+SkillDamage: 35, Crit: 70|
+
+Stats
+Melee: (Power: 40, Evasion: 8, Accuracy: +3)|
+Magic: (Power: 30, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 35, Evasion: 12, Accuracy: +5)|
+
+Talents
+Craft: 2|
+Harvest: 0|
+Scholar: 4|
+Navigate: 1|
+Acrobatic: 3|
+Arts: 0|
+
+Equipment
+PrimaryWeapon:|
+SecondaryWeapon:|
+Tools: Aviator Goggles (Negate Blindness)|
+Consumables:|
+
+Loot
+Experience: 400|
+Gil: 400|
+Loot: Pearl Earring (Required by Prima Doll)|

@@ -26,9 +26,9 @@ MagicDamage:    , Crit:|
 SkillDamage:    , Crit:|
 
 Stats
-Melee: (Power: , Evasion: )|
-Magic: (Power: , Evasion: )|
-Skill: (Power: , Evasion: )|
+Melee: (Power: , Evasion: , Evasion: )|
+Magic: (Power: , Evasion: , Evasion: )|
+Skill: (Power: , Evasion: , Evasion: )|
 
 Talents
 Craft:|
