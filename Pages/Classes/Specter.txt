@@ -71,7 +71,7 @@ Effect: Damage that would be afflicted to your health can be redirected to your 
 
 A5: Terrify
 Magic-Offensive-Action
-Use: 13AP+1fcs
+Use: 10AP+1fcs+1/turn
 Range: 1sp (Choose up to 1+{TL/5} targets.)
 Accuracy: Skill
 OnHit: Target loses (1){FcsPwr} focus.|
@@ -80,14 +80,14 @@ A6: Paralyzing Presence
 Magic-Offensive-Action
 Use: 15AP+3fcs
 Range: 1sp
-Luck: 15
+Accuracy: Magic
 OnPass: Target gains Paralyzed 3.|
 
 A7: Drown
 Magic-Offensive-Action
 Use: 10AP+7mna
 Range: 1sp
-Accuracy: Magic
+Luck: 15
 OnHit: Target gains Doomed 3-(0).|
 
 A8: Freezing Touch

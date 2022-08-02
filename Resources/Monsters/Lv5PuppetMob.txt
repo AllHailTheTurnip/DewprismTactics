@@ -22,7 +22,7 @@ Scores
 Element: Wind|
 Initiative: 13|
 Carry: 8u|
-MeleeDamage: 30, Crit: 60|
+MeleeDamage: 30, Crit: 40|
 MagicDamage: 15, Crit: 30|
 SkillDamage: 10, Crit: 20|
 

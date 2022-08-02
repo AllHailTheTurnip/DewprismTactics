@@ -67,14 +67,14 @@ You may spend an additional 3sta to make an extra unarmed attack, or 7sta to mak
 A6: Mime Action
 Magic-Defense-Reaction
 Trigger: A combatant makes an action.
+Use: 3fcs
 Range: Line of Sight
 Luck: 15
-Use: 3fcs
 Effect: Execute the same action, for free, using the same scores, as the target after their action is resolved.|
 
 A7: Gang Attack
 Skill-Offensive-Reaction
-Trigger: You attack a combatant.
+Trigger: You make a standard attack a combatant.
 Effect: Any allies within the same space as your target may spend 5fcs to make a free basic attack action at
 the same target.|
 

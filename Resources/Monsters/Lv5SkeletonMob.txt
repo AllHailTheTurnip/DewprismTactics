@@ -26,9 +26,9 @@ MagicDamage: 20, Crit:40|
 SkillDamage: 25, Crit:50|
 
 Stats
-Melee: (Power: 10, Evasion: 12)|
-Magic: (Power: 20, Evasion: 10)|
-Skill: (Power: 25, Evasion: 15)|
+Melee: (Power: 10, Evasion: 12, Accuracy: 0)|
+Magic: (Power: 20, Evasion: 10, Accuracy: -1)|
+Skill: (Power: 25, Evasion: 15, Accuracy: -1)|
 
 Talents
 Craft: --|
