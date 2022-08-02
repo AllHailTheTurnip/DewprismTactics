@@ -47,7 +47,7 @@ Effect: (1)+({TL}/5) per battle, when an attack would reduce your health to 0 or
 
 A3:Curse with Weakness
 Magic-Offensive-Action
-Use: 12AP + 3mna
+Use: 10AP + 4mna
 Range: 0sp+(TL/3)
 Luck: 15
 OnPass: Targeted enemy is now weak to the element of your choice (excluding neutral).
@@ -90,7 +90,7 @@ Subtract (5)+{TL} Action Points from their next turn for every passed check.|
 
 A9: Rip and Tear
 Melee-Offensive-Action
-Use: 12AP
+Use: 10AP
 Range: 0sp
 Accuracy: Melee
 Roll 1+{TL/5} times for this ability.

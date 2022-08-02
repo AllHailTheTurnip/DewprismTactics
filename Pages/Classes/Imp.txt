@@ -107,9 +107,9 @@ If you take damage or run out of mana, you become visible again.|
 
 A9: Jinx!
 Magic-Offense-Action
-Use: 8AP+3mna
+Use: 10AP+3mna
 Range: {TL/5}
-Luck: 15
+Luck: 12
 OnPass: Target is jinxed. All their luck have disadvantage.|
 
 MA1:|

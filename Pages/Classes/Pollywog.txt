@@ -40,7 +40,7 @@ A2: Quick Slap
     Make an unarmed water-type attack.|
 A3: Chomp
     Melee-Offensive-Action
-    Cost: 12AP
+    Cost: 10AP
     Range: 0sp
     Enemy takes (1){MlePwr} neutral damage.|
 A4: Lay Egg

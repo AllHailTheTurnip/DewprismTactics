@@ -29,7 +29,7 @@ Skill: (Power: 6, Evasion: 12, Accuracy: -1)|
 Abilities
 Doctrine:Hack-N-Slash
 Melee-Offensive-Action
-Use: 13AP+5sta
+Use: 15AP+4sta
 Choose a combatant and move 1sp in their initial direction.
 When you enter within melee-range of the opponent, deal (1){MlePwr} damage. The target is knocked prone.
 If possible, continue to move into the next space in a straight line.|

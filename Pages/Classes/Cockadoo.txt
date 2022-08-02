@@ -44,11 +44,11 @@ Make a Basic Attack action against the encroaching target.|
 
 A1: Peck!
 Melee-Offensive-Action
-Use: 7AP
+Use: 5AP
 Range: 0sp
 Accuracy: Melee
-Damage: (2){SklPwr}
-Luck: 15
+Damage: (1){SklPwr}
+Luck: 12
 OnPass: Bleeding (1){SklPwr}|
 
 A2: Flight
