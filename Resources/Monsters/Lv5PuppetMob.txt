@@ -22,14 +22,16 @@ Scores
 Element: Wind|
 Initiative: 13|
 Carry: 8u|
-MeleeDamage: 30, Crit: 40|
+MeleeDamage: 30, Crit: 60|
 MagicDamage: 15, Crit: 30|
 SkillDamage: 10, Crit: 20|
 
 Stats
-Melee: (Power: 10, Evasion: 12)|
-Magic: (Power: 15, Evasion: 10)|
-Skill: (Power: 10, Evasion: 6)|
+Melee: (Power: 10, Evasion: 12, Accuracy: -2)|
+Magic: (Power: 15, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 10, Evasion: 6, Accuracy: +1)|
+
+
 
 Talents
 Craft: --|

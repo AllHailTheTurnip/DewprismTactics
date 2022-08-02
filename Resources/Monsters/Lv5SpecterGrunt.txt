@@ -13,7 +13,7 @@ Appearance: Tall, blue, and whispish, like bundled cloth.|
 Behavior: They surprise-attack their prey.|
 
 Vitals
-Health: 6|
+Health: 15|
 Mana: 18|
 Stamina: 3|
 Focus: 9|
@@ -22,14 +22,14 @@ Scores
 Element: Water/Dark|
 Initiative: 10|
 Carry: 5u|
-MeleeDamage: 2, Crit:4|
-MagicDamage: 5, Crit:10|
-SkillDamage: 3, Crit:6|
+MeleeDamage: 5, Crit:10|
+MagicDamage: 20, Crit:20|
+SkillDamage: 15, Crit:30|
 
 Stats
-Melee: (Power: 2, Evasion: 8)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 3, Evasion: 10)|
+Melee: (Power: 1, Evasion: 8, Accuracy: -3)|
+Magic: (Power: 4, Evasion: 10, Accuracy: +3)|
+Skill: (Power: 3, Evasion: 10, Accuracy: 0)|
 
 Talents
 Craft: --|

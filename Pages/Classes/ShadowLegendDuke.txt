@@ -73,8 +73,8 @@ A5:Energy Wave
 Magic-Offensive-Action
 Use: 5mna+10AP
 Accuracy: Magic
-AoE: 1sp beam
-OnHit: Target takes (3){MgcPwr} water damage.|
+AoE: 1sp AoE
+OnHit: Afflicted targets in target space takes (3){MgcPwr} water damage.|
 
 A6:Summon Ancient Weapon
 Use: 5fcs+1/turn
