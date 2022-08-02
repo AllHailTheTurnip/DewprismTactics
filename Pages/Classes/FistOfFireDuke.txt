@@ -88,7 +88,7 @@ Trigger: You finish resolving an action.
 Luck: 15
 OnPass: The Use cost of the next action is reduced by 50%.|
 
-A8: Gift Item|
+A8: Gift Item
 Skill-Support-Action
 Range: 0sp
 Effect: You may give an item to an ally.|
