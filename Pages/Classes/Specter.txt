@@ -74,7 +74,7 @@ Magic-Offensive-Action
 Use: 10AP+1fcs+1/turn
 Range: 1sp (Choose up to 1+{TL/5} targets.)
 Accuracy: Skill
-OnHit: Target loses (1){FcsPwr} focus.|
+OnHit: Target loses (1){SklPwr/3} focus.|
 
 A6: Paralyzing Presence
 Magic-Offensive-Action
