@@ -67,7 +67,7 @@ Range: 0sp
 Accuracy: Melee
 Dmg: 2{MlePwr}
 Luck: 10
-OnPass: Disabled Skills (Target cannot make Skill-type actions.)|
+OnPass: Disable Skills (Target cannot make Skill-type actions.)|
 
 A6: Lightweight
 Melee-Support-Passive
