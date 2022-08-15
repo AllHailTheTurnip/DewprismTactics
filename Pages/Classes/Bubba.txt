@@ -1,37 +1,130 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Title: Bubba|
+Subtitle:Muscled Titan|
+Description: Names for an island-dwelling god, Bubbas as a warrior-faction
+sailed across the world and took root in different nations. However, the life of a Bubbas is dangerous,
+and their lives can be short-lived. To become a Bubba is to abandon everything you are in favor of power and power
+alone.
+<p>
+    However, Bubbas that reach their full potential have been known to rival dragons and angels.
+    The battle doctrine of a Bubba is one of overwhelming strength. Through the use of raw physical prowess and
+    hard-hitting weapons, Bubbas have been known to decimate their unlucky opponents.
+</p>
+
+
 
 VITALS
-Health: 45|
-Mana: 15|
+Health: 75|
+Mana: 10|
 Stamina: 15|
-Focus: 15|
+Focus: 5|
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 5|
+Carry: 15u|
+Element: Dark|
 
 STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
+Melee: (Power: 7, Evasion: 5, Accuracy: -5)|
+Magic: (Power: 3, Evasion: 8, Accuracy: 0)|
+Skill: (Power: 3, Evasion: 5, Accuracy: 0)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Brutal Bulk
+Melee-Support-Passive
+Effect: Increase the Rank of your Melee-type attacks by 1.
+Reduce your Melee and Skill evasion to 0.
+Reduce your Melee and Skill Accuracy scores by 2.|
 
+A1: Downward Strike
+Melee-Offensive-Action
+Use: 10AP+10sta
+Range: 0sp
+Accuracy: Melee
+Effect: Make a Basic Attack with +1 Rank and +3 crit-range. End your turn.|
+
+A2: Headbutt
+Melee-Offensive-Action
+Use: 5AP+5sta
+Range: 0sp
+Accuracy: Melee
+OnHit: Inflict (1){MlePwr} damage. The target is knocked prone.|
+
+A3: Push
+Melee-Support-Action
+Use: 10AP+5sta
+Range: 0sp
+Effect: Relocate all the localized contents of your space (including yourself and other combatants)
+into any other space horizontally adjacent space.
+Enemy combatants may make an Acrobat check against your {MleEva+MleAcc}, whereupon success can spend 10AP from
+their next turn to make a Movement action to another space.
+Note: Obstacles that span multiple spaces or are attached to another surface are simply snapped in off,
+unless the DM deems it impossible.|
+
+A4: Snarl
+Melee-Offensive-Action
+Use: 5AP+3fcs
+Range: 3sp
+Accuracy: Focus
+Effect: Target has Disadvantage on their next check.|
+
+A5: Bulk Up
+Melee-Support-Action
+Use: 30AP
+Effect: Increase your MlePwr by your class's level 1 MlePwr.|
+
+A6: Earthquake
+Melee-Offensive-Action
+Use: 15AP+5sta
+Range: 3sp
+Effect: Make an Accuracy check (A).
+Every combatant within range makes a competitive Focus check against A.
+Upon failure, the combatant is knocked Prone.|
+
+A7: Collateral Damage
+Melee-Offensive-Action
+Use: 5sta+(1/turn)
+Effect: If your next action this turn misses, any Props in the space are destroyed
+and the space becomes Difficult Terrain.|
+
+A8: Reckless Strike
+Melee-Offensive-Action
+Use: 5AP
+Accuracy: Melee
+Effect: Make a Basic Attack. If the attack misses, you hit yourself instead.|
+
+A9: Smash Limb
+Melee-Offensive-Action
+Use: 10AP+3fcs
+Range: 0sp
+Accuracy: Melee -3
+Effect: Choose an enemy combatant's limb and mash it.
+Right Leg: Increase Movement cost by 10AP.
+Left Leg: Increase Movement cost by 10AP.
+Right Arm: Disable Melee-type actions.
+Left Arm: Disable Focus-type actions.
+Chest: Disable Magic-type actions.|
 
 MA1:|
 MA2:|
 MA3:|
+
+
+Themes
+- heavy
+- big
+- high melee
+- high damage
+- low accuracy
+- high health
+- low speed
+- low evasion
+- demonic
+- headbutt
+
+pros
+- strength
+- hp
+
+cons
+- speed
+- accuracy

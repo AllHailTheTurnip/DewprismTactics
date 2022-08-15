@@ -47,8 +47,8 @@ Acrobatic: -2|
 Arts: 0|
 
 Equipment
-PrimaryWeapon: Teeth (Melee, L, 0.5u, Cost:  7AP, Pwr: 2 Neutral, Quickdraw)|
-SecondaryWeapon: Tail (Melee, VL, 0.2u, Cost:  5AP, Pwr: 1 Water, Reach)|
+PrimaryWeapon: Teeth (Melee, L, 0.5u, Cost:  5AP+(2/turn), Pwr: 2 Neutral, Quickdraw)|
+SecondaryWeapon: Tail (Melee, VL, 0.2u, Cost: 2/turn, Pwr: 1 Water, Reach)|
 Tools: None|
 Consumables: None|
 

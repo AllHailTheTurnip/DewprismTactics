@@ -33,7 +33,7 @@ Damage: Deal electric Magic Damage to the target.|
 
 A1: Star Barrier
 Magic-Defensive-Action
-Use: 3mna+5AP+1/turn
+Use: 3mna+5AP+(1/turn)
 Effect: Choose to target enemy combatants either in the same space or at 3sp away.
 Targeted enemies must make a Skill self-check, whereupon failure take 1{MgcPwr} electric
 damage.|

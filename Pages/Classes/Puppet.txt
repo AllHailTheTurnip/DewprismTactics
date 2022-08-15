@@ -74,13 +74,12 @@ Effect: Execute the same action, for free, using the same scores, as the target 
 
 A7: Gang Attack
 Skill-Offensive-Reaction
-Trigger: You make a standard attack a combatant.
-Effect: Any allies within the same space as your target may spend 5fcs to make a free basic attack action at
-the same target.|
+Trigger: An allie within the same space makes an attack against an opponent.
+Effect: You may spend 5fcs to make a free basic attack action at the same target.|
 
 A8: Conjure Controller
 Magic-Support-Action
-Use: 7AP+3mna
+Use: 5AP+3mna
 Range: 0sp
 Effect: Create a Controller item and give it to an ally within range. You are regarded as the Controller's puppet.
 Controller: While equipped, treat the puppet as an extension of yourself; any actions you make, you may have the

@@ -57,8 +57,8 @@ A4: Spur Power
     Restore TL Mana.|
 A5: Switch Magic Mode
     Magic-Support-Action
-    Use: 10AP + 3fcs
-    Change a magic-type action to target allies and restore instead of damage Health, or the reverse.|
+    Use: 10AP + 5fcs
+    Choose a magic-type ability to target allies and restore Health instead of inflict damage, or the reverse.|
 A6: Fireball
     Magic-Offensive-Action
     Use: 10AP + 3mna

@@ -1,0 +1,51 @@
+Name: Pollysmog|
+Type: Mob|
+Level: 6|
+Code: Instinctive Soldier|
+PrimaryClass: Pollywog|
+
+Biography
+Description:|
+
+Appearance:|
+
+Behavior:|
+
+Vitals
+Health: 126|
+Mana: 37|
+Stamina: 27|
+Focus: 50|
+
+Scores
+Element: Water|
+Initiative: 10|
+Carry: 7u|
+MeleeDamage: 18, Crit: 36|
+MagicDamage: 24, Crit: 48|
+SkillDamage: 32, Crit: 48|
+
+Stats
+Melee: (Power: 18, Evasion: 10, Accuracy: +1)|
+Magic: (Power: 24, Evasion: 9, Accuracy: 0)|
+Skill: (Power: 16, Evasion: 9, Accuracy: -1)|
+
+Talents
+Craft: 0|
+Harvest: 1|
+Scholar: -3|
+Navigate: 0|
+Acrobatic: -1|
+Arts: NA|
+
+Equipment
+PrimaryWeapon: Teeth (Skill, L, Cost: 5AP+(2/turn), Rank: 2 Neutral, Quickdraw)|
+SecondaryWeapon: Tail (Melee, VL, Cost: 2/turn, Rank: 1 Water, Reach)|
+Tools: |
+Consumables: |
+
+Loot
+Experience:50|
+Gil:50|
+Loot: Pollywog Tail (Consumable, Restore 5fcs)
+Luck 15: Pollysmog Liver (Consumable, Single use. Grant Poison 3 to a weapon of choice)|

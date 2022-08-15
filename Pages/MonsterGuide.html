@@ -284,6 +284,55 @@
     </p>
 
     <h2>
+        Upscaling for Parties
+    </h2>
+    Though monsters and monster grow stronger from their type and level, they do not
+    normally grow stronger in the face of more opponents. This is why it is good to upscale
+    your monsters according to the size of your party. This keeps encounters
+    interesting, being not too easy nor too hard, while making sure players receive the
+    proper rewards.
+    <p>
+        To upscale your monsters, take their final Health after accounting for level and type
+        and increase it by 50% for every additional party member.
+    </p>
+    <div class="Wide">
+        <i>Upscaled Health = Max Health + (Max Health x [Party Size - 1] x 0.5)</i>
+    </div>
+    Consider the following example...
+    <div class="Wide">
+        A party of 4 players are going against a a level 5 Chimera Boss.<br>
+        Normally the Boss has 540 Health, but against 4 players would
+        make it too easy. It will be increased.<br>
+        <i>
+            <i>Upscaled Health = Max Health + (Max Health x [Party Size - 1] x 0.5)</i><br>
+            <i>Upscaled Health = 540 + (540 x [4 - 1] x 0.5)</i><br>
+            <i>Upscaled Health = 540 + (540 x 3 x 0.5)</i><br>
+            <i>Upscaled Health = 540 + (540 x 1.5)</i><br>
+            <i>Upscaled Health = 540 + (810)</i><br>
+            <i>Upscaled Health = 1350</i><br>
+        </i>
+    </div>
+
+    <p>
+        Likewise, you can also increase the amount of acquired gil from the end of
+        each battle, so that players don't have to split it too thinly
+        between each other.
+    </p>
+    <div>
+        Upscaled Gil = Gil x [Party Size]
+    </div>
+    Consider the following example...
+    <div>
+        The same party of 4 has defeated the level 5 Chimera Boss and are collecting
+        its gil. Normally, it would drop just 400gil, but with 3 more players looking
+        for a reward for their hard work, it will drop more.
+        <i>Upscaled Gil = Gil x [Part Size]</i><br>
+        <i>Upscaled Gil = 400 x 4</i><br>
+        <i>Upscaled Gil = 1600</i><br>
+        Now every player can have 400gil.
+    </div>
+
+    <h2>
         Custom Monsters
     </h2>
     If you want to create your own monsters, you can follow a simple process. However, it should be
@@ -429,7 +478,8 @@
             <button onclick="LoadMonster('../Resources/Monsters/Lv1PollywogMob.txt')">Pollywog (Level 1 Mob)</button>
         </li>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1PollywogRunt.txt')">Baby Pollywog (Level 1 Runt)</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv1PollywogRunt.txt')">Baby Pollywog (Level 1 Runt)
+            </button>
         </li>
         <li>
             <button onclick="LoadMonster('../Resources/Monsters/Lv1MandolaMob.txt')">Mandola (Level 1 Mob)</button>
@@ -438,10 +488,12 @@
             <button onclick="LoadMonster('../Resources/Monsters/Lv1MandolaRunt.txt')">Mandola (Level 1 Runt)</button>
         </li>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1SaberTigerMob.txt')">Saber Tiger (Level 1 Mob)</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv1SaberTigerMob.txt')">Saber Tiger (Level 1 Mob)
+            </button>
         </li>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1SaberTigerRunt.txt')">Saber Tiger (Level 1 Runt)</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv1SaberTigerRunt.txt')">Saber Tiger (Level 1 Runt)
+            </button>
         </li>
         <li>
             <button onclick="LoadMonster('../Resources/Monsters/Lv1StingerHeavy.txt')">Stinger (Level 1 Heavy)</button>
@@ -453,7 +505,8 @@
             <button onclick="LoadMonster('../Resources/Monsters/Lv1StingerRunt.txt')">Stinger (Level 1 Runt)</button>
         </li>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv2GargoyleHeavy.txt')">Gargoyle (Level 2 Heavy)</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv2GargoyleHeavy.txt')">Gargoyle (Level 2 Heavy)
+            </button>
         </li>
         <li>
             <button onclick="LoadMonster('../Resources/Monsters/Lv3GudonRunt.txt')">Gudon (Level 3 Runt)</button>
@@ -493,7 +546,8 @@
             <button onclick="LoadMonster('../Resources/Monsters/Lv5SpecterHeavy.txt')">Specter (Level 5 Heavy)</button>
         </li>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5SkeletonGrunt.txt')">Skeleton (Level 5 Grunt)</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv5SkeletonGrunt.txt')">Skeleton (Level 5 Grunt)
+            </button>
         </li>
         <li>
             <button onclick="LoadMonster('../Resources/Monsters/Lv5SkeletonMob.txt')">Skeleton (Level 5 Mob)</button>
@@ -540,7 +594,8 @@
             <button onclick="LoadMonster('../Resources/Monsters/Lv1BloodAndSmokeyMiniboss.txt')">Blood & Smokey</button>
         </li>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5ChimeraMiniboss.txt')">Chimera (Level 5 Miniboss)</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv5ChimeraMiniboss.txt')">Chimera (Level 5 Miniboss)
+            </button>
         </li>
     </ul>
     <h3>
@@ -548,19 +603,25 @@
     </h3>
     <ul>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv2NightmareBoss.txt')">Nightmare (Level 2 Boss)</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv2NightmareBoss.txt')">Nightmare (Level 2 Boss)
+            </button>
         </li>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv4SkullBeastBoss.txt')">Skull Beast (Level 4 Boss)</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv4SkullBeastBoss.txt')">Skull Beast (Level 4 Boss)
+            </button>
         </li>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv4ShadowLegendDuke.txt')">Shadow Legend Duke (Level 4 Boss)</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv4ShadowLegendDuke.txt')">Shadow Legend Duke (Level 4
+                Boss)
+            </button>
         </li>
         <li>
             <button onclick="LoadMonster('../Resources/Monsters/Lv5ChimeraBoss.txt')">Chimera (Level 5 Boss)</button>
         </li>
         <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5FistOfFireDukeBoss.txt')">Fist of Fire Duke (Level 5 Boss)</button>
+            <button onclick="LoadMonster('../Resources/Monsters/Lv5FistOfFireDukeBoss.txt')">Fist of Fire Duke (Level 5
+                Boss)
+            </button>
         </li>
     </ul>
 

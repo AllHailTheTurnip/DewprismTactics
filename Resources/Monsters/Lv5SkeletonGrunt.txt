@@ -39,7 +39,7 @@ Acrobatic: --|
 Arts: --|
 
 Equipment
-PrimaryWeapon: Shortsword (Type: Melee, WC: L, Rank: 2, Cost: 7AP)|
+PrimaryWeapon: Shortsword (Type: Melee, WC: L, Rank: 2, Cost: 5AP+(2/turn))|
 SecondaryWeapon:|
 Tools:|
 Consumables:|

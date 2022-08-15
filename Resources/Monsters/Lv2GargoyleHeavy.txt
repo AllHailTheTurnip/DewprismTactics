@@ -44,7 +44,7 @@ Arts:--|
 
 Equipment
 PrimaryWeapon:Teeth(Melee, WC: M, Use: 10AP, Pwr: 3, Weight:--)|
-SecondaryWeapon:Claws(Skill, WC: L, Use: 7AP, Pwr: 2, Weight:--, Bleed)|
+SecondaryWeapon:Claws(Skill, WC: L, Use: 5AP+(2/turn), Pwr: 2, Weight:--, Bleed)|
 Tools:--|
 Consumables:--|
 

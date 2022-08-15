@@ -39,7 +39,7 @@ Acrobatic:+7|
 Arts:2|
 
 Equipment
-PrimaryWeapon: Leather Gloves (Type: Skill, WC: L, Use: 7ap, Rank: 2, 0.5u; Honed 3|
+PrimaryWeapon: Leather Gloves (Type: Skill, WC: L, Use: 5AP+(2/turn), Rank: 2, 0.5u; Honed 3|
 SecondaryWeapon:|
 Tools:|
 Consumables:|

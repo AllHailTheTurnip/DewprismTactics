@@ -36,7 +36,7 @@ A1: Hover
     Your movement is unaffected by difficult or dangerous terrain, even while swimming.|
 A2: Quick Slap
     Melee-Offensive-Action
-    Use: 7AP
+    Use: 5AP
     Make an unarmed water-type attack.|
 A3: Chomp
     Melee-Offensive-Action

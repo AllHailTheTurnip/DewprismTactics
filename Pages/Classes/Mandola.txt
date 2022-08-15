@@ -89,7 +89,7 @@ OnPass: Choose a positive status effect to undo.|
 
 A8:Attract Bees
 Skill-Defensive-Action
-Use: 7AP+5Sta
+Use: 5AP+5Sta
 Create a Bee Swarm token anywhere along the (relative) south border of the battlefield.
 At the end of your turn, the Bee Swarm token moves 1sp towards the nearest enemy Combatant,
 whereupon it moves into the space, the token is destroyed and the nearest enemy takes (3){SklPwr} damage.|
