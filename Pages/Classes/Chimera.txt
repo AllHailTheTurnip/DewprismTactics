@@ -85,7 +85,7 @@ Effect: Enemies 1sp above you are considered within melee-range.|
 A8: Crescent Dash
 Skill-Offensive-Action
 Use: 10AP+3sta+3mna
-Effect: Move up 2 spaces away. You make make a free basic attack against any one
+Effect: Move up 2 spaces away. You make a free basic attack against any one
 enemy as you pass them.|
 
 A9: Disgusting Laughter
