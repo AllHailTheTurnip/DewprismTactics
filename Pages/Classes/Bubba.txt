@@ -64,7 +64,7 @@ A4: Snarl
 Melee-Offensive-Action
 Use: 5AP+3fcs
 Range: 3sp
-Accuracy: Focus
+Accuracy: Skill
 Effect: Target has Disadvantage on their next check.|
 
 A5: Bulk Up
@@ -77,7 +77,7 @@ Melee-Offensive-Action
 Use: 15AP+5sta
 Range: 3sp
 Effect: Make an Accuracy check (A).
-Every combatant within range makes a competitive Focus check against A.
+Every combatant within range makes a competitive Skill check against A.
 Upon failure, the combatant is knocked Prone.|
 
 A7: Collateral Damage
@@ -101,7 +101,7 @@ Effect: Choose an enemy combatant's limb and mash it.
 Right Leg: Increase Movement cost by 10AP.
 Left Leg: Increase Movement cost by 10AP.
 Right Arm: Disable Melee-type actions.
-Left Arm: Disable Focus-type actions.
+Left Arm: Disable Skill-type actions.
 Chest: Disable Magic-type actions.|
 
 MA1:|
