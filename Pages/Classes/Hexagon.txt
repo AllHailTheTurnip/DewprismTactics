@@ -31,7 +31,8 @@ Doctrine: Mobile Fortress
 Melee-Defense-Passive
 Effect:
 At the beginning of your turn, while conscious, you must pay a total of 3 points
-between your stamina, mana, and focus.
+between your stamina, mana, and focus. If you cannot pay the points,
+you fall unconscious.
 Any damage you take is reduced by (3) ranks to a minimum of 0.|
 
 A1: Immense Size

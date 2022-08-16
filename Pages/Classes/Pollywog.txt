@@ -54,7 +54,7 @@ A5: Water Gun
     Cost 10AP + 3Foc
     Range: 1sp
     Accuracy: Melee
-    OnPass: Target takes (3){SklPwr}+3 water dmg.|
+    OnPass: Target takes (3){SklPwr} water dmg.|
 A6: Follow
     Melee-Support-Reaction
     Trigger: An ally makes a movement action.
