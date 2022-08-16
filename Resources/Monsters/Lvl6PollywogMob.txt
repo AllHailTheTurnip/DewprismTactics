@@ -15,7 +15,7 @@ Vitals
 Health: 126|
 Mana: 37|
 Stamina: 27|
-Focus: 50|
+Focus: 30|
 
 Scores
 Element: Water|
@@ -39,7 +39,7 @@ Acrobatic: -1|
 Arts: NA|
 
 Equipment
-PrimaryWeapon: Teeth (Skill, L, Cost: 5AP+(2/turn), Rank: 2 Neutral, Quickdraw)|
+PrimaryWeapon: Teeth (Skill, L, Cost: 5AP+(2/turn), Rank: 2, Quickdraw)|
 SecondaryWeapon: Tail (Melee, VL, Cost: 2/turn, Rank: 1 Water, Reach)|
 Tools: |
 Consumables: |

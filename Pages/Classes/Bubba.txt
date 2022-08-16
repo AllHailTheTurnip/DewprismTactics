@@ -54,7 +54,7 @@ Melee-Support-Action
 Use: 10AP+5sta
 Range: 0sp
 Effect: Relocate all the localized contents of your space (including yourself and other combatants)
-into any other space horizontally adjacent space.
+into any other horizontally adjacent space.
 Enemy combatants may make an Acrobat check against your {MleEva+MleAcc}, whereupon success can spend 10AP from
 their next turn to make a Movement action to another space.
 Note: Obstacles that span multiple spaces or are attached to another surface are simply snapped in half,

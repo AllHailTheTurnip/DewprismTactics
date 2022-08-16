@@ -14,7 +14,7 @@ Behavior: It hides in the shadows and sneaks up upon unsuspecting prey.
 Once the battle begins, the doors are locked solid.|
 
 Vitals
-Health: 504
+Health: 504|
 Mana: 37|
 Stamina: 28|
 Focus: 30|

@@ -73,7 +73,7 @@ OnHit: Combatant takes (2){MlePwr} damage|
 
 A6: Lightning Storm
 Magic-Offensive-Action
-Use: 25AP+7mna!
+Use: 25AP+10mna!
 Range: Battlefield AoE
 Accuracy: Skill
 OnHit: Enemy takes (3){MgcPwr} electric damage.|
