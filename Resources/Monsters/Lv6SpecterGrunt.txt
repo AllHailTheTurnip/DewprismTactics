@@ -1,0 +1,53 @@
+Name: Specter|
+Type: Grunt|
+Level: 5|
+Code: Instinctive Assassin/Hunter|
+PrimaryClass: Specter|
+
+Biography
+Description: Lost spirits that dwell within eternal darkness. They prey upon
+the unsuspecting before drowning them in misery and dread.|
+
+Appearance: Tall, blue, and whispish, like bundled cloth.|
+
+Behavior: They surprise-attack their prey.|
+
+Vitals
+Health: 30|
+Mana: 65|
+Stamina: 10|
+Focus: 30|
+
+Scores
+Element: Water/Dark|
+Initiative: 10|
+Carry: 5u|
+MeleeDamage: 6, Crit: 12|
+MagicDamage: 24, Crit: 48|
+SkillDamage: 18, Crit: 36|
+
+Stats
+Melee: (Power: 6, Evasion: 8, Accuracy: -3)|
+Magic: (Power: 24, Evasion: 10, Accuracy: +3)|
+Skill: (Power: 18, Evasion: 10, Accuracy: 0)|
+
+Talents
+Craft: --|
+Harvest: --|
+Scholar: --|
+Navigate: 3|
+Acrobatic: 0|
+Arts: --|
+
+Equipment
+PrimaryWeapon:|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience: 25|
+Gil: 25|
+Loot: 2x Perma-Ice (Material, 10gil)
+Luck 15: Soul Fragment (Material, 25gil)|
+

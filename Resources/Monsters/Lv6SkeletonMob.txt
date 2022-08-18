@@ -1,0 +1,50 @@
+Name: Skeleton|
+Type: Mob|
+Level: 5|
+Code: Drone Soldier|
+PrimaryClass: Skeleton|
+
+Biography
+Description: An animated skeleton with a sword.|
+
+Appearance: A skeleton.|
+
+Behavior: Clicks-and-clacks as it patrols the halls.|
+
+Vitals
+Health: 36|
+Mana: 10|
+Stamina: 10|
+Focus: 10|
+
+Scores
+Element: Wind/Dark|
+Initiative: 10|
+Carry: 5u|
+MeleeDamage: 24, Crit: 36|
+MagicDamage: 24, Crit: 48|
+SkillDamage: 30, Crit: 60|
+
+Stats
+Melee: (Power: 12, Evasion: 12, Accuracy: 0)|
+Magic: (Power: 24, Evasion: 10, Accuracy: -1)|
+Skill: (Power: 30, Evasion: 15, Accuracy: -1)|
+
+Talents
+Craft: --|
+Harvest: --|
+Scholar: --|
+Navigate: --|
+Acrobatic: --|
+Arts: --|
+
+Equipment
+PrimaryWeapon: Shortsword (Type: Melee, WC: L, Rank: 2, Cost: 5AP+(2/turn))|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience: 25|
+Gil: 25|
+Loot: 1x Bone (Material, 5gil)|

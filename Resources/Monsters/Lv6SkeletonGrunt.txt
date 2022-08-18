@@ -1,0 +1,50 @@
+Name: Skeleton|
+Type: Grunt|
+Level: 6|
+Code: Drone Soldier|
+PrimaryClass: Skeleton|
+
+Biography
+Description: An animated skeleton with a sword.|
+
+Appearance: A largely disintegrated skeleton.|
+
+Behavior: Clicks-and-clacks as it patrols the halls.|
+
+Vitals
+Health: 18|
+Mana: 10|
+Stamina: 10|
+Focus: 10|
+
+Scores
+Element: Wind/Dark|
+Initiative: 10|
+Carry: 5u|
+MeleeDamage: 12, Crit: 18|
+MagicDamage: 18, Crit: 36|
+SkillDamage: 24, Crit: 48|
+
+Stats
+Melee: (Power: 6, Evasion: 12, Accuracy: 0)|
+Magic: (Power: 18, Evasion: 10, Accuracy: -1)|
+Skill: (Power: 24, Evasion: 15, Accuracy: -1)|
+
+Talents
+Craft: --|
+Harvest: --|
+Scholar: --|
+Navigate: --|
+Acrobatic: --|
+Arts: --|
+
+Equipment
+PrimaryWeapon: Shortsword (Type: Melee, WC: L, Rank: 2, Cost: 5AP+(2/turn))|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience: 25|
+Gil: 25|
+Loot: 1x Bone (Material, 5gil)|
