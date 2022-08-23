@@ -4,7 +4,7 @@ Description: The Fist of Fire branches from the very same order as the Shadow Le
 The Fists of Fire believe in a brilliant, passionate life. Much like a fire, they burn bright
 and hot, often leading them to early graves.
 <p>
-The Fist of Fire fighter specializes in a close- to mid-range combat,
+The Fist of Fire specializes in a close- to mid-range combat,
 utilizing special techniques to string together powerful attacks before
 their opponent can fit one in.
 </p>|

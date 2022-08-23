@@ -12,7 +12,7 @@ Appearance: A man dressed in white and blue.|
 Behavior: Out to defeat the weakest in the party.|
 
 Vitals
-Health: 810|
+Health: 270|
 Mana: 20|
 Stamina: 38|
 Focus: 27|
