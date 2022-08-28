@@ -1,6 +1,6 @@
 Name: Pollywog|
 
-Type: Runt|
+Type:Grunt|
 
 Description: A tadpole-like creature that hovers over the ground with a gentle swimming motion. <p>
 They are most commonly found in swampy areas, but can be found all over the world, in every biome.</p>|

@@ -87,7 +87,7 @@ A8: Dive Slash
 A9: Combo
     Skill-Support-Reaction
     Trigger: You hit with a basic attack action.
-    Use: 3sta, 3/Round
+    Use: 3sta+(3/Round)
     Luck: 15
     OnPass: Make another attack action at the damaged combatant.
     OnCrit: Increase the attack's Rank by 1.|

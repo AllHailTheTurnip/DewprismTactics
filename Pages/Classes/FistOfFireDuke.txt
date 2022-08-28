@@ -38,7 +38,7 @@ Melee-Offensive-Action
 Use: 3sta+5mna+10AP
 Range: 0sp AoE
 Accuracy: Magic+5
-Dmg: (4){MgcPwr} fire
+Dmg: (3){MgcPwr} fire
 OnCrit: Target gets Burning 3|
 
 A2: Burning Path
@@ -109,9 +109,9 @@ the end of your next turn.|
 
 MA2: Rush!
 Skill-Offensive-Passive
-Effect: Offensive-type class abilities cost 25% less.|
+Effect: Reduce the stamina cost of your abilities to 0.|
 
 MA3: Pursue
 Melee-Support-Passive
-Use: 3/turn
+Use: 2/turn
 Effect: Make a free Movement action.|

@@ -1,37 +1,118 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Title: Cloud Whale|
+Subtitle: Master of Wind and Seas|
+Description: Cloud Whales were the first ones to master the wind and water.
+Following in the footsteps of the original cloud whales, who were monstrous
+creatures that lived over stormy seas, the Cloud Whale warriors likewise
+learned to control wind and water to defeat their enemies.
+<p>Today, Cloud Whales are an oddity, as it's so difficult to train into one.
+They typically begin as sea-sidd monks or sailors, who in turn learn
+to copy the actual cloud whales.</p>|
+
 
 VITALS
-Health: 45|
-Mana: 15|
+Health: 60|
+Mana: 20|
 Stamina: 15|
-Focus: 15|
+Focus: 10|
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 6|
+Carry: 15u|
+Element: Wind/Water|
 
 STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
+Melee: (Power: 5, Evasion: 6, Accuracy: 0)|
+Magic: (Power: 6, Evasion: 8, Accuracy: 1)|
+Skill: (Power: 3, Evasion: 12, Accuracy: 0)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Vortex
+Magic-Offensive-Action
+Use: 30AP!+5mna
+Range: 3sp cone
+Effect: Do this (3) times: every targeted combatant must spend 3sta or else
+be moved 1sp toward you. If they enter your space and can't pay the stamina,
+then they are consumed.
+Consumed combatants take (2){MgcPwr} water damage. They respawn as though
+they'd fallen down a bottomless pit.|
 
+A1: Tidal Wave
+Magic-Offensive-Action
+Use: 10AP+7mna
+Range: Battlefield
+Evade: Melee
+OnHit: Inflict {1}MgcPwr damage.|
+
+A2: Rain Gun
+Magic-Offensive-Action
+Use: 5AP+3mna+3fcs
+Range: 1sp
+Accuracy: Skill
+OnHit: (2){FcsPwr}|
+
+A3: Flight
+Magic-Support-Action
+Use: 3mna
+Effect: Ignore Difficult Terrain for the duration
+of the round.|
+
+A4: Fog
+Magic-Defensive-Action
+Use: 10AP+3mna
+Range: 1sp
+Effect: Create a Fog token. All allies sharing the Fog's space gain Very Light Cover.
+If they already have cover, improve their Cover's luck checks by 5.
+The Fog token expires after three rounds have passed.|
+
+A5: Call
+Skill-Support-Action
+Use: 10AP+3fcs
+Range: 2sp
+Effect: Allies within range may move 1sp for free towards your position.|
+
+A6: Dive
+Melee-Support-Action
+Use: 3sta
+Effect: Ignore any fall damage you might take.|
+
+A7: Immensity
+Melee-Support-Passive
+Effect: AoE attacks cannot pass your space. Enemy combatants treat
+your space as difficult terrain.|
+
+A8: Heavy Rain
+Skill-Defensive-Action
+Use: 3mna
+Range: Battlefield
+Effect: Fire-element attacks are Reduced in rank by 2, to a minimum of 0. This
+effect lasts until the start of your next turn.|
+
+A9: Lightning Blast
+Magic-Offensive-Action
+Use: 15AP+7mna+5fcs
+Range: 1sp
+Effect: Destroy target Token or Prop.|
 
 MA1:|
 MA2:|
 MA3:|
+
+
+Flying
++ ignore terrain
++ flight
+Whale
++ huge
++ heavy
++ underwater
++ swim
++ easy to hit
+Storms
++ heavy wind
++ rain
++ lightning
++ tornado
+Clouds
++ obscure
++
+

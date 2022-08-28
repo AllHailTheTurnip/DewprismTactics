@@ -1,36 +1,103 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Crazy monkey
+high jumping
+climbing
+throwing
+wild
+
+Title: Ootang|
+Subtitle: Wild Fistfighter|
+Description: Ootangs are out-of-control fighters who specialize in blitzing their
+opponents into submission. Between a combination of mid- and close-range attacks,
+Ootangs are able to overwhelm their opponents and protect their allies.
+The first Ootangs were tree-dwelling warriors from the First Age who observed
+the native Ootang monkeys in order to learn to fight like them.|
 
 VITALS
-Health: 45|
-Mana: 15|
+Health: 30|
+Mana: 10|
 Stamina: 15|
-Focus: 15|
+Focus: 5|
 
 SCORES
-Initiative: 10|
+Initiative: 15|
 Carry: 10u|
-Element: Neutral|
+Element: Wind/Fire|
 
 STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
+Melee: (Power: 6, Evasion: 8, Accuracy: +2)|
+Magic: (Power: 4, Evasion: 10, Accuracy: -1)|
+Skill: (Power: 3, Evasion: 7, Accuracy: -2)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Jump!
+Melee-Support-Action
+Use: 10AP+(1/turn)
+Effect: Leap up to 1+{TL/5}sp in any direction,
+ ignoring rough terrain and obstacles.|
 
+A1: Fling "Dirt"
+Melee-Offensive-Action
+Use: 10AP
+Accuracy: Skill
+Dmg: (1){MlePwr}
+OnCrit: Poison 5.|
+
+A2: Reckless Abandon
+Skill-Support-Action
+Use: 10AP
+Effect: Roll 1d20 and divide by 2, rounding-up, and perform the
+class-ability of the same index for free.
+Allies are considered valid targets for the duration of the action.
+If the ability is Passive, ignore it.|
+
+A3: Flee
+Melee-Defensive-Reaction
+Trigger: An enemy combatant targets you for an attack.
+Use: 5AP+3sta+1fcs
+Self-Check: Skill
+Effect: Make a free movement action away from the combatant.|
+
+A4: Bite Face Off
+Melee-Offensive-Action
+Use: 15AP
+Range: 0sp
+Accuracy: Melee
+Dmg: (5){MlePwr}
+OnCrit: Target becomes Blinded 2|
+
+A5: Throw Item
+Skill-Offensive-Action
+Use: 10AP
+Range: 3sp
+Effect: Choose a consumable item from your inventory to use a projectile. Once
+the action is resolved, the item is destroyed.
+Accuracy: Skill
+OnHit: The target takes (1){SklPwr} neutral damage.|
+
+A6: Full Aggro
+Melee-Offensive-Action
+Use: 10AP
+Effect: Scream, holler, and jump around like an aggressive ape. Take the
+ Preferred Enemy status.|
+
+A7: Highly Agile
+Melee-Support-Passive
+Effect: Ignore difficult terrain.|
+
+A8: Violent Smashing
+Melee-Offensive-Action
+Use: 10AP
+Range: 0sp
+Effect: Destroy target prop or token.|
+
+A9: Going Ape
+Melee-Offensive-Action
+Use: 5sta+5fcs
+Effect: Choose an enemy Combatant. You may only target that Combatant until
+they are dead. Increase the Rank of all your actions against that Combatant
+by 1.
+If they leave the battlefield, you follow after and are both removed from
+ the fight.|
 
 MA1:|
 MA2:|

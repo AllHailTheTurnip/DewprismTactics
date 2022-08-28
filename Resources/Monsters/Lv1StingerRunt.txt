@@ -1,5 +1,5 @@
 Name:Stinger|
-Type: Runt|
+Type: Grunt|
 Level:1|
 Code:Instinctive Support/Hunter|
 PrimaryClass:Stinger|

@@ -487,28 +487,30 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         Taking Cover
     </h3>
     AP Cost: 5<br>
-    If your area has cover that isn't already occupied, declare that you are taking cover and where.
-    While taking cover, choose an attack to defend against, then make a Luck check.
-    The score you have to beat is based on the amount of protection.
-    On pass, the attack is considered to have missed.
+    If your area has cover that isn't already occupied by enemy combatants,
+    declare that you are taking cover and where.
+    While taking cover, make Luck checks against incoming attacks, whereupon
+    success, the attack is considered to have missed. This lasts until
+    the start of your next turn, or until the cover is destroyed.
+    Taking more cover improves your chances of success.
     <ul>
         <li>
-            Very Low Protection: Luck: 15
+            Very Low Cover: Luck: 15
         </li>
         <li>
-            Low Protection: Luck: 12
+            Low Cover: Luck: 12
         </li>
         <li>
-            Medium Low Protection: Luck: 10
+            Medium Cover: Luck: 10
         </li>
         <li>
-            High Protection: Luck: 8
+            High Cover: Luck: 8
         </li>
         <li>
-            Very High Protection: Luck: 5
+            Very High Cover: Luck: 5
         </li>
         <li>
-            Full Protection: Luck: 2
+            Full Cover: Luck: 2
             You gain full when you're in a fully enclosed area. The doors and windows are shut and no one can see
             you.
         </li>
@@ -821,17 +823,37 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <h3>
         Accuracy
     </h3>
-    Many abilities have an Accuracy attribute that indicate a d20 must be rolled and a difficulty score
-    beaten before the effects of the ability can be executed. After you've paid for the ability,
-    make a d20 check. If the check passes, then the Ability's OnPass/OnHit attribute is invoked.
+    Many abilities have an Accuracy attribute that indicate a d20 plus their accuracy bonuys
+    must be rolled and a difficulty score beaten before the effects of the ability can be executed.
+    After you've paid for the ability, make a d20 check.
+    If the check passes, then the Ability's OnPass/OnHit/Effect attribute is invoked.
     <p>
         Hit checks will refer to the enemy Evasion score that the ability is targeting in a
-        <i>Accuracy: [Evasion]</i> format. Many checks are just Luck rolls, and will read <i>Luck: X</i>,
+        <i>Accuracy: [Score:Evasion]</i> format. Many checks are just Luck rolls, and will read <i>Luck: X</i>,
         where X is a value between 1 and 20.
     </p>
     <p>
-        Remember, if you roll a natural 20 on an ability, its rank (found between parenthesis) increases by
+        Remember, if you roll a natural 20 on an ability, its Rank (found between parenthesis) increases by
         1 for the rest duration of the check.
+    </p>
+
+    <h3>
+        Evade
+    </h3>
+    Some abilities feature the Evade attribute, which is like the opposing version of Accuracy.
+    Instead of the offender making the check, the defender makes a check instead. If their check
+    meets or exceeds the difficulty score, then they evade the attack; otherwise, they take damage.
+    <p>
+        Typically, the Evade attribute is listed as <i>Evade: [10+Score:Accuracy]</i>, where
+        Score:Accuracy is equal to the Accuracy bonus of your acting score (Melee, Skill, Magic).
+        Every targeted combatant must make an accuracy check by rolling 1d20 plus their
+        own Accuracy score.
+    </p>
+    <p>
+        For example, you make an AoE attack that has Evade: Melee, where you
+        take 10 and add your Melee Accuracy bonus of +2. Now every combatant
+        must roll 1d20, adding their own Melee Accuracy bonuses, and try to beat
+        it.
     </p>
 
     <h3>

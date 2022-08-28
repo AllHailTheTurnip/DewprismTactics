@@ -1,52 +1,102 @@
-
-
-
-
 Title: Gamulian|
-Subtitle:|
-Description:|
-???
+Subtitle:Mob Fighter|
+Description: Gamulians are fearsome folk, accustomed to living in trees
+and relying on their vast numbers to defeat their opponents. With the advent
+of the new age, the Gamulian has spread to become a class of fighter, iconic
+for its careful, yet riotous, fighting style.|
+
 
 VITALS
-Health: 45|
+Health: 25|
 Mana: 15|
-Stamina: 15|
+Stamina: 17|
 Focus: 15|
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 8|
+Carry: 7u|
+Element: Wind|
 
 STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
+Melee: (Power: 3, Evasion: 9, Accuracy: +2)|
+Magic: (Power: 4, Evasion: 9, Accuracy: 0)|
+Skill: (Power: 3, Evasion: 8, Accuracy: -1)|
 
 Abilities
-Doctrine: Summon Kin|
-A1: Nap|
-A2: Gore|
-A3: Retaliate|
-A4: |
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Call for Kin
+Skill-Support-Action
+Use: 10AP+3sta+3fcs
+Range: 0s
+Effect: Create a clone combatant of yourself at the edge of the battlefield,
+closest to your starting position.
+The clone's max Vitals and Power scores are equal to half of yours.
+Upon being created, it rolls initiative. The clone vanishes after
+1 in-game hour, or until defeated. You may only create 1+{TL/5} at a time.
+If you attempt to create more than your maximum, the oldest ones de-spawn
+as new ones are brought in.|
 
-Known facts
-- Wild boars
-    - Sleep a lot
-    - Have tusks
-- Lots of them
-- Live in tree villages
-    - Good at climbing
-    - Good at building
-- Fight with spears
-- Dance around bonfires
-- Swarm
-- Won't attack until attacked.
+A1: Power Nap|
+Melee-Support-Action
+Use: 20AP
+Effect: Restore 25% of your max Health and 50% of your max Mana, Stamina, and Focus.
+
+A2: Gore
+Melee-Offensive-Action
+Use: 10AP+5sta
+Accuracy: Melee
+Effect: Opponent takes (1){MlePwr} damage and gets Bleeding (MlePwr).|
+
+A3: Retaliate
+Melee-Offensive-Reaction
+Trigger: You take damage.
+Use: 1+{TL/5}battle.
+Effect: After the offender's action resolves, you may immediately make an
+ action, paying its Use-cost as normal.|
+
+A4: Pole Bind
+Skill-Support-Action
+Use: 10AP+3fcs
+Effect: If your weapon's range is 0, increase it to 1.|
+
+A5: Craft Home
+Skill-Support-Action
+Use: XAP
+Range: 0sp
+Effect: Create a Home prop that fully occupies 1sp. The amount of AP spent on
+creating it determined its Protection...
+5AP: Very Low.
+10AP: Low.
+15AP: Medium.
+20AP: High.
+25AP: Very High.|
+
+A6: Conjure Tree
+Magic-Support-Action
+Use: 5AP+Xmna
+Range: 1sp
+Effect: Create a Tree prop within range. The Tree can be ascended or descended
+for 10AP, treated as a natural staircase.
+The Tree prop can reach up to 1+{X/2} spaces high.|
+
+A7: Dance!
+Skill-Support-Action
+Use: 10AP
+Range: 1sp
+Effect: Move into a viable space within range. Regain 3mna+3fcs+3sta.|
+
+A8: Swarm
+Skill-Offensive-Reaction
+Trigger: You are attacked.
+Use: Xsta
+Range: 1+{TL/5}sp
+Effect: Choose up to (X/3) allied combatants within range to make a
+free movement action towards the offender.|
+
+A9: Zone of Peace
+Skill-Defensive-Passive.
+Use: 5fcs
+Range: 0sp
+Effect: An ability that would be triggered in your range does not trigger.|
 
 MA1:|
 MA2:|
