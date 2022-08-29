@@ -1,7 +1,7 @@
 Name: Specter|
 Type: Mob|
 Level: 5|
-Code: Instinctive Assassin/Hunter|
+Intelligence: Instinctive Assassin/Hunter|
 PrimaryClass: Specter|
 
 Biography

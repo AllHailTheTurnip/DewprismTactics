@@ -1,0 +1,50 @@
+Name: Cloud Whale|
+Type: Boss|
+Level: 6|
+Intelligence: Instinctive|
+PrimaryClass: Cloud Whale|
+
+Biography
+Description: The rogue guardian of an atelier.|
+
+Appearance: An enormous whale with a gem in its head.|
+
+Behavior: It swims through air and water, attacking the raft you're on.|
+
+Vitals
+Health: 648|
+Mana: 45|
+Stamina: 30|
+Focus: 20|
+
+Scores
+Initiative: 6|
+Carry: 15u|
+Element: Wind/Water|
+MeleeDamage: 42, Crit: 84|
+MagicDamage: 48, Crit: 96|
+SkillDamage: 30, Crit: 60|
+
+Stats
+Melee: (Power: 42, Evasion: 6, Accuracy: 0)|
+Magic: (Power: 48, Evasion: 8, Accuracy: 1)|
+Skill: (Power: 30, Evasion: 12, Accuracy: 0)|
+
+Talents
+Craft:NA|
+Harvest:NA|
+Scholar:NA|
+Navigate:0|
+Acrobatic:0|
+Arts:NA|
+
+Equipment
+PrimaryWeapon:|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience:400|
+Gil:400|
+Loot: Ear Ring|

@@ -1,7 +1,7 @@
 Name: Duke|
 Type: Boss|
 Level: 6|
-Code: Wise-Hunter|
+Intelligence: Wise-Hunter|
 PrimaryClass: Fist of Fire|
 
 Biography

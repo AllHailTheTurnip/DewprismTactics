@@ -1,63 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Dewprism Tactics - Combat Rules</title>
-    <link rel="stylesheet" href="../Resources/GeneralStyle.css">
-    <script type="text/javascript" src="../Resources/CombatRulesIndexer.js">
-    </script>
-    <script type="text/javascript" src="../Resources/ReturnMenu.js"></script>
-</head>
-<body id="TopOfDocument">
-<h1>
-    Combat
-</h1>
-<div class="Side">
-    Treasure hunting is a lucrative and (often) noble business, taking you all across the world from lush and
-    rainy forests, all the way into the forgotten depths of the earth through catacombs and dungeons.
-    Yet no matter how carefully you may have planned it out, you'll come across some kind of opponent at one point
-    or another. <br>
-    <p>And that's okay, because you're a treasure hunter. Naturally, you come equipped with the skills and
-        abilities necessary to see you through the battle safely and in (mostly) one piece.</p>
-    <p>
-        But beware, though. The world is full of powerful creatures with sharp teeth, keen wits, and bit of magic
-        to boot. A treasure hunter's best asset will be their wisdom, in particular, knowing their limits.
-    </p>
-</div>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dewprism Tactics - Combat Rules</title>
+        <link rel="stylesheet" href="../Resources/GeneralStyle.css">
+        <script type="text/javascript" src="../Resources/CombatRulesIndexer.js">
+        </script>
+        <script type="text/javascript"
+                src="../Resources/ReturnMenu.js"></script>
+    </head>
+    <body id="TopOfDocument">
+        <h1>
+            Combat
+        </h1>
+        <div class="Side">
+            Treasure hunting is a lucrative and (often) noble business, taking
+            you all across the world from lush and
+            rainy forests, all the way into the forgotten depths of the earth
+            through catacombs and dungeons.
+            Yet no matter how carefully you may have planned it out, you'll come
+            across some kind of opponent at one point
+            or another. <br>
+            <p>And that's okay, because you're a treasure hunter. Naturally, you
+                come equipped with the skills and
+                abilities necessary to see you through the battle safely and in
+                (mostly) one piece.</p>
+            <p>
+                But beware, though. The world is full of powerful creatures with
+                sharp teeth, keen wits, and bit of magic
+                to boot. A treasure hunter's best asset will be their wisdom, in
+                particular, knowing their limits.
+            </p>
+        </div>
 
-<div id="Directory">
-    <h2>Directory</h2>
-    <ul>
-        <li>
-            <a href="#BattleTransience">Battle Transience</a>
-        </li>
-        <li>
-            <a href="#TurnsAndActions">Turns and Actions</a>
-        </li>
-        <li>
-            <a href="#CommonActions">Common Actions</a>
-        </li>
-        <li>
-            <a href="#Elements">Elements</a>
-        </li>
-        <li>
-            <a href="#MetaLogic">Meta Logic</a>
-        </li>
-        <li>
-            <a href="#Abilities">Abilities</a>
-        </li>
-        <li>
-            <a href="#DeathAndDefeat">Death and Defeat</a>
-        </li>
-        <li>
-            <a href="#SmallEncounters">Small Encounters</a>
-        </li>
-        <li>
-            <a href="#ExperienceAndRewards">Experience and Rewards</a>
-        </li>
-    </ul>
-</div>
-<span id="Content">
+        <div id="Directory">
+            <h2>Directory</h2>
+            <ul>
+                <li>
+                    <a href="#BattleTransience">Battle Transience</a>
+                </li>
+                <li>
+                    <a href="#TurnsAndActions">Turns and Actions</a>
+                </li>
+                <li>
+                    <a href="#CommonActions">Common Actions</a>
+                </li>
+                <li>
+                    <a href="#Aggro">Aggro</a>
+                </li>
+                <li>
+                    <a href="#Elements">Elements</a>
+                </li>
+                <li>
+                    <a href="#MetaLogic">Meta Logic</a>
+                </li>
+                <li>
+                    <a href="#Abilities">Abilities</a>
+                </li>
+                <li>
+                    <a href="#DeathAndDefeat">Death and Defeat</a>
+                </li>
+                <li>
+                    <a href="#SmallEncounters">Small Encounters</a>
+                </li>
+                <li>
+                    <a href="#ExperienceAndRewards">Experience and Rewards</a>
+                </li>
+            </ul>
+        </div>
+        <span id="Content">
    <div class="Wide">
     <h2 id="TurnsAndActions">
         Turns and Actions
@@ -334,7 +345,8 @@
             <li>
                 <b>Attributes</b><br>
                 Your weapon attributes indicate what special abilities your weapon has. A general list of
-                attributes can be found in the <a href="Equipment.html#WeaponAttributes">equipment</a> section.
+                attributes can be found in the <a
+                    href="Equipment.html#WeaponAttributes">equipment</a> section.
             </li>
         </ul>
 
@@ -343,7 +355,8 @@
         of an attribute to make it even more effective. Just about any attribute can be enhanced.
         <p>
             Attributes with a plus-sign (+) beside indicate that their property has been enhanced.
-            How this enhancement effects the attribute can be found in the <a href="Equipment.html#WeaponAttributes">weapon attributes</a> listing in
+            How this enhancement effects the attribute can be found in the <a
+                href="Equipment.html#WeaponAttributes">weapon attributes</a> listing in
             the equipment section.
         </p>
     </div>
@@ -596,7 +609,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         Befriend
     </h3>
     AP Cost: 5 <br>
-    If a monster's intelligence code is either drone, instinctive, or sapient, you can move
+    If a monster's intelligence is either drone, instinctive, or sapient, you can move
     into the same space and toss a Monster Treat at its feet.
     <p>
         Make a Luck check.
@@ -639,6 +652,41 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         can use equipment without assistance from another party member.
     </p>
 </div>
+    <div class="Wide">
+        <h2 id="Aggro">Aggro</h2>
+        In combat, the most dangerous combatants draw the most attention from the opposing side.
+        Depending on your team's build, this can be a good thing or a bad thing.
+        <p>Aggro, standing for "Aggression" is a score that each player accrues
+        over the course of combat. Every point of damage they inflict against
+        an enemy combatant is also recorded as Aggro. The team member with the
+        highest Aggro score is designated as the Aggressor.</p>
+        <p>
+            Enemy combatants with a lower intelligence will be more inclined
+            to attack the opposing team's Aggressor.
+        </p>
+        <p>At the beginning of combat, since no two combatants will have the
+        same Aggro, the combatant with the highest initiative of their
+        team will gain the title. No two allied combatants can be the
+        Aggressor at the same time; it will always be differed to the
+        one with the higher initiative.</p>
+        <p>If a combatant dies while being an Aggressor, their body is marked
+            for good luck. At the end of combat, when Luck checks are being
+            made, marked bodies are gain +5 for their Luck checks.</p>
+        <p>
+            As a player, it is possible to control your Aggro score. There are
+            two common actions you can make: Taunt, and Cower.
+        </p>
+        <div>
+            Taunt<br>
+            Use: 5AP+(1/turn)<br>
+            Effect: Increase your Aggro score by either MleDmg, MgcDmg, or SklDmg.
+        </div>
+        <div>
+            Cower<br>
+            Use: 5AP+(1/turn)<br>
+            Effect: Decrease your Aggro score by either MleDmg, MgcDmg, or SklDmg.
+        </div>
+    </div>
 <div class="Wide">
     <h2 id="Elements">
         Elements
@@ -668,27 +716,33 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
                 class="Water">Water</span>.
         </li>
         <li>
-            <span class="Water">Water</span> is strong against <span class="Fire">Fire</span>, and weak against <span
+            <span class="Water">Water</span> is strong against <span
+                class="Fire">Fire</span>, and weak against <span
                 class="Wind">Wind</span>.
         </li>
         <li>
-            <span class="Wind">Wind</span> is strong against <span class="Water">Water</span>, and weak against
+            <span class="Wind">Wind</span> is strong against <span
+                class="Water">Water</span>, and weak against
             <span class="Fire">Fire</span> .
         </li>
         <li>
-            <span class="Darkness">Darkness</span> is strong against <span class="Light">Light</span>
+            <span class="Darkness">Darkness</span> is strong against <span
+                class="Light">Light</span>
             and weak against <span class="Darkness">Darkness</span>.
         </li>
         <li>
-            <span class="Light">Light</span> is strong against <span class="Darkness">Darkness</span> and is
+            <span class="Light">Light</span> is strong against <span
+                class="Darkness">Darkness</span> and is
             weak against <span class="Light">Light</span>
         </li>
         <li>
-            <span class="Metal">Metal</span> is strong against <span class="Electric">Electric</span> and
+            <span class="Metal">Metal</span> is strong against <span
+                class="Electric">Electric</span> and
             weak against <span class="Metal">Metal</span>.
         </li>
         <li>
-            <span class="Electric">Electric</span> is strong against <span class="Metal">Metal</span> and
+            <span class="Electric">Electric</span> is strong against <span
+                class="Metal">Metal</span> and
             weak against <span class="Electric">Electric</span>
         </li>
         <li>
@@ -700,7 +754,8 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         </li>
     </ul>
 
-    <img src="../Resources/ElementChart.png" style="margin-right: auto; margin-left: auto; display: block"/>
+    <img src="../Resources/ElementChart.png"
+         style="margin-right: auto; margin-left: auto; display: block"/>
 
 
     For example...
@@ -847,7 +902,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         Typically, the Evade attribute is listed as <i>Evade: [10+Score:Accuracy]</i>, where
         Score:Accuracy is equal to the Accuracy bonus of your acting score (Melee, Skill, Magic).
         Every targeted combatant must make an accuracy check by rolling 1d20 plus their
-        own Accuracy score.
+        own Accuracy score. Rolling a nat 1 counts as a Crit for the attack.
     </p>
     <p>
         For example, you make an AoE attack that has Evade: Melee, where you
@@ -1167,13 +1222,13 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
 </div>
 </span>
 
-</body>
-<footer>
-    <script>
-        PopulateIndex();
-        ImplementReturnMenu();
-    </script>
-</footer>
+    </body>
+    <footer>
+        <script>
+            PopulateIndex();
+            ImplementReturnMenu();
+        </script>
+    </footer>
 </html>
 
 

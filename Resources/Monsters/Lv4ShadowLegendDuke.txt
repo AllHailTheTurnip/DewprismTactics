@@ -1,7 +1,7 @@
 Name:Shadow Legend Duke|
 Type:Boss|
 Level:4|
-Code:Wise-Hunter|
+Intelligence:Wise-Hunter|
 PrimaryClass:Shadow Legend Duke|
 
 Biography

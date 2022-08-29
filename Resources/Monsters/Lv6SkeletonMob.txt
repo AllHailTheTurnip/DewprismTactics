@@ -1,7 +1,7 @@
 Name: Skeleton|
 Type: Mob|
 Level: 5|
-Code: Drone Soldier|
+Intelligence: Drone Soldier|
 PrimaryClass: Skeleton|
 
 Biography

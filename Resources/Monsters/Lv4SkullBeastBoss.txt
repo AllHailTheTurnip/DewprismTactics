@@ -1,7 +1,7 @@
 Name:Skull Beast|
 Type:Boss|
 Level:4|
-Code:Instinctive-Guard|
+Intelligence:Instinctive-Guard|
 PrimaryClass:Skull Beast|
 
 Biography

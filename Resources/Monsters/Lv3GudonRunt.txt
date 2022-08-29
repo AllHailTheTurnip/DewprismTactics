@@ -1,7 +1,7 @@
 Name: Gudon|
 Type: Grunt|
 Level: 3|
-Code: Sapient-Leader/Guard/Soldier|
+Intelligence: Sapient-Leader/Guard/Soldier|
 PrimaryClass:Gudon|
 
 Biography

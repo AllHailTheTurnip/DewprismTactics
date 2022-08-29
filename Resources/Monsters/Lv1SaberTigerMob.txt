@@ -4,7 +4,7 @@ Biography
 Description: A feline predator with sharp teeth and a grey coat covered with black spots. It's most commonly found
 in savannas but in recent years started migrating to the wet lands, upsetting the food chain as the new apex predator.|
 PrimaryClass: Saber Tiger|
-Code: Instinctive Leader OR Hunter OR Assassin|
+Intelligence: Instinctive Leader OR Hunter OR Assassin|
 Level: 1|
 Appearance: A large feline with a grey coat, sharp teeth, yellow-eyes, a long tail dipped in black, and a grey coat
 spotted with black.|

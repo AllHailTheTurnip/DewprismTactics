@@ -1,7 +1,7 @@
 Name:Stinger|
 Level:1|
 Type: Heavy|
-Code:Instinctive Support/Hunter|
+Intelligence:Instinctive Support/Hunter|
 PrimaryClass:Stinger|
 
 Biography

@@ -1,7 +1,7 @@
 Name: Pollysmog|
 Type: Mob|
 Level: 6|
-Code: Instinctive Soldier|
+Intelligence: Instinctive Soldier|
 PrimaryClass: Pollywog|
 
 Biography

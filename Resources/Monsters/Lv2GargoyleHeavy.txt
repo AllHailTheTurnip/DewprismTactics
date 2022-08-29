@@ -1,7 +1,7 @@
 Name:Gargoyle|
 Type: Miniboss (2x Miniboss)
 Level:2|
-Code:Instinctive-Soldier|
+Intelligence:Instinctive-Soldier|
 PrimaryClass:Gargoyle|
 
 Biography

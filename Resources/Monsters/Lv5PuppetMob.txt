@@ -1,7 +1,7 @@
 Name: Puppet|
 Type: Mob|
 Level: 5|
-Code: Drone Leader/Hunter/Soldier|
+Intelligence: Drone Leader/Hunter/Soldier|
 PrimaryClass: Puppet|
 
 Biography

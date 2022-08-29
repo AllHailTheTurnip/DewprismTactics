@@ -1,0 +1,51 @@
+Name: Gamulian|
+Type: Mob|
+Level: 6|
+Intelligence: Sapient|
+PrimaryClass: Gamulian|
+
+Biography
+Description: A pig-like creature that lives with its tribe in the trees.|
+
+Appearance: Short, stout, and pig-like, with large tusks protruding from
+its face.|
+
+Behavior: Generally peaceful, until provoked - at which it will be impossible
+to reconcile with.|
+
+Vitals
+Health: 90|
+Mana: 30|
+Stamina: 37|
+Focus: 30|
+
+Scores
+Initiative: 8|
+Carry: 7u|
+Element: Wind|
+MeleeDamage: 12, Crit: 24|
+MagicDamage: 18, Crit: 36|
+SkillDamage: 24, Crit: 36|
+
+Stats
+Melee: (Power: 12, Evasion: 9, Accuracy: +2)|
+Magic: (Power: 18, Evasion: 9, Accuracy: 0)|
+Skill: (Power: 12, Evasion: 8, Accuracy: -1)|
+
+Talents
+Harvest:3|
+Scholar:0|
+Navigate:5|
+Acrobatic:0|
+Arts:1|
+
+Equipment
+PrimaryWeapon: Spear (Type: Skill, WC: L, Use: 5+(2/turn), Rank: 2, Range: 1sp)|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience:|
+Gil:|
+Loot:|

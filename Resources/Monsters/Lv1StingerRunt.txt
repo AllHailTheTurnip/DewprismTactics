@@ -1,7 +1,7 @@
 Name:Stinger|
 Type: Grunt|
 Level:1|
-Code:Instinctive Support/Hunter|
+Intelligence:Instinctive Support/Hunter|
 PrimaryClass:Stinger|
 
 Biography

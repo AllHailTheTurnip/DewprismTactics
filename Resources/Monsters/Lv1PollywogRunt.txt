@@ -7,7 +7,7 @@ They are most commonly found in swampy areas, but can be found all over the worl
 
 PrimaryClass: Pollywog|
 
-Code: Instinctive Soldier OR Guard|
+Intelligence: Instinctive Soldier OR Guard|
 
 Level: 1|
 

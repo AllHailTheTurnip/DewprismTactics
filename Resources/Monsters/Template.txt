@@ -1,7 +1,7 @@
 Name:|
 Type:|
 Level:|
-Code:|
+Intelligence:|
 PrimaryClass:|
 
 Biography

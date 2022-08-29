@@ -1,7 +1,7 @@
 Name:Mandola|
 Type:Mob|
 Level:1|
-Code:Drone-Soldier|
+Intelligence:Drone-Soldier|
 PrimaryClass:Mandola|
 
 Biography

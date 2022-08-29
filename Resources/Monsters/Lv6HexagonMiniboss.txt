@@ -1,0 +1,52 @@
+Name: Hexagon|
+Type: Miniboss|
+Level: 6|
+Intelligence: Drone|
+PrimaryClass: Hexagon|
+
+Biography
+Description: An enormous two-handed machine dug-up from the Coral Sea ruins.|
+
+Appearance: A hexagon-shaped machine floating above the ground with two enormous hands.
+It has a cat-like face.|
+
+Behavior: It has no will of its own, but instead is controlled by Belle.|
+
+Vitals
+Health: 630|
+Mana: 0|
+Stamina: 0|
+Focus: 0|
+
+Scores
+Initiative: 5|
+Carry: 25u|
+Element: Metal|
+
+MeleeDamage: 210, Crit: 252|
+MagicDamage: 24, Crit: 48|
+SkillDamage: 24, Crit: 48|
+
+Stats
+Melee: (Power: 42, Evasion: 5, Accuracy: 0)|
+Magic: (Power: 24, Evasion: 8, Accuracy: 0)|
+Skill: (Power: 24, Evasion: 5, Accuracy: 0)|
+
+Talents
+Craft:NA|
+Harvest:NA|
+Scholar:NA|
+Navigate:NA|
+Acrobatic:NA|
+Arts:0|
+
+Equipment
+PrimaryWeapon: Enormous Hand (Type:Melee, WC: VH, Use: 10AP+5sta, Rank: 5; Reach 1)|
+SecondaryWeapon: Enormous Hand (Type:Melee, WC: VH, Use: 10AP+5sta, Rank: 5; Reach 1)|
+Tools:|
+Consumables:|
+
+Loot
+Experience:|
+Gil:|
+Loot:|

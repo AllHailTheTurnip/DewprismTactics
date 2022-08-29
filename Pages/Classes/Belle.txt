@@ -1,37 +1,120 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Title: Belle|
+Subtitle: Fiery Sorcerer|
+Description: The first Belles in history were a sacred order of sorceresses.
+They were responsible for protecting relics from the first dynasties of the
+North Haven kingdom, which they did for over two-thousand years.
+<p>Belles are known for their fiery fighting style, utilizing various
+forms of martial arts in combination with fire magic.</p>
+<p>Today, the fighting doctrine of Belles have spread across the land,
+and now anyone can be a Belle - if they're willing to sacrifice for it.</p>|
+
+Belle
+- orbiting ball shield (deploys)
+- burst of flames
+- fiery projectiles
+- instant missile
+- Pillars of fire
+- Burning Shuriken
+Unofficial
+- Flamethrower
+- Ignite
+- Channel Power
+- Backflip
+
 
 VITALS
 Health: 45|
-Mana: 15|
+Mana: 20|
 Stamina: 15|
 Focus: 15|
 
 SCORES
-Initiative: 10|
+Initiative: 8|
 Carry: 10u|
-Element: Neutral|
+Element: Fire|
 
 STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
+Melee: (Power: 4, Evasion: 8, Accuracy: +1)|
+Magic: (Power: 4, Evasion: 10, Accuracy: +3)|
+Skill: (Power: 5, Evasion: 12, Accuracy: +1)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine:Eruption
+Magic-Offensive-Action
+Use: 15AP+7mna
+Range: 0sp AoE
+Evade: Melee
+OnHit: Target takes {MgcDmg} damage.|
 
+A1:Burning Shield
+Magic-Defensive-Action
+Use: 10AP+5mna
+Range: 2sp
+Effect: Give yourself three Shield props. Each prop follows you wherever you go.
+After two rounds, pick three unique targets for each Shield prop to target;
+extra props simply vanish.
+Make a Skill Accuracy check against each target;
+on hit, inflict (1){MgcPwr} damage and destroy the prop.
+If an enemy combatant enters into your space before the Props are fired,
+inflict (1){MgcPwr} damage and destroy the prop.|
 
-MA1:|
+A2:Missile
+Magic-Offensive-Action
+Use: 10AP+3mna
+Range: 2sp
+Effect: Target every enemy combatant in a space within range. Each targeted combatant
+ makes a Melee Evade check. On hit, they take (2){MgcPwr} damage.|
+
+A3:Sun Beam
+Magic-Offensive-Action
+Use: 10AP+5mna
+Range: 2sp
+Evade: Magic
+Effect: Target gets Burning (1){MgcPwr}.|
+
+A4:Pillars of Fire
+Magic-Offensive-Action
+Use: 10AP+5mna
+Range: Battlefield
+Effect: Choose three connected spaces along the battlefield. Every enemy
+combatant within those spaces makes a Melee Evade check, whereupon failure are
+inflicted with (1){MgcPwr} damage.|
+
+A5:Burning Shuriken
+Skill-Offensive-Action
+Use: 5AP+3mna+3fcs
+Range: 1sp
+Accuracy: Skill
+OnHit: Inflict (1){MgcPwr} fire damage.|
+
+A6:Flamethrower
+Magic-Offensive-Action
+Use: 15AP+7mna
+Range: 1sp
+Effect: Target two touching spaces within range and place a Fire prop
+in each space. Combatants in a targeted space must make a Melee Evade check or
+else get Burning {MgcPwr}. Combatants that enter a space with a Fire prop
+must also make a similar check, or else catch on fire.|
+
+A7:Ignite
+Magic-Offensive-Action
+Use: 5AP+1mna
+Range: 0sp
+Accuracy: Melee
+Effect: Target gets Burning {MgcPwr}|
+
+A8:Channel Power
+Use: 5mna+(1/turn)
+Effect: Increase the Rank of your next action by 1.|
+
+A9:Backflip
+Melee-Defensive-Reaction
+Trigger: You end your turn.
+Use: 5sta
+Effect: Make a free movement action.|
+
+MA1: Control
+Magic-Support-Passive
+Effect: You get a bonus 10AP to put towards controlling Drone-intelligence combatants in your space.|
 MA2:|
 MA3:|

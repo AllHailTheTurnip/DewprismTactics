@@ -1,7 +1,7 @@
 Name: Chimera|
 Type: Miniboss|
 Level: 6|
-Code: Instinctive Leader|
+Intelligence: Instinctive Leader|
 PrimaryClass: Chimera|
 
 Biography

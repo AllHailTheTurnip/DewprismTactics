@@ -21,7 +21,7 @@ Focus: 5|
 SCORES
 Initiative: 15|
 Carry: 10u|
-Element: Wind/Fire|
+Element: Wind|
 
 STATS
 Melee: (Power: 6, Evasion: 8, Accuracy: +2)|

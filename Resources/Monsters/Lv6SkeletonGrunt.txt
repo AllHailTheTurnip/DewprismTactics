@@ -1,7 +1,7 @@
 Name: Skeleton|
 Type: Grunt|
 Level: 6|
-Code: Drone Soldier|
+Intelligence: Drone Soldier|
 PrimaryClass: Skeleton|
 
 Biography

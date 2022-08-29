@@ -1,7 +1,7 @@
 Name:King Ant|
 Type:Mob|
 Level:3|
-Code:Drone-Soldier|
+Intelligence:Drone-Soldier|
 PrimaryClass:King Ant|
 
 Biography

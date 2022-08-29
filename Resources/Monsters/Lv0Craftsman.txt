@@ -1,7 +1,7 @@
 Name:Craftsman|
 Type:NPC|
 Level:0|
-Code:Wise-[any role]|
+Intelligence:Wise-[any role]|
 PrimaryClass:None|
 
 Biography

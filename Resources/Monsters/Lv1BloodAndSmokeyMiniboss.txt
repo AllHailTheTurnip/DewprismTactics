@@ -1,7 +1,7 @@
 Name:Blood And Smokey|
 Type: Miniboss (2x Heavy)|
 Level: 1|
-Code: Sapient-Soldiers|
+Intelligence: Sapient-Soldiers|
 PrimaryClass: Racketeer|
 
 Biography

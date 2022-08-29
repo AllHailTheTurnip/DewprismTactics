@@ -1,0 +1,51 @@
+Name: Rod the Bladestar|
+Type: Miniboss|
+Level: 6|
+Intelligence: Wise|
+PrimaryClass: Bladestar|
+
+Biography
+Description: A vagrant bladesmith living on the edge of town. He's a talented
+mechanic as well as a swordsman.|
+
+Appearance: A man with fire-red hair, a top-hat, and light clothes.|
+
+Behavior: Strangely romantic, but also a bit stubborn.|
+
+Vitals
+Health: 252|
+Mana: 20|
+Stamina: 20|
+Focus: 24|
+
+Scores
+Initiative: 10|
+Carry: 10u|
+Element: Neutral|
+MeleeDamage: 30, Crit: 60|
+MagicDamage: 30, Crit: 60|
+SkillDamage: 90, Crit: 120|
+
+Stats
+Melee: (Power: 30, Evasion: 8, Accuracy: +2)|
+Magic: (Power: 30, Evasion: 10, Accuracy: -2)|
+Skill: (Power: 30, Evasion: 8, Accuracy: +3)|
+
+Talents
+Craft:8|
+Harvest:-2|
+Scholar:3|
+Navigate:6|
+Acrobatic:4|
+Arts:2|
+
+Equipment
+PrimaryWeapon: Silver Wind (Type: Skill, WC: M, Use: 10AP, Rank: 3; Artisan 3)|
+SecondaryWeapon: Silver Wind (Type: Skill, WC: M, Use: 10AP, Rank: 3; Artisan 3)|
+Tools:|
+Consumables:|
+
+Loot
+Experience:|
+Gil:|
+Loot:|

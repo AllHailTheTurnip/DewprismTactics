@@ -1,0 +1,50 @@
+Name: Belle|
+Type: Miniboss|
+Level: 6|
+Intelligence: Wise|
+PrimaryClass: Belle|
+
+Biography
+Description: The accomplice to the treasure hunter Duke.|
+
+Appearance: A dame with white hair and ornate clothes.|
+
+Behavior: Fiery tempered and insecure about her looks.|
+
+Vitals
+Health: 378|
+Mana: 45|
+Stamina: 30|
+Focus: 30|
+
+Scores
+Initiative: 8|
+Carry: 10u|
+Element: Fire|
+MeleeDamage: 30, Crit:60|
+MagicDamage: 30, Crit:60|
+SkillDamage: 36, Crit:72|
+
+Stats
+Melee: (Power: 30, Evasion: 8, Accuracy: +1)|
+Magic: (Power: 30, Evasion: 10, Accuracy: +3)|
+Skill: (Power: 36, Evasion: 12, Accuracy: +1)|
+
+Talents
+Craft: 0|
+Harvest: 2|
+Scholar: 3|
+Navigate: 1|
+Acrobatic: 5|
+Arts: 1|
+
+Equipment
+PrimaryWeapon:|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience:|
+Gil:|
+Loot:|
