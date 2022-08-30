@@ -35,10 +35,10 @@ Upon being created, it rolls initiative. The clone vanishes after
 If you attempt to create more than your maximum, the oldest ones de-spawn
 as new ones are brought in.|
 
-A1: Power Nap|
+A1: Power Nap
 Melee-Support-Action
 Use: 20AP
-Effect: Restore 25% of your max Health and 50% of your max Mana, Stamina, and Focus.
+Effect: Restore 25% of your max Health and 50% of your max Mana, Stamina, and Focus.|
 
 A2: Gore
 Melee-Offensive-Action
