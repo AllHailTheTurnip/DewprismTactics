@@ -67,7 +67,7 @@ Effect: Target every enemy combatant in a space within range. Each targeted comb
 
 A3:Solar Ray
 Magic-Offensive-Action
-Use: 10AP+5mna
+Use: 20AP+5mna
 Range: 2sp Circle
 Evade: Magic
 Effect: Target gets Burning (1){MgcPwr}.|
