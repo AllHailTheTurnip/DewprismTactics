@@ -55,7 +55,7 @@ Otherwise, reduce the AP cost of an equipped weapon by 2 (minimum 2).|
 
 A3: Upgrade Attributes
 Skill-Support-Action
-Effect: 5mgs+20AP
+Effect: 5mna+20AP
 Use: Choose an attribute of an equipped weapon and increase by 50% (rounded up).|
 
 A4: Reconfigure Attribute
@@ -95,7 +95,7 @@ Choose a special special ability for it...
 A. Flight (The animal can move in any direction, including vertical)
 B. Night Eyes (The animal treats lighting conditions as regular)
 C. Gills (The animal can breathe under water)
-D. Paws (The animal's speed is double yours).
+D. Paws (The animal's movement cost is half yours).
 The animal appears in the same space as the one you started in, and takes its turns after yours.|
 
 MA1:|

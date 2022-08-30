@@ -87,6 +87,6 @@ Effect: Targeted combatant cannot leave your space until the beginning of your n
 
 MA1: Invincible
 Melee-Defensive-Passive
-Incoming damage is reduced to 0. Counts as a Neutralized combatant.|
+Incoming damage is reduced to 0. Counts as a Neutralized combatant in regards to KO'd players.|
 MA2:|
 MA3:|

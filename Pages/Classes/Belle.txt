@@ -65,10 +65,10 @@ Range: 2sp
 Effect: Target every enemy combatant in a space within range. Each targeted combatant
  makes a Melee Evade check. On hit, they take (2){MgcPwr} damage.|
 
-A3:Sun Beam
+A3:Solar Ray
 Magic-Offensive-Action
 Use: 10AP+5mna
-Range: 2sp
+Range: 2sp Circle
 Evade: Magic
 Effect: Target gets Burning (1){MgcPwr}.|
 
