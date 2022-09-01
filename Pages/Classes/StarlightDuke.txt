@@ -20,7 +20,7 @@ Magic: (Power: 5, Evasion: 10)|
 Skill: (Power: 5, Evasion: 10)|
 
 Abilities
-Doctrine:|
+Doctrine: I Am A Star|
 A1:|
 A2:|
 A3:|
@@ -29,7 +29,11 @@ A5:|
 A6:|
 A7:|
 A8:|
-A9:|
+A9: Center of Attention
+Melee-Support-Passive
+Range: 1sp
+Effect: If you enter within range of a combatant with Aggro, they lose Aggro
+and you gain Aggro.|
 
 
 MA1:|

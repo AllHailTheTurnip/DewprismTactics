@@ -44,7 +44,7 @@ Magic-Offensive-Action
 Use: 15AP+7mna
 Range: 0sp AoE
 Evade: Melee
-OnHit: Target takes {MgcDmg} damage.|
+OnHit: Target takes (3){MgcDmg} damage.|
 
 A1:Burning Shield
 Magic-Defensive-Action
@@ -67,7 +67,7 @@ Effect: Target every enemy combatant in a space within range. Each targeted comb
 
 A3:Solar Ray
 Magic-Offensive-Action
-Use: 20AP+5mna
+Use: 10AP+7mna
 Range: 2sp Circle
 Evade: Magic
 Effect: Target gets Burning (1){MgcPwr}.|

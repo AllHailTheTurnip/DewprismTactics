@@ -64,8 +64,7 @@ A4: Snarl
 Melee-Offensive-Action
 Use: 5AP+3fcs
 Range: 3sp
-Accuracy: Skill
-Effect: Target has Disadvantage on their next check.|
+Effect: Gain Aggro.|
 
 A5: Bulk Up
 Melee-Support-Action

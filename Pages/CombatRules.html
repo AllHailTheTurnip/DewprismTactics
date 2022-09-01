@@ -659,19 +659,21 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         <h2 id="Aggro">Aggro</h2>
         In combat, the most dangerous combatants draw the most attention from the opposing side.
         Depending on your team's build, this can be a good thing or a bad thing.
-        <p>Aggro, standing for "Aggression" is a score that each player accrues
-        over the course of combat. Every point of damage they inflict against
-        an enemy combatant is also recorded as Aggro. The team member with the
-        highest Aggro score is designated as the Aggressor.</p>
+        <p>Aggro, standing for "Aggression" is a status effect that is afflicted
+        to a combatant when they do one of two things:</p>
+            <p>&emsp;1) Attack an enemy with the Leader status,</p>
+            <p>&emsp;2) Neutralize an enemy combatant, or</p>
+            <p>&emsp;3) Make the first attack for their team.</p>
         <p>
-            Enemy combatants with a lower intelligence will be more inclined
-            to attack the opposing team's Aggressor.
+            Enemy combatants that fail their Intelligence check will go decide
+            to attack the aggressor. Otherwise, they'll make the tactical decision.
         </p>
-        <p>At the beginning of combat, since no two combatants will have the
-        same Aggro, the combatant with the highest initiative of their
-        team will gain the title. No two allied combatants can be the
-        Aggressor at the same time; it will always be differed to the
-        one with the higher initiative.</p>
+        <p>
+            The Aggro status effect lasts until the beginning of the afflicted combatant's
+            next turn. However, if another player gains Aggro, then that status
+            is taken and renewed for the new player. Only one combatant
+            to a team can have Aggro at once.
+        </p>
         <p>If a combatant dies while being an Aggressor, their body is marked
             for good luck. At the end of combat, when Luck checks are being
             made, marked bodies are gain +5 for their Luck checks.</p>
@@ -682,12 +684,14 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         <div>
             Taunt<br>
             Use: 5AP+(1/turn)<br>
-            Effect: Increase your Aggro score by either MleDmg, MgcDmg, or SklDmg.
+            Luck: 10<br>
+            Effect: Gain Aggro.
         </div>
         <div>
             Cower<br>
             Use: 5AP+(1/turn)<br>
-            Effect: Decrease your Aggro score by either MleDmg, MgcDmg, or SklDmg.
+            Luck: 10<br>
+            Effect: Lose Aggro.
         </div>
     </div>
 <div class="Wide">

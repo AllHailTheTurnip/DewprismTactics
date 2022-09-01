@@ -87,11 +87,10 @@ Range: Battlefield
 Effect: Fire-element attacks are Reduced in rank by 2, to a minimum of 0. This
 effect lasts until the start of your next turn.|
 
-A9: Lightning Blast
+A9: Surface Storm
 Magic-Offensive-Action
-Use: 15AP+7mna+5fcs
-Range: 1sp
-Effect: Destroy target Token or Prop.|
+Use: 10AP
+Effect: Gain Aggro.|
 
 MA1:|
 MA2:|

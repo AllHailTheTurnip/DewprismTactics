@@ -73,14 +73,14 @@ A5: Terrify
 Magic-Offensive-Action
 Use: 10AP+1fcs+(1/turn)
 Range: 1sp (Choose up to 1+{TL/5} targets.)
-Accuracy: Skill
+Evade: Skill
 OnHit: Target loses (1){SklPwr/3} focus.|
 
 A6: Paralyzing Presence
 Magic-Offensive-Action
 Use: 15AP+3fcs
 Range: 1sp
-Accuracy: Magic
+Evade: Skill
 OnPass: Target gains Paralyzed 3.|
 
 A7: Drown
@@ -94,7 +94,7 @@ A8: Freezing Touch
 Magic-Offensive-Action
 Use: 10AP+3mna
 Range: 0sp
-Accuracy: Melee
+Evade: Magic
 OnHit: Target becomes Frozen 1+{TL/10}.|
 
 A9: Possession
