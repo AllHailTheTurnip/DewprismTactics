@@ -1,5 +1,5 @@
-Title:|
-Subtitle:|
+Title: Starlight Duke|
+Subtitle: High-flying Champion|
 Description:|
 ???
 
@@ -20,15 +20,15 @@ Magic: (Power: 5, Evasion: 10)|
 Skill: (Power: 5, Evasion: 10)|
 
 Abilities
-Doctrine: I Am A Star|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
+Doctrine: Shooting Star|
+A1: Waddle Waddle|
+A2: Thick Padding|
+A3: Spin|
+A4: Flop|
+A5: Crash Landing|
+A6: Divination|
+A7: Brilliance|
+A8: True North|
 A9: Center of Attention
 Melee-Support-Passive
 Range: 1sp
@@ -36,6 +36,6 @@ Effect: If you enter within range of a combatant with Aggro, they lose Aggro
 and you gain Aggro.|
 
 
-MA1:|
+MA1: STAAAAAAAAAR!|
 MA2:|
 MA3:|
