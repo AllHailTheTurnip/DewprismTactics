@@ -9,8 +9,8 @@ Level:
 
 Vitals
 Health:
-Mana:
 Stamina:
+Mana:
 Focus:
 
 Scores
@@ -23,9 +23,9 @@ Skill Damage:   Crit:
 
 
 Stats
-Melee (Power:  , Evasion:  , Accuracy: )
-Magic (Power:  , Evasion:  , Accuracy: )
-Skill (Power:  , Evasion:  , Accuracy: )
+Melee (Power: , Evasion: , Accuracy: )
+Magic (Power: , Evasion: , Accuracy: )
+Skill (Power: , Evasion: , Accuracy: )
 
 Talents
 Craft	 :
