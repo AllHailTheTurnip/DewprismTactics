@@ -1,37 +1,120 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Firebreathing
+Dragon
+Ancient
+
+Whirlwind
+Diving Strike
+Firebreath
+Scales
+Ancient Knowledge
+Roar!
+Chase
+Flight
+Claws
+
+Title:Wylaf|
+Subtitle:Knight of an Ancient Order|
+Description:The Wylafs descend from a great lineage of honor and fighting prowess,
+first given to them by the dragon god Wylaf in the First Age. They are
+considered the perfect fighters: strong, agile, cunning, and impervious to
+all forms of damage. More so, they are bound to a code that transcends
+all nobility, making them no man's true friend. They have served for Emperors
+and in dark times have dethroned them.
+<p>There are Wylaf imitators across the world, but you'll know one when
+you meet them. Their stature is perfect, their aura palpable, and their
+skill perfect. It is said that they fight with the fury of the dragon gods
+of old.</p>
+<p>Becoming a Wylaf takes a lifetime of commitment, leaving the
+   individual estranged from normal society. By the time their training is
+   completed, they can only ever be a Wylaf. Born, raised, and buried
+   with their sword.</p>|
 
 VITALS
 Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Mana: 17|
+Stamina: 20|
+Focus: 17|
 
 SCORES
 Initiative: 10|
 Carry: 10u|
-Element: Neutral|
+Element: Fire|
 
 STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
+Melee: (Power: 6, Evasion: 5, Accuracy: +2)|
+Magic: (Power: 6, Evasion: 8, Accuracy: 0)|
+Skill: (Power: 3, Evasion: 8, Accuracy: +2)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Divine Pact
+Magic-Support-Passive
+Effect: You are immune to Noble-element damage.
+Incoming damage is reduced by 1 Rank (to a min of 1).
+Your max Stamina, Mana, and Focus are halved at the beginning of combat
+and are restored at the end.|
 
+A1:Diving Strike
+Skill-Offensive-Action
+Use: 10AP+3sta
+Range: 2sp
+Effect: Leap horizontally into another space within range. Make a free
+Basic attack against the target of your choice.|
 
-MA1:|
-MA2:|
+A2:Scale Armor
+Melee-Defensive-Reaction
+Trigger: You are targeted by an attack.
+Use: 5sta
+Luck: 20-{CL}
+Effect: You evade the attack.|
+
+A3:Ancient Wisdom
+Magic-Support-Action
+Use: 7sta+7fcs+7mna
+Effect: Your next Accuracy, Luck, or Evade check automatically succeeds.|
+
+A4:Fearsome Roar!
+Melee-Offensive-Action
+Use: 10AP+5sta
+Range: 1sp AoE circle
+Evade: Skill
+OnHit: Variable I is equal to 1d20 divided the by 2, rounding down.
+Ability of index I is disabled. 0 is equal to your Doctrine ability.|
+
+A5:Lance
+Skill-Support-Action
+Use: 3sta+3fcs
+Effect: Increase the Range of your next action by 1sp.|
+
+A6:Winged Flight
+Magic-Support-Action
+Use: 5sta+(1/battle)
+Effect: Your character sprouts enormous, scaled wings from their back.
+When making a Movement action, spend an additional 3sta to also
+move vertically or glide horizontally.|
+
+A7: Death by a Thousand Cuts
+Skill-Offensive-Action
+Use: 10AP
+Range: 0sp
+Accuracy: Skill+3
+OnHit: Inflict Bleeding (1){SklPwr}; if target already has Bleeding,
+increase the Rank by 1.|
+
+A8:Inferno
+Magic-Offensive-Action
+Use: 10AP+5mna
+Range: 1sp
+Effect: Create a Fire Pillar prop in the targeted space.
+Enemy combatants in the same space as Fire Pillar must
+pay 5sta or take Burning (1){MgcPwr}.|
+
+A9:Whirlwind
+Magic-Offensive-Action
+Use: 20AP+7mna
+Range: 1sp AoE circle
+Evade: Melee
+OnHit: Combatant take 15{TL} damage. |
+
+MA1: Undying|
+MA2: Form of the Dragon|
 MA3:|

@@ -78,7 +78,7 @@ A7: Fireball
 A8: Horrifying Screech
     Skill-Offensive-Action
     Use: 10AP + 5fcs
-    Range: {CL/3}sp radius AoE
+    Range: {CL/3}sp AoE circle
     Accuracy: Skill
     OnPass: Target is forced away from user until outside of range.
     OnCrit: Target loses 10AP from their next turn.|

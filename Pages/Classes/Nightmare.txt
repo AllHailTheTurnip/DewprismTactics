@@ -84,7 +84,7 @@ Allies can climb onto your person. When you move, any allies on top of you are a
 A8:Shockwave
 Magic-Offensive-Action
 Use: 15AP!+5mna
-AoE: 1{TL}sp radius
+AoE: 1{TL}sp circle
 Combatants within AoE are pushed away from you until outside of AoE.
 Accuracy: Melee
 OnPass: Enemy combatants take (2){MgcPwr} electric damage.|

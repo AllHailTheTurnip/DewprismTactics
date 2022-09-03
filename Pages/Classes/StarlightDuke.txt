@@ -1,7 +1,13 @@
 Title: Starlight Duke|
 Subtitle: High-flying Champion|
-Description:|
-???
+Description: The Starlight Duke makes for the third and final betrayal
+of the original Duke fighting schools. The Starlight Dukes have forsaken
+fury and power, instead looking towards heavenly pursuits - to the stars - for
+the source of their strength.
+<p>Today, Starlight Dukes are seen as a quirky, if not laughable bunch,
+perhaps explaining why their school is so comparatively unpopular to
+the others. However, Starlight Dukes demonstrate a serious amount of
+defense and persistence in the face of danger.</p>|
 
 VITALS
 Health: 45|
@@ -10,31 +16,81 @@ Stamina: 15|
 Focus: 15|
 
 SCORES
-Initiative: 10|
+Initiative: 13|
 Carry: 10u|
-Element: Neutral|
+Element: Light|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 5, Evasion: 8, Accuracy: -2)|
+Magic: (Power: 4, Evasion: 12, Accuracy: +1)|
+Skill: (Power: 3, Evasion: 15, Accuracy: 0)|
 
 Abilities
-Doctrine: Shooting Star|
-A1: Waddle Waddle|
-A2: Thick Padding|
-A3: Spin|
-A4: Flop|
-A5: Crash Landing|
-A6: Divination|
-A7: Brilliance|
-A8: True North|
+Doctrine: Thick Padding
+Melee-Defensive-Passive
+Effect: Attacks made against you from out of your space are reduced by 2 Ranks.
+  You cannot make Sprint actions.|
+
+A1: Waddle-Waddle
+Melee-Support-Action
+Use: 5sta+(1/turn)
+Effect: Make a movement action if you haven't already.|
+
+A2: Shooting Star
+Melee-Offensive-Action
+Use: 20AP
+Range: Battlefield
+Accuracy: Skill
+Evade: Melee
+OnHit: Inflict 5{MlePwr} damage.|
+
+A3: Spin
+Skill-Offensive-Action
+Use: 10AP+5sta+3mna
+Effect: Move three spaces. One enemy from each you move through must spend
+5sta or else take (1){SklPwr} damage.|
+
+A4: Flop
+Melee-Offensive-Action
+Use: 10AP+7sta
+Range: 0sp AoE
+Effect: You are now Prone. All enemies within the same range make a Melee Evade
+check, whereupon failure they take (3){MlePwr} and are now Prone.|
+
+A5: Crash Landing
+Melee-Offensive-Action
+Use: 15AP+7sta
+Range: Battlefield
+Effect: instantly relocate to a space within range. You take (2){MlePwr} damage.
+Enemies within the space make Skill Evade checks, whereupon failure they
+take (2){MlePwr} damage. Any props in the space are destroyed.|
+
+A6: Divination
+Magic-Support-Action
+Use: 10AP+5fcs+5mna+(1/turn)
+Effect: Increase your next Luck check by {CL}.|
+
+A7: Supernova
+Magic-Offensive-Action
+Use: 40AP+15mna.
+Range: 2sp AoE circle.
+Evade: Melee
+Effect: Variable Z is equal to your Max Health.
+Hit combatants within your space take Z light damage.
+Hit combatants 1sp away from you take Z/2 light damage.
+Hit combatants 2sp away from you take Z/4 light damage.
+You take Z light damage.|
+
+A8: True North
+Magic-Support-Action
+Use: 5AP+3fcs
+Effect: You are no longer Prone.|
+
 A9: Center of Attention
 Melee-Support-Passive
 Range: 1sp
 Effect: If you enter within range of a combatant with Aggro, they lose Aggro
 and you gain Aggro.|
-
 
 MA1: STAAAAAAAAAR!|
 MA2:|
