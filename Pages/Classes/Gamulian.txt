@@ -26,7 +26,7 @@ Abilities
 Doctrine: Call for Kin
 Skill-Support-Action
 Use: 10AP+3sta+3fcs
-Range: 0s
+Range: 0sp
 Effect: Create a clone combatant of yourself at the edge of the battlefield,
 closest to your starting position.
 The clone's max Vitals and Power scores are equal to half of yours.
@@ -51,12 +51,12 @@ Melee-Offensive-Reaction
 Trigger: You take damage.
 Use: 1+{TL/5}battle.
 Effect: After the offender's action resolves, you may immediately make an
- action, paying its Use-cost as normal.|
+ action, paying its Use-cost from your next turn as normal.|
 
 A4: Pole Bind
 Skill-Support-Action
 Use: 10AP+3fcs
-Effect: If your weapon's range is 0, increase it to 1.|
+Effect: If your weapon does not have Extended, give it Extended 1.|
 
 A5: Craft Home
 Skill-Support-Action

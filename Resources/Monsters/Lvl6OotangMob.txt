@@ -46,4 +46,4 @@ Consumables:|
 Loot
 Experience:|
 Gil:|
-Loot:|
+Loot: Ootang Tooth (Material: Worth 5gil)|
