@@ -43,6 +43,7 @@ Effect: Restore 25% of your max Health and 50% of your max Mana, Stamina, and Fo
 A2: Gore
 Melee-Offensive-Action
 Use: 10AP+5sta
+Range: {Weapon's Range}
 Accuracy: Melee
 Effect: Opponent takes (1){MlePwr} damage and gets Bleeding (MlePwr).|
 
