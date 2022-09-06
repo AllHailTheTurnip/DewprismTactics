@@ -38,6 +38,7 @@ Effect: Leap up to 1+{TL/5}sp in any direction,
 A1: Fling "Dirt"
 Melee-Offensive-Action
 Use: 10AP
+Range: 1sp
 Accuracy: Skill
 Dmg: (1){MlePwr}
 OnCrit: Poison 5.|
