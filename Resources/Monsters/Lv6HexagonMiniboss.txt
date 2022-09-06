@@ -48,5 +48,5 @@ Consumables:|
 
 Loot
 Experience:|
-Gil:|
+Gil:200|
 Loot:|
