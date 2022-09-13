@@ -65,9 +65,9 @@ Range: 0sp
 Accuracy: Skill
 OnHit: Inflict 3{MlePwr} base-element damage to their Health.
 If Crit, apply it to rank of secondary effects. Roll 1d20.
-1-5: Drain (2){MlePwr} from their Health
-6-10: Inflict (1){MlePwr/4} to their Stamina.
-11-15: Inflict (1){MgcPwr/4} to their Mana.
+1-5: Drain (2){SklPwr} from their Health
+6-10: Inflict (1){SklPwr/4} to their Stamina.
+11-15: Inflict (1){SklPwr/4} to their Mana.
 16-20: Inflict (1){SklPwr/4} to their Focus.|
 
 A5:Energy Wave
