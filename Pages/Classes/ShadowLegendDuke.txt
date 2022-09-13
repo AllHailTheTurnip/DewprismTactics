@@ -64,10 +64,10 @@ Use: 5fcs+2sta+15AP
 Range: 0sp
 Accuracy: Skill
 OnHit: Inflict 3{MlePwr} damage to their Health. Roll 1d20.
-1-5: Inflict (1){SklPwr} damage to their Health
-6-10: Inflict (1){SklPwr} damage to their Stamina.
-11-15: Inflict (1){SklPwr} damage to their Mana.
-16-20: Inflict (1){SklPwr} damage to their Focus.|
+1-5: Inflict (1){MlePwr} damage to their Health
+6-10: Inflict (1){MlePwr/4} to their Stamina.
+11-15: Inflict (1){MgcPwr/4} to their Stamina.
+16-20: Inflict (1){SklPwr/4} to their Stamina.|
 
 A5:Energy Wave
 Magic-Offensive-Action

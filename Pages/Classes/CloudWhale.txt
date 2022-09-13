@@ -95,23 +95,3 @@ Effect: Gain Aggro.|
 MA1:|
 MA2:|
 MA3:|
-
-
-Flying
-+ ignore terrain
-+ flight
-Whale
-+ huge
-+ heavy
-+ underwater
-+ swim
-+ easy to hit
-Storms
-+ heavy wind
-+ rain
-+ lightning
-+ tornado
-Clouds
-+ obscure
-+
-
