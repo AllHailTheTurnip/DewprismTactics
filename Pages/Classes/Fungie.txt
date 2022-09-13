@@ -54,7 +54,7 @@ Magic-Support-Action
 Use: 10AP+3mna
 Range: Self
 Effect: Generate a Tuba.
-Tuba (WC: VH, AP: 10+2sta, Power: 0 Wind, Weight: 4u; Pushes target back {Melee/5}sp.)|
+Tuba (WC: VH, AP: 10+2sta, Power: 0 Wind, Weight: 4u; Pushes target back 1+{MlePwr/15}sp.)|
 
 A3: Conjure Enormous Ball
 Magic-Support-Action
@@ -65,7 +65,7 @@ The ball is magical and can only be moved by standing on it and spending 10AP.
 If you move the ball from or into an enemy's space, they must spend 3sta to move into another space, or else
 take (3){MlePwr} damage.|
 
-A4: Waddle Waddle
+A4: Toddle
 Melee-Support-Action
 Use: 5AP+3sta
 Effect: Make a Movement action.|

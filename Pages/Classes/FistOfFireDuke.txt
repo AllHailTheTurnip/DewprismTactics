@@ -85,7 +85,7 @@ You may only target single-part items between 1u-5u in weight.|
 A7: Combo
 Skill-Offensive-Reaction
 Trigger: You finish resolving an action.
-Luck: 15
+Luck: 10
 OnPass: The Use cost of the next action is reduced by 50%.|
 
 A8: Gift Item

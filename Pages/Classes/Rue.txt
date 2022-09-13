@@ -84,7 +84,7 @@ A8: Dive Slash
     Range: {CL/4} LoS
     Choose an enemy within range and leap through the air towards them.
     Make a free attack action with +5 to your accuracy check.|
-A9: Combo
+A9: Chain Attack
     Skill-Support-Reaction
     Trigger: You hit with a basic attack action.
     Use: 3sta+(3/Round)
