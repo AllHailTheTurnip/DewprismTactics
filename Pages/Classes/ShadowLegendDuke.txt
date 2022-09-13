@@ -63,7 +63,8 @@ Melee-Offense-Action
 Use: 5fcs+2sta+15AP
 Range: 0sp
 Accuracy: Skill
-OnHit: Inflict 3{MlePwr} damage to their Health. Roll 1d20.
+OnHit: Inflict 3{MlePwr} damage to their Health.
+If Crit, apply it to rank of secondary effects. Roll 1d20.
 1-5: Inflict (1){MlePwr} damage to their Health
 6-10: Inflict (1){MlePwr/4} to their Stamina.
 11-15: Inflict (1){MgcPwr/4} to their Stamina.
