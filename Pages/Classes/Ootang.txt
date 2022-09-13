@@ -79,7 +79,7 @@ A6: Full Aggro
 Melee-Offensive-Action
 Use: 10AP
 Effect: Scream, holler, and jump around like an aggressive ape. Take the
- Preferred Enemy status.|
+ Aggro status until the start of your next turn.|
 
 A7: Highly Agile
 Melee-Support-Passive
