@@ -45,7 +45,7 @@ A3: Lick Wounds
     Melee-Supportive-Action
     Use: 10AP
     Range: 0sp
-    Restore (3){TL} health to yourself or your target.|
+    Restore {TL * 15} health to yourself or your target.|
 A4: Bloody Feast
     Melee-Supportive-Passive
     Use: 5AP
@@ -68,9 +68,9 @@ A7: Sharpen Edge
 A8: Fearsome Roar
     Skill-Offensive-Action
     Cost: 10AP
-    Range: All enemies within (3){TL} of you.
+    Range: 3sp.
     Accuracy: Skill
-    OnPass: Reduce the target's Magic evasion by r.|
+    OnPass: Reduce the target's Magic evasion by 2.|
 A9: Conjure Assassin's Blade
     Magic-Support-Action
     Use: 5Mna
