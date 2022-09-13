@@ -1,0 +1,240 @@
+[
+  {
+    "Name": "Wabbit Stew",
+    "Application": "Gain flight. Included in your Movement action, you may move in any direction.",
+    "Ingredients": "1x Wabbit Ears, 1x Wabbit Haunch",
+    "CraftCheck": "10",
+    "Value": "150"
+  },
+  {
+    "Name": "Potent Pollywog Powder",
+    "Application": "Restore 100% Focus.",
+    "Ingredients": "3x Pollywog Tails",
+    "CraftCheck": "5",
+    "Value": "25"
+  },
+  {
+    "Name": "Mandola Root Stew",
+    "Application": "Restore 5{TL} Health at the beginning of each turn until the end of combat.",
+    "Ingredients": "3x Mandola Roots.",
+    "CraftCheck": "10",
+    "Value": "45"
+  },
+  {
+    "Name": "Bonemeal",
+    "Application": "Improve restorative effects of a consumable by 50%.",
+    "Ingredients": "2x Old Bone OR 2x Bone Fragment",
+    "CraftCheck": "5",
+    "Value": "10"
+  },
+  {
+    "Name": "Saber Tooth Extract",
+    "Application": "Next attack inflicts Bleeding (1){TL}.",
+    "Ingredients": "4x Saber To",
+    "CraftCheck": "8",
+    "Value": "40"
+  },
+  {
+    "Name": "Anima",
+    "Application": "Restore 50% of your max Health or revive a dead combatant with 25 of their max Health.",
+    "Ingredients": "1x Gargoyle Gem",
+    "CraftCheck": "15",
+    "Value": "100"
+  },
+  {
+    "Name": "Nightmare Essence",
+    "Application": "Permanently increase max Health by 1 level.",
+    "Ingredients": "Nightmare Residue",
+    "CraftCheck": "18",
+    "Value": "250"
+  },
+  {
+    "Name": "Nightvision Juice",
+    "Application": "Become unaffected by lighting conditions for the next hour.",
+    "Ingredients": "Gudon Eye",
+    "CraftCheck": "10",
+    "Value": "50"
+  },
+  {
+    "Name": "Rancid Tea",
+    "Application": "Reduce the Stamina, Mana, and/or Focus cost of your next action by 5 (min 0).",
+    "Ingredients": "2x Pincer Set, 1x Pellet Sack",
+    "CraftCheck": "13",
+    "Value": "15"
+  },
+  {
+    "Name": "Divination Bones",
+    "Application": "Gain Advantage on your next 5 checks.",
+    "Ingredients": "4x Old Bone, 2x Soul Fragment",
+    "CraftCheck": "15",
+    "Value": "250"
+  },
+  {
+    "Name": "Eternal Cocktail",
+    "Application": "Become immune to KO for the next 2 turns; you can still die.",
+    "Ingredients": "8x Perma-Ice",
+    "CraftCheck": "",
+    "Value": "150"
+  },
+  {
+    "Name": "Pork Chops",
+    "Application": "Restore 80% of your max Health, and 50% of your max Stamina, Mana, and Focus.",
+    "Ingredients": "2x Wild Pork",
+    "CraftCheck": "8",
+    "Value": "45"
+  },
+  {
+    "Name": "Orange Bone Powder",
+    "Application": "During your next turn, if an attack would miss, try again once for free.",
+    "Ingredients": "3x Ootang Tooth",
+    "CraftCheck": "",
+    "Value": "25"
+  },
+  {
+    "Name": "Pill of Strength",
+    "Application": "Increase the Rank of every action by 1 until the end of the battle.",
+    "Ingredients": "2x Behemoth Spine, 1x Behemoth Horn",
+    "CraftCheck": "15",
+    "Value": "200"
+  },
+  {
+    "Name": "Potion of Flight",
+    "Application": "Appending your Movement action, you may may move in any direction until the end of the battle.",
+    "Ingredients": "3x Cockadoo Feather",
+    "CraftCheck": "12",
+    "Value": "350"
+  },
+  {
+    "Name": "Napalm",
+    "Application": "Your attacks that inflict Burning can stack until the end of combat.",
+    "Ingredients": "3x Bubba Lard",
+    "CraftCheck": "12",
+    "Value": "75"
+  },
+  {
+    "Name": "Essence of Fire",
+    "Application": "Your element is changed to Fire. You are immune to Fire-element attacks. This lasts until the end of combat.",
+    "Ingredients": "3x Fire Blob Cores",
+    "CraftCheck": "15",
+    "Value": "125"
+  },
+  {
+    "Name": "Mushroom Soup",
+    "Application": "Restore 10 of your Mana, Stamina, and Focus.",
+    "Ingredients": "2x Fungie Caps",
+    "CraftCheck": "8",
+    "Value": "20"
+  },
+  {
+    "Name": "Sprinting Paw Broth",
+    "Application": "At the beginning of combat, increase your Initiative check by 10.",
+    "Ingredients": "2x Hellhound Paws",
+    "CraftCheck": "8",
+    "Value": "75"
+  },
+  {
+    "Name": "Potion of Mystery",
+    "Application": "Roll 1d20 and divide by 2 as A. Use ability of index A for free.",
+    "Ingredients": "4x Imp Hearts",
+    "CraftCheck": "14",
+    "Value": "200"
+  },
+  {
+    "Name": "Wish",
+    "Application": "Choose one: 1) Resurrect a Dead or KO'd party member. 2) Automatically befriend a non-brilliant enemy combatant. 3) Automatically learn one of your Master abilities.",
+    "Ingredients": "10x Divine Sand, 5 Soul Fragments.",
+    "CraftCheck": "20",
+    "Value": "10,000"
+  },
+  {
+    "Name": "Essence of Morning",
+    "Application": "You have 20 Defense Points. Spend X Defense Points to reduce the Rank of any incoming attacks by X. This lasts until all Defense Points are spent.",
+    "Ingredients": "2x Morning Dew Residue",
+    "CraftCheck": "20",
+    "Value": "2,500"
+  },
+  {
+    "Name": "Essence of Evening",
+    "Application": "You have 20 Offense Points. Spend X Offense points to increase the Rank of any actions by X. This lasts until all Offense Points are spent.",
+    "Ingredients": "2x Evening Dew Residue",
+    "CraftCheck": "20",
+    "Value": "2,500"
+  },
+  {
+    "Name": "Essence of Logic",
+    "Application": "You have 100 Check Points. Spend X Check Points to increase any Checks by X. This lasts until all Logic Points have been spent.",
+    "Ingredients": "1x Aeon Residue",
+    "CraftCheck": "20",
+    "Value": "2,500"
+  },
+  {
+    "Name": "Pumpkin Pie",
+    "Application": "Divide 100% between yourself and any chosen allies in your space to regain that percentage in Health.",
+    "Ingredients": "3x Pumpkin Chunks",
+    "CraftCheck": "15",
+    "Value": "35"
+  },
+  {
+    "Name": "Tough Stew",
+    "Application": "You gain temporary Health equal to your Max Health until the end of the turn. Any damage taken is afflicted to your Temporary Health first.",
+    "Ingredients": "3x Shaolon Leg",
+    "CraftCheck": "16",
+    "Value": "100"
+  },
+  {
+    "Name": "Meatballs",
+    "Application": "Restore a total of 20 points between your Stamina, Mana, and Focus.",
+    "Ingredients": "1x Beef, 2x Milk",
+    "CraftCheck": "10",
+    "Value": "25"
+  },
+  {
+    "Name": "Pumpkin Soup",
+    "Application": "You are immune to bonus damage from elemental advantage until the end of combat.",
+    "Ingredients": "2x Pumpkin Chunks",
+    "CraftCheck": "12",
+    "Value": "40"
+  },
+  {
+    "Name": "Root Beer",
+    "Application": "Consume to restore 10% max Health.",
+    "Ingredients": "Ginger Root",
+    "CraftCheck": "5",
+    "Value": "15"
+  },
+  {
+    "Name": "Tropical Delight",
+    "Application": "Gain +5 on your next non-luck Check.",
+    "Ingredients": "2x Tropical Fruit, 1x Perma-Ice",
+    "CraftCheck": "10",
+    "Value": "45"
+  },
+  {
+    "Name": "Pollywog Souffle",
+    "Application": "Increase your Evasion scores by 5 until the start of your next turn.",
+    "Ingredients": "2x Pollywog Tail, 1x Beef",
+    "CraftCheck": "12",
+    "Value": "50"
+  },
+  {
+    "Name": "Gudon's Liver Soup",
+    "Application": "Reduce the next incoming attack's damage by half.",
+    "Ingredients": "3x Gudon Liver",
+    "CraftCheck": "12",
+    "Value": "20"
+  },
+  {
+    "Name": "Mince Fire Blob",
+    "Application": "The next action you make can be Burned (execute now and pay next turn).",
+    "Ingredients": "2x Fire Blob Hearts",
+    "CraftCheck": "13",
+    "Value": "80"
+  },
+  {
+    "Name": "",
+    "Application": "",
+    "Ingredients": "",
+    "CraftCheck": "",
+    "Value": ""
+  }
+]

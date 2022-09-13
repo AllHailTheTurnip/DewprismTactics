@@ -50,4 +50,4 @@ Consumables:--|
 Loot
 Experience:400xp|
 Gil:200|
-Loot:4x Silver Coins, 6x General Health potions, 4x Mana Potions|
+Loot:4x Silver Coins, 6x General Health potions, 4x Mana Potions, 1x Nightmare Residue|

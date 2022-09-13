@@ -57,7 +57,8 @@ Effect: After the offender's action resolves, you may immediately make an
 A4: Pole Bind
 Skill-Support-Action
 Use: 10AP+3fcs
-Effect: If your weapon does not have Extended, give it Extended 1.|
+Effect: If your weapon does not have Extended or Reach,
+give it Extended 1 or Reach 1.|
 
 A5: Craft Home
 Skill-Support-Action

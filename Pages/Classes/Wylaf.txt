@@ -53,12 +53,13 @@ Incoming damage is reduced by 1 Rank (to a min of 1).
 Your max Stamina, Mana, and Focus are halved at the beginning of combat
 and are restored at the end.|
 
-A1:Diving Strike
+A1:Charging Slash
 Skill-Offensive-Action
-Use: 10AP+3sta
-Range: 2sp
-Effect: Leap horizontally into another space within range. Make a free
-Basic attack against the target of your choice.|
+Use: 10AP+3sta+3mna
+Range: Battlefield AoE Ray
+Effect: Move in a straight path to another end of the battlefield or until
+you would hit an obstacle. Make a Basic attack against up to 1+{TL}
+enemy Combatants that were in your Ray of range as you moved.|
 
 A2:Scale Armor
 Melee-Defensive-Reaction
@@ -83,7 +84,7 @@ Ability of index I is disabled. 0 is equal to your Doctrine ability.|
 A5:Lance
 Skill-Support-Action
 Use: 3sta+3fcs
-Effect: Increase the Range of your next action by 1sp.|
+Effect: Increase the Ranged or Extended attribute of your next action by 1sp.|
 
 A6:Winged Flight
 Magic-Support-Action

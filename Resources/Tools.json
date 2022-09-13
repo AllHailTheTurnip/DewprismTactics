@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Nightweave",
+    "Application": "Choose a combatant up to 1-3sp away and move them 1sp in your direction.",
+    "Ingredients": "3x Solid Shadow",
+    "CraftCheck": "12",
+    "Value": "200"
+  },
+  {
+    "Name": "Puppet Thrall",
+    "Application": "Create a Mob-type Monster with {TL} levels in the Puppet class. It is friendly to you.",
+    "Ingredients": "8x Leather Strip, 2x Soul Gem, 3x Old Bones",
+    "CraftCheck": "15",
+    "Value": "1,000"
+  }
+]

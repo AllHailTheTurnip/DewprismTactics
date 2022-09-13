@@ -47,4 +47,4 @@ Consumables:|
 Loot
 Experience: 25|
 Gil: 25|
-Loot: 1x Bone (Material, 5gil)|
+Loot: 1x Old Bone (Material, 5gil)|

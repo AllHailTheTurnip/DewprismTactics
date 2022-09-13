@@ -49,4 +49,5 @@ Consumables:|
 Loot
 Experience:|
 Gil:|
-Loot:|
+Loot: 1x Wild Pork (Material: Meat. On Consume: Restore 1 level of Health, Worth 5gil)
+Luck 10: 1x Gamulian Tusk (Material: Mineral, Worth 50gil)|

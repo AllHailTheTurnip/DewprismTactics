@@ -51,4 +51,4 @@ Consumables:--|
 Loot
 Experience:200xp each|
 Gil:100 each|
-Loot:1x Gem (Material:Mineral, Value: 150) each|
+Loot:1x Gargoyle Gem (Material:Mineral, Value: 25) each|

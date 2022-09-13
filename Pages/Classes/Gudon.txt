@@ -43,7 +43,7 @@ Doctrine:Firebreath
 Magic-Offense-Action
 Use: 5mna+10AP
 Range: 0sp+{mgc/15}
-AoE: Beam
+AoE: Ray
 Accuracy: Melee
 Damage: (4){MgcPwr} fire|
 

@@ -1,0 +1,206 @@
+[
+  {
+    "Name": "Wabbit Ears",
+    "Type": "",
+    "RawApplication": "Restore 10% max health. Luck: 10. OnPass: You may move in any direction until the end of this turn.",
+    "Value": "50"
+  },
+  {
+    "Name": "Wabbit Haunch",
+    "Type": "Organic",
+    "RawApplication": "Add +3 to your next Luck check.",
+    "Value": "10"
+  },
+  {
+    "Name": "Milk",
+    "Type": "Organic",
+    "RawApplication": "Restore 5sta.",
+    "Value": "2"
+  },
+  {
+    "Name": "Mandola Root",
+    "Type": "Organic",
+    "RawApplication": "Remove Bleeding.",
+    "Value": "5"
+  },
+  {
+    "Name": "Saber Tooth",
+    "Type": "Mineral",
+    "RawApplication": "Luck: 10. OnPass: Next attack inflicts Bleeding 5",
+    "Value": "5"
+  },
+  {
+    "Name": "Pollywog Tail",
+    "Type": "Organic",
+    "RawApplication": "Reduce Rank of Water element damage by 1 (min 1) until end of battle.",
+    "Value": "10"
+  },
+  {
+    "Name": "Gargoyle Gem",
+    "Type": "Mineral",
+    "RawApplication": "Increase Rank of next attack by 1.",
+    "Value": "25"
+  },
+  {
+    "Name": "Nightmare Residue",
+    "Type": "Special",
+    "RawApplication": "On level-up, increase gained max-health by 50%.",
+    "Value": "50"
+  },
+  {
+    "Name": "Gudon Eye",
+    "Type": "Organic",
+    "RawApplication": "Reduce penalty of light-factors by 1 rank for 1 hour.",
+    "Value": "5"
+  },
+  {
+    "Name": "Gudon Liver",
+    "Type": "Organic",
+    "RawApplication": "Reduce damage of incoming Fire-element attacks by 1 Rank.",
+    "Value": "7"
+  },
+  {
+    "Name": "Pincer Set",
+    "Type": "Metal",
+    "RawApplication": "Increase Critical Threshold by 2 until next of battle.",
+    "Value": "10"
+  },
+  {
+    "Name": "Pellet Sack",
+    "Type": "Metal",
+    "RawApplication": "Add 25x units of Ammo to your inventory.",
+    "Value": "20"
+  },
+  {
+    "Name": "Solid Shadow",
+    "Type": "Special",
+    "RawApplication": "Luck: 10. OnPass: Relocate to anywhere on the battlefield.",
+    "Value": "50"
+  },
+  {
+    "Name": "Leather Strip",
+    "Type": "Fabric",
+    "RawApplication": "Undo Broken or Destroyed status from a Weapon.",
+    "Value": "5"
+  },
+  {
+    "Name": "Soul Gem",
+    "Type": "Mineral",
+    "RawApplication": "Restore 100% mana",
+    "Value": "50"
+  },
+  {
+    "Name": "Old Bone",
+    "Type": "Mineral",
+    "RawApplication": "None",
+    "Value": "2"
+  },
+  {
+    "Name": "Soul Fragment",
+    "Type": "Special",
+    "RawApplication": "Restore 10 Health to a neutralized allie in the same space as you.",
+    "Value": "50"
+  },
+  {
+    "Name": "Perma-Ice",
+    "Type": "Mineral",
+    "RawApplication": "Remove Burning.",
+    "Value": "25"
+  },
+  {
+    "Name": "Wild Pork",
+    "Type": "Organic",
+    "RawApplication": "Restore 10% of your max Health.",
+    "Value": "5"
+  },
+  {
+    "Name": "Ootang Tooth",
+    "Type": "Mineral",
+    "RawApplication": "Increase Critical Threshold by 1 until next turn. Can be stacked.",
+    "Value": "3"
+  },
+  {
+    "Name": "Behemoth Spine",
+    "Type": "Organic",
+    "RawApplication": "Reduce AP cost of Sprint by 5AP.",
+    "Value": "30"
+  },
+  {
+    "Name": "Behemoth Horn",
+    "Type": "Mineral",
+    "RawApplication": "Increase {MlePwr} by 1 Level for the duration of the battle.",
+    "Value": "25"
+  },
+  {
+    "Name": "Cockadoo Feather",
+    "Type": "Organic",
+    "RawApplication": "None.",
+    "Value": "1"
+  },
+  {
+    "Name": "Bubba Lard",
+    "Type": "Organic",
+    "RawApplication": "Add Fire to weapon's element until end of battle.",
+    "Value": "10"
+  },
+  {
+    "Name": "Fire Blob Core",
+    "Type": "Special",
+    "RawApplication": "Change your Element to Fire until end of battle.",
+    "Value": "35"
+  },
+  {
+    "Name": "Fungie Cap",
+    "Type": "Organic",
+    "RawApplication": "Reduce taken damage of next attack by 10%",
+    "Value": "5"
+  },
+  {
+    "Name": "Hellhound Paw",
+    "Type": "Organic",
+    "RawApplication": "Reduce cost of next Movement action by 5AP. Regain 5sta.",
+    "Value": "50"
+  },
+  {
+    "Name": "Imp Heart",
+    "Type": "Special",
+    "RawApplication": "Increase your max Mana, Stamina, and Focus by 10 for the duration of the battle.",
+    "Value": "35"
+  },
+  {
+    "Name": "Divine Sand",
+    "Type": "Mineral",
+    "RawApplication": "Increase next Luck check by 10.",
+    "Value": "100"
+  },
+  {
+    "Name": "Ginger Root",
+    "Type": "Wood",
+    "RawApplication": "Restore 2fcs.",
+    "Value": "1"
+  },
+  {
+    "Name": "Uncooked Monster Meat",
+    "Type": "",
+    "RawApplication": "Restore 5 Health.",
+    "Value": "5"
+  },
+  {
+    "Name": "Beef",
+    "Type": "Organic",
+    "RawApplication": "Restore 5 Health, 1 Stamina, 1 Mana, and 1 Focus.",
+    "Value": "12"
+  },
+  {
+    "Name": "Tropical Fruit",
+    "Type": "",
+    "RawApplication": "Restore 2 Stamina, 2 Mana, and 2 Focus.",
+    "Value": "10"
+  },
+  {
+    "Name": "",
+    "Type": "",
+    "RawApplication": "",
+    "Value": ""
+  }
+]

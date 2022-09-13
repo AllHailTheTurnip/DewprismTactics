@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dewprism Tactics - Craftables</title>
+        <link rel="stylesheet" href="../Resources/GeneralStyle.css">
+        <style>
+            table {
+                width: inherit;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            tbody td:first-child {
+                text-align: center;
+            }
+
+        </style>
+        <script src="../Resources/PrintConsumables.js"></script>
+        <script src="../Resources/PrintMaterialsList.js"></script>
+    </head>
+    <body>
+        <a href="../index.html" class="Menu">Return to Index</a>
+        <h1>Crafting and Materials</h1>
+        As you collect materials over the course of your adventures,
+        you'll reach the point that you can begin crafting new items from them.
+        <p>Food, potions, weapons, Ability Scrolls, and even allies can
+            be made through crafting. In fact, crafting will become a useful
+            allie in your adventuring career.
+        </p>
+        <div>
+            <h2>
+                Index
+            </h2>
+            <ul>
+                <li>
+                    <a href="#CraftablesMaterialsBody">Materials</a>
+                </li>
+                <li>
+                    <a href="#CraftablesConsumablesListBody">Consumables</a>
+                </li>
+                <li>
+                    <a href="#CraftablesToolsListBody">Tools</a>
+                </li>
+                <li>
+                    <a href="#CraftablesScrollsListBody">Scrolls</a>
+                </li>
+                <li>
+                    <a href="#CraftablesWeaponsListBody">Weapons</a>
+                </li>
+            </ul>
+        </div>
+        <!-- -->
+        <h2>How to Craft</h2>
+        Crafting can be a rewarding and convenient means of acquiring useful
+        items to use along your journey. However, the process of gathering
+        materials
+        and processing them together can be just as difficult. The following
+        section
+        will teach you how to craft and how best go about it.
+        <p>
+            Any Materials on your person can be consumed raw for their base
+            effects.
+            However, they won't be as useful as they would be as ingredients. To
+            follow a crafting recipe, simply acquire the indicated amount of
+            ingredients
+            and find a place outside of combat to make a proper Craft Check.
+        </p>
+        <p>
+            Proper crafting locations include towns, settlements, and other safe
+            places.
+            If you're out adventuring, then your base camp will do. However,
+            crafting at night can be dangerous and may draw monsters.
+            If you're in a dungeon, then you must have cleared out all the
+            enemies
+            in the immediate area, found a safe zone, or face a Small Battle
+            first.
+        </p>
+        <p>
+            First, roll 1d20 and add your Craft bonus. If you have any tools
+            that
+            can improve your crafting, add those bonuses too. If your check meets
+            or exceeds the Difficulty score, you pass. And the better you do,
+            the better the results.
+            Likewise, the worse you do, the worse the results.
+        </p>
+        <p>
+
+        </p>
+        <hr>
+        <h2>
+            Materials
+        </h2>
+        <table>
+            <thead>
+                <th style="width: 10%">Name</th>
+                <th>Raw Consumption</th>
+                <th style="width: 10%">Value</th>
+            </thead>
+            <tbody id="CraftablesMaterialsBody">
+
+            </tbody>
+        </table>
+        <!-- -->
+        <hr>
+        <h2>Consumables</h2>
+        <table>
+            <thead>
+                <th style="width: 10%">Name</th>
+                <th>Consumption</th>
+                <th style="width: 20%">Ingredients</th>
+                <th style="width: 10%">Craft Check</th>
+                <th style="width: 10%">Value</th>
+            </thead>
+            <tbody id="CraftablesConsumablesListBody">
+
+            </tbody>
+        </table>
+        <!-- -->
+        <hr>
+        <h2>Tools</h2>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Application</th>
+                <th>Ingredients</th>
+                <th>Craft Check</th>
+            </thead>
+            <tbody id="CraftablesToolsListBody">
+
+            </tbody>
+        </table>
+        <!-- -->
+        <hr>
+        <h2>Ability Scrolls</h2>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Application</th>
+                <th>Ingredients</th>
+                <th>Craft Check</th>
+            </thead>
+            <tbody id="CraftablesScrollsListBody">
+
+            </tbody>
+        </table>
+        <!-- -->
+        <hr>
+        <h2>Weapons</h2>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Application</th>
+                <th>Ingredients</th>
+                <th>Craft Check</th>
+            </thead>
+            <tbody id="CraftablesWeaponsListBody">
+
+            </tbody>
+        </table>
+    </body>
+    <footer>
+        <script>
+            InsertConsumablesList();
+            InsertMaterialsList();
+        </script>
+    </footer>
+</html>

@@ -59,7 +59,7 @@ Tools:
 Consumables:
 Gil:
 Materials:
-- Meat:
+- Organic:
 - Wood:
 - Fabric:
 - Metal:
