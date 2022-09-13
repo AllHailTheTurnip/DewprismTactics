@@ -48,7 +48,7 @@ Magic-Offensive-Action
 Use: 5AP+3mna+3fcs
 Range: 1sp
 Accuracy: Skill
-OnHit: (2){FcsPwr}|
+OnHit: (2){SklPwr}|
 
 A3: Flight
 Magic-Support-Action
