@@ -90,7 +90,7 @@ effect lasts until the start of your next turn.|
 A9: Surface Storm
 Magic-Offensive-Action
 Use: 10AP
-Effect: Gain Aggro.|
+Effect: Gain and hold Aggro for the next 3 turns.|
 
 MA1:|
 MA2:|
