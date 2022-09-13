@@ -198,6 +198,12 @@
     "Value": "10"
   },
   {
+    "Name": "Whale Blubber",
+    "Type": "",
+    "RawApplication": "Lose 5 Health.",
+    "Value": "10"
+  },
+  {
     "Name": "",
     "Type": "",
     "RawApplication": "",
