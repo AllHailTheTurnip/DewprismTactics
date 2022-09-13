@@ -43,7 +43,7 @@
   },
   {
     "Name": "Nightmare Essence",
-    "Application": "Permanently increase max Health by 1 level.",
+    "Application": "Permanently increase max Health by current Class's base Health.",
     "Ingredients": "Nightmare Residue",
     "CraftCheck": "18",
     "Value": "250"
