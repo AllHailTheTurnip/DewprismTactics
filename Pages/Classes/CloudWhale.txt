@@ -50,7 +50,7 @@ Range: 1sp
 Accuracy: Skill
 OnHit: (2){SklPwr}|
 
-A3: Flight
+A3: Glide
 Magic-Support-Action
 Use: 3mna
 Effect: Ignore Difficult Terrain for the duration

@@ -98,7 +98,7 @@ Skill-Offensive-Action
 Cost: 10AP
 Range: 0sp
 Accuracy: Skill
-Dmg: (2){SklPwr}
+Dmg: (2){SklPwr} neutral.
 Luck: 10
 OnPass: Target becomes Prone.|
 

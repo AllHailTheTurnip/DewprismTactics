@@ -20,7 +20,7 @@ Focus: 20|
 Scores
 Initiative: 6|
 Carry: 15u|
-Element: Wind/Water|
+Element: Wind/Lightning|
 MeleeDamage: 42, Crit: 84|
 MagicDamage: 48, Crit: 96|
 SkillDamage: 30, Crit: 60|

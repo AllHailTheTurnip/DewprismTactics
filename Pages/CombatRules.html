@@ -404,7 +404,7 @@
     </h4>
     If you fall into a bottomless pit, fear not! for you only take a quarter of your max health
     in damage, and if you survive, you'll return to the battlefield at your starting
-    position on your next turn.
+    position when battle began on your next turn.
     <br><sub>Lava counts as a bottomless pit.</sub><br>
 
     <h4>
@@ -907,19 +907,17 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         Evade
     </h3>
     Some abilities feature the Evade attribute, which is like the opposing version of Accuracy.
-    Instead of the offender making the check, the defender makes a check instead. If their check
-    meets or exceeds the difficulty score, then they evade the attack; otherwise, they take damage.
+    Instead of the offender making the check, the defender makes a self-check. If their check
+    meets or falls below the difficulty score, then they evade the attack; otherwise, they take damage.
     <p>
-        Typically, the Evade attribute is listed as <i>Evade: [10+Score:Accuracy]</i>, where
-        Score:Accuracy is equal to the Accuracy bonus of your acting score (Melee, Skill, Magic).
-        Every targeted combatant must make an accuracy check by rolling 1d20 plus their
-        own Accuracy score. Rolling a nat 1 counts as a Crit for the attack.
+        Make a self-check, rolling below your specified evasion while subtracting
+        the offender's acting Accuracy bonus from it.
+        Rolling a nat 20 counts as a Crit for the attack.
     </p>
     <p>
-        For example, you make an AoE attack that has Evade: Melee, where you
-        take 10 and add your Melee Accuracy bonus of +2. Now every combatant
-        must roll 1d20, adding their own Melee Accuracy bonuses, and try to beat
-        it.
+        For example, you make an AoE attack that has Evade: Melee, where your
+        target takes their Melee Evasion score (10) and subtracts your Melee Accuracy score (2),
+        and they roll 1d20, hoping to get below 8.
     </p>
 
     <h3>
