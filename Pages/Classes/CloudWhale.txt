@@ -18,7 +18,7 @@ Focus: 10|
 SCORES
 Initiative: 6|
 Carry: 15u|
-Element: Wind/Water|
+Element: Wind/Electric|
 
 STATS
 Melee: (Power: 5, Evasion: 6, Accuracy: 0)|
