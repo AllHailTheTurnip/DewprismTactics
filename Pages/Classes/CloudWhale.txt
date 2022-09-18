@@ -28,18 +28,31 @@ Skill: (Power: 3, Evasion: 12, Accuracy: 0)|
 Abilities
 Doctrine: Vortex
 Magic-Offensive-Action
-Use: 30AP!+5mna
-Range: 3sp cone
+Choose one: Mode A or Mode B.
+Mode A:
+Use: 20AP!+5mna.
+Range: 3sp cone.
 Effect: Do this (3) times: every targeted combatant must spend 3sta or else
-be moved 1sp toward you. If they enter your space and can't pay the stamina,
-then they are consumed.
-Consumed combatants take (2){MgcPwr} water damage. They respawn as though
-they'd fallen down a bottomless pit.|
+be moved 1sp toward you. If they are pulled into your space or are already in it,
+and they can't pay the stamina cost, then they are consumed.
+Consumed combatants take (2){MgcPwr} damage.
+
+Mode B:
+Use: 20AP+10mna
+Range: 3sp circle.
+Effect: Do this (3) times: every targeted combatant must spend 5sta or else
+be moved 1sp toward you. If they are pulled into your space or are already in it,
+and they can't pay the stamina cost, then they are consumed.
+Consumed combatants take (3){MgcPwr} damage.
+
+Conclusion:
+Regain 10% of the consumed max health of any combatants consumed.
+They respawn as though they'd fallen down a bottomless pit.|
 
 A1: Tidal Wave
 Magic-Offensive-Action
 Use: 10AP+7mna
-Range: Battlefield
+Range: Battlefield AoE
 Evade: Melee
 OnHit: Inflict {1}MgcPwr damage.|
 
@@ -54,7 +67,7 @@ A3: Glide
 Magic-Support-Action
 Use: 3mna
 Effect: Ignore Difficult Terrain for the duration
-of the round.|
+of the round. First Movement action costs 5AP less (min 0).|
 
 A4: Fog
 Magic-Defensive-Action
@@ -64,11 +77,13 @@ Effect: Create a Fog token. All allies sharing the Fog's space gain Very Light C
 If they already have cover, improve their Cover's luck checks by 5.
 The Fog token expires after three rounds have passed.|
 
-A5: Call
-Skill-Support-Action
-Use: 10AP+3fcs
-Range: 2sp
-Effect: Allies within range may move 1sp for free towards your position.|
+A5: Monsoon
+Magic-Offensive-Action
+Use: 10AP+3mna
+Range: 2sp AoE
+Effect: Choose a space within range to target.
+All enemy combatants within the targeted space make an Evade check.
+On failure, they take (2){MgcPwr} water damage.|
 
 A6: Dive
 Melee-Support-Action

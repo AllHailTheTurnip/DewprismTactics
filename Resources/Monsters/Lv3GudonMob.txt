@@ -1,5 +1,5 @@
 Name: Gudon|
-Type: Grunt|
+Type: Mob|
 Level: 3|
 Intelligence: Sapient-Leader/Guard/Soldier|
 PrimaryClass:Gudon|

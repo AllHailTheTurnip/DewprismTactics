@@ -1,0 +1,53 @@
+Name: Wylaf the Dragon|
+Type: Boss|
+Level: 7|
+Intelligence: Brilliant|
+PrimaryClass: Wylaf|
+
+Biography
+Description: An ancient dragon that has ruled over Death Mountain for over a 1,000 years.
+He is surrounded by legend - most of all, that he has never been defeated before.|
+
+Appearance: An enormous green-scaled dragon with vast wingspans and a long tail.|
+
+Behavior: Eternally wise and eternally prudent. He no longer meddles with mortal
+affairs, but instead deals wisdom to those strong enough to survive his mountain.|
+
+Vitals
+Health: 567|
+Mana: 41|
+Stamina: 50|
+Focus: 41|
+
+Scores
+Initiative: 10|
+Carry: 10u|
+Element: Fire|
+MeleeDamage: 224, Crit: 280|
+MagicDamage: 56, Crit: 112|
+SkillDamage: 175, Crit: 210|
+
+Stats
+Melee: (Power: 56, Evasion: 5, Accuracy: +2)|
+Magic: (Power: 56, Evasion: 8, Accuracy: 0)|
+Skill: (Power: 35, Evasion: 8, Accuracy: +2)|
+
+Talents
+Craft: 1|
+Harvest: 2|
+Scholar: 8|
+Navigate: 6|
+Acrobatic: 8|
+Arts: -1|
+
+Equipment
+PrimaryWeapon: Sharp Teeth (Type: Melee, WC: H, Use: 10AP+3sta, Rank: 4, Wt: 4u; Natural, Bleeding (1){SklPwr}|
+SecondaryWeapon: Immense Tail (Type: Skill, WC: 5, Use: 10AP+5sta, Rank: 5, Wt: 5u; Natural, Push 2)|
+Tools:|
+Consumables:|
+
+Loot
+Experience: 400|
+Gil: 400|
+Loot: 2x Dragon Scale (Material. Reduce incoming damage by 5 until end of battle. Value: 10)
+Luck 10: Dragon Tooth (Material. Increase Critical Threshold by 5 until end of battle. Value: 25)|

@@ -1,0 +1,52 @@
+Name:Fire Blob|
+Type: Grunt|
+Level: 7|
+Intelligence: Instinctive|
+PrimaryClass: Fire Blob|
+
+Biography
+Description: One of the enemies encountered along Raging Mountain. It lives in the volcanic passages
+and sometimes comes out in search of food.|
+
+Appearance: A hulking mass of animated magma. It has two cindery eyes and a gaping mouth.|
+
+Behavior: It stupidly slugs around in search of easy prey. Because of its slow speed,
+it uses its radiant heat to kill unsuspecting prey.|
+
+Vitals
+Health: 63|
+Mana: 41|
+Stamina: 50|
+Focus: 22|
+
+Scores
+Initiative: 0|
+Carry: 15u|
+Element: Fire|
+MeleeDamage: 63, Crit: 84|
+MagicDamage: 14, Crit: 28|
+SkillDamage: 14, Crit: 28|
+
+Stats
+Melee: (Power: 21, Evasion: 8, Accuracy: +3)|
+Magic: (Power: 14, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 14, Evasion: 6, Accuracy: +1)|
+
+Talents
+Craft: NA|
+Harvest: -3|
+Scholar: NA|
+Navigate: NA|
+Acrobatic: -5|
+Arts: NA|
+
+Equipment
+PrimaryWeapon: Gaping Maw (Type: Melee, WC: M, Use: 10AP, Rank: 3; Natural)|
+SecondaryWeapon:|
+Tools:|
+Consumables:|
+
+Loot
+Experience: 25|
+Gil: 25|
+Loot: 1x Fire Blob Core (Material. Change your Element to Fire until end of battle. Value: 35)|

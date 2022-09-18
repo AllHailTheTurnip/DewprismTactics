@@ -1,80 +1,37 @@
 [
   {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": ""
+    "Name": "Lucky Charm",
+    "Application": "Once per battle, increase any Check by (1)5.",
+    "Ingredients": "1x Wabbit's Foot",
+    "CraftCheck": "15",
+    "Value": "550"
   },
   {
     "Name": "",
     "Application": "",
     "Ingredients": "",
-    "CraftCheck": ""
+    "CraftCheck": "",
+    "Value": ""
   },
   {
     "Name": "",
     "Application": "",
     "Ingredients": "",
-    "CraftCheck": ""
+    "CraftCheck": "",
+    "Value": ""
   },
   {
     "Name": "",
     "Application": "",
     "Ingredients": "",
-    "CraftCheck": ""
+    "CraftCheck": "",
+    "Value": ""
   },
   {
     "Name": "",
     "Application": "",
     "Ingredients": "",
-    "CraftCheck": ""
-  },
-  {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": ""
-  },
-  {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": ""
-  },
-  {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": ""
-  },
-  {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": ""
-  },
-  {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": ""
-  },
-  {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": ""
-  },
-  {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": ""
-  },
-  {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": ""
+    "CraftCheck": "",
+    "Value": ""
   }
 ]

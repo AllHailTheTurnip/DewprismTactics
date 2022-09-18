@@ -45,6 +45,6 @@ Tools:|
 Consumables:|
 
 Loot
-Experience:|
-Gil:|
-Loot:|
+Experience: 200|
+Gil: 200|
+Loot: Stardust (Material. Make a free Movement action followed by a free Basic attack action. Value: 25gil)|

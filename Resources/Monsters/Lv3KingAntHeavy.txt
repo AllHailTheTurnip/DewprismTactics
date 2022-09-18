@@ -1,5 +1,5 @@
 Name:King Ant|
-Type:Mob|
+Type:Heavy|
 Level:3|
 Intelligence:Drone-Soldier|
 PrimaryClass:King Ant|

@@ -31,7 +31,7 @@ function onLoadMonster() {
     SetHTMLByID("Name");
     SetHTMLByID("Type")
     SetHTMLByID("Level");
-    SetHTMLByID("Code");
+    SetHTMLByID("Intelligence");
     SetHTMLByID("PrimaryClass");
     SetHTMLByID("Description");
     SetHTMLByID("Appearance");

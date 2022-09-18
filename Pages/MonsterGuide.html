@@ -1,881 +1,1099 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Dewprism Tactics - Monster Guide</title>
-    <link href="../Resources/GeneralStyle.css" rel="stylesheet">
-    <script src="../Resources/TextAttributeLoader.js"></script>
-    <style>
-        div.Index {
-            width: 45%;
-            float: left;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <title>Dewprism Tactics - Monster Guide</title>
+        <link href="../Resources/GeneralStyle.css" rel="stylesheet">
+        <script src="../Resources/TextAttributeLoader.js"></script>
+        <style>
+            div.Index {
+                width: 45%;
+                float: left;
+            }
 
-        div.About {
-            width: 45%;
-            float: right;
-        }
+            div.About {
+                width: 45%;
+                float: right;
+            }
 
-        button {
-            font-family: Dewprism;
-            background: transparent;
-            border-color: transparent;
-            font-size: inherit;
-            color: blue;
-        }
+            button {
+                font-family: Dewprism;
+                background: transparent;
+                border-color: transparent;
+                font-size: inherit;
+                color: blue;
+            }
 
-    </style>
-</head>
-<body>
-<a href="../index.html" class="Menu">Return to Index</a>
+        </style>
+    </head>
+    <body>
+        <a href="../index.html" class="Menu">Return to Index</a>
 
-<h1>Monster Guide</h1>
-<div class="Side">
-    This is the Monster Guide - an in-depth explanation of monster mechanics, how to use them, and a listing
-    of their basic scores. Each monster has a level assigned to them, including scores that reflect
-    that level. They also have a class and will have access to the abilities of that class - of which
-    can be found in the <a href="ClassesDir.html">classes</a> section.
-</div>
-<div class="Wide">
-    <h2>
-        Intelligence
-    </h2>
-    The world is full of dangerous creatures, and while many of them might end up as your opponents, it should be
-    noted that not all creatures think and act same. They each possess varying degrees of intelligence.
-    In the treasure hunting field, this is referred to as their Intelligence.
-    <p>
-        Their intelligence indicates general ability adapt to change, such as how they go about plans,
-        when they'll retreat, and who they'll attack first.
-    </p>
+        <h1>Monster Guide</h1>
+        <div class="Side">
+            This is the Monster Guide - an in-depth explanation of monster
+            mechanics, how to use them, and a listing
+            of their basic scores. Each monster has a level assigned to them,
+            including scores that reflect
+            that level. They also have a class and will have access to the
+            abilities of that class - of which
+            can be found in the <a href="ClassesDir.html">classes</a> section.
+        </div>
+        <div class="Wide">
+            <h2>
+                Intelligence
+            </h2>
+            The world is full of dangerous creatures, and while many of them
+            might end up as your opponents, it should be
+            noted that not all creatures think and act same. They each possess
+            varying degrees of intelligence.
+            In the treasure hunting field, this is referred to as their
+            Intelligence.
+            <p>
+                Their intelligence indicates general ability adapt to change,
+                such as how they go about plans,
+                when they'll retreat, and who they'll attack first.
+            </p>
 
-    Degrees of Intelligence.
-    <ul>
-        <li>
-            Drone - Stupid and incapable of reason or tactics beyond just attacking.<br>
-            <i>King Ants, Marionettes, Mandolas, Pumpkins.</i>
-        </li>
-        <li>
-            Instinctive - Has a sense of self-preservation and can recognize the threat of a foe
-            by their shape, size, and movements.<br>
-            <i>Pollywogs, Ootangs, Wabbits.</i>
-        </li>
-        <li>
-            Sapient - Possesses emotional and psychological intelligence to make risk/reward
-            value judgements; can rationalize if what they're fighting for is worth protecting.
-            <i>Bubbas, Witches, Specters, Gamulians, humans. </i>
-        </li>
-        <li>
-            Wise - Can devise strategies to make the fight as easy for them as possible, weighing
-            expended effort versus accomplished work.<br>
-            <i>Witches, Humans in general, Bell, Duke, Psycho Master.</i>
-        </li>
-        <li>
-            Brilliant - Can actively invent new strategies, tactics, and plans, as if viewing the battle
-            from a top-down view, intuitively reading opponents and accurately guessing their every move.<br>
-            <i>Atenacous, Wylaf, Phantom Valen, Doll Master.</i>
-        </li>
-    </ul>
-
-    <h2>
-        Decision Making and Aggro
-    </h2>
-    Depending on their Intelligence, characters can generally predict what a combatant will do during a fight.
-    The more intelligent a foe is, the more likely it is to make the intelligent decision, or
-    more accurately, the one that makes your life harder. If they fail that check, then they'll
-    go for the Aggressor - the player with the highest Aggro.
-    <p>
-        At the beginning of each turn, the DM makes a check to help determine the intelligence of their actions
-        for the round.
-    </p>
-    <ul>
-        <li>
-            <b>Drone</b>. No check made; always goes for the Aggressor.
-        </li>
-        <li>
-            <b>Instinctive</b>. 1d20+4 > 20; upon success, an intelligent decision is made.
-        </li>
-        <li>
-            <b>Sapient</b>. 1d20+8 > 20; upon success, an intelligent decision is made.
-        </li>
-        <li>
-            <b>Wise</b>. 1d20+12 > 20; upon success, an intelligent decision is made.
-        </li>
-        <li>
-            <b>Brilliant</b>. No check made; always the most intelligent decision.
-        </li>
-    </ul>
-    <p>
-        As a reminder: a creature's intelligence describes its ability to consistently and properly
-        deviate from its own role in order to best serve the goal of its team rather than just
-        itself. More intelligent creatures will behave more flexibly, while less intelligent creatures
-        behave more predictably.
-    </p>
-    <p>
-        As the stakes rise, you'll fight many creatures - monsters and people - who are more than
-        willing to sacrifice their lives if it means just a chance of stopping you taking what is most precious to
-        them or others.
-    </p>
-
-    <h2>
-        Monster Types
-    </h2>
-    Over the years, treasure hunters have come across monsters of all shapes and sizes, some larger
-    than others. To help categorize these differences, they coined a set of terms that just seemed to
-    stick. The bigger they are,
-    the stronger they'll be. But keep in mind, the bigger a monster becomes, the more likely they'll
-    become the alpha of their group.
-    <p>
-        By default, all monsters are typed as mobs. To change its type, take the template below and apply
-        <b>Factor and Replace</b> (FaR) as necessary.
-    </p>
-    <div>
-        Factor and Replace X (FaR)<br>
-        Estimate how many 5's factor into the value, then recalculate the value where 5 is replace with X.
-    </div>
-
-    <ul>
-        <li>
-            <b>Grunt</b><br>
+            Degrees of Intelligence.
             <ul>
                 <li>
-                    Vitals: FaR 1.
+                    Drone - Stupid and incapable of reason or tactics beyond
+                    just attacking.<br>
+                    <i>King Ants, Marionettes, Mandolas, Pumpkins.</i>
                 </li>
                 <li>
-                    Power Scores: Reduce by 2.
+                    Instinctive - Has a sense of self-preservation and can
+                    recognize the threat of a foe
+                    by their shape, size, and movements.<br>
+                    <i>Pollywogs, Ootangs, Wabbits.</i>
                 </li>
                 <li>
-                    Loot and Experience: Divide by 4.
+                    Sapient - Possesses emotional and psychological intelligence
+                    to make risk/reward
+                    value judgements; can rationalize if what they're fighting
+                    for is worth protecting.
+                    <i>Bubbas, Witches, Specters, Gamulians, humans. </i>
+                </li>
+                <li>
+                    Wise - Can devise strategies to make the fight as easy for
+                    them as possible, weighing
+                    expended effort versus accomplished work.<br>
+                    <i>Witches, Humans in general, Bell, Duke, Psycho
+                        Master.</i>
+                </li>
+                <li>
+                    Brilliant - Can actively invent new strategies, tactics, and
+                    plans, as if viewing the battle
+                    from a top-down view, intuitively reading opponents and
+                    accurately guessing their every move.<br>
+                    <i>Atenacous, Wylaf, Phantom Valen, Doll Master.</i>
                 </li>
             </ul>
 
-            (Be sure to round-down.)
-        </li>
-        <li>
-            <b>Mob</b><br>
+            <h2>
+                Decision Making and Aggro
+            </h2>
+            Depending on their Intelligence, characters can generally predict
+            what a combatant will do during a fight.
+            The more intelligent a foe is, the more likely it is to make the
+            intelligent decision, or
+            more accurately, the one that makes your life harder. If they fail
+            that check, then they'll
+            go for the Aggressor - the player with the highest Aggro.
+            <p>
+                At the beginning of each turn, the DM makes a check to help
+                determine the intelligence of their actions
+                for the round.
+            </p>
             <ul>
                 <li>
-                    Vitals: FaR 3
+                    <b>Drone</b>. No check made; always goes for the Aggressor.
                 </li>
                 <li>
-                    Power Scores: Reduce by 1.
+                    <b>Instinctive</b>. 1d20+4 > 20; upon success, an
+                    intelligent decision is made.
                 </li>
                 <li>
-                    Loot and Experience: x1
+                    <b>Sapient</b>. 1d20+8 > 20; upon success, an intelligent
+                    decision is made.
+                </li>
+                <li>
+                    <b>Wise</b>. 1d20+12 > 20; upon success, an intelligent
+                    decision is made.
+                </li>
+                <li>
+                    <b>Brilliant</b>. No check made; always the most intelligent
+                    decision.
                 </li>
             </ul>
-        </li>
-        <li>
-            <b>Heavy</b>
+            <p>
+                As a reminder: a creature's intelligence describes its ability
+                to consistently and properly
+                deviate from its own role in order to best serve the goal of its
+                team rather than just
+                itself. More intelligent creatures will behave more flexibly,
+                while less intelligent creatures
+                behave more predictably.
+            </p>
+            <p>
+                As the stakes rise, you'll fight many creatures - monsters and
+                people - who are more than
+                willing to sacrifice their lives if it means just a chance of
+                stopping you taking what is most precious to
+                them or others.
+            </p>
+
+            <h2>
+                Monster Types
+            </h2>
+            Over the years, treasure hunters have come across monsters of all
+            shapes and sizes, some larger
+            than others. To help categorize these differences, they coined a set
+            of terms that just seemed to
+            stick. The bigger they are,
+            the stronger they'll be. But keep in mind, the bigger a monster
+            becomes, the more likely they'll
+            become the alpha of their group.
+            <p>
+                By default, all monsters are typed as mobs. To change its type,
+                take the template below and apply
+                <b>Factor and Replace</b> (FaR) as necessary.
+            </p>
+            <div>
+                Factor and Replace X (FaR)<br>
+                Estimate how many 5's factor into the value, then recalculate
+                the value where 5 is replace with X.
+            </div>
+
             <ul>
                 <li>
-                    Vitals: Do Not Adjust.
+                    <b>Grunt</b><br>
+                    <ul>
+                        <li>
+                            Vitals: FaR 1.
+                        </li>
+                        <li>
+                            Power Scores: Reduce by 2.
+                        </li>
+                        <li>
+                            Loot and Experience: Divide by 4.
+                        </li>
+                    </ul>
+
+                    (Be sure to round-down.)
                 </li>
                 <li>
-                    Power Scores: Do Not Adjust.
+                    <b>Mob</b><br>
+                    <ul>
+                        <li>
+                            Vitals: FaR 3
+                        </li>
+                        <li>
+                            Power Scores: Reduce by 1.
+                        </li>
+                        <li>
+                            Loot and Experience: x1
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    Loot and Experience: x1.5
+                    <b>Heavy</b>
+                    <ul>
+                        <li>
+                            Vitals: Do Not Adjust.
+                        </li>
+                        <li>
+                            Power Scores: Do Not Adjust.
+                        </li>
+                        <li>
+                            Loot and Experience: x1.5
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Miniboss</b><br>
+                    <ul>
+                        <li>
+                            Vitals: FaR 7
+                        </li>
+                        <li>
+                            Power Score: Increase by 1.
+                        </li>
+                        <li>
+                            Loot and Experience: x2
+                        </li>
+                        <li>
+                            Access to one of their class's listed Master
+                            Abilities.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Boss</b><br>
+                    <ul>
+                        <li>
+                            Vitals: FaR 9.
+                        </li>
+                        <li>
+                            Power Score: Increase by 2.
+                        </li>
+                        <li>
+                            Loot and Experience: x4
+                        </li>
+                        <li>
+                            Access to two of their class's listed Master
+                            Abilities.
+                        </li>
+                    </ul>
                 </li>
             </ul>
-        </li>
-        <li>
-            <b>Miniboss</b><br>
+
+            <h2>Quirks</h2>
+            No two monsters are typically ever the same. In fact, most monsters
+            possess
+            deviations called Quirks that serve to modify their stats in one way
+            or another.
+            <p>Quirks can help define a monster's weakness or their role in a
+                pack.
+                Moreover, they serve to make scenarios more complicated for the
+                players.</p>
+            <p>It's normal for every monster in a fight to have a quirk, but
+                it's also
+                okay if you want to make it fewer, to make it more special. </p>
+            <p>To give a monster a Quirk, roll 1d20 from below table. </p>
+            <ol style="columns: 2">
+                <li>
+                    Springloaded<br>
+                    Gains +10 to Initiative.
+                </li>
+                <li>
+                    Brutal<br>
+                    Increase MlePwr by one level.
+                </li>
+                <li>
+                    Priestly<br>
+                    Increase MgcPwr by one level.
+                </li>
+                <li>
+                    Clever<br>
+                    Increase SklPwr by one level.
+                </li>
+                <li>
+                    Oversized<br>
+                    Increase Health by one level.
+                </li>
+                <li>
+                    Docile<br>
+                    Befriend checks gain +5.
+                </li>
+                <li>
+                    Bloodthirsty<br>
+                    Does not make Intelligence checks.
+                </li>
+                <li>
+                    Hyper<br>
+                    Increase Stamina by 10.
+                </li>
+                <li>
+                    Vigilant<br>
+                    Increase Focus by 10.
+                </li>
+                <li>
+                    Arcane<br>
+                    Increase Mana by 10.
+                </li>
+                <li>
+                    Royal<br>
+                    Element is Noble.
+                </li>
+                <li>
+                    Protected<br>
+                    Gains +5 to Evade checks.
+                </li>
+                <li>
+                    Eagle Eyes<br>
+                    Actions gain +1 to Range.
+                </li>
+                <li>
+                    Rabid<br>
+                    All attacks inflict Poison {TL}.
+                </li>
+                <li>
+                    Blessed<br>
+                    First {TL} checks have Advantage.
+                </li>
+                <li>
+                    High Vitality<br>
+                    Regains 10% max health at the beginning of each turn.
+                </li>
+                <li>
+                    Wealthy<br>
+                    Drops 2x loot.
+                </li>
+                <li>
+                    Exertion<br>
+                    +5AP for all actions. Reduce start Stamina, Mana, and Focus
+                    by 50%.
+                </li>
+                <li>
+                    Higher Intelligence<br>
+                    Intelligence checks gain +5.
+                </li>
+                <li>
+                    Lucky<br>
+                    +5 to all Luck checks.
+                </li>
+
+            </ol>
+
+            <h2>
+                Loot and Experience
+            </h2>
+            By the time combat ends and you stand victorious,
+            every enemy that initially challenged you is considered defeated and
+            you are rewarded an amount
+            of experience points.
+            <p>
+                The same applies for loot. Any materials, equipment, gil, and
+                other goodies dropped
+                either upon defeat - either when they die, are knocked out, or
+                while they run away.
+            </p>
+            <p>
+                Loot doesn't technically exist to be collected until
+                <i>after</i> the battle has ended.
+                At that point, loot (and experience, somehow) is gathered into a
+                pile. By default, experience
+                is instantly divided equally (as possible) among the players of
+                the party. From there, players
+                can divide the loot among themselves as they see fit - hopefully
+                in a peaceful, rational manner.
+            </p>
+
+            <h2>
+                Leveling-up Monsters
+            </h2>
+            If you want to fight stronger monsters, you can level them up. This
+            works in a manner similar to
+            how your characters level up.
+            <p>
+                To do this, you only need a bit of multiplication. First find
+                the base class of the monster
+                and multiply its affected scores (vitals, power, dropped
+                experience) by the level you want
+                it to become. Make sure when multiplying vitals, that you
+                finally divide its stamina, mana, and focus
+                by 5.
+            </p>
+            <p>
+                For leveling-down a monster, you can use the same process
+                described above, but stopping at a lower
+                level than the one listed in the Monster Guide.
+            </p>
+
+            <h2>
+                Upscaling for Parties
+            </h2>
+            Though monsters grow stronger from their type and level, they do not
+            normally grow stronger in the face of more opponents. This is why it
+            is good to upscale
+            your monsters according to the size of your party. This keeps
+            encounters
+            interesting, being not too easy nor too hard, while making sure
+            players receive the
+            proper rewards.
+            <p>
+                To upscale your monsters, take their final Health after
+                accounting for level and type
+                and increase it by 50% for every additional party member.
+            </p>
+            <div class="Wide">
+                <i>Upscaled Health = Max Health + (Max Health x [Party Size - 1]
+                    x 0.5)</i>
+            </div>
+            Consider the following example...
+            <div class="Wide">
+                A party of 4 players are going against a a level 5 Chimera Boss.<br>
+                Normally the Boss has 540 Health, but against 4 players would
+                make it too easy. It will be increased.<br>
+                <i>
+                    <i>Upscaled Health = Max Health + (Max Health x [Party Size
+                        - 1] x 0.5)</i><br>
+                    <i>Upscaled Health = 540 + (540 x [4 - 1] x 0.5)</i><br>
+                    <i>Upscaled Health = 540 + (540 x 3 x 0.5)</i><br>
+                    <i>Upscaled Health = 540 + (540 x 1.5)</i><br>
+                    <i>Upscaled Health = 540 + (810)</i><br>
+                    <i>Upscaled Health = 1350</i><br>
+                </i>
+            </div>
+
+            <p>
+                Likewise, you can also increase the amount of acquired gil from
+                the end of
+                each battle, so that players don't have to split it too thinly
+                between each other.
+            </p>
+            <div>
+                Upscaled Gil = Gil x [Party Size]
+            </div>
+            Consider the following example...
+            <div>
+                The same party of 4 has defeated the level 5 Chimera Boss and
+                are collecting
+                its gil. Normally, it would drop just 400gil, but with 3 more
+                players looking
+                for a reward for their hard work, it will drop more.
+                <i>Upscaled Gil = Gil x [Part Size]</i><br>
+                <i>Upscaled Gil = 400 x 4</i><br>
+                <i>Upscaled Gil = 1600</i><br>
+                Now every player can have 400gil.
+            </div>
+
+            <h2>
+                Custom Monsters
+            </h2>
+            If you want to create your own monsters, you can follow a simple
+            process. However, it should be
+            warned that this is a tricky process, where if you're not careful,
+            you might create a beast
+            that's either too powerful or too weak, or just generally unfun. In
+            consideration, all monsters
+            have classes that players are also able to take, mix-and-match with
+            - so don't give your custom
+            monster something that you wouldn't potentially want the rest of
+            your party having.
+            <p>
+                To begin,
+                at this point, you as the GM will be familiar with monsters
+                enough that you understand the core
+                principles of their design, such as balance, focus, and
+                strengths and weaknesses.
+            </p>
+
+            <ol>
+                <li>
+                    <b>Conceptualize</b><br>
+                    Conceive an idea for the monster you wish to create.
+                    Consider their theme, how they
+                    complement the other monsters, how they challenge the
+                    players, their strengths,
+                    their weaknesses; which classes would be strongest against
+                    them and which would have the
+                    hardest time.
+                    <p>
+                        Where do your custom monsters come from? Where can they
+                        be found? Are they Grunts
+                        or clever? What loot do they drop upon defeat?
+                    </p>
+                    <p>
+                        Once you've come up with a concept, write as much of it
+                        as you can before going
+                        onto the next step.
+                    </p>
+                </li>
+                <li>
+                    <b>Vitals</b><br>
+                    Write down the level-1 Vital scores of the monster. Keep in
+                    mind that the average base health
+                    for any mob is 45, meaning it takes exactly 3 hits with an
+                    average-grade weapon to defeat it.
+                    <p>
+                        For Focus, Stamina, and Mana, the average starting value
+                        is 15. These numbers tend
+                        to fluctuate depending on the class's design, whither
+                        they're heavily dependent on
+                        a particular vital, and how long you want them to be
+                        able to last in a fight.
+                    </p>
+                </li>
+                <li>
+                    <b>Scores</b><br>
+                    The most important thing you should think about for a
+                    monster's Scores is its element.
+                    The monster's element indicates where it essentially lies in
+                    the critical food-chain.
+                    If it's a non-standard element like light, metal, or noble,
+                    then that means there will be
+                    fewer classes around that can potentially critically harm
+                    it.
+                    <p>
+                        Next, consider its Movement score. The average is 4,
+                        which is scaled to most battlefields
+                        such that it can move across an average-sized
+                        battlefield from one side to
+                        the other in 2 rounds.
+                    </p>
+                    <p>
+                        Its carry score isn't as normally important as a
+                        monster, but when a player takes
+                        its class, it'll determine how much they can carry on
+                        their person. This is where you
+                        might want to consider if a monster would be too
+                        dependent on things or not.
+                    </p>
+                    <p>
+                        Primary and Secondary Damages aren't immediately
+                        determined until you know
+                        their Stats and which weapons they're equipped with.
+                    </p>
+                </li>
+                <li>
+                    <b>Stats</b><br>
+                    The monster's Stats are going to be the meat of its build -
+                    its <i>punch</i>, if you would.
+                    It determines how quickly it can neutralize an opponent,
+                    while also determining
+                    how long it might take to neutralize it.
+                    <p>
+                        The average Power score is 3, while the average Evasion
+                        score is 10.
+                    </p>
+                    <p>
+                        A Power score of 4 is considered heavy, and 5 is very
+                        heavy - it's rare that a
+                        monster should start with anything above 4, and unheard
+                        of it for it to start at 6+.
+                    </p>
+                    <p>
+                        Imagine its Evasion scores as a health multiplier for
+                        certain attacks. Since 10 is half
+                        of 20, then naturally, it means only half of the attacks
+                        will hit, thereby doubling your
+                        health. Increasing that to 15 means only one in four
+                        attacks are likely to hit,
+                        while anything higher is unheard of.
+                    </p>
+                </li>
+                <li>
+                    <b>Talents</b><br>
+                    Unlike adventurers, monsters don't develop talents, but
+                    instead grow into their talents, as befitting
+                    their natural abilities. Based on the parts they were born
+                    with, they'll better at certain tasks than
+                    others.
+                    <ul>
+                        <li>
+                            -2 to -1 is poor.
+                        </li>
+                        <li>
+                            0-2 is okay.
+                        </li>
+                        <li>
+                            3-4 is good.
+                        </li>
+                        <li>
+                            5-6 is great.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Equipment</b><br>
+                    Monsters typically don't have weapons - but they can have
+                    natural weapons, such as claws,
+                    teeth, spines, tails, and thick skulls. Choose two to be
+                    their primary and secondary weapons.
+                    <p>
+                        A monster's natural gifts might also count as tools, and
+                        can substitute
+                        for a tool that could be purchased by the players at the
+                        store.
+                    </p>
+                    <p>
+                        Few monsters have consumables, and fewer still have
+                        anything significant
+                        they can use, like a revival coin.
+                    </p>
+                </li>
+                <li>
+                    <b>Loot and Experience</b><br>
+                    All mobs drop 100xp, multiplied by their level. Loot,
+                    however, is static.
+                    <p>
+                        What a monster drops as far as loot is concerned isn't
+                        always
+                        relevant to what the monster what, with the exception of
+                        materials.
+                    </p>
+                    <p>
+                        Typically, monsters drop materials, which can be used
+                        for creating
+                        items later on.
+                    </p>
+                    <p>
+                        Generally, minibosses and bosses will drop quest-items
+                        necessary
+                        for advancement in the dungeon or campaign.
+                    </p>
+                </li>
+            </ol>
+
+
+        </div>
+        <!-- Note to self, restore class with Index when I have a server.-->
+        <div class="Index">
+            <h2>
+                Index
+            </h2>
+            <h3>
+                Monsters
+            </h3>
             <ul>
                 <li>
-                    Vitals: FaR 7
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv1PollywogMob.txt')">
+                        Pollywog (Level 1 Mob)
+                    </button>
                 </li>
                 <li>
-                    Power Score: Increase by 1.
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv1PollywogRunt.txt')">
+                        Baby Pollywog (Level 1 Grunt)
+                    </button>
                 </li>
                 <li>
-                    Loot and Experience: x2
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv1MandolaMob.txt')">
+                        Mandola (Level 1 Mob)
+                    </button>
                 </li>
                 <li>
-                    Access to one of their class's listed Master Abilities.
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv1MandolaRunt.txt')">
+                        Mandola (Level 1 Grunt)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv1SaberTigerMob.txt')">
+                        Saber Tiger (Level 1 Mob)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv1SaberTigerRunt.txt')">
+                        Saber Tiger (Level 1 Grunt)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv1StingerHeavy.txt')">
+                        Stinger (Level 1 Heavy)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv1StingerMob.txt')">
+                        Stinger (Level 1 Mob)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv1StingerRunt.txt')">
+                        Stinger (Level 1 Grunt)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv2GargoyleHeavy.txt')">
+                        Gargoyle (Level 2 Heavy)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv3GudonRunt.txt')">
+                        Gudon (Level 3 Grunt)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv3GudonMob.txt')">
+                        Gudon (Level 3 Mob)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv3KingAntMob.txt')">
+                        King Ant (Level 3 Mob)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv3KingAntHeavy.txt')">
+                        King Ant (Level 3 Heavy)
+                    </button>
+                </li>
+
+                <li>
+                    Imp
+                </li>
+                <li>
+                    Cockadoo
+                </li>
+                <li>
+                    Fungie
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv5PuppetGrunt.txt')">
+                        Puppet (Level 5 Grunt)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv5PuppetMob.txt')">
+                        Puppet (Level 5 Mob)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv5SpecterGrunt.txt')">
+                        Specter (Level 5 Grunt)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv5SpecterMob.txt')">
+                        Specter (Level 5 Mob)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv5SpecterHeavy.txt')">
+                        Specter (Level 5 Heavy)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv5SkeletonGrunt.txt')">
+                        Skeleton (Level 5 Grunt)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv5SkeletonMob.txt')">
+                        Skeleton (Level 5 Mob)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl6OotangGrunt.txt')">
+                        Ootang (Level 6 Grunt)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl6OotangMob.txt')">
+                        Ootang (Level 6 Mob)
+                    </button>
+                </li>
+                <li>
+
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv6GamulianGrunt.txt')">
+                        Gamulian (Level 6 Grunt)
+                    </button>
+                </li>
+
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv6GamulianMob.txt')">
+                        Gamulian (Level 6 Mob)
+                    </button>
+                </li>
+
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv6GamulianHeavy.txt')">
+                        Gamulian (Level 6 Heavy)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl7FireBlobGrunt.txt')">
+                        Fire Blob (level 7 Grunt)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl7FireBlobMob.txt')">
+                        Fire Blob (level 7 Mob)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl7FireBlobHeavy.txt')">
+                        Fire Blob (level 7 Heavy)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl7BubbaMob.txt')">
+                        Bubba (level 7 Mob)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl7BubbaHeavy.txt')">
+                        Bubba (level 7 Heavy)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl7BurntPollywogGrunt.txt')">
+                        Burnt Pollywog (Level 7 Grunt)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl7BurntPollywogMob.txt')">
+                        Burnt Pollywog (Level 7 Mob)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl7OotangMob.txt')">
+                        Ootang (Level 7 Mob)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl7OotangHeavy.txt')">
+                        Ootang (Level 7 Heavy)
+                    </button>
+                </li>
+                <li>
+                    Wabbit
+                </li>
+                <li>
+                    Pumpkin
+                </li>
+                <li>
+                    Witch
+                </li>
+                <li>
+                    Behemoth
+                </li>
+                <li>
+                    Shaolon
+                </li>
+                <li>
+                    Hellhound
+                </li>
+                <li>
+                    Jinn
                 </li>
             </ul>
-        </li>
-        <li>
-            <b>Boss</b><br>
+            <h3>
+                Minibosses Bosses
+            </h3>
             <ul>
                 <li>
-                    Vitals: FaR 9.
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv1BloodAndSmokeyMiniboss.txt')">
+                        Blood & Smokey
+                    </button>
                 </li>
                 <li>
-                    Power Score: Increase by 2.
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv5ChimeraMiniboss.txt')">
+                        Chimera (Level 5 Miniboss)
+                    </button>
                 </li>
                 <li>
-                    Loot and Experience: x4
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl6BelleMiniboss.txt')">
+                        Belle (Level 6 Miniboss)
+                    </button>
                 </li>
                 <li>
-                    Access to two of their class's listed Master Abilities.
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv6BladestarMiniboss.txt')">
+                        Rod the Bladestar (Level 6 Miniboss)
+                    </button>
+                </li>
+
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv6HexagonMiniboss.txt')">
+                        Hexagon (Level 6 Miniboss)
+                    </button>
+                </li>
+
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl6BelleMiniboss.txt')">
+                        Belle (Level 6 Miniboss)
+                    </button>
+                </li>
+
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lvl7StarlightMiniboss.txt')">
+                        Starlight Duke (Level 7 Miniboss)
+                    </button>
+                </li>
+
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv6CloudWhaleBoss.txt')">
+                        Cloud Whale (Level 6 Miniboss)
+                    </button>
                 </li>
             </ul>
-        </li>
-    </ul>
-
-    <h2>Quirks</h2>
-    No two monsters are typically ever the same. In fact, most monsters possess
-    deviations called Quirks that serve to modify their stats in one way or another.
-    <p>Quirks can help define a monster's weakness or their role in a pack.
-    Moreover, they serve to make scenarios more complicated for the players.</p>
-    <p>It's normal for every monster in a fight to have a quirk, but it's also
-    okay if you want to make it fewer, to make it more special. </p>
-    <p>To give a monster a Quirk, roll 1d20 from below table. </p>
-    <ol style="columns: 2">
-        <li>
-            Springloaded<br>
-            Gains +10 to Initiative.
-        </li>
-        <li>
-            Brutal<br>
-            Increase MlePwr by one level.
-        </li>
-        <li>
-            Priestly<br>
-            Increase MgcPwr by one level.
-        </li>
-        <li>
-            Clever<br>
-            Increase SklPwr by one level.
-        </li>
-        <li>
-            Oversized<br>
-            Increase Health by one level.
-        </li>
-        <li>
-            Docile<br>
-            Befriend checks gain +5.
-        </li>
-        <li>
-            Bloodthirsty<br>
-            Does not make Intelligence checks.
-        </li>
-        <li>
-            Hyper<br>
-            Increase Stamina by 10.
-        </li>
-        <li>
-            Vigilant<br>
-            Increase Focus by 10.
-        </li>
-        <li>
-            Arcane<br>
-            Increase Mana by 10.
-        </li>
-        <li>
-            Royal<br>
-            Element is Noble.
-        </li>
-        <li>
-            Protected<br>
-            Gains +5 to Evade checks.
-        </li>
-        <li>
-            Eagle Eyes<br>
-            Actions gain +1 to Range.
-        </li>
-        <li>
-            Rabid<br>
-            All attacks inflict Poison {TL}.
-        </li>
-        <li>
-            Blessed<br>
-            First {TL} checks have Advantage.
-        </li>
-        <li>
-            High Vitality<br>
-            Regains 10% max health at the beginning of each turn.
-        </li>
-        <li>
-            Wealthy<br>
-            Drops 2x loot.
-        </li>
-        <li>
-            Exertion<br>
-            +5AP for all actions. Reduce start Stamina, Mana, and Focus by 50%.
-        </li>
-        <li>
-            Higher Intelligence<br>
-            Intelligence checks gain +5.
-        </li>
-        <li>
-            Lucky<br>
-            +5 to all Luck checks.
-        </li>
-
-    </ol>
-
-    <h2>
-        Loot and Experience
-    </h2>
-    By the time combat ends and you stand victorious,
-    every enemy that initially challenged you is considered defeated and you are rewarded an amount
-    of experience points.
-    <p>
-        The same applies for loot. Any materials, equipment, gil, and other goodies dropped
-        either upon defeat - either when they die, are knocked out, or while they run away.
-    </p>
-    <p>
-        Loot doesn't technically exist to be collected until <i>after</i> the battle has ended.
-        At that point, loot (and experience, somehow) is gathered into a pile. By default, experience
-        is instantly divided equally (as possible) among the players of the party. From there, players
-        can divide the loot among themselves as they see fit - hopefully in a peaceful, rational manner.
-    </p>
-
-    <h2>
-        Leveling-up Monsters
-    </h2>
-    If you want to fight stronger monsters, you can level them up. This works in a manner similar to
-    how your characters level up.
-    <p>
-        To do this, you only need a bit of multiplication. First find the base class of the monster
-        and multiply its affected scores (vitals, power, dropped experience) by the level you want
-        it to become. Make sure when multiplying vitals, that you finally divide its stamina, mana, and focus
-        by 5.
-    </p>
-    <p>
-        For leveling-down a monster, you can use the same process described above, but stopping at a lower
-        level than the one listed in the Monster Guide.
-    </p>
-
-    <h2>
-        Upscaling for Parties
-    </h2>
-    Though monsters grow stronger from their type and level, they do not
-    normally grow stronger in the face of more opponents. This is why it is good to upscale
-    your monsters according to the size of your party. This keeps encounters
-    interesting, being not too easy nor too hard, while making sure players receive the
-    proper rewards.
-    <p>
-        To upscale your monsters, take their final Health after accounting for level and type
-        and increase it by 50% for every additional party member.
-    </p>
-    <div class="Wide">
-        <i>Upscaled Health = Max Health + (Max Health x [Party Size - 1] x 0.5)</i>
-    </div>
-    Consider the following example...
-    <div class="Wide">
-        A party of 4 players are going against a a level 5 Chimera Boss.<br>
-        Normally the Boss has 540 Health, but against 4 players would
-        make it too easy. It will be increased.<br>
-        <i>
-            <i>Upscaled Health = Max Health + (Max Health x [Party Size - 1] x 0.5)</i><br>
-            <i>Upscaled Health = 540 + (540 x [4 - 1] x 0.5)</i><br>
-            <i>Upscaled Health = 540 + (540 x 3 x 0.5)</i><br>
-            <i>Upscaled Health = 540 + (540 x 1.5)</i><br>
-            <i>Upscaled Health = 540 + (810)</i><br>
-            <i>Upscaled Health = 1350</i><br>
-        </i>
-    </div>
-
-    <p>
-        Likewise, you can also increase the amount of acquired gil from the end of
-        each battle, so that players don't have to split it too thinly
-        between each other.
-    </p>
-    <div>
-        Upscaled Gil = Gil x [Party Size]
-    </div>
-    Consider the following example...
-    <div>
-        The same party of 4 has defeated the level 5 Chimera Boss and are collecting
-        its gil. Normally, it would drop just 400gil, but with 3 more players looking
-        for a reward for their hard work, it will drop more.
-        <i>Upscaled Gil = Gil x [Part Size]</i><br>
-        <i>Upscaled Gil = 400 x 4</i><br>
-        <i>Upscaled Gil = 1600</i><br>
-        Now every player can have 400gil.
-    </div>
-
-    <h2>
-        Custom Monsters
-    </h2>
-    If you want to create your own monsters, you can follow a simple process. However, it should be
-    warned that this is a tricky process, where if you're not careful, you might create a beast
-    that's either too powerful or too weak, or just generally unfun. In consideration, all monsters
-    have classes that players are also able to take, mix-and-match with - so don't give your custom
-    monster something that you wouldn't potentially want the rest of your party having.
-    <p>
-        To begin,
-        at this point, you as the GM will be familiar with monsters enough that you understand the core
-        principles of their design, such as balance, focus, and strengths and weaknesses.
-    </p>
-
-    <ol>
-        <li>
-            <b>Conceptualize</b><br>
-            Conceive an idea for the monster you wish to create. Consider their theme, how they
-            complement the other monsters, how they challenge the players, their strengths,
-            their weaknesses; which classes would be strongest against them and which would have the
-            hardest time.
-            <p>
-                Where do your custom monsters come from? Where can they be found? Are they Grunts
-                or clever? What loot do they drop upon defeat?
-            </p>
-            <p>
-                Once you've come up with a concept, write as much of it as you can before going
-                onto the next step.
-            </p>
-        </li>
-        <li>
-            <b>Vitals</b><br>
-            Write down the level-1 Vital scores of the monster. Keep in mind that the average base health
-            for any mob is 45, meaning it takes exactly 3 hits with an average-grade weapon to defeat it.
-            <p>
-                For Focus, Stamina, and Mana, the average starting value is 15. These numbers tend
-                to fluctuate depending on the class's design, whither they're heavily dependent on
-                a particular vital, and how long you want them to be able to last in a fight.
-            </p>
-        </li>
-        <li>
-            <b>Scores</b><br>
-            The most important thing you should think about for a monster's Scores is its element.
-            The monster's element indicates where it essentially lies in the critical food-chain.
-            If it's a non-standard element like light, metal, or noble, then that means there will be
-            fewer classes around that can potentially critically harm it.
-            <p>
-                Next, consider its Movement score. The average is 4, which is scaled to most battlefields
-                such that it can move across an average-sized battlefield from one side to
-                the other in 2 rounds.
-            </p>
-            <p>
-                Its carry score isn't as normally important as a monster, but when a player takes
-                its class, it'll determine how much they can carry on their person. This is where you
-                might want to consider if a monster would be too dependent on things or not.
-            </p>
-            <p>
-                Primary and Secondary Damages aren't immediately determined until you know
-                their Stats and which weapons they're equipped with.
-            </p>
-        </li>
-        <li>
-            <b>Stats</b><br>
-            The monster's Stats are going to be the meat of its build - its <i>punch</i>, if you would.
-            It determines how quickly it can neutralize an opponent, while also determining
-            how long it might take to neutralize it.
-            <p>
-                The average Power score is 3, while the average Evasion score is 10.
-            </p>
-            <p>
-                A Power score of 4 is considered heavy, and 5 is very heavy - it's rare that a
-                monster should start with anything above 4, and unheard of it for it to start at 6+.
-            </p>
-            <p>
-                Imagine its Evasion scores as a health multiplier for certain attacks. Since 10 is half
-                of 20, then naturally, it means only half of the attacks will hit, thereby doubling your
-                health. Increasing that to 15 means only one in four attacks are likely to hit,
-                while anything higher is unheard of.
-            </p>
-        </li>
-        <li>
-            <b>Talents</b><br>
-            Unlike adventurers, monsters don't develop talents, but instead grow into their talents, as befitting
-            their natural abilities. Based on the parts they were born with, they'll better at certain tasks than
-            others.
+            <h3>
+                Bosses
+            </h3>
             <ul>
                 <li>
-                    -2 to -1 is poor.
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv2NightmareBoss.txt')">
+                        Nightmare (Level 2 Boss)
+                    </button>
                 </li>
                 <li>
-                    0-2 is okay.
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv4SkullBeastBoss.txt')">
+                        Skull Beast (Level 4 Boss)
+                    </button>
                 </li>
                 <li>
-                    3-4 is good.
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv4ShadowLegendDuke.txt')">
+                        Shadow Legend Duke (Level 4
+                        Boss)
+                    </button>
                 </li>
                 <li>
-                    5-6 is great.
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv5ChimeraBoss.txt')">
+                        Chimera (Level 5 Boss)
+                    </button>
+                </li>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv5FistOfFireDukeBoss.txt')">
+                        Fist of Fire Duke (Level 5
+                        Boss)
+                    </button>
                 </li>
             </ul>
-        </li>
-        <li>
-            <b>Equipment</b><br>
-            Monsters typically don't have weapons - but they can have natural weapons, such as claws,
-            teeth, spines, tails, and thick skulls. Choose two to be their primary and secondary weapons.
-            <p>
-                A monster's natural gifts might also count as tools, and can substitute
-                for a tool that could be purchased by the players at the store.
-            </p>
-            <p>
-                Few monsters have consumables, and fewer still have anything significant
-                they can use, like a revival coin.
-            </p>
-        </li>
-        <li>
-            <b>Loot and Experience</b><br>
-            All mobs drop 100xp, multiplied by their level. Loot, however, is static.
-            <p>
-                What a monster drops as far as loot is concerned isn't always
-                relevant to what the monster what, with the exception of materials.
-            </p>
-            <p>
-                Typically, monsters drop materials, which can be used for creating
-                items later on.
-            </p>
-            <p>
-                Generally, minibosses and bosses will drop quest-items necessary
-                for advancement in the dungeon or campaign.
-            </p>
-        </li>
-    </ol>
+
+            <h3>
+                NPC's
+            </h3>
+            <ul>
+                <li>
+                    <button onclick="LoadMonster('../Resources/Monsters/Lv0Craftsman.txt')">
+                        Craftsman
+                    </button>
+                </li>
+                <li>
+                    Harvester
+                </li>
+                <li>
+                    Scholar
+                </li>
+                <li>
+                    Navigator
+                </li>
+                <li>
+                    Acrobat
+                </li>
+                <li>
+                    Artist
+                </li>
+            </ul>
+        </div>
+
+        <div class="About" id="About">
+            <h1 id="AbtName">
+                Name
+            </h1>
+
+            <b>
+                Level:
+            </b><span id="AbtLevel"></span><br>
+            <b>
+                Type:
+            </b><span id="AbtType"></span><br>
+            <b>
+                Intelligence:
+            </b><span id="AbtIntelligence"></span><br>
+            <b>
+                Class:
+            </b> <span id="AbtPrimaryClass"></span>
+            <br>
+
+            <b>
+                Description:
+            </b>
+            <span id="AbtDescription"></span><br>
+
+            <b>
+                Appearance:
+            </b><span id="AbtAppearance"></span><br>
+
+            <b>
+                Behavior:
+            </b><span id="AbtBehavior"></span><br>
 
 
-</div>
-<!-- Note to self, restore class with Index when I have a server.-->
-<div class="Index">
-    <h2>
-        Index
-    </h2>
-    <h3>
-        Monsters
-    </h3>
-    <ul>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1PollywogMob.txt')">Pollywog (Level 1 Mob)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1PollywogRunt.txt')">Baby Pollywog (Level 1 Grunt)
-            </button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1MandolaMob.txt')">Mandola (Level 1 Mob)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1MandolaRunt.txt')">Mandola (Level 1 Grunt)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1SaberTigerMob.txt')">Saber Tiger (Level 1 Mob)
-            </button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1SaberTigerRunt.txt')">Saber Tiger (Level 1 Grunt)
-            </button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1StingerHeavy.txt')">Stinger (Level 1 Heavy)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1StingerMob.txt')">Stinger (Level 1 Mob)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1StingerRunt.txt')">Stinger (Level 1 Grunt)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv2GargoyleHeavy.txt')">Gargoyle (Level 2 Heavy)
-            </button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv3GudonRunt.txt')">Gudon (Level 3 Grunt)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv3GudonMob.txt')">Gudon (Level 3 Mob)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv3KingAntMob.txt')">King Ant (Level 3 Mob)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv3KingAntHeavy.txt')">King Ant (Level 3 Heavy)</button>
-        </li>
+            <h2>
+                Vitals
+            </h2>
+            <b>
+                Health:
+            </b><span id="AbtHealth"></span><br>
+            <b>
+                Mana:
+            </b><span id="AbtMana"></span><br>
+            <b>
+                Stamina:
+            </b><span id="AbtStamina"></span><br>
+            <b>
+                Focus:
+            </b><span id="AbtFocus"></span><br>
 
-        <li>
-            Imp
-        </li>
-        <li>
-            Cockadoo
-        </li>
-        <li>
-            Fungie
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5PuppetGrunt.txt')">Puppet (Level 5 Grunt)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5PuppetMob.txt')">Puppet (Level 5 Mob)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5SpecterGrunt.txt')">Specter (Level 5 Grunt)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5SpecterMob.txt')">Specter (Level 5 Mob)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5SpecterHeavy.txt')">Specter (Level 5 Heavy)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5SkeletonGrunt.txt')">Skeleton (Level 5 Grunt)
-            </button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5SkeletonMob.txt')">Skeleton (Level 5 Mob)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lvl6OotangGrunt.txt')">Ootang (Level 6 Grunt)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lvl6OotangMob.txt')">Ootang (Level 6 Mob)</button>
-        </li>
-        <li>
+            <h2>
+                Scores
+            </h2>
+            <b>
+                Element:
+            </b><span id="AbtElement"></span><br>
+            <b>
+                Initiative:
+            </b><span id="AbtInitiative"></span><br>
+            <b>
+                Carry:
+            </b><span id="AbtCarry"></span><br>
+            <b>
+                Melee Power:
+            </b><span id="AbtMeleeDamage"></span><br>
+            <b>
+                Magic Power:
+            </b><span id="AbtMagicDamage"></span><br>
 
-            <button onclick="LoadMonster('../Resources/Monsters/Lv6GamulianGrunt.txt')">Gamulian (Level 6 Grunt)</button>
-        </li>
+            <b>
+                Skill Power:
+            </b><span id="AbtSkillDamage"></span><br>
 
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv6GamulianMob.txt')">Gamulian (Level 6 Mob)</button>
-        </li>
+            <h2>
+                Stats
+            </h2>
+            <b>
+                Melee:
+            </b><span id="AbtMelee"></span><br>
+            <b>
+                Magic:
+            </b><span id="AbtMagic"></span><br>
+            <b>
+                Skill:
+            </b><span id="AbtSkill"></span><br>
 
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv6GamulianHeavy.txt')">Gamulian (Level 6 Heavy)</button>
-        </li>
-        <li>
-            Fire Blob
-        </li>
-        <li>
-            Bubba
-        </li>
-        <li>
-            Wabbit
-        </li>
-        <li>
-            Pumpkin
-        </li>
-        <li>
-            Witch
-        </li>
-        <li>
-            Behemoth
-        </li>
-        <li>
-            Shaolon
-        </li>
-        <li>
-            Hellhound
-        </li>
-        <li>
-            Jinn
-        </li>
-    </ul>
-    <h3>
-        Minibosses Bosses
-    </h3>
-    <ul>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv1BloodAndSmokeyMiniboss.txt')">Blood & Smokey</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5ChimeraMiniboss.txt')">Chimera (Level 5 Miniboss)
-            </button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lvl6BelleMiniboss.txt')">Belle (Level 6 Miniboss)
-            </button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv6BladestarMiniboss.txt')">Rod the Bladestar (Level 6 Miniboss)
-            </button>
-        </li>
+            <h2>
+                Talents
+            </h2>
+            <b>
+                Craft:
+            </b><span id="AbtCraft"></span><br>
+            <b>
+                Harvest:
+            </b><span id="AbtHarvest"></span><br>
+            <b>
+                Scholar:
+            </b><span id="AbtScholar"></span><br>
+            <b>
+                Navigate:
+            </b><span id="AbtNavigate"></span><br>
+            <b>
+                Acrobatic:
+            </b><span id="AbtAcrobatic"></span><br>
+            <b>
+                Arts:
+            </b><span id="AbtArts"></span><br>
 
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv6HexagonMiniboss.txt')">Hexagon (Level 6 Miniboss)
-            </button>
-        </li>
+            <h2>
+                Equipment:
+            </h2>
+            <b>
+                Primary Weapon:
+            </b><span id="AbtPrimaryWeapon"></span><br>
+            <b>
+                Secondary Weapon:
+            </b><span id="AbtSecondaryWeapon"></span><br>
+            <b>
+                Tools:
+            </b><span id="AbtTools"></span><br>
+            <b>
+                Consumables:
+            </b><span id="AbtConsumables"></span><br>
 
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lvl6BelleMiniboss.txt')">Belle (Level 6 Miniboss)
-            </button>
-        </li>
-    </ul>
-    <h3>
-        Bosses
-    </h3>
-    <ul>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv2NightmareBoss.txt')">Nightmare (Level 2 Boss)
-            </button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv4SkullBeastBoss.txt')">Skull Beast (Level 4 Boss)
-            </button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv4ShadowLegendDuke.txt')">Shadow Legend Duke (Level 4
-                Boss)
-            </button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5ChimeraBoss.txt')">Chimera (Level 5 Boss)</button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv5FistOfFireDukeBoss.txt')">Fist of Fire Duke (Level 5
-                Boss)
-            </button>
-        </li>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv6CloudWhaleBoss.txt')">Cloud Whale (Level 6 Miniboss)
-            </button>
-        </li>
-    </ul>
+            <h2>
+                Loot and Experience
+            </h2>
+            <b>
+                Experience:
+            </b><span id="AbtExperience"></span><br>
+            <b>
+                Gil:
+            </b><span id="AbtGil"></span><br>
+            <b>
+                Loot:
+            </b><span id="AbtLoot"></span>
 
-    <h3>
-        NPC's
-    </h3>
-    <ul>
-        <li>
-            <button onclick="LoadMonster('../Resources/Monsters/Lv0Craftsman.txt')">Craftsman</button>
-        </li>
-        <li>
-            Harvester
-        </li>
-        <li>
-            Scholar
-        </li>
-        <li>
-            Navigator
-        </li>
-        <li>
-            Acrobat
-        </li>
-        <li>
-            Artist
-        </li>
-    </ul>
-</div>
-
-<div class="About" id="About">
-    <h1 id="AbtName">
-        Name
-    </h1>
-
-    <b>
-        Level:
-    </b><span id="AbtLevel"></span><br>
-    <b>
-        Type:
-    </b><span id="AbtType"></span><br>
-    <b>
-        Intelligence:
-    </b><span id="AbtCode"></span><br>
-    <b>
-        Class:
-    </b> <span id="AbtPrimaryClass"></span>
-    <br>
-
-    <b>
-        Description:
-    </b>
-    <span id="AbtDescription"></span><br>
-
-    <b>
-        Appearance:
-    </b><span id="AbtAppearance"></span><br>
-
-    <b>
-        Behavior:
-    </b><span id="AbtBehavior"></span><br>
-
-
-    <h2>
-        Vitals
-    </h2>
-    <b>
-        Health:
-    </b><span id="AbtHealth"></span><br>
-    <b>
-        Mana:
-    </b><span id="AbtMana"></span><br>
-    <b>
-        Stamina:
-    </b><span id="AbtStamina"></span><br>
-    <b>
-        Focus:
-    </b><span id="AbtFocus"></span><br>
-
-    <h2>
-        Scores
-    </h2>
-    <b>
-        Element:
-    </b><span id="AbtElement"></span><br>
-    <b>
-        Initiative:
-    </b><span id="AbtInitiative"></span><br>
-    <b>
-        Carry:
-    </b><span id="AbtCarry"></span><br>
-    <b>
-        Melee Power:
-    </b><span id="AbtMeleeDamage"></span><br>
-    <b>
-        Magic Power:
-    </b><span id="AbtMagicDamage"></span><br>
-
-    <b>
-        Skill Power:
-    </b><span id="AbtSkillDamage"></span><br>
-
-    <h2>
-        Stats
-    </h2>
-    <b>
-        Melee:
-    </b><span id="AbtMelee"></span><br>
-    <b>
-        Magic:
-    </b><span id="AbtMagic"></span><br>
-    <b>
-        Skill:
-    </b><span id="AbtSkill"></span><br>
-
-    <h2>
-        Talents
-    </h2>
-    <b>
-        Craft:
-    </b><span id="AbtCraft"></span><br>
-    <b>
-        Harvest:
-    </b><span id="AbtHarvest"></span><br>
-    <b>
-        Scholar:
-    </b><span id="AbtScholar"></span><br>
-    <b>
-        Navigate:
-    </b><span id="AbtNavigate"></span><br>
-    <b>
-        Acrobatic:
-    </b><span id="AbtAcrobatic"></span><br>
-    <b>
-        Arts:
-    </b><span id="AbtArts"></span><br>
-
-    <h2>
-        Equipment:
-    </h2>
-    <b>
-        Primary Weapon:
-    </b><span id="AbtPrimaryWeapon"></span><br>
-    <b>
-        Secondary Weapon:
-    </b><span id="AbtSecondaryWeapon"></span><br>
-    <b>
-        Tools:
-    </b><span id="AbtTools"></span><br>
-    <b>
-        Consumables:
-    </b><span id="AbtConsumables"></span><br>
-
-    <h2>
-        Loot and Experience
-    </h2>
-    <b>
-        Experience:
-    </b><span id="AbtExperience"></span><br>
-    <b>
-        Gil:
-    </b><span id="AbtGil"></span><br>
-    <b>
-        Loot:
-    </b><span id="AbtLoot"></span>
-
-</div>
-</body>
+        </div>
+    </body>
 </html>

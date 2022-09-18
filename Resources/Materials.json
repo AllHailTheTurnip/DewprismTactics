@@ -6,10 +6,16 @@
     "Value": "50"
   },
   {
+    "Name": "Wabbit's Foot'",
+    "Type": "",
+    "RawApplication": "Increase your next Check by 1.",
+    "Value": "15"
+  },
+  {
     "Name": "Wabbit Haunch",
     "Type": "Organic",
     "RawApplication": "Add +3 to your next Luck check.",
-    "Value": "10"
+    "Value": "12"
   },
   {
     "Name": "Milk",
@@ -34,6 +40,12 @@
     "Type": "Organic",
     "RawApplication": "Reduce Rank of Water element damage by 1 (min 1) until end of battle.",
     "Value": "10"
+  },
+  {
+    "Name": "Pollywog Pearl",
+    "Type": "",
+    "RawApplication": "Gain +1 to your next non-luck Check.",
+    "Value": "5"
   },
   {
     "Name": "Gargoyle Gem",
@@ -120,6 +132,12 @@
     "Value": "3"
   },
   {
+    "Name": "Orange Pelt",
+    "Type": "",
+    "RawApplication": "Removes 1 Rank from a Negative status effect (min 0).",
+    "Value": "5"
+  },
+  {
     "Name": "Behemoth Spine",
     "Type": "Organic",
     "RawApplication": "Reduce AP cost of Sprint by 5AP.",
@@ -129,7 +147,7 @@
     "Name": "Behemoth Horn",
     "Type": "Mineral",
     "RawApplication": "Increase {MlePwr} by 1 Level for the duration of the battle.",
-    "Value": "25"
+    "Value": "30"
   },
   {
     "Name": "Cockadoo Feather",
@@ -142,6 +160,18 @@
     "Type": "Organic",
     "RawApplication": "Add Fire to weapon's element until end of battle.",
     "Value": "10"
+  },
+  {
+    "Name": "Bubba Meat",
+    "Type": "",
+    "RawApplication": "Increase Primary Weapon's Rank by 1 until end of battle.",
+    "Value": "50"
+  },
+  {
+    "Name": "Bone Marrow",
+    "Type": "",
+    "RawApplication": "Increase your MlePwr by 2 levels until end of battle.",
+    "Value": "65"
   },
   {
     "Name": "Fire Blob Core",
@@ -202,6 +232,42 @@
     "Type": "",
     "RawApplication": "Lose 5 Health.",
     "Value": "10"
+  },
+  {
+    "Name": "Stardust",
+    "Type": "",
+    "RawApplication": "Increase your next Luck check by 5.",
+    "Value": "25"
+  },
+  {
+    "Name": "Whale Oil",
+    "Type": "",
+    "RawApplication": "",
+    "Value": ""
+  },
+  {
+    "Name": "Obsidian Chunk",
+    "Type": "",
+    "RawApplication": "You gain Bleeding 5.",
+    "Value": "5"
+  },
+  {
+    "Name": "Diamond",
+    "Type": "",
+    "RawApplication": "None.",
+    "Value": "100"
+  },
+  {
+    "Name": "Dragon Scale",
+    "Type": "",
+    "RawApplication": "Reduce incoming damage by 5 (min 0) until end of battle.",
+    "Value": "10"
+  },
+  {
+    "Name": "Dragon Tooth",
+    "Type": "",
+    "RawApplication": "Increase Critical Threshold by 5 until end of battle",
+    "Value": "25"
   },
   {
     "Name": "",

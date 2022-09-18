@@ -47,4 +47,4 @@ Consumables:|
 Loot
 Experience:400|
 Gil:400|
-Loot: Ear Ring, Gauntlet|
+Loot: Whale Blubber (Material. Lose 5 Health. Value: 5))|

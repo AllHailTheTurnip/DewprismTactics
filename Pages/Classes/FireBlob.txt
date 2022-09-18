@@ -1,36 +1,109 @@
-Title:|
-Subtitle:|
-Description:|
-???
+
+
+Title: Fire Blob|
+Subtitle: Steady Incinerator|
+Description: Fire Blobs are hot-blooded warriors who burn everything in their
+path. Their combat style is honed from the slow-moving rivers of lava that
+erupt from volcanoes. Later in time, as the island nation that first homed
+the Fire Blobs was colonized, the fiery warriors found new work as soldiers
+for the Royal Army.
+<p>Today, Fire Blobs continue their awe-inspiring yet destructive tradition,
+carrying the power of the volcano into every fight they enter.</p>|
+
 
 VITALS
 Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Mana: 17|
+Stamina: 20|
+Focus: 10|
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 0|
+Carry: 15u|
+Element: Fire|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 5, Evasion: 8, Accuracy: +3)|
+Magic: (Power: 4, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 4, Evasion: 6, Accuracy: +1)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Build Pressure
+Melee-Offensive-Action
+Choose one: Mode A or Mode B.
+Mode A:
+Use: 10AP+3fcs
+Effect: Increase the Rank of your next attack by 1.
 
+Mode B:
+Use: 20AP+5fcs
+Effect: Increase the Rank of your next attack by 3.
+
+Conclusion:
+This effect can stack up to {CL} times.|
+
+A1: Eruption
+Skill-Offensive-Action
+Use: 10AP+3mna+5sta+(X Max Health)
+Range: 0sp
+Evade: Skill
+OnHit: Target takes (X/15)MlePwr damage.|
+
+A2: Throw Slag
+Melee-Offensive-Action
+Use: 5AP+1sta+1mna
+Range: 1sp
+Accuracy: Skill
+OnHit: Inflict (1)MlePwr dmg.|
+
+A3: Newtonian Fluidity
+Magic-Defensive-Passive
+Effect: If the Rank of an incoming attack is over 3, set it to 4.|
+
+A4: Scorching Touch
+Magic-Offensive-Reaction
+Trigger: An enemy in the same space succeeded in an Accuracy check against you.
+Luck: 10
+Effect: The enemy gets Burning (1){MgcPwr}|
+
+A5: River of Magma
+Magic-Offensive-action
+Use: 10AP+5mna
+Range: 0sp
+Effect: Create a Magma Flow prop within range.
+You cannot create two Magma Flow props in the same space.
+If you create a Magma Flow prop in an adjacent space,
+reduce the AP cost of this by 5.
+
+Magma Flow Prop: An enemy combatant that enters into this space
+must spend 5AP or else get Burning (1){creator's MlePwr}|
+
+A6: Lunge
+Melee-Offensive-Action
+Use: 10AP+3sta
+Accuracy: Melee +3
+OnHit: Target takes (2){MleDmg}.|
+
+A7: Radiant Power
+Magic-Support-Action
+Use: 3mna+3fcs+(1/turn)
+Range: 2sp AoE
+Effect: Choose one of your Abilities to give to all allies within range.
+Affected allies gain that Ability until the end of their next turn.|
+
+A8: Puddle
+Melee-Support-Action
+Use: 3fcs+(1/turn)
+Effect: You become Prone and end your turn.
+An enemies in the same space as you take Burning (1){MlePwr}.|
+
+A9: Force Retreat
+Magic-Defensive-Action
+Use: 10AP+5fcs
+Range: 0sp AoE
+Evade: Skill
+OnHit: Target is forced into the next adjacent space away from you.
+If they cannot move away into an adjacent space, they take (3){MlePwr} fire damage.|
 
 MA1:|
 MA2:|

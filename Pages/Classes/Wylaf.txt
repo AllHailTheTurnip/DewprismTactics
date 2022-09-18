@@ -1,17 +1,3 @@
-Firebreathing
-Dragon
-Ancient
-
-Whirlwind
-Diving Strike
-Firebreath
-Scales
-Ancient Knowledge
-Roar!
-Chase
-Flight
-Claws
-
 Title:Wylaf|
 Subtitle:Knight of an Ancient Order|
 Description:The Wylafs descend from a great lineage of honor and fighting prowess,

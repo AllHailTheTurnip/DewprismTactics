@@ -1,0 +1,50 @@
+Name: Ootang|
+Type: Heavy|
+Level: 7|
+Intelligence: Instinctive|
+PrimaryClass: Ootang|
+
+Biography
+Description: Wild orange monkeys.|
+
+Appearance: A tall monkey with a big face, covered in orange fur.|
+
+Behavior: Absolute maniac.|
+
+Vitals
+Health: 210|
+Mana: 22|
+Stamina: 33|
+Focus: 11|
+
+Scores
+Initiative: 15|
+Carry: 10u|
+Element: Wind|
+MeleeDamage: 168, Crit: 210|
+MagicDamage: 28, Crit: 56|
+SkillDamage: 63, Crit: 84|
+
+Stats
+Melee: (Power: 42, Evasion: 8, Accuracy: +2)|
+Magic: (Power: 28, Evasion: 10, Accuracy: -1)|
+Skill: (Power: 21, Evasion: 7, Accuracy: -2)|
+Talents
+Craft: 1|
+Harvest: 0|
+Scholar: 0|
+Navigate: 1|
+Acrobatic: 4|
+Arts: -1|
+
+Equipment
+PrimaryWeapon: Giant Jaws (Type: Melee, WC: H, Use: 10+3sta, Rank: 4; Quickdraw)|
+SecondaryWeapon: Hands (Type: Skill: WC: M, Use: 10, Rank: 3, Honed +2|
+Tools:|
+Consumables:|
+
+Loot
+Experience: 100|
+Gil: 100|
+Loot: 2x Ootang Tooth.
+Luck 10: 1x. Orange Pelt|
