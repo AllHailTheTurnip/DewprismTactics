@@ -7,25 +7,123 @@
     "Value": "550"
   },
   {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": "",
-    "Value": ""
+    "Name": "Tooth Necklace",
+    "Application": "Increase each of your Evasion scores by [2].",
+    "Ingredients": "5x Saber Tooth",
+    "CraftCheck": "12",
+    "Value": "150"
   },
   {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": "",
-    "Value": ""
+    "Name": "Pearl Necklace",
+    "Application": "Three times per battle, you may increase your Luck check by [3].",
+    "Ingredients": "5x Pollywog Pearl",
+    "CraftCheck": "15",
+    "Value": "300"
   },
   {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": "",
-    "Value": ""
+    "Name": "Ring of Anima",
+    "Application": "Once per battle you may temporarily resurrect a Dead-status combatant as an allie with [25]% of their Max Health restored.",
+    "Ingredients": "1x Gargoyle Gem, 2x Soul Fragment",
+    "CraftCheck": "18",
+    "Value": "400"
+  },
+  {
+    "Name": "Pincer Dagger",
+    "Application": "Your Unarmed attacks now have Bleeding [1]{SklPwr}",
+    "Ingredients": "1x Pincer Set",
+    "CraftCheck": "14",
+    "Value": "230"
+  },
+  {
+    "Name": "Night Cloak",
+    "Application": "[1] time(s) per battle, you may teleport to any location on the battlefield, except in cases of 150%+ Visibility  ",
+    "Ingredients": "3x Solid Shadow",
+    "CraftCheck": "14",
+    "Value": "450"
+  },
+  {
+    "Name": "Puppet Thrall",
+    "Application": "Create a Level {TL} Puppet-class monster allie whose Vital scores are equal to [25]% of yours. It obeys your every command.",
+    "Ingredients": "5x Leather Strips, 1x Soul Gem, 3x Soul Fragments",
+    "CraftCheck": "20",
+    "Value": "5,000"
+  },
+  {
+    "Name": "Deployable Ice Wall",
+    "Application": "Once per battle, place an Ice Wall prop into a space. At the start of your next turn, the targeted space is frozen over; combatants cannot enter but can climb atop, and combatants stuck inside are frozen until the ice is destroyed. The Ice is Water element and has [45]{TL} health.",
+    "Ingredients": "5x Perma-Ice",
+    "CraftCheck": "15",
+    "Value": "650"
+  },
+  {
+    "Name": "Exo-Skeleton of Power",
+    "Application": "[1] times per battle (max once per turn), move any number of enemy combatants in a shared space into an adjacent space; no checks are made.",
+    "Ingredients": "1x Behemoth Spine, 5x Old Bone",
+    "CraftCheck": "16",
+    "Value": "450"
+  },
+  {
+    "Name": "War Horn",
+    "Application": "Increase the Initiative Checks of yourself and your allies by [5].",
+    "Ingredients": "1x Behemoth Horn",
+    "CraftCheck": "15",
+    "Value": "700"
+  },
+  {
+    "Name": "Torch",
+    "Application": "Passive. Increase the Visibility in your space for yourself and your allies by [50]%; cannot exceed 100%.",
+    "Ingredients": "1x Bubba Lard",
+    "CraftCheck": "10",
+    "Value": "300"
+  },
+  {
+    "Name": "Frag Grenade",
+    "Application": "Once per battle, place a Grenade prop into any space equal-to-or-within 2sp of yourself. At the start of your next turn, the Grenade prop explodes, inflicting [15]{TL} neutral damage.",
+    "Ingredients": "1x Fire Blob Core, 3x Old Bone",
+    "CraftCheck": "15",
+    "Value": "300"
+  },
+  {
+    "Name": "Cursed Token",
+    "Application": "Enemy combatants in your space get -[5] to their Luck Checks.",
+    "Ingredients": "1x Hellhound Paw",
+    "CraftCheck": "17",
+    "Value": "560"
+  },
+  {
+    "Name": "Vision Lens",
+    "Application": "Use once per battle. Gain Advantage on your next [3] checks.",
+    "Ingredients": "4x Divine Sand",
+    "CraftCheck": "25",
+    "Value": "9,000"
+  },
+  {
+    "Name": "Dream Crystal",
+    "Application": "Once per battle, choose one of your Abilities to target and improve where available. Target Ability's Rank is increased by [2], its Range is increased by [2], its AP cost is reduced by [5], and its Stamina/Mana/Focus costs are reduced by [50]%.",
+    "Ingredients": "3x Stardust",
+    "CraftCheck": "18",
+    "Value": "3,500"
+  },
+  {
+    "Name": "Power Cell",
+    "Application": "Once per battle, target an effect that says \"Once per battle\" (except this) and change it to \"[3] times per battle\".",
+    "Ingredients": "1x Whale Oil",
+    "CraftCheck": "17",
+    "Value": "1,500"
+  },
+  {
+    "Name": "Magnifier Lens",
+    "Application": "At the beginning of battle, increase the Range attribute of a Weapon or Ability by [1]sp.",
+    "Ingredients": "1x Diamond",
+    "CraftCheck": "13",
+    "Value": "600"
+  },
+  {
+    "Name": "Scale Armor",
+    "Application": "At the beginning of battle you gain [5] Armor Points. Spend X Armor Points to reduce the Rank of incoming damage by X (min 0).",
+    "Ingredients": "2x Dragon Scales",
+    "CraftCheck": "15",
+    "Value": "1,000"
   },
   {
     "Name": "",

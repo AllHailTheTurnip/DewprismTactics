@@ -142,29 +142,29 @@
   {
     "Name": "Wish",
     "Application": "Choose [1]: 1) Resurrect a Dead or KO'd party member. 2) Automatically befriend a non-brilliant enemy combatant. 3) Automatically learn one of your Doctrine abilities as a normal sideboard ability.",
-    "Ingredients": "10x Divine Sand, 5 Soul Fragments.",
-    "CraftCheck": "20",
+    "Ingredients": "10x Divine Sand, 5x Soul Fragment.",
+    "CraftCheck": "30",
     "Value": "10,000"
   },
   {
     "Name": "Essence of Morning",
     "Application": "You have [20] Defense Points. Spend X Defense Points to reduce the Rank of any incoming attacks by X. This lasts until all Defense Points are spent.",
     "Ingredients": "2x Morning Dew Residue",
-    "CraftCheck": "20",
+    "CraftCheck": "25",
     "Value": "2,500"
   },
   {
     "Name": "Essence of Evening",
     "Application": "You have [20] Offense Points. Spend X Offense points to increase the Rank of any actions by X. This lasts until all Offense Points are spent.",
     "Ingredients": "2x Evening Dew Residue",
-    "CraftCheck": "20",
+    "CraftCheck": "25",
     "Value": "2,500"
   },
   {
     "Name": "Essence of Logic",
     "Application": "You have [100] Check Points. Spend X Check Points to increase any Checks by X. This lasts until all Logic Points have been spent.",
     "Ingredients": "1x Aeon Residue",
-    "CraftCheck": "20",
+    "CraftCheck": "25",
     "Value": "2,500"
   },
   {

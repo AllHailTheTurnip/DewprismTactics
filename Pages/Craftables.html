@@ -18,6 +18,7 @@
         </style>
         <script src="../Resources/PrintConsumables.js"></script>
         <script src="../Resources/PrintMaterialsList.js"></script>
+        <script src="../Resources/PrintTools.js"></script>
     </head>
     <body>
         <a href="../index.html" class="Menu">Return to Index</a>
@@ -58,8 +59,10 @@
         and processing them together can be just as difficult. The following
         section
         will teach you how to craft and how best go about it.
+        <hr>
         <p>
-            Any Materials on your person can be consumed raw for their base
+            <b>Rule 1.</b> Any Materials on your person can be consumed raw for
+            their base
             effects.
             However, they won't be as useful as they would be as ingredients. To
             follow a crafting recipe, simply acquire the indicated amount of
@@ -67,7 +70,8 @@
             and find a place outside of combat to make a proper Craft Check.
         </p>
         <p>
-            Proper crafting locations include towns, settlements, and other safe
+            <b>Rule 2.</b> Proper crafting locations include towns, settlements,
+            and other safe
             places.
             If you're out adventuring, then your base camp will do. However,
             crafting at night can be dangerous and may draw monsters.
@@ -76,17 +80,43 @@
             in the immediate area, found a safe zone, or face a Small Battle
             first.
         </p>
+        <hr>
         <p>
-            First, roll 1d20 and add your Craft bonus. If you have any tools
+            <b>First</b>, roll 1d20 and add your Craft bonus. If you have any
+            tools
             that
-            can improve your crafting, add those bonuses too. If your check meets
-            or exceeds the Difficulty score, you pass. And the better you do,
-            the better the results.
-            Likewise, the worse you do, the worse the results.
+            can improve your crafting, add those bonuses too. If your check
+            meets
+            or exceeds the Difficulty score, you pass.
         </p>
         <p>
-
+            <b>Second</b>, scoring above the Difficulty score makes for a
+            higher-quality
+            craft, while scoring below makes it poorer quality.
         </p>
+        <ul>
+            <li>
+                <b>Excellent: 12 and Above</b> The craft is 200% effective.
+            </li>
+            <li>
+                <b>Great: 6 and Above</b> The craft is 150% effective.
+            </li>
+            <li>
+                <b>Great: 0 and Above</b> The craft is 100% effective.
+            </li>
+            <li>
+                <b>Poor: -6 and Below</b> The craft is 50% effective.
+            </li>
+            <li>
+                <b>Awful: -12 and Below</b> The craft is 0% effective.
+            </li>
+        </ul>
+        Most crafts have an Effectiveness score, found in between
+        [square-brackets].
+        As you craft, the Effectiveness score and the final value of the item
+        will increase (or decrease) by the percentage above.
+        <br><sub>Note: When using fractions, round-down to the nearest
+        whole-number.</sub>
         <hr>
         <h2>
             Materials
@@ -121,10 +151,11 @@
         <h2>Tools</h2>
         <table>
             <thead>
-                <th>Name</th>
+                <th style="width: 10%">Name</th>
                 <th>Application</th>
-                <th>Ingredients</th>
-                <th>Craft Check</th>
+                <th style="width: 10%">Ingredients</th>
+                <th style="width: 10%">Craft Check</th>
+                <th style="width: 10%">Value</th>
             </thead>
             <tbody id="CraftablesToolsListBody">
 
@@ -163,6 +194,7 @@
         <script>
             InsertConsumablesList();
             InsertMaterialsList();
+            InsertToolsList();
         </script>
     </footer>
 </html>
