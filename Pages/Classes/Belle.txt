@@ -51,7 +51,7 @@ Magic-Defensive-Action
 Use: 10AP+5mna
 Range: 2sp
 Effect: Give yourself three Shield props. Each prop follows you wherever you go.
-After two rounds, pick three unique targets for each Shield prop to target;
+After two rounds, pick a unique target for each Shield prop to target;
 extra props simply vanish.
 Make a Skill Accuracy check against each target;
 on hit, inflict (1){MgcPwr} damage and destroy the prop.
