@@ -1,0 +1,65 @@
+[
+  {
+    "Name": "Obsidian Dagger",
+    "Application": "Type: Skill, WC: 0, Use: (1/turn), Rank: 0, Type: Dark; inflicts Stackable Bleeding [1]{SklPwr}; Crit'ing with this weapon causes it to be destroyed instead.",
+    "Ingredients": "1x Obsidian Chunk",
+    "Check": "13",
+    "Value": "500"
+  },
+  {
+    "Name": "Obsidian Sword",
+    "Application": "Type: Melee OR Skill, WC: M, Use: 10AP, Rank: 3, Type: Dark; inflicts Stackable Bleeding [3]{SklPwr}; Crit'ing with this weapon causes it to be destroyed instead.",
+    "Ingredients": "3x Obsidian Chunk",
+    "Check": "17",
+    "Value": "1,500"
+  },
+  {
+    "Name": "Dragon Tooth Spear",
+    "Application": "Type: Skill, WC: L, Use: 5AP+(2/turn), Rank: [2]; Extended 1; Inflicted damage also reduces target's Max Health. ",
+    "Ingredients": "1x Dragon Tooth",
+    "Check": "17",
+    "Value": "1,000"
+  },
+  {
+    "Name": "Lightning Rod",
+    "Application": "Type: Magic, WC: M, Use: 10AP+3mna, Rank: [3], Type: Electric; Range 2sp; Honed 3",
+    "Ingredients": "2x Static Fur",
+    "Check": "15",
+    "Value": "1,200"
+  },
+  {
+    "Name": "Radiant Orb",
+    "Application": "Type: Magic, WC: -, Use: 10AP+5mna, Rank: 3; If an enemy's Element is weak to yours, they take [1]{MgcPwr} neutral damage.",
+    "Ingredients": "4x Fragment of Light",
+    "Check": "15",
+    "Value": "900"
+  },
+  {
+    "Name": "Diamond-tipped Hammer",
+    "Application": "Type: Melee, WC: VVH, Use: 20AP+10sta; Rank: [6]; On miss, the space becomes Difficult Terrain.",
+    "Ingredients": "3x Diamond",
+    "Check": "15",
+    "Value": "1,000"
+  },
+  {
+    "Name": "",
+    "Application": "",
+    "Ingredients": "",
+    "Check": "",
+    "Value": ""
+  },
+  {
+    "Name": "",
+    "Application": "",
+    "Ingredients": "",
+    "Check": "",
+    "Value": ""
+  },
+  {
+    "Name": "",
+    "Application": "",
+    "Ingredients": "",
+    "Check": "",
+    "Value": ""
+  }
+]

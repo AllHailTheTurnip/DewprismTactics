@@ -270,6 +270,18 @@
     "Value": "25"
   },
   {
+    "Name": "Fragment of Light",
+    "Type": "",
+    "RawApplication": "Choose a status effect belonging to a weapon and make it Stackable.",
+    "Value": "15"
+  },
+  {
+    "Name": "Static Fur",
+    "Type": "",
+    "RawApplication": "Your next attack's element changes to Electric.",
+    "Value": "10"
+  },
+  {
     "Name": "",
     "Type": "",
     "RawApplication": "",
