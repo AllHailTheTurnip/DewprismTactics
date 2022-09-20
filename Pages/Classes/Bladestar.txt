@@ -77,7 +77,7 @@ that type until the beginning of your next turn.|
 A7: Stoke Heart
 Melee-Support-Action
 Use: 7sta+10AP
-Effect: Gain advantage on all checks for the next 1+{MgcPwr/5} turns.|
+Effect: Gain advantage the next 1+{MgcPwr/5} checks.|
 
 A8: Tap Out
 Skill-Defense-Reaction
