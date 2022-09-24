@@ -37,15 +37,14 @@ Skill: (Power: 6, Evasion: 11, Accuracy: +1)|
 Abilities
 Doctrine: Assault Rifle
 Skill-Offense-Action
+Use: 10AP
 (Choose Mode A or B)
 A Mode
-    Use: 10AP
     Range: 0sp
     Accuracy: Skill
     Effect: Make 3 Accuracy checks against the target; each success inflicts (1){SklPwr} damage.
 
 B Mode
-    Use: 10AP
     Range: 1sp AoE
     Accuracy: Melee
     Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts r{SklPwr} damage.|
@@ -53,7 +52,7 @@ B Mode
 A1: Ready Attack
 Skill-Support-Action
 Use: 2sta+3fcs
-Effect: Choose an action-based Ability or basic Action to ready. Treat the readied action as a reaction that
+Effect: Choose an Action-application Ability or basic Action to ready. Treat the readied action as a reaction that
 is triggered when you are attacked. This lasts until the start of your next turn.|
 
 A2: Multi-slash
@@ -64,7 +63,7 @@ Effect: Target and make a basic attack action with an equipped non-range weapon 
 A3: Firing Line
 Skill-Support-Action
 Cost: 5sta+3fcs+20AP
-Effect: Each ally within {SklPwr/15}sp gets 10+{CL}AP for their next turn.|
+Effect: Each ally within ({SklPwr}/15)sp gets 10+{CL}AP for their next turn.|
 
 A4: Ignoble
 Magic-Support-Passive
@@ -84,8 +83,8 @@ Cube prop: For 10AP, can be moved 1sp. Can cover 1 combatant at a time.|
 
 A7: Odor Trail
 Melee-Support-Action
-Use: Xsta
-Make a free movement action, each space you move into creates an Odor prop.
+Use: 10sta
+Effect: Make a free movement action, each space you move into creates an Odor prop.
 Odor prop: Movement between adjacent Odor props counts as one space of movement.|
 
 A8: Conjure Pincers

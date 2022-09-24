@@ -37,7 +37,8 @@ Melee-Support-Action
 Use: 15AP
 Your Movement is disabled as you become affixed to the surface of your choice; you are unaffected by
 forced-movement effects.
-At the end of your turn, restore (3){MlePwr} Health.|
+At the end of your turn, restore (3){MlePwr} Health.
+You can re-enable your Movement at any point after the turn this Ability was used.|
 
 A1:Seed Gun
 Skill-Offensive-Action
@@ -50,7 +51,7 @@ For each hit, deal (1){SklPwr} damage.|
 A2:Blossom
 Skill-Offensive-Action
 Use: 20AP
-AoE: (1)+({TL}/4)sp sphere
+AoE: (1)+({TL}/4)sp circle.
 Check: Skill
 OnPass: Affected enemy makes a Movement action in the direction of your position.|
 
@@ -71,7 +72,7 @@ Spore Marker: Lose (1){Creator's SklPwr} health. The creator gains any health lo
 A5:Grow Bark
 Melee-Defensive-Action
 Use: 20AP
-Increase MleEva by 2 (Max 20).|
+Increase MleEva by (2) (Max 20).|
 
 A6:Tangle of Vines
 Skill-Defensive-Action

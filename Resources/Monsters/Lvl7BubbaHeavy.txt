@@ -52,5 +52,5 @@ Loot
 Experience: 100|
 Gil: 100|
 Loot: 2x Bubba Lard (Material. Add Fire to weapon's element until end of battle. Value: 10)
-Luck: 8: Bubba Meat (Material. Increase Primary Weapon's Rank by 1 until end of battle. Value: 50)
-Luck: 15: Bone Marrow (Material. Increase your MlePwr by 1 level until end of battle. Value: 65)|
+Harvest: 8: Bubba Meat (Material. Increase Primary Weapon's Rank by 1 until end of battle. Value: 50)
+Harvest: 15: Bone Marrow (Material. Increase your MlePwr by 1 level until end of battle. Value: 65)|

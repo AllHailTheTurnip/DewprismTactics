@@ -87,7 +87,7 @@
     "Name": "Orange Bone Powder",
     "Application": "During your next turn, if an attack would miss, try again [1] time for free.",
     "Ingredients": "3x Ootang Tooth",
-    "CraftCheck": "",
+    "CraftCheck": "13",
     "Value": "25"
   },
   {

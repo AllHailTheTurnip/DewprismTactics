@@ -54,10 +54,20 @@
     "Value": "25"
   },
   {
+    "Name": "Enchanted Stone Fragment",
+    "RawApplication": "Give yourself 25 Temporary Health until the start of your next turn.",
+    "Value": "15"
+  },
+  {
     "Name": "Nightmare Residue",
     "Type": "Special",
     "RawApplication": "On level-up, increase gained max-health by 50%.",
     "Value": "50"
+  },
+  {
+    "Name": "Royal Armor Piece",
+    "RawApplication": "When taking cover, increase your Cover score by 3.",
+    "Value": "10"
   },
   {
     "Name": "Gudon Eye",
@@ -72,10 +82,20 @@
     "Value": "7"
   },
   {
+    "Name": "Gudon Tail",
+    "Type": "Organic",
+    "RawApplication": "Until the start of your next turn, effects that any of your Vitals are increased by 50%.",
+    "Value": "17"
+  },
+  {
     "Name": "Pincer Set",
     "Type": "Metal",
     "RawApplication": "Increase Critical Threshold by 2 until next of battle.",
     "Value": "10"
+  },{
+    "Name": "Carapace",
+    "RawApplication": "Your next Guard action increases your Evasion scores by an additional 2 points.",
+    "Value": "20"
   },
   {
     "Name": "Pellet Sack",
@@ -243,7 +263,7 @@
     "Name": "Whale Oil",
     "Type": "",
     "RawApplication": "Lose 10sta.",
-    "Value": ""
+    "Value": "25"
   },
   {
     "Name": "Obsidian Chunk",
@@ -282,8 +302,28 @@
     "Value": "10"
   },
   {
-    "Name": "",
+    "Name": "Musical Note",
     "Type": "",
+    "RawApplication": "Every member of your team gets +3 to their Initiative check.",
+    "Value": "8"
+  },
+  {
+    "Name": "Silver Chunk",
+    "RawApplication": "Incoming Darkness- and Light-element attacks are reduced by 1 Rank until the start of your next turn.",
+    "Value": "35"
+  },
+  {
+    "Name": "Gold Nugget",
+    "RawApplication": "Choose an enemy combatant and mark them. At the end of combat, the gil they drop is increased by 50%.",
+    "Value": "25"
+  },
+  {
+    "Name": "Moon Tear",
+    "RawApplication": "If you die before the end of this combat, roll Luck 10. Upon success, you're revived with 5 Health.",
+    "Value": "35"
+  },
+  {
+    "Name": "",
     "RawApplication": "",
     "Value": ""
   }

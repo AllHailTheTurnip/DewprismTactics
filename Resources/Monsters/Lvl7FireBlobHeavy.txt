@@ -50,5 +50,5 @@ Loot
 Experience: 100|
 Gil: 100|
 Loot: 1x Fire Blob Core (Material. Change your Element to Fire until end of battle. Value: 35)
-Luck: 5: Obsidian Chunk (Material. You gain Bleeding 5. Value: 5)
-Luck: 10: Diamond (Material. None. Value: 100) |
+Harvest: 5: Obsidian Chunk (Material. You gain Bleeding 5. Value: 5)
+Harvest: 10: Diamond (Material. None. Value: 100) |

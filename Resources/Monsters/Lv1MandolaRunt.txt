@@ -52,4 +52,4 @@ Experience:25|
 Gil:7|
 Loot:
 1x Ripe Seeds(Consumable. Restore 2sta)
-Luck > 18: 1x Mandola Sapling (Monster. Keep in the sun and water daily. Grows into a lv1 Mandola after 3 months.)|
+Harvest > 18: 1x Mandola Sapling (Monster. Keep in the sun and water daily. Grows into a lv1 Mandola after 3 months.)|

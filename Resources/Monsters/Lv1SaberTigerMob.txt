@@ -50,4 +50,4 @@ Loot
 Experience: 100|
 Gil: 25|
 Loot: Saber Tooth (Material: Mineral, Value: 25gil)
-Luck > 15:  Saber Tiger Pelt (Material:  Fabric, value:  100)|
+Harvest > 15:  Saber Tiger Pelt (Material:  Fabric, value:  100)|

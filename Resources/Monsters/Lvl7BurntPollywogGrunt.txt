@@ -49,4 +49,4 @@ Loot
 Experience: 25|
 Gil: 25|
 Loot: Loot: 1x Pollywog Tail (Reduce Rank of Water element damage by 1 (min 1) until end of battle. Value: 10)
-      Luck > 15: 1x. Pollywog Pearl (Material. Gain +1 to your next non-luck Check. Value: 5)|
+      Harvest 15: 1x. Pollywog Pearl (Material. Gain +1 to your next non-luck Check. Value: 5)|

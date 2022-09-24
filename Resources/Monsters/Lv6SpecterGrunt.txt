@@ -49,5 +49,5 @@ Loot
 Experience: 25|
 Gil: 25|
 Loot: 2x Perma-Ice (Material, 10gil)
-Luck 15: Soul Fragment (Material, 25gil)|
+Harvest 15: Soul Fragment (Material, 25gil)|
 

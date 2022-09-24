@@ -49,4 +49,4 @@ Consumables:|
 Loot
 Experience:150|
 Gil:37|
-Loot: 4x Stinger Quil (Component, Value: 3 gil), Luck 10: Gold Quil (25 gil)|
+Loot: 4x Stinger Quil (Component, Value: 3 gil), Harvest 10: Gold Quil (25 gil)|

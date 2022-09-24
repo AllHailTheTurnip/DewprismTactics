@@ -1,14 +1,14 @@
 async function GetWeaponsList() {
-    return fetch("../Resources/WeaponsList.json").then(res => res.json());
+    return fetch("../Resources/AbilityMods.json").then(res => res.json());
 }
 
 
-async function InsertWeaponsList(listId) {
+async function InsertAbilityModsList(listId) {
     const list = await GetWeaponsList();
     let index = 0;
     let listLength = list.length;
 
-    let domList = document.getElementById("CraftablesWeaponsListBody");
+    let domList = document.getElementById("AbilityModsBody");
 
     for (let i = 0; i < listLength; i++) {
         domList.innerHTML +=
@@ -17,8 +17,7 @@ async function InsertWeaponsList(listId) {
             <td>` + list[i]["Name"] + `</td> 
             <td>` + list[i]["Application"] + `</td> 
             <td>` + list[i]["Ingredients"] + `</td>
-            <td>` + list[i]["Check"] + `</td>  
-            <td>` + list[i]["Value"] + `</td>
+            <td>` + list[i]["Check"] + `</td>
         </tr>
         `;
     }

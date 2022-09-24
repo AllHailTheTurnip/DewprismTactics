@@ -49,4 +49,4 @@ Loot
 Experience: 25|
 Gil: 25|
 Loot: 1x Leather Strip (Material, 15gil)
-Luck 15: Soul Gem (Material, 25gil)|
+Harvest 15: Soul Gem (Material, 25gil)|

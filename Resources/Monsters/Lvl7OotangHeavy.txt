@@ -47,4 +47,4 @@ Loot
 Experience: 100|
 Gil: 100|
 Loot: 2x Ootang Tooth.
-Luck 10: 1x. Orange Pelt|
+Harvest 10: 1x. Orange Pelt|

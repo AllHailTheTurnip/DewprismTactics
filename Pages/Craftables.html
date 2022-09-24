@@ -19,7 +19,7 @@
         <script src="../Resources/PrintConsumables.js"></script>
         <script src="../Resources/PrintMaterialsList.js"></script>
         <script src="../Resources/PrintTools.js"></script>
-        <script src="../Resources/PrintWeapons.js"></script>
+        <script src="../Resources/PrintAbilityMods.js"></script>
     </head>
     <body>
         <a href="../index.html" class="Menu">Return to Index</a>
@@ -45,10 +45,7 @@
                     <a href="#CraftablesToolsListBody">Tools</a>
                 </li>
                 <li>
-                    <a href="#CraftablesScrollsListBody">Scrolls</a>
-                </li>
-                <li>
-                    <a href="#CraftablesWeaponsListBody">Weapons</a>
+                    <a href="#AbilityModsBody">Ability Mods</a>
                 </li>
             </ul>
         </div>
@@ -164,16 +161,18 @@
         </table>
         <!-- -->
         <hr>
-        <h2>Weapons</h2>
+        <h2>Ability Mods</h2>
+        As a note, when applying Mods to Abilities, the listed application
+        should fit ability exactly. If a Mod's Application rules cannot be
+        entirely applied to an Ability then it won't work.
         <table>
             <thead>
                 <th style="width: 10%">Title</th>
                 <th>Application</th>
                 <th style="width: 10%">Ingredients</th>
                 <th style="width: 10%">Craft Check</th>
-                <th style="width: 10%">Value</th>
             </thead>
-            <tbody id="CraftablesWeaponsListBody">
+            <tbody id="AbilityModsBody">
 
             </tbody>
         </table>
@@ -183,7 +182,7 @@
             InsertConsumablesList();
             InsertMaterialsList();
             InsertToolsList();
-
+            InsertAbilityModsList();
         </script>
     </footer>
 </html>

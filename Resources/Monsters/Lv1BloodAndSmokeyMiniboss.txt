@@ -66,4 +66,4 @@ Loot
 Experience:150xp|
 Gil:75|
 Loot: 1x Bronze Coin, 2x Monster Treat
-Luck 10: +1x Silver Coin, +2x Monster Treat, 1x Monster Collar|
+Harvest 10: +1x Silver Coin, +2x Monster Treat, 1x Monster Collar|

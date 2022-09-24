@@ -36,7 +36,7 @@ If possible, continue to move into the next space in a straight line.|
 
 A1:Doubleteam
 Melee-Offensive-Passive
-When attacking an enemy, you may spend an additional 5fcs to to grant a free basic attack to the allie of your choice.|
+When attacking an enemy, you may spend an additional 5fcs to grant a free basic attack to the allie of your choice.|
 
 A2:Shove
 Melee-Offensive-Action

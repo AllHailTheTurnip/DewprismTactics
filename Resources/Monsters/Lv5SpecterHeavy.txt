@@ -49,5 +49,5 @@ Loot
 Experience: 150|
 Gil: 150|
 Loot: 3x Perma-Ice (Material, 10gil)
-Luck 10: Soul Fragment (Material, 25gil)
-Luck 18: Bone Fragment (Consumable, +10 to next accuracy check)|
+Harvest 10: Soul Fragment (Material, 25gil)
+Harvest 18: Bone Fragment (Consumable, +10 to next accuracy check)|

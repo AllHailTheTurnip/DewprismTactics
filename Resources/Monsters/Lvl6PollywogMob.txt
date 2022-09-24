@@ -48,4 +48,4 @@ Loot
 Experience:50|
 Gil:50|
 Loot: Pollywog Tail (Consumable, Restore 5fcs)
-Luck 15: Pollysmog Liver (Consumable, Single use. Grant Poison 3 to a weapon of choice)|
+Harvest 15: Pollysmog Liver (Consumable, Single use. Grant Poison 3 to a weapon of choice)|

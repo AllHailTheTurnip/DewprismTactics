@@ -13,10 +13,10 @@ Appearance: A bulbous head with a long tail; the whole thing is black and red.|
 Behavior: It hangs around the pools of lava with the rest of its pack.|
 
 Vitals
-Health: 35|
-Mana: 17|
-Stamina: 12|
-Focus: 15|
+Health: 147|
+Mana: 41|
+Stamina: 30|
+Focus: 33|
 
 Scores
 Initiative: 10|
@@ -49,4 +49,4 @@ Loot
 Experience: 50|
 Gil: 50|
 Loot: Loot: 1x Pollywog Tail (Reduce Rank of Water element damage by 1 (min 1) until end of battle. Value: 10)
-      Luck > 10: 1x Pollywog Pearl (Material. Gain +1 to your next non-luck Check. Value: 5)|
+      Harvest: 10: 1x Pollywog Pearl (Material. Gain +1 to your next non-luck Check. Value: 5)|

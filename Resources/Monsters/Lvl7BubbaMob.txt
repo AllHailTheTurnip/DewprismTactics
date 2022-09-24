@@ -52,4 +52,4 @@ Loot
 Experience: 50|
 Gil: 50|
 Loot: Bubba Lard (Material. Add Fire to weapon's element until end of battle. Value: 10)
-Luck: 8: Bubba Meat (Material. Increase Primary Weapon's Rank by 1 until end of battle. Value: 50)|
+Harvest: 8: Bubba Meat (Material. Increase Primary Weapon's Rank by 1 until end of battle. Value: 50)|

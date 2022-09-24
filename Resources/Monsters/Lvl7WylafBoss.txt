@@ -50,4 +50,4 @@ Loot
 Experience: 400|
 Gil: 400|
 Loot: 2x Dragon Scale (Material. Reduce incoming damage by 5 until end of battle. Value: 10)
-Luck 10: Dragon Tooth (Material. Increase Critical Threshold by 5 until end of battle. Value: 25)|
+Harvest 10: Dragon Tooth (Material. Increase Critical Threshold by 5 until end of battle. Value: 25)|

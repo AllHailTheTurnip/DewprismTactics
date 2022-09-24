@@ -66,6 +66,9 @@
                 <li>
                     <a href="#ExperienceAndRewards">Experience and Rewards</a>
                 </li>
+                <li>
+                    <a href="#NextSteps">Next Steps</a>
+                </li>
             </ul>
         </div>
         <span id="Content">
@@ -554,13 +557,14 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
             Swap, equip, or store one of your tools.
         </li>
     </ul>
-    Additionally, with any piece of equipment, you can give one one of them to an adjacent ally, granted
+    Additionally, with any piece of equipment, you can give one of them to an ally in the same space, granted
     that they are also willing to accept the equipment into either their inventory or into a free hand. In the case
     of stacked items, you may treat them as a single item when giving or receiving. Finally, if you just don't
     want an object, you can drop it on the ground, where it will remain until destroyed or recovered by another
     combatant.
     <p>
-        As a note: temporary bonuses gained from consumables cannot stack if used in succession.
+        As a note: consumable items are destroyed forever. They are not recovered at the end of combat.
+        Materials can be consumed raw, and thus are lost forever.
     </p>
 
     <hr>
@@ -946,58 +950,29 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     an enemy combatant. Once a Trigger's condition(s) have been met (if listed, you may choose to pay
     the Use cost) and then execute the rest of the Ability.
     <h3>
-        Common Status Effect Keywords.
+        Ability Mods
     </h3>
-    Below is a list of common keywords. Though you'll see more keywords, keep in mind that they are all
-    self-explanatory.
-    <ul>
-        <li>
-            Create. An object, such as a weapon or a token, is created from thin air.
-        </li>
-        <li>
-            Destroy. Opposite of Create, an object is turned into thin air.
-        </li>
-        <li>
-            Make an [Action]. You make a free action.
-        </li>
-        <li>
-            Restore. Something that was damaged, such as a vital score or a stat, is restored by an amount.
-        </li>
-        <li>
-            Damage. Reduce the targeted score by an amount.
-        </li>
-        <li>
-            Repair. Something that was destroyed, such as a weapon or a prop, is restored in full.
-        </li>
-        <li>
-            Remove. The target loses something of theirs.
-        </li>
-        <li>
-            Add. The target is granted something of yours.
-        </li>
-        <li>
-            Disable. A status effect for actions and abilities, in which the affected target can no
-            longer be used.
-        </li>
-        <li>
-            Increase. Increase the targeted score by an amount of points.
-        </li>
-        <li>
-            Reduce. Reduce the targeted score by an amount of points.
-        </li>
-        <li>
-            Strong Against. The target gains an additional specifier as to what they do double damage to.
-        </li>
-        <li>
-            Weak Against. The target gains an additional specifier as to what they do half damage to.
-        </li>
-        <li>
-            Immune To. The target becomes immune to a certain damage, effect, or other specifier.
-        </li>
-        <li>
-            Worthless To. The target can no longer affect a target with a certain target.
-        </li>
-    </ul>
+    Ability Mods are special modifiers that can be applied to your abilities in order
+    to change how they work. Their purpose is to help make your abilities more suited
+    to your build, making you more effective in the long run. This is done by
+    re-balancing their values and behavior, making one aspect better while another
+    becomes worse. Done blindly this can make the ability useless - but done
+    wisely, it'll make the ability much better.
+    <p>
+        To begin, each Ability can only have one Mod equipped to it at a time.
+        You may only equip mods in a safe setting, such as a cleared battlemap,
+        a rest area, or in town.
+        Every ability is compatible, including your Natural and Doctrine abilities.
+        Sideboard Abilities cannot be modded, and if an Ability is moved to the
+        sideboard, any Mods it has attached are removed.
+    </p>
+    <p>
+        You can't buy Mods from anyone - and neither can they be sold.
+        Instead, you must either create them from crafting or by
+        discover them on your adventures. This is because
+        <i>Mods don't physically exist;</i> They are an abstraction of
+        your abilities being subtly changed.
+    </p>
 </div>
 <div class="Wide">
     <h2 id="DeathAndDefeat">
@@ -1129,14 +1104,14 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         For example, if you would risk 10 points of your health for an adequate success, then a sloppy success
         would penalize 15 points, and a horrible success would take 20.
     </p>
-
+<hr>
     <h3>
         Battles
     </h3>
     Against a small battle, the DM first summarizes the challenge of the battle to the players as a single
     difficulty score ranging between 8 and 25. Scores below 8 are considered too easy and that the players
     will automatically win, while scores above 18 should be considered too hard and that the players will
-    most certainly lose.
+        most certainly lose.
     <p>
         Additionally, the DM should quickly summarize the threat of an encounter by how it might tax
         their resources. Vital scores like Health, Mana, Stamina, and Focus count as resources.
@@ -1155,13 +1130,13 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     </p>
     <ul>
         <li>
-            <b>Pass by 0 or higher</b>: General success; 100% of the predicted resources are expended.
+            <b>Pass by 12 or higher</b>: Amazing success; 0% of the predicted resources are expended.
         </li>
         <li>
             <b>Pass by 6 or higher</b>: Great success; 50% of the predicted resources are expended.
         </li>
         <li>
-            <b>Pass by 12 or higher</b>: Amazing success; 0% of the predicted resources are expended.
+            <b>Pass by 0 or higher</b>: General success; 100% of the predicted resources are expended.
         </li>
         <li>
             <b>Fail by 0 or lower</b>: Adequate success; 100% of the predicted resources are expended.
@@ -1178,6 +1153,35 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <p>
         Loot without XP is then given out for their success as if they had won the fight normally.
     </p>
+    <hr>
+    <h3>
+        Best Practice
+    </h3>
+    No matter if you're doing obstacles or surprise battles, there is a certain
+    art and science to ensuring that players feel that these compulsory challenges
+    are fair. Likewise, as the player,
+    you can ask the DM and expect a straight-ish answer.
+    <p>
+        Before embarking into dangerous territory, the DM should first warn
+        the players of the difficulty if the smaller encounters they'll be
+        facing, and what resources they'll be risking along the way.
+        <div>
+            <b>For example</b>: The party is about to embark across the countryside
+                to a neighboring town. However, the town is an hour away by foot. The DM
+                warns the players that each encounter will risk 10% each member's HP, and
+                that night is falling, the difficulty score will increase from 10 to 15. <br>
+            <p>
+                The players decide that the reward of getting to the next town and saving
+                time in their adventure outweighs the risk of their health. They decide
+                to proceed anyway.
+            </p>
+        </div>
+    </p>
+    <p>
+        Additionally, if the DM decides to use a system for random encounters, it
+        is fair practice to inform the players of the chances of facing an encounter,
+        just as much as the likeliness that it'll be a dangerous one.
+    </p>
 </div>
 <div class="Wide">
     <h2 id="ExperienceAndRewards">
@@ -1189,11 +1193,12 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <p>
         All experience is collected and then divided equally among the combatants (including the ones who were neutralized).
         Loot is presumably collected into a neat pile, at which the characters briefly sit around
-        and divide the spoils among themselves.
+        and divide the spoils among themselves. The amount of gil dropped multiplies by the amount of non-NPC players, so that way
+        there's enough for everyone.
     </p>
     <p>
-        Many monsters may have the chance to drop a better spoil of loot. This is done with a luck check,
-        and on its monster sheet the chance will be marked with the score that must beaten. Upon beating
+        Many monsters may have the chance to drop a better spoil of loot. This is done with a Harvest check,
+        and on its monster sheet the chance will be marked with the score that must be beaten. Upon beating
         that score, you get the new, better loot drop instead of the other one.
     </p>
     <p>
@@ -1204,15 +1209,6 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     </p>
 
     <ul>
-        <li>
-            Only one check is made as the check for every slain monster.
-        </li>
-        <li>
-            One check is made for every kind of monster.
-        </li>
-        <li>
-            Every monster gets its own check.
-        </li>
         <li>
             Each player rolls for the monsters they killed.
         </li>
@@ -1230,7 +1226,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     utilizing milestones, then after each boss battle, each combatant gets to level-up.
 </div>
 <div class="Wide">
-                <h2>Next steps</h2>
+                <h2 id="NextSteps">Next steps</h2>
                 After collecting enough experience, or when the DM says it's time to level-up,
                 you can head over to <a href="LevelsAndProgression.html">Level Progression</a> to
                 learn how to improve yourself.
