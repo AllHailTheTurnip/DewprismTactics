@@ -3,133 +3,133 @@
     "Name": "Reactive Stance",
     "Application": "Action-application is changed to Reaction, with the Trigger of \"An enemy combatant declares they're attacking you.\"",
     "Ingredients": "3x Saber Tooth",
-    "Check": ""
+    "Check": "10"
   },
   {
     "Name": "Combustible",
     "Application": "The Use-cost of this Ability is now burnable (affix an exclamation mark to the AP cost). Reduce the Ability's Rank by 1 (min 1).",
-    "Ingredients": "3x Obsidian Chunk",
-    "Check": "1x Fire Blob Core, 1x Gudon Liver"
+    "Ingredients": "1x Obsidian Chunk, 1x Fire Blob Core, 1x Gudon Liver",
+    "Check": "14"
   },
   {
     "Name": "Far Reaching",
     "Application": "Add 5fcs to the Use-cost of this Ability. Increase its Range by 1sp.",
     "Ingredients": "1x Diamond",
-    "Check": ""
+    "Check": "15"
   },
   {
     "Name": "Artillery",
     "Application": "Add (3/battle) to the Use-cost of this Ability. Increase its Range by 2sp.",
     "Ingredients": "1x Leather Strip, 1x Pincer Set",
-    "Check": ""
+    "Check": "17"
   },
   {
     "Name": "Miniature",
-    "Application": "Reduce the Use-cost of this Ability by 50%. Reduce the Rank of this weapon by 100%.",
+    "Application": "Reduce the Use-cost of this Ability by 50%. Reduce the Rank of this weapon by 50%.",
     "Ingredients": "2x Pollywog Pearl",
-    "Check": ""
+    "Check": "12"
   },
   {
     "Name": "Hyperactive",
     "Application": "This Ability must be Passive and not have a listed Use-cost. The Ability is given a Use of 10AP. Increase the Ability's Effects by 50%, and the Effects last until the beginning of your next turn.",
     "Ingredients": "1x Whale Blubber",
-    "Check": ""
+    "Check": "10"
   },
   {
     "Name": "Mind over Matter",
     "Application": "This Ability's listed Stamina cost is changed to Focus. The Ability's MleDmg is replaced with SklDmg.",
     "Ingredients": "1x Mandola Root, 1x Gargoyle Gem",
-    "Check": ""
+    "Check": "8"
   },
   {
     "Name": "Naturalize.",
     "Application": "This Ability's listed damage element is changed to your own class's element. Add 2mna to the Use cost.",
     "Ingredients": "2x Fungie Cap, 1x Cockadoo Feather",
-    "Check": ""
+    "Check": "10"
   },
   {
     "Name": "Targeting System",
     "Application": "Change this Ability's Evade check to individually made Accuracy checks. Increase non-AP Use-costs by 50% (must have AP cost 5 or greater).",
     "Ingredients": "2x Carapace",
-    "Check": ""
+    "Check": "12"
   },
   {
     "Name": "Rifled Aim",
     "Application": "Remove this Ability's AoE attribute. Increase its range by 2sp.",
     "Ingredients": "2x Pellet Sack",
-    "Check": ""
+    "Check": "12"
   },
   {
     "Name": "Overdrive",
     "Application": "Increase this Ability's uses-per-turn by 1. Reduce its Rank by 1 (min 0).",
     "Ingredients": "1x Silver Chunk, 2x Ootang Tooth",
-    "Check": ""
+    "Check": "14"
   },
   {
     "Name": "Capsaicin Oil",
     "Application": "Replace this Ability's Burning status effect with Poison.",
     "Ingredients": "2x Perma-Ice",
-    "Check": ""
+    "Check": "14"
   },
   {
     "Name": "Combative Stance",
     "Application": "This Reactive-application Ability is now Action-application; it no longer has a Trigger. Add 5AP+7sta to its Use-cost.",
     "Ingredients": "1x Behemoth Spine",
-    "Check": ""
+    "Check": "12"
   },
   {
     "Name": "Reduce Torque",
     "Application": "Reduce this Ability's Use-cost from 20 to 10. Double the Stamina, Mana, Focus cost (must affect at least one).",
     "Ingredients": "2x Imp Heart, 1x Beef",
-    "Check": ""
+    "Check": "10"
   },
   {
     "Name": "Litter",
     "Application": "This Ability, which conjures a prop, changes its Use-cost to be \"(1/turn)\". It has 1 Health.",
     "Ingredients": "1x Hellhound Paw",
-    "Check": ""
+    "Check": "10"
   },
   {
     "Name": "Commonwealth",
     "Application": "This Ability, which targets an allie, instead targets all allies in the same space. Add 1{MlePwr} Health to its Use-cost.",
     "Ingredients": "2x Soul Fragment, 1x Pollywog Tail",
-    "Check": ""
+    "Check": "15"
   },
   {
     "Name": "Burst Power",
     "Application": "Increase this Ability's Rank by 1. It can only be used once per battle.",
     "Ingredients": "2x Gargoyle Gem, 1x Gudon Eye",
-    "Check": ""
+    "Check": "17"
   },
   {
     "Name": "Shotgun",
-    "Application": "Reduce the AoE of this ability to 0sp. Increase its Rank by 2. Increase its AP cost by 10.",
+    "Application": "Reduce the AoE range of this ability to 0sp. Increase its Rank by 2. Increase its AP cost by 10.",
     "Ingredients": "1x Behemoth Horn, 2x Obsidian Chunk",
-    "Check": ""
+    "Check": "18"
   },
   {
     "Name": "Headshot",
     "Application": "If this Ability increases your Accuracy check(s) by any amount, it instead increases your Critical Threshold by half the amount.",
     "Ingredients": "2x Dragon Tooth, 1x Pincer Set",
-    "Check": ""
+    "Check": "16"
   },
   {
     "Name": "Helping Hand",
     "Application": "If this Ability would target the self, it instead targets an allie within the same space.",
     "Ingredients": "1x Enchanted Stone Fragment, 1x Soul Fragment",
-    "Check": ""
+    "Check": "12"
   },
   {
     "Name": "Rush Defense",
-    "Application": "If this Ability improves any of your Evasion scores, make its Use-cost burnable. .",
+    "Application": "If this Ability improves any of your Evasion scores, make its Use-cost burnable. Increase its AP cost by 10.",
     "Ingredients": "1x Carapace, 1x Ginger Root",
-    "Check": ""
+    "Check": "8"
   },
   {
     "Name": "Blood Offering",
     "Application": "Where in this ability it says \"End your turn\", replace with \"Self-inflict (2){MlePwr} damage.\"",
     "Ingredients": "2x Silver Chunk, 1x Obsidian Chunk",
-    "Check": ""
+    "Check": "10"
   },
   {
     "Name": "",
