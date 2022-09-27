@@ -30,9 +30,9 @@ Doctrine: Switch Magic Element
     Magic-Support-Action
     Use: 2fcs
     Change the listed element(s) of your magic-type ability to either fire, water, or Wind.
-    At level 5, you may include metal and electric to choose from.
-    At level 10, you may include light and dark to choose from.
-    At level 15, you may include noble and neutral to choose from.|
+    At {DL} 5, you may include metal and electric to choose from.
+    At {DL} 10, you may include light and dark to choose from.
+    At {DL} 15, you may include noble and neutral to choose from.|
 A1: Flying Kick
     Melee-Offensive-Action
     Use: 10AP
@@ -54,7 +54,7 @@ A3: Magic Burst
 A4: Spur Power
     Melee-Support-Reaction
     Trigger: When you take melee damage.
-    Restore TL Mana.|
+    Restore {TL} Mana.|
 A5: Switch Magic Mode
     Magic-Support-Action
     Use: 10AP + 5fcs
@@ -80,7 +80,7 @@ A9: Ward Danger
     Use: 5AP + 5mna
     Range: 0sp LoS
     Create a Ward marker and grant it to yourself or an ally within range (max 1/combatant).
-    Ward marker: while marked, +5 to MgcEva.|
+    Ward marker: while marked, +5 to {MgcEva}.|
 
 MA1: World Domination|
 MA2:|

@@ -126,6 +126,20 @@
     "Value": "1,000"
   },
   {
+    "Name": "Spine Whip",
+    "Application": "Once per battle you may choose a combatant within [2]sp and move them into your space.",
+    "Ingredients": "1x Bone Marrow, 1x Behemoth Spine",
+    "CraftCheck": "15",
+    "Value": "400"
+  },
+  {
+    "Name": "Carnal Flute",
+    "Application": "Three times per battle, you may grant yourself or an allie an additional 5AP for the start of their next turn.",
+    "Ingredients": "2x Bone Marrow",
+    "CraftCheck": "",
+    "Value": ""
+  },
+  {
     "Name": "",
     "Application": "",
     "Ingredients": "",

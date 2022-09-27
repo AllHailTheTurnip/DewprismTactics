@@ -259,6 +259,20 @@
     "Value": "300"
   },
   {
+    "Name": "Caveman Soup",
+    "Application": "Increase your Talent scores by 2 for the next hour.",
+    "Ingredients": "2x Bone Marrow",
+    "CraftCheck": "8",
+    "Value": "120"
+  },
+  {
+    "Name": "Meat Lover's Pizza",
+    "Application": "This comes in six pieces. Each combatant may have 1 piece per hour or until no longer in effect. Consuming a piece increases your Vitals, Melee, Magic, and Skill scores by one level until the end of the battle.",
+    "Ingredients": "1x Bone Marrow, 1x Wabbit Haunch, 1x Beef, 1x Gudon Liver",
+    "CraftCheck": "10",
+    "Value": "750"
+  },
+  {
     "Name": "",
     "Application": "",
     "Ingredients": "",

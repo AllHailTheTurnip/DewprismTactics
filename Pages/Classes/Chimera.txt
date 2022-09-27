@@ -28,10 +28,10 @@ Magic: (Power: 6, Evasion: 8, Accuracy: +1)|
 Skill: (Power: 5, Evasion: 9, Accuracy: +2)|
 
 Abilities
-Doctrine: Shadowstep
-Magic-Support-Action
-Use: 10AP+5mna
-Effect: Target a combatant and teleport to their space. You gain Stealth.|
+Doctrine: Amalgamation
+Magic-Support-Passive
+Use: 1/turn
+Effect: Increase any check by {DL}, treating the final result as if it were naturally rolled.|
 
 A1: Following Weapon
 Magic-Offensive-Action
@@ -47,7 +47,7 @@ A2: Death's Head
 Magic-Offensive-Action
 Use: 10AP+7mna
 Range: 1sp
-Luck: 16
+Luck: 15
 OnPass: Target gets Doomed 3-(0).|
 
 A3: Sleeper's Head
@@ -78,9 +78,11 @@ Range: Battlefield AoE
 Accuracy: Skill
 OnHit: Enemy takes (3){MgcPwr} electric damage.|
 
-A7: Immense Height
-Melee-Support-Passive
-Effect: Enemies 1sp above you are considered within melee-range.|
+A7: Shadowstep
+Magic-Support-Action
+Use: 10AP+5mna
+Range: 2sp
+Effect: Target a combatant in range and teleport to their space.|
 
 A8: Crescent Dash
 Skill-Offensive-Action

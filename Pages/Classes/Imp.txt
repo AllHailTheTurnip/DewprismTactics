@@ -93,7 +93,7 @@ A7: New Master
 Skill-Support-Action
 Use: 10AP+3fcs
 Range: 0sp
-Effect: Choose 1+{CL/5} allies on the battlefield to be your Master.
+Effect: Choose 1+{DL} allies on the battlefield to be your Master(s).
 At any point during your turns, you may choose to give any amount of your Health, Stamina, Mana, or Focus to the other.|
 
 A8: Become Invisible

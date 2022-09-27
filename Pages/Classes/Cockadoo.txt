@@ -75,7 +75,7 @@ OnPass: Target is now deaf. Any Magic-type ability checks now have disadvantage.
 A5: Gift of Wings
 Skill-Support-Action
 Use: 10AP+3fcs
-Range: [TL/5] friendly combatant.
+Range: {TL/5} friendly combatant.
 Effect: Target gain Flight until the end of their next turn.|
 
 A6: Gather Flock
@@ -97,7 +97,7 @@ Effect: Create a copy of yourself. Your copy has your exact base Scores, Abiliti
 A8: Rocket Flap
 Melee-Support-Action
 Use: 5sta
-Effect: Move across up to 1+{MlePwr/10}sp through the air and into an another ground space.|
+Effect: Move across up to 1+{MlePwr/10}sp through the air and into another ground space.|
 
 A9: Slow Fall
 Melee-Support-Passive

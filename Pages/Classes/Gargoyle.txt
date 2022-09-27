@@ -43,7 +43,8 @@ OnPass: Target takes (3){MgcPwr} wind damage.|
 
 A2:Stone Skin
 Magic-Defensive-Passive
-Effect: (1)+({TL}/5) per battle, when an attack would reduce your health to 0 or lower, the damage is ignored.
+Use: Cooldown 2.
+Effect: (1)+({TL}/5) per battle, when an attack would reduce your health to 0 or lower, the damage is ignored.|
 
 A3:Curse with Weakness
 Magic-Offensive-Action

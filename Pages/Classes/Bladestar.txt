@@ -71,7 +71,7 @@ Effect: Choose a weapon and change its element to one of your choosing.|
 A6: Hone Style
 Skill-Support-Action
 Use: 5fcs
-Effect: Choose a type: Skill, Magic, or Melee. Gain +5 Evasion against abilities of
+Effect: Choose a type: Skill, Magic, or Melee. Gain {DL} Evasion against abilities of
 that type until the beginning of your next turn.|
 
 A7: Stoke Heart

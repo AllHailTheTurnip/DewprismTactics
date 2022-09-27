@@ -39,7 +39,7 @@ After the attack is resolved, move 1+(TL/4)sp in any diagonally direction.|
 
 A2: Shrink Down
 Magic-Defensive-Action
-Use: 5AP + 10mna
+Use: 5AP+10mna
 Increase Evasion scores by 50%, reduce your Power scores by 50%.
 At the beginning of your next turn, restore your Evasion and Power scores.|
 
@@ -52,8 +52,8 @@ If it doesn't already have it, give it the attribute of Poison (1){SklPwr}.|
 A4: Throwing Needles
 Skill-Passive-Action
 Use: 10AP
-Create (1){TL} Throwing Needles and equip as secondary weapon (if possible).
-Throwing Needle (Type: Skill, WC: VL, Use: 5AP, Pwr: 1. Weight: 0.2u; it costs 0AP to draw this weapon)|
+Effect: Create (1){TL} Throwing Needles and equip as secondary weapon (if possible).
+Throwing Needle (Type: Skill, WC: VL, Use: (2/turn), Pwr: 1. Weight: 0.2u; it costs 0AP to draw this weapon)|
 
 A5: Acupuncture
 Skill-Support-Action
@@ -66,14 +66,14 @@ A6: Pierce Piece
 Skill-Offensive-Action
 Use: 10AP + 3fcs
 Range: 0s[+(TL/4)]
-Accuracy: Skill
+Accuracy: Skill (if equipped)
 OnPass: Destroy a targeted token or prop.|
 
 A7:Conjure Antidote
 Skill-Support-Action
-Use: 15AP
-Range: Self
-Add 1x Antidote to your inventory.|
+Use: 10AP
+Range: 0sp
+Remove Poison.|
 
 A8:Throw Caltrop
 Skill-Defensive-Action

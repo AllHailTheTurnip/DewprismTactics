@@ -51,7 +51,7 @@ A4: Lay Egg
     are restored to their battle-start states.|
 A5: Water Gun
     Skill-Offensive-Action
-    Cost 10AP + 3Foc
+    Cost 10AP + 3Fcs
     Range: 1sp
     Accuracy: Melee
     OnPass: Target takes (3){SklPwr} water dmg.|

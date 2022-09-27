@@ -74,6 +74,5 @@ A8: Fearsome Roar
 A9: Conjure Assassin's Blade
     Magic-Support-Action
     Use: 5Mna
-    Range: ({CL}/4)sp instant
-    Add an Assassin's Blade into yours or an ally's inventories.
-    Assassin's Blade (Skill, 1H-VL, Pwr: 1 Metal, Rng: 0sp, Skill Crit +2)|
+    Conjure an Assassin's Blade into your primary or secondary weapon slot (where available).
+    Assassin's Blade (Skill, VL, Pwr: 1 Metal, Artisan +2)|

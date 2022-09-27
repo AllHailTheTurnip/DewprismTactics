@@ -49,9 +49,9 @@ OnHit: Target takes (3){SklPwr} Metal damage.|
 A2: Shadow Clone Technique: Mantis Mirrorhouse
 Magic-Defense-Action
 Use: 5mna+10AP
-Range: [SklPwr/15]sp
+Range: {SklPwr/15}sp
 You become surrounded by illusionary copies of yourself. Increase your Evasion scores by 2+[SklPwr/10] until your next
-turn. When your turn starts, you burn 10AP and make a basic attack action against anyone within range.|
+turn. When your turn starts, you burn 10-{DL}AP and make a basic attack action against anyone within range.|
 
 A3: Water Walk
 Focus-Support-Passive

@@ -26,14 +26,13 @@ Element: Dark|
 STATS
 Melee: (Power: 7, Evasion: 5, Accuracy: -5)|
 Magic: (Power: 3, Evasion: 8, Accuracy: 0)|
-Skill: (Power: 3, Evasion: 5, Accuracy: 0)|
+Skill: (Power: 3, Evasion: 5, Accuracy: -2)|
 
 Abilities
 Doctrine: Brutal Bulk
 Melee-Support-Passive
 Effect: Increase the Rank of your Melee-type attacks by 1.
-Reduce your Melee and Skill evasion to 0.
-Reduce your Melee and Skill Accuracy scores by 2.|
+Reduce your Melee and Skill evasion to 0.|
 
 A1: Downward Strike
 Melee-Offensive-Action
@@ -75,7 +74,7 @@ A6: Earthquake
 Melee-Offensive-Action
 Use: 15AP+5sta
 Range: 3sp
-Effect: Make an Accuracy check (A).
+Effect: Make a Melee Accuracy check (A).
 Every combatant within range makes a competitive Skill check against A.
 Upon failure, the combatant is knocked Prone.|
 

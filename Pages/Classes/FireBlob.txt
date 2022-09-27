@@ -95,7 +95,7 @@ A8: Puddle
 Melee-Support-Action
 Use: 3fcs+(1/turn)
 Effect: You become Prone and end your turn.
-An enemies in the same space as you take Burning (1){MlePwr}.|
+All enemies in the same space as you take Burning (1){MlePwr}.|
 
 A9: Force Retreat
 Magic-Defensive-Action

@@ -76,8 +76,8 @@ A7: Wander
     Use: 10AP
     Roll d20 as 'A', d20 as 'B'
     South is towards your starting position.
-    If A > 10, move up to 1sp+{TL/5} east; else, move up to 1sp+{TL/5} west.
-    If B > 10, move up to 1sp+{TL/5} north; else, move up to 1sp+{TL/5} south.|
+    If A > 10, move up to 1sp+{DL} east; else, move up to 1sp+{DL} west.
+    If B > 10, move up to 1sp+{DL} north; else, move up to 1sp+{DL} south.|
 A8: Dive Slash
     Melee-Offensive-Action
     Use: 10AP + 7Sta
