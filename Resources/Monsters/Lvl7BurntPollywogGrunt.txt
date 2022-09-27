@@ -21,7 +21,7 @@ Focus: 33|
 Scores
 Initiative: 10|
 Carry: 7u|
-Element: Water|
+Element: Fire|
 MeleeDamage: 28, Crit: 42|
 MagicDamage: 21, Crit: 42|
 SkillDamage: 7, Crit: 14|
@@ -40,8 +40,8 @@ Acrobatic: -2|
 Arts: 0|
 
 Equipment
-PrimaryWeapon: Teeth (Melee, L, 0.5u, Cost:  7AP, Pwr: 2 Neutral, Quickdraw)|
-SecondaryWeapon: Tail (Melee, VL, 0.2u, Cost:  5AP, Pwr: 1 Water, Reach)|
+PrimaryWeapon: Teeth (Melee, L, 0.5u, Cost: 5AP+(2/turn), Pwr: 2 Neutral, Quickdraw)|
+SecondaryWeapon: Tail (Melee, VL, 0.2u, Cost: 2/turn, Pwr: 1 Fire, Reach 1)|
 Tools:|
 Consumables:|
 

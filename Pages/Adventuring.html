@@ -1,1300 +1,1560 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Dewprism Tactics - Adventuring</title>
-    <link rel="stylesheet" href="../Resources/GeneralStyle.css">
-    <script type="text/javascript" src="../Resources/ReturnMenu.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dewprism Tactics - Adventuring</title>
+        <link rel="stylesheet" href="../Resources/GeneralStyle.css">
+        <script type="text/javascript" src="../Resources/ReturnMenu.js"></script>
+
+        <style>
+            table {
+                width: 100%;
+            }
+
+            .mini {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            tr {
+                text-align: center;
+
+            }
+        </style>
+
+    </head>
+    <body>
 
 
-    <style>
-        table {
-            width: 100%;
-        }
+        <h1>
+            Adventuring
+        </h1>
+        <div class="Side">
+            A treasure hunter's life is one of danger and excitement. You'll be
+            traveling
+            the world in search of ancient wonders and hidden mysteries - things
+            that
+            bewilder and capture the imagination. Hoards of monsters, lethal
+            traps, dungeon
+            bosses, and so much more stand in your way. Yet, the dangers have
+            their rewards:
+            treasures of gold and jewels, magical items, powerful weapons, and
+            world-altering
+            revelations to secrets untold.<br>
+            Yet, for a life so filled with excitement, everyone needs downtime.
+            And so, in
+            between escapades, treasure hunters can be found resting and
+            preparing. The world
+            is peppered with towns, cities, and various outposts. Find an inn,
+            get a good sleep
+            and have a nice meal; stop by the smith and upgrade your equipment,
+            and maybe
+            head out for some training.<br>
+            It's all about balance.
+        </div>
 
-        .mini {
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-        }
+        <div>
+            <h3>Index</h3>
+            Such empty. Wow
+        </div>
+        <!-- -->
+        <!-- -->
+        <!-- -->
+        <hr>
+        <h1>
+            Civilization
+        </h1>
+        During your travels, you'll come across towns and cities where you can
+        rest, relax,
+        and enjoy a quiet day. During your stay can do some shopping, learn the
+        latest rumors,
+        and visit a guild for some extra work.
+        <h2 id="VillagesTownsCities">
+            Villages, Towns, and Cities
+        </h2>
+        Throughout your adventures you'll come across various kinds of
+        settlements. Each of these
+        settlements vary in size, economy, and offerings. The larger they are,
+        the higher a
+        chance they have of possessing a service for something you're after.
+        <p>
+            This table lists the ratings on a scale from 1 to 5, with 1 being
+            least likely and 5 being most-likely.
+            Additionally, 0 means that there is absolutely no chance of a
+            presence, while 6 means that the service is offered in
+            abundance.<br>
+            A village is defined as a settlement with a relatively small
+            population (1-500 people).<br>
+            A town is defined as as settlement with an okay-sized population
+            (500-1,500).<br>
+            And a city is defined as a settlement with an large population
+            (1,500+).
+        </p>
+        <table class="mini">
+            <tr>
+                <th>
+                    Service
+                </th>
+                <th>
+                    Village
+                </th>
+                <th>
+                    Town
+                </th>
+                <th>
+                    City
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Lodging
+                </td>
+                <td>
+                    5
+                </td>
+                <td>
+                    5
+                </td>
+                <td>
+                    6
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tavern
+                </td>
+                <td>
+                    4
+                </td>
+                <td>
+                    5
+                </td>
+                <td>
+                    6
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    General Stores
+                </td>
+                <td>
+                    3
+                </td>
+                <td>
+                    4
+                </td>
+                <td>
+                    5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Specialty Markets
+                </td>
+                <td>
+                    0
+                </td>
+                <td>
+                    3
+                </td>
+                <td>
+                    5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Guild Halls
+                </td>
+                <td>
+                    2
+                </td>
+                <td>
+                    4
+                </td>
+                <td>
+                    5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Craftsmen
+                </td>
+                <td>
+                    4
+                </td>
+                <td>
+                    5
+                </td>
+                <td>
+                    6
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Church
+                </td>
+                <td>
+                    2
+                </td>
+                <td>
+                    5
+                </td>
+                <td>
+                    6
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Jail
+                </td>
+                <td>
+                    4
+                </td>
+                <td>
+                    5
+                </td>
+                <td>
+                    6
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Black Markets
+                </td>
+                <td>
+                    0
+                </td>
+                <td>
+                    2
+                </td>
+                <td>
+                    5
+                </td>
+            </tr>
+        </table>
+        <br>
 
-        tr {
-            text-align: center;
-
-        }
-    </style>
-
-</head>
-<body>
-
-
-<h1>
-    Adventuring
-</h1>
-<div class="Side" >
-    A treasure hunter's life is one of danger and excitement. You'll be traveling
-    the world in search of ancient wonders and hidden mysteries - things that
-    bewilder and capture the imagination. Hoards of monsters, lethal traps, dungeon
-    bosses, and so much more stand in your way. Yet, the dangers have their rewards:
-    treasures of gold and jewels, magical items, powerful weapons, and world-altering
-    revelations to secrets untold.<br>
-    Yet, for a life so filled with excitement, everyone needs downtime. And so, in
-    between escapades, treasure hunters can be found resting and preparing. The world
-    is peppered with towns, cities, and various outposts. Find an inn, get a good sleep
-    and have a nice meal; stop by the smith and upgrade your equipment, and maybe
-    head out for some training.<br>
-    It's all about balance.
-</div>
-
-<div>
-    <h3>Index</h3>
-    Such empty. Wow
-</div>
-<!-- -->
-<!-- -->
-<!-- -->
-<hr>
-<h1>
-    Civilization
-</h1>
-During your travels, you'll come across towns and cities where you can rest, relax,
-and enjoy a quiet day. During your stay can do some shopping, learn the latest rumors,
-and visit a guild for some extra work.
-<h2 id="VillagesTownsCities">
-    Villages, Towns, and Cities
-</h2>
-Throughout your adventures you'll come across various kinds of settlements. Each of these
-settlements vary in size, economy, and offerings. The larger they are, the higher a
-chance they have of possessing a service for something you're after.
-<p>
-    This table lists the ratings on a scale from 1 to 5, with 1 being least likely and 5 being most-likely.
-    Additionally, 0 means that there is absolutely no chance of a presence, while 6 means that the service is offered in
-    abundance.<br>
-    A village is defined as a settlement with a relatively small population (1-500 people).<br>
-    A town is defined as as settlement with an okay-sized population (500-1,500).<br>
-    And a city is defined as a settlement with an large population (1,500+).
-</p>
-<table class="mini">
-    <tr>
-        <th>
-            Service
-        </th>
-        <th>
-            Village
-        </th>
-        <th>
-            Town
-        </th>
-        <th>
-            City
-        </th>
-    </tr>
-    <tr>
-        <td>
-            Lodging
-        </td>
-        <td>
-            5
-        </td>
-        <td>
-            5
-        </td>
-        <td>
-            6
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Tavern
-        </td>
-        <td>
-            4
-        </td>
-        <td>
-            5
-        </td>
-        <td>
-            6
-        </td>
-    </tr>
-    <tr>
-        <td>
-            General Stores
-        </td>
-        <td>
-            3
-        </td>
-        <td>
-            4
-        </td>
-        <td>
-            5
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Specialty Markets
-        </td>
-        <td>
-            0
-        </td>
-        <td>
-            3
-        </td>
-        <td>
-            5
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Guild Halls
-        </td>
-        <td>
-            2
-        </td>
-        <td>
-            4
-        </td>
-        <td>
-            5
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Craftsmen
-        </td>
-        <td>
-            4
-        </td>
-        <td>
-            5
-        </td>
-        <td>
-            6
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Church
-        </td>
-        <td>
-            2
-        </td>
-        <td>
-            5
-        </td>
-        <td>
-            6
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Jail
-        </td>
-        <td>
-            4
-        </td>
-        <td>
-            5
-        </td>
-        <td>
-            6
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Black Markets
-        </td>
-        <td>
-            0
-        </td>
-        <td>
-            2
-        </td>
-        <td>
-            5
-        </td>
-    </tr>
-</table>
-<br>
-
-<h3>
-    Heading into Civilization
-</h3>
-Your party consists of the player characters, along with any creatures or NPCs they may have befriended.
-NPCs who are traveling with the party but aren't a part of the ground, are not considered members.
-<p>
-    In general, a create with standard sapience (human-like) are allowed in all settlements. However, all
-    monsters and animals of lower-intelligence must wear a collar with their given name on it, if they're
-    to be allowed to travel with you around town - otherwise they must be kept in a cell of some kind.
-</p>
-<p>
-    When adventuring around human settlements, it is expected that you'll keep your weapons sheathed or
-    hidden (depending on the laws), revealing them only to defend yourself in absolute necessary circumstances.
-    Abilities, unless passive, are not allowed to be used in public, unless in cases of emergency,
-    such as for healing a wound or defending against an attacker.
-</p>
-<p>
-    Some settlements may tax you for entry. Once the tax is paid, you're free to come and go as you please
-    for the remainder of the week.
-</p>
+        <h3>
+            Heading into Civilization
+        </h3>
+        Your party consists of the player characters, along with any creatures
+        or NPCs they may have befriended.
+        NPCs who are traveling with the party but aren't a part of the ground,
+        are not considered members.
+        <p>
+            In general, a create with standard sapience (human-like) are allowed
+            in all settlements. However, all
+            monsters and animals of lower-intelligence must wear a collar with
+            their given name on it, if they're
+            to be allowed to travel with you around town - otherwise they must
+            be kept in a cell of some kind.
+        </p>
+        <p>
+            When adventuring around human settlements, it is expected that
+            you'll keep your weapons sheathed or
+            hidden (depending on the laws), revealing them only to defend
+            yourself in absolute necessary circumstances.
+            Abilities, unless passive, are not allowed to be used in public,
+            unless in cases of emergency,
+            such as for healing a wound or defending against an attacker.
+        </p>
+        <p>
+            Some settlements may tax you for entry. Once the tax is paid, you're
+            free to come and go as you please
+            for the remainder of the week.
+        </p>
 
 
-<h2 id="RestAndRecovery">
-    Rest and Recovery
-</h2>
-<p>
-    As a general rule, just so long as you have some kind of bedroll, you can lay down
-    for some rest. While resting, all your Health, Mana, Stamina, and Focus are restored,
-    and you wake up feeling refreshed and ready for the day ahead. However, there are
-    different degrees of rest you can get.
-</p>
-<table>
-    <th>
-        Hours of Sleep
-    </th>
-    <th>
-        Benefits
-    </th>
-    <tr>
-        <td>
-            0
-        </td>
-        <td>
-            In failing to receive a proper rest, nothing is restored and for some
-            reason you feel even worse than before.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            1-2
-        </td>
-        <td>
-            25% of max health is restored.<br>
-            50% max mana, stamina, and focus is restored.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            3-6
-        </td>
-        <td>
-            50% of your max health is restored.<br>
-            100% of your max mana, stamina, and focus is restored.<br>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            7-8
-        </td>
-        <td>
-            100% of your max health, mana, stamina, and focus is restored.
-        </td>
-    </tr>
-</table>
-<p>
-    To make it clear - negative status effects that may have lasted from your most recent battle remain in effect.<br>
-    In order to remove any negative status effects, go visit a doctor.
-</p>
-<h3>
-    Good Rest
-</h3>
-Sleeping for eight hours in a warm, comfortable bed in a safe environment grants you the benefits of
-a good rest.
-<p>
-    With a good rest, you gain a temporary +10% bonus to your maximum Vital scores. These
-    last until they're lost, and cannot be restored through any means (even Battle Transience).<br>
-    Upon awaking, you may also switch out your current abilities with ones from your sideboard.
-</p>
-<h3>
-    Great Rest
-</h3>
-Better than a Good Rest, you must sleep in a luxurious room with a great bed
-for eight or more hours to get the benefits of a Great Rest.
-<p>
-    With a Great Rest, you gain a temporary +20% bonus to your maximum Vital scores. This
-    bonus cannot be restored through any means (even Battle Transience).<br>
-    Upon awaking, you may also switch out your current abilities with ones from your sideboard.
-</p>
-<h3>
-    Leveling Up
-</h3>
-<p>Now that you've rested for 3-6+ hours, you can finally level-up.<br>
-    After you've finished your rest, if you've acquired enough experience points to meet or exceed the requirements,
-    you can level-up. By doing so, you subtract the required amount from your current XP,
-    and you follow the level-up process as described in <a href="LevelsAndProgression.html">Levels and
-        Progression</a>.<br></p>
-<b>Please note: If you have not rested, you cannot level-up.</b>
-<h3>
-    Doctor
-</h3>
-Just about every town has a doctor. These specialists are able to help restore you to
-full health after a hard battle. Aside from restoring your vitals, they primarily
-restore status conditions, such as poison, or disablement.
-<p>
-    Once in town, you can consult the doctor and pay a flat fee for their services.
-<table>
-    <tr>
-        <th>
-            Service
-        </th>
-        <th>
-            Description
-        </th>
-        <th>
-            Fee
-        </th>
-    </tr>
-    <tr>
-        <td>
-            Restore Vitals
-        </td>
-        <td>
-            Your vital scores (Health, Mana, Stamina, focus) are restored to 100%
-            capacity.
-        </td>
-        <td>
-            100
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Restore Status Condition
-        </td>
-        <td>
-            A status condition is undone (this excludes death).
-        </td>
-        <td>
-            150
-        </td>
-    </tr>
-</table>
-<p>
-    It only takes an hour to remedy any amount of afflictions.
-</p>
-
-<h3>
-    Inns and Hotels
-</h3>
-Inns and hotels are establishments that provide rooms for overnight use. While resting
-there, you gain the benefits of a good rest, along with other complimentary services
-they might provide.
-<p>
-    Inns differ from hotels in that they are less formal and focus more on simple provisions.
-</p>
-<p>
-    Hotels on the other hand, are focused on luxurious conditions and comfortable accommodations.
-</p>
-<p>
-    In order to get the benefits of either establishment, you must spend the night there
-    and get at least 8 hours of sleep.
-</p>
-<table>
-    <tr>
-        <th>
-            Establishment
-        </th>
-        <th>
-            Benefits
-        </th>
-        <th>
-            Cost
-        </th>
-    </tr>
-    <tr>
-        <td>
-            Inn
-        </td>
-        <td>
+        <h2 id="RestAndRecovery">
+            Rest and Recovery
+        </h2>
+        <p>
+            As a general rule, just so long as you have some kind of bedroll,
+            you can lay down
+            for some rest. While resting, all your Health, Mana, Stamina, and
+            Focus are restored,
+            and you wake up feeling refreshed and ready for the day ahead.
+            However, there are
+            different degrees of rest you can get.
+        </p>
+        <table>
+            <th>
+                Hours of Sleep
+            </th>
+            <th>
+                Benefits
+            </th>
+            <tr>
+                <td>
+                    0
+                </td>
+                <td>
+                    In failing to receive a proper rest, nothing is restored and
+                    for some
+                    reason you feel even worse than before.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    1-2
+                </td>
+                <td>
+                    25% of max health is restored.<br>
+                    50% max mana, stamina, and focus is restored.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3-6
+                </td>
+                <td>
+                    50% of your max health is restored.<br>
+                    100% of your max mana, stamina, and focus is restored.<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    7-8
+                </td>
+                <td>
+                    100% of your max health, mana, stamina, and focus is
+                    restored.
+                </td>
+            </tr>
+        </table>
+        <p>
+            To make it clear - negative status effects that may have lasted from
+            your most recent battle remain in effect.<br>
+            In order to remove any negative status effects, go visit a doctor.
+        </p>
+        <h3>
             Good Rest
-        </td>
-        <td>
-            75
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Hotel
-        </td>
-        <td>
+        </h3>
+        Sleeping for eight hours in a warm, comfortable bed in a safe
+        environment grants you the benefits of
+        a good rest.
+        <p>
+            With a good rest, you gain a temporary +10% bonus to your maximum
+            Vital scores. These
+            last until they're lost, and cannot be restored through any means
+            (even Battle Transience).<br>
+            Upon awaking, you may also switch out your current abilities with
+            ones from your sideboard.
+        </p>
+        <h3>
             Great Rest
-        </td>
-        <td>
-            150
-        </td>
-    </tr>
-</table>
+        </h3>
+        Better than a Good Rest, you must sleep in a luxurious room with a great
+        bed
+        for eight or more hours to get the benefits of a Great Rest.
+        <p>
+            With a Great Rest, you gain a temporary +20% bonus to your maximum
+            Vital scores. This
+            bonus cannot be restored through any means (even Battle Transience).<br>
+            Upon awaking, you may also switch out your current abilities with
+            ones from your sideboard.
+        </p>
+        <h3>
+            Leveling Up
+        </h3>
+        <p>Now that you've rested for 3-6+ hours, you can finally level-up.<br>
+            After you've finished your rest, if you've acquired enough
+            experience points to meet or exceed the requirements,
+            you can level-up. By doing so, you subtract the required amount from
+            your current XP,
+            and you follow the level-up process as described in <a
+                    href="LevelsAndProgression.html">Levels and
+                Progression</a>.<br></p>
+        <b>Please note: If you have not rested, you cannot level-up.</b>
+        <h3>
+            Doctor
+        </h3>
+        Just about every town has a doctor. These specialists are able to help
+        restore you to
+        full health after a hard battle. Aside from restoring your vitals, they
+        primarily
+        restore status conditions, such as poison, or disablement.
+        <p>
+            Once in town, you can consult the doctor and pay a flat fee for
+            their services.
+        <table>
+            <tr>
+                <th>
+                    Service
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Fee
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Restore Vitals
+                </td>
+                <td>
+                    Your vital scores (Health, Mana, Stamina, focus) are
+                    restored to 100%
+                    capacity.
+                </td>
+                <td>
+                    100
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Restore Status Condition
+                </td>
+                <td>
+                    A status condition is undone (this excludes death).
+                </td>
+                <td>
+                    150
+                </td>
+            </tr>
+        </table>
+        <p>
+            It only takes an hour to remedy any amount of afflictions.
+        </p>
 
-<h3>
-    The Church
-</h3>
-A JRPG just isn't complete without its vaguely-Catholic church. Just about every large
-town has some kind of a church establishment where you can sit and reflect on your deeds,
-or make an donation.
-<p>
-    Though you're not supposed to say it, you can donate to the church in exchange for
-    Revival Coins.
-</p>
-<table>
-    <tr>
-        <th>
-            Donation Amount (gil)
-        </th>
-        <th>
-            Reward
-        </th>
-    </tr>
-    <tr>
-        <td>
-            100
-        </td>
-        <td>
-            Roll 1d20. On 20, you get 1x Bronze Coin.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            500
-        </td>
-        <td>
-            Roll 1d20. 10-20, you get 1x Bronze Coin.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            1,000
-        </td>
-        <td>
-            You get 1x Bronze Coin.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            5,000
-        </td>
-        <td>
-            You get 1x Silver Coin.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            10,000
-        </td>
-        <td>
-            You get 1x Gold Coin.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            10,001 and beyond
-        </td>
-        <td>
-            Roll 1d20, on 18-20, you get 1x Platinum Coin.<br>
-            Otherwise, get you 1x Gold Coin.
-        </td>
-    </tr>
-</table>
-<hr>
-<h2>
-    Guilds
-</h2>
-Guilds are organizations that specialize in finding work for their clients, while acting
-as mediators to ensure that the both sides are treated fairly. <br>
-Symbolically, guilds are a hub of civilization and good-will towards those who often
-spend time away from home. For members, aside from just a source of income, they provide lodging, food, and other means
-of support.
-<p>
-    If you're going to a guild for help, you would first create a job listing. The job
-    listing describes the task that needs done. Next, the job listing is given
-    to the clerk, who reviews the job, sets a difficulty rank, time frame, a price, and how many members are required to
-    complete
-    it.<br>
-    From there, it is posted to the job board for guild members to browse and consider.
-</p>
-<p>
-    When a guild member or party of guild members find a job listing, they can claim it.
-    Once claimed, the guild forbids anyone else to interfere with their labor until
-    it is either completed or abandoned. Once the task is completed, the guild members
-    return with the proof of their success and are then paid by the commissioner
-    through the guild.
-</p>
-<p>
-    Most guilds offer rewards of advancement and various privileges for a consistent
-    track record of successful jobs. Typically, they look at your 10 most recent jobs,
-    then assign you a rank based on the difficulty of the most jobs that you've completed.<br>
-    Note: <i>If you've completed an equal amount of missions of differing ranks, then the bias is towards the most
-    recently completed.</i>>
-<div>
-    For example. If you have recently completed 4 D-rank missions, 3 C-rank missions, 2 E-rank missions,
-    and 1 A-Rank mission, then your guild rank is set to D, because out of the ten missions, you have more completed
-    D-rank missions than the others. However, upon completing a C-rank mission, your guild-rank would increase to C.
-</div>
-</p>
-<p>
-    If you're able to complete a mission with fewer members than required, then the mission is counted
-    as a rank higher than it normally would. In other words, if a mission is D-rank for 5 people, but two
-    more capable members take care of it, then the rank is re-ranked as though it were originally meant
-    for two people. The same goes for using more members than listed to complete a higher-ranked mission.
-</p>
-<p>
-    If for some reason you're unable to complete your mission, you are allowed to drop it. Simply return
-    to the guild and request to drop the quest. Dropping a quest for any reason will treat the quest as
-    two failed quests on your report card, and may threaten your guild-ranking.
-</p>
-<p>
-    Below is a table of mission ranks and their descriptions. They also include examples of missions
-    that you'd typically see in an adventurer's guild, along with their typical pay ranges (not including the money
-    you have acquired while completing it).
-</p>
-<table>
-    <tr>
-        <th>
-            Mission Rank
-        </th>
-        <th>
-            Description.
-        </th>
-        <th>
-            Examples
-        </th>
-        <th>
-            Typical Pay Range (Gil)
-        </th>
-    </tr>
-    <tr>
-        <td>
-            F
-        </td>
-        <td>
-            No risk. More or less menial chores.
-        </td>
-        <td>
-            Pulling weeds, putting down cockroach poison, escorting children to school.
-        </td>
-        <td>
-            25-50
-        </td>
-    </tr>
-    <tr>
-        <td>
-            E
-        </td>
-        <td>
-            Slight risk. Tasks with no immediate danger.
-        </td>
-        <td>
-            Killing rats, disassembling an unstable treehouse, removing a bee hive.
-        </td>
-        <td>
-            100-200
-        </td>
-    </tr>
-    <tr>
-        <td>
-            D
-        </td>
-        <td>
-            Mild risk. Dangerous tasks that could result in injury.
-        </td>
-        <td>
-            Killing level 1 monsters, neutralizing rabid animals, recovering run-aways.
-        </td>
-        <td>
-            400-800
-        </td>
-    </tr>
-    <tr>
-        <td>
-            C
-        </td>
-        <td>
-            Real risk. Dangerous tasks that will result in injury, if not death, for the untrained.
-        </td>
-        <td>
-            Killing level 2-5 monsters, investigating monster nests, tracking down murderers.
-        </td>
-        <td>
-            1,600-3,200
-        </td>
-    </tr>
-    <tr>
-        <td>
-            B
-        </td>
-        <td>
-            High risk. Lethal tasks that will likely result in death for the incapable.
-            If not dealt with, towns and cities may suffer.
-        </td>
-        <td>
-            Killing level 6-10 monsters.
-        </td>
-        <td>
-            6,400-12,800
-        </td>
-    </tr>
-    <tr>
-        <td>
-            A
-        </td>
-        <td>
-            Immense risk. A deadly tasks that threatens not just you, but those around it. Absolute capability is the
-            bare minimum.
-            Failure to neutralize the threat will result in calamity.
-        </td>
-        <td>
-            Killing level 11-14 monsters. Going to war.
-        </td>
-        <td>
-            25,600-51,200
-        </td>
-    </tr>
-    <tr>
-        <td>
-            S
-        </td>
-        <td>
-            Intense risk. A highly deadly task that challenges even the most capable of champions.
-            Moreover, whole countries may suffer if it is not dealt with.
-        </td>
-        <td>
-            Killing level 15-20 monsters.
-        </td>
-        <td>
-            102,400-204,800
-        </td>
-    </tr>
-    <tr>
-        <td>
-            S+
-        </td>
-        <td>
-            Ultimate risk. A world-scale threat that only a handful of legendary heroes in a generation can hope to
-            defeat.
-        </td>
-        <td>
-            Killing level 20+ monsters. Saving the world.
-        </td>
-        <td>
-            As much as you want.
-        </td>
-    </tr>
-</table>
+        <h3>
+            Inns and Hotels
+        </h3>
+        Inns and hotels are establishments that provide rooms for overnight use.
+        While resting
+        there, you gain the benefits of a good rest, along with other
+        complimentary services
+        they might provide.
+        <p>
+            Inns differ from hotels in that they are less formal and focus more
+            on simple provisions.
+        </p>
+        <p>
+            Hotels on the other hand, are focused on luxurious conditions and
+            comfortable accommodations.
+        </p>
+        <p>
+            In order to get the benefits of either establishment, you must spend
+            the night there
+            and get at least 8 hours of sleep.
+        </p>
+        <table>
+            <tr>
+                <th>
+                    Establishment
+                </th>
+                <th>
+                    Benefits
+                </th>
+                <th>
+                    Cost
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Inn
+                </td>
+                <td>
+                    Good Rest
+                </td>
+                <td>
+                    75
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hotel
+                </td>
+                <td>
+                    Great Rest
+                </td>
+                <td>
+                    150
+                </td>
+            </tr>
+        </table>
 
-<h3>
-    Treasure Hunter's Guild
-</h3>
-Out on the frontier you'll find the Treasure Hunter's Guild. This guild specializes in finding work
-for people who make their living by delving into long-lost sites and recovering ancient artifacts. There
-are guild branches all across the country, most often on the fringes of society where the known meets
-the unknown. Collectors and curators often send their requests to the guilds in hopes to acquire
-something new for their stores. Other times, treasure hunters do freelance work and sell their spoils
-out on the open market.
-<p>In the Treasure Hunter's guild, a mission's difficulty is ranked similarly to one from the adventurer's
-    guild, with F-rank being the safest, and S-rank being the most dangerous. However, the grade of a treasure
-    hunter is determined upon how often they acquire the item they're after.</p>
+        <h3>
+            The Church
+        </h3>
+        A JRPG just isn't complete without its vaguely-Catholic church. Just
+        about every large
+        town has some kind of a church establishment where you can sit and
+        reflect on your deeds,
+        or make an donation.
+        <p>
+            Though you're not supposed to say it, you can donate to the church
+            in exchange for
+            Revival Coins.
+        </p>
+        <table>
+            <tr>
+                <th>
+                    Donation Amount (gil)
+                </th>
+                <th>
+                    Reward
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    100
+                </td>
+                <td>
+                    Roll 1d20. On 20, you get 1x Bronze Coin.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    500
+                </td>
+                <td>
+                    Roll 1d20. 10-20, you get 1x Bronze Coin.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    1,000
+                </td>
+                <td>
+                    You get 1x Bronze Coin.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    5,000
+                </td>
+                <td>
+                    You get 1x Silver Coin.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    10,000
+                </td>
+                <td>
+                    You get 1x Gold Coin.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    10,001 and beyond
+                </td>
+                <td>
+                    Roll 1d20, on 18-20, you get 1x Platinum Coin.<br>
+                    Otherwise, get you 1x Gold Coin.
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <h2>
+            Guilds
+        </h2>
+        Guilds are organizations that specialize in finding work for their
+        clients, while acting
+        as mediators to ensure that the both sides are treated fairly. <br>
+        Symbolically, guilds are a hub of civilization and good-will towards
+        those who often
+        spend time away from home. For members, aside from just a source of
+        income, they provide lodging, food, and other means
+        of support.
+        <p>
+            If you're going to a guild for help, you would first create a job
+            listing. The job
+            listing describes the task that needs done. Next, the job listing is
+            given
+            to the clerk, who reviews the job, sets a difficulty rank, time
+            frame, a price, and how many members are required to
+            complete
+            it.<br>
+            From there, it is posted to the job board for guild members to
+            browse and consider.
+        </p>
+        <p>
+            When a guild member or party of guild members find a job listing,
+            they can claim it.
+            Once claimed, the guild forbids anyone else to interfere with their
+            labor until
+            it is either completed or abandoned. Once the task is completed, the
+            guild members
+            return with the proof of their success and are then paid by the
+            commissioner
+            through the guild.
+        </p>
+        <p>
+            Most guilds offer rewards of advancement and various privileges for
+            a consistent
+            track record of successful jobs. Typically, they look at your 10
+            most recent jobs,
+            then assign you a rank based on the difficulty of the most jobs that
+            you've completed.<br>
+            Note: <i>If you've completed an equal amount of missions of
+            differing ranks, then the bias is towards the most
+            recently completed.</i>>
+        <div>
+            For example. If you have recently completed 4 D-rank missions, 3
+            C-rank missions, 2 E-rank missions,
+            and 1 A-Rank mission, then your guild rank is set to D, because out
+            of the ten missions, you have more completed
+            D-rank missions than the others. However, upon completing a C-rank
+            mission, your guild-rank would increase to C.
+        </div>
+        </p>
+        <p>
+            If you're able to complete a mission with fewer members than
+            required, then the mission is counted
+            as a rank higher than it normally would. In other words, if a
+            mission is D-rank for 5 people, but two
+            more capable members take care of it, then the rank is re-ranked as
+            though it were originally meant
+            for two people. The same goes for using more members than listed to
+            complete a higher-ranked mission.
+        </p>
+        <p>
+            If for some reason you're unable to complete your mission, you are
+            allowed to drop it. Simply return
+            to the guild and request to drop the quest. Dropping a quest for any
+            reason will treat the quest as
+            two failed quests on your report card, and may threaten your
+            guild-ranking.
+        </p>
+        <p>
+            Below is a table of mission ranks and their descriptions. They also
+            include examples of missions
+            that you'd typically see in an adventurer's guild, along with their
+            typical pay ranges (not including the money
+            you have acquired while completing it).
+        </p>
+        <table>
+            <tr>
+                <th>
+                    Mission Rank
+                </th>
+                <th>
+                    Description.
+                </th>
+                <th>
+                    Examples
+                </th>
+                <th>
+                    Typical Pay Range (Gil)
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    F
+                </td>
+                <td>
+                    No risk. More or less menial chores.
+                </td>
+                <td>
+                    Pulling weeds, putting down cockroach poison, escorting
+                    children to school.
+                </td>
+                <td>
+                    25-50
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    E
+                </td>
+                <td>
+                    Slight risk. Tasks with no immediate danger.
+                </td>
+                <td>
+                    Killing rats, disassembling an unstable treehouse, removing
+                    a bee hive.
+                </td>
+                <td>
+                    100-200
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    D
+                </td>
+                <td>
+                    Mild risk. Dangerous tasks that could result in injury.
+                </td>
+                <td>
+                    Killing level 1 monsters, neutralizing rabid animals,
+                    recovering run-aways.
+                </td>
+                <td>
+                    400-800
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    C
+                </td>
+                <td>
+                    Real risk. Dangerous tasks that will result in injury, if
+                    not death, for the untrained.
+                </td>
+                <td>
+                    Killing level 2-5 monsters, investigating monster nests,
+                    tracking down murderers.
+                </td>
+                <td>
+                    1,600-3,200
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    B
+                </td>
+                <td>
+                    High risk. Lethal tasks that will likely result in death for
+                    the incapable.
+                    If not dealt with, towns and cities may suffer.
+                </td>
+                <td>
+                    Killing level 6-10 monsters.
+                </td>
+                <td>
+                    6,400-12,800
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    A
+                </td>
+                <td>
+                    Immense risk. A deadly tasks that threatens not just you,
+                    but those around it. Absolute capability is the
+                    bare minimum.
+                    Failure to neutralize the threat will result in calamity.
+                </td>
+                <td>
+                    Killing level 11-14 monsters. Going to war.
+                </td>
+                <td>
+                    25,600-51,200
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    S
+                </td>
+                <td>
+                    Intense risk. A highly deadly task that challenges even the
+                    most capable of champions.
+                    Moreover, whole countries may suffer if it is not dealt
+                    with.
+                </td>
+                <td>
+                    Killing level 15-20 monsters.
+                </td>
+                <td>
+                    102,400-204,800
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    S+
+                </td>
+                <td>
+                    Ultimate risk. A world-scale threat that only a handful of
+                    legendary heroes in a generation can hope to
+                    defeat.
+                </td>
+                <td>
+                    Killing level 20+ monsters. Saving the world.
+                </td>
+                <td>
+                    As much as you want.
+                </td>
+            </tr>
+        </table>
 
-<h3>
-    Adventurer's Guild
-</h3>
-The Adventurer's Guild is the archetypal fantasy guild and is likewise recognized across the land as a
-hub for fantastic journeys into the unknown. Young and daring spirits have been attracted to its prospects
-for centuries, and many have been challenged to grow - or be defeated - in order to survive.
-<p>
-    In reality, the Adventurer's Guild is more like a giant bulletin board from many other guilds; the
-    guild itself only specializes in monster exterminations. Which means that, if you go to the guild in search
-    of work, you'll find plenty of it - though most of the contracts will be through third-party guilds.
-</p>
-<p>
-    This means, work from Treasure Hunter guilds, the Artisan Guilds, from Merchant guilds, and so on.
-    Sometimes, a few black-market contracts*, veiled in coded languages, appear as well.
-</p>
-<sub>
-    *Note: While it's not illegal to accept a black market contract, breaking the law is still illegal.
-</sub>
+        <h3>
+            Treasure Hunter's Guild
+        </h3>
+        Out on the frontier you'll find the Treasure Hunter's Guild. This guild
+        specializes in finding work
+        for people who make their living by delving into long-lost sites and
+        recovering ancient artifacts. There
+        are guild branches all across the country, most often on the fringes of
+        society where the known meets
+        the unknown. Collectors and curators often send their requests to the
+        guilds in hopes to acquire
+        something new for their stores. Other times, treasure hunters do
+        freelance work and sell their spoils
+        out on the open market.
+        <p>In the Treasure Hunter's guild, a mission's difficulty is ranked
+            similarly to one from the adventurer's
+            guild, with F-rank being the safest, and S-rank being the most
+            dangerous. However, the grade of a treasure
+            hunter is determined upon how often they acquire the item they're
+            after.</p>
 
-<h3>
-    Artisan's Guild
-</h3>
-This guild specializes in the proliferation of art and all related endeavors. It is a source of income
-and advertisement for thousands of artists, aspiring and veteran, all across the world.
-<p>
-    They specialize in helping artists find work, as well as for transporting and protecting art. But most,
-    artists will find work taking commissions from wealthier individuals, painting portraits or helping
-    to compile poems.
-<ul>
-    <li>
-        Writing
-    </li>
-    <li>
-        Drawing
-    </li>
-    <li>
-        Painting
-    </li>
-    <li>
-        Dance
-    </li>
-    <li>
-        Composition
-    </li>
-    <li>
-        Music
-    </li>
-    <li>
-        Tailoring
-    </li>
-</ul>
-</p>
-<p>
-    For other treasure hunters, they can find work helping to recover lost pieces of art from across the world,
-    such that they might be featured in museums.
-</p>
-<h3>
-    Engineer's Guild
-</h3>
-This guild glorifies craftsmanship in all its various glories, from simple carpentry, all the way to
-advances in science and technology. It is a guild built on the ideals of invention and innovation,
-for making a better world through the practical application of science.
-<p>
-    Work found in the Engineer's Guild relates mostly to creating new devices, or collecting
-    rare and exotic resources to bring back for the engineers. You'll also find work as an
-    engineer in architecture and general repairs.
-    <br>
-    However, there is also a collection of legendary tasks, often commissioned by noblemen and rich
-    merchants, for more philanthropic efforts. Such curing cancer, solving draught, and space travel.
-</p>
-<p>
-    In recent years, the prestige of the guild has grown in thanks to the growing prevalence of technology
-    in world. The need for better armor, better infrastructure, and smarter agriculture practices has
-    lead to a sudden demand for experienced engineers. Such a demand has made the guild very wealthy.
-</p>
+        <h3>
+            Adventurer's Guild
+        </h3>
+        The Adventurer's Guild is the archetypal fantasy guild and is likewise
+        recognized across the land as a
+        hub for fantastic journeys into the unknown. Young and daring spirits
+        have been attracted to its prospects
+        for centuries, and many have been challenged to grow - or be defeated -
+        in order to survive.
+        <p>
+            In reality, the Adventurer's Guild is more like a giant bulletin
+            board from many other guilds; the
+            guild itself only specializes in monster exterminations. Which means
+            that, if you go to the guild in search
+            of work, you'll find plenty of it - though most of the contracts
+            will be through third-party guilds.
+        </p>
+        <p>
+            This means, work from Treasure Hunter guilds, the Artisan Guilds,
+            from Merchant guilds, and so on.
+            Sometimes, a few black-market contracts*, veiled in coded languages,
+            appear as well.
+        </p>
+        <sub>
+            *Note: While it's not illegal to accept a black market contract,
+            breaking the law is still illegal.
+        </sub>
 
-<h3>
-    Merchant Guild
-</h3>
-Dealing in all things related to production and its allocation, the Merchant Guild is the most prosperous
-of all guilds, drawing work and workers from across the globe in mass. They function as a kind of
-super-hub for buyers and sellers, establishing their vast markets in all major and minor cities, with
-branches in most towns, and loaded wagons traveling to nearly all villages and smaller settlements.
-<p>
-    Work for the Merchant Guild is also the most various. Commissions range from boring and tedious,
-    such as picking potatoes and moving pallets onto a ship, all the way to to deep-sea diving for shed
-    leviathan shells. However, the average lies in simple shipping and handling.
-</p>
-<p>
-    In reality, the real money for them is in stocks and bonds. Since all guild branches function
-    as stock markets, with a small fee being collected from every trade, the Merchant Guild
-    is more wealthy than most kings. This has lead to a contention between the Merchant Guild branches
-    and the many rulers, often forcing the guild to enter special relations (read "bribery") in order
-    to maintain their easy dealings.
-</p>
-<p>
-    In conclusion, the Merchant Guild can be said to be as benevolent as it is malevolent. As in all things
-    related to money, it leads to happiness as well as despair. When taking work for the Merchant Guild,
-    be sure to chose wisely and read the fine print.
-</p>
+        <h3>
+            Artisan's Guild
+        </h3>
+        This guild specializes in the proliferation of art and all related
+        endeavors. It is a source of income
+        and advertisement for thousands of artists, aspiring and veteran, all
+        across the world.
+        <p>
+            They specialize in helping artists find work, as well as for
+            transporting and protecting art. But most,
+            artists will find work taking commissions from wealthier
+            individuals, painting portraits or helping
+            to compile poems.
+        <ul>
+            <li>
+                Writing
+            </li>
+            <li>
+                Drawing
+            </li>
+            <li>
+                Painting
+            </li>
+            <li>
+                Dance
+            </li>
+            <li>
+                Composition
+            </li>
+            <li>
+                Music
+            </li>
+            <li>
+                Tailoring
+            </li>
+        </ul>
+        </p>
+        <p>
+            For other treasure hunters, they can find work helping to recover
+            lost pieces of art from across the world,
+            such that they might be featured in museums.
+        </p>
+        <h3>
+            Engineer's Guild
+        </h3>
+        This guild glorifies craftsmanship in all its various glories, from
+        simple carpentry, all the way to
+        advances in science and technology. It is a guild built on the ideals of
+        invention and innovation,
+        for making a better world through the practical application of science.
+        <p>
+            Work found in the Engineer's Guild relates mostly to creating new
+            devices, or collecting
+            rare and exotic resources to bring back for the engineers. You'll
+            also find work as an
+            engineer in architecture and general repairs.
+            <br>
+            However, there is also a collection of legendary tasks, often
+            commissioned by noblemen and rich
+            merchants, for more philanthropic efforts. Such curing cancer,
+            solving draught, and space travel.
+        </p>
+        <p>
+            In recent years, the prestige of the guild has grown in thanks to
+            the growing prevalence of technology
+            in world. The need for better armor, better infrastructure, and
+            smarter agriculture practices has
+            lead to a sudden demand for experienced engineers. Such a demand has
+            made the guild very wealthy.
+        </p>
 
-<h3>
-    Magician's Guild
-</h3>
-Notably the oldest of all recognized guilds, they first started out as interconnected cults fascinated
-with the arcane arts, and eventually grew to public acceptance. As magic became more necessary
-to the establishment of major civilizations, the power of the Magician's Guild grew with it. For a long time,
-guild halls functions as schools, lecture halls, and private markets for the trade of rare and strange
-relics. Today, though their social prominence is waning, they are still the foremost commissioners
-of magicians in the world.
-<p>
-    Work for the Magician's Guild tends to be the most dangerous, purely for the for that you'll
-    be dealing with magical items. Work ranges from the simple collection of artifacts, all the way
-    to helping with the creation of the Sorcerer's Stone - which tends to end in tragedy every time.
-</p>
-<p>
-    Guild branches themselves tend be curious places, often older than the towns they're in, and piled
-    high wall-to-wall, floor-to-ceiling with books, scrolls, tablets, manuscripts, and little boxes labeled
-    in script that can no longer be read. Curiosity here is more certain to kill you than
-    out on the field.
-</p>
+        <h3>
+            Merchant Guild
+        </h3>
+        Dealing in all things related to production and its allocation, the
+        Merchant Guild is the most prosperous
+        of all guilds, drawing work and workers from across the globe in mass.
+        They function as a kind of
+        super-hub for buyers and sellers, establishing their vast markets in all
+        major and minor cities, with
+        branches in most towns, and loaded wagons traveling to nearly all
+        villages and smaller settlements.
+        <p>
+            Work for the Merchant Guild is also the most various. Commissions
+            range from boring and tedious,
+            such as picking potatoes and moving pallets onto a ship, all the way
+            to to deep-sea diving for shed
+            leviathan shells. However, the average lies in simple shipping and
+            handling.
+        </p>
+        <p>
+            In reality, the real money for them is in stocks and bonds. Since
+            all guild branches function
+            as stock markets, with a small fee being collected from every trade,
+            the Merchant Guild
+            is more wealthy than most kings. This has lead to a contention
+            between the Merchant Guild branches
+            and the many rulers, often forcing the guild to enter special
+            relations (read "bribery") in order
+            to maintain their easy dealings.
+        </p>
+        <p>
+            In conclusion, the Merchant Guild can be said to be as benevolent as
+            it is malevolent. As in all things
+            related to money, it leads to happiness as well as despair. When
+            taking work for the Merchant Guild,
+            be sure to chose wisely and read the fine print.
+        </p>
 
-<h3>
-    Freelancers
-</h3>
-Though guilds abound in the world, not everyone is in a guild. In fact, there are quite a few fellows out there
-who prefer to do business on their own terms. Typically called Freelances, they roam from town to town
-looking for work, advertising themselves at lower prices than the guilds do, often coming out with
-more money than a guild member would also. However, without a guild to represent and back them up in case of conflict,
-there's a higher degree of risk to it.
-<p>
-    You can typically find advertisements for Freelancers on town bulletin boards or in the public places. Freelancers
-    come in as many flavors as the guilds do; where there's an adventurer's guild, there are plenty of Freelancer
-    adventurers,
-    and so on. To start negotiations, all one has to do is approach them with a task and an initial offer of
-    compensation.
-    From there, an agreement is reached and the Freelancer goes to work.
-</p>
-<p>
-    On average, Freelancers are 20-30% more affordable than guildmembers, since there's
-    typically no guildfees or taxes that apply to your agreements. However, without an intermediate
-    party to ensure that that both parties can be protected in case of tragedy, this can make trusting
-    Freelancers difficult. If you become a Freelancer, most of the work will come from maintaining a
-    good name for yourself.
-</p>
+        <h3>
+            Magician's Guild
+        </h3>
+        Notably the oldest of all recognized guilds, they first started out as
+        interconnected cults fascinated
+        with the arcane arts, and eventually grew to public acceptance. As magic
+        became more necessary
+        to the establishment of major civilizations, the power of the Magician's
+        Guild grew with it. For a long time,
+        guild halls functions as schools, lecture halls, and private markets for
+        the trade of rare and strange
+        relics. Today, though their social prominence is waning, they are still
+        the foremost commissioners
+        of magicians in the world.
+        <p>
+            Work for the Magician's Guild tends to be the most dangerous, purely
+            for the for that you'll
+            be dealing with magical items. Work ranges from the simple
+            collection of artifacts, all the way
+            to helping with the creation of the Sorcerer's Stone - which tends
+            to end in tragedy every time.
+        </p>
+        <p>
+            Guild branches themselves tend be curious places, often older than
+            the towns they're in, and piled
+            high wall-to-wall, floor-to-ceiling with books, scrolls, tablets,
+            manuscripts, and little boxes labeled
+            in script that can no longer be read. Curiosity here is more certain
+            to kill you than
+            out on the field.
+        </p>
 
-<h3>
-    Black Markets
-</h3>
-Where there is a law, there is market for breaking it. Across the world, whenever a good or a service
-is banned or too tightly-regulated, its consumption merely moved into the dangerous and uncertain world
-of the black market. These markets exist in the shadows, often curated by the wealthy and the powerful.
-<p>
-    The black market is more dangerous than the Adventurer's Guild and more lucrative than the Merchant's
-    Guild, which is why both guilds tend to be so close - yet so far - to the action. In reality, there is
-    no physical market, but a web of connections between buyers and sellers. One person knows another
-    who knows another who knows of a fellow who happens to be selling illegal thing X, and arrangements
-    can be made for a trade - but only if you are trusted.
-</p>
-<p>
-    Indeed, dealing with the black market is dangerous. Either it goes right, or you end up swindles,
-    betrayed, or in jail. And the more money there is to be made, the bigger the risk. Yet, despite
-    all the frustrations by the police, the market persists.
-</p>
+        <h3>
+            Freelancers
+        </h3>
+        Though guilds abound in the world, not everyone is in a guild. In fact,
+        there are quite a few fellows out there
+        who prefer to do business on their own terms. Typically called
+        Freelances, they roam from town to town
+        looking for work, advertising themselves at lower prices than the guilds
+        do, often coming out with
+        more money than a guild member would also. However, without a guild to
+        represent and back them up in case of conflict,
+        there's a higher degree of risk to it.
+        <p>
+            You can typically find advertisements for Freelancers on town
+            bulletin boards or in the public places. Freelancers
+            come in as many flavors as the guilds do; where there's an
+            adventurer's guild, there are plenty of Freelancer
+            adventurers,
+            and so on. To start negotiations, all one has to do is approach them
+            with a task and an initial offer of
+            compensation.
+            From there, an agreement is reached and the Freelancer goes to work.
+        </p>
+        <p>
+            On average, Freelancers are 20-30% more affordable than
+            guildmembers, since there's
+            typically no guildfees or taxes that apply to your agreements.
+            However, without an intermediate
+            party to ensure that that both parties can be protected in case of
+            tragedy, this can make trusting
+            Freelancers difficult. If you become a Freelancer, most of the work
+            will come from maintaining a
+            good name for yourself.
+        </p>
 
-<h3>
-    Auctions
-</h3>
-<p>
-    Practiced by most guilds, the auction house exists as a special event for the acquisition of expensive
-    unique goods. This is done by gathering with other bidders and placing bids on the presented
-    article. This can be a good, such as furniture or a land deed, or even a service such as having
-    your roof repaired or a portrait painted.
-</p>
-<p>
-    The goal of the auction is to get a low-supply/high-demand good or service to the person who is
-    willing to pay for the most.
-</p>
-<p>
-    In practice, an item is first place for auction with a starting bid, and bidders can take turns
-    out-bidding their competitors. When the bid slows to a halt, the person who most recently bid
-    is declared the victor. Behind curtains, the exchange is made.
-</p>
-<hr>
-<h2>
-    NPC Services
-</h2>
-In every settlement, there is certain to be at least one person, specialized in a trade,
-who is willing to sell their services. There can be carpenters, stone masons, artists, smiths, weapon
-manufacturers, and all sorts of things that a party might need.
-<p>
-    In game, the DM is in charge of determining how these services are rendered. However, there are special,
-    more technical services out there that player characters are certain to need. Below is a list
-    of various NPC services for the players.
-</p>
-<h3>
-    Training
-</h3>
-Players aren't always as strong or talented as they want to be can spend their free time on mastering
-their abilities in a low-risk environment. This can be done by paying a fee to use a specialized training area,
-or for free by heading out into the wilderness.
-<p>
-    There are two kinds of training: level-grinding, and studying.
-<ul>
-    <li>
-        Level-grinding is done by fighting in a controlled environment to steadily gain more
-        levels. The higher your current level, the more time is required to increase it - this is because
-        finding powerful monsters are scarcer than weaker ones.<br>
-        It is not possible to grind after level 15.
-    </li>
-    <li>
-        Studying is done by going to a studio that relates to the talent you wish to improve
-        and devoting your time to practice and understanding.
-    </li>
-</ul>
-Both of these methods require plenty of time - which may not be feasible of you're short of time. Keep in mind,
-just because you're not doing anything, doesn't mean your adversaries aren't doing anything either.
-</p>
+        <h3>
+            Black Markets
+        </h3>
+        Where there is a law, there is market for breaking it. Across the world,
+        whenever a good or a service
+        is banned or too tightly-regulated, its consumption merely moved into
+        the dangerous and uncertain world
+        of the black market. These markets exist in the shadows, often curated
+        by the wealthy and the powerful.
+        <p>
+            The black market is more dangerous than the Adventurer's Guild and
+            more lucrative than the Merchant's
+            Guild, which is why both guilds tend to be so close - yet so far -
+            to the action. In reality, there is
+            no physical market, but a web of connections between buyers and
+            sellers. One person knows another
+            who knows another who knows of a fellow who happens to be selling
+            illegal thing X, and arrangements
+            can be made for a trade - but only if you are trusted.
+        </p>
+        <p>
+            Indeed, dealing with the black market is dangerous. Either it goes
+            right, or you end up swindles,
+            betrayed, or in jail. And the more money there is to be made, the
+            bigger the risk. Yet, despite
+            all the frustrations by the police, the market persists.
+        </p>
 
-<p>
-    Both of these can be done for free, in which you go out into the wilderness, or paid, in which you
-    spend money to use a specialized area. Paid training yields results faster, but you may not
-    have the money to afford it.
-</p>
-<p>
-    <b>Level Grinding</b><br>
-    Done by going out and fighting weaker runts and mobs of the same level.
-    This is done a day at a time, in which you must be able to devote 12 hours at once to the task.
-</p>
-<p>
-    At the end of each day, a 1d20 is rolled for the whole party to see how much each participant gained.
-    The higher they roll, the better.
-</p>
-<ul>
-    <li>1-9: 300xp</li>
-    <li>10-15: 450xp</li>
-    <li>16-19: 600xp</li>
-    <li>20: 900xp</li>
-</ul>
-<p>
-    Alternatively, you can pay [500 x Player Level]gil a day to use a specialized training area.<br>
-    Using a training area increase earned XP by 2x. Though rare, more specialized training areas exist,
-    which further multiply your earned XP.
-</p>
-<br>
-<p>
-    <b>Studying</b><br>
-    Find a safe, quiet place to set down and hone one of your talents. The amount of time
-    it takes to improve a talent by 1 point is determined by its current score.
-</p>
-<ul>
-    <li>
-        -1 and below: 3 hours.
-    </li>
-    <li>
-        0-1: 6 hours.
-    </li>
-    <li>
-        2-4: 12 hours.
-    </li>
-    <li>
-        5-9: 24 hours.
-    </li>
-    <li>
-        10: Indefinite.
-    </li>
-</ul>
-<p>
-    The equivalent of a training area, is a book. Studying with a book
-    reduced the amount of hours (minimum 1) to earn your next point.
-    However, the book, having been read, cannot be benefited (for fewer hours) from again.
-</p>
-<ul>
-    <li>
-        Introductory book: -1 hour.
-    </li>
-    <li>
-        Student book: -3 hours.
-    </li>
-    <li>
-        Journeyman book: -6 hours.
-    </li>
-    <li>
-        Master book: -12 hours.
-    </li>
-</ul>
+        <h3>
+            Auctions
+        </h3>
+        <p>
+            Practiced by most guilds, the auction house exists as a special
+            event for the acquisition of expensive
+            unique goods. This is done by gathering with other bidders and
+            placing bids on the presented
+            article. This can be a good, such as furniture or a land deed, or
+            even a service such as having
+            your roof repaired or a portrait painted.
+        </p>
+        <p>
+            The goal of the auction is to get a low-supply/high-demand good or
+            service to the person who is
+            willing to pay for the most.
+        </p>
+        <p>
+            In practice, an item is first place for auction with a starting bid,
+            and bidders can take turns
+            out-bidding their competitors. When the bid slows to a halt, the
+            person who most recently bid
+            is declared the victor. Behind curtains, the exchange is made.
+        </p>
+        <hr>
+        <h2>
+            NPC Services
+        </h2>
+        In every settlement, there is certain to be at least one person,
+        specialized in a trade,
+        who is willing to sell their services. There can be carpenters, stone
+        masons, artists, smiths, weapon
+        manufacturers, and all sorts of things that a party might need.
+        <p>
+            In game, the DM is in charge of determining how these services are
+            rendered. However, there are special,
+            more technical services out there that player characters are certain
+            to need. Below is a list
+            of various NPC services for the players.
+        </p>
+        <h3>
+            Training
+        </h3>
+        Players aren't always as strong or talented as they want to be can spend
+        their free time on mastering
+        their abilities in a low-risk environment. This can be done by paying a
+        fee to use a specialized training area,
+        or for free by heading out into the wilderness.
+        <p>
+            There are two kinds of training: level-grinding, and studying.
+        <ul>
+            <li>
+                Level-grinding is done by fighting in a controlled environment
+                to steadily gain more
+                levels. The higher your current level, the more time is required
+                to increase it - this is because
+                finding powerful monsters are scarcer than weaker ones.<br>
+                It is not possible to grind after level 15.
+            </li>
+            <li>
+                Studying is done by going to a studio that relates to the talent
+                you wish to improve
+                and devoting your time to practice and understanding.
+            </li>
+        </ul>
+        Both of these methods require plenty of time - which may not be feasible
+        of you're short of time. Keep in mind,
+        just because you're not doing anything, doesn't mean your adversaries
+        aren't doing anything either.
+        </p>
 
-
-<h3>
-    Buying and Selling Goods
-</h3>
-In just about every settlement there are going to be stores
-where you can buy goods from. General stores tend to sell tools and (most) moderately
-priced consumables. However, more expensive items (500gil and higher) tend to be found in
-specialty stores.<br>
-<p>
-    When you're in a general store, you'll be able to consult the clerk and purchase
-    from a variety of simple goods. Pick what you want, pay the gil - simple stuff.
-</p>
-<p>
-    Keep in mind that, generally speaking, Tools weigh about 5u, and Consumables
-    weight about 0.2u.
-</p>
-<p>
-    Not all stores will be able to buy goods from you. Some merchants aren't in the market for your
-    wears, and others may not have the gil on hand to buy it with. Merchants that can and want to buy your wears
-    will buy your wears at half their listed price.
-</p>
-<p>
-    Alternatively, if an NPC likes or dislikes you, then they'll make you an offer that better reflects
-    that disposition.
-</p>
-<ul>
-    <li>
-        Dislike. Sell to you at 150% marked price; buy from you at 25% market price.
-    </li>
-    <li>
-        Indifferent. Sell to you at 100% marked price; buy from you at 50% market price.
-    </li>
-    <li>
-        Like. Sell to you at 50% marked price; buy from you at 75% market price.
-    </li>
-</ul>
-<p>
-    By default, NPC's are indifferent to you. However, if you do something they like or dislike, then they'll come
-    to change their attitude. Typically, you can perform a task for them, such as giving them an item they're after
-    to earn their favor.
-</p>
-<h3>
-    Upgrading Weapons
-</h3>
-Upgrading your weapons can be costly, since weapon parts do not come cheap, and neither
-do weapon smiths, but if you have resources, you can enhance your weapon with new
-attributes to make it more effective.
-<p>
-    If you have a <a href="Equipment.html#WeaponPart">weapon part</a>, you can
-    give it to a weapon smith, who, for the service fee, will use it to improve
-    your weapon. This process takes 8 hours, during which you won't have that weapon.
-</p>
-<p>
-    You get to choose what the upgrade is by either picking a new Attribute from
-    the <a href="Equipment.html#WeaponAttributes">weapon attributes</a> section,
-    or by improving an existing attribute's score (X) by +1.<br>
-    <sub>As a note: You cannot increase an attribute's score by more than 5.</sub>
-</p>
-<p>
-    After the 8 hours have passed, you're free to return to the smith and pick up your weapon.
-    Note, that the weapon's weight has not changed, despite technically containing a weapon piece inside of
-    it.
-</p>
-
-<h3>
-    Talent Services
-</h3>
-In every town you go to, you'll be certain to find talented individuals who are willing to sell you their
-services. These are simple jobs that people typically take up as a trade, such as forest guide, smith,
-linguist, and detective.
-<p>
-    In gameplay, you'll seek out talent services when you have task that requires a high score in a talent
-    and no one in the party is good enough. You'll go to the town, search out someone with proficiency
-    in that talent, and attempt to hire them for their talent.
-</p>
-<p>
-    Talents are more affordable than Freelancers and guildsmen, but lack the versatility or the implied combat
-    prowess that the other have; they're just townsfolk, after all. If you want to take them along on an adventure,
-    treat them as Civilians (See Monster Guide).
-</p>
-<p>
-    Talents can be hired by the day or per-check, depending on their needs and yours. Making a
-    contract with one is similar in how you'd strike one up with another. Below is a list of typical
-    asking prices per day, along with prices as their skills increase.
-</p>
-<!-- Cost based on skill. -->
-<div style="border-color: transparent; display: flex; flex-direction: row; justify-content: center">
-    <table style="margin-right: 5%">
-        <tr>
-            <th>
-                Talent
-            </th>
-            <th>
-                Cost/Day
-            </th>
-        </tr>
-        <tr>
-            <td>
-                Craft
-            </td>
-            <td>
-                250
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Harvest
-            </td>
-            <td>
-                125
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Scholar
-            </td>
-            <td>
-                350
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Navigate
-            </td>
-            <td>
-                175
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Acrobatic
-            </td>
-            <td>
-                100
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Arts
-            </td>
-            <td>
-                90
-            </td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <th>
-                Talent Levels
-            </th>
-            <th>
-                Talent Score
-            </th>
-            <th>
-                Cost Multiplier
-            </th>
-        </tr>
-        <tr>
-            <td>
-                Novice
-            </td>
-            <td>
-                2
-            </td>
-            <td>
-                0.5
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Journeyman
-            </td>
-            <td>
-                5
-            </td>
-            <td>
-                1
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Expert
-            </td>
-            <td>
-                7
-            </td>
-            <td>
-                2
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Master
-            </td>
-            <td>
-                10
-            </td>
-            <td>
-                4
-            </td>
-        </tr>
-    </table>
-</div>
+        <p>
+            Both of these can be done for free, in which you go out into the
+            wilderness, or paid, in which you
+            spend money to use a specialized area. Paid training yields results
+            faster, but you may not
+            have the money to afford it.
+        </p>
+        <p>
+            <b>Level Grinding</b><br>
+            Done by going out and fighting weaker runts and mobs of the same
+            level.
+            This is done a day at a time, in which you must be able to devote 12
+            hours at once to the task.
+        </p>
+        <p>
+            At the end of each day, a 1d20 is rolled for the whole party to see
+            how much each participant gained.
+            The higher they roll, the better.
+        </p>
+        <ul>
+            <li>1-9: 300xp</li>
+            <li>10-15: 450xp</li>
+            <li>16-19: 600xp</li>
+            <li>20: 900xp</li>
+        </ul>
+        <p>
+            Alternatively, you can pay [500 x Player Level]gil a day to use a
+            specialized training area.<br>
+            Using a training area increase earned XP by 2x. Though rare, more
+            specialized training areas exist,
+            which further multiply your earned XP.
+        </p>
+        <br>
+        <p>
+            <b>Studying</b><br>
+            Find a safe, quiet place to set down and hone one of your talents.
+            The amount of time
+            it takes to improve a talent by 1 point is determined by its current
+            score.
+        </p>
+        <ul>
+            <li>
+                -1 and below: 3 hours.
+            </li>
+            <li>
+                0-1: 6 hours.
+            </li>
+            <li>
+                2-4: 12 hours.
+            </li>
+            <li>
+                5-9: 24 hours.
+            </li>
+            <li>
+                10: Indefinite.
+            </li>
+        </ul>
+        <p>
+            The equivalent of a training area, is a book. Studying with a book
+            reduced the amount of hours (minimum 1) to earn your next point.
+            However, the book, having been read, cannot be benefited (for fewer
+            hours) from again.
+        </p>
+        <ul>
+            <li>
+                Introductory book: -1 hour.
+            </li>
+            <li>
+                Student book: -3 hours.
+            </li>
+            <li>
+                Journeyman book: -6 hours.
+            </li>
+            <li>
+                Master book: -12 hours.
+            </li>
+        </ul>
 
 
-<hr>
-<h1>
-    Dungeons
-</h1>
-Dungeons are dangerous places, often remote from society and filled with dangers. Yet, for all the dangers they
-pose, they are likewise filled with treasures that only the most capable of acquiring. As the saying goes,
-there is no risk without reward.
-<p>
-    While dungeons exist in the traditional term, Dewprism Tactics uses dungeon to mean any formal area meant
-    for combat, exploration, and treasure acquisition. They can come in any size
-    and difficulty. This means that forests, caves, castles, and even churches
-    can all technically dungeons.
-</p>
-<p>
-    On a more formulaic note, it is assumed that dungeons will possess multiple floors, mini-boss fights,
-    boss fights, traps, and loot. However, in the spirit of roleplaying games, please be assured that
-    these are just guidelines aren't actually enforceable.
-</p>
-<p>
-    This section will explain the in's and out's of dungeons, how to build them, how to populate them,
-    how to grade them, and how to run them.
-</p>
-<h2>
-    Design
-</h2>
-    When designing your dungeon, the first thing you should do is conceptualize it: what is the dungeon's theme,
-    what is its purpose (narrative- and lore-wise), how difficult will it be, how long will it take to complete,
-    and rewards will it offer? The goal is have a complete understanding of the dungeon, so that way you're
-in complete control of it.
-<p>
-    First starting with the concept, you should think about what the dungeon itself is about - what is the thing
-    that makes it unique from all the other dungeons in your campaign? This could be a particular element,
-    like water or fire, or maybe something that inspired a mood, like curiosity or dread. Also think
-    about unique mechanisms you might need to work with in order to explore it. Maybe your dungeon
-    uses portals that must be activated in order to navigate, or or maybe the dungeon demands
-    that you light four ghostly torches to reveal the boss's lair?
-</p>
-<p>
-    Next, you should consider how difficult it will be. If this is a story-driven game, in that you have the
-    absolute certainty that the players will be taking up this dungeon next, then you should plan for it
-    to be appropriate for their level. All the monsters in the dungeon should be of equal level with the player
-    characters, and the traps should all deal appropriate damage for the dungeon's level.
-</p>
-<h2>
-    Battlefields
-</h2>
-<h2>
-    Floors
-</h2>
-<h2>
-    Battles
-</h2>
-<h2>
-    Boss Fights
-</h2>
-<h2>
-    Loot
-</h2>
-<h2>
-    Traps
-</h2>
-<hr>
-<h1>
-    Exploration
-</h1>
-<h2>
-    Foraging
-</h2>
-<h2>
-    Level Grinding
-</h2>
-<h2>
-    Wandering
-</h2>
-<h2>
-    Spelunking
-</h2>
-<hr>
-<h1>
-    Travel
-</h1>
-<h2>
-    By Sea
-</h2>
-<h2>
-    By Land
-</h2>
-<h2>
-    By Air
-</h2>
-<h2>
-    Teleport
-</h2>
-<hr>
-<h1>
-    Time
-</h1>
-<h2>
-    Timeskips
-</h2>
-<h2>
-    The Calendar
-</h2>
+        <h3>
+            Buying and Selling Goods
+        </h3>
+        In just about every settlement there are going to be stores
+        where you can buy goods from. General stores tend to sell tools and
+        (most) moderately
+        priced consumables. However, more expensive items (500gil and higher)
+        tend to be found in
+        specialty stores.<br>
+        <p>
+            When you're in a general store, you'll be able to consult the clerk
+            and purchase
+            from a variety of simple goods. Pick what you want, pay the gil -
+            simple stuff.
+        </p>
+        <p>
+            Keep in mind that, generally speaking, Tools weigh about 5u, and
+            Consumables
+            weight about 0.2u.
+        </p>
+        <p>
+            Not all stores will be able to buy goods from you. Some merchants
+            aren't in the market for your
+            wears, and others may not have the gil on hand to buy it with.
+            Merchants that can and want to buy your wears
+            will buy your wears at half their listed price.
+        </p>
+        <p>
+            Alternatively, if an NPC likes or dislikes you, then they'll make
+            you an offer that better reflects
+            that disposition.
+        </p>
+        <ul>
+            <li>
+                Dislike. Sell to you at 150% marked price; buy from you at 25%
+                market price.
+            </li>
+            <li>
+                Indifferent. Sell to you at 100% marked price; buy from you at
+                50% market price.
+            </li>
+            <li>
+                Like. Sell to you at 50% marked price; buy from you at 75%
+                market price.
+            </li>
+        </ul>
+        <p>
+            By default, NPC's are indifferent to you. However, if you do
+            something they like or dislike, then they'll come
+            to change their attitude. Typically, you can perform a task for
+            them, such as giving them an item they're after
+            to earn their favor.
+        </p>
+        <h3>Buying and Selling Materials</h3>
+        You can purchase Materials from General Stores. However, their
+        starting price will be 10x higher than listed in
+        <a href="Craftables.html">Craftables.</a>
+        This is because the prices listed are for their initial sale.
+        These materials, especially the more expensive ones,
+        are difficult to come by and so the merchants are certain to
+        increase their price to reflect that.
+        <p>
+            Likewise, other craftables can be purchased at 10x their marked
+            price, and sold for their exact marked price. However,
+            priced are still subject to change based on the merchant's
+            disposition toward you.
+        </p>
 
-</body>
-<footer>
-    <script>
-        ImplementReturnMenu();
-    </script>
-</footer>
+        <h3>
+            Upgrading Weapons
+        </h3>
+        Upgrading your weapons can be costly, since weapon parts do not come
+        cheap, and neither
+        do weapon smiths, but if you have resources, you can enhance your weapon
+        with new
+        attributes to make it more effective.
+        <p>
+            If you have a <a href="Equipment.html#WeaponPart">weapon part</a>,
+            you can
+            give it to a weapon smith, who, for the service fee, will use it to
+            improve
+            your weapon. This process takes 8 hours, during which you won't have
+            that weapon.
+        </p>
+        <p>
+            You get to choose what the upgrade is by either picking a new
+            Attribute from
+            the <a href="Equipment.html#WeaponAttributes">weapon attributes</a>
+            section,
+            or by improving an existing attribute's score (X) by +1.<br>
+            <sub>As a note: You cannot increase an attribute's score by more
+                than 5.</sub>
+        </p>
+        <p>
+            After the 8 hours have passed, you're free to return to the smith
+            and pick up your weapon.
+            Note, that the weapon's weight has not changed, despite technically
+            containing a weapon piece inside of
+            it.
+        </p>
+
+        <h3>
+            Talent Services
+        </h3>
+        In every town you go to, you'll be certain to find talented individuals
+        who are willing to sell you their
+        services. These are simple jobs that people typically take up as a
+        trade, such as forest guide, smith,
+        linguist, and detective.
+        <p>
+            In gameplay, you'll seek out talent services when you have task that
+            requires a high score in a talent
+            and no one in the party is good enough. You'll go to the town,
+            search out someone with proficiency
+            in that talent, and attempt to hire them for their talent.
+        </p>
+        <p>
+            Talents are more affordable than Freelancers and guildsmen, but lack
+            the versatility or the implied combat
+            prowess that the other have; they're just townsfolk, after all. If
+            you want to take them along on an adventure,
+            treat them as Civilians (See Monster Guide).
+        </p>
+        <p>
+            Talents can be hired by the day or per-check, depending on their
+            needs and yours. Making a
+            contract with one is similar in how you'd strike one up with
+            another. Below is a list of typical
+            asking prices per day, along with prices as their skills increase.
+        </p>
+        <!-- Cost based on skill. -->
+        <div style="border-color: transparent; display: flex; flex-direction: row; justify-content: center">
+            <table style="margin-right: 5%">
+                <tr>
+                    <th>
+                        Talent
+                    </th>
+                    <th>
+                        Cost/Day
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Craft
+                    </td>
+                    <td>
+                        250
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Harvest
+                    </td>
+                    <td>
+                        125
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Scholar
+                    </td>
+                    <td>
+                        350
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Navigate
+                    </td>
+                    <td>
+                        175
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Acrobatic
+                    </td>
+                    <td>
+                        100
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Arts
+                    </td>
+                    <td>
+                        90
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>
+                        Talent Levels
+                    </th>
+                    <th>
+                        Talent Score
+                    </th>
+                    <th>
+                        Cost Multiplier
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Novice
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        0.5
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Journeyman
+                    </td>
+                    <td>
+                        5
+                    </td>
+                    <td>
+                        1
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Expert
+                    </td>
+                    <td>
+                        7
+                    </td>
+                    <td>
+                        2
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Master
+                    </td>
+                    <td>
+                        10
+                    </td>
+                    <td>
+                        4
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+        <hr>
+        <h1>
+            Dungeons
+        </h1>
+        Dungeons are dangerous places, often remote from society and filled with
+        dangers. Yet, for all the dangers they
+        pose, they are likewise filled with treasures that only the most capable
+        of acquiring. As the saying goes,
+        there is no risk without reward.
+        <p>
+            While dungeons exist in the traditional term, Dewprism Tactics uses
+            dungeon to mean any formal area meant
+            for combat, exploration, and treasure acquisition. They can come in
+            any size
+            and difficulty. This means that forests, caves, castles, and even
+            churches
+            can all technically dungeons.
+        </p>
+        <p>
+            On a more formulaic note, it is assumed that dungeons will possess
+            multiple floors, mini-boss fights,
+            boss fights, traps, and loot. However, in the spirit of roleplaying
+            games, please be assured that
+            these are just guidelines aren't actually enforceable.
+        </p>
+        <p>
+            This section will explain the in's and out's of dungeons, how to
+            build them, how to populate them,
+            how to grade them, and how to run them.
+        </p>
+        <h2>
+            Design
+        </h2>
+        When designing your dungeon, the first thing you should do is
+        conceptualize it: what is the dungeon's theme,
+        what is its purpose (narrative- and lore-wise), how difficult will it
+        be, how long will it take to complete,
+        and rewards will it offer? The goal is have a complete understanding of
+        the dungeon, so that way you're
+        in complete control of it.
+        <p>
+            First starting with the concept, you should think about what the
+            dungeon itself is about - what is the thing
+            that makes it unique from all the other dungeons in your campaign?
+            This could be a particular element,
+            like water or fire, or maybe something that inspired a mood, like
+            curiosity or dread. Also think
+            about unique mechanisms you might need to work with in order to
+            explore it. Maybe your dungeon
+            uses portals that must be activated in order to navigate, or or
+            maybe the dungeon demands
+            that you light four ghostly torches to reveal the boss's lair?
+        </p>
+        <p>
+            Next, you should consider how difficult it will be. If this is a
+            story-driven game, in that you have the
+            absolute certainty that the players will be taking up this dungeon
+            next, then you should plan for it
+            to be appropriate for their level. All the monsters in the dungeon
+            should be of equal level with the player
+            characters, and the traps should all deal appropriate damage for the
+            dungeon's level.
+        </p>
+        <h2>
+            Battlefields
+        </h2>
+        <h2>
+            Floors
+        </h2>
+        <h2>
+            Battles
+        </h2>
+        <h2>
+            Boss Fights
+        </h2>
+        <h2>
+            Loot
+        </h2>
+        <h2>
+            Traps
+        </h2>
+        <hr>
+        <h1>
+            Exploration
+        </h1>
+        <h2>
+            Foraging
+        </h2>
+        <h2>
+            Level Grinding
+        </h2>
+        <h2>
+            Wandering
+        </h2>
+        <h2>
+            Spelunking
+        </h2>
+        <hr>
+        <h1>
+            Travel
+        </h1>
+        <h2>
+            By Sea
+        </h2>
+        <h2>
+            By Land
+        </h2>
+        <h2>
+            By Air
+        </h2>
+        <h2>
+            Teleport
+        </h2>
+        <hr>
+        <h1>
+            Time
+        </h1>
+        <h2>
+            Timeskips
+        </h2>
+        <h2>
+            The Calendar
+        </h2>
+
+    </body>
+    <footer>
+        <script>
+            ImplementReturnMenu();
+
+        </script>
+    </footer>
 </html>
 
 <!--
