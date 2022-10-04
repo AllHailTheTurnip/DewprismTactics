@@ -132,6 +132,18 @@
     "Check": "10"
   },
   {
+    "Name": "Matter over Mind",
+    "Application": "This Ability's listed Focus cost is changed to Stamina. The Ability's SklDmg is replaced with MleDmg.",
+    "Ingredients": "1x Bone Marrow, 1x Bone Chunk`",
+    "Check": "8"
+  },
+  {
+    "Name": "Essence over Form",
+    "Application": "This Ability's listed Stamina cost is changed to Mana. The Ability's MleDmg is replaced with MgcDmg.",
+    "Ingredients": "1x Gargoyle Gem, 1x Soul Gem",
+    "Check": "10"
+  },
+  {
     "Name": "",
     "Application": "",
     "Ingredients": "",

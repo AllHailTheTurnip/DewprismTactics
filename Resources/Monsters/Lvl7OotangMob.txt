@@ -38,7 +38,7 @@ Acrobatic: 4|
 Arts: -1|
 
 Equipment
-PrimaryWeapon: Giant Jaws (Type: Melee, WC: H, Use: 10+3sta, Rank: 4; Natural)|
+PrimaryWeapon: Giant Jaws (Type: Melee, WC: H, Use: 10AP+3sta, Rank: 4; Natural)|
 SecondaryWeapon: Hands (Type: Skill: WC: M, Use: 10, Rank: 3, Honed +2|
 Tools:|
 Consumables:|

@@ -69,7 +69,7 @@ A6: Firebreath
     Range: 0sp (up to three targets)
     Accuracy: Melee
     OnHit: targets take (3){MgcPwr} fire damage.|
-A7: Fireball
+A7: Deluxe Fireball
     Magic-Offensive-Action
     Use: 10AP + 5Mna
     Range: 0sp

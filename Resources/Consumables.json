@@ -211,7 +211,7 @@
   },
   {
     "Name": "Pollywog Souffle",
-    "Application": "Increase your Evasion scores by [5] until the start of your next turn.",
+    "Application": "Increase your Evasion scores by [2] for the duration of the battle.",
     "Ingredients": "2x Pollywog Tail, 1x Beef",
     "CraftCheck": "12",
     "Value": "50"

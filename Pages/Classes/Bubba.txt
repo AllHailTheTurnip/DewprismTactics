@@ -81,7 +81,7 @@ Upon failure, the combatant is knocked Prone.|
 A7: Collateral Damage
 Melee-Offensive-Action
 Use: 5sta+(1/turn)
-Effect: If your next action this turn misses, any Props in the space are destroyed
+Effect: If your next potentially damaging action this turn misses, any Props in your space are destroyed
 and the space becomes Difficult Terrain.|
 
 A8: Reckless Strike

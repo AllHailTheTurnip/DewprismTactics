@@ -1,1066 +1,1201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Dewprism Tactics - Equipment</title>
-    <link href="../Resources/GeneralStyle.css" rel="stylesheet">
-    <style>
-        table {
-            margin: auto;
-            width: 90%;
-            border: none;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <title>Dewprism Tactics - Equipment</title>
+        <link href="../Resources/GeneralStyle.css" rel="stylesheet">
+        <style>
+            table {
+                margin: auto;
+                width: 90%;
+                border: none;
+            }
 
-    </style>
-</head>
-<body>
-<div class="Menu">
-    <a href="../index.html">Return to Index</a><br>
-    <a href="#Directory">Return to Directory</a>
-    <a href="#PrimaryWeapons">Weapons</a>
-    <a href="#WeaponAttributes">Weapon Attributes</a>
-</div>
-
-<h1>Inventory</h1>
-<div id="Directory">
-    <h2>Directory</h2>
-    <ul>
-        <li>
-            <a href="#Tools">Tools</a>
-        </li>
-        <li>
-            <a href="#Consumables">Consumables</a>
-        </li>
-        <li>
+        </style>
+    </head>
+    <body>
+        <div class="Menu">
+            <a href="../index.html">Return to Index</a><br>
+            <a href="#Directory">Return to Directory</a>
             <a href="#PrimaryWeapons">Weapons</a>
-        </li>
-        <li>
-            <a href="#WeaponAttributes">Weapon Upgrades</a>
-        </li>
-    </ul>
-</div>
+            <a href="#WeaponAttributes">Weapon Attributes</a>
+        </div>
 
-<h2>Tools</h2>
-<table class="Wide" id="Tools">
-    <tr>
-        <th class="NameCol">
-            Name
-        </th>
-        <th>
-            Description
-        </th>
-        <th>
-            Benefits
-        </th>
-        <th class="CostCol">
-            Cost
-        </th>
-    </tr>
-    <tr>
-        <td>
-            Climber's Kit
-        </td>
-        <td>
-            A bag of ropes, grappling hooks, slings, and other useful bits for traversing
-            vertical surfaces.
-        </td>
-        <td>
-            +10 to Acrobatic talent checks when ascending or descending vertical surfaces,
-            such as cliffs and walls.
-        </td>
-        <td>
-            300
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Explorer's Kit
-        </td>
-        <td>
-            A neat wooden box of navigation tools such a compass, astrolabe, octant, and telescope.
-        </td>
-        <td>
-            +10 to Navigation talent checks when traversing forests, sailing on the ocean,
-            and exploring caves.
-        </td>
-        <td>
-            600
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Chemistry Kit
-        </td>
-        <td>
-            An oak box with a white finish designed to open-up like a cabinet. Inside are phials of various base
-            elements along with crude tools for the mixing and distilling of chemicals.
-        </td>
-        <td>
-            +10 to chemistry-based Scholar checks.
-        </td>
-        <td>
-            250
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Camping Backpack
-        </td>
-        <td>
-            A hefty bag with twin-straps for your arms to carry it on your back. It's filled with pots, pans, blankets,
-            mosquito repellent, and other handy camping supplies.
-        </td>
-        <td>
-            You have enough supplies to shelter up to 4 people a night.
-        </td>
-        <td>
-            1,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Alchemy Kit
-        </td>
-        <td>
-            A 3' tall oak case worn over the back with rope straps. In addition to containing standard chemistry
-            equipment, you'll find star charts, spell books, and other ornaments essential to the alchemical practice.
-        </td>
-        <td>
-            +10 to the magic-based Craft talent checks.
-        </td>
-        <td>
-            3,500
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Micro Atelier
-        </td>
-        <td>
-            A enchanted lightweight hand-held briefcase that repeatedly unfolds and extends to become a walk-in closet
-            filled with useful tools for the practice of arcana.
-        </td>
-        <td>
-            +10 to any Arcana Talent check.
-        </td>
-        <td>
-            8,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Carpenter's Kit
-        </td>
-        <td>
-            A heavy wooden toolbox held together with bands of iron and nails. It holds an assortment of tools essential
-            to the crafting of items.
-        </td>
-        <td>
-            +10 to wood-based Craft checks.
-        </td>
-        <td>
-            600
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Repair Kit
-        </td>
-        <td>
-            A box of neatly-organized tools, including tape, glue, nails, staples, clay, and paint.
-        </td>
-        <td>
-            1/hour repair a broken item.
-        </td>
-        <td>
-            700
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Culinary Kit
-        </td>
-        <td>
-            A bag of pots, pans, knives, ladles, a tiny metal fold-out oven, and other tools useful in the preparation
-            and cooking of food.
-        </td>
-        <td>
-            +10 to Harvest talent checks and 10+ to culinary-based Craft talent checks.
-        </td>
-        <td>
-            2700
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Encyclopedia
-        </td>
-        <td>
-            A thick, heavy, hardback book, densely filled with several lifetimes worth of general information on every
-            conceivable subject.
-        </td>
-        <td>
-            +10 to any Scholar check; +5 to any other check.
-        </td>
-        <td>
-            10,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            History Book
-        </td>
-        <td>
-            A hardback book detailing various major events throughout the world's history, leaving no kingdom or culture
-            undocumented.
-        </td>
-        <td>
-            +10 to history-based Scholar checks.
-        </td>
-        <td>
-            1,200
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Engineer's Handbook
-        </td>
-        <td>
-            An absurdly heavy book full of vast number charts, documenting the ins and outs of modern engineering.
-        </td>
-        <td>
-            +10 to engineering-related Scholar talent checks or +10 to mechanics-related Craft talent checks.
-        </td>
-        <td>
-            1,500
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Farming Tools
-        </td>
-        <td>
-            A duffle bag worn over the shoulder with a thick strap. It's filled with farming implements such as hoes,
-            shovels, trowels.
-        </td>
-        <td>
-            +10 to agricultural-related Craft and/or Harvest checks.
-        </td>
-        <td>
-            500
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Party Host's Kit
-        </td>
-        <td>
-            A box of tightly packed party supplies, such as balloons, confetti, party-poppers, and everything else
-            necessary to host a great party.
-        </td>
-        <td>
-            +10 to Arts talent checks.
-        </td>
-        <td>
-            2,500
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Guide to Monsters and Animals
-        </td>
-        <td>
-            A compactly written book of immediately relevant information on all the things of the wild, both defensive
-            and aggressive.
-        </td>
-        <td>
-            +10 to any animal- or monster-related check. You automatically pass checks for non-legendary monsters.
-        </td>
-        <td>
-            1,300
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Mermaid Kit
-        </td>
-        <td>
-            A suite of gear that equips the user for aquatic travel.
-        </td>
-        <td>
-            You can breathe underwater, dive up to 10sp down, and water is not difficult terrain.
-        </td>
-        <td>
-            4,500
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Pathfinder's Kit
-        </td>
-        <td>
-            A backpack of useful tools for navigating unknown territories and in the dark.
-        </td>
-        <td>
-            +10 to Navigate talent checks.<br>
-            Torch: fully illuminate the space you're in.<br>
-            Telescope: see up to 10sp away, unimpeded.
-        </td>
-        <td>
-            5,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Hot Climate Gear
-        </td>
-        <td>
-            A large bag of equipment for thriving in dry, arid environments.
-        </td>
-        <td>
-            Hot climates count as one danger-level lower.
-        </td>
-        <td>
-            6,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Cold Climate Gear
-        </td>
-        <td>
-            A large bag of equipment for surviving in the cold and snow.
-        </td>
-        <td>
-            Cold climates count as one danger-level lower.
-        </td>
-        <td>
-            4,000
-        </td>
-    </tr>
-</table>
+        <h1>Inventory</h1>
+        <div id="Directory">
+            <h2>Directory</h2>
+            <ul>
+                <li>
+                    <a href="#Tools">Tools</a>
+                </li>
+                <li>
+                    <a href="#Consumables">Consumables</a>
+                </li>
+                <li>
+                    <a href="#PrimaryWeapons">Weapons</a>
+                </li>
+                <li>
+                    <a href="#WeaponAttributes">Weapon Upgrades</a>
+                </li>
+            </ul>
+        </div>
 
-<!--
-E:
-Stasis Cube: May contain a single item of any size, rendering it timeless, useless, powerless, weightless, etc. until taken out.
+        <h2>Tools</h2>
+        <table class="Wide" id="Tools">
+            <tr>
+                <th class="NameCol">
+                    Name
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Benefits
+                </th>
+                <th class="CostCol">
+                    Cost
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Climber's Kit
+                </td>
+                <td>
+                    A bag of ropes, grappling hooks, slings, and other useful
+                    bits for traversing
+                    vertical surfaces.
+                </td>
+                <td>
+                    +10 to Acrobatic talent checks when ascending or descending
+                    vertical surfaces,
+                    such as cliffs and walls.
+                </td>
+                <td>
+                    300
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Explorer's Kit
+                </td>
+                <td>
+                    A neat wooden box of navigation tools such a compass,
+                    astrolabe, octant, and telescope.
+                </td>
+                <td>
+                    +10 to Navigation talent checks when traversing forests,
+                    sailing on the ocean,
+                    and exploring caves.
+                </td>
+                <td>
+                    600
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Chemistry Kit
+                </td>
+                <td>
+                    An oak box with a white finish designed to open-up like a
+                    cabinet. Inside are phials of various base
+                    elements along with crude tools for the mixing and
+                    distilling of chemicals.
+                </td>
+                <td>
+                    +10 to chemistry-based Scholar checks.
+                </td>
+                <td>
+                    250
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Camping Backpack
+                </td>
+                <td>
+                    A hefty bag with twin-straps for your arms to carry it on
+                    your back. It's filled with pots, pans, blankets,
+                    mosquito repellent, and other handy camping supplies.
+                </td>
+                <td>
+                    You have enough supplies to shelter up to 4 people a night.
+                </td>
+                <td>
+                    1,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Alchemy Kit
+                </td>
+                <td>
+                    A 3' tall oak case worn over the back with rope straps. In
+                    addition to containing standard chemistry
+                    equipment, you'll find star charts, spell books, and other
+                    ornaments essential to the alchemical practice.
+                </td>
+                <td>
+                    +10 to magic-based Craft talent checks.
+                </td>
+                <td>
+                    3,500
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Smithing Kit
+                </td>
+                <td>
+                    A heavy wooden box that's been filled with all sorts of useful tools for general smithing.
+                    It contains a small kiln, a bucket for quenching hot metal, a small anvil,
+                    various powders, and plenty of tools.
+                </td>
+                <td>
+                    +10 to Tool crafting checks.
+                </td>
+                <td>
+                    4,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Micro Atelier
+                </td>
+                <td>
+                    A enchanted lightweight hand-held briefcase that repeatedly
+                    unfolds and extends to become a walk-in closet
+                    filled with useful tools for the practice of arcana.
+                </td>
+                <td>
+                    +10 to any Arcana Talent check and +10 to Ability Mod craft
+                    checks.
+                </td>
+                <td>
+                    8,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Carpenter's Kit
+                </td>
+                <td>
+                    A heavy wooden toolbox held together with bands of iron and
+                    nails. It holds an assortment of tools essential
+                    to the crafting of items.
+                </td>
+                <td>
+                    +10 to wood-based Craft checks.
+                </td>
+                <td>
+                    600
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Repair Kit
+                </td>
+                <td>
+                    A box of neatly-organized tools, including tape, glue,
+                    nails, staples, clay, and paint.
+                </td>
+                <td>
+                    1/hour repair a broken item.
+                </td>
+                <td>
+                    700
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Culinary Kit
+                </td>
+                <td>
+                    A bag of pots, pans, knives, ladles, a tiny metal fold-out
+                    oven, and other tools useful in the preparation
+                    and cooking of food.
+                </td>
+                <td>
+                    +10 to Harvest talent checks and 10+ to culinary-based Craft
+                    talent checks.
+                </td>
+                <td>
+                    2700
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Encyclopedia
+                </td>
+                <td>
+                    A thick, heavy, hardback book, densely filled with several
+                    lifetimes worth of general information on every
+                    conceivable subject.
+                </td>
+                <td>
+                    +10 to any Scholar check; +5 to any other check.
+                </td>
+                <td>
+                    10,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    History Book
+                </td>
+                <td>
+                    A hardback book detailing various major events throughout
+                    the world's history, leaving no kingdom or culture
+                    undocumented.
+                </td>
+                <td>
+                    +10 to history-based Scholar checks.
+                </td>
+                <td>
+                    1,200
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Engineer's Handbook
+                </td>
+                <td>
+                    An absurdly heavy book full of vast number charts,
+                    documenting the ins and outs of modern engineering.
+                </td>
+                <td>
+                    +10 to engineering-related Scholar talent checks or +10 to
+                    mechanics-related Craft talent checks.
+                </td>
+                <td>
+                    1,500
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Farming Tools
+                </td>
+                <td>
+                    A duffle bag worn over the shoulder with a thick strap. It's
+                    filled with farming implements such as hoes,
+                    shovels, trowels.
+                </td>
+                <td>
+                    +10 to agricultural-related Craft and/or Harvest checks.
+                </td>
+                <td>
+                    500
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Party Host's Kit
+                </td>
+                <td>
+                    A box of tightly packed party supplies, such as balloons,
+                    confetti, party-poppers, and everything else
+                    necessary to host a great party.
+                </td>
+                <td>
+                    +10 to Arts talent checks.
+                </td>
+                <td>
+                    2,500
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Guide to Monsters and Animals
+                </td>
+                <td>
+                    A compactly written book of immediately relevant information
+                    on all the things of the wild, both defensive
+                    and aggressive.
+                </td>
+                <td>
+                    +10 to any animal- or monster-related check. You
+                    automatically pass checks for non-legendary monsters.
+                </td>
+                <td>
+                    1,300
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mermaid Kit
+                </td>
+                <td>
+                    A suite of gear that equips the user for aquatic travel.
+                </td>
+                <td>
+                    You can breathe underwater, dive up to 10sp down, and water
+                    is not difficult terrain.
+                </td>
+                <td>
+                    4,500
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pathfinder's Kit
+                </td>
+                <td>
+                    A backpack of useful tools for navigating unknown
+                    territories and in the dark.
+                </td>
+                <td>
+                    +10 to Navigate talent checks.<br>
+                    Torch: fully illuminate the space you're in.<br>
+                    Telescope: see up to 10sp away, unimpeded.
+                </td>
+                <td>
+                    5,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hot Climate Gear
+                </td>
+                <td>
+                    A large bag of equipment for thriving in dry, arid
+                    environments.
+                </td>
+                <td>
+                    Hot climates count as one danger-level lower.
+                </td>
+                <td>
+                    6,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Cold Climate Gear
+                </td>
+                <td>
+                    A large bag of equipment for surviving in the cold and snow.
+                </td>
+                <td>
+                    Cold climates count as one danger-level lower.
+                </td>
+                <td>
+                    4,000
+                </td>
+            </tr>
+        </table>
 
-Gravity Cape: Enables flight when equipped. Full speed when flying.
+        <!--
+        E:
+        Stasis Cube: May contain a single item of any size, rendering it timeless, useless, powerless, weightless, etc. until taken out.
 
-Ancestral Flute: When played, all combatants make a Magic self-check, whereupon failure, they gain the Mind Slave token.
--- Mind Slave token: The creator of this token takes your turn instead, whereupon once the turn is over, the token is destroyed.
+        Gravity Cape: Enables flight when equipped. Full speed when flying.
 
-Channeler's Gloves: Spend 10AP to regain 50% of your maximum mana.
+        Ancestral Flute: When played, all combatants make a Magic self-check, whereupon failure, they gain the Mind Slave token.
+        -- Mind Slave token: The creator of this token takes your turn instead, whereupon once the turn is over, the token is destroyed.
 
-Crown of the Eternal Sun: Renders the wearer immune to disease and sickness; immune to poison damage.
+        Channeler's Gloves: Spend 10AP to regain 50% of your maximum mana.
 
-Maelstrom Flask: Open it to absorb a projectile spell. The next time it is opened will fling the spell wherever the Flask is aimed.
+        Crown of the Eternal Sun: Renders the wearer immune to disease and sickness; immune to poison damage.
 
-D:
-Scroll of Fire: Boost damage of all fire-based attacks by 3.
+        Maelstrom Flask: Open it to absorb a projectile spell. The next time it is opened will fling the spell wherever the Flask is aimed.
 
-Blast Gloves: Generate a contained explosion within a non-living object touched, utterly destroying the object or at the least rendering it unusable. (Rocks, boulders, mugs, tables, walls...clothing.)
+        D:
+        Scroll of Fire: Boost damage of all fire-based attacks by 3.
 
-Double Strike Gauntlet: When making a Melee-type action, after resolving the first attack, make another one with no use-cost.
+        Blast Gloves: Generate a contained explosion within a non-living object touched, utterly destroying the object or at the least rendering it unusable. (Rocks, boulders, mugs, tables, walls...clothing.)
 
-C:
-Boomstick: Fire a single-target ranged fireball; Use cost: 0AP/1turn, Range: 1 mile; aim a line down a path the length of the battlefield, targeting all combatants in spaces touched by the path.
+        Double Strike Gauntlet: When making a Melee-type action, after resolving the first attack, make another one with no use-cost.
 
-Book of Life: Spend 10AP and restore your health to full. The contents are difficult to read and require concentration, but it is assumed to be gibberish as no one is able to recall anything read in this book.
+        C:
+        Boomstick: Fire a single-target ranged fireball; Use cost: 0AP/1turn, Range: 1 mile; aim a line down a path the length of the battlefield, targeting all combatants in spaces touched by the path.
 
-B:
-Chaos Sphere: Charge/Focus for N turns, unable to do any other actions. After charging, all enemies on the battlefield take N * your level in damage.
+        Book of Life: Spend 10AP and restore your health to full. The contents are difficult to read and require concentration, but it is assumed to be gibberish as no one is able to recall anything read in this book.
 
-Mega Pearl: Roll a d20.
-1-5 = Nothing happens.
-6-10 = User recovers all Health, Stamina, Mana, and Focus.
-11-15 = Allies recovers all Health, Stamina, Mana, and Focus.
-16-20 = User and Allies recovers all Health, Stamina, Mana, and Focus.
+        B:
+        Chaos Sphere: Charge/Focus for N turns, unable to do any other actions. After charging, all enemies on the battlefield take N * your level in damage.
 
-A:
-Tome of Secrets: (Outside battle only.) Focus on a single topic/question for one second to open it and read everything anyone has ever known about that topic/answer.
+        Mega Pearl: Roll a d20.
+        1-5 = Nothing happens.
+        6-10 = User recovers all Health, Stamina, Mana, and Focus.
+        11-15 = Allies recovers all Health, Stamina, Mana, and Focus.
+        16-20 = User and Allies recovers all Health, Stamina, Mana, and Focus.
 
-Chicken Compass: Once per day, alter the local weather. Conjure a storm, clear the sky, create a tornado, fly uncontrollably with powerful wind...
+        A:
+        Tome of Secrets: (Outside battle only.) Focus on a single topic/question for one second to open it and read everything anyone has ever known about that topic/answer.
 
-S:
-(none but the Dewprism)
-It is possible to have another S-tier relic if an Aeon did not care to flaunt their power and share to the world what they had created. That is up to the creative liberties of the GM.
- -->
+        Chicken Compass: Once per day, alter the local weather. Conjure a storm, clear the sky, create a tornado, fly uncontrollably with powerful wind...
 
-<h2>Consumables</h2>
-<table class="Wide" id="Consumables">
-    <tr>
-        <th class="NameCol">
-            Name
-        </th>
-        <th>
-            Description
-        </th>
-        <th>
-            Benefits
-        </th>
-        <th class="CostCol">
-            Cost
-        </th>
-    </tr>
-    <tr>
-        <td>
-            Ammunition
-        </td>
-        <td>
-            An aerodynamic object designed to be thrown across the battlefield at an enemy.
-        </td>
-        <td>
-            Destroy this object to use your weapon's ranged attack (if it can).
-        </td>
-        <td>
-            5
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Monster Meat
-        </td>
-        <td>
-            Cooked and preserved meat from a monster - whatever it was the hunters brought in
-            that week.
-        </td>
-        <td>
-            Restore 15 Health.
-        </td>
-        <td>
-            10
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Level 1 Health Potion
-        </td>
-        <td>
-            A glass phial filled with a viscous red concoction. It's warm to the touch and smells like glue.
-        </td>
-        <td>
-            Recover 45 health.
-        </td>
-        <td>
-            100
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Level 5 Health Potion
-        </td>
-        <td>
-            A more potent concoction than its cousin, with a naturally bubbling body.
-        </td>
-        <td>
-            Restore 225 health.
-        </td>
-        <td>
-            200
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Level 1 Mana Potion
-        </td>
-        <td>
-            A delicate, spongy cake wrapped in wax paper. It uses vanilla flavoring to mask the
-            exotic spices used to give it its restorative power.
-        </td>
-        <td>
-            Recover 5 mana.
-        </td>
-        <td>
-            100
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Level 5 Mana Potion
-        </td>
-        <td>
-            A delicate, spongy cake wrapped in wax paper. It uses vanilla flavoring to mask the
-            exotic spices used to give it its restorative power.
-        </td>
-        <td>
-            Recover 15 mana.
-        </td>
-        <td>
-            200
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Level 1 Stamina Potion
-        </td>
-        <td>
-            A delicate, spongy cake wrapped in wax paper. It uses vanilla flavoring to mask the
-            exotic spices used to give it its restorative power.
-        </td>
-        <td>
-            Recover 5 stamina.
-        </td>
-        <td>
-            100
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Level 5 Stamina Potion
-        </td>
-        <td>
-            A delicate, spongy cake wrapped in wax paper. It uses vanilla flavoring to mask the
-            exotic spices used to give it its restorative power.
-        </td>
-        <td>
-            Recover 15 stamina.
-        </td>
-        <td>
-            200
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Level 1 Focus Dust
-        </td>
-        <td>
-            A fine yellow powder made from dried Pollywog tails. You snort it
-            through the nose!
-        </td>
-        <td>
-            Recover 5 focus.
-        </td>
-        <td>
-            100
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Level 5 Focus Dust
-        </td>
-        <td>
-            A fine yellow powder made from dried Pollywog tails. You snort it
-            through the nose!
-        </td>
-        <td>
-            Recover 15 focus.
-        </td>
-        <td>
-            200
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Antidote
-        </td>
-        <td>
-            A dried ball of exotic herbs. Intensely bitter with a taste clings to your teeth, it has been known to cure
-            everything from snake-bites to the flu.
-        </td>
-        <td>
-            Removes Poison.
-        </td>
-        <td>
-            500
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Poison
-        </td>
-        <td>
-            A little white bottle stopped with a cork and labeled with a skull and crossbones.
-            The contents are transparent and odorless.
-        </td>
-        <td>
-            Give your weapon Poisoned 3.
-        </td>
-        <td>
-            300
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Jerky Ration
-        </td>
-        <td>
-            A pouch of hand-dried strips of beef, seasoned with herbs and spices.
-        </td>
-        <td>
-            Good for 1 day of food.
-        </td>
-        <td>
-            250
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Fragile Bottle
-        </td>
-        <td>
-            A round, glass bottle hung from your side with some twine.
-        </td>
-        <td>
-            Outside of battle (or during for 5AP) you may place any one consumable item inside. Upon
-            falling unconscious (health drops to 0 or less) you fall upon the bottle, breaking it. Any item
-            stored inside is immediately used on you for free.<br>
-            <small>Note: any additional Fragile Bottles on your person also break and are used.</small>
-        </td>
-        <td>
-            125
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Lunch Box
-        </td>
-        <td>
-            A small box of decoratively arranged rice, salmon strips, fruits, and vegetables.
-        </td>
-        <td>
-            Good for 1 day of food and fully restores your Vitals.
-        </td>
-        <td>
-            750
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Turnover Leaf
-        </td>
-        <td>
-            Popularly referred to by merchants and adventurers as just Turnover, this aromatic herb can
-            be consumed to quickly revitalize the senses - even postponing the need for sleep for days at
-            a time.
-        </td>
-        <td>
-            Removes Knock-Out and restores HP to 50%.
-        </td>
-        <td>
-            550
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Red Feather Mushroom
-        </td>
-        <td>
-            A rare and sought-after mushroom that only grows from the decaying bodies of fallen phoenixes.
-            It is a symbol of good luck for adventurers.
-        </td>
-        <td>
-            Upon dying in combat, at the beginning of your next turn you revive with 50% of your max health.
-        </td>
-        <td>
-            1,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Bronze Coin
-        </td>
-        <td>
-            A crudely minted coin of no discernible value. Years of handling have worn the features into
-            obscurity, making the text illegible and the faces unrecognizable.
-        </td>
-        <td>
-            The holder comes back to life with 1/5 restored vitals and all status-effects removed
-            when Battle Transience is invoked.
-        </td>
-        <td>
-            1,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Silver Coin
-        </td>
-        <td>
-            An antiquated coin with smoothed-down features. There's a picture of a king on one side
-            and a picture of a castle on the other.
-        </td>
-        <td>
-            The holder comes back to life with 1/2 restored vitals and all status-effects removed
-            when Battle Transience is invoked.
-        </td>
-        <td>
-            5,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Gold Coin
-        </td>
-        <td>
-            A finely minted coin with a natural shine about it. The text reads, "Life and Liberty".
-        </td>
-        <td>
-            The holder comes back to life with fully restored vitals and all status-effects removed
-            when Battle Transience is invoked.
-        </td>
-        <td>
-            10,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Platinum Coin
-        </td>
-        <td>
-            A coin that remains in perfect condition despite years of handling. You can see yourself in its reflection.
-        </td>
-        <td>
-            The holder comes back to life with fully restored vitals, max health increased by 10%, and all
-            status-effects removed
-            when Battle Transience is invoked.
-        </td>
-        <td>
-            NA
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Star Coin
-        </td>
-        <td>
-            A shiny coin made of an unusual metal, minted in the shape of a five-point star. It's smooth to the touch.
-        </td>
-        <td>
-            The owner can use the coin when leveling-up to learn the Doctrine Ability of their taken class instead instead
-            of a general one. Upon taking an Doctrine Ability, the Star Coin is destroyed.
-        </td>
-        <td>
-            15,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Golden Toad
-        </td>
-        <td>
-            A shiny gold-skinned amphibian with a gentle nature.
-        </td>
-        <td>
-            Upon kissing the toad, the user chooses an additional Natural ability. Their physical form mutates appropriately
-            to reflect this addition, while the toad loses its shine and turns a dull copper.
-        </td>
-        <td>
-            NA
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Monster Treat
-        </td>
-        <td>
-            A handmade treat, cooked in an oven and filled with herbs and spices that monsters love.
-        </td>
-        <td>
-            Used for Befriend actions.
-        </td>
-        <td>
-            250
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Gourmet Monster Treat
-        </td>
-        <td>
-            A delicately crafted treat, made with special ingredients that are especially tasty to monsters.
-        </td>
-        <td>
-            Use for Befriend actions, increasing the check by 5.
-        </td>
-        <td>
-            500
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Monster Collar
-        </td>
-        <td>
-            A one-size-fits-all leather collar with a metal buckle and nametag. You
-            get to engrave the tag upon purchase. When worn by a monster, it'll let
-            townsfolk know that it belongs to someone.
-        </td>
-        <td>
-            Used to add a friendly monster to your party for traveling. Grants
-            them a characer sheet of their own.
-        </td>
-        <td>
-            500
-        </td>
-    </tr>
-    <tr>
-        <td id="WeaponPart">
-            Weapon Part
-        </td>
-        <td>
-            A twisted piece of scrap that, while worthless on its own, can be used be a skilled weapon smith
-            to enhance an existing weapon.
-        </td>
-        <td>
-            When brought to a smith, it can be used for upgrading your own weapons.
-        </td>
-        <td>
-            5,000
-        </td>
-    </tr>
+        S:
+        (none but the Dewprism)
+        It is possible to have another S-tier relic if an Aeon did not care to flaunt their power and share to the world what they had created. That is up to the creative liberties of the GM.
+         -->
 
-    <tr>
-        <td>
-            Tonic of Muscle
-        </td>
-        <td>
-            A little black glass bottle with a dirty white label and a cork stopper.
-            Inside is a black, syrupy mixture that gives off nauseating fumes. However,
-            it is said to be a mixture of rare and exotic herbs that can improve
-            the physique.
-        </td>
-        <td>
-            Permanently increase your Melee:Power score by 5.<br>
-            This effect is cumulative, meaning that drinking more will increase the multiplier.<br>
-        </td>
-        <td>
-            10,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Tonic of Spirit
-        </td>
-        <td>
-            A transparent glass bottle with a cork stopper. Inside is a mixture of unknown substance,
-            rapidly changing hues and physical states. It is reportedly made from a mixture of
-            tears belonging to unknown gods.
-        </td>
-        <td>
-            Permanently increase your Magic:Power score by 5.<br>
-        </td>
-        <td>
-            10,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Tonic of Mind
-        </td>
-        <td>
-            An aquamarine glass bottle with a clear-white substance. It is odorless, tasteless, and non-viscous.
-            It is said to be made from a blend oils found only in creatures from the bottom of the ocean.
-        </td>
-        <td>
-            Permanently increase your Skill:Power score by 5.<br>
-        </td>
-        <td>
-            10,000
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Tonic of Vitality
-        </td>
-        <td>
-            A tall red bottle containing a brown, thick liquid. The mixture smells like rotting leaves,
-            and appears to be so.
-        </td>
-        <td>
-            Permanently increase your Health score by 30 and your Stamina, Mana, and Focus scores by 5.<br>
-        </td>
-        <td>
-            10,000
-        </td>
-    </tr>
-</table>
+        <h2>Consumables</h2>
+        <table class="Wide" id="Consumables">
+            <tr>
+                <th class="NameCol">
+                    Name
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Benefits
+                </th>
+                <th class="CostCol">
+                    Cost
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Ammunition
+                </td>
+                <td>
+                    An aerodynamic object designed to be thrown across the
+                    battlefield at an enemy.
+                </td>
+                <td>
+                    Destroy this object to use your weapon's ranged attack (if
+                    it can).
+                </td>
+                <td>
+                    5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Monster Meat
+                </td>
+                <td>
+                    Cooked and preserved meat from a monster - whatever it was
+                    the hunters brought in
+                    that week.
+                </td>
+                <td>
+                    Restore 15 Health.
+                </td>
+                <td>
+                    10
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Level 1 Health Potion
+                </td>
+                <td>
+                    A glass phial filled with a viscous red concoction. It's
+                    warm to the touch and smells like glue.
+                </td>
+                <td>
+                    Recover 45 health.
+                </td>
+                <td>
+                    100
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Level 5 Health Potion
+                </td>
+                <td>
+                    A more potent concoction than its cousin, with a naturally
+                    bubbling body.
+                </td>
+                <td>
+                    Restore 225 health.
+                </td>
+                <td>
+                    200
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Level 1 Mana Potion
+                </td>
+                <td>
+                    A delicate, spongy cake wrapped in wax paper. It uses
+                    vanilla flavoring to mask the
+                    exotic spices used to give it its restorative power.
+                </td>
+                <td>
+                    Recover 5 mana.
+                </td>
+                <td>
+                    100
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Level 5 Mana Potion
+                </td>
+                <td>
+                    A delicate, spongy cake wrapped in wax paper. It uses
+                    vanilla flavoring to mask the
+                    exotic spices used to give it its restorative power.
+                </td>
+                <td>
+                    Recover 15 mana.
+                </td>
+                <td>
+                    200
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Level 1 Stamina Potion
+                </td>
+                <td>
+                    A delicate, spongy cake wrapped in wax paper. It uses
+                    vanilla flavoring to mask the
+                    exotic spices used to give it its restorative power.
+                </td>
+                <td>
+                    Recover 5 stamina.
+                </td>
+                <td>
+                    100
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Level 5 Stamina Potion
+                </td>
+                <td>
+                    A delicate, spongy cake wrapped in wax paper. It uses
+                    vanilla flavoring to mask the
+                    exotic spices used to give it its restorative power.
+                </td>
+                <td>
+                    Recover 15 stamina.
+                </td>
+                <td>
+                    200
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Level 1 Focus Dust
+                </td>
+                <td>
+                    A fine yellow powder made from dried Pollywog tails. You
+                    snort it
+                    through the nose!
+                </td>
+                <td>
+                    Recover 5 focus.
+                </td>
+                <td>
+                    100
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Level 5 Focus Dust
+                </td>
+                <td>
+                    A fine yellow powder made from dried Pollywog tails. You
+                    snort it
+                    through the nose!
+                </td>
+                <td>
+                    Recover 15 focus.
+                </td>
+                <td>
+                    200
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Antidote
+                </td>
+                <td>
+                    A dried ball of exotic herbs. Intensely bitter with a taste
+                    clings to your teeth, it has been known to cure
+                    everything from snake-bites to the flu.
+                </td>
+                <td>
+                    Removes Poison.
+                </td>
+                <td>
+                    500
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Poison
+                </td>
+                <td>
+                    A little white bottle stopped with a cork and labeled with a
+                    skull and crossbones.
+                    The contents are transparent and odorless.
+                </td>
+                <td>
+                    Give your weapon Poisoned 3.
+                </td>
+                <td>
+                    300
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Jerky Ration
+                </td>
+                <td>
+                    A pouch of hand-dried strips of beef, seasoned with herbs
+                    and spices.
+                </td>
+                <td>
+                    Good for 1 day of food.
+                </td>
+                <td>
+                    250
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Fragile Bottle
+                </td>
+                <td>
+                    A round, glass bottle hung from your side with some twine.
+                </td>
+                <td>
+                    Outside of battle (or during for 5AP) you may place any one
+                    consumable item inside. Upon
+                    falling unconscious (health drops to 0 or less) you fall
+                    upon the bottle, breaking it. Any item
+                    stored inside is immediately used on you for free.<br>
+                    <small>Note: any additional Fragile Bottles on your person
+                        also break and are used.</small>
+                </td>
+                <td>
+                    125
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Lunch Box
+                </td>
+                <td>
+                    A small box of decoratively arranged rice, salmon strips,
+                    fruits, and vegetables.
+                </td>
+                <td>
+                    Good for 1 day of food and fully restores your Vitals.
+                </td>
+                <td>
+                    750
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Turnover Leaf
+                </td>
+                <td>
+                    Popularly referred to by merchants and adventurers as just
+                    Turnover, this aromatic herb can
+                    be consumed to quickly revitalize the senses - even
+                    postponing the need for sleep for days at
+                    a time.
+                </td>
+                <td>
+                    Removes Knock-Out and restores HP to 50%.
+                </td>
+                <td>
+                    550
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Red Feather Mushroom
+                </td>
+                <td>
+                    A rare and sought-after mushroom that only grows from the
+                    decaying bodies of fallen phoenixes.
+                    It is a symbol of good luck for adventurers.
+                </td>
+                <td>
+                    Upon dying in combat, at the beginning of your next turn you
+                    revive with 50% of your max health.
+                </td>
+                <td>
+                    1,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Bronze Coin
+                </td>
+                <td>
+                    A crudely minted coin of no discernible value. Years of
+                    handling have worn the features into
+                    obscurity, making the text illegible and the faces
+                    unrecognizable.
+                </td>
+                <td>
+                    The holder comes back to life with 1/5 restored vitals and
+                    all status-effects removed
+                    when Battle Transience is invoked.
+                </td>
+                <td>
+                    1,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Silver Coin
+                </td>
+                <td>
+                    An antiquated coin with smoothed-down features. There's a
+                    picture of a king on one side
+                    and a picture of a castle on the other.
+                </td>
+                <td>
+                    The holder comes back to life with 1/2 restored vitals and
+                    all status-effects removed
+                    when Battle Transience is invoked.
+                </td>
+                <td>
+                    5,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gold Coin
+                </td>
+                <td>
+                    A finely minted coin with a natural shine about it. The text
+                    reads, "Life and Liberty".
+                </td>
+                <td>
+                    The holder comes back to life with fully restored vitals and
+                    all status-effects removed
+                    when Battle Transience is invoked.
+                </td>
+                <td>
+                    10,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Platinum Coin
+                </td>
+                <td>
+                    A coin that remains in perfect condition despite years of
+                    handling. You can see yourself in its reflection.
+                </td>
+                <td>
+                    The holder comes back to life with fully restored vitals,
+                    max health increased by 10%, and all
+                    status-effects removed
+                    when Battle Transience is invoked.
+                </td>
+                <td>
+                    NA
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Star Coin
+                </td>
+                <td>
+                    A shiny coin made of an unusual metal, minted in the shape
+                    of a five-point star. It's smooth to the touch.
+                </td>
+                <td>
+                    The owner can use the coin when leveling-up to learn the
+                    Doctrine Ability of their taken class instead instead
+                    of a general one. Upon taking an Doctrine Ability, the Star
+                    Coin is destroyed.
+                </td>
+                <td>
+                    15,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Golden Toad
+                </td>
+                <td>
+                    A shiny gold-skinned amphibian with a gentle nature.
+                </td>
+                <td>
+                    Upon kissing the toad, the user chooses an additional
+                    Natural ability. Their physical form mutates appropriately
+                    to reflect this addition, while the toad loses its shine and
+                    turns a dull copper.
+                </td>
+                <td>
+                    NA
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Monster Treat
+                </td>
+                <td>
+                    A handmade treat, cooked in an oven and filled with herbs
+                    and spices that monsters love.
+                </td>
+                <td>
+                    Used for Befriend actions.
+                </td>
+                <td>
+                    250
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gourmet Monster Treat
+                </td>
+                <td>
+                    A delicately crafted treat, made with special ingredients
+                    that are especially tasty to monsters.
+                </td>
+                <td>
+                    Use for Befriend actions, increasing the check by 5.
+                </td>
+                <td>
+                    500
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Monster Collar
+                </td>
+                <td>
+                    A one-size-fits-all leather collar with a metal buckle and
+                    nametag. You
+                    get to engrave the tag upon purchase. When worn by a
+                    monster, it'll let
+                    townsfolk know that it belongs to someone.
+                </td>
+                <td>
+                    Used to add a friendly monster to your party for traveling.
+                    Grants
+                    them a characer sheet of their own.
+                </td>
+                <td>
+                    500
+                </td>
+            </tr>
+            <tr>
+                <td id="WeaponPart">
+                    Weapon Part
+                </td>
+                <td>
+                    A twisted piece of scrap that, while worthless on its own,
+                    can be used be a skilled weapon smith
+                    to enhance an existing weapon.
+                </td>
+                <td>
+                    When brought to a smith, it can be used for upgrading your
+                    own weapons.
+                </td>
+                <td>
+                    5,000
+                </td>
+            </tr>
 
-<h2>Primary Weapons</h2>
-<table class="Wide" id="PrimaryWeapons">
-    <tr>
-        <th style="width: 20%" >Name</th>
-        <th>Scores</th>
-        <th style="width: 20%">Cost</th>
-    </tr>
-    <tr>
-        <td>Machete</td>
-        <td>Type: Melee, WC: M, Use: 10AP, Rank: 3, Wt: 1u</td>
-        <td>500</td>
-    </tr>
-    <tr>
-        <td>
-            Basic Staff
-        </td>
-        <td>
-            Type: Magic, WC: M, Use: 10AP, Rank: 3, Wt: 1u
-        </td>
-        <td>
-            650
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Whip
-        </td>
-        <td>
-            Type: Skill, WC: M, Use: 10AP, Rank: 3, Wt: 1u
-        </td>
-        <td>
-            450
-        </td>
-    </tr>
-</table>
-<h2>
-    Secondary Weapons
-</h2>
-<table class="Wide" id="SecondaryWeapons" >
-    <tr>
-        <th style="width: 20%" >Name</th>
-        <th>Scores</th>
-        <th style="width: 20%">Cost</th>
-    </tr>
-    <tr>
-        <td>Standard Shield</td>
-        <td>Protection: 3{MlePwr}</td>
-        <td>500</td>
-    </tr>
-    <tr>
-        <td>Parrying Dagger</td>
-        <td>Type: Melee, WC: VL, Use: 5AP, Rank: 1, Wt: 0.2u; Parry</td>
-        <td>400</td>
-    </tr>
-    <tr>
-        <td>Throwing Knife</td>
-        <td>Type: Skill, WC: VL, Use: 5AP, Rank: 1, Wt: 0.2u; Thrown</td>
-        <td>200</td>
-    </tr>
-</table>
+            <tr>
+                <td>
+                    Tonic of Muscle
+                </td>
+                <td>
+                    A little black glass bottle with a dirty white label and a
+                    cork stopper.
+                    Inside is a black, syrupy mixture that gives off nauseating
+                    fumes. However,
+                    it is said to be a mixture of rare and exotic herbs that can
+                    improve
+                    the physique.
+                </td>
+                <td>
+                    Permanently increase your Melee:Power score by 5.<br>
+                    This effect is cumulative, meaning that drinking more will
+                    increase the multiplier.<br>
+                </td>
+                <td>
+                    10,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tonic of Spirit
+                </td>
+                <td>
+                    A transparent glass bottle with a cork stopper. Inside is a
+                    mixture of unknown substance,
+                    rapidly changing hues and physical states. It is reportedly
+                    made from a mixture of
+                    tears belonging to unknown gods.
+                </td>
+                <td>
+                    Permanently increase your Magic:Power score by 5.<br>
+                </td>
+                <td>
+                    10,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tonic of Mind
+                </td>
+                <td>
+                    An aquamarine glass bottle with a clear-white substance. It
+                    is odorless, tasteless, and non-viscous.
+                    It is said to be made from a blend oils found only in
+                    creatures from the bottom of the ocean.
+                </td>
+                <td>
+                    Permanently increase your Skill:Power score by 5.<br>
+                </td>
+                <td>
+                    10,000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tonic of Vitality
+                </td>
+                <td>
+                    A tall red bottle containing a brown, thick liquid. The
+                    mixture smells like rotting leaves,
+                    and appears to be so.
+                </td>
+                <td>
+                    Permanently increase your Health score by 30 and your
+                    Stamina, Mana, and Focus scores by 5.<br>
+                </td>
+                <td>
+                    10,000
+                </td>
+            </tr>
+        </table>
 
-<h2>
-    Weapon Attachments
-</h2>
-<table class="Wide" id="WeaponAttachments">
-    <tr>
-        <td>
-            Bayonet
-        </td>
-        <td>
-            A sharp knife's been tied to the end of your weapon.
-        </td>
-        <td>
-            Your weapon also counts as a Light, Neutral-element melee-weapon of Rank 1 and 0 range.
-        </td>
-        <td>
-            1,500
-        </td>
-    </tr>
-</table>
+        <h2>Primary Weapons</h2>
+        <table class="Wide" id="PrimaryWeapons">
+            <tr>
+                <th style="width: 20%">Name</th>
+                <th>Scores</th>
+                <th style="width: 20%">Cost</th>
+            </tr>
+            <tr>
+                <td>Machete</td>
+                <td>Type: Melee, WC: M, Use: 10AP, Rank: 3, Wt: 1u</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>
+                    Basic Staff
+                </td>
+                <td>
+                    Type: Magic, WC: M, Use: 10AP, Rank: 3, Wt: 1u
+                </td>
+                <td>
+                    650
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Whip
+                </td>
+                <td>
+                    Type: Skill, WC: M, Use: 10AP, Rank: 3, Wt: 1u
+                </td>
+                <td>
+                    450
+                </td>
+            </tr>
+        </table>
+        <h2>
+            Secondary Weapons
+        </h2>
+        <table class="Wide" id="SecondaryWeapons">
+            <tr>
+                <th style="width: 20%">Name</th>
+                <th>Scores</th>
+                <th style="width: 20%">Cost</th>
+            </tr>
+            <tr>
+                <td>Standard Shield</td>
+                <td>Protection: 3{MlePwr}</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Parrying Dagger</td>
+                <td>Type: Melee, WC: VL, Use: 5AP, Rank: 1, Wt: 0.2u; Parry</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>Throwing Knife</td>
+                <td>Type: Skill, WC: VL, Use: 5AP, Rank: 1, Wt: 0.2u; Thrown
+                </td>
+                <td>200</td>
+            </tr>
+        </table>
 
-<h2>Weapon Attributes</h2>
-<table class="Wide" id="WeaponAttributes">
-    <tr>
-        <th style="width: 15%">Name</th>
-        <th>Description</th>
-        <th>Benefits</th>
-        <th style="width: 15%">Service Price</th>
-    </tr>
-    <tr>
-        <td>Divided</td>
-        <td>The weapon was forged into two smaller versions of the origin.</td>
-        <td>Reduce weapon's WC grade by 2 measure (to a minimum of 1).
-            The weapon has an exact copy that can be equipped as a secondary weapon.</td>
-        <td>1,000</td>
-    </tr>
-    <tr>
-        <td>Oversized X</td>
-        <td>The weapon was made far too large for its intended size.</td>
-        <td>Increase weapon's Rank by X.<br>
-            Weapon takes up primary and secondary slots.</td>
-        <td>2,500</td>
-    </tr>
-    <tr>
-        <td>Ranged X+1</td>
-        <td>The weapon is able to fire projectiles into the distance.</td>
-        <td> Weapon can be used for ranged attacks up to X+1sp. Checks with this weapon against
-            enemies in the same space are reduced by 5.<br>
-            When making an attack, subtract 1x unit of ammunition from your inventory.</td>
-        <td>1,70</td>
-    </tr>
-    <tr>
-        <td>Extended X</td>
-        <td>The weapon has been elongated to reach into other spaces at the expense of close-range attacks.</td>
-        <td>The weapon can be used to attack enemies up to Xsp away, but not in the same space as you.</td>
-        <td>1,500</td>
-    </tr>
-    <tr>
-        <td>Quickdraw</td>
-        <td>The weapon's shape has been refined to make it quick to draw.</td>
-        <td>It is a free action to draw this weapon.</td>
-        <td>500</td>
-    </tr>
-    <tr>
-        <td>Throwable X</td>
-        <td>The weapon was redesigned to be easily and accurately thrown.</td>
-        <td>Toss the weapon up to Xsp away as a basic attack.<br>
-            Note: you'll have to pick it up later for 5AP.</td>
-        <td>650</td>
-    </tr>
-    <tr>
-        <td>Sever X</td>
-        <td>The weapon's edge is particularly sharp, digging deep and causing excessive bleeding.</td>
-        <td>On hit, weapon causes Bleeding X{TL}.</td>
-        <td>1,000</td>
-    </tr>
-    <tr>
-        <td>Poisoned X</td>
-        <td>The weapon's edge has been dipped in poison.</td>
-        <td>On hit, target takes Poison X{TL}.</td>
-        <td>800</td>
-    </tr>
-    <tr>
-        <td>Spark X</td>
-        <td>The weapon's metal is an alloy that sparks upon contact.</td>
-        <td>On hit, weapon causes Burn X{TL}.</td>
-        <td>800</td>
-    </tr>
-    <tr>
-        <td>Push X</td>
-        <td>Upon connection with the target, they're pushed backwards.</td>
-        <td>On hit, target is forced away Xsp.</td>
-        <td>750</td>
-    </tr>
-    <tr>
-        <td>Parry X</td>
-        <td>The weapon is particularly sturdy, granting the user a degree of protection.</td>
-        <td>Spend 1sta to increase your Melee, Magic, and Skill evasion scores by +X until the next round.</td>
-        <td>600</td>
-    </tr>
-    <tr>
-        <td>Artisan X</td>
-        <td>The weapon was masterfully crafted, making it more prone to critical damage.</td>
-        <td>Critical-hit threshold increased by X (critical damage at 20-X instead of just 20).</td>
-        <td>1,000</td>
-    </tr>
-    <tr>
-        <td>Honed X</td>
-        <td>This weapon was designed with accuracy in mind.</td>
-        <td>Increase accuracy checks for this weapon by X.</td>
-        <td>1,000</td>
-    </tr>
-    <tr>
-        <td>Charmed X</td>
-        <td>A blessing on this weapon predisposes it against bad luck.</td>
-        <td>Rolling 1 on accuracy checks does not invoke critical-failure,
-            and while equipped increases luck checks by +X.</td>
-        <td>3,000</td>
-    </tr>
-    <tr>
-        <td>Compressed X</td>
-        <td>This weapon's powers have been condensed into a smaller package.</td>
-        <td>Reduce the WC Use and Weight of this weapon by 1 to a minimum of VL. The Rank does not adjust.</td>
-        <td>5,000</td>
-    </tr>
+        <h2>
+            Weapon Attachments
+        </h2>
+        <table class="Wide" id="WeaponAttachments">
+            <tr>
+                <td>
+                    Bayonet
+                </td>
+                <td>
+                    A sharp knife's been tied to the end of your weapon.
+                </td>
+                <td>
+                    Your weapon also counts as a Light, Neutral-element
+                    melee-weapon of Rank 1 and 0 range.
+                </td>
+                <td>
+                    1,500
+                </td>
+            </tr>
+        </table>
 
-</table>
-</body>
+        <h2>Weapon Attributes</h2>
+        <table class="Wide" id="WeaponAttributes">
+            <tr>
+                <th style="width: 15%">Name</th>
+                <th>Description</th>
+                <th>Benefits</th>
+                <th style="width: 15%">Service Price</th>
+            </tr>
+            <tr>
+                <td>Divided</td>
+                <td>The weapon was forged into two smaller versions of the
+                    origin.
+                </td>
+                <td>Reduce weapon's WC grade by 2 measure (to a minimum of 1).
+                    The weapon has an exact copy that can be equipped as a
+                    secondary weapon.
+                </td>
+                <td>1,000</td>
+            </tr>
+            <tr>
+                <td>Oversized X</td>
+                <td>The weapon was made far too large for its intended size.
+                </td>
+                <td>Increase weapon's Rank by X.<br>
+                    Weapon takes up primary and secondary slots.
+                </td>
+                <td>2,500</td>
+            </tr>
+            <tr>
+                <td>Ranged X+1</td>
+                <td>The weapon is able to fire projectiles into the distance.
+                </td>
+                <td> Weapon can be used for ranged attacks up to X+1sp. Checks
+                    with this weapon against
+                    enemies in the same space are reduced by 5.<br>
+                    When making an attack, subtract 1x unit of ammunition from
+                    your inventory.
+                </td>
+                <td>1,70</td>
+            </tr>
+            <tr>
+                <td>Extended X</td>
+                <td>The weapon has been elongated to reach into other spaces at
+                    the expense of close-range attacks.
+                </td>
+                <td>The weapon can be used to attack enemies up to Xsp away, but
+                    not in the same space as you.
+                </td>
+                <td>1,500</td>
+            </tr>
+            <tr>
+                <td>Quickdraw</td>
+                <td>The weapon's shape has been refined to make it quick to
+                    draw.
+                </td>
+                <td>It is a free action to draw this weapon.</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Throwable X</td>
+                <td>The weapon was redesigned to be easily and accurately
+                    thrown.
+                </td>
+                <td>Toss the weapon up to Xsp away as a basic attack.<br>
+                    Note: you'll have to pick it up later for 5AP.
+                </td>
+                <td>650</td>
+            </tr>
+            <tr>
+                <td>Sever X</td>
+                <td>The weapon's edge is particularly sharp, digging deep and
+                    causing excessive bleeding.
+                </td>
+                <td>On hit, weapon causes Bleeding X{TL}.</td>
+                <td>1,000</td>
+            </tr>
+            <tr>
+                <td>Poisoned X</td>
+                <td>The weapon's edge has been dipped in poison.</td>
+                <td>On hit, target takes Poison X{TL}.</td>
+                <td>800</td>
+            </tr>
+            <tr>
+                <td>Spark X</td>
+                <td>The weapon's metal is an alloy that sparks upon contact.
+                </td>
+                <td>On hit, weapon causes Burn X{TL}.</td>
+                <td>800</td>
+            </tr>
+            <tr>
+                <td>Push X</td>
+                <td>Upon connection with the target, they're pushed backwards.
+                </td>
+                <td>On hit, target is forced away Xsp.</td>
+                <td>750</td>
+            </tr>
+            <tr>
+                <td>Parry X</td>
+                <td>The weapon is particularly sturdy, granting the user a
+                    degree of protection.
+                </td>
+                <td>Spend 1sta to increase your Melee, Magic, and Skill evasion
+                    scores by +X until the next round.
+                </td>
+                <td>600</td>
+            </tr>
+            <tr>
+                <td>Artisan X</td>
+                <td>The weapon was masterfully crafted, making it more prone to
+                    critical damage.
+                </td>
+                <td>Critical-hit threshold increased by X (critical damage at
+                    20-X instead of just 20).
+                </td>
+                <td>1,000</td>
+            </tr>
+            <tr>
+                <td>Honed X</td>
+                <td>This weapon was designed with accuracy in mind.</td>
+                <td>Increase accuracy checks for this weapon by X.</td>
+                <td>1,000</td>
+            </tr>
+            <tr>
+                <td>Charmed X</td>
+                <td>A blessing on this weapon predisposes it against bad luck.
+                </td>
+                <td>Rolling 1 on accuracy checks does not invoke
+                    critical-failure,
+                    and while equipped increases luck checks by +X.
+                </td>
+                <td>3,000</td>
+            </tr>
+            <tr>
+                <td>Compressed X</td>
+                <td>This weapon's powers have been condensed into a smaller
+                    package.
+                </td>
+                <td>Reduce the WC Use and Weight of this weapon by 1 to a
+                    minimum of VL. The Rank does not adjust.
+                </td>
+                <td>5,000</td>
+            </tr>
+
+        </table>
+    </body>
 </html>
