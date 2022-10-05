@@ -34,7 +34,7 @@ Doctrine: Starburst
 Magic-Offense-Action
 Use: 10AP+1mna
 Range: {TL}/4
-Accuracy: Skill
+Accuracy: Magic
 Damage: (3){MgcPwr}
 OnHit: Target is knocked prone.|
 

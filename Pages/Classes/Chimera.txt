@@ -28,16 +28,16 @@ Magic: (Power: 6, Evasion: 8, Accuracy: +1)|
 Skill: (Power: 5, Evasion: 9, Accuracy: +2)|
 
 Abilities
-Doctrine: Amalgamation
+Doctrine: Augmentation
 Magic-Support-Passive
 Use: 1/turn
-Effect: Increase any check by {DL}, treating the final result as if it were naturally rolled.|
+Effect: Treat the final result of a check as though it were naturally rolled.|
 
 A1: Following Weapon
-Magic-Offensive-Action
+Melee-Offensive-Action
 Use: 10AP+5mna
 Range: {TL/5}
-Effect: Choose up to 1+{SklPwr/15} targets within range.
+Effect: Choose up to 1+{MgcPwr/15} targets within range.
 Throw your primary weapon; you cannot use it while it's in flight.
 At the beginning of a target's turn, they must spend Stamina equal to your {MleEva} to dodge your weapon, otherwise
  they take (1){MleDamage}.
@@ -61,21 +61,21 @@ A4: Dragon's head
 Magic-Offensive-Action
 Use: 10AP+5mna
 Range: 0sp AoE
-Accuracy: Melee
+Accuracy: Magic
 OnHit: Combatants takes (3){MgcPwr} fire damage.|
 
 A5: Wild Swipe
 Melee-Offensive-Action
 Use: 10AP+3sta
 Range: 0sp AoE
-Accuracy: Skill
+Accuracy: Melee
 OnHit: Combatant takes (2){MlePwr} damage|
 
 A6: Lightning Storm
 Magic-Offensive-Action
 Use: 25AP+10mna!
 Range: Battlefield AoE
-Accuracy: Skill
+Accuracy: Magic
 OnHit: Enemy takes (3){MgcPwr} electric damage.|
 
 A7: Shadowstep

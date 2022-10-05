@@ -62,7 +62,7 @@ A3: Haunt
 Magic-Attack-Action
 Use: 10AP+3mna+3fcs
 Range: {TL/5}sp
-Accuracy: Skill
+Accuracy: Magic
 OnHit: Target loses (1){MgcPwr} focus.|
 
 A4: Arcane Shield
@@ -73,14 +73,14 @@ A5: Terrify
 Magic-Offensive-Action
 Use: 10AP+1fcs+(1/turn)
 Range: 1sp (Choose up to 1+{TL/5} targets.)
-Evade: Skill
+Evade: Magic
 OnHit: Target loses (1){SklPwr/3} focus.|
 
 A6: Paralyzing Presence
 Magic-Offensive-Action
 Use: 15AP+3fcs
 Range: 1sp
-Evade: Skill
+Evade: Magic
 OnPass: Target gains Paralyzed 3.|
 
 A7: Drown

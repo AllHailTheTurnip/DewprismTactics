@@ -22,7 +22,7 @@ Element: Noble|
 
 STATS
 Melee: (Power: 5, Evasion: 8, Accuracy: 0)|
-Magic: (Power: 6, Evasion: 8, Accuracy: +5)|
+Magic: (Power: 4, Evasion: 8, Accuracy: +5)|
 Skill: (Power: 4, Evasion: 8, Accuracy: -1)|
 
 ABILITIES
@@ -39,12 +39,12 @@ A1: Flying Kick
     Range: 1sp LoS
     Increase your critical-success range by 5 and your critical-failure range by 5 until the end of this action.
     Choose a target within range and leap through the air into their space as a free Movement action, making a free
-    attack action against them as you arrive.|
+     attack action against them as you arrive.|
 A2: Scheme
     Skill-Support-Action
     Use: 30AP + 5fcs
     Create a Scheme counter (3) and grant it to yourself or an ally.
-    Scheme counter: r1+{TL/3} bonus to all the holder's Talent and Accuracy checks for the next (X) turns.|
+    Scheme counter: (1)+{TL/3} bonus to all the holder's Talent and Accuracy checks for the next (X) turns.|
 A3: Magic Burst
     Magic-Offensive-Action
     Use: 5Mna
@@ -63,21 +63,23 @@ A6: Fireball
     Magic-Offensive-Action
     Use: 10AP + 3mna
     Range: 0sp LoS
-    Accuracy: Melee
+    Accuracy: Magic
     OnHit: Target takes (3){MgcPwr} fire damage. On crit, target catches fire (Burning 1{TL}).|
 A7: Acquire Magic
     Magic-Support-Action
     Use: 10AP + 5fcs
-    While in the same space of a KO'd or dead combatant, choose one of their non-doctrine Magic-type abilities to add to your abilities list until Battle Transience or until an hour has passed.|
+    While in the same space of a KO'd or dead combatant, choose one of their
+     non-doctrine Magic-type abilities to add to your abilities list until
+     Battle Transience or until an hour has passed.|
 A8: Create Ice Wall
     Magic-Defensive-Action
     Use: 10AP + (1-5mna as X)
     Range: 0sp instant
     Create X Ice Block obstacles.
-    Tree obstacle: 1 cubic-meter cube of ice. r10{MgcPwr} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
+    Tree obstacle: 1 cubic-meter cube of ice. (10){MgcPwr} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
 A9: Ward Danger
     Magic-Defensive-Action
-    Use: 5AP + 5mna
+    Use: 5AP+5mna
     Range: 0sp LoS
     Create a Ward marker and grant it to yourself or an ally within range (max 1/combatant).
     Ward marker: while marked, +5 to {MgcEva}.|

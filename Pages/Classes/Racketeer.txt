@@ -57,13 +57,12 @@ Melee-Offensive-Action
 Use:10AP
 Range: 0sp
 Look at the target's Equipment and choose an item to target.
-Accuracy: Skill
+Accuracy: Melee
 OnPass: Targeted item is destroyed.|
 
 A5: Cornering the Prey
-Melee-Support-Reaction
-Trigger: You confirm a hit against an opponent.
-For the duration of the action, increase your primary power by 1 for every wall adjacent to the target.|
+Melee-Support-Passive
+Effect: Increase your attack's Rank by 1 for every wall adjacent (up to 4) to the target.|
 
 A6:Intimidate
 Skill-Offensive-Action
@@ -76,7 +75,7 @@ A7:Menacing Invitation
 Skill-Support-Action
 Use: 10AP+5sta
 Range: 0sp
-Choose an allie to the be the Menacing Invitation's destination.
+Choose an allie to be the Menacing Invitation's destination.
 Add a Menacing Invitation consumable to the target's inventory (Weighs nothing).
 Menacing Invitation: On consumption, translate yourself to the destination.|
 

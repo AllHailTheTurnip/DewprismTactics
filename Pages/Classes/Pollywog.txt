@@ -45,7 +45,7 @@ A3: Chomp
     Enemy takes (1){MlePwr} neutral damage.|
 A4: Lay Egg
     Skill-Support-Action
-    Cost: 5Foc
+    Cost: 5Fcs
     Place an Egg prop at your feet.
     Upon your death, the egg hatches and you respawn at the Puddle - all your Vital scores and status effects
     are restored to their battle-start states.|
@@ -53,7 +53,7 @@ A5: Water Gun
     Skill-Offensive-Action
     Cost 10AP + 3Fcs
     Range: 1sp
-    Accuracy: Melee
+    Accuracy: Skl
     OnPass: Target takes (3){SklPwr} water dmg.|
 A6: Follow
     Melee-Support-Reaction

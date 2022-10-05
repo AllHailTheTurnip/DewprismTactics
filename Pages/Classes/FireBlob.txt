@@ -43,22 +43,22 @@ Conclusion:
 This effect can stack up to {CL} times.|
 
 A1: Eruption
-Skill-Offensive-Action
+Melee-Offensive-Action
 Use: 10AP+3mna+5sta+(X Max Health)
 Range: 0sp
-Evade: Skill
+Evade: Melee
 OnHit: Target takes (X/15)MlePwr damage.|
 
 A2: Throw Slag
 Melee-Offensive-Action
 Use: 5AP+1sta+1mna
 Range: 1sp
-Accuracy: Skill
+Accuracy: Melee
 OnHit: Inflict (1)MlePwr dmg.|
 
 A3: Newtonian Fluidity
 Magic-Defensive-Passive
-Effect: If the Rank of an incoming attack is over 3, set it to 4.|
+Effect: If the Rank of an incoming attack is over 4, reduce it to 4.|
 
 A4: Scorching Touch
 Magic-Offensive-Reaction
@@ -98,12 +98,12 @@ Effect: You become Prone and end your turn.
 All enemies in the same space as you take Burning (1){MlePwr}.|
 
 A9: Force Retreat
-Magic-Defensive-Action
+Skill-Defensive-Action
 Use: 10AP+5fcs
 Range: 0sp AoE
 Evade: Skill
 OnHit: Target is forced into the next adjacent space away from you.
-If they cannot move away into an adjacent space, they take (3){MlePwr} fire damage.|
+If they cannot move away into an adjacent space, they take (3){SklPwr} fire damage.|
 
 MA1:|
 MA2:|

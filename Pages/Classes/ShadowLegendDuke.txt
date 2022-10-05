@@ -50,7 +50,7 @@ A2: Shadow Clone Technique: Mantis Mirrorhouse
 Magic-Defense-Action
 Use: 5mna+10AP
 Range: {SklPwr/15}sp
-You become surrounded by illusionary copies of yourself. Increase your Evasion scores by 2+[SklPwr/10] until your next
+You become surrounded by illusionary copies of yourself. Increase your Evasion scores by 2+{MgcPwr/10} until your next
 turn. When your turn starts, you burn 10-{DL}AP and make a basic attack action against anyone within range.|
 
 A3: Water Walk
@@ -62,7 +62,7 @@ A4: Secret Fist
 Melee-Offense-Action
 Use: 5fcs+2sta+15AP
 Range: 0sp
-Accuracy: Skill
+Accuracy: Melee
 OnHit: Inflict 3{MlePwr} base-element damage to their Health.
 If Crit, apply it to rank of secondary effects. Roll 1d20.
 1-5: Drain (2){SklPwr} from their Health
@@ -107,7 +107,7 @@ MA1: Snag!
 Skill-Support-Reaction
 Trigger: Your health reaches 0
 Target: Any combatant that was, at any point, in the same space as you during combat.
-Effect: Choose an item from their inventory and add it to yours or an ally's. |
+Effect: Choose an item from their inventory and add it to yours or an ally's.|
 
 MA2: Study
 Skill-Support-Passive

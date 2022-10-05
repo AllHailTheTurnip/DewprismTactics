@@ -35,15 +35,15 @@ Element: Fire|
 
 STATS
 Melee: (Power: 4, Evasion: 8, Accuracy: +1)|
-Magic: (Power: 4, Evasion: 10, Accuracy: +3)|
-Skill: (Power: 5, Evasion: 12, Accuracy: +1)|
+Magic: (Power: 6, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 5, Evasion: 12, Accuracy: 0)|
 
 Abilities
 Doctrine:Eruption
 Magic-Offensive-Action
 Use: 15AP+7mna
 Range: 0sp AoE
-Evade: Melee
+Evade: Magic
 OnHit: Target takes (3){MgcDmg} damage.|
 
 A1:Burning Shield
@@ -53,7 +53,7 @@ Range: 2sp
 Effect: Give yourself three Shield props. Each prop follows you wherever you go.
 After two rounds, pick a unique target for each Shield prop to target;
 extra props simply vanish.
-Make a Skill Accuracy check against each target;
+Make a Magic Accuracy check against each target;
 on hit, inflict (1){MgcPwr} damage and destroy the prop.
 If an enemy combatant enters into your space before the Props are fired,
 inflict (1){MgcPwr} damage and destroy the prop.|
@@ -63,7 +63,7 @@ Magic-Offensive-Action
 Use: 10AP+3mna
 Range: 2sp
 Effect: Target every enemy combatant in a space within range. Each targeted combatant
- makes a Melee Evade check. On hit, they take (2){MgcPwr} damage.|
+ makes a Magic Evade check. On hit, they take (2){MgcPwr} damage.|
 
 A3:Solar Ray
 Magic-Offensive-Action
@@ -81,10 +81,10 @@ combatant within those spaces makes a Melee Evade check, whereupon failure are
 inflicted with (1){MgcPwr} damage.|
 
 A5:Burning Shuriken
-Skill-Offensive-Action
+Magic-Offensive-Action
 Use: 5AP+3mna+3fcs
 Range: 1sp
-Accuracy: Skill
+Accuracy: Magic
 OnHit: Inflict (1){MgcPwr} fire damage.|
 
 A6:Flamethrower
@@ -104,6 +104,7 @@ Accuracy: Melee
 Effect: Target gets Burning {MgcPwr}|
 
 A8:Channel Power
+Magic-Offensive-Action
 Use: 5mna+(1/turn)
 Effect: Increase the Rank of your next action by 1.|
 

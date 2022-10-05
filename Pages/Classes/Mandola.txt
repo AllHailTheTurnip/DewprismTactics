@@ -56,18 +56,18 @@ Check: Skill
 OnPass: Affected enemy makes a Movement action in the direction of your position.|
 
 A3:Photosynthesis
-Skill-Support-Action
+Melee-Support-Action
 Use: 10AP+3fcs
 Increase max Health and current Health by (1){MlePwr}|
 
 A4:Parasite Spore
-Skill-Offensive-Reaction
+Melee-Offensive-Reaction
 Trigger: You take damage.
 Use: 3Sta
 Luck: 8
 The attacker is given a Spore marker.
 You are the Spore marker's creator.
-Spore Marker: Lose (1){Creator's SklPwr} health. The creator gains any health lost this way.|
+Spore Marker: Lose (1){Creator's MlePwr} health. The creator gains any health lost this way.|
 
 A5:Grow Bark
 Melee-Defensive-Action
@@ -89,19 +89,17 @@ Accuracy: Melee
 OnPass: Choose a positive status effect to undo.|
 
 A8:Attract Bees
-Skill-Defensive-Action
+Melee-Defensive-Action
 Use: 5AP+5Sta
 Create a Bee Swarm token anywhere along the (relative) south border of the battlefield.
 At the end of your turn, the Bee Swarm token moves 1sp towards the nearest enemy Combatant,
-whereupon it moves into the space, the token is destroyed and the nearest enemy takes (3){SklPwr} damage.|
+whereupon it moves into the space, the token is destroyed and the nearest enemy takes (3){MlePwr} damage.|
 
 A9:Bear Fruit
 Melee-Support-Action
-Use: 25AP
-This ability rolls for Luck three times.
-Luck: 10
-OnPass: Create a consumable Fruit prop in your inventory.
-Fruit Prop: On consumption, restore (15){TL} Health.|
+Use: 20AP
+Create three consumable Fruits and put them your inventory.
+Fruit: On consumption, restore (45){TL} Health.|
 
 MA1:|
 MA2:|

@@ -30,23 +30,23 @@ Doctrine: Flurry of Blows
 Melee-Offensive-Action
 Use: 3sta+3fcs+10AP
 Range: 0sp
-Effect: Make 2+{TL/5} Skill Accuracy checks.
+Effect: Make 2+{TL/5} Melee Accuracy checks.
 Inflict (1){MlePwr} fire damage per hit.|
 
 A1: Burning Star
 Melee-Offensive-Action
 Use: 3sta+5mna+10AP
 Range: 0sp AoE
-Accuracy: Magic+5
-Dmg: (3){MgcPwr} fire
+Accuracy: Melee+5
+Dmg: (3){MlePwr} fire
 OnCrit: Target gets Burning 3|
 
 A2: Burning Path
 Melee-Offensive-Action
 Use: 3sta+3mna+10AP
 Range: 1sp AoE Ray
-Accuracy: Magic
-Dmg: (2){MgcPwr} fire
+Accuracy: Melee
+Dmg: (2){MlePwr} fire
 OnCrit: Target gets Burning 3|
 
 A3: Momentum

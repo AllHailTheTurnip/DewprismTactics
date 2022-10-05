@@ -68,14 +68,14 @@ Effect: Gain Aggro until your next turn begins.|
 A5: Bulk Up
 Melee-Support-Action
 Use: 30AP
-Effect: Increase your MlePwr by your class's level 1 MlePwr.|
+Effect: Increase your MlePwr by 1 level.|
 
 A6: Earthquake
 Melee-Offensive-Action
 Use: 15AP+5sta
 Range: 3sp
 Effect: Make a Melee Accuracy check (A).
-Every combatant within range makes a competitive Skill check against A.
+Every combatant within range makes a competitive Melee check against A.
 Upon failure, the combatant is knocked Prone.|
 
 A7: Collateral Damage

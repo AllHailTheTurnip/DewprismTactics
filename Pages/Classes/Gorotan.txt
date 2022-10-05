@@ -39,7 +39,7 @@ Targeted enemies must make a Skill self-check, whereupon failure take 1{MgcPwr} 
 damage.|
 
 A2: Mrow!
-Melee-Offensive-Action
+Skill-Offensive-Action
 Use: 5AP
 Range: 2sp circle AoE
 Accuracy: Skill
@@ -49,7 +49,7 @@ A3: Swipe
 Melee-Offensive-Action
 Use: 10AP
 Range: 0sp
-Effect: Target takes 1{SklDmg} neutral damage.|
+Effect: Target takes 1{MgcDmg} neutral damage.|
 
 A4: Pounce
 Melee-Offensive-Action
@@ -63,7 +63,7 @@ A5: Electric Arc
 Magic-Offensive-Action
 Use: 10AP+3mna
 Range: 1sp
-Accuracy: Melee
+Accuracy: Magic
 The target must spend 3sta to move another space or else
 the accuracy check gains +5.
 OnHit: The target takes electric Magic Damage.|

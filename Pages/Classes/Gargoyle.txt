@@ -31,7 +31,7 @@ Skill: (Power: 4, Evasion: 7, Accuracy: -2)|
 Abilities
 Doctrine: Stone Wings
 Magic-Support-Passive
-While conscious, you are uninhibited by gravity and can thus move vertically up to 3{MlePwr/5}sp into the air.
+While conscious, you are uninhibited by gravity and can thus move vertically up to 3{MgcPwr/5}sp into the air.
 In addition, you are unaffected by difficult terrain and its hazards.|
 
 A1:Sonic Screech

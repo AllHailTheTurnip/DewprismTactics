@@ -55,7 +55,7 @@ Otherwise, reduce the AP cost of an equipped weapon by 2 (minimum 2).|
 
 A3: Upgrade Attributes
 Skill-Support-Action
-Effect: 5mna+20AP
+Effect: 5fcs+20AP
 Use: Choose an attribute of an equipped weapon and increase by 50% (rounded up).|
 
 A4: Reconfigure Attribute
@@ -75,7 +75,7 @@ Effect: Choose a type: Skill, Magic, or Melee. Gain {DL} Evasion against abiliti
 that type until the beginning of your next turn.|
 
 A7: Stoke Heart
-Melee-Support-Action
+Magic-Support-Action
 Use: 7sta+10AP
 Effect: Gain advantage the next 1+{MgcPwr/5} checks.|
 

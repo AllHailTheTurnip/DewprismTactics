@@ -20,7 +20,9 @@ Magic: (Power: 5, Evasion: 10)|
 Skill: (Power: 5, Evasion: 10)|
 
 Abilities
-Doctrine:|
+Doctrine: Knowledge Casting
+Skill-Support-Passive
+Effect: Abilities with MgcPwr variables be substituted with SklPwr.|
 A1:|
 A2:|
 A3:|

@@ -44,7 +44,7 @@ Magic-Offense-Action
 Use: 5mna+10AP
 Range: 0sp+{mgc/15}
 AoE: Ray
-Accuracy: Melee
+Accuracy: Magic
 Damage: (4){MgcPwr} fire|
 
 A1:Venom Fangs
@@ -58,7 +58,7 @@ Stamina, Mana, and/or Focus regained from consumables is increased by 5{TL}|
 A3:Camouflage
 Melee-Defense-Action
 Use: 10AP
-Effect: End your turn. Increase your SklEva by 5+{MlePwr} until your next action.|
+Effect: End your turn. Increase your MleEva by 5+{MlePwr} until your next action.|
 
 A4:Regenerate
 Magic-Support-Passive

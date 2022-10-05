@@ -47,9 +47,9 @@ Melee-Offensive-Action
 Use: 5AP
 Range: 0sp
 Accuracy: Melee
-Damage: (1){SklPwr}
+Damage: (1){MlePwr}
 Luck: 12
-OnPass: Bleeding (1){SklPwr}|
+OnPass: Bleeding (1){MlePwr}|
 
 A2: Flight
 Melee-Movement-Action
@@ -59,7 +59,7 @@ Effect: Move 1sp in any direction; you are not affected by difficult terrain.|
 A3: Copy Spell
 Skill-Support-Reaction
 Cost: 5fcs
-Trigger: A combatant within {Skill/15}sp uses a Magic-type ability.
+Trigger: A combatant within {SklPwr/15}sp uses a Magic-type ability.
 Luck: 8
 OnPass: You gain the targeted spell as an ability, indexed after your tenth ability.
 You may only copy one ability at a time.
@@ -68,7 +68,7 @@ OnCrit: Increase the copied spell's Rank by 1 (if applicable).|
 A4: Deafening Screech
 Melee-Offensive-Action
 Use: 10AP+5sta+2fcs
-Range: All enemy combatants within {Melee/10}sp.
+Range: All enemy combatants within {MlePwr/10}sp.
 Accuracy: Melee
 OnPass: Target is now deaf. Any Magic-type ability checks now have disadvantage.|
 
@@ -81,8 +81,8 @@ Effect: Target gain Flight until the end of their next turn.|
 A6: Gather Flock
 Magic-Support-Action
 Use: 10AP+3mna
-Range: Any ally within 1sp+{Magic/15}.
-Effect: Choose one target to be the waypoint. Choose up to 1+{Magic/10} allies to be subjects.
+Range: Any ally within 1sp+{MgcPwr/15}.
+Effect: Choose one target to be the waypoint. Choose up to 1+{MgcPwr/10} allies to be subjects.
 Each subject is instantly relocated to an adjacent space beside the waypoint.|
 
 A7: Hatch Egg

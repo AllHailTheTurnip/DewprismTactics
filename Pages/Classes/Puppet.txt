@@ -73,7 +73,7 @@ Luck: 15
 Effect: Execute the same action, for free, using the same scores, as the target after their action is resolved.|
 
 A7: Gang Attack
-Skill-Offensive-Reaction
+Magic-Offensive-Reaction
 Trigger: An allie within the same space makes an attack against an opponent.
 Effect: You may spend 5fcs to make a free basic attack action at the same target.|
 
@@ -88,7 +88,7 @@ puppet perform instead.|
 A9: Reassemble
 Skill-Support-Passive
 Range: 0sp
-Effect: While KO'd, an ally within range may spend 15AP to revive you at 1HP.
+Effect: While KO'd, an ally within range may spend 10AP to revive you at 1HP.
 While dead, an ally within range may spend 30AP to revive you at 1HP.
 Note: If you are dead by the end of combat, the ability cannot be used.|
 

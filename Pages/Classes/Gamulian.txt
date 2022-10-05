@@ -43,7 +43,7 @@ Effect: Restore 25% of your max Health and 50% of your max Mana, Stamina, and Fo
 A2: Gore
 Melee-Offensive-Action
 Use: 10AP+5sta
-Range: {Weapon's Range}
+Range: Weapon's Range
 Accuracy: Melee
 Effect: Opponent takes (1){MlePwr} damage and gets Bleeding (MlePwr).|
 
@@ -52,7 +52,7 @@ Melee-Offensive-Reaction
 Trigger: You take damage.
 Use: 1+{TL/5}battle.
 Effect: After the offender's action resolves, you may immediately make an
- action, paying its Use-cost from your next turn as normal.|
+ action, paying half Use-cost (min 5AP) from your next turn as normal.|
 
 A4: Pole Bind
 Skill-Support-Action

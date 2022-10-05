@@ -74,7 +74,7 @@ A7: Supernova
 Magic-Offensive-Action
 Use: 40AP+15mna.
 Range: 2sp AoE circle.
-Evade: Melee
+Evade: Magic
 Effect: Variable Z is equal to your Max Health.
 Hit combatants within your space take Z light damage.
 Hit combatants 1sp away from you take Z/2 light damage.

@@ -5,7 +5,7 @@ Following in the footsteps of the original cloud whales, who were monstrous
 creatures that lived over stormy seas, the Cloud Whale warriors likewise
 learned to control wind and water to defeat their enemies.
 <p>Today, Cloud Whales are an oddity, as it's so difficult to train into one.
-They typically begin as sea-sidd monks or sailors, who in turn learn
+They typically begin as sea-side monks or sailors, who in turn learn
 to copy the actual cloud whales.</p>|
 
 
@@ -53,21 +53,21 @@ A1: Tidal Wave
 Magic-Offensive-Action
 Use: 10AP+7mna
 Range: Battlefield AoE
-Evade: Melee
+Evade: Magic
 OnHit: Inflict {1}MgcPwr damage.|
 
 A2: Rain Gun
 Magic-Offensive-Action
 Use: 5AP+3mna+3fcs
 Range: 1sp
-Accuracy: Skill
-OnHit: (2){SklPwr}|
+Accuracy: Magic
+OnHit: (2){MgcPwr}|
 
 A3: Glide
 Magic-Support-Action
 Use: 3mna
 Effect: Ignore Difficult Terrain for the duration
-of the round. First Movement action costs 5AP less (min 0).|
+of the round.|
 
 A4: Fog
 Magic-Defensive-Action

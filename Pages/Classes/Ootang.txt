@@ -39,7 +39,7 @@ A1: Fling "Dirt"
 Melee-Offensive-Action
 Use: 10AP
 Range: 1sp
-Accuracy: Skill
+Accuracy: Melee
 Dmg: (1){MlePwr}
 OnCrit: Poison 5.|
 
@@ -52,9 +52,9 @@ Allies are considered valid targets for the duration of the action.
 If the ability is Passive, ignore it.|
 
 A3: Flee
-Melee-Defensive-Reaction
+Skill-Defensive-Reaction
 Trigger: An enemy combatant targets you for an attack.
-Use: 5AP+3sta+1fcs
+Use: 3sta+1fcs
 Self-Check: Skill
 Effect: Make a free movement action away from the combatant.|
 
@@ -79,7 +79,7 @@ A6: Full Aggro
 Melee-Offensive-Action
 Use: 10AP
 Effect: Scream, holler, and jump around like an aggressive ape. Take the
- Aggro status until the start of your next turn.|
+ Aggro status and reduce incoming damage by 1 rank (min 0) until the start of your next turn.|
 
 A7: Highly Agile
 Melee-Support-Passive

@@ -26,14 +26,14 @@ Skill: (Power: 6, Evasion: 9, Accuracy: +1)|
 ABILITIES
 Doctrine: Assassinate
     Skill-Offensive-Action
-    Use: 10AP + 3Fcs + 3Sta
+    Use: 10AP+3Fcs+3Sta
     Range: (1)+{TL/4}sp
     Leap through the air into the same space as your target.
     Luck: 18
     OnPass: Target takes damage equal to their remaining health.|
 A1: Leap
     Skill-Support-Action
-    Use: 10AP.
+    Use: 10AP
     Jump horizontally or vertically, 1sp.|
 A2: Dismember
     Melee-Offensive-Action
@@ -45,15 +45,15 @@ A3: Lick Wounds
     Melee-Supportive-Action
     Use: 10AP
     Range: 0sp
-    Restore {TL * 15} health to yourself or your target.|
+    Restore {15TL} health to yourself or your target.|
 A4: Bloody Feast
     Melee-Supportive-Passive
-    Use: 5AP
+    Use: 5sta+(1/turn)
     Attacking a dead target restores health equal to half the damage inflicted.|
 A5: Tactical Retreat
     Melee-Supportive-Reaction
     Use: 3sta
-    Trigger: An ally takes damage.
+    Trigger: Your or an ally takes damage.
     Range: {TL/2}sp instant
     Make a free movement action and take a nearby ally within range with you by your side.|
 A6: Astounding Speed
@@ -64,11 +64,11 @@ A6: Astounding Speed
 A7: Sharpen Edge
     Skill-Support-Action
     Cost: 31-{TL}AP
-    Increase your Crit scores by 1.|
+    Increase your Crit threshold by 1.|
 A8: Fearsome Roar
     Skill-Offensive-Action
     Cost: 10AP
-    Range: 3sp.
+    Range: 3sp
     Accuracy: Skill
     OnPass: Reduce the target's Magic evasion by 2.|
 A9: Conjure Assassin's Blade

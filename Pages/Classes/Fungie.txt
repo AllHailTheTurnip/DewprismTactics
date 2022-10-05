@@ -54,7 +54,7 @@ Magic-Support-Action
 Use: 10AP+3mna
 Range: Self
 Effect: Generate a Tuba.
-Tuba (WC: VH, AP: 10+2sta, Power: 0 Wind, Weight: 4u; Pushes target back 1+{MlePwr/15}sp.)|
+Tuba (WC: VH, AP: 10+2sta, Power: 0 Wind, Weight: 4u; Pushes target back 1+{MgcPwr/15}sp.)|
 
 A3: Conjure Enormous Ball
 Magic-Support-Action
@@ -63,7 +63,7 @@ Range: 0sp
 Effect: Conjure a ball prop with a diameter of 0sp (3~ meters wide).
 The ball is magical and can only be moved by standing on it and spending 10AP.
 If you move the ball from or into an enemy's space, they must spend 3sta to move into another space, or else
-take (3){MlePwr} damage.|
+take (3){MgcPwr} damage.|
 
 A4: Toddle
 Melee-Support-Action
@@ -103,8 +103,8 @@ See Saw prop: while one combatant is standing on an end, the other end becomes a
 
 A9: Regrow
 Melee-Support-Action
-Use: 25AP
-Effect: Restore 30{TL} health. Any disabled abilities are re-enabled.|
+Use: 10AP
+Effect: Restore 30{TL} health. Any disabled abilities are re-enabled. End your turn.|
 
 MA1:|
 MA2:|

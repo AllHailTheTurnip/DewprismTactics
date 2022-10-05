@@ -26,7 +26,7 @@ Skill: (Power: 4, Evasion: 9, Accuracy: +1)|
 
 ABILITIES
 Doctrine: Self Resurrection
-    Skill-Defensive-Reactive
+    Melee-Defensive-Reactive
     Trigger: Your health reaches 0.
     Use: 5mna.
     Your corpse is given a Revival counter (2).
@@ -59,7 +59,7 @@ A4: Reckless Shove
 A5: Jump Back
     Melee-Defensive-Reaction
     Trigger: User falls into a bottomless pit.
-    Use: 1Sta
+    Use: 3Sta
     Luck: 5
     OnPass: Make a free movement action out of the pit from where you fell.
     OnCrit: User may also make a free attack action.|
@@ -67,17 +67,17 @@ A6: Firebreath
     Magic-Offensive-Action
     Use: 10AP + 7Mna
     Range: 0sp (up to three targets)
-    Accuracy: Melee
+    Accuracy: Magic
     OnHit: targets take (3){MgcPwr} fire damage.|
 A7: Deluxe Fireball
     Magic-Offensive-Action
-    Use: 10AP + 5Mna
+    Use: 10AP+5mna
     Range: 0sp
-    Accuracy: Melee
-    OnHit: target takes (5){MgcPwr} fire damage.|
+    Accuracy: Magic
+    OnHit: target takes (5){MgcPwr} fire damage. Increase the mna cost by 5 for every additional use in a single turn.|
 A8: Horrifying Screech
     Skill-Offensive-Action
-    Use: 10AP + 5fcs
+    Use: 10AP+5fcs
     Range: {CL/3}sp AoE circle
     Accuracy: Skill
     OnPass: Target is forced away from user until outside of range.

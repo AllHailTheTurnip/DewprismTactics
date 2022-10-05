@@ -46,9 +46,9 @@ While falsely dead, the only action you can make is to remove the Dead status.|
 
 A3: Salvage Bone Weapon
 Skill-Support-Action
-Use: 15AP + 5sta
+Use: 15AP+5sta
 Effect: While in the same space as a dead combatant, conjure a Bone Weapon.
-Bone Weapon
+Bone Weapon:
 (Type: [First highest of target's base Mana, Stamina, or Focus],
 WC: NA,
 Use: [target's MleEva],
@@ -61,13 +61,13 @@ Magic-Support-Passive
 Effect: Any taken melee-type damage is halved.|
 
 A5: Savage Strike
-Skill-Offensive-Action
+Melee-Offensive-Action
 Use: 10AP
 Range: 0sp
 Accuracy: Melee
 Dmg: 2{MlePwr}
 Luck: 10
-OnPass: Disable Skills (Target cannot make Skill-type actions.)|
+OnPass: Disable Melee (Target cannot make Melee-type actions.)|
 
 A6: Lightweight
 Melee-Support-Passive
