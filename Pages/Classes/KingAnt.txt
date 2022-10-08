@@ -62,7 +62,7 @@ Effect: Target and make a basic attack action with an equipped non-range weapon 
 
 A3: Firing Line
 Skill-Support-Action
-Cost: 5sta+3fcs+20AP
+Use: 5sta+3fcs+Cooldown 2.
 Effect: Each ally within ({SklPwr}/15)sp gets 10+{CL}AP for their next turn.|
 
 A4: Ignoble
@@ -71,19 +71,21 @@ Effect: Noble-element is treated as Neutral, and Neutral cannot inflict critical
 
 A5: Improved Aim
 Skill-Support-Passive
-Cost: 3fcs+Xfcs (up to {TL})
-Effect: Increase your Accuracy checks by +X;|
+Use: 3fcs+Xfcs (up to {TL})
+Effect: Increase your Accuracy checks by +X.|
 
 A6: Terraform
 Melee-Support-Action
-Cost: 5sta+20AP!
+Teamwork: Pay 10AP instead of 20AP!.
+Use: 5sta+20AP!
 Effect: Create a Cube prop.
 Remove cubic meter of material from the surrounding environment.
 Cube prop: For 10AP, can be moved 1sp. Can cover 1 combatant at a time.|
 
 A7: Odor Trail
 Melee-Support-Action
-Use: 10sta
+Use: 5sta
+Teamwork: Allies in your space may assist by making this action for free.
 Effect: Make a free movement action, each space you move into creates an Odor prop.
 Odor prop: Movement between adjacent Odor props counts as one space of movement.|
 

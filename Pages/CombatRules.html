@@ -382,7 +382,7 @@
     <h3>
         Movement
     </h3>
-    AP Cost: 10<br>
+    AP Cost: 5+(2/turn)<br>
     Declare that you are moving and to where.<br>
     Move to any adjacent space connected to your space with a dotted border.<br>
     You cannot enter into a space unless its border is dotted.<br>
@@ -398,7 +398,7 @@
     <h4>
         Difficult Terrain
     </h4>
-    It costs 15AP to move into terrain that is terribly bumpy, cluttered, or otherwise difficult to navigate.<br>
+    It costs 10AP to move into terrain that is terribly bumpy, cluttered, or otherwise difficult to navigate.<br>
     Often, difficult terrain will require a check to enter or leave from. This check will test either your
     Melee, Skill, or Magic Power scores against a difficulty.
 
@@ -424,7 +424,7 @@
         Swimming
     </h4>
     You may swim through water and other thin liquids, treating it as difficult terrain.
-    <br>You will suffocate (and die) if you're under water for more than 3 turns.
+    <br>You will suffocate (and die) if you're underwater for more than 3 rounds.
 
     <hr>
     <h3>
@@ -662,45 +662,47 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         As a note: only Sapient monsters
         can use equipment without assistance from another party member.
     </p>
-</div>
+    </div>
     <div class="Wide">
         <h2 id="Aggro">Aggro</h2>
-        In combat, the most dangerous combatants draw the most attention from the opposing side.
+        In combat, the most dangerous combatants should draw the most attention from the opposing side.
         Depending on your team's build, this can be a good thing or a bad thing.
-        <p>Aggro, standing for "Aggression" is a status effect that is afflicted
-        to a combatant when they do one of three things:</p>
-            <p>&emsp;1) Attack an enemy with the Leader status,</p>
-            <p>&emsp;2) Neutralize an enemy combatant, or</p>
-            <p>&emsp;3) Make the first attack for their team.</p>
+        <p>Aggro, standing for "Aggression" is a role that is taken as a kind of status effect
+        at the beginning of combat. It can be asked for voluntarily at the beginning of your turn,
+            and some abilities allow you to take or transfer it by force.
         <p>
-            Enemy combatants that fail their Intelligence check will go decide
-            to attack the aggressor. Otherwise, they'll make the tactical decision.
-        </p>
-        <p>
-            The Aggro status effect lasts until the beginning of the afflicted combatant's
-            next turn. However, if another player gains Aggro, then that status
-            is taken and renewed for the new player. Only one combatant
-            to a team can have Aggro at once.
-        </p>
-        <p>If a combatant dies while being an Aggressor, their body is marked
+            If a combatant dies while being an Aggressor, their body is marked
             for good luck. At the end of combat, when Luck checks are being
             made, marked bodies are gain +5 for their Luck checks.</p>
         <p>
-            As a player, it is possible to control your Aggro score. There are
-            two common actions you can make: Taunt, and Cower.
+            If a PC is killed while being an aggressor, their killer regains
+            all their Vitals and any negative status effects are removed.
         </p>
-        <div>
-            Taunt<br>
-            Use: 5AP+(1/turn)<br>
-            Luck: 10<br>
-            Effect: Gain Aggro.
-        </div>
-        <div>
-            Cower<br>
-            Use: 5AP+(1/turn)<br>
-            Luck: 10<br>
-            Effect: Lose Aggro.
-        </div>
+        <p>
+            Aggro applies to enemies up until their Health is reduced to the Danger threshold.
+            The Danger threshold is determined by their Intelligence, where the smarter they are, the sooner they'll switch
+            to focus on the enemies that are dealing the most damage.
+        </p>
+        <p>
+            Below is a list of Danger thresholds varied by Intelligence levels.
+        </p>
+        <ul>
+            <li>
+                Drone: Danger threshold is 10% of max health.
+            </li>
+            <li>
+                Instinctive: Danger threshold is 25% of max health.
+            </li>
+            <li>
+                Sapient: Danger threshold is 50% of max health.
+            </li>
+            <li>
+                Wise: Danger threshold is 75% of max health.
+            </li>
+            <li>
+                Brilliant: They always attack the legitimate threat first.
+            </li>
+        </ul>
     </div>
 <div class="Wide">
     <h2 id="Elements">
@@ -861,7 +863,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
 
 
 
-    <h3>Placeholders</h3>
+    <h3>Placeholder Brackets</h3>
     Most abilities also have variable values that, as your character grows, also grow.
     These are called placeholders, and they are identified as a single number appended
     by a set of curly-braces with an abbreviate stat inside. Each placeholder is meant
@@ -952,6 +954,22 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     Reaction abilities are used in response to an action or event, most often in response to
     an enemy combatant. Once a Trigger's condition(s) have been met (if listed, you may choose to pay
     the Use cost) and then execute the rest of the Ability.
+    <h3>
+        Teamwork Attributes
+    </h3>
+    All classes have at least one or two abilities that feature a teamwork attribute.
+    If one or more allies are with you in the same space then the teamwork attribute
+    activates. Any effects specified by the attribute are followed-through.
+    <p>
+        Additionally, some abilities feature an A placeholder for the amount of
+        allied combatants in your space. Many abilities change their effects
+        or become stronger as more allies band with you.
+    </p>
+    <p>
+        Some Teamwork attributes instead feature a penalty for having multiple
+        allies in your space. These penalties can vary from weakening to the ability
+        or even actively hurting your allies when used.
+    </p>
     <h3>
         Ability Mods
     </h3>

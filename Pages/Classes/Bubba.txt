@@ -52,6 +52,7 @@ A3: Push
 Melee-Support-Action
 Use: 10AP+5sta
 Range: 0sp
+Teamwork: Increase range by 1.
 Effect: Relocate all the localized contents of your space (including yourself and other combatants)
 into any other horizontally adjacent space.
 Enemy combatants may make an Acrobat check against your {MleEva+MleAcc}, whereupon success can spend 10AP from
@@ -67,22 +68,23 @@ Effect: Gain Aggro until your next turn begins.|
 
 A5: Bulk Up
 Melee-Support-Action
-Use: 30AP
+Use: 10AP+Cooldown 2.
 Effect: Increase your MlePwr by 1 level.|
 
 A6: Earthquake
 Melee-Offensive-Action
 Use: 15AP+5sta
 Range: 3sp
-Effect: Make a Melee Accuracy check (A).
-Every combatant within range makes a competitive Melee check against A.
+Effect: Make a Melee Accuracy check (Z).
+Every combatant within range makes a competitive Melee check against Z.
 Upon failure, the combatant is knocked Prone.|
 
 A7: Collateral Damage
 Melee-Offensive-Action
 Use: 5sta+(1/turn)
 Effect: If your next potentially damaging action this turn misses, any Props in your space are destroyed
-and the space becomes Difficult Terrain.|
+and the space becomes Difficult Terrain.
+Teamwork: Combatants (including allies) in your space are knocked prone.|
 
 A8: Reckless Strike
 Melee-Offensive-Action

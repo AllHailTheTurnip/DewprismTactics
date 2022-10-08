@@ -48,13 +48,15 @@ Use: 5AP
 Range: 0sp
 Accuracy: Melee
 Damage: (1){MlePwr}
+Teamwork: Reduce Luck difficulty by 4.
 Luck: 12
 OnPass: Bleeding (1){MlePwr}|
 
 A2: Flight
 Melee-Movement-Action
 Use: 20AP
-Effect: Move 1sp in any direction; you are not affected by difficult terrain.|
+Teamwork: Increase the rank of this ability by A.
+Effect: Move (1)sp in any direction; you are not affected by difficult terrain.|
 
 A3: Copy Spell
 Skill-Support-Reaction
@@ -76,7 +78,7 @@ A5: Gift of Wings
 Skill-Support-Action
 Use: 10AP+3fcs
 Range: {TL/5} friendly combatant.
-Effect: Target gain Flight until the end of their next turn.|
+Effect: Target gains Flight until the end of their next turn.|
 
 A6: Gather Flock
 Magic-Support-Action

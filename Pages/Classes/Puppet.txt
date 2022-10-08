@@ -37,6 +37,7 @@ Abilities
 Doctrine: High Alert
 Skill-Defensive-Reaction
 Use: 3fcs
+Teamwork: Replace this ability's Range with TL/5.
 Range: CL/5
 Trigger: An enemy combatant enters within range.
 Effect: Make a free basic attack against the intruding enemy combatant.|
@@ -51,7 +52,8 @@ Effect: Increase Magic-type checks by +3.|
 
 A3: Scout
 Melee-Support-Action
-Use: 5AP
+Use: 5sta
+Teamwork: An allie in your space may follow you.
 Effect: Make a Movement action.|
 
 A4: Unliving
@@ -89,7 +91,7 @@ A9: Reassemble
 Skill-Support-Passive
 Range: 0sp
 Effect: While KO'd, an ally within range may spend 10AP to revive you at 1HP.
-While dead, an ally within range may spend 30AP to revive you at 1HP.
+While dead, an ally within range may spend 10AP+3fcs to revive you at 1HP.
 Note: If you are dead by the end of combat, the ability cannot be used.|
 
 MA1: Full Alert

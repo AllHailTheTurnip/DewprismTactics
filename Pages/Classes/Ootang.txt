@@ -61,6 +61,7 @@ Effect: Make a free movement action away from the combatant.|
 A4: Bite Face Off
 Melee-Offensive-Action
 Use: 15AP
+Teamwork: Increase Range by 1sp.
 Range: 0sp
 Accuracy: Melee
 Dmg: (5){MlePwr}
@@ -70,7 +71,7 @@ A5: Throw Item
 Skill-Offensive-Action
 Use: 10AP
 Range: 3sp
-Effect: Choose a consumable item from your inventory to use a projectile. Once
+Effect: Choose a consumable item from your inventory to use as a projectile. Once
 the action is resolved, the item is destroyed.
 Accuracy: Skill
 OnHit: The target takes (1){SklPwr} neutral damage.|
@@ -78,8 +79,9 @@ OnHit: The target takes (1){SklPwr} neutral damage.|
 A6: Full Aggro
 Melee-Offensive-Action
 Use: 10AP
+Teamwork: Increase rank of this ability by A.
 Effect: Scream, holler, and jump around like an aggressive ape. Take the
- Aggro status and reduce incoming damage by 1 rank (min 0) until the start of your next turn.|
+ Aggro status and reduce incoming damage by (1) rank (min 0) until the start of your next turn.|
 
 A7: Highly Agile
 Melee-Support-Passive

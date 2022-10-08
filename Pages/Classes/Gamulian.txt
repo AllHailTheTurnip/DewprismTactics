@@ -38,6 +38,7 @@ as new ones are brought in.|
 A1: Power Nap
 Melee-Support-Action
 Use: 20AP
+Teamwork: The Effect also applies allies in your space.
 Effect: Restore 25% of your max Health and 50% of your max Mana, Stamina, and Focus.|
 
 A2: Gore
@@ -64,6 +65,7 @@ A5: Craft Home
 Skill-Support-Action
 Use: XAP
 Range: 0sp
+Teamwork: Gain an additional 5AP to this Effect for every additional allie in your space.
 Effect: Create a Home prop that fully occupies 1sp. The amount of AP spent on
 creating it determined its Protection...
 5AP: Very Low.
@@ -84,6 +86,7 @@ A7: Dance!
 Skill-Support-Action
 Use: 10AP
 Range: 1sp
+Teamwork: This Effect may also apply to teammates in your space.
 Effect: Move into a viable space within range. Regain 3mna+3fcs+3sta.|
 
 A8: Swarm

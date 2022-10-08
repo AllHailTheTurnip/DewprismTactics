@@ -58,6 +58,7 @@ Stamina, Mana, and/or Focus regained from consumables is increased by 5{TL}|
 A3:Camouflage
 Melee-Defense-Action
 Use: 10AP
+Teamwork: Improve the Effect such that you don't have to end your turn when used.
 Effect: End your turn. Increase your MleEva by 5+{MlePwr} until your next action.|
 
 A4:Regenerate
@@ -74,7 +75,7 @@ OnHit: Inflict primary damage. On Critical, target becomes Prone.|
 
 A6:Shed Scales
 Melee-Support-Action
-Use: 30AP!
+Use: Cooldown 2.
 Effect: Reduce Movement AP cost by 5 (min 3). Reduce max health by -5.|
 
 A7:Low-Light Vision
@@ -83,6 +84,7 @@ Effect: You are unaffected by Visibility penalties under 100%.|
 
 A8:Stable Stance
 Melee-Support-Passive
+Teamwork: This ability also applies to your allies.
 Effect: You cannot be knocked Prone.|
 
 A9:Carnivore

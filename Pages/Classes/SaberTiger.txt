@@ -29,6 +29,7 @@ Doctrine: Assassinate
     Use: 10AP+3Fcs+3Sta
     Range: (1)+{TL/4}sp
     Leap through the air into the same space as your target.
+    Teamwork: This ability's Luck check gains Advantage.
     Luck: 18
     OnPass: Target takes damage equal to their remaining health.|
 A1: Leap
@@ -64,6 +65,7 @@ A6: Astounding Speed
 A7: Sharpen Edge
     Skill-Support-Action
     Cost: 31-{TL}AP
+    Teamwork: Increase your Crit rank by 1.
     Increase your Crit threshold by 1.|
 A8: Fearsome Roar
     Skill-Offensive-Action

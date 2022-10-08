@@ -22,7 +22,7 @@ Element: Noble|
 
 STATS
 Melee: (Power: 5, Evasion: 8, Accuracy: 0)|
-Magic: (Power: 4, Evasion: 8, Accuracy: +5)|
+Magic: (Power: 5, Evasion: 8, Accuracy: +5)|
 Skill: (Power: 4, Evasion: 8, Accuracy: -1)|
 
 ABILITIES
@@ -42,15 +42,16 @@ A1: Flying Kick
      attack action against them as you arrive.|
 A2: Scheme
     Skill-Support-Action
-    Use: 30AP + 5fcs
+    Use: Cooldown 2 +5fcs.
     Create a Scheme counter (3) and grant it to yourself or an ally.
     Scheme counter: (1)+{TL/3} bonus to all the holder's Talent and Accuracy checks for the next (X) turns.|
 A3: Magic Burst
     Magic-Offensive-Action
     Use: 5Mna
     Accuracy: Magic
-    Range: 0sp (Target up to 1+{TL/4} enemies)
-    OnHit: Target(s) takes (1){MgcPwr} damage.|
+    Range: 0sp
+    Teamwork: You target all the enemies in the space.
+    OnHit: You may target up to 1+{TL/4} enemies. Target(s) takes (1){MgcPwr} damage.|
 A4: Spur Power
     Melee-Support-Reaction
     Trigger: When you take melee damage.
@@ -67,7 +68,7 @@ A6: Fireball
     OnHit: Target takes (3){MgcPwr} fire damage. On crit, target catches fire (Burning 1{TL}).|
 A7: Acquire Magic
     Magic-Support-Action
-    Use: 10AP + 5fcs
+    Use: 10AP+5fcs
     While in the same space of a KO'd or dead combatant, choose one of their
      non-doctrine Magic-type abilities to add to your abilities list until
      Battle Transience or until an hour has passed.|
@@ -81,6 +82,7 @@ A9: Ward Danger
     Magic-Defensive-Action
     Use: 5AP+5mna
     Range: 0sp LoS
+    Teamwork: Can simultaneously target every allie in range.
     Create a Ward marker and grant it to yourself or an ally within range (max 1/combatant).
     Ward marker: while marked, +5 to {MgcEva}.|
 

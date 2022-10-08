@@ -44,7 +44,8 @@ Create a Medium-weight weapon of your chosen type and chosen Attribute; add it i
 
 A1: Upgrade Damage
 Skill-Support-Action
-Use: 3fcs+15AP
+Teamwork: Reduce the AP cost of this ability by 5 (min 5).
+Use: 3fcs+15AP+(1/turn)
 Effect: Increase the rank of any weapon you have equipped by 1.|
 
 A2: Upgrade Use
@@ -56,7 +57,7 @@ Otherwise, reduce the AP cost of an equipped weapon by 2 (minimum 2).|
 A3: Upgrade Attributes
 Skill-Support-Action
 Effect: 5fcs+20AP
-Use: Choose an attribute of an equipped weapon and increase by 50% (rounded up).|
+Use: Choose an attribute of an equipped weapon and increase by 1. (rounded up).|
 
 A4: Reconfigure Attribute
 Skill-Support-Action
@@ -66,7 +67,8 @@ Effect: Switch out an equipped weapon's attribute for another one.|
 A5: Reconfigure Element
 Magic-Support-Action
 Cost: 5mgc+10AP
-Effect: Choose a weapon and change its element to one of your choosing.|
+Teamwork: You may also change it to noble.
+Effect: Choose a weapon and change its element (except noble) to one of your choosing.|
 
 A6: Hone Style
 Skill-Support-Action

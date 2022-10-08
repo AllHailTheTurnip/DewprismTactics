@@ -34,15 +34,16 @@ Doctrine: Self Resurrection
     At 0, you revive with fully restored Vital scores.|
 A1: Upscale
     Magic-Support-Action
-    Use: 20AP+7mna
-    Halve your MleEva and double your MlePwr.|
+    Use: 7mna+Cooldown 3.
+    Teamwork: Reduce the Cooldown to 2.
+    Reduce your MleEva by 5 and increase your MlePwr by 2 levels.|
 A2: Full Charge
     Melee-Offensive-Action
-    Use: 20AP+5sta
+    Use: 15AP+5sta
     Range: Reach
     For the duration of this action you are unaffected by difficult terrain.
     Make a free movement action.
-    Make a Melee check against any combatants you pass by; on hit, they take (2){MlePwr} neutral damage.|
+    Make a Melee check against any combatants you enter into the space of; on hit, they take (2){MlePwr} neutral damage.|
 A3: Enormous Leap
     Melee-Supportive-Action
     Use: 2sta
@@ -50,6 +51,7 @@ A3: Enormous Leap
     Ignore a surface's elevation and jump up (or down) to it.|
 A4: Reckless Shove
     Melee-Offensive-Action
+    Teamwork: You may replace the Use cost with 5AP+5sta.
     Use: 10AP
     Accuracy: Melee
     Damage: (1){MlePwr}
@@ -62,7 +64,7 @@ A5: Jump Back
     Use: 3Sta
     Luck: 5
     OnPass: Make a free movement action out of the pit from where you fell.
-    OnCrit: User may also make a free attack action.|
+    OnCrit: User may also make a free action.|
 A6: Firebreath
     Magic-Offensive-Action
     Use: 10AP + 7Mna
@@ -72,6 +74,7 @@ A6: Firebreath
 A7: Deluxe Fireball
     Magic-Offensive-Action
     Use: 10AP+5mna
+    Teamwork: Increase range by 1sp.
     Range: 0sp
     Accuracy: Magic
     OnHit: target takes (5){MgcPwr} fire damage. Increase the mna cost by 5 for every additional use in a single turn.|
@@ -84,7 +87,7 @@ A8: Horrifying Screech
     OnCrit: Target loses 10AP from their next turn.|
 A9: Rest
     Skill-Support-Action
-    Use: 20AP for Mode A, OR 30AP for Mode B
+    Use: 20AP for Mode A, OR 20AP+5cs+Cooldown 3 for Mode B
     Mode A: Recover 50% of your max Health, Stamina, Mana, and Focus.
     Mode B: Recover 50% of your max Health, Stamina, Mana, and Focus and remove any negative status effects.|
 

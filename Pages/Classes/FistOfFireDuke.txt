@@ -28,8 +28,10 @@ Skill: (Power: 5, Evasion: 12, Accuracy: +5)|
 Abilities
 Doctrine: Flurry of Blows
 Melee-Offensive-Action
-Use: 3sta+3fcs+10AP
+Use: 10AP+3sta+3fcs
 Range: 0sp
+Teamwork: Improve this ability's Effect to make
+ an additional Melee Accuracy check.
 Effect: Make 2+{TL/5} Melee Accuracy checks.
 Inflict (1){MlePwr} fire damage per hit.|
 
@@ -61,7 +63,9 @@ Melee-Offensive-Action
 Use: 10AP
 Effect: Target a combatant exactly 2sp away. You leap through the air, ignoring
 difficult terrain, and land in their space.
-Make a basic attack against the targeted combatant.|
+Make a basic attack against the targeted combatant.
+Teamwork: Improve the Effect by allowing yourself to make a
+non-basic attack after landing.|
 
 A5: Hold Back
 Melee-Defensive-Action

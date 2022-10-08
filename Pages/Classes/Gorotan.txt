@@ -49,7 +49,8 @@ A3: Swipe
 Melee-Offensive-Action
 Use: 10AP
 Range: 0sp
-Effect: Target takes 1{MgcDmg} neutral damage.|
+Effect: Target takes 1{MgcDmg} neutral damage.
+Teamwork: Change the Effect to target takes 1{MgcDmg} damage.|
 
 A4: Pounce
 Melee-Offensive-Action
@@ -70,6 +71,7 @@ OnHit: The target takes electric Magic Damage.|
 
 A6: Prowl
 Skill-Defensive-Action
+Teamwork: Ignore the Use-cost of this ability.
 Use: 5fcs
 Effect: You do not trigger Reaction-applicable abilities until
 the start of your next turn.|
@@ -84,7 +86,7 @@ abilities by 1.|
 A8: Deflate
 Magic-Support-Reaction
 Trigger: Your health reaches 0.
-Effect: You shrink down to the size 1u item and can be carried
+Effect: You shrink down to the size of a 1u item and can be carried
 either in one hand or in an inventory.|
 
 A9: Bestow Power

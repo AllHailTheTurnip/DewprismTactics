@@ -59,6 +59,7 @@ OnHit: Inflict {1}MgcPwr damage.|
 A2: Rain Gun
 Magic-Offensive-Action
 Use: 5AP+3mna+3fcs
+Teamwork: +1 to Range.
 Range: 1sp
 Accuracy: Magic
 OnHit: (2){MgcPwr}|
@@ -92,6 +93,7 @@ Effect: Ignore any fall damage you might take.|
 
 A7: Immensity
 Melee-Support-Passive
+Teamwork: Enemy combatants cannot enter your space.
 Effect: AoE attacks cannot pass your space. Enemy combatants treat
 your space as difficult terrain.|
 

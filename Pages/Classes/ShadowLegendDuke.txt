@@ -55,16 +55,18 @@ turn. When your turn starts, you burn 10-{DL}AP and make a basic attack action a
 
 A3: Water Walk
 Focus-Support-Passive
+Teamwork: You allies are affected by this ability as well.
 You can walk on water without sinking (or choose to fall in, it's cool).
 Likewise, waterfalls are treated as solid objects that can be climbed.|
 
 A4: Secret Fist
 Melee-Offense-Action
+Teamwork: Reduce the AP cost of this ability by 5.
 Use: 5fcs+2sta+15AP
 Range: 0sp
 Accuracy: Melee
 OnHit: Inflict 3{MlePwr} base-element damage to their Health.
-If Crit, apply it to rank of secondary effects. Roll 1d20.
+If Crit, apply it to rank of secondary effects (below). Roll 1d20.
 1-5: Drain (2){SklPwr} from their Health
 6-10: Inflict (1){SklPwr/4} to their Stamina.
 11-15: Inflict (1){SklPwr/4} to their Mana.
@@ -74,6 +76,7 @@ A5:Energy Wave
 Magic-Offensive-Action
 Use: 5mna+10AP
 Accuracy: Magic
+Teamwork: This ability will not affect your allies.
 AoE: 1sp AoE
 OnHit: Afflicted targets in target space takes (3){MgcPwr} water damage.|
 
@@ -81,8 +84,9 @@ A6:Summon Ancient Weapon
 Use: 5fcs+(1/turn)
 Range: Self
 Condition: Your dominant hand is empty.
-Effect: Conjure an Ancient Sword into your dominant hand. Choose its element.
-Ancient Sword: Type: Mle, WC: Med, Use: 10AP, Pwr: 3, Wght: 1u.|
+Teamwork: The Ancient Sword's chosen element can also be Light, Darkness, Electric, or Metal. If your whole team is in your space, you may also include Noble.
+Effect: Conjure an Ancient Sword into your dominant hand. Choose its element (wind, water, or fire).
+Ancient Sword (Type: Melee, WC: M, Use: 10AP, Rank: 3)|
 
 A7: Catch Weapon
 Skill-Defense-Reaction

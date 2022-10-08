@@ -34,6 +34,7 @@ Skill: (Power: 6, Evasion: 6, Accuracy: -1)|
 Abilities
 Doctrine:Take Root
 Melee-Support-Action
+Teamwork: Instead of 15AP, you may spend 7sta instead.
 Use: 15AP
 Your Movement is disabled as you become affixed to the surface of your choice; you are unaffected by
 forced-movement effects.
@@ -71,6 +72,7 @@ Spore Marker: Lose (1){Creator's MlePwr} health. The creator gains any health lo
 
 A5:Grow Bark
 Melee-Defensive-Action
+Teamwork: Instead of paying 20AP, you may pay 5AP+Cooldown 1.
 Use: 20AP
 Increase MleEva by (2) (Max 20).|
 

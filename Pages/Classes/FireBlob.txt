@@ -47,7 +47,8 @@ Melee-Offensive-Action
 Use: 10AP+3mna+5sta+(X Max Health)
 Range: 0sp
 Evade: Melee
-OnHit: Target takes (X/15)MlePwr damage.|
+OnHit: Target takes (X/15)MlePwr damage.
+Teamwork: Instead, target takes (X/10)MlePwr damage.|
 
 A2: Throw Slag
 Melee-Offensive-Action
@@ -74,13 +75,13 @@ Effect: Create a Magma Flow prop within range.
 You cannot create two Magma Flow props in the same space.
 If you create a Magma Flow prop in an adjacent space,
 reduce the AP cost of this by 5.
-
 Magma Flow Prop: An enemy combatant that enters into this space
 must spend 5AP or else get Burning (1){creator's MlePwr}|
 
 A6: Lunge
 Melee-Offensive-Action
 Use: 10AP+3sta
+Teamwork: You may move up to 1sp before making your accuracy check.
 Accuracy: Melee +3
 OnHit: Target takes (2){MleDmg}.|
 

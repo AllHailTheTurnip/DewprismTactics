@@ -34,7 +34,7 @@ Skill: (Power: 2, Evasion: 10, Accuracy: 0)|
 Abilities
 Doctrine:Meteoric Crash
 Melee-Offensive-Action
-Use: 30AP!+8mna
+Use: 10AP+8mna+Cooldown 2.
 Choose a combatant to target, then jump into the sky (ignoring the ceiling) and leave the battlefield.
 When your AP is above 0, fall from the sky (ignoring the ceiling) into the target's space.
 Range: 0sp AoE
@@ -56,6 +56,7 @@ A3:Roar!
 Magic-Offensive-Action
 Use: 5mna
 Range: {TL/4}sp AoE
+Teamwork: Increase Rank of this ability by 3.
 Luck: 12
 OnPass: Target loses 5AP from their next action. Luck checks are reduced by (2) until end of combat.|
 
@@ -70,7 +71,7 @@ A5: Gallop
 Melee-Support-Reaction
 Trigger: You make a Movement action.
 Use: 2sta
-Move an addition 1sp.|
+Effect: Move an addition 1sp.|
 
 A6:Manifest
 Magic-Support-Action
@@ -83,9 +84,10 @@ Allies can climb onto your person. When you move, any allies on top of you are a
 
 A8:Shockwave
 Magic-Offensive-Action
+Teamwork: Reduce Use-cost by 5AP.
 Use: 15AP!+5mna
-AoE: 1{TL}sp circle
-Combatants within AoE are pushed away from you until outside of AoE.
+AoE: {TL}sp circle
+Enemy combatants within AoE are pushed away from you until outside of your AoE.
 Accuracy: Melee
 OnPass: Enemy combatants take (2){MgcPwr} electric damage.|
 

@@ -37,7 +37,8 @@ A1: Hover
 A2: Quick Slap
     Melee-Offensive-Action
     Use: 5AP
-    Make an unarmed water-type attack.|
+    Teamwork: You may change the element of this attack to your base element.
+    Make an unarmed water-element attack.|
 A3: Chomp
     Melee-Offensive-Action
     Cost: 10AP
@@ -69,6 +70,7 @@ A8: Nurture
     Magic-Support-Action
     Cost: 10AP
     Range: 0sp
+    Teamwork: Increase rank of this ability by 1.
     Restore (2){MgcPwr} Health to an ally.|
 A9: Regroup
     Magic-Support-Action

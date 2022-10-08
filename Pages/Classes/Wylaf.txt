@@ -41,6 +41,7 @@ and are restored at the end.|
 
 A1:Charging Slash
 Skill-Offensive-Action
+Teamwork: Ignore the sta and mna Use-cost.
 Use: 10AP+3sta+3mna
 Range: Battlefield AoE Ray
 Effect: Move in a straight path to another end of the battlefield or until
@@ -69,6 +70,7 @@ Ability of index I is disabled. 0 is equal to your Doctrine ability.|
 
 A5:Lance
 Skill-Support-Action
+Teamwork: This ability also counts as passive.
 Use: 3sta+3fcs
 Effect: Increase the Ranged or Extended attribute of your next action by 1sp.|
 
@@ -97,6 +99,7 @@ pay 5sta or take Burning (1){MgcPwr}.|
 
 A9:Whirlwind
 Melee-Offensive-Action
+Teamwork: You may replace the Use-cost with Cooldown 2.
 Use: 20AP+7mna
 Range: 1sp AoE circle
 Evade: Melee

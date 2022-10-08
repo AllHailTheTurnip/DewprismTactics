@@ -29,14 +29,17 @@ Skill: (Power: 6, Evasion: 12, Accuracy: -1)|
 Abilities
 Doctrine:Hack-N-Slash
 Melee-Offensive-Action
-Use: 15AP+4sta
+Use: 4sta+Cooldown 2
 Choose a combatant and move 1sp in their initial direction.
 When you enter within melee-range of the opponent, deal (1){MlePwr} damage. The target is knocked prone.
 If possible, continue to move into the next space in a straight line.|
 
 A1:Doubleteam
-Melee-Offensive-Passive
-When attacking an enemy, you may spend an additional 5fcs to grant a free basic attack to the allie of your choice.|
+Melee-Offensive-Reaction
+Trigger: You attack an enemy
+Use: 5fcs
+Teamwork: Increase the Critical Threshold of your allies' next attack by 1.
+Effect: Grant a free basic attack to an ally in your space.|
 
 A2:Shove
 Melee-Offensive-Action
@@ -49,8 +52,9 @@ A3:Kidnap
 Melee-Offensive-Action
 Use: 10AP+3sta
 Range: 0sp
+Teamwork: Automatically pass the Accuracy check.
 Accuracy: Melee
-OnPass: The target is grabbed. The user makes a free Movement action with the target in tow. Release the target.|
+OnPass: The target is grabbed. You make a free Movement action with the target in tow. Release the target.|
 
 A4:Smash Item
 Melee-Offensive-Action

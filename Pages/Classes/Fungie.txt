@@ -67,7 +67,7 @@ take (3){MgcPwr} damage.|
 
 A4: Toddle
 Melee-Support-Action
-Use: 5AP+3sta
+Use: 3sta
 Effect: Make a Movement action.|
 
 A5: Summon Flying Star
@@ -75,14 +75,16 @@ Magic-Support-Action
 Use: 10AP+3mna
 Effect: Create a Flying Star prop in your space.
 The star occupies a 1 square meter of space and is considered flat.
-Spend 5AP+2mna to move the prop up to 1+{MgcPwr/10} spaces in any direction.
-The star has 15{TL} health, 0 evasion, and vanishes when its health reaches 0.|
+Spend 5AP+2mna to stand atop and move the prop up to 1+{MgcPwr/10} spaces in any direction.
+The star has 15{TL} health, 0 evasion, and vanishes when its health reaches 0.
+Teamwork: You may make a free movement action the turn it is created.|
 
 A6: Give Instructions
 Skill-Support-Action
 Use: 10AP+5fcs
 Range: 0sp
-Effect: Choose an ally and reduce the AP cost of their next action by 5 (minimum 0).|
+Teamwork: In addition to the Effect, reduce the Mana, Stamina, and/or Focus cost by 3 (min 0).
+Effect: Choose an ally and reduce the AP cost of their next action by 5AP (minimum 0).|
 
 A7: Play While Waiting
 Skill-Support-Action

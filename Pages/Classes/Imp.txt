@@ -41,10 +41,10 @@ OnHit: Target is knocked prone.|
 A1: Conjure Block
 Magic-Support-Action
 Use: 10AP+3mna
+Teamwork: Ignore mana cost of this ability.
 Range: 0sp
 Effect: Conjure a Block prop of magical material.
-The Block occupies 1 cubic meter of space.
-Can provide cover for 1 combatant at a time.
+The Block occupies 1 cubic meter of space and is considered Medium cover.
 The Block prop has 75+{75PL} health; at 0 health, the block vanishes.|
 
 A2: Trip!
@@ -77,6 +77,7 @@ Magic-Offense-Action
 Use: 10AP+5mna
 Reduce Use cost by 1AP+1mna when you reach level 4, 8, 12, 16, and 20.
 Range: 3sp
+Teamwork: Increase Accuracy check by 2.
 Accuracy: Magic
 OnPass: Choose yourself and a target (animate or inanimate) and swap locations with them.|
 

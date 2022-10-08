@@ -43,12 +43,14 @@ Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
 Abilities
 Doctrine: Mundane Immunity
 Magic-Support-Passive
+Teamwork: When attacked, you may spend 7mna to also become immune to fire-, water-, and wind-type damage.
 Effect: You are immune to neutral-type damage.|
 
 A1: Ghost Step
 Magic-Support-Reaction
 Trigger: You move from one space to another.
 Use: 3mna
+Teamwork: You may spend an additional 2mna for every teammate who wishes to follow you; they make a free movement action into the space you enter.
 Effect: You can move through solid surfaces, ignoring barriers and walls, until the end of your turn.|
 
 A2: Invisible

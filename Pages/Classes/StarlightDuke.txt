@@ -40,14 +40,16 @@ A2: Shooting Star
 Melee-Offensive-Action
 Use: 20AP
 Range: Battlefield
+Teamwork: Increase the rank of Critical damage for this attack by 2.
 Accuracy: Skill
 Evade: Melee
 OnHit: Inflict 5{MlePwr} damage.|
 
 A3: Spin
 Skill-Offensive-Action
+Teamwork: You may choose the damage's element for this attack.
 Use: 10AP+5sta+3mna
-Effect: Move three spaces. One enemy from each you move through must spend
+Effect: Move three spaces. One enemy from each space you move through must spend
 5sta or else take (1){SklPwr} damage.|
 
 A4: Flop
@@ -72,14 +74,15 @@ Effect: Increase your next Luck check by {CL}.|
 
 A7: Supernova
 Magic-Offensive-Action
-Use: 40AP+15mna.
+Teamwork: This ability's AP cost can be burned.
+Use: 20AP+15mna.
 Range: 2sp AoE circle.
 Evade: Magic
 Effect: Variable Z is equal to your Max Health.
 Hit combatants within your space take Z light damage.
 Hit combatants 1sp away from you take Z/2 light damage.
 Hit combatants 2sp away from you take Z/4 light damage.
-You take Z light damage.|
+You take Z light damage. You and your turn.|
 
 A8: True North
 Magic-Support-Action

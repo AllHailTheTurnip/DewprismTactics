@@ -28,10 +28,10 @@ Magic: (Power: 6, Evasion: 8, Accuracy: +1)|
 Skill: (Power: 5, Evasion: 9, Accuracy: +2)|
 
 Abilities
-Doctrine: Augmentation
+Doctrine: Amalgamation
 Magic-Support-Passive
 Use: 1/turn
-Effect: Treat the final result of a check as though it were naturally rolled.|
+Effect: You can gain access to the Doctrine Ability of any allies within your space.|
 
 A1: Following Weapon
 Melee-Offensive-Action
@@ -48,6 +48,7 @@ Magic-Offensive-Action
 Use: 10AP+7mna
 Range: 1sp
 Luck: 15
+Teamwork: Reduce Luck difficulty check by A.
 OnPass: Target gets Doomed 3-(0).|
 
 A3: Sleeper's Head
@@ -68,6 +69,7 @@ A5: Wild Swipe
 Melee-Offensive-Action
 Use: 10AP+3sta
 Range: 0sp AoE
+Teamwork: Add +2 to this ability's accuracy check.
 Accuracy: Melee
 OnHit: Combatant takes (2){MlePwr} damage|
 
@@ -95,6 +97,7 @@ Skill-Offensive-Action
 Use: 10AP+5mna
 Range: 1sp AoE
 Luck: 10
+Teamwork: Increase the Rank of this ability by 1.
 OnPass: Enemy gets Slowed (3).|
 
 MA1: Bar Escape

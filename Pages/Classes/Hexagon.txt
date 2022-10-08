@@ -29,8 +29,7 @@ Skill: (Power: 3, Evasion: 5, Accuracy: 0)|
 Abilities
 Doctrine: Mobile Fortress
 Melee-Defense-Passive
-Effect:
-At the beginning of your turn, while conscious, you must pay a total of 3 points
+Effect: At the beginning of your turn, while conscious, you must pay a total of 3 points
 between your stamina, mana, and focus.
 Throughout each turn, you may negate up to a total of (5){MlePwr} points in damage.|
 
@@ -59,6 +58,7 @@ A5: Flight
 Magic-Movement-Passive
 Effect: You passively hover above the ground and are not affected by rough terrain.
 Use: 3mna
+Teamwork: Ignore the Use-cost of this ability.
 Effect: When making a movement action, you may move freely in any direction.
 You may fly up to 10sp upwards.|
 
@@ -76,12 +76,13 @@ Effect: Follow the target into their space.|
 A8: Machine Nature
 Skill-Defensive-Passive
 Effect: Your health can continue to drop after you die.
-An allie can spend 20AP to restore 10% of your health.|
+An allie can spend 10AP to restore 10% of your health.
+Teamwork: Increase restored percentage of health by 10%.|
 
 A9: Seize
 Melee-Offensive-Action
 Use: 10AP+3sta
-Range: 0sp
+Range: 0sp.
 Accuracy: Melee
 Effect: Targeted combatant cannot leave your space until the beginning of your next turn.|
 

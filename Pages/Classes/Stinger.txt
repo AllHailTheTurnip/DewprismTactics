@@ -34,8 +34,9 @@ A1: Tactical Roll
 Melee-Defensive-Reaction
 Trigger: You are attacked by an enemy.
 Use: 3sta
-Increase your MleEva by 5 until the end of the attack.
-After the attack is resolved, move 1+(TL/4)sp in any diagonally direction.|
+Effect: Increase your MleEva by 5 until the end of the attack.
+After the attack is resolved, move 1+(TL/4)sp in any diagonally direction.
+Teamwork: Increase your MleEva by 7 instead.|
 
 A2: Shrink Down
 Magic-Defensive-Action
@@ -52,19 +53,19 @@ If it doesn't already have it, give it the attribute of Poison (1){SklPwr}.|
 A4: Throwing Needles
 Skill-Passive-Action
 Use: 10AP
-Effect: Create (1){TL} Throwing Needles and equip as secondary weapon (if possible).
-Throwing Needle (Type: Skill, WC: VL, Use: (2/turn), Pwr: 1. Weight: 0.2u; it costs 0AP to draw this weapon)|
+Effect: Create (1){TL} Throwing Needles tokens.
+Throwing Needle token: Spend 5AP to destroy this token and target a combatant within 1sp with a Skill Accuracy check. On hit, inflict (1){SklPwr} damage.|
 
 A5: Acupuncture
 Skill-Support-Action
-Use: 10AP
-Range: Ally in same space.
-Luck: 12
-Restore a disabled ability or disabled action.|
+Teamwork: Reduce Use-cost by 5AP+1fcs.
+Use: 10AP+3fcs
+Range: 0sp.
+Effect: Restore a disabled ability or disabled action.|
 
 A6: Pierce Piece
 Skill-Offensive-Action
-Use: 10AP + 3fcs
+Use: 10AP+3fcs
 Range: 0s[+(TL/4)]
 Accuracy: Skill
 OnPass: Destroy a targeted token or prop.|
@@ -73,13 +74,14 @@ A7:Conjure Antidote
 Skill-Support-Action
 Use: 10AP
 Range: 0sp
-Remove Poison.|
+Remove Poison or Paralyze.|
 
 A8:Throw Caltrop
 Skill-Defensive-Action
-Use: 5AP + 5fcs
+Use: 5AP+5fcs
+Teamwork: Increase range by 1sp.
 Range: 0sp
-Place a Caltrop props in your space.
+Place a Caltrop props in range.
 Caltrop prop: Counts as difficult terrain. Upon entering space, take 1{SklPwr} damage.|
 
 A9:Suture

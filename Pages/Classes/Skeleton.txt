@@ -64,8 +64,9 @@ A5: Savage Strike
 Melee-Offensive-Action
 Use: 10AP
 Range: 0sp
+Teamwork: If your Accuracy check naturally rolls 15 or higher, auto-pass the Luck check.
 Accuracy: Melee
-Dmg: 2{MlePwr}
+OnHit: Inflict (2){MlePwr} damage.
 Luck: 10
 OnPass: Disable Melee (Target cannot make Melee-type actions.)|
 
@@ -75,10 +76,11 @@ Effect: +10 to Acrobatics checks.|
 
 A7: Fragile
 Melee-Support-Passive
-Effect: All damage taken is treated as critical.|
+Effect: All damage taken is treated as Critical.|
 
 A8: Reassemble
 Magic-Support-Action
+Teamwork: Allies in your space gain access to this ability.
 Cost: 5AP+3fcs+5mna
 Effect: Remove a negative status effect.|
 
