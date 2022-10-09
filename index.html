@@ -1,105 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Dewprism Tactics - Index</title>
-    <link rel="stylesheet" href="Resources/GeneralStyle.css">
-    <script type="text/javascript" src="Resources/KarmicDiceRoller.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dewprism Tactics - Index</title>
+        <link rel="stylesheet" href="Resources/GeneralStyle.css">
+        <script type="text/javascript"
+                src="Resources/KarmicDiceRoller.js"></script>
 
-</head>
-<body>
+        <style>
+            .Input {
+                width: 90%;
+            }
 
-<h1 style="text-align: center; font-size: 5vw">
-    Dewprism tactics
-</h1>
-<h2 style="text-align: center; font-size: 3vw">
-    A high-fantasy tabletop roleplaying game.
-</h2>
-<hr>
-<p style="font-size: 2vh">Dewprism Tactics is a fan-game inspired by Threads of Fate and Final Fantasy Tactics. It combines
-story and mechanics from both games in a TTRPG format, allowing for players tell stories together.</p>
-<ul>
-    <li>
-        Get creative with <b>40+ unique classes</b> to mix-and-match from.
-    </li>
-    <li>
-        Battle Transience allows for unique mechanics and scenarios.
-    </li>
-    <li>
-        Revival coins remove the unneeded frustration from combat.
-    </li>
-    <li>
-        Battlefields use a jigsaw-like grid to make map-design more flexible.
-    </li>
-</ul>
-<h2>
-    Index
-</h2>
-<div>
-    <ul>
-        <li>
-            How to Play
+            th {
+                width: 10%;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1 style="text-align: center; font-size: 5vw">
+            Dewprism tactics
+        </h1>
+        <h2 style="text-align: center; font-size: 3vw">
+            A high-fantasy tabletop roleplaying game.
+        </h2>
+        <hr>
+        <p style="font-size: 2vh">Dewprism Tactics is a fan-game inspired by
+            Threads of Fate and Final Fantasy Tactics. It combines
+            story and mechanics from both games in a TTRPG format, allowing for
+            players tell stories together.</p>
+        <ul>
+            <li>
+                Get creative with <b>40+ unique classes</b> to mix-and-match
+                from.
+            </li>
+            <li>
+                Battle Transience allows for unique mechanics and scenarios.
+            </li>
+            <li>
+                Revival coins remove the unneeded frustration from combat.
+            </li>
+            <li>
+                Battlefields use a jigsaw-like grid to make map-design more
+                flexible.
+            </li>
+        </ul>
+        <h2>
+            Index
+        </h2>
+        <div>
             <ul>
                 <li>
-                    <a href="Pages/CharacterCreation.html">Character Creation</a>
+                    How to Play
+                    <ul>
+                        <li>
+                            <a href="Pages/CharacterCreation.html">Character
+                                Creation</a>
+                        </li>
+                        <li>
+                            <a href="Pages/Checks.html">Checks</a>
+                        </li>
+                        <li>
+                            <a href="Pages/CombatRules.html">Combat</a>
+                        </li>
+                        <li>
+                            <a href="Pages/LevelsAndProgression.html">Levels and
+                                Progression</a>
+                        </li>
+                        <li>
+                            <a href="Pages/Adventuring.html">Adventuring</a>
+                        </li>
+                        <li>
+                            <a href="Pages/TermsAndDefinitions.html"> Terms and
+                                Definitions </a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li><a href="Pages/ClassesDir.html"> Classes </a></li>
+                <li><a href="Pages/MonsterGuide.html">Monster Guide</a></li>
+                <li><a href="Pages/DewprismWorldDir.html"> The World </a></li>
+
+                <li>
+                    <a href="Pages/Equipment.html">
+                        Equipment
+                    </a>
                 </li>
                 <li>
-                    <a href="Pages/Checks.html">Checks</a>
+                    <a href="Pages/Craftables.html">Crafting and Materials</a>
                 </li>
                 <li>
-                    <a href="Pages/CombatRules.html">Combat</a>
+                    <a href="Pages/CharacterTemplate.html">
+                        Character Sheet
+                    </a>
                 </li>
+                <li> Campaign</li>
+                <li> Dice Roller</li>
                 <li>
-                    <a href="Pages/LevelsAndProgression.html">Levels and Progression</a>
+                    <a href="Pages/Scenarios.html">Scenarios</a>
                 </li>
-                <li>
-                    <a href="Pages/Adventuring.html">Adventuring</a>
-                </li>
-                <li>
-                    <a href="Pages/TermsAndDefinitions.html"> Terms and Definitions </a>
-                </li>
+                <li> About</li>
             </ul>
-        </li>
+        </div>
+        <div id="KarmicDiceRoller">
 
+        </div>
+        <div id="DamageCalculator">
+            Damage Calculator<br>
+            <table style="width: inherit;" id="DmgTable">
+                <tr id="RankRow">
+                    <th>
+                        Type
+                    </th>
+                    <th>
+                        Power
+                    </th>
+                    <th>
+                        Rank 1
+                    </th>
+                    <th>
+                        Rank 2
+                    </th>
+                    <th>
+                        Rank 3
+                    </th>
+                    <th>
+                        Rank 4
+                    </th>
+                    <th>
+                        Rank 5
+                    </th>
+                    <th>
+                        Rank 6
+                    </th>
+                    <th>
+                        Rank 7
+                    </th>
+                    <th>
+                        Rank 8
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <sub>Designed by Caleb Clanton. </sub>
+            <sub>Join the <a href="https://discord.gg/SrWpKFqAYQ">Discord</a>!
+            </sub>
+            <sub>This is a non-profit fan project. Threads of Fate/Dewprism and
+                Final Fantasy Tactics are properties of SquareEnix. </sub>
+        </footer>
+    </body>
 
-        <li><a href="Pages/ClassesDir.html"> Classes </a></li>
-        <li><a href="Pages/MonsterGuide.html">Monster Guide</a></li>
-        <li><a href="Pages/DewprismWorldDir.html"> The World </a></li>
-
-        <li>
-            <a href="Pages/Equipment.html">
-                Equipment
-            </a>
-        </li>
-        <li>
-            <a href="Pages/Craftables.html">Crafting and Materials</a>
-        </li>
-        <li>
-            <a href="Pages/CharacterTemplate.html">
-                Character Sheet
-            </a>
-        </li>
-        <li> Campaign</li>
-        <li> Dice Roller</li>
-        <li>
-            <a href="Pages/Scenarios.html">Scenarios</a>
-        </li>
-        <li> About</li>
-    </ul>
-</div>
-<div id="KarmicDiceRoller">
-
-</div>
-<footer>
-    <sub>Designed by Caleb Clanton. </sub>
-    <sub>Join the <a href="https://discord.gg/SrWpKFqAYQ">Discord</a>! </sub>
-    <sub>This is a non-profit fan project. Threads of Fate/Dewprism and Final Fantasy Tactics are properties of SquareEnix. </sub>
-</footer>
-</body>
-
-<footer>
-    <script>
-        InjectKarmicDiceRollerIntoElement();
-    </script>
-</footer>
+    <footer>
+        <script type="text/javascript"
+                src="Resources/DamageCalculator.js"></script>
+        <script>
+            InjectKarmicDiceRollerIntoElement();
+            CreateCalculationField("Melee");
+            CreateCalculationField("Magic");
+            CreateCalculationField("Skill");
+        </script>
+    </footer>
 </html>
