@@ -7,29 +7,35 @@ Rigged tiles
 Conscription
 
 
-Title:|
-Subtitle:|
-Description:|
-???
+Title: Trap Master|
+Subtitle: Deceptive Hunter|
+Description: Trap Masters are a recent develop of the last 200 years, where throughout the civil turmoil, a class of deceptive and clever hunter has emerged.
+Utilizing cleverly hidden and lethal traps, Trap Masters have as a class have been able to make a name for themselves in the world at large.
+They are fearsome, in that any move made against them is a move against yourself. Their art utilizes behavioral psychology in order
+to make the best possible scheme against you. Their arsenal ranges from mines to falling spike-balls, and everything in between.
+<p>Typically, Trap Masters are a lonesome bunch. As a pre-requisite of their trade, they tend to live alone. Elsewise, if you have the cash
+ and the necessity, Trap Masters make for wondrous security professionals; thus, it explains why you typically only see Trap Masters
+ in the big city in the employment of noblemen and tycoons. As a rule of thumb, any land protected by a Trap Master is a dead man's land.</p>|
 
 VITALS
-Health: 45|
+Health: 30|
 Mana: 15|
-Stamina: 15|
-Focus: 15|
+Stamina: 10|
+Focus: 17|
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 12|
+Carry: 15u|
+Element: Metal|
 
 STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
+Melee: (Power: 3, Evasion: 8, Accuracy: 3)|
+Magic: (Power: 3, Evasion: 8, Accuracy: 2)|
+Skill: (Power: 4, Evasion: 10, Accuracy: 4)|
 
 Abilities
-Doctrine:|
+Doctrine: Personal Arena
+|
 A1:|
 A2:|
 A3:|

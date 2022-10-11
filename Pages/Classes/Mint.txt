@@ -50,8 +50,8 @@ A3: Magic Burst
     Use: 5Mna
     Accuracy: Magic
     Range: 0sp
-    Teamwork: You target all the enemies in the space.
-    OnHit: You may target up to 1+{TL/4} enemies. Target(s) takes (1){MgcPwr} damage.|
+    Teamwork: You target all the combatants in the space.
+    OnHit: You may target up to 1+{TL/4} combatants. Target(s) takes (1){MgcPwr} damage.|
 A4: Spur Power
     Melee-Support-Reaction
     Trigger: When you take melee damage.
