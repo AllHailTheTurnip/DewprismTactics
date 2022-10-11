@@ -64,9 +64,9 @@ A4: Arc Slash
     Every enemy combatant within range takes (1){MlePwr} damage.|
 A5: Path of Duty
     Magic-Defensive-Reaction
-    Trigger: You are targeted by a Magic-type ability.
+    Trigger: An enemy combatant targets you with a Magic-type ability.
     Use: 5Mna
-    Restore TL Stamina, and Focus.|
+    Effect: Restore TL Stamina, and Focus.|
 A6: Call Friend
     Skill-Support-Reaction
     Trigger: You finished making a movement action.

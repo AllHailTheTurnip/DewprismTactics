@@ -68,8 +68,9 @@ Accuracy: Magic
 OnHit: Target loses (1){MgcPwr} focus.|
 
 A4: Arcane Shield
-Magic-Defense-Reaction
-Effect: Damage that would be afflicted to your health can be redirected to your Mana pool instead.|
+Magic-Defense-Action
+Use: 7mna+(1/battle)
+Effect: Grant yourself (5){MgcPwr} points of temporary health.|
 
 A5: Terrify
 Magic-Offensive-Action
