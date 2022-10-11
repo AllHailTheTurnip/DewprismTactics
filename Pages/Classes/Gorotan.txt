@@ -29,7 +29,7 @@ Magic-Offensive-Action
 Use: 10AP
 Range: 3sp+1{TL/4}
 Accuracy: Skill
-Damage: Deal electric Magic Damage to the target.|
+Damage: Deal electric (3){MgcPwr} to the target.|
 
 A1: Star Barrier
 Magic-Defensive-Action
