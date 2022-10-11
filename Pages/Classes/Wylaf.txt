@@ -94,7 +94,8 @@ Magic-Offensive-Action
 Use: 10AP+5mna
 Range: 1sp
 Effect: Create a Fire Pillar prop in the targeted space.
-Enemy combatants in the same space as Fire Pillar must
+At the beginning of their turns, enemy combatants in the
+same space as Fire Pillar must
 pay 5sta or take Burning (1){MgcPwr}.|
 
 A9:Whirlwind
