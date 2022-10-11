@@ -77,7 +77,7 @@ A8: Create Ice Wall
     Use: 10AP + (1-5mna as X)
     Range: 0sp instant
     Create X Ice Block obstacles.
-    Tree obstacle: 1 cubic-meter cube of ice. (10){MgcPwr} Health. Takes double damage from fire attacks. Check Navigate (>15) to climb over.|
+    Ice Block obstacle: 1 cubic-meter cube of ice. (10){MgcPwr} Health. Blocks travel between two spaces. Takes double damage from fire attacks. Check Navigate (>15) to climb over. Counts High Cover.|
 A9: Ward Danger
     Magic-Defensive-Action
     Use: 5AP+5mna
