@@ -961,15 +961,49 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     If one or more allies are with you in the same space then the teamwork attribute
     activates. Any effects specified by the attribute are followed-through.
     <p>
-        Additionally, some abilities feature an A placeholder for the amount of
+        Additionally, some abilities feature a TmWrk placeholder for the amount of
         allied combatants in your space. Many abilities change their effects
-        or become stronger as more allies band with you.
+        or become stronger as more allies band with you. The TmWrk placeholder
+        only goes up to 3.
     </p>
     <p>
         Some Teamwork attributes instead feature a penalty for having multiple
         allies in your space. These penalties can vary from weakening to the ability
         or even actively hurting your allies when used.
     </p>
+    <p>
+        As a side note: Miniboss and Boss-type opponents automatically trigger
+        the Teamwork effect. Minibosses count as two combatants, and Bosses count as three.
+    </p>
+    <p>
+        An additional placeholder, OutNum, also exists. It stands for Outnumbered.
+        It is equal to the difference between enemy combatants and
+        friendly combatants belonging your team in the space you're in.
+        If you're outnumbered, then the number is positive.<br>
+        <div>
+            OutNum = [enemy combatants] - [friendly combatants]
+        </div>
+    </p>
+    <p>
+        For example: if you're the only allied combatant in a space and
+        there are two enemies in the space, then the OutNum score is 1.
+    </p>
+    <p>
+        Another example: If you and two allies are in a space against three
+        enemies, OutNum is equal to 0.
+    </p>
+    <p>
+        As a note: Even though minibosses and bosses count as allies
+        towards their own teamwork attribute, they do not count as extra enemies
+        towards your OutNum attribute; minibosses and bosses count only as themselves.
+    </p>
+    <h3>
+        Solowork Attributes
+    </h3>
+        An opposite of the Teamwork attribute is the Solowork attribute.
+    It activates when you're the only combatant of your team in a space. It is
+    unaffected by the amount of enemies in your space. However, once an allie
+    joins your space, the Solowork attribute is disabled.
     <h3>
         Ability Mods
     </h3>

@@ -34,18 +34,105 @@ Magic: (Power: 3, Evasion: 8, Accuracy: 2)|
 Skill: (Power: 4, Evasion: 10, Accuracy: 4)|
 
 Abilities
-Doctrine: Personal Arena
-|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Conjure Arena
+Magic-Support-Action
+Use: 7mgc+(1/battle)
+Range: 0sp
+Effect: Create an Arena prop and an Arena battlefield. The Arena prop is
+cube-shaped, taking up the entire space it was created in. Combatants
+that were in the space when it was created (including you) are considered
+trapped inside and are moved to the Arena battlefield.
+The Arena battlefield is a 3x3x3sp cubic rendering outside the actual battlefield.
+The battlefield has only walls and no doors. The walls cannot take damage.
+There are 9 platforms arranged in a 3x3 grid 1sp over the floor of the battlefield.
+Movement actions from platform to platform require an Acrobatics 8 check.
+Failing the check counts as falling down a bottomless pit.
+You are placed in the center and the other combatants are placed on any platform at your discretion.
+If you choose it, or are KO'd or killed then the Arena prop and Arena battlefield is destroyed and
+the affected combatants return to the battlefield as before.|
 
+A1: Rig Space
+Skill-Offensive-Action
+Use: 10AP+5fcs
+Range: 1sp
+Effect: Create a Bomb prop hidden beneath the surface of a space within range.
+You cannot put more than Bomb prop in a space at a given time.
+Solowork: The Bomb prop's effect does not target allie combatants.
+Bomb prop: Combatants that enter this prop's space must make a Luck 15 check,
+whereupon failure this prop is destroyed and all combatants in the space
+take (2){SklPwr} damage.|
+
+A2: Oil Trap
+Skill-Offensive-Action
+Use: 5AP
+Range: 2sp
+Effect: Create an invisible Oil Trap prop within range.
+Oil Trap prop: An enemy combatant entering into the space of this prop causes it to be destroyed
+and create an Oil Spill prop.
+Oil Spill prop: Checks made by enemy combatants this prop's space increase their
+Critical Failure threshold by 1.|
+
+A3: Slander
+Skill-Offensive-Action
+Use: 10AP
+Range: 3sp
+Teamwork: Increase the difficulty of the proceeding Skill check by TmWrk.
+Evade: Skill
+Effect: Reduce the target's Critical Threshold by (1).|
+
+A4: Falling Anvil
+Skill-Offensive-Action
+Use: 10AP+5mna
+Range: 0sp
+Effect: Create an Anvil prop within range.
+Anvil prop: If a combatant enters this prop's space, it is destroyed and
+ the combatant makes a Skill self-check.
+ Upon failure, they take (3){15TL} metal damage.|
+
+A5: Spike Pit
+Magic-Defensive-Action
+Use: 10AP+5mna
+Range: 1sp
+Solowork: Increase the Rank of this ability by 1.
+Effect: Create a Spike Pit marker on yourself.
+Spike Pit token: If an enemy enters within range of this token's owner,
+destroy the space below the enemy, creating a deep pit.
+The offending enemy makes a Magic Evasion check, whereupon success
+they move to the previous space, or otherwise they fall into the pit.
+The pit requires an Acrobatics 10 check to make a Movement action out.
+At the bottom of the pit is a Spike Trap prop.
+Spike Trap prop: Combatants who land on this token take Bleeding (1){15TL}.|
+
+A6: False Surrender
+Skill-Defensive-Reaction
+Trigger: You take damage from an enemy combatant.
+Use: (3/battle)
+Effect: Make a Luck 10 check. Upon success, the offending combatant
+ cannot target you again until the start of your next turn.|
+
+A7: Rig Exit
+Magic-Offensive-Action
+Use: 10AP+7mna
+Range: 0sp
+Effect: Create a Rigged Exit token on your combatant.
+Rigged Exit token: When an enemy combatant attempts to move beyond 1sp
+away from the token's owner, react by destroying this token,
+canceling the action, and inflicting (1){MgcPwr} damage.|
+
+A8: Bear Trap
+Skill-Offensive-Action
+Use: 10AP+5fcs
+Range: 1sp
+Effect: Create a Bear Trap prop within range.|
+Bear Trap prop: Upon entering this prop's space, the combatant makes a
+Skill self-check, whereupon failure they take Bleeding {MlePwr} and take
+Paralyzed (2).
+
+A9: Discreet Motion
+Skill-Offensive-Action
+Use: 3fcs
+Effect: Your next action will not invoke any effects either by abilities,
+tokens, or props.|
 
 MA1:|
 MA2:|
