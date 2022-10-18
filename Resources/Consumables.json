@@ -260,7 +260,7 @@
   },
   {
     "Name": "Caveman Soup",
-    "Application": "Increase your Talent scores by 2 for the next hour.",
+    "Application": "Increase your Talent scores by [2] for the next hour.",
     "Ingredients": "2x Bone Marrow",
     "CraftCheck": "8",
     "Value": "120"
