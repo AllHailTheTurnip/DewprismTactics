@@ -73,7 +73,7 @@
     "Name": "Eternal Cocktail",
     "Application": "Become immune to KO for the next [2] turns; you can still die.",
     "Ingredients": "8x Perma-Ice",
-    "CraftCheck": "",
+    "CraftCheck": "18",
     "Value": "150"
   },
   {
