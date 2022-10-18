@@ -1,7 +1,7 @@
 [
   {
     "Name": "Lucky Charm",
-    "Application": "Once per battle, increase any Check by (1)5.",
+    "Application": "Once per battle, increase any Check by [1]5.",
     "Ingredients": "1x Wabbit's Foot",
     "CraftCheck": "15",
     "Value": "550"

@@ -123,10 +123,10 @@ A8: Bear Trap
 Skill-Offensive-Action
 Use: 10AP+5fcs
 Range: 1sp
-Effect: Create a Bear Trap prop within range.|
+Effect: Create a Bear Trap prop within range.
 Bear Trap prop: Upon entering this prop's space, the combatant makes a
 Skill self-check, whereupon failure they take Bleeding {MlePwr} and take
-Paralyzed (2).
+Paralyzed (2).|
 
 A9: Discreet Motion
 Skill-Offensive-Action

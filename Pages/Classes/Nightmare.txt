@@ -97,7 +97,7 @@ Magic-Support-Action
 X = 1.
 Solowork: Increase X by 1.
 Use: 3mna+(X/turn)
-Effect: Increase your Skill accuracy checks by 1.|
+Effect: Increase your Skill Accuracy checks by 1.|
 
 MA1:|
 MA2:|
