@@ -61,7 +61,7 @@ A3: Conjure Enormous Ball
 Magic-Support-Action
 Use:10AP+3mna
 Range: 0sp
-Effect: Conjure a ball prop with a diameter of 0sp (3~ meters wide).
+Effect: Conjure a ball prop with a diameter of 0sp (3~ meters wide) and weighs 3u.
 The ball is magical and can only be moved by standing on it and spending 10AP.
 If you move the ball from or into an enemy's space, they must spend 3sta to move into another space, or else
 take (3){MgcPwr} damage.|
