@@ -41,7 +41,7 @@ Use: 10AP+2sta
 Range: 0sp
 Accuracy: Melee
 Damage: (3){MlePwr}
-OnHit: Target loses 5AP from their next turn.|
+OnHit: If they haven't already been affected by this ability, target loses 5AP from their next turn.|
 
 A1: Defensive Stance
 Skill-Defensive-Action
