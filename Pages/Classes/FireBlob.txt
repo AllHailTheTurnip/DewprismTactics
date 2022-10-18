@@ -55,6 +55,7 @@ Melee-Offensive-Action
 Use: 5AP+1sta+1mna
 Range: 1sp
 Accuracy: Melee
+Solowork: Increase Critical Threshold of this attack by 3.
 OnHit: Inflict (1)MlePwr dmg.|
 
 A3: Newtonian Fluidity
@@ -94,6 +95,7 @@ Affected allies gain that Ability until the end of their next turn.|
 
 A8: Puddle
 Melee-Support-Action
+Solowork: Incoming damage while prone is halved.
 Use: 3fcs+(1/turn)
 Effect: You become Prone and end your turn.
 All enemies in the same space as you take Burning (1){MlePwr}.|

@@ -31,8 +31,10 @@ Skill: (Power: 3, Evasion: 5, Accuracy: -2)|
 Abilities
 Doctrine: Brutal Bulk
 Melee-Support-Passive
+X = 0.
+Solowork: Increase X by 3.
 Effect: Increase the Rank of your Melee-type attacks by 1.
-Reduce your Melee and Skill evasion to 0.|
+Reduce your Melee and Skill evasion to {X}.|
 
 A1: Downward Strike
 Melee-Offensive-Action
@@ -45,6 +47,7 @@ A2: Headbutt
 Melee-Offensive-Action
 Use: 5AP+5sta
 Range: 0sp
+Solowork: Increase the proceeding Accuracy check by 3.
 Accuracy: Melee
 OnHit: Inflict (1){MlePwr} damage. The target is knocked prone.|
 
@@ -68,7 +71,7 @@ Effect: Gain Aggro until your next turn begins.|
 
 A5: Bulk Up
 Melee-Support-Action
-Use: 10AP+Cooldown 2.
+Use: 10AP+(1/2turn).
 Effect: Increase your MlePwr by 1 level.|
 
 A6: Earthquake

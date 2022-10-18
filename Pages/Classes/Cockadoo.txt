@@ -38,6 +38,7 @@ Skill: (Power: 6, Evasion: 12, Accuracy: -2)|
 Abilities
 Doctrine: Proximity Strike
 Skill-Defensive-Reaction
+Solowork: Ignore the Use-cost of this ability.
 Use: 3fcs
 Trigger: An opponent enters same space as you.
 Make a Basic Attack action against the encroaching target.|
@@ -84,7 +85,9 @@ A6: Gather Flock
 Magic-Support-Action
 Use: 10AP+3mna
 Range: Any ally within 1sp+{MgcPwr/15}.
-Effect: Choose one target to be the waypoint. Choose up to 1+{MgcPwr/10} allies to be subjects.
+X = 1
+Solowork: Increase X by 1.
+Effect: Choose X target to be the waypoint. Choose up to 1+{MgcPwr/10} allies to be subjects.
 Each subject is instantly relocated to an adjacent space beside the waypoint.|
 
 A7: Hatch Egg

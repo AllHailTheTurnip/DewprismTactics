@@ -27,9 +27,10 @@ Abilities
 Doctrine: Lightning Strike
 Magic-Offensive-Action
 Use: 10AP
-Range: 3sp+1{TL/4}
+Range: 3sp+{TL/4}
 Accuracy: Skill
-Damage: Deal electric (3){MgcPwr} to the target.|
+Damage: Deal electric (3){MgcPwr} to the target.
+Solowork: After inflicting damage, regain 3mna.|
 
 A1: Star Barrier
 Magic-Defensive-Action
@@ -81,7 +82,7 @@ Magic-Support-Action
 Use: 10mna+10AP
 Range: 1sp
 Effect: Restore 5 Mana to an allie and increase the ranks of all of their applicable
-abilities by 1.|
+abilities by 1. End your turn.|
 
 A8: Deflate
 Magic-Support-Reaction
@@ -92,6 +93,7 @@ either in one hand or in an inventory.|
 A9: Bestow Power
 Magic-Support-Action
 Use: 1/battle
+Solowork: Increase range to cover battlefield.
 Range: 0sp
 Effect: Your health is reduced to 0. The targeted allie gains your
 Doctrine Ability as an extra ability.|

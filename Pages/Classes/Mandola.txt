@@ -52,14 +52,17 @@ For each hit, deal (1){SklPwr} damage.|
 A2:Blossom
 Skill-Offensive-Action
 Use: 20AP
-AoE: (1)+({TL}/4)sp circle.
+Range: 1+({TL}/4)sp AoE circle.
 Check: Skill
-OnPass: Affected enemy makes a Movement action in the direction of your position.|
+X = 1
+Solowork: Increase X by 1.
+OnPass: Affected enemy makes X Movement action(s) in the direction of your position.|
 
 A3:Photosynthesis
 Melee-Support-Action
 Use: 10AP+3fcs
-Increase max Health and current Health by (1){MlePwr}|
+Increase max Health and current Health by (1){MlePwr}
+Solowork: Remove any negative status effects.|
 
 A4:Parasite Spore
 Melee-Offensive-Reaction
@@ -72,7 +75,7 @@ Spore Marker: Lose (1){Creator's MlePwr} health. The creator gains any health lo
 
 A5:Grow Bark
 Melee-Defensive-Action
-Teamwork: Instead of paying 20AP, you may pay 5AP+Cooldown 1.
+Teamwork: Instead of paying 20AP, you may pay 5AP+(1/turn).
 Use: 20AP
 Increase MleEva by (2) (Max 20).|
 

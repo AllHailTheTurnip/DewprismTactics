@@ -58,11 +58,12 @@ is triggered when you are attacked. This lasts until the start of your next turn
 A2: Multi-slash
 Skill-Offense-Action
 Use: 5sta+10AP
-Effect: Target and make a basic attack action with an equipped non-range weapon against every enemy into 0sp of you.|
+Solowork: Increase following Accuracy checks by 2.
+Effect: Target and make a basic attack action with an equipped non-range weapon against every enemy within 0sp of you.|
 
 A3: Firing Line
 Skill-Support-Action
-Use: 5sta+3fcs+Cooldown 2.
+Use: 5sta+3fcs+(1/2turns).
 Effect: Each ally within ({SklPwr}/15)sp gets 10+{CL}AP for their next turn.|
 
 A4: Ignoble

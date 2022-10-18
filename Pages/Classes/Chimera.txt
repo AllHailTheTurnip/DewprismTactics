@@ -82,6 +82,7 @@ OnHit: Enemy takes (3){MgcPwr} electric damage.|
 
 A7: Shadowstep
 Magic-Support-Action
+Solowork: Reduce the Use-cost by 5AP+3mna.
 Use: 10AP+5mna
 Range: 2sp
 Effect: Target a combatant in range and teleport to their space.|
@@ -89,8 +90,10 @@ Effect: Target a combatant in range and teleport to their space.|
 A8: Crescent Dash
 Skill-Offensive-Action
 Use: 10AP+3sta+3mna
-Effect: Move up 2 spaces away. You make a free basic attack against any one
-enemy as you pass them.|
+X = 1
+Solowork: Increase X by (1).
+Effect: Move up 2 spaces away. You make a free basic attack against X
+enemies as you move.|
 
 A9: Disgusting Laughter
 Skill-Offensive-Action

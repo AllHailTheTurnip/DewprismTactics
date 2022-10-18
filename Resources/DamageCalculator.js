@@ -1,8 +1,14 @@
 const ranks = 8;
 
+function LoadCookies()
+{
+
+}
+
 function UpdateField(type) {
+    let power = parseInt(document.getElementById(type + "Input").value);
     for (let i = 1; i <= ranks; i++) {
-        let power = parseInt(document.getElementById(type + "Input").value);
+
         if (isNaN(power))
             power = 0;
 
@@ -10,6 +16,8 @@ function UpdateField(type) {
         let field = document.getElementById(type + i.toString());
         field.innerText = rank;
     }
+
+    document.cookie = `${type}Pwr=${power}`;
 }
 
 function CreateCalculationField(type) {

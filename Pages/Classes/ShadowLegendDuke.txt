@@ -43,6 +43,7 @@ Skill-Offense-Action
 Use: 3fcs+10AP
 Range: 1sp
 Select up to three combatants within range to target. A check is made against each one.
+Solowork: Increase Accuracy check by 2.
 Accuracy: Skill
 OnHit: Target takes (3){SklPwr} Metal damage.|
 
@@ -94,6 +95,7 @@ Trigger: A combatant makes an attack with their primary or secondary weapon.
 Use: 3Fcs
 Luck: 15-[TL/2]
 OnPass: No damage is taken.
+Solowork: Increase Critical Threshold by 2.
 OnCrit: The caught weapon is taken and added to your inventory.|
 
 A8: Useful Distraction
@@ -111,7 +113,7 @@ MA1: Snag!
 Skill-Support-Reaction
 Trigger: Your health reaches 0
 Target: Any combatant that was, at any point, in the same space as you during combat.
-Effect: Choose an item from their inventory and add it to yours or an ally's.|
+Effect: Choose an item from the target inventory and add it to yours or an ally's.|
 
 MA2: Study
 Skill-Support-Passive

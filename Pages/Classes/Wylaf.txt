@@ -77,13 +77,15 @@ Effect: Increase the Ranged or Extended attribute of your next action by 1sp.|
 A6:Winged Flight
 Magic-Support-Action
 Use: 5sta+(1/battle)
-Effect: Your character sprouts enormous, scaled wings from their back.
-When making a Movement action, spend an additional 3sta to also
+Effect: Create and give yourself the Dragon Wings token.
+Solowork: You may alternatively give any allied combatant the Dragon Wings token instead.
+Dragon Wings token: when making a Movement action, spend an additional 3sta to also
 move vertically or glide horizontally.|
 
 A7: Death by a Thousand Cuts
 Skill-Offensive-Action
 Use: 10AP
+Solowork: Treat Range as an AoE circle.
 Range: 0sp
 Accuracy: Skill+3
 OnHit: Inflict Bleeding (1){SklPwr}; if target already has Bleeding,
@@ -100,7 +102,7 @@ pay 5sta or take Burning (1){MgcPwr}.|
 
 A9:Whirlwind
 Melee-Offensive-Action
-Teamwork: You may replace the Use-cost with Cooldown 2.
+Teamwork: You may replace the Use-cost with 1/2turn.
 Use: 20AP+7mna
 Range: 1sp AoE circle
 Evade: Melee

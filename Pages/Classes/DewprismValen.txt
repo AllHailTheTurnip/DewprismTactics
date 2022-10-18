@@ -1,3 +1,5 @@
+Unique sorcerer of really unique abilities
+
 Title:|
 Subtitle:|
 Description:|
@@ -12,7 +14,7 @@ Focus: 15|
 SCORES
 Initiative: 10|
 Carry: 10u|
-Element: Neutral|
+Element: Noble/Light|
 
 STATS
 Melee: (Power: 5, Evasion: 10)|
@@ -20,13 +22,20 @@ Magic: (Power: 5, Evasion: 10)|
 Skill: (Power: 5, Evasion: 10)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
+Doctrine: State of Light
+Magic-Support-Passive
+Effect: At the beginning of combat your Health is reduced to 1.
+You may teleport anywhere on the battlefield.|
+A1: Disable target ability|
+A2: Dimensional Prison|
+A3: Fast-forward|
+A4: Dissect Ability
+Magic-Support-Action
+Use: 10AP
+Effect: Choose on of your abilities.
+Remove one of the sentences from the ability; treat the ability as if it never had the sentence.|
+A5: Command|
+A6: Combine with Item|
 A7:|
 A8:|
 A9:|

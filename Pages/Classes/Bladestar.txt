@@ -56,13 +56,16 @@ Otherwise, reduce the AP cost of an equipped weapon by 2 (minimum 2).|
 
 A3: Upgrade Attributes
 Skill-Support-Action
+Solowork: Reduce the AP cost of this ability by 5{OutNum} (min 5).
 Effect: 5fcs+20AP
-Use: Choose an attribute of an equipped weapon and increase by 1. (rounded up).|
+Use: Choose an attribute of an equipped weapon and increase by 1.|
 
 A4: Reconfigure Attribute
 Skill-Support-Action
 Use: 5fcs+15AP
-Effect: Switch out an equipped weapon's attribute for another one.|
+Solowork: Increase the Rank of this ability by 1.
+Effect: Switch out one of your currently equipped weapon's Attributes for either
+Push (2), Honed (3), or Artisan (2).|
 
 A5: Reconfigure Element
 Magic-Support-Action

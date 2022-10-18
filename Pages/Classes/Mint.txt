@@ -36,15 +36,15 @@ Doctrine: Switch Magic Element
 A1: Flying Kick
     Melee-Offensive-Action
     Use: 10AP
-    Range: 1sp LoS
+    Range: 1sp ray
     Increase your critical-success range by 5 and your critical-failure range by 5 until the end of this action.
     Choose a target within range and leap through the air into their space as a free Movement action, making a free
      attack action against them as you arrive.|
 A2: Scheme
     Skill-Support-Action
-    Use: Cooldown 2 +5fcs.
+    Use: (1/2turn)+5fcs.
     Create a Scheme counter (3) and grant it to yourself or an ally.
-    Scheme counter: (1)+{TL/3} bonus to all the holder's Talent and Accuracy checks for the next (X) turns.|
+    Scheme counter: (1)+{TL/3} bonus to all the holder's Talent and Accuracy checks for their next 3 turns.|
 A3: Magic Burst
     Magic-Offensive-Action
     Use: 5Mna
@@ -55,6 +55,7 @@ A3: Magic Burst
 A4: Spur Power
     Melee-Support-Reaction
     Trigger: When you take melee damage.
+    Solowork: Increase restored Mana by {OutNum}.
     Restore {TL} Mana.|
 A5: Switch Magic Mode
     Magic-Support-Action
@@ -81,7 +82,8 @@ A8: Create Ice Wall
 A9: Ward Danger
     Magic-Defensive-Action
     Use: 5AP+5mna
-    Range: 0sp LoS
+    Solowork: Increase range by 1sp.
+    Range: 0sp
     Teamwork: Can simultaneously target every allie in range.
     Create a Ward marker and grant it to yourself or an ally within range (max 1/combatant).
     Ward marker: while marked, +5 to {MgcEva}.|

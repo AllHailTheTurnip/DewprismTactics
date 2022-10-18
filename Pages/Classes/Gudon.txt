@@ -42,14 +42,14 @@ Abilities
 Doctrine:Firebreath
 Magic-Offense-Action
 Use: 5mna+10AP
-Range: 0sp+{mgc/15}
-AoE: Ray
+Range: 0sp+{mgc/15} AoE Ray.
 Accuracy: Magic
-Damage: (4){MgcPwr} fire|
+Damage: (4){MgcPwr} fire
+Solowork: Damaged target gets Burning (MgcPwr).|
 
 A1:Venom Fangs
 Melee-Offense-Passive
-Your unarmed attacks inflict Poison 1|
+Your unarmed attacks inflict Poison (1){15TL}|
 
 A2:Hardy Appetite
 Skill-Support-Passive
@@ -58,8 +58,9 @@ Stamina, Mana, and/or Focus regained from consumables is increased by 5{TL}|
 A3:Camouflage
 Melee-Defense-Action
 Use: 10AP
-Teamwork: Improve the Effect such that you don't have to end your turn when used.
-Effect: End your turn. Increase your MleEva by 5+{MlePwr} until your next action.|
+X = End your turn.
+Teamwork: Nullify X.
+Effect: X. Increase your MleEva by 5+{MlePwr} until your next action.|
 
 A4:Regenerate
 Magic-Support-Passive
@@ -68,14 +69,15 @@ Effect: Choose a disabled ability/action and re-enable it.|
 
 A5:Heavy Sweep
 Melee-Offense-Action
+Solowork: Reduce Use-cost by 4sta.
 Use: 7sta+10AP
 Range: Every opponent within adjacent space.
 Accuracy: Melee
-OnHit: Inflict primary damage. On Critical, target becomes Prone.|
+OnHit: Inflict Primary weapon damage. On Critical, target becomes Prone.|
 
 A6:Shed Scales
 Melee-Support-Action
-Use: Cooldown 2.
+Use: 1/2turns.
 Effect: Reduce Movement AP cost by 5 (min 3). Reduce max health by -5.|
 
 A7:Low-Light Vision

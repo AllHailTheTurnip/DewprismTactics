@@ -28,25 +28,29 @@ Doctrine: Assassinate
     Skill-Offensive-Action
     Use: 10AP+3Fcs+3Sta
     Range: (1)+{TL/4}sp
-    Leap through the air into the same space as your target.
+    Effect: Leap through the air into the same space as your target.
     Teamwork: This ability's Luck check gains Advantage.
     Luck: 18
     OnPass: Target takes damage equal to their remaining health.|
 A1: Leap
     Skill-Support-Action
     Use: 10AP
-    Jump horizontally or vertically, 1sp.|
+    Range: 2sp
+    Jump into a space within range.|
 A2: Dismember
     Melee-Offensive-Action
     Use: 10AP+5Sta
     Range: 0sp
+    Solowork: Increase the proceeding Melee check by 2.
     Accuracy: Melee
-    OnPass: Choose to disable either your opponent's primary or secondary attacks (the primary or secondary weapon are also dropped.)|
+    OnPass: Choose to disable either your opponent's Primary or Secondary attacks (the primary or secondary weapon are also dropped.)|
 A3: Lick Wounds
     Melee-Supportive-Action
     Use: 10AP
     Range: 0sp
-    Restore {15TL} health to yourself or your target.|
+    X = 15.
+    Solowork: Increase X by 5.
+    Restore (X){TL} health to yourself or your target.|
 A4: Bloody Feast
     Melee-Supportive-Passive
     Use: 5sta+(1/turn)

@@ -40,6 +40,7 @@ Use: 3fcs
 Teamwork: Replace this ability's Range with TL/5.
 Range: CL/5
 Trigger: An enemy combatant enters within range.
+Solowork: You may spend an additional 5sta to grant the proceeding Accuracy check Advantage.
 Effect: Make a free basic attack against the intruding enemy combatant.|
 
 A1: Strung-Up
@@ -70,7 +71,8 @@ A6: Mime Action
 Magic-Defense-Reaction
 Trigger: A combatant makes an action.
 Use: 3fcs
-Range: Line of Sight
+Range: Battlefield LoS
+Solowork: Reduce the proceeding Luck check by 3{OutNum}.
 Luck: 15
 Effect: Execute the same action, for free, using the same scores, as the target after their action is resolved.|
 

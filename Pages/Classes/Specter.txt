@@ -68,9 +68,9 @@ Accuracy: Magic
 OnHit: Target loses (1){MgcPwr} focus.|
 
 A4: Arcane Shield
-Magic-Defense-Action
-Use: 7mna+(1/battle)
-Effect: Grant yourself (5){MgcPwr} points of temporary health.|
+Magic-Defense-Passive
+X = incoming damage.
+Effect: You may spend X/10mna to neutralize incoming damage.|
 
 A5: Terrify
 Magic-Offensive-Action
@@ -81,6 +81,7 @@ OnHit: Target loses (1){SklPwr/3} focus.|
 
 A6: Paralyzing Presence
 Magic-Offensive-Action
+Solowork: Reduce the Use-cost by 5AP.
 Use: 15AP+3fcs
 Range: 1sp
 Evade: Magic
@@ -97,6 +98,7 @@ A8: Freezing Touch
 Magic-Offensive-Action
 Use: 10AP+3mna
 Range: 0sp
+Solowork: The targeted combatant cannot use their Accuracy in the proceeding Evade check.
 Evade: Magic
 OnHit: Target becomes Frozen 1+{TL/10}.|
 

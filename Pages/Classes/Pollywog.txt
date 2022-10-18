@@ -29,8 +29,16 @@ Skill: (Power: 3, Evasion: 9, Accuracy: -1)|
 ABILITIES
 Doctrine: Elemental Adaptation
     Magic-Support-Action
+    Solowork: Choose between either Mode A or B.
+    Teamwork: You may only choose Mode A.
+    Mode A:
     Use: 5AP
-    Change your base element to any of the core elements.|
+    Effect: Change your base element to either fire, water, or wind.
+
+    Mode B:
+    Use: 5AP+7mna.
+    Effect: Change your base element to either darkness, light, electric, or metal.|
+
 A1: Hover
     Skill-Support-Passive
     Your movement is unaffected by difficult or dangerous terrain, even while swimming.|
@@ -43,7 +51,9 @@ A3: Chomp
     Melee-Offensive-Action
     Cost: 10AP
     Range: 0sp
-    Enemy takes (1){MlePwr} neutral damage.|
+    X = neutral.
+    Solowork: remove X.
+    Enemy takes (1){MlePwr} X damage.|
 A4: Lay Egg
     Skill-Support-Action
     Cost: 5Fcs
@@ -71,7 +81,7 @@ A8: Nurture
     Cost: 10AP
     Range: 0sp
     Teamwork: Increase rank of this ability by 1.
-    Restore (2){MgcPwr} Health to an ally.|
+    Restore (1){MgcPwr} Health to an ally.|
 A9: Regroup
     Magic-Support-Action
     Cost: 5Mna

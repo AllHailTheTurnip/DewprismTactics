@@ -42,6 +42,7 @@ Abilities
 Doctrine:Eruption
 Magic-Offensive-Action
 Use: 15AP+7mna
+Solowork: Increase Range by 1sp.
 Range: 0sp AoE
 Evade: Magic
 OnHit: Target takes (3){MgcDmg} damage.|
@@ -102,7 +103,8 @@ Magic-Offensive-Action
 Use: 5AP+1mna
 Range: 0sp
 Accuracy: Melee
-Effect: Target gets Burning {MgcPwr}|
+Effect: Target gets Burning (1){MgcPwr}
+Solowork: If target is already burning, increase the Rank by 1.|
 
 A8:Channel Power
 Magic-Offensive-Action

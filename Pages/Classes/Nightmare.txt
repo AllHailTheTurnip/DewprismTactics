@@ -34,10 +34,10 @@ Skill: (Power: 2, Evasion: 10, Accuracy: 0)|
 Abilities
 Doctrine:Meteoric Crash
 Melee-Offensive-Action
-Use: 10AP+8mna+Cooldown 2.
+Use: 10AP+8mna+(1/2turns).
 Choose a combatant to target, then jump into the sky (ignoring the ceiling) and leave the battlefield.
-When your AP is above 0, fall from the sky (ignoring the ceiling) into the target's space.
-Range: 0sp AoE
+On your next turn, fall from the sky (ignoring the ceiling) into the target's space.
+Range: 1sp AoE
 Accuracy: Melee
 OnPass: Affected enemy combatants take (5){MlePwr+2} electric damage.
 OnFail: Unaffected enemy combatants are pushed away from you until they leave the AoE.|
@@ -45,8 +45,9 @@ OnFail: Unaffected enemy combatants are pushed away from you until they leave th
 A1:Chase
 Melee-Offensive-Action
 Use: 10AP+(Xsta/3)
-Target: Enemy combatant
-Move up to Xsp in direction of target. Target must spend Xsta and move Xsp away or else take (3){MlePwr} damage.|
+Effect: Choose a combatant on the battlefield. Move up to Xsp in direction of target.
+ Target must spend Xsta and move Xsp away or else take (3){MlePwr} damage.
+Solowork: Gain {15TL} health from hitting the target. |
 
 A2:Royal Armor
 Magic-Defensive-Passive
@@ -93,8 +94,10 @@ OnPass: Enemy combatants take (2){MgcPwr} electric damage.|
 
 A9:Hone Strike
 Magic-Support-Action
-Use: 10AP+3mna
-Increase your Skill accuracy checks by 1.|
+X = 1.
+Solowork: Increase X by 1.
+Use: 3mna+(X/turn)
+Effect: Increase your Skill accuracy checks by 1.|
 
 MA1:|
 MA2:|

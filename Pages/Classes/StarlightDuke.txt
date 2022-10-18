@@ -34,6 +34,7 @@ Effect: Attacks made against you from out of your space are reduced by 2 Ranks.
 A1: Waddle-Waddle
 Melee-Support-Action
 Use: 5sta+(1/turn)
+Solowork: If moving into a space with allied combatants, refund the Use-cost.
 Effect: Make a movement action if you haven't already.|
 
 A2: Shooting Star
@@ -63,6 +64,7 @@ A5: Crash Landing
 Melee-Offensive-Action
 Use: 15AP+7sta
 Range: Battlefield
+Solowork: reduce damage you've taken from this ability by half.
 Effect: instantly relocate to a space within range. You take (2){MlePwr} damage.
 Enemies within the space make Skill Evade checks, whereupon failure they
 take (2){MlePwr} damage. Any props in the space are destroyed.|
@@ -86,14 +88,16 @@ You take Z light damage. You and your turn.|
 
 A8: True North
 Magic-Support-Action
-Use: 5AP+3fcs
+Solowork: Reduce the Use-cost by 5AP.
+Use: 5AP+3sta
 Effect: You are no longer Prone.|
 
 A9: Center of Attention
 Melee-Support-Passive
 Range: 1sp
-Effect: If you enter within range of a combatant with Aggro, they lose Aggro
-and you gain Aggro.|
+Solowork: Nullify X.
+X = If you have aggro...
+Effect: X, enemies within range will ignore their Danger threshold.|
 
 MA1: STAAAAAAAAAR!|
 MA2:|

@@ -72,11 +72,13 @@ OnPass: Disable Melee (Target cannot make Melee-type actions.)|
 
 A6: Lightweight
 Melee-Support-Passive
+Solowork: +5 to Melee Self-Checks.
 Effect: +10 to Acrobatics checks.|
 
 A7: Fragile
 Melee-Support-Passive
-Effect: All damage taken is treated as Critical.|
+Solowork: Increase your Critical Success Threshold by 2.
+Effect: Increase your Critical Failure Threshold by 2.|
 
 A8: Reassemble
 Magic-Support-Action

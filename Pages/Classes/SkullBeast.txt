@@ -34,13 +34,13 @@ Doctrine: Self Resurrection
     At 0, you revive with fully restored Vital scores.|
 A1: Upscale
     Magic-Support-Action
-    Use: 7mna+Cooldown 3.
-    Teamwork: Reduce the Cooldown to 2.
+    Use: 7mna+(1/3turn).
+    Teamwork: Reduce the (1/3turn) to (1/2turn).
     Reduce your MleEva by 5 and increase your MlePwr by 2 levels.|
 A2: Full Charge
     Melee-Offensive-Action
+    Solowork: You may add 5sta to the Use-cost and increase the Rank of this action by 1.
     Use: 15AP+5sta
-    Range: Reach
     For the duration of this action you are unaffected by difficult terrain.
     Make a free movement action.
     Make a Melee check against any combatants you enter into the space of; on hit, they take (2){MlePwr} neutral damage.|
@@ -67,8 +67,10 @@ A5: Jump Back
     OnCrit: User may also make a free action.|
 A6: Firebreath
     Magic-Offensive-Action
-    Use: 10AP + 7Mna
-    Range: 0sp (up to three targets)
+    Use: 10AP+7Mna
+    Solowork: Increase range by 1sp.
+    Range: 0sp
+    Make an Accuracy check against (up to) three unique targets.
     Accuracy: Magic
     OnHit: targets take (3){MgcPwr} fire damage.|
 A7: Deluxe Fireball
@@ -87,7 +89,7 @@ A8: Horrifying Screech
     OnCrit: Target loses 10AP from their next turn.|
 A9: Rest
     Skill-Support-Action
-    Use: 20AP for Mode A, OR 20AP+5cs+Cooldown 3 for Mode B
+    Use: 20AP for Mode A, OR 20AP+5cs+(1/3turn) for Mode B
     Mode A: Recover 50% of your max Health, Stamina, Mana, and Focus.
     Mode B: Recover 50% of your max Health, Stamina, Mana, and Focus and remove any negative status effects.|
 

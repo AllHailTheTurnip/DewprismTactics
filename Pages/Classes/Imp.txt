@@ -52,6 +52,7 @@ Skill-Passive-Reaction
 Trigger: Enemy makes Movement Action within ability range.
 Use: 1fcs
 Range: {TL}/4
+Solowork: Gain advantage on the Luck check.
 Luck: 15
 OnPass: Target's next Movement costs an additional 2sta.
 If their stamina at 2 or less, they become prone.|
@@ -66,6 +67,7 @@ item of your choice from the target's inventory.|
 
 A4: Swap Abilities
 Magic-Offense-Action
+Solowork: Reduce Use-cost by 5AP.
 Use: 15AP+5mna
 Range: 0sp
 Accuracy: Magic

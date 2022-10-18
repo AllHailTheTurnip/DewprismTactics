@@ -20,8 +20,9 @@ Magic: (Power: 7, Evasion: 15, Accuracy: 0)|
 Skill: (Power: 3, Evasion: 15, Accuracy: 0)|
 
 Abilities
-Doctrine:|
-A1:|
+Doctrine: Shield of Protection
+// Become a shield for another combatant|
+A1: Resurrect Player|
 A2:|
 A3:|
 A4:|

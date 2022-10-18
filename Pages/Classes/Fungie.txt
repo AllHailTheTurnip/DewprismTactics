@@ -45,6 +45,7 @@ OnHit: Target loses 5AP from their next turn.|
 
 A1: Defensive Stance
 Skill-Defensive-Action
+Solowork: Ignore the AP cost of this ability.
 Use: 10AP+3fcs
 Effect: End your turn. Until the start of your next turn, if you're attacked,
 you may use your Doctrine ability for free.|
@@ -82,6 +83,7 @@ Teamwork: You may make a free movement action the turn it is created.|
 A6: Give Instructions
 Skill-Support-Action
 Use: 10AP+5fcs
+Solowork: Increase the range of this ability by 2sp.
 Range: 0sp
 Teamwork: In addition to the Effect, reduce the Mana, Stamina, and/or Focus cost by 3 (min 0).
 Effect: Choose an ally and reduce the AP cost of their next action by 5AP (minimum 0).|

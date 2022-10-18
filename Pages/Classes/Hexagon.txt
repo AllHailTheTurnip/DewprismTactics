@@ -36,7 +36,7 @@ Throughout each turn, you may negate up to a total of (5){MlePwr} points in dama
 A1: Immense Size
 Melee-Defense-Passive
 Effect: You count as being 1sp tall, occupying two vertical spaces at once.
-It costs 10AP to climb on top (or off) of you.|
+It costs 10AP to climb on top of you.|
 
 A2: Power Conversion Alpha
 Skill-Support-Passive
@@ -51,7 +51,8 @@ Effect: You can spend 5 points of Mana, Stamina, and/or Focus to regain 5 Health
 
 A4: Overcharge Burst
 Skill-Offensive-Action
-Use: 5sta+5mna+5fcs+1/turn
+Solowork: Increase Rank of this ability by 1.
+Use: 5sta+5mna+5fcs+(1)/turn
 Effect: Increase the rank of an Ability by 1.|
 
 A5: Flight
@@ -83,6 +84,7 @@ A9: Seize
 Melee-Offensive-Action
 Use: 10AP+3sta
 Range: 0sp.
+Solowork: You may make a free Movement action before making the Accuracy check.
 Accuracy: Melee
 Effect: Targeted combatant cannot leave your space until the beginning of your next turn.|
 

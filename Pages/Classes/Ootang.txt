@@ -31,6 +31,7 @@ Skill: (Power: 3, Evasion: 7, Accuracy: -2)|
 Abilities
 Doctrine: Jump!
 Melee-Support-Action
+Solowork: Reduce the Use-cost by 5AP.
 Use: 10AP+(1/turn)
 Effect: Leap up to 1+{TL/5}sp in any direction,
  ignoring rough terrain and obstacles.|
@@ -46,6 +47,7 @@ OnCrit: Poison 5.|
 A2: Reckless Abandon
 Skill-Support-Action
 Use: 10AP
+Solowork: The following 1d20 check gains advantage; roll twice and pick your preferred of the two.
 Effect: Roll 1d20 and divide by 2, rounding-up, and perform the
 class-ability of the same index for free.
 Allies are considered valid targets for the duration of the action.
@@ -55,6 +57,7 @@ A3: Flee
 Skill-Defensive-Reaction
 Trigger: An enemy combatant targets you for an attack.
 Use: 3sta+1fcs
+Solowork: Improve the proceeding Self-Check by 2.
 Self-Check: Skill
 Effect: Make a free movement action away from the combatant.|
 

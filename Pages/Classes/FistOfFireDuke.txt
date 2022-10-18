@@ -37,7 +37,7 @@ Inflict (1){MlePwr} fire damage per hit.|
 
 A1: Burning Star
 Melee-Offensive-Action
-Use: 3sta+5mna+10AP
+Use: 10AP+3sta+5mna
 Range: 0sp AoE
 Accuracy: Melee+5
 Dmg: (3){MlePwr} fire
@@ -54,7 +54,9 @@ OnCrit: Target gets Burning 3|
 A3: Momentum
 Skill-Support-Reaction
 Trigger: You declare that you are about to use an ability.
-Use: 1/turn
+X = 1.
+Solowork: Increase X by 2.
+Use: X/turn
 Effect: You may increase the Use-cost by 50% to increase its Rank by 1
 for the duration of the turn.|
 
@@ -70,9 +72,8 @@ non-basic attack after landing.|
 A5: Hold Back
 Melee-Defensive-Action
 Use: 7sta+5AP
-Effect: All enemy combatants in an adjacent of your choice space cannot move out of the space
-until the end of your next turn.
-Your turn ends.
+Effect: All enemy combatants in an adjacent space of your choice cannot move out of that space
+until the end of your next turn. End your turn.
 If you fall unconscious or die before the end of your next turn, the effect is canceled.|
 
 A6: Explosive Touch
@@ -94,6 +95,7 @@ OnPass: The Use cost of the next action is reduced by 50%.|
 
 A8: Gift Item
 Skill-Support-Action
+Solowork: Increase the range of this ability by 1.
 Range: 0sp
 Effect: You may give an item to an ally.|
 

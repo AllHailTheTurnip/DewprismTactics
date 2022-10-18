@@ -37,13 +37,14 @@ In addition, you are unaffected by difficult terrain and its hazards.|
 A1:Sonic Screech
 Magic-Offensive-Action
 Use: 10AP+4mna
+Solowork: Increase Range by 1sp. Increase Accuracy 3.
 Range: 0sp AoE
 Accuracy: Magic
 OnPass: Target takes (3){MgcPwr} wind damage.|
 
 A2:Stone Skin
 Magic-Defensive-Passive
-Use: Cooldown 2.
+Use: (1/2turns).
 Effect: (1)+({TL}/5) per battle, when an attack would reduce your health to 0 or lower, the damage is ignored.|
 
 A3:Curse with Weakness
@@ -67,7 +68,8 @@ Magic-Offensive-Action
 Use: 15AP
 Range: 0sp+{MgcPwr/15} LoS
 Accuracy: Magic
-OnPass: Target becomes Dispirited (3){1}|
+OnPass: Target becomes Dispirited (3)
+Solowork: After OnPass, regain 10AP.|
 
 A6:Bad Omen
 Magic-Offensive-Action
@@ -85,11 +87,12 @@ Effect: Targeted allie gets +X/3 to their Evasion scores until the end of the ac
 
 A8: Petrify
 Magic-Offensive-Action
-Use: 10AP + 10mna
+Solowork: Reduce Use-cost by 5mna. Increase Accuracy by 2.
+Use: 10AP+10mna
 Range: 0sp
 Accuracy: Magic
 Roll twice for this ability.
-Subtract (5)+{TL} Action Points from their next turn for every passed check.|
+Subtract (5) Action Points from their next turn for every passed check.|
 
 A9: Rip and Tear
 Melee-Offensive-Action

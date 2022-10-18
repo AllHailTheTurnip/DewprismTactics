@@ -50,7 +50,8 @@ A2: Block
     Melee-Defense-Reaction
     Trigger: An enemy attacks you.
     Use: 3Sta
-    Using a primary or secondary weapon, incoming damage is reduced by (2){MlePwr}.|
+    Solowork: Increase the rank of your Primary or Secondary weapon for this ability.
+    Effect: Incoming damage is reduced by the damage of your Primary or Secondary weapon.|
 A3: Avenge Ally
     Skill-Support-Reaction
     Trigger: An ally dies.
@@ -82,10 +83,11 @@ A7: Wander
     If B > 10, move up to 1sp+{DL} north; else, move up to 1sp+{DL} south.|
 A8: Dive Slash
     Melee-Offensive-Action
-    Use: 10AP + 7Sta
+    Use: 10AP+7Sta
     Range: {CL/4} LoS
     Choose an enemy within range and leap through the air towards them.
-    Make a free attack action with +5 to your accuracy check.|
+    Make a free attack action with +5 to your accuracy check.
+    Solowork: Critical damage from this attack is increased by 1 Rank.|
 A9: Chain Attack
     Skill-Support-Reaction
     Trigger: You hit with a basic attack action.
