@@ -87,7 +87,7 @@ Range: 0sp
 Effect: Create an Anvil prop within range.
 Anvil prop: If a combatant enters this prop's space, it is destroyed and
  the combatant makes a Skill self-check.
- Upon failure, they take (3){15TL} metal damage.|
+ Upon failure, they take (3){5TL} metal damage.|
 
 A5: Spike Pit
 Magic-Defensive-Action
