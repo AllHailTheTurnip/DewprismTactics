@@ -1,6 +1,6 @@
 Name: Starlight Duke|
 Type: Miniboss|
-Level: 7|
+Level: 8|
 Intelligence: Wise|
 PrimaryClass: Starlight Duke|
 
@@ -12,24 +12,23 @@ Appearance: Similar to a five-pointed star.|
 Behavior: Waiting for you to notice, so he can pounce.|
 
 Vitals
-Health: 440|
-Mana: 33|
-Stamina: 33|
-Focus: 33|
+Health: 504|
+Mana: 39|
+Stamina: 39|
+Focus: 39|
 
 Scores
 Initiative: 13|
 Carry: 10u|
 Element: Light|
-MeleeDamage: 42, Crit: 84|
-MagicDamage: 35, Crit: 70|
-SkillDamage: 28, Crit: 56|
+MeleeDamage: 48, Crit: 96|
+MagicDamage: 40, Crit: 80|
+SkillDamage: 32, Crit: 64|
 
 Stats
-Melee: (Power: 42, Evasion: 8, Accuracy: -2)|
-Magic: (Power: 35, Evasion: 12, Accuracy: +1)|
-Skill: (Power: 28, Evasion: 15, Accuracy: 0)|
-
+Melee: (Power: 48, Evasion: 8, Accuracy: -2)|
+Magic: (Power: 40, Evasion: 12, Accuracy: +1)|
+Skill: (Power: 32, Evasion: 15, Accuracy: 0)|
 Talents
 Craft: 5|
 Harvest: 0|
@@ -47,4 +46,4 @@ Consumables:|
 Loot
 Experience: 200|
 Gil: 200|
-Loot: Stardust (Material. Make a free Movement action followed by a free Basic attack action. Value: 25gil)|
+Loot: 1x Stardust (Material. Make a free Movement action followed by a free Basic attack action. Value: 25gil)|
