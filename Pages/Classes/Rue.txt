@@ -36,7 +36,7 @@ ABILITIES
 Doctrine: Acquire Shape
     Magic-Support-Reaction
     Trigger: An enemy combatant dies.
-    Use: 2mna
+    Use: 5mna
     Give yourself a Shape token based on the dead combatant.
     Shape token: For 5AP you reassign your appearance, Scores, Stats, and Abilities to those of the combatant you got this token from.
     For 5AP you can return to your original state.|

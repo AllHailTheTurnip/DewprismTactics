@@ -666,6 +666,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <div class="Wide">
         <h2 id="Aggro">Aggro</h2>
         In combat, the most dangerous combatants should draw the most attention from the opposing side.
+        Enemies will go out of their way to attack the player with Aggro.
         Depending on your team's build, this can be a good thing or a bad thing.
         <p>Aggro, standing for "Aggression" is a role that is taken as a kind of status effect
         at the beginning of combat. It can be asked for voluntarily at the beginning of your turn,
@@ -677,6 +678,9 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         <p>
             If a PC is killed while being an aggressor, their killer regains
             all their Vitals and any negative status effects are removed.
+            Alternatively, if a combatant has Aggro but for one reason
+            or another cannot be targeted, such as due to Stealth,
+            then the enemy will target the next nearest viable opponent.
         </p>
         <p>
             Aggro applies to enemies up until their Health is reduced to the Danger threshold.
@@ -925,8 +929,9 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     </h3>
     Some abilities feature the Evade attribute, which is like the opposing version of Accuracy.
     Instead of the offender making the check, the defender makes a self-check. They will
-    roll 1d20, subtracting their Accuracy score, and must roll beneath their own Evasion score.
-    If their check meets or falls below the difficulty score,
+    roll 1d20, subtracting their Accuracy score and adding in the offender's Accuracy score,
+    and must roll beneath their (the defender's) own Evasion score.
+    If their check falls below the difficulty score,
     then they evade the attack; otherwise, they take damage.
     <p>
         Make a self-check, rolling below your specified evasion while subtracting
@@ -936,7 +941,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <p>
         For example, you make an AoE attack that has Evade: Melee, where your
         target takes their Melee Evasion score (10) and subtracts your Melee Accuracy score (2),
-        and they roll 1d20, hoping to get below 8.
+        and they roll 1d20 while subtracting their own Melee Accuracy score, hoping to get below 8.
     </p>
 
     <h3>

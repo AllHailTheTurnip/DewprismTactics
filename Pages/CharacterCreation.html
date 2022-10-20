@@ -187,33 +187,39 @@
             If you exceed your Carry, your movement and be penalized.
         </li>
         <li>
+            <b>Rank</b>.<br>
+            A score attached to every weapon and just about every ability. It is a score
+            held between parenthesis used to multiply an adjacent power score. Your
+            Melee, Magic, and Skill Damage tables are determined by their own respective
+            Ranks. Using an attack that has elemental advantage, or rolling a natural 20
+            for an accuracy check, increases the rank of that attack.
+        </li>
+        <li>
             <b>Melee Damage</b>.<br>
-            A value based on your Melee Power, multiplied by the Rank of your equipped Melee-type weapon.<br>
-            If no Melee-type weapon is equipped, assume the Rank is 1.<br>
-            If two Melee-type weapons are equipped, list both individual damage scores and crit scores side
-            by side with a slash "/" <br>
-            Melee-type attacks use this as their default damage.<br>
+            A brief reference of potential damages based on your base melee power multiplied by different ranks.<br>
+            When using a Melee-type weapon, you'll determine its damage based on the matching
+            rank found on this table. Likewise, abilities that use Melee Power
+            determine their damage from here.<br>
         </li>
         <li>
             <b>Magic Damage</b>.<br>
-            A value based on your Magic Power, multiplied by the Rank of your equipped Magic-type weapon.<br>
-            If no Magic-type weapon is equipped, assume the Rank is 1.<br>
-            If two Magic-type weapons are equipped, list both individual damage scores and crit scores side
-            by side with a slash "/" <br>
-            Magic-type attacks use this as their default damage.<br>
+            A brief reference of potential damages based on your base magic power multiplied by different ranks.<br>
+            When using a Magic-type weapon, you'll determine its damage based on the matching
+            rank found on this table. Likewise, abilities that use Magic Power
+            determine their damage from here.<br>
         </li>
         <li>
             <b>Skill Damage</b>.<br>
-            A value based on your Skill Power, multiplied by the Rank of your equipped Skill-type weapon.<br>
-            If no Skill-type weapon is equipped, assume the Rank is 1.<br>
-            If two Skill-type weapons are equipped, list both individual damage scores and crit scores side
-            by side with a slash "/" <br>
-            Skill-type attacks use this as their default damage.<br>
+            A brief reference of potential damages based on your base magic power multiplied by different ranks.<br>
+            When using a magic-type weapon, you'll determine its damage based on the matching
+            rank found on this table. Likewise, abilities that use Magic Power
+            determine their damage from here.<br>
         </li>
         <li>
             <b>Critical Damage</b>.<br>
             Beside each damage score is a score called Crit, which stands for Critical Damage.<br>
-            Crit is equal to its associated score, where it's weapon's Rank is increased by 1.
+            Crit is equal the attack's Rank+1. It is possible to increase an attack's
+            Rank multiple times in a single action.
         </li>
     </ul>
     <hr>
@@ -230,7 +236,7 @@
             Skill - Represents your skillful ability.
         </li>
     </ul>
-    Each attack-type is split into two columns: Power, and Evasion.<br>
+    Each attack-type is split into three columns: Power, Evasion, and Accuracy.<br>
     <ul>
         <li>
             <b>Power</b>.<br> Measured as the general effectiveness of your ability.<br>
@@ -239,6 +245,10 @@
         <li>
             <b>Evasion</b>.<br> How often you're able to dodge an attack of a certain type.<br>
             The higher the score, the harder it is to hit you.
+        </li>
+        <li>
+            <b>Accuracy</b>.<br> How good your aim with a certain attack-type.
+            The higher it, the more often your attack hit.
         </li>
     </ul>
     <hr>
@@ -411,38 +421,13 @@ such as passive abilities. Some abilities don't list an Evade or Accuracy check,
         </li>
         <li>
             <b>Materials</b><br>
-            Collected while out on your adventurers, materials are generally useless until they've
-            been taken back to town and given to a craftsman for processing. From there, they can
-            be turned into meals, potions, tools, weapons, and other useful things.
-            There are six slots of materials:
-            <ul>
-                <li>
-                    Meat. The muscle and organs stripped from creatures.<br>
-                    A chef/cook can turn it into meals.
-                </li>
-                <li>
-                    Wood. Includes twigs, logs, and leaves.<br>
-                    Typically used in weapons, tools, and housing.
-                </li>
-                <li>
-                    Fabric. Includes cotton, fur, and silk.<br>
-                    Typically used in clothing and medicine.
-                </li>
-                <li>
-                    Metal. Includes iron, bronze, and copper.<br>
-                    Used in weapons, tools.
-                </li>
-                <li>
-                    Mineral. Includes gems, geodes, and claws.<br>
-                    Used in tools and magical weapons.
-                </li>
-                <li>
-                    Special. Sometimes there are items that just don't fit in
-                    or needs to be marked as unique from the rest.
-                </li>
-            </ul>
+            Collected either from foraging or from looting monsters after a battle,
+            materials are primarily used for crafting consumables, weapon mods,
+            and new tools. However, they can also be consumed once for a lesser
+            effect.<br>
+            If one wishes, they can also sell the materials at the local
+            store for some spare change.
         </li>
-        There are three attributes for each slot: common, rare, and magic.
     </ul>
     <hr>
     <h3>Your Starting Equipment</h3>
@@ -634,9 +619,9 @@ such as passive abilities. Some abilities don't list an Evade or Accuracy check,
         Your Damage Scores
     </h3>
     You have three kinds of damage scores: Melee, Magic, and Skill.<br>
-    Your melee damage is equal to your Melee Power times your melee weapon's rank. If no melee-type weapon is equipped, your Melee Damage is equal to Melee Power.<br>
-    Your magic damage is equal to your Magic Power times your magic weapon's rank. If no magic-type weapon is equipped, your Magic Power is equal to Magic Power.<br>
-    Your skill damage is equal to your Skill Power times your skill weapon's rank. If no skill-type weapon is equipped, your Skill Power is equal to Skill Power.
+    Your melee damage is equal to your Melee Power times your melee weapon's rank. If no melee-type weapon is equipped, your Melee Damage is rank 1.<br>
+    Your magic damage is equal to your Magic Power times your magic weapon's rank. If no magic-type weapon is equipped, your Magic Power is rank 1.<br>
+    Your skill damage is equal to your Skill Power times your skill weapon's rank. If no skill-type weapon is equipped, your Skill Power is rank 1.
 </div>
 <div>
     <h2>Next Steps</h2>

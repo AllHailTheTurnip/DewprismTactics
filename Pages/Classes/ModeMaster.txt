@@ -1,35 +1,123 @@
-Title:|
-Subtitle:|
-Description:|
-???
+// ultimate shapeshifter
+// Can copy anything of the other players
+// Can reclassify self as an ally
+
+Title: Mode Master|
+Subtitle: Form-stealing Spy|
+Description: Mode Masters a modern form of terror that quietly emerged from
+the last great war. They are the ultimate insurgent, a master of shape-shifting,
+possessing an arsenal of occult techniques to blend in with a crowd. Their
+ability to assume any shape they will, to perfectly capture the mannerisms
+of their targets, and to quietly weed their way into the trust of anyone they
+meet is cause for the paranoia that surrounds them today.
+<p>Today, no one knows for sure just how many Mode Masters are really out
+there or where they're coming from. For one's own well-being,
+it's best to assume that all the Mode Masters are ensconced in the
+palaces, plotting against the rules of this world. But no one
+can ever truly be sure.</p>
+<p>Worse than thinking there's a Mode Master is after you is actually
+KNOWING it. To fight a Mode Master is to fight every person you've
+ever loved, to seat yourself so deep in paranoia you can return from it.
+When the time comes, they tend to assume the form of a wild beast in
+order to make the murder look like an accident.</p>|
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 30|
+Mana: 25|
+Stamina: 20|
+Focus: 20|
 
 SCORES
 Initiative: 10|
-Carry: 10u|
+Carry: 7u|
 Element: Neutral|
 
 STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 3, Evasion: 7, Accuracy: 0)|
+Magic: (Power: 3, Evasion: 8, Accuracy: 4)|
+Skill: (Power: 3, Evasion: 6, Accuracy: 2)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Form of Friend
+Magic-Defensive-Action
+Use: 10AP+7mna
+Effect: Every enemy combatant takes the Charmed status
+ While a combatant has the Charmed status, you (the caster) are considered a
+non-combatant ally and cannot be directly targeted by attacks,
+even indirectly via AoE. Please note: the Charmed status cannot stack.
+At the beginning of each enemy combatant's turn, they may make a Magic Self-check,
+whereupon success they lose the Charmed status.|
+
+A1: Copy Ability
+Magic-Support-Action
+Use: 10AP+5mna
+Range: 0sp
+Teamwork: You may skip the self-check for allies.
+Evade: Magic
+Effect: Choose a combatant within range
+and learn one of their non-doctrine abilities until the end of the battle.
+You may copy up to {DL} different abilities, otherwise you may choose one
+of your already copied abilities to remove before you copy another one.|
+
+A2: Copy Element
+Magic-Support-Action
+Use: 10AP+3mna
+Range: 1sp
+Effect: Target a combatant within range and
+change your element to match theirs.|
+
+A3: Copy Melee
+Magic-Support-Action
+Use: 10AP+5mna+3sta
+Range: 1sp
+Effect: Choose a combat within range. Change your Melee Scores (Power, Evasion,
+and Accuracy) to match the target's Melee Scores.|
+
+A4: Copy Magic
+Magic-Support-Action
+Use: 10AP+5mna
+Range: 1sp
+Effect: Choose a combat within range. Change your Melee Scores (Power, Evasion,
+and Accuracy) to match the target's Melee Scores.|
+
+A5: Copy Skill
+Magic-Support-Action
+Use: 10AP+5mna+2fcs
+Range: 1sp
+Effect: Choose a combat within range. Change your Melee Scores (Power, Evasion,
+and Accuracy) to match the target's Melee Scores.|
+
+A6: Copy Health
+Magic-Support-Action
+Use: 10AP+7mna
+Range: 0sp
+Evade: Magic
+Effect: Choose a combatant within range to target.
+Change your max Health to match the target's max Health.
+Multiply your current Health by {target's current Health}/{target's max Health}|
+
+A7: Copy Weapon
+Magic-Support-Action
+Use: 5AP+3mna
+Range: 2sp
+Effect: Target a combatant within range and one of your currently equipped
+weapons. Change your weapon to match the attributes of the target's primary weapon.|
+
+A8: Lead Away
+Skill-Offensive-Action
+Use: 5AP+5fcs+(1/turn)
+Range: Battlefield (line of sight)
+Evade: Skill
+Effect: Affected target makes a Sprint action in your direction.|
+
+A9: Copy Token or Status
+Magic-Offensive-Action
+Use: 10AP+7mna
+Range: 2sp
+Effect: Choose a combatant within range with an active Status or Token
+and create a copy of that Status/Token to apply to yourself.|
+
+
 
 
 MA1:|
