@@ -1,3 +1,7 @@
+Gizmo-Gia-Gias
+Microcosm
+
+
 Title:|
 Subtitle:|
 Description:|
@@ -16,8 +20,8 @@ Element: Neutral|
 
 STATS
 Melee: (Power: 3, Evasion: 15, Accuracy: 0)|
-Magic: (Power: 7, Evasion: 10)|
-Skill: (Power: 6, Evasion: 12)|
+Magic: (Power: 7, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 6, Evasion: 12, Accuracy: 0)|
 
 Abilities
 Doctrine:|

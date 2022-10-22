@@ -43,7 +43,7 @@ Arts: 0|
 Equipment
 PrimaryWeapon: Teeth (Skill, M, 1u, Use:  10AP, Pwr:  3 neutral)|
 SecondaryWeapon: Claws (Skill, M, 1u, Use:  10AP, Pwr:  3 metal, Artisan)|
-Tools: Padded Feet (+4 to Stealth-based talent checks)|
+Tools: Padded Feet (+4 to Stealth-based Skill self-checks)|
 Consumables: None|
 
 Loot
