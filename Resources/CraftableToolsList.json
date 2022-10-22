@@ -134,10 +134,24 @@
   },
   {
     "Name": "Carnal Flute",
-    "Application": "Three times per battle, you may grant yourself or an allie an additional 5AP for the start of their next turn.",
+    "Application": "[3] times per battle, you may grant yourself or an allie an additional 5AP for the start of their next turn.",
     "Ingredients": "2x Bone Marrow",
     "CraftCheck": "15",
     "Value": "800"
+  },
+  {
+    "Name": "Bone Shiv",
+    "Application": "Up to three times per battle, make a Luck 10 check against a combatant in your space. Upon success, they take stackable Bleeding [5]{TL}",
+    "Ingredients": "2x Spider Tooth",
+    "CraftCheck": "15",
+    "Value": "250"
+  },
+  {
+    "Name": "Thorax Shield",
+    "Application": "Once per turn and up to five times per battle, you may increase your Cover checks by [3].",
+    "Ingredients": "3x Thorax Fragment",
+    "CraftCheck": "15",
+    "Value": "350"
   },
   {
     "Name": "",

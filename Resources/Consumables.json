@@ -273,6 +273,34 @@
     "Value": "750"
   },
   {
+    "Name": "Spider Stew",
+    "Application": "Choose up to [3] enemies on the Battlefield to gain Paralyze 1.",
+    "Ingredients": "2x Spider Eye, 1x Venom Sack",
+    "CraftCheck": "17",
+    "Value": "75"
+  },
+  {
+    "Name": "Spider's Eye Pie",
+    "Application": "Ignore Evasion modifiers for enemies until the end of the battle.",
+    "Ingredients": "6x Spider Eye",
+    "CraftCheck": "",
+    "Value": ""
+  },
+  {
+    "Name": "Lethal Poison",
+    "Application": "Apply the stackable Poison [3]{5TL} attribute to your primary weapon until the end of combat.",
+    "Ingredients": "2x Spider Blood, 1x Venom Sack, ",
+    "CraftCheck": "15",
+    "Value": "180"
+  },
+  {
+    "Name": "",
+    "Application": "",
+    "Ingredients": "",
+    "CraftCheck": "",
+    "Value": ""
+  },
+  {
     "Name": "",
     "Application": "",
     "Ingredients": "",

@@ -1,0 +1,61 @@
+Title: Corpse Mongrel|
+Subtitle:|
+Description:|
+???
+
+VITALS
+Health: --|
+Mana: 10|
+Stamina: 25|
+Focus: 5|
+
+SCORES
+Initiative: 8|
+Carry: 10u|
+Element: Dark/Wind|
+
+STATS
+Melee: (Power: 5, Evasion: 8, Accuracy: -2)|
+Magic: (Power: 3, Evasion: 8, Accuracy: -1)|
+Skill: (Power: 3, Evasion: 8, Accuracy: -1)|
+
+Abilities
+Call for Kin (Adv)
+Skill-Support-Action
+Use: 10AP+3sta+3fcs
+Range: 0sp
+Effect: Create a Giant Spider combatant in your space.
+The Spider's max Vitals are equal to 1/4 your max.
+Upon being created, it rolls initiative. The clone vanishes after
+1 in-game hour, or until defeated. You may only create 1+{TL/5} at a time.
+If you attempt to create more than your maximum, the oldest ones de-spawn
+as new ones are brought in.
+
+Horrifying Screech
+Skill-Offensive-Action
+Use: 10AP+5fcs
+Range: {CL/3}sp AoE circle
+Accuracy: Skill
+OnPass: Target is forced away from user until outside of range.
+OnCrit: Target loses 10AP from their next turn.
+
+Carry
+Melee-Support-Passive
+Allies can climb onto your person. When you move, any allies on top of you are also moved.
+
+Unliving
+Magic-Support-Passive
+Effect: Immune to Asleep, Bleeding, and Poison
+
+Skill-Offensive-Action
+Solowork: Increase Rank of this ability by 1.
+Use: 5sta+5mna+5fcs+(1)/turn
+Effect: Increase the rank of an Ability by 1.
+
+
+MA1:|
+MA2:|
+MA3:|
+
+
+

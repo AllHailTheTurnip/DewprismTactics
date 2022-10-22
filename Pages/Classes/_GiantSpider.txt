@@ -1,0 +1,59 @@
+Title: Giant Spider|
+Subtitle:|
+Description:|
+???
+
+VITALS
+Health: --|
+Mana: 10|
+Stamina: 15|
+Focus: 20|
+
+SCORES
+Initiative: 12|
+Carry: 5u|
+Element: Dark|
+
+STATS
+Melee: (Power: 2, Evasion: 15, Accuracy: -1)|
+Magic: (Power: 2, Evasion: 5, Accuracy: 0)|
+Skill: (Power: 4, Evasion: 12, Accuracy: 4)|
+
+Abilities
+Hide
+Melee-Defensive-Reaction
+Trigger: A combatant's turn begins.
+Cost: 5Sta
+You may gain Stealth status and make a free movement action.
+
+Scout
+Melee-Support-Action
+Use: 5sta
+Teamwork: An allie in your space may follow you.
+Effect: Make a Movement action.
+
+Highly Agile
+Melee-Support-Passive
+Effect: Ignore difficult terrain.
+
+Coat with Poison
+Skill-Offensive-Action
+Use: 10AP+4fcs
+Range: Any ally on the battlefield.
+If the ally's Primary weapon doesn't already have it, give it the attribute of Poison (1){SklPwr}.
+Solowork: Alternatively, you may use this ability again to increase the Poison attribute's Rank by 1.
+
+Tactical Roll
+Melee-Defensive-Reaction
+Trigger: You are attacked by an enemy.
+Use: 3sta
+Effect: Increase your MleEva by 5 until the end of the attack.
+After the attack is resolved, move 1+(TL/4)sp in any diagonally direction.
+Teamwork: Increase your MleEva by 7 instead.
+
+MA1:|
+MA2:|
+MA3:|
+
+
+

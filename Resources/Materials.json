@@ -323,6 +323,36 @@
     "Value": "35"
   },
   {
+    "Name": "Spider Eye",
+    "RawApplication": "Upon consumption, enemies in your space lose Stealth Mode.",
+    "Value": "20"
+  },
+  {
+    "Name": "Venom Sack",
+    "RawApplication": "You gain Poison {15TL}",
+    "Value": "5"
+  },
+  {
+    "Name": "Spider Tooth",
+    "RawApplication": "Apply Bleeding {TL5} to your primary weapon until the end of the battle.",
+    "Value": "15"
+  },
+  {
+    "Name": "Spider Silk",
+    "RawApplication": "You gain Paralyzed 1",
+    "Value": "10"
+  },
+  {
+    "Name": "Thorax Fragment",
+    "RawApplication": "Increase your Evasion scores by 3 until the start of your next turn.",
+    "Value": "25"
+  },
+  {
+    "Name": "Spider Blood",
+    "RawApplication": "Your element changes to Noble until the end of your turn.",
+    "Value": "35"
+  },
+  {
     "Name": "",
     "RawApplication": "",
     "Value": ""

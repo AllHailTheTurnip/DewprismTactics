@@ -1,0 +1,59 @@
+Title: Lord Spider|
+Subtitle:|
+Description:|
+???
+
+VITALS
+Health: -|
+Mana: -|
+Stamina: -|
+Focus: -|
+
+SCORES
+Initiative: 14|
+Carry: 10u|
+Element: Noble|
+
+STATS
+Melee: (Power: 6, Evasion: 10, Accuracy: -1)|
+Magic: (Power: 3, Evasion: 10, Accuracy: +2)|
+Skill: (Power: 6, Evasion: 10, Accuracy: +1)|
+
+Abilities
+Doctrine: Mobile Fortress
+Melee-Defense-Passive
+Effect: At the beginning of your turn, while conscious, you must pay a total of 3 points
+between your stamina, mana, and focus.
+Throughout each turn, you may negate up to a total of (5){MlePwr} points in damage.
+
+Swap Places
+Magic-Offense-Action
+Use: 10AP+5mna
+Reduce Use cost by 1AP+1mna when you reach level 4, 8, 12, 16, and 20.
+Range: 3sp
+Teamwork: Increase Accuracy check by 2.
+Accuracy: Magic
+OnPass: Choose yourself and a target (animate or inanimate) and swap locations with them.
+
+Magic-Offense-Action
+Use: 10AP+3mna
+Range: {TL/5}
+Luck: 12
+OnPass: Target is jinxed. All their Luck checks have disadvantage.
+
+Carnivore
+Melee-Support-Passive
+Effect: When making an unarmed attack, you may half your inflicted damage and regain an equal amount as health.
+
+Horrifying
+Skill-Defensive-Action
+Cost: 5fcs
+Accuracy: Skill
+OnPass: Opponent returns to their previous space.
+
+MA1:|
+MA2:|
+MA3:|
+
+
+
