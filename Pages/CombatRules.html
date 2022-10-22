@@ -144,13 +144,14 @@
         Turns and Rounds
     </h3>
     Battle is measured in turns and rounds. Once per round each player takes their turn, starting
-    from highest to lowest. A turn (in-game) typically lasts 5 seconds. Once all players have taken their turns,
-    the round ends and a new one begins.
+    from highest to lowest initiative. A turn (in-game) typically lasts 5 seconds.
+       Once all players have taken their turns, the round ends and a new one begins.
     <p>
-        When it's a player's turn, they first update any counters/timed effects that are on their person.
-        Any extra effects, such as poison, gradual healing, or burn, are then applied. Finally,
-        they are granted 20 Action Points (AP) with which to spend on actions. Common
-        actions and abilities all use AP.
+        When it's a player's turn, they first update any start-of-turn timed effects.
+        Next, they are granted 20 Action Points (AP) with which to spend on actions. Common
+        actions and abilities all use AP, and a few require resources.
+        Finally, any end-of-turn timed effects are updated, and special effects such as
+        bleeding or poison are applied.
     </p>
 
     <h3>
@@ -192,8 +193,8 @@
     you're bleeding and will soon pass out, or that maybe you've been blessed with great accuracy.
     <p>
         When you get a status effect, you can only have it once and must wait until it has worn off
-        or is removed for you to take the status effect again. This also means that status effects
-        cannot stack effects. The exception is for status effects that are marked as Stackable.
+        or is removed for you to take the status effect again.
+        The exception is for status effects that are marked as Stackable.
     </p>
        <p>
            The influence of Status Effects occur at the end of the affected player's turn.

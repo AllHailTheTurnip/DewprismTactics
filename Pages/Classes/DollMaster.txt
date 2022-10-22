@@ -1,40 +1,57 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Title: Doll Master|
+Subtitle: Mysterious Mastermind|
+Description: The original Doll Masters were first created during the reign of the Aeons
+as chief servants. Bereft of individual will, they commanded with their master's authority.
+In classical fashion, they are similar to royal
+<p>
+In combat, they utilize a mixture of magic, technique, and martial prowess to
+coordinate their allies and take control of their enemies. They are frustrating
+to fight as they are helpful to fight with.
+</p>
+<p> With the disappearance of the Aeons, many Doll Masters simply shut down and
+never awoke. However, many defective Doll Masters stayed awake to wander the planet
+in search of a new master to serve. However, it shall be known that no Doll Master
+has ever forgotten their first master, and long for the day when they return.
+</p>|
 
 VITALS
 Health: 45|
 Mana: 15|
-Stamina: 15|
-Focus: 15|
+Stamina: 20|
+Focus: 20|
 
 SCORES
-Initiative: 10|
+Initiative: 12|
 Carry: 10u|
-Element: Neutral|
+Element: Noble|
 
 STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
+Melee: (Power: 5, Evasion: 12, Accuracy: 0)|
+Magic: (Power: 4, Evasion: 14, Accuracy: 0)|
+Skill: (Power: 5, Evasion: 12, Accuracy: 2)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Seal Power|
+Magic-Offensive-Action
+Use: 10AP+7mna
+Range: 3sp
+Evade:
+Effect:
+
+A1: Coordinate Strike|
+A2: Call Guard|
+A3: Efficiency|
+A4: Mind Control|
+A5: Call Attack|
+A6: Conceal Purpose|
+A7: Demand Surrender|
+A8: Diligence|
+A9: Fortify Failure|
 
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Revelation|
+MA2: Swear Loyalty|
+MA3: Bestow Purpose|
 
 
 

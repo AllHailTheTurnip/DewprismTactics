@@ -117,9 +117,6 @@ Range: 2sp
 Effect: Choose a combatant within range with an active Status or Token
 and create a copy of that Status/Token to apply to yourself.|
 
-
-
-
 MA1:|
 MA2:|
 MA3:|

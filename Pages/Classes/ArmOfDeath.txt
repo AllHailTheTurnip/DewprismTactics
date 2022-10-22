@@ -1,0 +1,103 @@
+Title: Arm of Death|
+Subtitle: Bringer of Disaster|
+Description: Another relic from the days of the Aeons, the Arm of Death is theorized
+to have been a kind of last-resort protector. Their power is both brutal and
+careful, where they can direct their destructive energies towards swiftly and quickly eliminating
+targets while leaving the surrounding area unscathed.
+<p> Once the Aeons disappeared, the Arms of Death that remained were left to wander
+the world in search of their master. They know neither rest nor idle, and are constantly
+wandering from one place to the next. They kill anything and anyone that disturbs them,
+yet are always gone as soon as the act is finished.</p>|
+
+VITALS
+Health: 60|
+Mana: 15|
+Stamina: 15|
+Focus: 15|
+
+SCORES
+Initiative: 15|
+Carry: 10u|
+Element: Dark/Noble|
+
+STATS
+Melee: (Power: 6, Evasion: 6, Accuracy: 0)|
+Magic: (Power: 6, Evasion: 5, Accuracy: 1)|
+Skill: (Power: 6, Evasion: 6, Accuracy: -2)|
+
+Abilities
+Doctrine: Deathly Grip
+Melee-Support-Passive
+Effect: Increase the Range attribute of all your abilities by 1sp.
+Increase the Accuracy check (where applicable) of all affected abilities
+by 3.|
+
+A1: Shadow Missile
+Magic-Offensive-Action
+Use: 10AP+3mna
+Range: 1sp
+Evade: Magic
+Effect: If after passing the Evade check, enemies must pay 3sta to move one
+1sp away from the caster, otherwise they take (3){MgcPwr} dark damage.|
+
+A2: Clawed Swipe
+Melee-Offensive-Action
+Use: 10AP+3sta
+Range: 0sp
+Accuracy: Melee
+X = Make a Luck 10 check, whereupon success you increase the Rank (max 5) of this ability.
+Effect: Execute X and repeat until the Luck check fails. Inflict (1){MlePwr} damage.|
+
+A3: Absorb Power
+Magic-Support-Action
+Use: 20AP
+Range: 0sp
+Effect: If the combatant is dead, you may increase your Power scores by 1/5 (min 0) of their own.
+Remove the combatant's body from battle.|
+
+A4: Destroy
+Melee-Offensive-Action
+Use: 10AP+3sta+3mna
+Range: 0sp
+Effect: Target a structure (wall, ceiling, floor, et cetera), prop, or item in range and destroy it.|
+
+A5: Snatch
+Skill-Offensive-Action
+Use: 10AP+(1/turn)
+Range: 1sp
+Accuracy: Skill
+Effect: Move into the same space as the target. Inflict (1){SklPwr} damage.
+ Target cannot make actions until the start of their next turn.|
+
+A6: Wings
+Magic-Support-Action
+Use: 3mna
+Effect: You may make Movement actions in any direction, regardless of terrain.|
+
+A7: Aura of the Apex Predator
+Melee-Support-Passive
+Range: Battlefield
+Effect: While your remaining Health is above 50% of its max, enemy combatants must
+spend 5AP to move out of your space at the end of their turns.|
+
+A8: Murder
+Skill-Offensive-Action
+Use: (1/turn)
+Range: 0sp
+Effect: If the target has less than (2){your SklPwr} Health remaining, their health is reduced to negative its max (dead).|
+
+A9: Invoke Wrath
+Skill-Support-Reaction
+Trigger: You killed or knocked-out an enemy combatant.
+Range: 3sp
+Evade: Skill
+Effect: The targeted enemy is marked with Wrath.
+Wrath mark: You may only move towards or make actions against the creator of this mark.
+If you succeed in afflicting a negative status affect or inflicting damage, this mark is removed.|
+
+MA1: Undefeatable|
+MA2: |
+MA3: |
+
+
+
