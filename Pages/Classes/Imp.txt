@@ -101,12 +101,11 @@ At any point during your turns, you may choose to give any amount of your Health
 
 A8: Become Invisible
 Magic-Support-Action
-Use: 10AP+5mna
-Range: Self
-Effect: You turn completely invisible; you cast no shadow and light passes completely through you.
-While invisible, your MleEva- and SklEva scores are raised to 20.
-At the beginning of each turn, spend 2mna to remain invisible.
-If you take damage or run out of mana, you become visible again.|
+Use: 5mna+(1/turn)
+Effect: You take the Invisible status.
+While Invisible, your Evasion scores are increased to 20.
+After attacking, you must spend 5mna to retain the Invisible status.
+At the beginning of each turn, spend 5mna to retain the Invisible status.|
 
 A9: Jinx!
 Magic-Offense-Action

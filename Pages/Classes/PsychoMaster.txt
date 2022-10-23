@@ -54,7 +54,7 @@ A2: Omnscience
 Skill-Support-Action
 Use: 7fcs
 Range: 1sp
-Effect: Ignore an enemy's Stealth evasion modifiers if they're within range.| // See in dark and ignore Stealth mode.
+Effect: Ignore an enemy's Stealth evasion modifiers if they're within range.| // See in dark and ignore Stealth.
 
 A3: Deflect
 Skill-Defensive-Reaction

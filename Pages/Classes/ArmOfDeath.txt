@@ -21,16 +21,18 @@ Carry: 10u|
 Element: Dark/Noble|
 
 STATS
-Melee: (Power: 6, Evasion: 6, Accuracy: 0)|
-Magic: (Power: 6, Evasion: 5, Accuracy: 1)|
-Skill: (Power: 6, Evasion: 6, Accuracy: -2)|
+Melee: (Power: 6, Evasion: 8, Accuracy: 0)|
+Magic: (Power: 6, Evasion: 8, Accuracy: 1)|
+Skill: (Power: 6, Evasion: 8, Accuracy: -2)|
 
 Abilities
 Doctrine: Deathly Grip
 Melee-Support-Passive
 Effect: Increase the Range attribute of all your abilities by 1sp.
 Increase the Accuracy check (where applicable) of all affected abilities
-by 3.|
+by 3.
+After using an Offensive action, decrease your Evasion scores by 3 until
+the start of your next turn.|
 
 A1: Shadow Missile
 Magic-Offensive-Action
