@@ -56,7 +56,7 @@ OnPass: Bleeding (1){MlePwr}|
 A2: Flight
 Melee-Movement-Action
 Use: 20AP
-Teamwork: Increase the rank of this ability by A.
+Teamwork: Increase the rank of this ability by TmWrk.
 Effect: Move (1)sp in any direction; you are not affected by difficult terrain.|
 
 A3: Copy Spell

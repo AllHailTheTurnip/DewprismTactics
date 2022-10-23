@@ -82,7 +82,7 @@ OnHit: The target takes (1){SklPwr} neutral damage.|
 A6: Full Aggro
 Melee-Offensive-Action
 Use: 10AP
-Teamwork: Increase rank of this ability by A.
+Teamwork: Increase rank of this ability by TmWrk.
 Effect: Scream, holler, and jump around like an aggressive ape. Take the
  Aggro status and reduce incoming damage by (1) rank (min 0) until the start of your next turn.|
 

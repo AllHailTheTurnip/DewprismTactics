@@ -83,6 +83,7 @@ Effect: Reduce the target's Critical Threshold by (1).|
 A4: Falling Anvil
 Skill-Offensive-Action
 Use: 10AP+5mna
+Teamwork: Increase Range by 3sp.
 Range: 0sp
 Effect: Create an Anvil prop within range.
 Anvil prop: If a combatant enters this prop's space, it is destroyed and

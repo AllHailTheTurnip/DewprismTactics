@@ -34,9 +34,10 @@ Abilities
 Doctrine: Seal Power
 Magic-Offensive-Action
 Use: 10AP+7mna
+Teamwork: Increase Range by TmWrk.
 Range: 2sp
 Evade: Magic
-Effect: All of the target's abilities are disabled until the start of your next turn.|
+Effect: All of the target's abilities are disabled until the end of their next turn.|
 
 A1: Guided Strike
 Skill-Support-Action
@@ -57,7 +58,9 @@ A3: Efficiency
 Skill-Support-Action
 Use: 7fcs+(1/turn)
 Range: 1sp
-Effect: Target an ally within range. Grant an additional 5AP to their next
+X = 5AP.
+Solowork: Increase X by 3sta+3mna+3fcs.
+Effect: Target an ally within range. Grant an additional X to their next
 turn.|
 
 A4: Mind Control
@@ -74,6 +77,7 @@ Please note: You cannot make the target attack themselves or flee the battlefiel
 
 A5: Call Attack
 Skill-Support-Action
+Teamwork: Improve Use-cost by 1/turn.
 Use: 5AP+5fcs+(1/turn)
 Range: 2sp
 Effect: Grant a Called Attack token to a target within range.
@@ -81,17 +85,33 @@ Called Attack token: If an enemy attacks you, you may choose to destroy this
  token and reduce their Accuracy check by 5 or increase your Evasion check by 5 for the duration
 of their turn.|
 
-A6: Conceal Purpose
+A6: Vanish
 Skill-Defensive-Reaction
-Trigger: Battle is declared.
+Trigger: You gain Stealth.
+Solowork: Ignore the Use-cost.
 Use: 5fcs+5sta
-Effect: Take Stealth and position yourself in any of the enemy spaces.|
+Effect: Teleport yourself into any of the enemy spaces.|
 
+A7: Demand Surrender
+Skill-Offensive-Action
+Use: 10AP+5fcs+(3/battle)
+Range: 1sp
+Evade: Skill
+Effect: Target gains the Surrendered status. While the target has Surrendered,
+they are counted as neutralized to the conflict and cannot take turns.
+At the beginning of their turn, they may make a Skill self-check, whereupon
+success they lose the Surrendered status and re-enter the conflict as normal.|
 
-A7: Demand Surrender|
-A8: Diligence|
-A9: Fortify Failure|
+A8: Diligence
+Melee-Support-Reaction
+Trigger: You succeeded against an Evade check.
+Effect: Restore your Stamina, Mana, and Focus by 3 points.|
 
+A9: Demoralize
+Skill-Offensive-Action
+Use: 10AP+3fcs
+Range: 1sp
+Effect: Choose either an opponent's weapon or an ability and reduce its Rank by 1.|
 
 MA1: Revelation|
 MA2: Swear Loyalty|

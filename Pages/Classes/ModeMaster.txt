@@ -77,19 +77,20 @@ A4: Copy Magic
 Magic-Support-Action
 Use: 10AP+5mna
 Range: 1sp
-Effect: Choose a combat within range. Change your Melee Scores (Power, Evasion,
-and Accuracy) to match the target's Melee Scores.|
+Effect: Choose a combatant within range. Change your Magic Scores (Power, Evasion,
+and Accuracy) to match the target's Magic Scores.|
 
 A5: Copy Skill
 Magic-Support-Action
 Use: 10AP+5mna+2fcs
 Range: 1sp
-Effect: Choose a combat within range. Change your Melee Scores (Power, Evasion,
-and Accuracy) to match the target's Melee Scores.|
+Effect: Choose a combat within range. Change your Skill Scores (Power, Evasion,
+and Accuracy) to match the target's Skill Scores.|
 
 A6: Copy Health
 Magic-Support-Action
 Use: 10AP+7mna
+Solowork: Increase Range to Battlefield.
 Range: 0sp
 Evade: Magic
 Effect: Choose a combatant within range to target.
@@ -105,15 +106,17 @@ weapons. Change your weapon to match the attributes of the target's primary weap
 
 A8: Lead Away
 Skill-Offensive-Action
+Solowork: Reduce the Use-cost by 1/turn.
 Use: 5AP+5fcs+(1/turn)
 Range: Battlefield (line of sight)
 Evade: Skill
-Effect: Affected target makes a Sprint action in your direction.|
+Effect: Affected target makes a free Sprint action in your direction.|
 
 A9: Copy Token or Status
 Magic-Offensive-Action
 Use: 10AP+7mna
 Range: 2sp
+Teamwork: Restore the original duration of the acquired token or status.
 Effect: Choose a combatant within range with an active Status or Token
 and create a copy of that Status/Token to apply to yourself.|
 

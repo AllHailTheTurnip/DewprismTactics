@@ -48,7 +48,7 @@ Magic-Offensive-Action
 Use: 10AP+7mna
 Range: 1sp
 Luck: 15
-Teamwork: Reduce Luck difficulty check by A.
+Teamwork: Reduce Luck difficulty check by TmWrk.
 OnPass: Target gets Doomed 3-(0).|
 
 A3: Sleeper's Head

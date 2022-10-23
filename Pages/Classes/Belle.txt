@@ -110,7 +110,7 @@ A8:Channel Power
 Magic-Offensive-Action
 Use: 5mna+(1/turn)
 Effect: Increase the Rank of your next action by 1.
-Teamwork: Reduce the Critical Threshold of your next action by A.|
+Teamwork: Reduce the Critical Threshold of your next action by TmWrk.|
 
 A9:Backflip
 Melee-Defensive-Reaction
