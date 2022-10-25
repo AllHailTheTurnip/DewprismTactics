@@ -353,6 +353,11 @@
     "Value": "35"
   },
   {
+    "Name": "Red Gills",
+    "RawApplication": "Grants water breathing for 1 hour.",
+    "Value": "15"
+  },
+  {
     "Name": "",
     "RawApplication": "",
     "Value": ""
