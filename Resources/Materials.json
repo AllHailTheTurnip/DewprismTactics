@@ -358,6 +358,11 @@
     "Value": "15"
   },
   {
+    "Name": "Monster Jelly",
+    "RawApplication": "Increases the restorative effects of a consumable by 1 rank.",
+    "Value": "20"
+  },
+  {
     "Name": "",
     "RawApplication": "",
     "Value": ""
