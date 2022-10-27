@@ -8,6 +8,8 @@ async function InsertAbilityModsList(listId) {
     let index = 0;
     let listLength = list.length;
 
+    list.sort((a, b) => (a["Name"] > b["Name"]) ? 1 : -1);
+
     let domList = document.getElementById("AbilityModsBody");
 
     for (let i = 0; i < listLength; i++) {

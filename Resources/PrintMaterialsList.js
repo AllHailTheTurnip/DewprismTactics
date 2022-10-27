@@ -3,8 +3,12 @@ async function GetMaterialsList() {
 }
 
 
+
 async function InsertMaterialsList(listId) {
-    const list = await GetMaterialsList();
+    let list = await GetMaterialsList();
+
+    list.sort((a, b) => (a["Name"] > b["Name"]) ? 1 : -1);
+
     let index = 0;
     let listLength = list.length;
 

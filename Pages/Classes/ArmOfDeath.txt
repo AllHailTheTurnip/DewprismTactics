@@ -39,9 +39,9 @@ Magic-Offensive-Action
 Use: 10AP+3mna
 Solowork: Increase Range by 1sp.
 Range: 1sp
-Evade: Magic
-Effect: If after passing the Evade check, enemies must pay 3sta to move one
-1sp away from the caster, otherwise they take (3){MgcPwr} dark damage.|
+Effect: The target must pay 3sta to make a Magic Evade check.
+If they cannot pay the stamina or fail the Evade check, they are hit.
+Dmg: (3){MgcPwr}|
 
 A2: Clawed Swipe
 Melee-Offensive-Action
@@ -74,8 +74,9 @@ Effect: Move into the same space as the target. Inflict (1){SklPwr} damage.
 
 A6: Wings
 Magic-Support-Action
-Use: 3mna
-Effect: You may make Movement actions in any direction, regardless of terrain.|
+Use: 3mna+(1/turn)
+Effect: You may make Movement actions in any direction, regardless of terrain.
+If you do not pay for this ability again by the end of your next turn, you fall to the ground.|
 
 A7: Aura of the Apex Predator
 Melee-Support-Passive
