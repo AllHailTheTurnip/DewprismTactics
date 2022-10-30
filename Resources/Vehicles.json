@@ -82,5 +82,12 @@
     "Speed": "45",
     "Rate": "25",
     "Cost": "750"
+  },
+  {
+    "Name": "Arcanacycle",
+    "Desc": "A bicycle that's been upgraded to harness the power of a sorcerous driver, granting it immense speed. Can carry up to 40u",
+    "Speed": "720",
+    "Rate": "50",
+    "Cost": "25,000"
   }
 ]
