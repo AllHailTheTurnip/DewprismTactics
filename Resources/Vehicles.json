@@ -23,56 +23,56 @@
   {
     "Name": "Boat (Small, Row)",
     "Desc": "Can only be used on water. Can carry up to 60u.",
-    "Speed": "15",
+    "Speed": "115",
     "Rate": "5",
     "Cost": "200"
   },
   {
     "Name": "Boat (Medium, Manual/Sail)",
     "Desc": "Can only be used on water (trust us, we tried). Can carry up to 750u.",
-    "Speed": "30",
+    "Speed": "120",
     "Rate": "25",
     "Cost": "800"
   },
   {
     "Name": "Boat (Large, Sail)",
     "Desc": "Can only be used on water. Requires at least 3 crew to operate. Can carry up to 1,500u",
-    "Speed": "30",
+    "Speed": "125",
     "Rate": "35",
     "Cost": "14,000"
   },
   {
     "Name": "Glider (Personal, Manual)",
     "Desc": "Can carry up to 20u.",
-    "Speed": "40",
+    "Speed": "300",
     "Rate": "5",
     "Cost": "700"
   },
   {
     "Name": "Balloon (Small)",
     "Desc": "Can carry up to 80u. Requires 1 hour to prepare before lift-off.",
-    "Speed": "40",
+    "Speed": "120",
     "Rate": "15",
     "Cost": "650"
   },
   {
     "Name": "Balloon (Large)",
     "Desc": "Can carry up to 200u. Requires 2 hours to prepare before lift-off.",
-    "Speed": "50",
+    "Speed": "100",
     "Rate": "25",
     "Cost": "1,750"
   },
   {
     "Name": "Airship (Small)",
     "Desc": "A symbol of danger and war. Can carry up to 400u. Externally made Accuracy checks are reduced by 5.",
-    "Speed": "40",
+    "Speed": "200",
     "Rate": "50",
     "Cost": "5,500"
   },
   {
     "Name": "Airship (Large)",
     "Desc": "A symbol of war. Can carry up to 800u. Externally made Accuracy checks are reduced by 8.",
-    "Speed": "50",
+    "Speed": "300",
     "Rate": "75",
     "Cost": "15,000"
   },
