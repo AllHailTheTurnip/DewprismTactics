@@ -1,0 +1,86 @@
+[
+  {
+    "Name": "Horse",
+    "Desc": "Can be used to pull a carriage at half-speed or ridden at full. Can carry up to 40u.",
+    "Speed": "40",
+    "Rate": "20",
+    "Cost": "500"
+  },
+  {
+    "Name": "Carriage (Large)",
+    "Desc": "Useless unless pulled by a horse or a traveler with a MleStr of 50 or higher.<br>Can carry up to 500u",
+    "Speed": "-",
+    "Rate": "10",
+    "Cost": "750"
+  },
+  {
+    "Name": "Carriage (Small)",
+    "Desc": "Useless unless pulled by a horse or a traveler with a MleStr of 25 or higher.<br>Can carry up to 250u.",
+    "Speed": "-",
+    "Rate": "5",
+    "Cost": "350"
+  },
+  {
+    "Name": "Boat (Small, Row)",
+    "Desc": "Can only be used on water. Can carry up to 60u.",
+    "Speed": "15",
+    "Rate": "5",
+    "Cost": "200"
+  },
+  {
+    "Name": "Boat (Medium, Manual/Sail)",
+    "Desc": "Can only be used on water (trust us, we tried). Can carry up to 750u.",
+    "Speed": "30",
+    "Rate": "25",
+    "Cost": "800"
+  },
+  {
+    "Name": "Boat (Large, Sail)",
+    "Desc": "Can only be used on water. Requires at least 3 crew to operate. Can carry up to 1,500u",
+    "Speed": "30",
+    "Rate": "35",
+    "Cost": "14,000"
+  },
+  {
+    "Name": "Glider (Personal, Manual)",
+    "Desc": "Can carry up to 20u.",
+    "Speed": "40",
+    "Rate": "5",
+    "Cost": "700"
+  },
+  {
+    "Name": "Balloon (Small)",
+    "Desc": "Can carry up to 80u. Requires 1 hour to prepare before lift-off.",
+    "Speed": "40",
+    "Rate": "15",
+    "Cost": "650"
+  },
+  {
+    "Name": "Balloon (Large)",
+    "Desc": "Can carry up to 200u. Requires 2 hours to prepare before lift-off.",
+    "Speed": "50",
+    "Rate": "25",
+    "Cost": "1,750"
+  },
+  {
+    "Name": "Airship (Small)",
+    "Desc": "A symbol of danger and war. Can carry up to 400u. Externally made Accuracy checks are reduced by 5.",
+    "Speed": "40",
+    "Rate": "50",
+    "Cost": "5,500"
+  },
+  {
+    "Name": "Airship (Large)",
+    "Desc": "A symbol of war. Can carry up to 800u. Externally made Accuracy checks are reduced by 8.",
+    "Speed": "50",
+    "Rate": "75",
+    "Cost": "15,000"
+  },
+  {
+    "Name": "Wyrm",
+    "Desc": "Otherwise known as a land-dragon. They can be ridden at full-speed or pull a carriage at half-speed. Can carry up to 60u,",
+    "Speed": "45",
+    "Rate": "25",
+    "Cost": "750"
+  }
+]
