@@ -476,7 +476,7 @@
     During combat, if you're concealed behind Full Cover, you may make a
     Skill self-check to hide yourself. Upon success, you enter Stealth and become hidden.
     <p>
-        If you move to another space or target an enemy combatant,
+        If you move to another space or finish attacking an enemy combatant,
         make the check again to remain in Stealth. Some terrain
         conditions, such as darkness, or intense light, or glass on the ground, can either
         grant advantage or disadvantage to your checks - at GM discretion.
@@ -488,6 +488,11 @@
     </p>
     <p>
         While in Stealth, all your Evasion scores are increased to 20.
+    </p>
+    <p>
+        An enemy combatant can uncover your Stealth by choosing up to three
+        spaces and making a Skill Accuracy check against you. Upon success,
+        you lose Stealth.
     </p>
 
     <h4>Sneak Attacks</h4>
@@ -580,7 +585,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <h3>
         Destroy
     </h3>
-    AP Cost: 20 <br>
+    AP Cost: 10 <br>
     Declare that you wish to destroy an object.
     Target an unequipped item outside of a target's inventory, such as a prop, a weapon, clothing,
     or accessory, and destroy it.<br>
@@ -601,16 +606,14 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <hr>
 
     <h3>
-        Talent Checks
+        Supportive Checks
     </h3>
-    AP Cost: 5 <br>
-    Declare that you'd like to make a Talent check and wait for the DM to determine how difficult it will be
-    to accomplish. A larger scale check may also require more AP to fulfill, and may even require more than
-    one turn.
-    <br>First spending the AP and then make the check. Upon success, the task is fulfilled as usual.<br>
-
-    Keep in mind that Efficiency checks are impossible in combat.
-
+    AP Cost: 10 (first check is free) <br>
+    A Supportive check is an action made exclusively from an ability or basic attack action.
+    Talent checks, checks to enter Stealth and to reveal Stealth, and arbitrary self-checks, all count as supportive.
+    They idea is that you're making a check for the purpose of assisting you in between major actions, such as using an ability or attacking an enemy.
+    Declare that you'd like to make a Supportive check and wait for the DM to determine how difficult it will be
+    to accomplish.
     <hr>
     <h3>
         Execute
@@ -745,48 +748,48 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
 
 
     Elements that are strong against another element will increase their rank by 1 for the action.<br>
-    Elements that are weak against another element will reduce their rank by 1 for the action.
+    Elements that are vulnerable to an element will reduce their rank by 1 for the action.
     <ul>
         <li>
-            <span class="Fire">Fire</span> is strong against <span class="Wind">Wind</span>, and weak against <span
+            <span class="Fire">Fire</span> is strong against <span class="Wind">Wind</span>,
+            and vulnerable to <span
                 class="Water">Water</span>.
         </li>
         <li>
             <span class="Water">Water</span> is strong against <span
-                class="Fire">Fire</span>, and weak against <span
+                class="Fire">Fire</span>, and vulnerable to <span
                 class="Wind">Wind</span>.
         </li>
         <li>
             <span class="Wind">Wind</span> is strong against <span
-                class="Water">Water</span>, and weak against
+                class="Water">Water</span>, and vulnerable to
             <span class="Fire">Fire</span> .
         </li>
         <li>
             <span class="Darkness">Darkness</span> is strong against <span
                 class="Light">Light</span>
-            and weak against <span class="Darkness">Darkness</span>.
+            and vulnerable to <span class="Darkness">Darkness</span>.
         </li>
         <li>
             <span class="Light">Light</span> is strong against <span
                 class="Darkness">Darkness</span> and is
-            weak against <span class="Light">Light</span>
+            vulnerable to <span class="Light">Light</span>
         </li>
         <li>
             <span class="Metal">Metal</span> is strong against <span
                 class="Electric">Electric</span> and
-            weak against <span class="Metal">Metal</span>.
+            vulnerable to <span class="Metal">Metal</span>.
         </li>
         <li>
             <span class="Electric">Electric</span> is strong against <span
                 class="Metal">Metal</span> and
-            weak against <span class="Electric">Electric</span>
+            vulnerable to <span class="Electric">Electric</span>
         </li>
         <li>
-            <span class="Noble">Noble</span> is strong against everything and weak
-            against everything.
+            <span class="Noble">Noble</span> is strong against everything and vulnerable everything.
         </li>
         <li>
-            <span class="Neutral"></span> Neutral is neither strong nor weak against anything.
+            <span class="Neutral"></span> Neutral is neither strong nor vulnerable to anything.
         </li>
     </ul>
 
@@ -798,7 +801,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <ul>
         <li>
             A fighter uses a water-based attack against a fire-based monster. Because the monster's element is
-            weak to the attack's element, instead of taking 10 (2x5) damage, it takes 15 (3x5) .
+            vulnerable to the attack's element, instead of taking 10 (2x5) damage, it takes 15 (3x5) .
         </li>
         <li>
             A fighter uses a water-based attack against a wind-based monster. Because the monster's element

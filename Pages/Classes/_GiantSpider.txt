@@ -4,7 +4,7 @@ Description:|
 ???
 
 VITALS
-Health: --|
+Health: 30|
 Mana: 10|
 Stamina: 15|
 Focus: 20|

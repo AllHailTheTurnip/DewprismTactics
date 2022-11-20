@@ -47,6 +47,7 @@ Unliving
 Magic-Support-Passive
 Effect: Immune to Asleep, Bleeding, and Poison
 
+Overcharge Burst
 Skill-Offensive-Action
 Solowork: Increase Rank of this ability by 1.
 Use: 5sta+5mna+5fcs+(1)/turn

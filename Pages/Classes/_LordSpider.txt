@@ -35,6 +35,7 @@ Teamwork: Increase Accuracy check by 2.
 Accuracy: Magic
 OnPass: Choose yourself and a target (animate or inanimate) and swap locations with them.
 
+jinx
 Magic-Offense-Action
 Use: 10AP+3mna
 Range: {TL/5}
