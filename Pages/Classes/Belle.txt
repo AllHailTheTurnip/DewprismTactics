@@ -71,7 +71,7 @@ Magic-Offensive-Action
 Use: 10AP+7mna
 Range: 2sp Circle
 Evade: Magic
-Teamwork: Increase your MgcPwr for this attack by 3.
+Teamwork: Increase your {MgcPwr} for this attack by 3 levels.
 Effect: Target gets Burning (1){MgcPwr}.|
 
 A4:Pillars of Fire

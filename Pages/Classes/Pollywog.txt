@@ -34,7 +34,6 @@ Doctrine: Elemental Adaptation
     Mode A:
     Use: 5AP
     Effect: Change your base element to either fire, water, or wind.
-
     Mode B:
     Use: 5AP+7mna.
     Effect: Change your base element to either darkness, light, electric, or metal.|
