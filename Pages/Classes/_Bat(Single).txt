@@ -1,0 +1,62 @@
+Title: Bat|
+Subtitle: Creature of the night.|
+Description: A little black bat that lives in a cave. They come in large groups.|
+???
+
+VITALS
+Health: 1|
+Mana: 5|
+Stamina: 5|
+Focus: 5|
+
+SCORES
+Initiative: 15|
+Carry: 5u|
+Element: Wind/Dark|
+
+STATS
+Melee: (Power: 1, Evasion: 15, Accuracy: 0)|
+Magic: (Power: 3, Evasion: 15, Accuracy: 0)|
+Skill: (Power: 2, Evasion: 15, Accuracy: 0)|
+
+Abilities
+Doctrine: Wild Swipe
+Melee-Offensive-Action
+Use: 10AP+3sta
+Range: 0sp AoE
+Teamwork: Add +2 to this ability's accuracy check.
+Accuracy: Melee
+OnHit: Combatant takes (2){MlePwr} damage.|
+
+A1: Flight (Advanced)
+Melee-Movement-Action
+Use: 5AP
+Teamwork: Increase the rank of this ability by TmWrk.
+Effect: Move (1)sp in any direction; you are not affected by difficult terrain.|
+
+A2: Deafening Screech
+Melee-Offensive-Action
+Use: 10AP+5sta+2fcs
+Range: All enemy combatants within {MlePwr/10}sp.
+Accuracy: Melee
+OnPass: Target is now deaf. Any Magic-type ability checks now have disadvantage.|
+
+A3: Lightweight
+Melee-Support-Passive
+Solowork: +5 to Melee Self-Checks.
+Effect: +10 to Acrobatics checks.|
+
+A4: Terrify
+Magic-Offensive-Action
+Use: 10AP+1fcs+(1/turn)
+Range: 1sp (Choose up to 1+{TL/5} targets.)
+Evade: Magic
+OnHit: Target loses (1){SklPwr/3} focus.|
+
+
+MA1:|
+MA2:|
+MA3:|
+
+
+
