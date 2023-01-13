@@ -52,7 +52,7 @@ Magic-Defense-Action
 Use: 5mna+10AP
 Range: {SklPwr/15}sp
 You become surrounded by illusionary copies of yourself. Increase your Evasion scores by 2+{MgcPwr/10} until your next
-turn. When your turn starts, you burn 10-{DL}AP and make a basic attack action against anyone within this ability's range.|
+turn. When your turn starts, you burn 10-{DL}AP and make a basic attack action against any amount of enemy combatants within this ability's range.|
 
 A3: Water Walk
 Focus-Support-Passive
