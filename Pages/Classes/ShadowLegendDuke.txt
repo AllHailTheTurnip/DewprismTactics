@@ -78,7 +78,7 @@ Magic-Offensive-Action
 Use: 5mna+10AP
 Accuracy: Magic
 Teamwork: This ability will not affect your allies.
-AoE: 1sp AoE
+Range: 1sp AoE circle
 OnHit: Afflicted targets in target space takes (3){MgcPwr} water damage.|
 
 A6:Summon Ancient Weapon
