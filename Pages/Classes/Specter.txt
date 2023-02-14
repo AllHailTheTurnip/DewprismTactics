@@ -65,7 +65,7 @@ Magic-Attack-Action
 Use: 10AP+3mna+3fcs
 Range: {TL/5}sp
 Accuracy: Magic
-OnHit: Target loses (1){MgcPwr} focus.|
+OnHit: Target loses (1){MgcPwr/4} focus.|
 
 A4: Arcane Shield
 Magic-Defense-Passive

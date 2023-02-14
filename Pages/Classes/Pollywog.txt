@@ -77,10 +77,10 @@ A7: Hide
     You may gain Stealth status and make a free movement action.|
 A8: Nurture
     Magic-Support-Action
-    Cost: 10AP
+    Cost: 10AP+3sta
     Range: 0sp
-    Teamwork: Increase rank of this ability by 1.
-    Restore (1){MgcPwr} Health to an ally.|
+    Teamwork: Rank is equal allies in space (max 3).
+    Restore (0){MgcPwr} Health to an ally.|
 A9: Regroup
     Magic-Support-Action
     Cost: 5Mna
