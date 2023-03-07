@@ -55,7 +55,7 @@ A3: Chomp
     Enemy takes (1){MlePwr} X damage.|
 A4: Lay Egg
     Skill-Support-Action
-    Cost: 5Fcs
+    Cost: 5Fcs+(1/battle)
     Place an Egg prop at your feet.
     Upon your death, the egg hatches and you respawn at the Puddle - all your Vital scores and status effects
     are restored to their battle-start states.|

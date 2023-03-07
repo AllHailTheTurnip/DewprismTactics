@@ -1,77 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Dewprism Tactics - Combat Rules</title>
-        <link rel="stylesheet" href="../Resources/GeneralStyle.css">
-        <script type="text/javascript" src="../Resources/CombatRulesIndexer.js">
-        </script>
-        <script type="text/javascript"
-                src="../Resources/ReturnMenu.js"></script>
-    </head>
-    <body id="TopOfDocument">
-        <h1>
-            Combat
-        </h1>
-        <div class="Side">
-            Treasure hunting is a lucrative and (often) noble business, taking
-            you all across the world from lush and
-            rainy forests, all the way into the forgotten depths of the earth
-            through catacombs and dungeons.
-            Yet no matter how carefully you may have planned it out, you'll come
-            across some kind of opponent at one point
-            or another. <br>
-            <p>And that's okay, because you're a treasure hunter. Naturally, you
-                come equipped with the skills and
-                abilities necessary to see you through the battle safely and in
-                (mostly) one piece.</p>
-            <p>
-                But beware, though. The world is full of powerful creatures with
-                sharp teeth, keen wits, and bit of magic
-                to boot. A treasure hunter's best asset will be their wisdom, in
-                particular, knowing their limits.
-            </p>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <title>Dewprism Tactics - Combat Rules</title>
+    <link rel="stylesheet" href="../Resources/GeneralStyle.css">
+    <script type="text/javascript" src="../Resources/CombatRulesIndexer.js">
+    </script>
+    <script type="text/javascript"
+            src="../Resources/ReturnMenu.js"></script>
+</head>
+<body id="TopOfDocument">
+<h1>
+    Combat
+</h1>
+<div class="Side">
+    Treasure hunting is a lucrative and (often) noble business, taking
+    you all across the world from lush and
+    rainy forests, all the way into the forgotten depths of the earth
+    through catacombs and dungeons.
+    Yet no matter how carefully you may have planned it out, you'll come
+    across some kind of opponent at one point
+    or another. <br>
+    <p>And that's okay, because you're a treasure hunter. Naturally, you
+        come equipped with the skills and
+        abilities necessary to see you through the battle safely and in
+        (mostly) one piece.</p>
+    <p>
+        But beware, though. The world is full of powerful creatures with
+        sharp teeth, keen wits, and bit of magic
+        to boot. A treasure hunter's best asset will be their wisdom, in
+        particular, knowing their limits.
+    </p>
+</div>
 
-        <div id="Directory">
-            <h2>Directory</h2>
-            <ul>
-                <li>
-                    <a href="#BattleTransience">Battle Transience</a>
-                </li>
-                <li>
-                    <a href="#TurnsAndActions">Turns and Actions</a>
-                </li>
-                <li>
-                    <a href="#CommonActions">Common Actions</a>
-                </li>
-                <li>
-                    <a href="#Aggro">Aggro</a>
-                </li>
-                <li>
-                    <a href="#Elements">Elements</a>
-                </li>
-                <li>
-                    <a href="#MetaLogic">Meta Logic</a>
-                </li>
-                <li>
-                    <a href="#Abilities">Abilities</a>
-                </li>
-                <li>
-                    <a href="#DeathAndDefeat">Death and Defeat</a>
-                </li>
-                <li>
-                    <a href="#SmallEncounters">Small Encounters</a>
-                </li>
-                <li>
-                    <a href="#ExperienceAndRewards">Experience and Rewards</a>
-                </li>
-                <li>
-                    <a href="#NextSteps">Next Steps</a>
-                </li>
-            </ul>
-        </div>
-        <span id="Content">
+<div id="Directory">
+    <h2>Directory</h2>
+    <ul>
+        <li>
+            <a href="#BattleTransience">Battle Transience</a>
+        </li>
+        <li>
+            <a href="#TurnsAndActions">Turns and Actions</a>
+        </li>
+        <li>
+            <a href="#CommonActions">Common Actions</a>
+        </li>
+        <li>
+            <a href="#Aggro">Aggro</a>
+        </li>
+        <li>
+            <a href="#Elements">Elements</a>
+        </li>
+        <li>
+            <a href="#MetaLogic">Meta Logic</a>
+        </li>
+        <li>
+            <a href="#Abilities">Abilities</a>
+        </li>
+        <li>
+            <a href="#DeathAndDefeat">Death and Defeat</a>
+        </li>
+        <li>
+            <a href="#SmallEncounters">Small Encounters</a>
+        </li>
+        <li>
+            <a href="#ExperienceAndRewards">Experience and Rewards</a>
+        </li>
+        <li>
+            <a href="#NextSteps">Next Steps</a>
+        </li>
+    </ul>
+</div>
+<span id="Content">
    <div class="Wide">
     <h2 id="TurnsAndActions">
         Turns and Actions
@@ -100,7 +100,7 @@
     with which you can target an opponent. Each way is different, in that it has its own limits.
     <ul>
         <li>
-            <b>Nearby</b><br>
+            <b>Nearby (0sp)</b><br>
             Often weapons with an enhanced range will also allow you to aim diagonally.
             An attack against a target within the same space as you with either a melee or ranged ability or weapon.
         </li>
@@ -111,13 +111,23 @@
             It cannot skip combatants or travel through walls.
         </li>
         <li>
-            <b>Instant</b><br>
+            <b>Battlefield</b><br>
             The attack has a range but ignores walls and combatants standing between you and your target.
         </li>
     </ul>
     Unless specified, if an ability only has range specified, assume it's a projectile. If it has neither
-    range nor targeting parameter, assume it's melee. Finally, if the ability itself has no range attribute,
+    range nor targeting parameter, assume it is melee. Finally, if the ability itself has no range attribute,
     then the effect is universal - meaning it is uninhibited by range.
+
+    <h3>
+        Area of Effect (AoE)
+    </h3>
+    Some abilities have a Range modifier called AoE. These abilities target whichever enemies are within the specified space, instead of a specific target. In addition, AoE range tends to have
+    shape-specifiers that describe a pattern, such as a circle, a cone, or a ray.
+        <p>
+        If your AoE ability makes an Accuracy check, then the check is to be made against <i>every</i> targeted combatant. With every passed check, affected enemies take damage as normal.
+        However, if your AoE has an Evade check, then all targeted enemies make Evade checks instead.
+        </p>
 
     <h3>
         Initiative
@@ -767,10 +777,13 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
             <span class="Fire">Fire</span> .
         </li>
         <li>
-            <span class="Darkness">Darkness</span> is strong against <span class="Light">Light</span> and weak to <span class="Darkness">Darkness</span>.
+            <span class="Darkness">Darkness</span> is strong against <span
+                class="Light">Light</span> and weak to <span class="Darkness">Darkness</span>.
         </li>
         <li>
-            <span class="Light">Light</span> is strong against <span class="Darkness">Darkness</span> and weak to <span class="Light">Light</span>.
+            <span class="Light">Light</span> is strong against <span
+                class="Darkness">Darkness</span> and weak to <span
+                class="Light">Light</span>.
         </li>
         <li>
             <span class="Metal">Metal</span> is strong against <span
@@ -1057,6 +1070,66 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         your abilities being subtly changed.
     </p>
 </div>
+            <div class="Wide">
+                <h2 id="Swarming">
+                   Swarming
+                </h2>
+                During combat, you may come against large groups of enemies. While exciting, these extra enemies
+                can quickly bog-down the pace of a battle with tons of extra checks. To help make it simpler, here are
+                some rules for swarm combat. This only applies to swarms of similar monsters, where they have similar score and stats.
+                <p>
+                    A group of similar monsters acting in tandem is called a swarm. Swarms take their turns, moves, and attacks together.
+                    While acting as a swarm, they operate under swarm rules, gaining bonuses and taking penalties as befit a tightly packed cluster of enemies.
+                </p>
+                <ul>
+                    <li>
+                        <b>Duo</b><br>
+                        Accuracy +3<br>
+                        Evasion -3<br>
+                        Rank +1<br>
+                    </li>
+                    <li>
+                        <b>Trio</b><br>
+                        Accuracy +5<br>
+                        Evasion -5<br>
+                        Rank +2<br>
+                    </li>
+                    <li>
+                        <b>Quartet</b><br>
+                        Accuracy +7<br>
+                        Evasion -7<br>
+                        Rank +3<br>
+                    </li>
+                    <li>
+                        <b>Quintet</b><br>
+                        Accuracy +10<br>
+                        Evasion -10<br>
+                        Rank +4<br>
+                    </li>
+                    <li>
+                        <b>6+ (as X)</b><br>
+                        Accuracy +{X2}<br>
+                        Evasion -{X2}<br>
+                        Rank +(X-1)<br>
+                    </li>
+                </ul>
+
+                When attacking a swarm, while you have the option to target a specific enemy, it's easier to use attack the swarm in general.
+    From there, they take the Evasion penalty, making them much easier to hit. Upon hitting them, damage is inflicted to
+    the enemy of your choice.
+    <p>
+        When making an AoE attack against a swarm, it's easier to have them operate under swarm rules. Have the swarm make a single check, suffering
+        the evasion penalty as normal, and take damage as if they'd all been hit. This applies for AoE evasion and AoE accuracy checks.
+    </p>
+    <p>
+        Swarms don't have to be swarms. Instead, they may choose to split up into smaller groups. From there, the paired monsters
+        operate under smaller swarm (or single) rules. On the other side of the coin, small groups of monsters can come together
+        form larger swarms. This exception is towards monsters of differing scores.
+    </p>
+            </div>
+
+
+
 <div class="Wide">
     <h2 id="DeathAndDefeat">
         Death and Defeat
@@ -1315,13 +1388,13 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
                 learn how to improve yourself.
 </div>
 </span>
-    </body>
-    <footer>
-        <script>
-            PopulateIndex();
-            ImplementReturnMenu();
-        </script>
-    </footer>
+</body>
+<footer>
+    <script>
+        PopulateIndex();
+        ImplementReturnMenu();
+    </script>
+</footer>
 </html>
 
 
