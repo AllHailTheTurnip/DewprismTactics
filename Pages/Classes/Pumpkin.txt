@@ -1,35 +1,40 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Title: Pumpkin|
+Subtitle: A high-hitting chaotic fiend.|
+Description: During the Zhongguo Dynasty, the Pumpkin would have been a highly valued and feared warrior
+ on the battlefield.
+<p>As special soldiers, Pumpkins have been trained in the art of explosive warfare,
+ using (you guessed it!) pumpkins enchanted to explode and inflict damage on enemy troops and fortifications.
+ Their ability to quickly traverse the battlefield, as well as drop from trees and ceilings have made them invaluable for surprise assaults.</p>
+<p>To become a Pumpkin, soldiers would undergo rigorous training in the use of explosives and combat tactics - often losing limbs in the process.
+ Today, Pumpkins act as both readily available shock-troopers and farmers, tending the pumpkin fields for their most precious utility.</p>|
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
+Health: 40|
+Mana: 17|
+Stamina: 20|
 Focus: 15|
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 12|
+Carry: 8u|
+Element: Fire|
 
 STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 5, Evasion: 10, Accuracy: +2)|
+Magic: (Power: 6, Evasion: 8, Accuracy: +1)|
+Skill: (Power: 4, Evasion: 11, Accuracy: -3)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Self-Destruct|
+A1: Pumpkin Grenade|
+A2: Tactical Roll|
+A3: Tactical Drop|
+A4: Pumpkin Mine|
+A5: Charge!|
+A6: Smokescreen|
+A7: Artillery Strike|
+A8: Chain Reaction|
+A9: Caustic Bite|
 
 
 MA1:|

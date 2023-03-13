@@ -1,37 +1,112 @@
-Title:|
-Subtitle:|
-Description:|
-???
+Title: Witch|
+Subtitle: Heavily-Armed Sorceress|
+Description: While witches have always been around, the modern witch utilizes modern natural-philosophy to help
+make their arsenal not only the most dangerous, but the most unique. Indeed, they have cannons.
+<p>
+A handful of modern witches understand the power of technology and innovation, and thus seek to incorporate these advancements into
+ their arsenals. The heavy cannon is a prime example of this philosophy, allowing them to harness the
+ destructive power of modern machinery alongside their supporting magics. In battle, the cannon serves as a
+  devastating ranged weapon, able to take out enemies from afar with its explosive rounds. Additionally, the witch's
+   ability to levitate the cannon gives her unparalleled mobility on the battlefield, allowing her to chase down
+   opponents and deliver powerful blows from unexpected angles. By embracing this fusion of magic and technology,
+   the Witch has become one of the most formidable and unique classes in the realm.</p>|
 
 VITALS
 Health: 45|
-Mana: 15|
-Stamina: 15|
+Mana: 12|
+Stamina: 10|
 Focus: 15|
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 9|
+Carry: 15u|
+Element: Fire/Metal|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 3, Evasion: 8, Accuracy: 0)|
+Magic: (Power: 5, Evasion: 12, Accuracy: +2)|
+Skill: (Power: 4, Evasion: 8, Accuracy: +5)|
 
 Abilities
-Doctrine: Knowledge Casting
-Skill-Support-Passive
-Effect: Abilities with MgcPwr variables be substituted with SklPwr.|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Conjure Heavy Cannon
+Magic-Support-Action
+Cost: 7mna+(3/battle)
+Effect: Conjure a Heavy Cannon token into your space. The cannon is too heavy to personally relocate.
+Spend 5AP to man the cannon; cannot fire the cannon unless manned.
+Manning the cannon counts as having taken Medium cover. You cannot leave the space until you've unmanned the cannon for 0AP.
+Heavy Cannon (Type: Skill, WC: SH, Cost: 10AP+5sta+3fcs, Rank: 8; Range: 3sp)|
+
+A1: Polymorph!
+Magic-Offensive-Reaction
+Trigger: A combatant inflicts damage to you while within the same space.
+Cost: 5mna+(2/turn)
+Range: 0sp
+Evade: Magic
+Effect: Target is turned into a frog until they leave the space.
+While as a frog, they may only make Movement-based actions.|
+
+A2: Levitating Platform
+Magic-Defensive-Action
+Cost: 3mna+(1/turn)
+Range: 1sp
+Effect: Conjure a Levitating Platform into the space of your choice.
+Levitating Platform: A platform large enough for three combatants.
+The creator of the platform can command it to move 1sp/turn in any direction up to 10sp from the ground and is not bound by weight.
+It costs 3mna/turn keep move the platform or keep it from falling.|
+
+A3: Launch Item
+Skill-Offensive-Action
+Cost: 10AP+1fcs
+Choose an item from your inventory to use as ammunition.
+Range: 1sp or {WpnRng}
+Accuracy: Skill
+Effect: If the item was a consumable, the target involuntarily consumes the item.
+If the item was non-consumable, then (5){TL} dmg is inflicted.|
+
+A4: Launch Combatant
+Skill-Offensive-Action
+Cost: 10AP+2fcs+2sta
+Choose a combatant (referred to as X) from your space to use as ammunition.
+Range: 1sp or {WpnRng}
+Accuracy: Skill
+Effect: X gets to make (1) free action upon being launched.
+Upon hitting the target, inflict (7){X's TL} damage to target.|
+
+A5: Pepper Shot
+Skill-Offensive-Action
+Cost: 5AP+2fcs
+Range: 3sp Cone AoE
+Accuracy: Skill
+Effect: Target takes X{SklPwr/2} dmg, where X is equal to 3 minus how many spaces the attack traveled.|
+
+A6: Grape Shot
+Skill-Offensive-Action
+Cost: 15AP+5fcs
+Range: 3sp Cone AoE
+Evade: Skill
+Variable: X = 5 divided by all targeted combatants (cannot target more than 5).
+Dmg: (X){SklPwr}.|
+
+A7: Metal Slug
+Skill-Offensive-Action
+Cost: 10AP+3sta+2fcs+(1/turn)
+Range: 5sp
+Accuracy: Skill
+Effect: Inflict (4){SklPwr} to target. Inflict (1){SklPwr} to self.|
+
+A8: Barrage
+Skill-Offensive-Action
+Cost: 20AP
+Effect: Make three Skill-based offensive actions; do not pay the AP costs. Once all attacks have been resolved,
+reduce the Rank of your primary weapon by 1.|
+
+A9: Improvised Explosive
+Skill-Offensive-Action
+Cost: 10AP+3fcs
+Effect: Transform either your primary or secondary weapon into an EID. The AID has the same scores as the chosen weapon.
+EID: When dropped, place a 2-turn counter on it. At the end of your turn, reduce the counter by 1. When the counter
+reaches 0, the EID is destroyed and all combatants within 3sp make a Skill Evade check; whereupon failure they each
+take (9){SklPwr} dmg.|
 
 
 MA1:|
