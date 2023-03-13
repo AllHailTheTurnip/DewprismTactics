@@ -1,7 +1,6 @@
 Title: Pumpkin|
 Subtitle: A high-hitting chaotic fiend.|
-Description: During the Zhongguo Dynasty, the Pumpkin would have been a highly valued and feared warrior
- on the battlefield.
+Description: During the Zhongguo Dynasty, the Pumpkin was a highly valued and feared warrior on the battlefield.
 <p>As special soldiers, Pumpkins have been trained in the art of explosive warfare,
  using (you guessed it!) pumpkins enchanted to explode and inflict damage on enemy troops and fortifications.
  Their ability to quickly traverse the battlefield, as well as drop from trees and ceilings have made them invaluable for surprise assaults.</p>
@@ -25,17 +24,77 @@ Magic: (Power: 6, Evasion: 8, Accuracy: +1)|
 Skill: (Power: 4, Evasion: 11, Accuracy: -3)|
 
 Abilities
-Doctrine: Self-Destruct|
-A1: Pumpkin Grenade|
-A2: Tactical Roll|
-A3: Tactical Drop|
-A4: Pumpkin Mine|
-A5: Charge!|
-A6: Smokescreen|
-A7: Artillery Strike|
-A8: Chain Reaction|
-A9: Caustic Bite|
+Doctrine: Self-Destruct
+Magic-Offensive-Action
+Use: 5mna+(3/battle)
+Range: 2sp
+Evade: Magic
+Effect: Damage at 0sp is equal to (5){MgwPwr} fire.
+Damage at 1sp is equal to (3){MgwPwr} fire.
+Damage at 2sp is equal to (1){MgwPwr} fire.
+You are removed from the battlefield. Pay {MgcPwr} to respawn at the start of your next turn.|
 
+A1: Pumpkin Grenade
+Skill-Offensive-Action
+Use: 10AP+3fcs+(5/battle)
+Range: 0sp+{TL/5} circle AoE
+Evade: Skill
+Dmg: (2){SklPwr} fire|
+
+A2: Wheeling Roll
+Skill-Supportive-Action
+Use: 5AP
+Effect: Move 1sp in any non-vertical direction.|
+
+A3: Tactical Drop
+Skill-Offensive-Action
+Use: 10AP+3fcs+5mna
+Range: 5sp
+Effect: Temporarily remove yourself from the battlefield; you are considered to be hiding somewhere in the ceiling (even if you're outdoors!).
+You may drop out of the ceiling at any point during battle and be granted 10AP (you must cover the SMF costs) to attack the acting combatant.|
+
+A4: Pumpkin Mine
+Magic-Defensive-Action
+Use: 5AP+3mna+(3/turn)
+Range: 1sp
+Effect: Create a Pumpkin Mine prop within range .
+Pumpkin Mine prop: If an opponent would enter into the same space as this token, it explodes and inflicts (2){MgcPwr} dmg to all combatants within the space.|
+
+A5: Charge!
+Melee-Offensive-Reaction
+Trigger: You move into a space with an enemy combatant.
+Cost: 5sta
+Effect: The target must spend 3sta to leave the space or else take (1){MleDmg}.|
+
+A6: Smokescreen
+Magic-Supportive-Action
+Cost: 10AP+(1/turn)
+Range: 1sp
+Effect: Create a Smokescreen prop within range.
+Smokescreen prop: All allied combatants within this prop's space are counted as having Medium coverage.|
+
+A7: Artillery Strike
+Skill-Offensive-Action
+Cost: 15AP+3mna
+Range: 5sp
+Choose {TL}/5 individual spaces that are 4-5sp away from the caster to target.
+Accuracy: Skill
+Dmg: (2){SklPwr}|
+
+A8: Fission Reaction
+Magic-Offensive-Action
+Range: 1sp
+Variable: X = All enemy combatants in a space within range and all the enemy combatants in any touching spaces.
+Cost: 10AP+(X3)mna+(1/turn)
+Evade: Magic
+Effect: Inflict (X){MgwPwr} dmg to all targeted combatants, where X is the total of all targeted combatants.|
+
+A9: Caustic Bite
+Melee-Offensive-Action
+Cost: 10AP+2mna
+Range: 0sp
+Accuracy: Melee
+OnHit: Target takes (2){MleDmg} and gains Burning {MgcDmg}|
 
 MA1:|
 MA2:|
