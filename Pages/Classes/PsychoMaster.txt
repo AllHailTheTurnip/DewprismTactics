@@ -101,7 +101,7 @@ Effect: Move target up to {DL}sp in any direction.| // Push an opponent.
 
 A9: Levitate
 Skill-Offensive-Passive
-Effect: When making a Movement action, you may pay its AP cost with 1fcs.|
+Effect: When making a Movement action, you may pay its AP cost with 3fcs.|
 // Replace AP cost with focus cost.
 
 MA1: Opened Eyes|
