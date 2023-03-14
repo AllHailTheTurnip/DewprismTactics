@@ -51,7 +51,8 @@ Skill-Offensive-Action
 Use: 10AP+3fcs+5mna
 Range: 5sp
 Effect: Temporarily remove yourself from the battlefield; you are considered to be hiding somewhere in the ceiling (even if you're outdoors!)
-You may drop out of the ceiling at any point during battle and be granted 10AP (you must cover the SMF costs) to attack the acting combatant.|
+You may drop out of the ceiling at during another combatant's turn and be granted 10AP (you must cover the SMF costs) to attack the acting combatant.
+If you do not attack before your next turn you automatically come out of hiding.|
 
 A4: Pumpkin Mine
 Magic-Defensive-Action
