@@ -32,7 +32,7 @@ Evade: Magic
 Effect: Damage at 0sp is equal to (5){MgwPwr} fire.
 Damage at 1sp is equal to (3){MgwPwr} fire.
 Damage at 2sp is equal to (1){MgwPwr} fire.
-You are removed from the battlefield. Pay {MgcPwr} to respawn at the start of your next turn.|
+You are removed from the battlefield. Self-inflict {MgcPwr} dmg to respawn at the start of your next turn.|
 
 A1: Pumpkin Grenade
 Skill-Offensive-Action
