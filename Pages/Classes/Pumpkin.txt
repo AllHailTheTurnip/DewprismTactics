@@ -32,7 +32,7 @@ Evade: Magic
 Effect: Damage at 0sp is equal to (5){MgwPwr} fire.
 Damage at 1sp is equal to (3){MgwPwr} fire.
 Damage at 2sp is equal to (1){MgwPwr} fire.
-You are removed from the battlefield. Self-inflict {MgcPwr} dmg to respawn at the start of your next turn.|
+You are removed from the battlefield. Self-inflict {MgcPwr} dmg to respawn at the start of your next turn from your starting point.|
 
 A1: Pumpkin Grenade
 Skill-Offensive-Action
@@ -50,7 +50,7 @@ A3: Tactical Drop
 Skill-Offensive-Action
 Use: 10AP+3fcs+5mna
 Range: 5sp
-Effect: Temporarily remove yourself from the battlefield; you are considered to be hiding somewhere in the ceiling (even if you're outdoors!).
+Effect: Temporarily remove yourself from the battlefield; you are considered to be hiding somewhere in the ceiling (even if you're outdoors!)
 You may drop out of the ceiling at any point during battle and be granted 10AP (you must cover the SMF costs) to attack the acting combatant.|
 
 A4: Pumpkin Mine

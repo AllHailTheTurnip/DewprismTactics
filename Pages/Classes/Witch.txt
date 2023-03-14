@@ -31,8 +31,8 @@ Abilities
 Doctrine: Conjure Heavy Cannon
 Magic-Support-Action
 Cost: 7mna+(3/battle)
-Effect: Conjure a Heavy Cannon token into your space. The cannon is too heavy to personally relocate.
-Spend 5AP to man the cannon; cannot fire the cannon unless manned.
+Effect: Conjure a Heavy Cannon weapon into your space. The cannon is too heavy to personally relocate.
+Spend 5AP to man the cannon as your primary and secondary weapon; cannot fire the cannon unless manned.
 Manning the cannon counts as having taken Medium cover. You cannot leave the space until you've unmanned the cannon for 0AP.
 Heavy Cannon (Type: Skill, WC: SH, Cost: 10AP+5sta+3fcs, Rank: 8; Range: 3sp)|
 
