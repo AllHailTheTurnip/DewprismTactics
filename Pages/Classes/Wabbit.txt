@@ -32,8 +32,8 @@ Doctrine: Agile Flight
 Melee-Passive-Reaction
 Trigger: You are attacked or make a movement action.
 Use: Xsta
-Effect: Increase your evasion scores by X/2 until the end of the attack.
-Pay Xsta to move vertically X/2sp.|
+Effect: Increase your evasion scores by X/3 until the end of the attack.
+Pay Xsta to move vertically X/3sp.|
 
 A1: Multi Strike
 Skill-Offensive-Action
