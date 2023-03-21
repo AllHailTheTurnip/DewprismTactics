@@ -1,0 +1,100 @@
+Title: Wabbit|
+Subtitle: Divine soldier.|
+Description:Wabbits are group of specially trained martial artists with divine origins. Using a combination of agility,
+            acrobatics, and grace, they coordinate to take down their opponents.
+            <p>Historically, Wabbits were first trained by a kind of seraphim, warriors from the Overworld who had come to ours on
+            a mission of protection for the Elect. They trained the monks of Tomb Hill in the art of divine combat and left.
+            The sacred combat arts were passed on from one generation to the next, making way for the Elect to protect themselves,
+            that they might worship in peace. Yet it didn't stay that way.</p>
+            <p>Defectors of the faith sold themselves as instructors in the Wabbit arts, turning it instead into a tool of all-out war.
+            This in turn brought down a judgement and a curse: that whoever practices this art in the name of War shall know nothing
+            but war for the rest of their lives. And so the curse rang true. Today, most Wabbit soldiers operate in the employ of
+            mercenary guilds, ill-willed noblemen, and as stormtroopers for warlords.</p>|
+
+VITALS
+Health: 35|
+Mana: 17|
+Stamina: 17|
+Focus: 15|
+
+SCORES
+Initiative: 14|
+Carry: 8u|
+Element: Noble|
+
+STATS
+Melee: (Power: 5, Evasion: 8, Accuracy: 0)|
+Magic: (Power: 6, Evasion: 8, Accuracy: 0)|
+Skill: (Power: 4, Evasion: 8, Accuracy: +1)|
+
+Abilities
+Doctrine: Agile Flight
+Melee-Passive-Reaction
+Trigger: You are attacked or make a movement action.
+Use: Xsta
+Effect: Increase your evasion scores by X/2 until the end of the attack.
+Pay Xsta to move vertically X/2sp.|
+
+A1: Multi Strike
+Skill-Offensive-Action
+Use: 10AP+2fcs+2sta
+Effect: Roll 1d20 as X/4 (rounded down) as X.
+Make X Basic Attack actions, ignoring maximum uses-per-turn.|
+
+A2: Duck
+Melee-Defensive-Reaction
+Use: 5AP+5sta
+Effect: Grant yourself a Duck token.
+Duck token: When a combatant makes an attack check against you, roll Luck 10, whereupon success you evade the attack.|
+
+A3: Aura of Protection
+Magic-Defensive-Action
+Use: 7mna
+Range: 0sp circle AoE
+Effect: Vital restoration effects are increased by 25% until the start of your next turn.
+This also applies to actions by allies and enemies.|
+
+A4: Aura of Harm
+Magic-Offensive-Action
+Use: 7mna
+Range: 0sp circle AoE
+Effect: Taken damage is increased by 20% until the start of your next turn.
+This also applies to actions from allies and enemies.|
+
+A5: Halo
+Magic-Defensive-Item
+Slot: Gear
+Effect: You are immune to Doom, Paralyze, and Dispirited.|
+
+A6: Atonement
+Magic-Support-Action
+Use: 1/battle
+Effect: Remove your Noble element status. Remove any negative status effects. Restore your Health to full.|
+
+A7: Minor Miracle
+Magic-Support-Action
+Use:10AP+7mna
+Range: 1sp
+Effect: Choose one:
+1) Remove a negative status effect.
+2) Restore 20% of a combatant's max health.
+3) Reset the X/turn or X/battle counter of an ability.|
+
+A8: Predestination
+Magic-Offensive-Action
+Use: 10AP+5mna
+Range: 2sp
+Accuracy: Magic
+Effect: The target's Luck checks automatically land on 8 until the start of your next turn.|
+
+A9: Divine Spear
+Skill-Offensive-Item
+Slot: Primary or Secondary Weapon
+Divine Spear (Type: Skill, WC: L, Use: 5AP+(2/turn), Rank: 2, Range: 2, Honed 3)|
+
+MA1:|
+MA2:|
+MA3:|
+
+
+

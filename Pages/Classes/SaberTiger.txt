@@ -77,8 +77,7 @@ A8: Fearsome Roar
     Range: 3sp
     Accuracy: Skill
     OnPass: Reduce the target's Magic evasion by 2.|
-A9: Conjure Assassin's Blade
-    Magic-Support-Action
-    Use: 5Mna
-    Conjure an Assassin's Blade into your primary or secondary weapon slot (where available).
-    Assassin's Blade (Skill, VL, Pwr: 1 Metal, Artisan +2)|
+A9: Assassin's Blade
+    Magic-Support-Item
+    Slot: Primary Weapon
+    Assassin's Blade (Skill, WC: VL, Rank: 1 Metal, Artisan +2)|
