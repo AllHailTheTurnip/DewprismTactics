@@ -29,17 +29,16 @@ Skill: (Power: 4, Evasion: 8, Accuracy: +1)|
 
 Abilities
 Doctrine: Agile Flight
-Melee-Passive-Reaction
-Trigger: You are attacked or make a movement action.
+Melee-Support-Action
+Trigger: You make a movement action.
 Use: Xsta
-Effect: Increase your evasion scores by X/3 until the end of the attack.
-Pay Xsta to move vertically X/3sp.|
+Effect: Increase your evasion scores by X/3 until the start of your next turn. You may move vertically up to X/3sp. You end your turn.|
 
 A1: Multi Strike
 Skill-Offensive-Action
 Use: 10AP+2fcs+2sta
 Effect: Roll 1d20 as X/4 (rounded down) as X.
-Make X Basic Attack actions, ignoring maximum uses-per-turn.|
+Make X Basic Attack actions, ignoring maximum uses-per-turn; attacks otherwise cost as normal.|
 
 A2: Duck
 Melee-Defensive-Reaction
