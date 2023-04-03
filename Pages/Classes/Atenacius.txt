@@ -1,44 +1,91 @@
-Title:|
-Subtitle:|
-Description:|
+Title: Atenacius|
+Subtitle: Wizened Master|
+Description: |
 ???
 
 VITALS
-Health: 15|
-Mana: 25|
-Stamina: 25|
-Focus: 15|
+Health: 60|
+Mana: 30|
+Stamina: 5|
+Focus: 5|
 
 SCORES
-Initiative: 10|
+Initiative: 5|
 Carry: 10u|
 Element: Neutral|
 
 STATS
-Melee: (Power: 4, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 6, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 6, Evasion: 10, Accuracy: 0)|
+Melee: (Power: 4, Evasion: 10, Accuracy: 2)|
+Magic: (Power: 4, Evasion: 10, Accuracy: 3)|
+Skill: (Power: 5, Evasion: 10, Accuracy: 3)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Spirit-Bound
+Magic-Defensive-Passive
+Effect: You do not count as a combatant and are a spirit sealed in a Reliquary.
+At the start of combat choose a combatant to add your Reliquary to their inventory.
+Bound to a Reliquary, you do not possess a health score and cannot die, neither can you leave the same space as your Reliquary.
+Your turn is taken directory after your possessor's turn.
+If your possessor is knocked-out or dies, or if your Mana is drained to 5, you become disabled.|
 
+A1: Energy Scythes
+Magic-Offensive-Action
+Cost: 10AP+5mna
+Range: 1sp
+Accuracy: Magic
+Effect: Target up to three individual combatants within range.
+Dmg: (2){MgcPwr}|
+
+A2: Energy Missiles
+Magic-Offensive-Action
+Cost: 5AP+2mna
+Range: 3sp
+Accuracy: Magic+3
+Dmg: (1){MgcPwr}|
+
+A3: Zone of Endurance
+Magic-Defensive-Action
+Cost: 10AP+3mna+3fcs+(1/turn)
+Range: 0sp circle AoE
+Luck: 15.
+OnPass: Reducing taken damage to your allies by (2) ranks until start of your next turn.|
+
+A4: Sovereignty
+Magic-Support-Passive
+Effect: At the start of each turn, regain 3 Mana, 3 Focus, and 3 Stamina.|
+
+A5: Conjure Marble Wall
+Magic-Support-Action
+Cost: 5AP+5mna+(3/turn)
+Range: 2sp
+Effect: Create a Marble Wall prop along the border between two connected spaces.
+Combatants cannot move between spaces blocked by a Marble Wall prop.
+Each Marble Wall possesses 15{PL} Health and is Neutral typed.|
+
+A6: Pull into Microcosm
+Magic-Support-Action
+Cost: 10AP+7mna
+Range: 0sp
+Evade: Magic
+Effect: The caster and the target each get a Soul dummy placed into a 5x5x5sp microcosm.
+Soul dummies are duplicates of their originals, however, each Dummy possess (MaxMna)5 Health and shares its AP pool with the original.
+If a Soul dummy's health reaches 0, then the original's Mana and Health is set to 0.|
+
+A7: Ancient Knowledge
+Magic-Support-Passive
+Effect: Increase your Magic self-checks and Evade checks by 5.|
+
+A8: Book of Cosmos
+Magic-Offensive-Item
+Slot: Primary and Secondary
+Book of Cosmos (1+{PL/10} per battle, you may increase the Rank of a Magic-type ability by 5.)|
+
+A9: Alter Spell
+Magic-Support-Action
+Cost: 20AP+7mna
+Effect: Choose two Magic-type abilities to target.
+Choose a clause from each of the targeted abilities' Effect segments to swap with each other.
+Choose one of the targeted spells to disable until the end of combat.|
 
 MA1:|
 MA2:|

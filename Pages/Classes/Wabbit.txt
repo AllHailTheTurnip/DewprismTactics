@@ -57,7 +57,7 @@ A4: Aura of Harm
 Magic-Offensive-Action
 Use: 7mna
 Range: 0sp circle AoE
-Effect: Taken damage is increased by 20% until the start of your next turn.
+Effect: Damage taken by combatants (including you and your allys) is increased by 20% until the start of your next turn.
 This also applies to actions from allies and enemies.|
 
 A5: Halo
@@ -76,7 +76,7 @@ Use:10AP+7mna
 Range: 1sp
 Effect: Choose one:
 1) Remove a negative status effect.
-2) Restore 20% of a combatant's max health.
+2) Restore 50% of a combatant's max health.
 3) Reset the X/turn or X/battle counter of an ability.|
 
 A8: Predestination
