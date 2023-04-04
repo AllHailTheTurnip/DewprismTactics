@@ -107,7 +107,7 @@ See Saw prop: while one combatant is standing on an end, the other end becomes a
 
 A9: Regrow
 Melee-Support-Action
-Use: 10AP
+Use: 15AP
 Effect: Restore 30{TL} health. Any disabled abilities are re-enabled. End your turn.|
 
 MA1:|
