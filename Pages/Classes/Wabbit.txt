@@ -33,7 +33,7 @@ Melee-Support-Action
 Trigger: You make a movement action.
 Use: Xsta
 Effect: Increase your evasion scores by X/3 until the start of your next turn.
-You may move vertically up to X/3sp. You fall slowly at 1sp per turn.
+You may move diagonally upwards up to X/3sp. You fall slowly at 1sp per turn.
 You end your turn.|
 
 A1: Multi Strike
