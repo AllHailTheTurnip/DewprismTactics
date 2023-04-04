@@ -25,7 +25,7 @@ Magic-Defensive-Passive
 Effect: You do not count as a combatant and are a spirit sealed in a Reliquary.
 At the start of combat choose a combatant to add your Reliquary to their inventory.
 Bound to a Reliquary, you do not possess a health score and cannot die, neither can you leave the same space as your Reliquary.
-Your turn is taken directory after your possessor's turn.
+Your turn is taken immediately after your possessor's turn.
 If your possessor is knocked-out or dies, or if your Mana is drained to 5, you become disabled.|
 
 A1: Energy Scythes
