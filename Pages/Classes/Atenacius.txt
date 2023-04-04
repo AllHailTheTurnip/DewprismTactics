@@ -78,7 +78,7 @@ Effect: Increase your Magic self-checks and Evade checks by 5.|
 A8: Book of Cosmos
 Magic-Offensive-Item
 Slot: Primary and Secondary
-Book of Cosmos (1+{PL/10} per battle, you may increase the Rank of a Magic-type ability by 5.)|
+Book of Cosmos (1+{PL/10} per battle, you may increase the Rank of a Magic-type ability check by 5.)|
 
 A9: Alter Spell
 Magic-Support-Action
