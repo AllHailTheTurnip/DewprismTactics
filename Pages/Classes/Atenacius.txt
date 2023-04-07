@@ -84,7 +84,7 @@ A9: Alter Spell
 Magic-Support-Action
 Cost: 20AP+7mna
 Effect: Choose two Magic-type abilities to target.
-Choose a conditional statement from each of the targeted abilities' Effect segments to swap with each other.
+Choose a sentence from each of the targeted abilities' Effect segments to swap with each other.
 Choose one of the targeted spells to disable until the end of combat.|
 
 MA1:|

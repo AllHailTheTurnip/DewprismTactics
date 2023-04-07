@@ -1,35 +1,35 @@
-Title:|
+Title: Shaolon|
 Subtitle:|
 Description:|
 ???
 
 VITALS
-Health: 45|
+Health: 40|
 Mana: 15|
-Stamina: 15|
-Focus: 15|
+Stamina: 17|
+Focus: 12|
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 15|
+Carry: 8u|
+Element: Electric|
 
 STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
+Melee: (Power: 6, Evasion: 8, Accuracy: +2)|
+Magic: (Power: 3, Evasion: 8, Accuracy: 0)|
+Skill: (Power: 6, Evasion: 10, Accuracy: +3)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Eviscerate|
+A1: Razor Teeth|
+A2: Raptor Claws|
+A3: Stride|
+A4: Clever Idea|
+A5: Team Strategy|
+A6: Purge the Weak|
+A7: Predatory Gaze|
+A8: |
+A9: |
 
 
 MA1:|

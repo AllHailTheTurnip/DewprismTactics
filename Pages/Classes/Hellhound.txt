@@ -1,35 +1,35 @@
-Title:|
+Title: Hell|
 Subtitle:|
 Description:|
 ???
 
 VITALS
 Health: 45|
-Mana: 15|
-Stamina: 15|
+Mana: 20|
+Stamina: 17|
 Focus: 15|
 
 SCORES
-Initiative: 10|
+Initiative: 14|
 Carry: 10u|
-Element: Neutral|
+Element: Fire|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 4, Evasion: 12, Accuracy: -2)|
+Magic: (Power: 5, Evasion: 12, Accuracy: +2)|
+Skill: (Power: 6, Evasion: 12, Accuracy: +3)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Elemental Vortex|
+A1: Burning Bite|
+A2: Rush|
+A3: Nether Leap|
+A4: Howl|
+A5: Fiendish Aura|
+A6: Devour Soul|
+A7: Shocking Bite|
+A8: Storm|
+A9: Answer Master|
 
 
 MA1:|

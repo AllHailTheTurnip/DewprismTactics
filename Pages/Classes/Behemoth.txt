@@ -1,45 +1,37 @@
-Title:|
+Title: Behemoth|
 Subtitle:|
 Description:|
 ???
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 75|
+Mana: 10|
+Stamina: 17|
+Focus: 10|
 
 SCORES
-Initiative: 10|
-Carry: 10u|
+Initiative: 8|
+Carry: 15u|
 Element: Neutral|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 6, Evasion: 13, Accuracy: +2)|
+Magic: (Power: 5, Evasion: 8, Accuracy: 0)|
+Skill: (Power: 3, Evasion: 11, Accuracy: 0)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Bull Rush|
+A1: Roar!|
+A2: Impale|
+A3: Counter Attack|
+A4: Group Rush|
+A5: Meteor|
+A6: Maelstrom|
+A7: Flare|
+A8: Take Punishment|
+A9: Obliterate|
 
 
-MA1:|
+MA1: King|
 MA2:|
 MA3:|

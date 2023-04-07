@@ -1,37 +1,52 @@
-Title:|
+Title: Jinn|
 Subtitle:|
 Description:|
 ???
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 30|
+Mana: 25|
+Stamina: 8|
+Focus: 5|
 
 SCORES
 Initiative: 10|
 Carry: 10u|
-Element: Neutral|
+Element: Light|
 
 STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 3, Evasion: 8, Accuracy: -2)|
+Magic: (Power: 3, Evasion: 15, Accuracy: +1)|
+Skill: (Power: 3, Evasion: 10, Accuracy: -2)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Grant Wish
+Magic-Support-Action
+Cost: 10AP+7AP+(3/battle)
+Effect: Choose (1):
+1) Charisma: Gain the Charismatic status. Charismatic: Automatically pass the first Luck check of a Befriend action, and gain +5 to the following check.
+2) Second Wind: Choose a KO'd combatant to revive at Full Health and fully restored Stamina, Mana, and Focus.
+3) Heart Attack: Make a Luck 12 check against a combatant, whereupon success they lose health equal to 30% of their {MaxHealth}.|
+
+A1: Whirlwind|
+
+A2: Whiplash|
+A3: Harrowing Sphere|
+A4: Sacrifice|
+A5: Lamp|
+A6: Alter Ability|
+A7: Sandstorm|
+A8: Minor Wish|
+A9: Pure Luck|
 
 
-MA1:|
-MA2:|
+MA1: Unfettered Wish
+Magic-Support-Action
+Cost: 10AP+7mna+(1/battle)
+Effect: Choose (1):
+1) Switch Sides: Choose a combatant to become friendly to you and your team.
+2) Resurrection: Choose a combatant to be brought back from a KO'd state or Death at full health and free of negative statuses.
+3) Death. Choose a combatant to take the Dead status and be removed from combat.|
+
+MA2: Cosmic Powers|
 MA3:|
