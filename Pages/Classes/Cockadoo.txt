@@ -51,7 +51,7 @@ Accuracy: Melee
 Damage: (1){MlePwr}
 Teamwork: Reduce Luck difficulty by 4.
 Luck: 12
-OnPass: Bleeding (1){MlePwr}|
+OnPass: Bleeding (1){MlePwr/5}|
 
 A2: Flight
 Melee-Movement-Action

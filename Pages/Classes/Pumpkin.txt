@@ -95,7 +95,7 @@ Melee-Offensive-Action
 Cost: 10AP+2mna
 Range: 0sp
 Accuracy: Melee
-OnHit: Target takes (2){MleDmg} and gains Burning {MgcDmg}|
+OnHit: Target takes (2){MleDmg} and gains Burning 1|
 
 MA1:|
 MA2:|

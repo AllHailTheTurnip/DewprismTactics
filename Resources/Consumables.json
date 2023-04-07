@@ -106,7 +106,7 @@
   },
   {
     "Name": "Napalm",
-    "Application": "Your attacks that inflict Burning can stack until the end of combat.",
+    "Application": "Your attacks that inflict Burning double their rank.",
     "Ingredients": "3x Bubba Lard",
     "CraftCheck": "12",
     "Value": "75"

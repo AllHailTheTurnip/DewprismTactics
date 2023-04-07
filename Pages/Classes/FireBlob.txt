@@ -66,7 +66,7 @@ A4: Scorching Touch
 Magic-Offensive-Reaction
 Trigger: An enemy in the same space succeeded in an Accuracy check against you.
 Luck: 10
-Effect: The enemy gets Burning (1){MgcPwr}|
+Effect: The enemy gets Burning (1){MgcPwr/10}|
 
 A5: River of Magma
 Magic-Offensive-action
@@ -77,7 +77,7 @@ You cannot create two Magma Flow props in the same space.
 If you create a Magma Flow prop in an adjacent space,
 reduce the AP cost of this by 5.
 Magma Flow Prop: An enemy combatant that enters into this space
-must spend 5AP or else get Burning (1){creator's MlePwr}|
+must spend 5AP or else get Burning (1){creator's MlePwr/5}|
 
 A6: Lunge
 Melee-Offensive-Action
@@ -98,7 +98,7 @@ Melee-Support-Action
 Solowork: Incoming damage while prone is halved.
 Use: 3fcs+(1/turn)
 Effect: You become Prone and end your turn.
-All enemies in the same space as you take Burning (1){MlePwr}.|
+All enemies in the same space as you take Burning (1){MlePwr/10}.|
 
 A9: Force Retreat
 Skill-Defensive-Action

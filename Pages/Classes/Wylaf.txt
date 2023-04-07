@@ -88,8 +88,7 @@ Use: 10AP
 Solowork: Treat Range as an AoE circle.
 Range: 0sp
 Accuracy: Skill+3
-OnHit: Inflict Bleeding (1){SklPwr}; if target already has Bleeding,
-increase the Rank by 1.|
+OnHit: Inflict Bleeding (1){SklPwr}; if target already has Bleeding, increase the Rank by 1.|
 
 A8:Inferno
 Magic-Offensive-Action
@@ -98,7 +97,7 @@ Range: 1sp
 Effect: Create a Fire Pillar prop in the targeted space.
 At the beginning of their turns, enemy combatants in the
 same space as Fire Pillar must
-pay 5sta or take Burning (1){MgcPwr}.|
+pay 5sta or take Burning (1){MgcPwr/5}.|
 
 A9:Whirlwind
 Melee-Offensive-Action

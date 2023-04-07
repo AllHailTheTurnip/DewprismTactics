@@ -72,7 +72,7 @@ Use: 10AP+7mna
 Range: 2sp Circle
 Evade: Magic
 Teamwork: Increase your {MgcPwr} for this attack by 3 levels.
-Effect: Target gets Burning (1){MgcPwr}.|
+Effect: Target gets Burning (2).|
 
 A4:Pillars of Fire
 Magic-Offensive-Action
@@ -95,7 +95,7 @@ Use: 15AP+7mna
 Range: 1sp
 Effect: Target two touching spaces within range and place a Fire prop
 in each space. Combatants in a targeted space must make a Melee Evade check or
-else get Burning {MgcPwr}. Combatants that enter a space with a Fire prop
+else get Burning {MgcPwr/10}. Combatants that enter a space with a Fire prop
 must also make a similar check, or else catch on fire.|
 
 A7:Ignite
@@ -103,8 +103,8 @@ Magic-Offensive-Action
 Use: 5AP+1mna
 Range: 0sp
 Accuracy: Melee
-Effect: Target gets Burning (1){MgcPwr}
-Solowork: If target is already burning, increase the Rank by 1.|
+Effect: Target gets Burning (1).
+Solowork: If target is already burning, increase the Rank by 2.|
 
 A8:Channel Power
 Magic-Offensive-Action

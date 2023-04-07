@@ -1,14 +1,14 @@
 [
   {
     "Name": "Obsidian Dagger",
-    "Application": "Type: Skill, WC: 0, Use: (1/turn), Rank: 0, Type: Dark; inflicts Stackable Bleeding [1]{SklPwr}; Crit'ing with this weapon causes it to be destroyed instead.",
+    "Application": "Type: Skill, WC: 0, Use: (1/turn), Rank: 0, Type: Dark; inflicts Bleeding [1]{SklPwr}; Crit'ing with this weapon causes it to be destroyed instead.",
     "Ingredients": "1x Obsidian Chunk",
     "Check": "13",
     "Value": "500"
   },
   {
     "Name": "Obsidian Sword",
-    "Application": "Type: Melee OR Skill, WC: M, Use: 10AP, Rank: 3, Type: Dark; inflicts Stackable Bleeding [3]{SklPwr}; Crit'ing with this weapon causes it to be destroyed instead.",
+    "Application": "Type: Melee OR Skill, WC: M, Use: 10AP, Rank: 3, Type: Dark; inflicts Bleeding [3]{SklPwr}; Crit'ing with this weapon causes it to be destroyed instead.",
     "Ingredients": "3x Obsidian Chunk",
     "Check": "17",
     "Value": "1,500"

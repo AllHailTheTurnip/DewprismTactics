@@ -25,11 +25,11 @@ A1: Razor Teeth|
 A2: Raptor Claws|
 A3: Stride|
 A4: Clever Idea|
-A5: Team Strategy|
+A5: Pack Strategy|
 A6: Purge the Weak|
 A7: Predatory Gaze|
-A8: |
-A9: |
+A8: Scaled Hide|
+A9: Balancing Tail|
 
 
 MA1:|

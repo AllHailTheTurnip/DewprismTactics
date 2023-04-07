@@ -47,7 +47,7 @@ Melee-Offensive-Action
 Use: 10AP+5sta
 Range: Weapon's Range
 Accuracy: Melee
-Effect: Opponent takes (1){MlePwr} damage and gets Bleeding (MlePwr).|
+Effect: Opponent takes (1){MlePwr} damage and gets Bleeding (MlePwr/5).|
 
 A3: Retaliate
 Melee-Offensive-Reaction
