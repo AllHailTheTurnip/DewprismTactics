@@ -1,6 +1,9 @@
-Title: Hell|
-Subtitle:|
-Description:|
+Title: Hellhound|
+Subtitle: Elemental Savage|
+Description: The first Hellhounds are believed to have once been demons who escaped from the underworld.
+Twisted and transformed by their journey, they were reduced to wild, violent animals. Ever onward, they were cursed to wander the mortal realm for eternity, bound by crude, animals minds that were unable to enjoy the freedom they risked so much for.
+While today's Hellhounds are nothing like their predecessors, they have managed to capture and maintain that brutal, hellish fighty fury that once made them a terror upon the earth.
+ Utilizing a mixture of high agility, martial arts, and magic, Hellhounds commandeer the battlefield.|
 ???
 
 VITALS

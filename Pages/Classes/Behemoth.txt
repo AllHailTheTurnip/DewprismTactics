@@ -1,6 +1,11 @@
 Title: Behemoth|
-Subtitle:|
-Description:|
+Subtitle: Behemoth - Powerful Beast|
+Description: In the days of old, the Behemoths were heavenly beasts, tasked with aiding the gods in the creation of the planet.
+With great strength they moved mountains, tilled the ground deep and wide to make oceans, and even set the moon in the sky.
+When their work was finished, they gods called them into stables deep beneath the earth, never to be seen again.
+<p>Yet the mortals who had witnessed their feats never forgot, and from that time on the Behemoths took on a new life.
+Today, Behemoths are revered as the foremost champions of strength and endurance, carrying on the legacy of the beasts that once moved mountains.
+In addition, they practice the very same magic that once set the moon in the sky, calling upon meteors and whirlpools to crush their opponents.</p<|
 ???
 
 VITALS
