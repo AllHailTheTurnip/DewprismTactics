@@ -28,16 +28,66 @@ Effect: Choose (1):
 2) Second Wind: Choose a KO'd combatant to revive at Full Health and fully restored Stamina, Mana, and Focus.
 3) Heart Attack: Make a Luck 12 check against a combatant, whereupon success they lose health equal to 30% of their {MaxHealth}.|
 
-A1: Whirlwind|
+A1: Whirlwind
+Magic-Offensive-Action
+Cost: 10AP+3mna
+Range: 0sp AoE
+Accuracy: Magic
+Dmg: (3){MgcPwr} wind.|
 
-A2: Whiplash|
-A3: Harrowing Sphere|
-A4: Sacrifice|
-A5: Lamp|
-A6: Alter Ability|
-A7: Sandstorm|
-A8: Minor Wish|
-A9: Pure Luck|
+A2: Whiplash
+Magic-Offensive-Reaction
+Trigger: An incoming attack missed.
+Cost: 3/battle
+Effect: Inflict 1/2 the potential damage to the attacker.|
+
+A3: Harrowing Missile
+Magic-Offensive-Action
+Cost: 10AP+(1/3th total manage)
+Range: 1sp
+Accuracy: Magic+3
+Dmg: (4){MgcPwr}|
+
+A4: Blood Offering
+Magic-Support-Action
+Cost: 10AP
+Range: Battlefield
+X = 20%
+Y = 20
+Solowork: Increase X by 20% and reduce Y by 1; you may do this as until X is 100%.
+Effect: Reduce your Max Health by X. Chose a target and roll 1d20 as A. If A >= Y, the target dies and removed from combat.|
+
+A5: Lamp
+Magic-Support-Item
+Slot: Tool
+Effect: For 5AP, the Lamp can be "rubbed", and the Lamp's owner is summoned to the possessor.|
+
+A6: Swap Ability
+Magic-Support-Action
+Cost: 10AP+3mna+3fcs+3sta+(1/battle)
+Effect: Choose an ability (excepting this one) and remove one of its sentences.|
+
+A7: Sandstorm
+Magic-Offensive-Action
+Cost: 10AP+3mna+1fcs+(1/battle)
+Range: 4sp
+Effect: Create a Sandstorm prop that covers up to 6 adjacent spaces.
+Sandstorm prop: Combatants who end their turn within the same space as this prop take (2){PL15} wind damage.|
+
+A8: Minor Wish
+Magic-Support-Action
+Cost: 10AP+(1/battle)
+Effect: Choose one from the following list:
+1) Increase your Melee, Skill, and Magic by one level.
+2) Target a combatant and inflict the Black Mark status; they can no longer recover health.
+3) Double your Health and Max Health.|
+
+A9: Foresight
+Magic-Support-Action
+Cost: 15AP+7mna+3fcs
+Effect: Privately roll 3d20 and record the results in a list ordered from first-rolled to last-rolled. Grant yourself the Foresight status.
+Foresight status: Whenever you would roll a d20, you instead substitute it with the first-most result from your private list of recorded rolls and then remove the record from the list.
+ When the list is empty, you lose the Foresight status.|
 
 
 MA1: Unfettered Wish

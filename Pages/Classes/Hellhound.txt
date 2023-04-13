@@ -20,17 +20,72 @@ Magic: (Power: 5, Evasion: 12, Accuracy: +2)|
 Skill: (Power: 6, Evasion: 12, Accuracy: +3)|
 
 Abilities
-Doctrine: Elemental Vortex|
-A1: Burning Bite|
-A2: Rush|
-A3: Nether Leap|
-A4: Howl|
-A5: Fiendish Aura|
-A6: Devour Soul|
-A7: Shocking Bite|
-A8: Storm|
-A9: Answer Master|
+Doctrine: Elemental Vortex
+Magic-Offensive-Action
+Cost: 10AP+5mna
+Range: 1sp Cone AoE
+Accuracy: Magic
+Dmg: (3){MgcPwr}
+Effect: Inflicts critical damage if damaged element is either Wind, Water, or Fire.|
 
+A1: Burning Bite
+Melee-Offensive-Action
+Cost: 10AP
+Range: 0sp
+Accuracy: Melee+3
+Dmg: (1){MlePwr}, inflicts Burning (1){MgcPwr}|
+
+A2: Rush
+Melee-Movement-Action
+Cost: 10AP+5sta
+Effect: Move up to 6sp in any direction, ignoring rough terrain and checks for gaps equal to 1sp.|
+
+A3: Nether Leap
+Magic-Movement-Action
+Cost: 5AP+3mna
+Effect You are removed from the Battlefield and placed into an imaginary space called the Nether.
+At any point you may spend an addition 5AP+3mna to reappear anywhere on the Battlefield.|
+
+A4: Howl
+Melee-Offensive-Action
+Cost: 10AP+3sta+1mna
+Range: 2sp cone AoE
+Evade: Magic
+Effect: Affected combatants choose one of their non-disabled Defensive or and disable them.|
+
+A5: Fiendish Aura
+Magic-Offensive-Passive
+Range: 2sp
+Effect: Enemy combatants cannot use supportive abilities within range of you.|
+
+A6: Devour Soul
+Magic-Offensive-Action
+Cost: 10AP+5mna
+Range: 1sp
+Accuracy: Magic
+Effect: Disable a combatant's ability (your choice).|
+
+A7: Shocking Bite
+Magic-Offensive-Action
+Cost: 10AP+3mna
+Range: 0sp
+Accuracy: Magic
+Effect: Inflicts (1){MlePwr} damage and (2){MgcPwr} electric damage to the combatant. Other enemy combatants in the same space take (2){MgcPwr} electric damage.|
+
+A8: Storm
+Magic-Offensive-Action
+Cost: 15AP+3fcs+5mna
+Range: Battlefield AoE
+Effect: Targeted enemy combatants roll 1d20 as A.
+If A is 10 or greater, enemy combatant takes (1){MgcPwr} electric damage.
+If A is also 15 or greater, enemy combatant takes Paralysis 1.|
+
+A9: Answer Master
+Melee-Supportive-Action
+Cost: 10AP
+Range: Battlefield
+Effect: Grant another combatant a Master's Call token.
+Master's Call token: Spend 5AP to Destroy this token. The token's creator is summoned into your space.|
 
 MA1:|
 MA2:|

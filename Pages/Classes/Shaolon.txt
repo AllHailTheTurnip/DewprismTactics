@@ -1,7 +1,12 @@
 Title: Shaolon|
-Subtitle:|
-Description:|
-???
+Subtitle: Bloodthirsty Raptor|
+Description: Originally meaning "Talon", Shaolons utilize an arsenal of sharp weapons
+inspired by raptors such as hawks and eagles. Their kind first appeared in the eastern barrenlands as private assassins
+for the Patriarchs, but during the turn of the millennium their reign came to an end and the disenfranchised Shaolons sought employment under the highest bidders.
+ The history of the Shaolon is stained in blood, where at no point does it seem to have found redemption. A Shaolon's
+ doctrine is defined by a kind of reptilian pragmatism, where there exists no other hierarchy than prey and predator - the devourer and the devoured.
+ Like most animals, Shaolons have adapted to the modern world. They serve in the rotted belly of the underworld,
+ hired killers of ill regard.|
 
 VITALS
 Health: 40|
@@ -20,17 +25,59 @@ Magic: (Power: 3, Evasion: 8, Accuracy: 0)|
 Skill: (Power: 6, Evasion: 10, Accuracy: +3)|
 
 Abilities
-Doctrine: Eviscerate|
-A1: Razor Teeth|
-A2: Raptor Claws|
-A3: Stride|
-A4: Clever Idea|
-A5: Pack Strategy|
-A6: Purge the Weak|
-A7: Predatory Gaze|
-A8: Scaled Hide|
-A9: Balancing Tail|
+Doctrine: Eviscerate
+Skill-Offensive-Action
+Cost: 10AP+3sta
+Range: 0sp
+Accuracy: Skill
+Dmg: (3){SklPwr}, Target takes Bleeding (3){SklPwr}
+OnCrit: Choose an ability to disable.|
 
+A1: Razor Teeth
+Skill-Offensive-Passive
+Effect: Unarmed attacks inflict Bleeding (1){SklPwr}|
+
+A2: Raptor Claw
+Skill-Offensive-Item
+Slot: Primary
+Raptor Claws (Type: Skill, WC: L, Rank: 2, Use: 5AP+(2/turn); inflicts Bleeding (1){SklPwr})|
+
+A3: Stride
+Melee-Movement-Action
+Cost: 1/turn
+Effect: Move one space in any direction.|
+
+A4: Clever Idea
+Skill-Movement-Reaction
+Trigger: An opponent resolves their attack against you.
+Cost: 7sta
+Effect: Relocate to a space adjacent to your attacker's space.|
+
+A5: Pack Strategy
+Skill-Support-Action
+Cost: 4fcs+(1/turn)
+Effect: You and allies sharing your space are gain advantage on your next non-Luck checks.|
+
+A6: Purge the Weak
+Skill-Offensive-Action
+Cost: 5AP
+Range: 0sp
+Effect: If an opponent's Health is at 10% their Max Health, their Health is reduced to -{MaxHealth}.|
+
+A7: Predatory Gaze
+Skill-Offensive-Action
+Cost: 10AP+5fcs
+Range: 1sp
+Evade: Skill
+Dmg: Inflict Paralyze (1).|
+
+A8: Scaled Hide
+Melee-Offensive-Passive
+Effect: You are immune to abilities that disable your own abilities.|
+
+A9: Balancing Tail
+Melee-Movement-Passive
+Effect: You are unaffected by difficult terrain.|
 
 MA1:|
 MA2:|
