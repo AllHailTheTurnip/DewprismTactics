@@ -47,7 +47,7 @@ A3: Nether Leap
 Magic-Movement-Action
 Cost: 5AP+3mna
 Effect You are removed from the Battlefield and placed into an imaginary space called the Nether.
-At any point you may spend an addition 5AP+3mna to reappear anywhere on the Battlefield.|
+You cannot do anything except spend an additional 5AP!+3mna (at any point) to reappear anywhere on the Battlefield.|
 
 A4: Howl
 Melee-Offensive-Action
