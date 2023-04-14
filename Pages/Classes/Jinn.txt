@@ -27,7 +27,7 @@ Skill: (Power: 3, Evasion: 10, Accuracy: -2)|
 Abilities
 Doctrine: Grant Wish
 Magic-Support-Action
-Cost: 10AP+7AP+(3/battle)
+Cost: 10AP+7mna+(3/battle)
 Effect: Choose (1):
 1) Charisma: Gain the Charismatic status. Charismatic: Automatically pass the first Luck check of a Befriend action, and gain +5 to the following check.
 2) Second Wind: Choose a KO'd combatant to revive at Full Health and fully restored Stamina, Mana, and Focus.
