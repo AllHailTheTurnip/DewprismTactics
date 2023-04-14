@@ -66,7 +66,7 @@ Magic-Offensive-Action
 Cost: 10AP+5mna
 Range: 1sp
 Accuracy: Magic
-Effect: Disable a combatant's ability (your choice).|
+Effect: Disable a combatant's ability (owner's choice).|
 
 A7: Shocking Bite
 Magic-Offensive-Action
@@ -81,7 +81,7 @@ Cost: 15AP+3fcs+5mna
 Range: Battlefield AoE
 Effect: Targeted enemy combatants roll 1d20 as A.
 If A is 10 or greater, enemy combatant takes (1){MgcPwr} electric damage.
-If A is also 15 or greater, enemy combatant takes Paralysis 1.|
+If A is also 17 or greater, enemy combatant takes Paralysis 1.|
 
 A9: Answer Master
 Melee-Supportive-Action

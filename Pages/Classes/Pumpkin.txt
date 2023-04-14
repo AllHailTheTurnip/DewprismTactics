@@ -84,11 +84,11 @@ Dmg: (2){SklPwr}|
 
 A8: Fission Reaction
 Magic-Offensive-Action
-Range: 1sp
+Range: 1sp AoE
 Variable: X = All enemy combatants in a space within range and all the enemy combatants in any touching spaces.
 Cost: 10AP+(X3)mna+(1/turn)
 Evade: Magic
-Effect: Inflict (X){MgwPwr} dmg to all targeted combatants, where X is the total of all targeted combatants.|
+Effect: Inflict (X){MgwPwr} dmg to all targeted combatants.|
 
 A9: Caustic Bite
 Melee-Offensive-Action
