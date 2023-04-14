@@ -48,7 +48,7 @@ Effect: Inflict 1/2 the potential damage to the attacker.|
 
 A3: Harrowing Missile
 Magic-Offensive-Action
-Cost: 10AP+(1/3th total mana)
+Cost: 10AP+(1/3th total max mana)
 Range: 1sp
 Accuracy: Magic+3
 Dmg: (4){MgcPwr}|
