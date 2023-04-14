@@ -45,7 +45,7 @@ Use: 15AP+7mna
 Solowork: Increase Range by 1sp.
 Range: 0sp AoE
 Evade: Magic
-OnHit: Target takes (3){MgcDmg} damage.|
+OnHit: Target takes (3){MgcPwr} damage.|
 
 A1:Burning Shield
 Magic-Defensive-Action

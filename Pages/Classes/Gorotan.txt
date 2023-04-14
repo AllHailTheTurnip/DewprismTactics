@@ -50,8 +50,8 @@ A3: Swipe
 Melee-Offensive-Action
 Use: 10AP
 Range: 0sp
-Effect: Target takes 1{MgcDmg} neutral damage.
-Teamwork: Change the Effect to target takes 1{MgcDmg} damage.|
+Effect: Target takes 1{MgcPwr} neutral damage.
+Teamwork: Change the Effect to target takes 1{MgcPwr} damage.|
 
 A4: Pounce
 Melee-Offensive-Action

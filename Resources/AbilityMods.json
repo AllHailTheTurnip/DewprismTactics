@@ -139,7 +139,7 @@
   },
   {
     "Name": "Essence over Form",
-    "Application": "This Ability's listed Stamina cost is changed to Mana. The Ability's MleDmg is replaced with MgcDmg.",
+    "Application": "This Ability's listed Stamina cost is changed to Mana. The Ability's MlePwr is replaced with MgcPwr.",
     "Ingredients": "1x Gargoyle Gem, 1x Soul Gem",
     "Check": "10"
   },

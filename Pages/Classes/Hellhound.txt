@@ -36,7 +36,7 @@ Melee-Offensive-Action
 Cost: 10AP
 Range: 0sp
 Accuracy: Melee+3
-Dmg: (1){MlePwr}, inflicts Burning (1){MgcPwr}|
+Dmg: (1){MlePwr}, inflicts Burning 2|
 
 A2: Rush
 Melee-Movement-Action

@@ -76,7 +76,7 @@ Magic-Offensive-Action
 Cost: 10AP+7mna
 Range: 2sp
 Accuracy: Magic
-Effect: Target takes Burning (3){MgcPwr}|
+Effect: Target takes Burning 25%|
 
 A8: Fortitude
 Melee-Defensive-Passive
