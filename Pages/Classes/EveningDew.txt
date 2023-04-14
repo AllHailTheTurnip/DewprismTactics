@@ -1,7 +1,8 @@
 Title:|
 Subtitle:|
 Description:|
-???
+
+Max-health increases after every revival.
 
 VITALS
 Health: 45|

@@ -54,7 +54,7 @@ Melee-Offensive-Action
 Cost: 10AP+3sta+1mna
 Range: 2sp cone AoE
 Evade: Magic
-Effect: Affected combatants choose one of their non-disabled Defensive or and disable them.|
+Effect: Affected combatants choose one of their non-disabled Defensive abilities and disable them.|
 
 A5: Fiendish Aura
 Magic-Offensive-Passive
