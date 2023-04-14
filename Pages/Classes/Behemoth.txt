@@ -42,7 +42,7 @@ Melee-Offensive-Action
 Cost: 10AP+1sta
 Range: 0sp
 Accuracy: Melee
-Dmg: (3){MleDmg}, inflicts Bleeding (1){MleDmg}.|
+Dmg: (3){MleDmg}, inflicts Bleeding (1){MlePwr}.|
 
 A3: Counter Attack
 Melee-Offensive-Reaction
