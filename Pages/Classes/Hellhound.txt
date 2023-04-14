@@ -73,7 +73,7 @@ Magic-Offensive-Action
 Cost: 10AP+3mna
 Range: 0sp
 Accuracy: Magic
-Effect: Inflicts (1){MlePwr} damage and (2){MgcPwr} electric damage to the combatant. Other enemy combatants in the same space take (2){MgcPwr} electric damage.|
+Effect: Inflicts (1){MlePwr} damage and (2){MgcPwr} electric damage to the combatant. Other enemy combatants in the same space take (1){MgcPwr} electric damage.|
 
 A8: Storm
 Magic-Offensive-Action
