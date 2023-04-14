@@ -101,7 +101,7 @@ Cost: 10AP+7mna+(1/battle)
 Effect: Choose (1):
 1) Switch Sides: Choose a combatant to become friendly to you and your team.
 2) Resurrection: Choose a combatant to be brought back from a KO'd state or Death at full health and free of negative statuses.
-3) Death. Choose a combatant to take the Dead status and be removed from combat.|
+3) Death. Choose a combatant to take damage equal to {TL45}.|
 
 MA2: Cosmic Powers|
 MA3:|
