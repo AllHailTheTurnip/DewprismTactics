@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset = "UTF-8">
     <title>Dewprism Tactics - Combat Rules</title>
-    <link rel="stylesheet" href="../Resources/GeneralStyle.css">
-    <script type="text/javascript" src="../Resources/CombatRulesIndexer.js">
+    <link rel = "stylesheet" href = "../Resources/GeneralStyle.css">
+    <script type = "text/javascript" src = "../Resources/CombatRulesIndexer.js">
     </script>
-    <script type="text/javascript"
-            src="../Resources/ReturnMenu.js"></script>
+    <script type = "text/javascript"
+            src = "../Resources/ReturnMenu.js"></script>
 </head>
-<body id="TopOfDocument">
+<body id = "TopOfDocument">
 <h1>
     Combat
 </h1>
-<div class="Side">
+<div class = "Side">
     Treasure hunting is a lucrative and (often) noble business, taking
     you all across the world from lush and
     rainy forests, all the way into the forgotten depths of the earth
@@ -33,47 +33,47 @@
     </p>
 </div>
 
-<div id="Directory">
+<div id = "Directory">
     <h2>Directory</h2>
     <ul>
         <li>
-            <a href="#BattleTransience">Battle Transience</a>
+            <a href = "#BattleTransience">Battle Transience</a>
         </li>
         <li>
-            <a href="#TurnsAndActions">Turns and Actions</a>
+            <a href = "#TurnsAndActions">Turns and Actions</a>
         </li>
         <li>
-            <a href="#CommonActions">Common Actions</a>
+            <a href = "#CommonActions">Common Actions</a>
         </li>
         <li>
-            <a href="#Aggro">Aggro</a>
+            <a href = "#Aggro">Aggro</a>
         </li>
         <li>
-            <a href="#Elements">Elements</a>
+            <a href = "#Elements">Elements</a>
         </li>
         <li>
-            <a href="#MetaLogic">Meta Logic</a>
+            <a href = "#MetaLogic">Meta Logic</a>
         </li>
         <li>
-            <a href="#Abilities">Abilities</a>
+            <a href = "#Abilities">Abilities</a>
         </li>
         <li>
-            <a href="#DeathAndDefeat">Death and Defeat</a>
+            <a href = "#DeathAndDefeat">Death and Defeat</a>
         </li>
         <li>
-            <a href="#SmallEncounters">Small Encounters</a>
+            <a href = "#SmallEncounters">Small Encounters</a>
         </li>
         <li>
-            <a href="#ExperienceAndRewards">Experience and Rewards</a>
+            <a href = "#ExperienceAndRewards">Experience and Rewards</a>
         </li>
         <li>
-            <a href="#NextSteps">Next Steps</a>
+            <a href = "#NextSteps">Next Steps</a>
         </li>
     </ul>
 </div>
-<span id="Content">
-   <div class="Wide">
-    <h2 id="TurnsAndActions">
+<span id = "Content">
+   <div class = "Wide">
+    <h2 id = "TurnsAndActions">
         Turns and Actions
     </h2>
     Combat begins when one party instigates a fight with another party. This happens either when one or more
@@ -231,8 +231,8 @@
     until your AP is above 0 again. This cannot be canceled.
        <sub>Note: You gain AP by burning negative amounts.</sub>
 </div>
-<div class="Wide">
-    <h2 id="BattleTransience">
+<div class = "Wide">
+    <h2 id = "BattleTransience">
         Battle Transience
     </h2>
     The first rule of combat is Battle Transience: <i>what happens in battle, stays in the battle.</i>
@@ -301,8 +301,8 @@
         </li>
     </ul>
 </div>
-    <div class="Wide">
-        <h2 id="Weapons">
+    <div class = "Wide">
+        <h2 id = "Weapons">
             Weapons
         </h2>
         Weapons are the basis of a capable warrior. If you run out of any of you resources, you'll
@@ -364,7 +364,7 @@
                 <b>Attributes</b><br>
                 Your weapon attributes indicate what special abilities your weapon has. A general list of
                 attributes can be found in the <a
-                    href="Equipment.html#WeaponAttributes">equipment</a> section.
+                    href = "Equipment.html#WeaponAttributes">equipment</a> section.
             </li>
         </ul>
 
@@ -374,12 +374,51 @@
         <p>
             Attributes with a plus-sign (+) beside indicate that their property has been enhanced.
             How this enhancement effects the attribute can be found in the <a
-                href="Equipment.html#WeaponAttributes">weapon attributes</a> listing in
+                href = "Equipment.html#WeaponAttributes">weapon attributes</a> listing in
             the equipment section.
         </p>
     </div>
-<div class="Wide">
-    <h2 id="CommonActions">
+
+<div class = "Wide">
+        <h2 id = "StatusEffects">Status Effects</h2>
+        During combat you're certain to come across positive and negative status effects, such as poison, health increases,
+        bleeding, damage buffs, and so on. None of these effects last forever, and many expire sooner than others.
+        <p>In general, positive status effects are assumed to last until Transience takes effect. Negative
+        status effects, such as bleeding, poison, and burning, are assumed to last 3 turns at most, unless
+        negated by another effects. This of course is offset by specifications during affliction; some abilities grant longer-lasting negative effects.</p>
+        <p>
+            The three most common negative status effects you'll come across are...
+        <ul>
+            <li>
+                Bleeding. While bleeding-out, your actions cost an amount of health to perform.
+            </li>
+            <li>
+                Poison. At the end of each turn, you take an amount of damage.
+            </li>
+            <li>
+                Burning. At the end of each turn, you take an amount of damage equal to a percent of your max health.
+            </li>
+        </ul>
+        The three most common positive status effects are...
+    <ul>
+        <li>
+            Immune. You are immune to the specified effect.
+        </li>
+        <li>
+            Restore. You recover an amount of vitality or ability as specified.
+        </li>
+        <li>
+            Increase. You increase a score, such as a maximum value or rank.
+        </li>
+    </ul>
+    </p>
+    <p>
+        When afflicted with a negative status effect, should you be afflicted with it again, then the timer is reset on the status effect (unless otherwise specified).
+        Additionally, if the effect is stackable, then the driving score of the effects are added together, becoming worse.
+    </p>
+</div>
+<div class = "Wide">
+    <h2 id = "CommonActions">
         Common Actions
     </h2>
     Every combatant possesses a set of basic actions that they can perform regardless of their primary class. These
@@ -704,8 +743,8 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         can use equipment without assistance from another party member.
     </p>
     </div>
-    <div class="Wide">
-        <h2 id="Aggro">Aggro</h2>
+    <div class = "Wide">
+        <h2 id = "Aggro">Aggro</h2>
         In combat, the most dangerous combatants should draw the most attention from the opposing side.
         Enemies will go out of their way to attack the player with Aggro.
         Depending on your team's build, this can be a good thing or a bad thing.
@@ -749,8 +788,8 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
             </li>
         </ul>
     </div>
-<div class="Wide">
-    <h2 id="Elements">
+<div class = "Wide">
+    <h2 id = "Elements">
         Elements
     </h2>
     Many creatures and abilities possess attributes called elements that indicate their
@@ -774,49 +813,49 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     Elements that are vulnerable to an element will reduce their rank by 1 for the action.
     <ul>
         <li>
-            <span class="Fire">Fire</span> is strong against <span class="Wind">Wind</span>,
+            <span class = "Fire">Fire</span> is strong against <span class = "Wind">Wind</span>,
             and vulnerable to <span
-                class="Water">Water</span>.
+                class = "Water">Water</span>.
         </li>
         <li>
-            <span class="Water">Water</span> is strong against <span
-                class="Fire">Fire</span>, and vulnerable to <span
-                class="Wind">Wind</span>.
+            <span class = "Water">Water</span> is strong against <span
+                class = "Fire">Fire</span>, and vulnerable to <span
+                class = "Wind">Wind</span>.
         </li>
         <li>
-            <span class="Wind">Wind</span> is strong against <span
-                class="Water">Water</span>, and vulnerable to
-            <span class="Fire">Fire</span> .
+            <span class = "Wind">Wind</span> is strong against <span
+                class = "Water">Water</span>, and vulnerable to
+            <span class = "Fire">Fire</span> .
         </li>
         <li>
-            <span class="Darkness">Darkness</span> is strong against <span
-                class="Light">Light</span> and weak to <span class="Darkness">Darkness</span>.
+            <span class = "Darkness">Darkness</span> is strong against <span
+                class = "Light">Light</span> and weak to <span class = "Darkness">Darkness</span>.
         </li>
         <li>
-            <span class="Light">Light</span> is strong against <span
-                class="Darkness">Darkness</span> and weak to <span
-                class="Light">Light</span>.
+            <span class = "Light">Light</span> is strong against <span
+                class = "Darkness">Darkness</span> and weak to <span
+                class = "Light">Light</span>.
         </li>
         <li>
-            <span class="Metal">Metal</span> is strong against <span
-                class="Electric">Electric</span> and
-            vulnerable to <span class="Metal">Metal</span>.
+            <span class = "Metal">Metal</span> is strong against <span
+                class = "Electric">Electric</span> and
+            vulnerable to <span class = "Metal">Metal</span>.
         </li>
         <li>
-            <span class="Electric">Electric</span> is strong against <span
-                class="Metal">Metal</span> and
-            vulnerable to <span class="Electric">Electric</span>
+            <span class = "Electric">Electric</span> is strong against <span
+                class = "Metal">Metal</span> and
+            vulnerable to <span class = "Electric">Electric</span>
         </li>
         <li>
-            <span class="Noble">Noble</span> is strong against everything and vulnerable everything.
+            <span class = "Noble">Noble</span> is strong against everything and vulnerable everything.
         </li>
         <li>
-            <span class="Neutral"></span> Neutral is neither strong nor vulnerable to anything.
+            <span class = "Neutral"></span> Neutral is neither strong nor vulnerable to anything.
         </li>
     </ul>
 
-    <img src="../Resources/ElementChart.png"
-         style="margin-right: auto; margin-left: auto; display: block"/>
+    <img src = "../Resources/ElementChart.png"
+         style = "margin-right: auto; margin-left: auto; display: block"/>
 
 
     For example...
@@ -837,8 +876,8 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
 
 </div>
 
-<div class="Wide">
-    <h2 id="MetaLogic">
+<div class = "Wide">
+    <h2 id = "MetaLogic">
         Meta Logic
     </h2>
     While in combat, it is assumed that the written rules come first everyone is bound to the same basic combat rules, such that narrative sense
@@ -853,8 +892,8 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         will take the same liberties you have.
     </p>
 </div>
-<div class="Wide">
-    <h2 id="Abilities">
+<div class = "Wide">
+    <h2 id = "Abilities">
         Abilities
     </h2>
     Abilities are special actions that are best understood as simple programs. They contain common keywords, use
@@ -1082,8 +1121,8 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         your abilities being subtly changed.
     </p>
 </div>
-            <div class="Wide">
-                <h2 id="Swarming">
+            <div class = "Wide">
+                <h2 id = "Swarming">
                    Swarming
                 </h2>
                 During combat, you may come against large groups of enemies. While exciting, these extra enemies
@@ -1142,8 +1181,8 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
 
 
 
-<div class="Wide">
-    <h2 id="DeathAndDefeat">
+<div class = "Wide">
+    <h2 id = "DeathAndDefeat">
         Death and Defeat
     </h2>
     All combat must come to an end eventually, and while your might side might have won, not all
@@ -1167,7 +1206,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     Once your health reaches negative-half its max score, your character is dead. Their spirit has departed
     from their person and all biological functions have ceased to continue.
     <p>
-        In accordance with the rule of <a href="#BattleTransience">Battle Transience</a>, if your character
+        In accordance with the rule of <a href = "#BattleTransience">Battle Transience</a>, if your character
         dies before the battle is over and they don't have a revival coin, they remain dead after the battle.
     </p>
     <p>
@@ -1198,8 +1237,8 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
 
 
 </div>
-<div class="Wide">
-    <h2 id="SmallEncounters">
+<div class = "Wide">
+    <h2 id = "SmallEncounters">
         Small Encounters
     </h2>
     Smaller, lower-stakes battles can be reduced to obstacle-like encounters that each combatant completed
@@ -1351,8 +1390,8 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
         just as much as the likeliness that it'll be a dangerous one.
     </p>
 </div>
-<div class="Wide">
-    <h2 id="ExperienceAndRewards">
+<div class = "Wide">
+    <h2 id = "ExperienceAndRewards">
         Experience and Rewards
     </h2>
     At the end of a battle loot from slayed monsters is collected and experience is rewarded.
@@ -1393,10 +1432,10 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     Not all campaigns utilize experience points, and that's perfectly okay. Instead, if the campaign is
     utilizing milestones, then after each boss battle, each combatant gets to level-up.
 </div>
-<div class="Wide">
-                <h2 id="NextSteps">Next steps</h2>
+<div class = "Wide">
+                <h2 id = "NextSteps">Next steps</h2>
                 After collecting enough experience, or when the DM says it's time to level-up,
-                you can head over to <a href="LevelsAndProgression.html">Level Progression</a> to
+                you can head over to <a href = "LevelsAndProgression.html">Level Progression</a> to
                 learn how to improve yourself.
 </div>
 </span>

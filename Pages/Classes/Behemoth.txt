@@ -28,7 +28,7 @@ Abilities
 Doctrine: Bull Rush
 Melee-Offensive-Action
 Cost: 10AP+7sta
-Effect: Move 2sp in any available direction. An enemy combatants in any of the spaces you passed through take (2){MlePwr} damage.|
+Effect: Move 2sp in any available direction. Any enemy combatants in any of the spaces you entered (or left) take (2){MlePwr} damage.|
 
 A1: Roar!
 Melee-Offensive-Action
@@ -48,18 +48,19 @@ A3: Counter Attack
 Melee-Offensive-Reaction
 Trigger: An enemy combatant resolves an attack against you.
 Cost: 5sta
-Effect: Make a free unarmed attack action against the attacker.|
+Luck: 10
+OnPass: Make a free unarmed attack action against the attacker.|
 
 A4: Group Rush
 Skill-Offensive-Reaction
 Trigger: You declare an attack action.
 Cost: 5AP+3fcs+(1/turn)
 Range: 0sp
-Effect: Allied combatant in your space make a Luck 10 check, whereupon success they each make a free attack action to attack the same combatant as you.|
+Effect: Allied combatant in your space make a Luck 15 check, whereupon success they each make a free attack action to attack the same combatant as you.|
 
 A5: Meteor
 Magic-Offensive-Action
-Cost: 15AP+5mna
+Cost: 20AP+5mna
 Range: Battlefield
 Effect: Choose a target space within range. Every combatant within that space makes a Magic evade check.
 Upon failure, target combatant(s) takes (5){MgcPwr} fire damage.|
@@ -67,7 +68,7 @@ Upon failure, target combatant(s) takes (5){MgcPwr} fire damage.|
 A6: Maelstrom
 Magic-Offensive-Action
 Cost: 10AP+5mna
-Range: Battlefield AoE
+Range: 3sp AoE
 Evade: Magic
 Effect: Enemy combatants that failed the check move 1sp close to you.|
 
@@ -84,7 +85,7 @@ Effect: You are immune to poison, bleed, and burning.|
 
 A9: Obliterate
 Melee-Offensive-Action
-Cost: 10AP+7sta+(1/turn)
+Cost: 10AP+7sta+(1/battle)
 Range: 1sp
 Accuracy: Melee
 Evade: Melee

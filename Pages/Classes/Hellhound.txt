@@ -13,13 +13,13 @@ Stamina: 17|
 Focus: 15|
 
 SCORES
-Initiative: 14|
+Initiative: 12|
 Carry: 10u|
 Element: Fire|
 
 STATS
-Melee: (Power: 4, Evasion: 12, Accuracy: -2)|
-Magic: (Power: 5, Evasion: 12, Accuracy: +2)|
+Melee: (Power: 4, Evasion: 10, Accuracy: -2)|
+Magic: (Power: 5, Evasion: 10, Accuracy: +2)|
 Skill: (Power: 6, Evasion: 12, Accuracy: +3)|
 
 Abilities
@@ -35,13 +35,13 @@ A1: Burning Bite
 Melee-Offensive-Action
 Cost: 10AP
 Range: 0sp
-Accuracy: Melee+3
+Accuracy: Melee
 Dmg: (1){MlePwr}, inflicts Burning 2|
 
 A2: Rush
 Melee-Movement-Action
 Cost: 10AP+5sta
-Effect: Move up to 6sp in any direction, ignoring rough terrain and checks for gaps equal to 1sp.|
+Effect: Move up to 2sp in any direction, ignoring rough terrain and checks for gaps equal to 1sp.|
 
 A3: Nether Leap
 Magic-Movement-Action
@@ -58,7 +58,7 @@ Effect: Affected combatants choose one of their non-disabled Defensive abilities
 
 A5: Fiendish Aura
 Magic-Offensive-Passive
-Range: 2sp
+Range: 0sp
 Effect: Enemy combatants cannot use supportive abilities within range of you.|
 
 A6: Devour Soul
@@ -70,7 +70,7 @@ Effect: Disable a combatant's ability (owner's choice) until end of battle.|
 
 A7: Shocking Bite
 Magic-Offensive-Action
-Cost: 10AP+3mna
+Cost: 10AP+5mna
 Range: 0sp
 Accuracy: Magic
 Effect: Inflicts (1){MlePwr} damage and (2){MgcPwr} electric damage to the combatant. Other enemy combatants in the same space take (1){MgcPwr} electric damage.|
@@ -78,7 +78,7 @@ Effect: Inflicts (1){MlePwr} damage and (2){MgcPwr} electric damage to the comba
 A8: Storm
 Magic-Offensive-Action
 Cost: 15AP+3fcs+5mna
-Range: Battlefield AoE
+Range: 3sp AoE
 Effect: Targeted enemy combatants roll 1d20 as A.
 If A is 10 or greater, enemy combatant takes (1){MgcPwr} electric damage.
 If A is also 17 or greater, enemy combatant takes Paralysis 1.|

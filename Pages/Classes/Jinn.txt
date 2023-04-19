@@ -30,8 +30,8 @@ Magic-Support-Action
 Cost: 10AP+7mna+(3/battle)
 Effect: Choose (1):
 1) Charisma: Gain the Charismatic status. Charismatic: Automatically pass the first Luck check of a Befriend action, and gain +5 to the following check.
-2) Second Wind: Choose a KO'd combatant to revive at Full Health and fully restored Stamina, Mana, and Focus.
-3) Heart Attack: Make a Luck 12 check against a combatant, whereupon success they lose health equal to 30% of their {MaxHealth}.|
+2) Second Wind: Choose a KO'd combatant to revive at 50% health and fully restored Stamina, Mana, and Focus.
+3) Heart Attack: Make a Luck 15 check against a combatant, whereupon success they lose health equal to 30% of their {MaxHealth}.|
 
 A1: Whirlwind
 Magic-Offensive-Action
@@ -50,7 +50,7 @@ A3: Harrowing Missile
 Magic-Offensive-Action
 Cost: 10AP+(1/3th total max mana)
 Range: 1sp
-Accuracy: Magic+3
+Accuracy: Magic+1
 Dmg: (4){MgcPwr}|
 
 A4: Blood Offering
@@ -76,7 +76,7 @@ A7: Sandstorm
 Magic-Offensive-Action
 Cost: 10AP+3mna+1fcs+(1/battle)
 Range: 4sp
-Effect: Create a Sandstorm prop that covers up to 6 adjacent spaces.
+Effect: Create a Sandstorm prop that covers up to 3 adjacent spaces.
 Sandstorm prop: Combatants who end their turn within the same space as this prop take (2){PL15} wind damage.|
 
 A8: Minor Wish
@@ -84,14 +84,14 @@ Magic-Support-Action
 Cost: 10AP+(1/battle)
 Effect: Choose one from the following list:
 1) Increase your Melee, Skill, and Magic by one level.
-2) Target a combatant and inflict the Black Mark status; they can no longer recover health.
+2) Target a combatant and inflict the Black Mark status; they cannot recover health unless they disable their primary attack for the rest of the battle.
 3) Double your Health and Max Health.|
 
 A9: Foresight
 Magic-Support-Action
 Cost: 15AP+7mna+3fcs
 Effect: Privately roll 3d20 and record the results in a list ordered from first-rolled to last-rolled. Grant yourself the Foresight status.
-Foresight status: Whenever you would roll a d20, you instead substitute it with the first-most result from your private list of recorded rolls and then remove the record from the list.
+Foresight status: Whenever you would roll a d20, you may instead substitute it with the first-most result from your private list of recorded rolls and then remove the record from the list.
  When the list is empty, you lose the Foresight status.|
 
 

@@ -1,5 +1,5 @@
-Title:|
-Subtitle:|
+Title: Morning Dew|
+Subtitle: The Ultimate Defender|
 Description:|
 ???
 
@@ -20,9 +20,9 @@ Magic: (Power: 7, Evasion: 15, Accuracy: 0)|
 Skill: (Power: 3, Evasion: 15, Accuracy: 0)|
 
 Abilities
-Doctrine: Shield of Protection
+Doctrine: Resurrect Player
 // Become a shield for another combatant|
-A1: Resurrect Player|
+A1: Shield of Protection|
 A2:|
 A3:|
 A4:|

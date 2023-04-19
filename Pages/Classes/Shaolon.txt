@@ -30,7 +30,7 @@ Skill-Offensive-Action
 Cost: 10AP+3sta
 Range: 0sp
 Accuracy: Skill
-Dmg: (3){SklPwr}, Target takes Bleeding (3){SklPwr}
+Dmg: (3){SklPwr}, Target takes Bleeding (1){SklPwr}
 OnCrit: Choose an ability to disable.|
 
 A1: Razor Teeth
@@ -51,7 +51,7 @@ A4: Clever Idea
 Skill-Movement-Reaction
 Trigger: An opponent resolves their attack against you.
 Cost: 7sta
-Effect: Relocate to a space adjacent to your attacker's space.|
+Effect: Relocate an ally to a space adjacent to your attacker's space.|
 
 A5: Pack Strategy
 Skill-Support-Action
@@ -62,7 +62,7 @@ A6: Purge the Weak
 Skill-Offensive-Action
 Cost: 5AP
 Range: 0sp
-Effect: If an opponent's Health is at 10% their Max Health, their Health is reduced to -{MaxHealth}.|
+Effect: If an opponent's health is down to 10% of their max, their health is reduced to 0.|
 
 A7: Predatory Gaze
 Skill-Offensive-Action

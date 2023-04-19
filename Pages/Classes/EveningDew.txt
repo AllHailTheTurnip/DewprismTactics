@@ -1,37 +1,60 @@
-Title:|
-Subtitle:|
-Description:|
+Title: Evening Dew|
+Subtitle: The Ultimate Attacker|
+Description: The history of all civilization is bookended by a prophecy - that at the end of days, a lost angel would
+return to Earth and drown it fire. Though those times are well off anf the lost angel is nowhere to be found, a following
+has regardless formed around them. Their foremost practitioners, styling themselves as Evening Dews, have secluded themselves
+hoping and waiting that one day, when the lost angel makes their way back, that they too might ride by their side.
+    <p>Evening Dews are masters of mind, body, and will, honing their abilities to cause as much destruction as
+    possible. As a backup measure, they are enchanted to return stronger than ever, should they be downed in combat.</p>|
 
 Max-health increases after every revival.
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 30|
+Mana: 5|
+Stamina: 5|
+Focus: 5|
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 15|
+Carry: 8u|
+Element: Dark|
 
 STATS
-Melee: (Power: 5, Evasion: 10)|
-Magic: (Power: 5, Evasion: 10)|
-Skill: (Power: 5, Evasion: 10)|
+Melee: (Power: 3, Evasion: 8, Accuracy: +1)|
+Magic: (Power: 3, Evasion: 8, Accuracy: +2)|
+Skill: (Power: 3, Evasion: 8. Accuracy: +1)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Greater Revival
+Magic-Support-Reaction
+Trigger: You lose the Dead or KO'd Status
+Effect: Your {Health} and {MaxHealth} is increased by 1 level.|
 
+A1: Ring of Death|
+A2: Buzzsaw|
+A3: Earthquake Stomp|
+A4: Overwhelm|
+A5: Call of the End|
+
+A6: Crushing Strike|
+Melee-Offensive-Action
+Cost: 10AP+7sta
+
+A7: Path of Flame
+Magic-Support-Reaction
+Trigger: You leave a space.
+Cost: 5mna
+Effect: Place a Flame prop in the space you left.
+Flame prop: |
+
+A8: Immense Reach
+Melee-Offensive-Passive
+Increase the range of your Melee actions by 1sp.|
+
+A9: Path of the Bloodletter.
+Magic-Offensive-Passive
+Effect: When using an offensive ability, you instead pay 4x the total amount of stamina, mana, and focus with your own health.|
 
 MA1:|
 MA2:|
