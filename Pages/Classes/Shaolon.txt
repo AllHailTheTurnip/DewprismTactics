@@ -56,7 +56,7 @@ Effect: Relocate an ally to a space adjacent to your attacker's space.|
 A5: Pack Strategy
 Skill-Support-Action
 Cost: 4fcs+(1/turn)
-Effect: You and allies sharing your space are gain advantage on your next non-Luck checks.|
+Effect: You and allies sharing your space gain advantage on your next non-Luck checks.|
 
 A6: Purge the Weak
 Skill-Offensive-Action

@@ -97,7 +97,7 @@ Skill-Support-Action
 Use: 10AP+3fcs
 Range: 0sp
 Effect: Choose 1+{DL} allies on the battlefield to be your Master(s).
-At any point during your turns, you may choose to give any amount of your Health, Stamina, Mana, or Focus to the other.|
+At any point during your or any of your Masters's turns, you may choose to give any amount of your Health, Stamina, Mana, or Focus to them.|
 
 A8: Become Invisible
 Magic-Support-Action
