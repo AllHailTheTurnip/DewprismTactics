@@ -70,7 +70,7 @@ Magic-Offensive-Action
 Cost: 10AP+5mna
 Range: 3sp AoE
 Evade: Magic
-Effect: Enemy combatants that failed the check move 1sp close to you.|
+Effect: Any combatants that failed the check move 1sp close to you.|
 
 A7: Flare
 Magic-Offensive-Action
@@ -92,5 +92,5 @@ Evade: Melee
 Dmg: Inflict (7){MlePwr} damage.|
 
 MA1: King|
-MA2:|
+MA2: Meteor Shower (targets entire battlefield)|
 MA3:|
