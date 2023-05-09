@@ -33,7 +33,7 @@ Skill: (Power: 3, Evasion: 14, Accuracy: +2)|
 
 Abilities
 Doctrine: *Poof*
-Skill-Support-Action
+Skill-Movement-Action
 Use: 1fcs+1sta+1mna+5AP
 Range: 1+[CL/3]sp
 Effect: Relocate yourself to any space within range.|

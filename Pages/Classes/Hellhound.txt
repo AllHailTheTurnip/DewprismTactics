@@ -78,7 +78,7 @@ Effect: Inflicts (1){MlePwr} damage and (2){MgcPwr} electric damage to the comba
 A8: Storm
 Magic-Offensive-Action
 Cost: 15AP+3fcs+5mna
-Range: 3sp AoE
+Range: 3sp AoE Circle
 Effect: Targeted enemy combatants roll 1d20 as A.
 If A is 10 or greater, enemy combatant takes (1){MgcPwr} electric damage.
 If A is also 17 or greater, enemy combatant takes Paralysis 1.|
