@@ -48,4 +48,4 @@ Consumables:|
 Loot
 Experience:150|
 Gil:35|
-Loot: 1x Pincer Set(Materials, Value: 25gil), 1x Pellet Sack (Worth 10x Ammo)|
+Loot: 1x Pincer Set(Materials, Value: 25gil)|

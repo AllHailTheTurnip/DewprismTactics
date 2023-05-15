@@ -98,12 +98,6 @@
     "Value": "20"
   },
   {
-    "Name": "Pellet Sack",
-    "Type": "Metal",
-    "RawApplication": "Add 25x units of Ammo to your inventory.",
-    "Value": "20"
-  },
-  {
     "Name": "Solid Shadow",
     "Type": "Special",
     "RawApplication": "Luck: 10. OnPass: Relocate to anywhere on the battlefield.",
