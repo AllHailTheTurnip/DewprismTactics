@@ -59,10 +59,7 @@
         will teach you how to craft and how best go about it.
         <hr>
         <p>
-            <b>Rule 1.</b> Any Materials on your person can be consumed raw for
-            their base effects.
-            However, they won't be as useful as they would be as ingredients. To
-            follow a crafting recipe, simply acquire the indicated amount of
+            <b>Rule 1.</b> To follow a crafting recipe, simply acquire the indicated amount of
             ingredients
             and find a place outside of combat to make a proper Craft Check.
         </p>
@@ -143,16 +140,46 @@
         <h2>
             Materials
         </h2>
+        There are six types of materials you can collect from monsters, which are listed down below. Each kind of material has a base price, along with a quality. The better the quality,
+        the better the material. The kinds of qualities are...
+        <ul>
+            <li>
+                Low. The quality of the item is poor and its value is halved.
+            </li>
+            <li>
+                Medium. The quality of the item is standard, and its value is unaltered. Can substitute for low-quality materials.
+            </li>
+            <li>
+                High. The quality of the item is perfect, and its value is doubled. Can substitute for low- and medium-quality materials.
+            </li>
+            <li>
+                Special. While not necessarily high, low, or medium in quality, it is special and will be required by name in certain recipes.
+            </li>
+        </ul>
+        When reading recipes, the quality of the materials will be abbreviated as L, M, H, and S (Low, Medium, High, and Special).
+        If no quality is listed, then any will do.<br>
+        Recipes with a special-quality ingredient will normally feature the parenthesized name beside it. If no ingredient is listed, assume any will do.<br>
+        Alternatively, you can substitute a special material of a matching type but not name in a recipe, but with a -10 to the crafting check.<br>
         <table>
             <thead>
                 <th style="width: 10%">Name</th>
-                <th>Raw Consumption</th>
+                <th>Description</th>
                 <th style="width: 10%">Value</th>
             </thead>
             <tbody id="CraftablesMaterialsBody">
 
             </tbody>
         </table>
+        <h3>
+            Concentration
+        </h3>
+        You can take lower-quality materials and combine them with other lower-quality materials to make a higher quality material.
+        This is done by a process called concentration, whereby you take materials of matching type and quality and cook them down into a more concentrated form.
+        <ul>
+            <li>5x low-quality materials concentrate into 1x medium-quality material.</li>
+            <li>5x medium-quality materials concentrate into 1x high-quality material.</li>
+            <li>5x high-quality materials concentrate into a high-quality material.</li>
+        </ul>
         <!-- -->
         <hr>
         <h2>Consumables</h2>

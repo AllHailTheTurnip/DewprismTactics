@@ -2,303 +2,296 @@
   {
     "Name": "Wabbit Stew",
     "Application": "Gain flight. Included in your Movement action, you may move in any direction for the next [3] rounds.",
-    "Ingredients": "1x Wabbit Ears, 1x Wabbit Haunch",
+    "Ingredients": "1x S. Vital (Wabbits Ears), 2x Meat",
     "CraftCheck": "10",
     "Value": "150"
   },
   {
-    "Name": "Potent Pollywog Powder",
+    "Name": "Potent Focus Powder",
     "Application": "Restore [100]% Focus. Any leftover Focus is treated as temporary, lost at the end of the battle.",
-    "Ingredients": "3x Pollywog Tails",
+    "Ingredients": "3x M. Calcic",
     "CraftCheck": "5",
     "Value": "25"
   },
   {
-    "Name": "Mandola Root Stew",
+    "Name": "Root Stew",
     "Application": "Restore [5]{TL} Health at the beginning of each turn until the end of combat.",
-    "Ingredients": "3x Mandola Roots.",
+    "Ingredients": "1x S. Plant",
     "CraftCheck": "10",
     "Value": "45"
   },
   {
     "Name": "Bonemeal",
     "Application": "Improve restorative effects of a consumable by [50]%.",
-    "Ingredients": "2x Old Bone OR 2x Bone Fragment",
+    "Ingredients": "3x L. Calcic",
     "CraftCheck": "5",
     "Value": "10"
   },
   {
-    "Name": "Saber Tooth Extract",
+    "Name": "Poisonous Tooth Extract",
     "Application": "Next attack inflicts Bleeding (1){[TL]}.",
-    "Ingredients": "4x Saber To",
+    "Ingredients": "2x M. Calcic, 1x H. Vital.",
     "CraftCheck": "8",
     "Value": "40"
   },
   {
     "Name": "Anima",
     "Application": "Restore [50]% of your max Health or revive a dead combatant with [25] of their max Health.",
-    "Ingredients": "1x Gargoyle Gem",
+    "Ingredients": "2x. Vital",
     "CraftCheck": "15",
     "Value": "100"
   },
   {
     "Name": "Nightmare Essence",
     "Application": "Permanently increase max Health by current Class's [base Health].",
-    "Ingredients": "Nightmare Residue",
+    "Ingredients": "1x. Nightmare Residue, 2x H. Special",
     "CraftCheck": "18",
     "Value": "250"
   },
   {
     "Name": "Nightvision Juice",
     "Application": "Become unaffected by lighting conditions for the next [hour].",
-    "Ingredients": "Gudon Eye",
+    "Ingredients": "1x Vital",
     "CraftCheck": "10",
     "Value": "50"
   },
   {
     "Name": "Rancid Tea",
     "Application": "Reduce the Stamina, Mana, and/or Focus cost of your next action by [5] (min 0).",
-    "Ingredients": "2x Pincer Set, 1x Pellet Sack",
+    "Ingredients": "1x L. Calcic, 2x L. Plant",
     "CraftCheck": "13",
     "Value": "15"
   },
   {
     "Name": "Divination Bones",
     "Application": "Gain Advantage on your next [5] checks.",
-    "Ingredients": "4x Old Bone, 2x Soul Fragment",
+    "Ingredients": "3x H. Calcic, 1x Arcana",
     "CraftCheck": "15",
     "Value": "250"
   },
   {
     "Name": "Eternal Cocktail",
     "Application": "Become immune to KO for the next [2] turns; you can still die.",
-    "Ingredients": "8x Perma-Ice",
+    "Ingredients": "2x M. Arcana.",
     "CraftCheck": "18",
     "Value": "150"
   },
   {
     "Name": "Pork Chops",
     "Application": "Restore [80]% of your max Health, and [50]% of your max Stamina, Mana, and Focus.",
-    "Ingredients": "2x Wild Pork",
+    "Ingredients": "2x H. Meat.",
     "CraftCheck": "8",
     "Value": "45"
   },
   {
     "Name": "Orange Bone Powder",
     "Application": "During your next turn, if an attack would miss, try again [1] time for free.",
-    "Ingredients": "3x Ootang Tooth",
+    "Ingredients": "1x S. Calcic (Ootant Tooth)",
     "CraftCheck": "13",
     "Value": "25"
   },
   {
     "Name": "Pill of Strength",
     "Application": "Increase the Rank of every action by [1] until the end of the battle.",
-    "Ingredients": "2x Behemoth Spine, 1x Behemoth Horn",
+    "Ingredients": "2x H. Vital, 1x S. Calcic (Behemoth Horn)",
     "CraftCheck": "15",
     "Value": "200"
   },
   {
     "Name": "Potion of Flight",
     "Application": "Appending your Movement action, you may may move in any direction until the end of the battle.",
-    "Ingredients": "3x Cockadoo Feather",
+    "Ingredients": "2x M. Arcana, 1x Meat",
     "CraftCheck": "12",
     "Value": "350"
   },
   {
     "Name": "Napalm",
     "Application": "Your attacks that inflict Burning double their rank.",
-    "Ingredients": "3x Bubba Lard",
+    "Ingredients": "3x Special",
     "CraftCheck": "12",
     "Value": "75"
   },
   {
     "Name": "Essence of Fire",
     "Application": "Your element is changed to Fire. You are immune to Fire-element attacks. This lasts until the end of combat.",
-    "Ingredients": "3x Fire Blob Cores",
+    "Ingredients": "1x S. Arcana (Fireblob Core)",
     "CraftCheck": "15",
     "Value": "125"
   },
   {
     "Name": "Mushroom Soup",
     "Application": "Restore [10] of your Mana, Stamina, and Focus.",
-    "Ingredients": "2x Fungie Caps",
+    "Ingredients": "2x Plant, 1x Liquid",
     "CraftCheck": "8",
     "Value": "20"
   },
   {
-    "Name": "Sprinting Paw Broth",
+    "Name": "Sprinting Broth",
     "Application": "At the beginning of combat, increase your Initiative check by [10].",
-    "Ingredients": "2x Hellhound Paws",
+    "Ingredients": "1x H. Liquid",
     "CraftCheck": "8",
     "Value": "75"
   },
   {
     "Name": "Potion of Mystery",
-    "Application": "Roll 1d20 and divide by 2 as A. Use ability of index A for free.",
-    "Ingredients": "4x Imp Hearts",
+    "Application": "Roll 1d20 and divide by 2 as A. Use ability of index A once for free.",
+    "Ingredients": "1x S. Vital, 2x Arcana",
     "CraftCheck": "14",
     "Value": "200"
   },
   {
     "Name": "Wish",
     "Application": "Choose [1]: 1) Resurrect a Dead or KO'd party member. 2) Automatically befriend a non-brilliant enemy combatant. 3) Automatically learn one of your Doctrine abilities as a normal sideboard ability.",
-    "Ingredients": "10x Divine Sand, 5x Soul Fragment.",
+    "Ingredients": "5x S. Arcana (Divine Sand), 5x Arcana",
     "CraftCheck": "30",
     "Value": "10,000"
   },
   {
     "Name": "Essence of Morning",
     "Application": "You have [20] Defense Points. Spend X Defense Points to reduce the Rank of any incoming attacks by X. This lasts until all Defense Points are spent.",
-    "Ingredients": "2x Morning Dew Residue",
+    "Ingredients": "1x S. Liquid (Morning Dew Residue), 2x H. Liquid",
     "CraftCheck": "25",
     "Value": "2,500"
   },
   {
     "Name": "Essence of Evening",
     "Application": "You have [20] Offense Points. Spend X Offense points to increase the Rank of any actions by X. This lasts until all Offense Points are spent.",
-    "Ingredients": "2x Evening Dew Residue",
+    "Ingredients": "1x S. Liquid (Evening Dew Residue), 2x H. Liquid",
     "CraftCheck": "25",
     "Value": "2,500"
   },
   {
     "Name": "Essence of Logic",
     "Application": "You have [100] Check Points. Spend X Check Points to increase any Checks by X. This lasts until all Logic Points have been spent.",
-    "Ingredients": "1x Aeon Residue",
+    "Ingredients": "2x S. Arcana (Aeon Residue)",
     "CraftCheck": "25",
     "Value": "2,500"
   },
   {
     "Name": "Pumpkin Pie",
     "Application": "Divide [100]% between yourself and any chosen allies in your space to regain that percentage in Health.",
-    "Ingredients": "3x Pumpkin Chunks",
+    "Ingredients": "3x Plants",
     "CraftCheck": "15",
     "Value": "35"
   },
   {
     "Name": "Tough Stew",
     "Application": "You gain Temporary Health equal to your [Max Health] until the end of the turn. Any damage taken is afflicted to your Temporary Health first.",
-    "Ingredients": "3x Shaolon Leg",
+    "Ingredients": "1x L. Meat, 2x Liquid",
     "CraftCheck": "16",
     "Value": "100"
   },
   {
     "Name": "Meatballs",
     "Application": "Restore a total of [20] points between your Stamina, Mana, and Focus.",
-    "Ingredients": "1x Beef, 2x Milk",
+    "Ingredients": "3x Meat",
     "CraftCheck": "10",
     "Value": "25"
   },
   {
     "Name": "Pumpkin Soup",
     "Application": "You are immune to bonus damage from elemental advantage until the end of combat.",
-    "Ingredients": "2x Pumpkin Chunks",
+    "Ingredients": "3x M. Plant, 1x H. Plant",
     "CraftCheck": "12",
     "Value": "40"
   },
   {
     "Name": "Root Beer",
     "Application": "Consume to restore [10]% max Health.",
-    "Ingredients": "Ginger Root",
+    "Ingredients": "1x Plant, 2x Liquid",
     "CraftCheck": "5",
     "Value": "15"
   },
   {
     "Name": "Tropical Delight",
     "Application": "Gain +[5] on your next non-luck Check.",
-    "Ingredients": "2x Tropical Fruit, 1x Perma-Ice",
+    "Ingredients": "1x H. Liquid, 1x Plant",
     "CraftCheck": "10",
     "Value": "45"
   },
   {
     "Name": "Pollywog Souffle",
     "Application": "Increase your Evasion scores by [2] for the duration of the battle.",
-    "Ingredients": "2x Pollywog Tail, 1x Beef",
+    "Ingredients": "1x S. Meat (Pollywog Tail), 2x Plant",
     "CraftCheck": "12",
     "Value": "50"
   },
   {
-    "Name": "Gudon's Liver Soup",
+    "Name": "Liver Soup",
     "Application": "Reduce the next incoming attack's damage by [50]%.",
-    "Ingredients": "3x Gudon Liver",
+    "Ingredients": "3x L. Vital",
     "CraftCheck": "12",
     "Value": "20"
   },
   {
     "Name": "Mince Fire Blob",
     "Application": "The next [1] action you make can be Burned (execute now and pay next turn).",
-    "Ingredients": "2x Fire Blob Hearts",
+    "Ingredients": "1x S. Liquid (Fireblob Core), 1x Meat",
     "CraftCheck": "13",
     "Value": "80"
   },
   {
     "Name": "Cooked Monster Meat",
     "Application": "Increase your Max Health and current Health by [1] level until the end of the battle.",
-    "Ingredients": "1x Uncooked Monster Meat",
+    "Ingredients": "2x Meat",
     "CraftCheck": "7",
     "Value": "125"
   },
   {
     "Name": "Rendered Fat",
     "Application": "Gain an additional [100]sta until the start of your next turn.",
-    "Ingredients": "1x Whale Blubber",
+    "Ingredients": "5x H. Meat",
     "CraftCheck": "15",
     "Value": "250"
   },
   {
     "Name": "Refined Stardust",
     "Application": "Next [1] Luck checks automatically passes.",
-    "Ingredients": "2x Stardust",
+    "Ingredients": "1x S. Arcana (Stardust)",
     "CraftCheck": "15",
     "Value": "175"
   },
   {
     "Name": "Omnifuel",
     "Application": "Restore all your Vitals to [100]%.",
-    "Ingredients": "1x Whale Oil",
+    "Ingredients": "1x S. Liquid",
     "CraftCheck": "15",
     "Value": "300"
   },
   {
     "Name": "Caveman Soup",
     "Application": "Increase your Talent scores by [2] for the next hour.",
-    "Ingredients": "2x Bone Marrow",
+    "Ingredients": "2x. M. Calcic, 1x Meat",
     "CraftCheck": "8",
     "Value": "120"
   },
   {
     "Name": "Meat Lover's Pizza",
     "Application": "This comes in six pieces. Each combatant may have 1 piece per hour or until no longer in effect. Consuming a piece increases your Vitals, Melee, Magic, and Skill scores by one level until the end of the battle.",
-    "Ingredients": "1x Bone Marrow, 1x Wabbit Haunch, 1x Beef, 1x Gudon Liver",
+    "Ingredients": "1x H. Meat, 2x Plant",
     "CraftCheck": "10",
     "Value": "750"
   },
   {
     "Name": "Spider Stew",
-    "Application": "Choose up to [3] enemies on the Battlefield to gain Paralyze 1.",
-    "Ingredients": "2x Spider Eye, 1x Venom Sack",
+    "Application": "Choose up to [3] enemies on the Battlefield to take Paralyze 1.",
+    "Ingredients": "1x S. Vital (Spider Eye)",
     "CraftCheck": "17",
     "Value": "75"
   },
   {
     "Name": "Spider's Eye Pie",
     "Application": "Ignore Evasion modifiers for enemies until the end of the battle.",
-    "Ingredients": "6x Spider Eye",
+    "Ingredients": "3x S. Vital (Spider Eye)",
     "CraftCheck": "",
     "Value": ""
   },
   {
     "Name": "Lethal Poison",
     "Application": "Apply the stackable Poison [3]{5TL} attribute to your primary weapon until the end of combat.",
-    "Ingredients": "2x Spider Blood, 1x Venom Sack, ",
+    "Ingredients": "5x L. Liquid, 1x H. Plant, ",
     "CraftCheck": "15",
     "Value": "180"
-  },
-  {
-    "Name": "",
-    "Application": "",
-    "Ingredients": "",
-    "CraftCheck": "",
-    "Value": ""
   },
   {
     "Name": "",

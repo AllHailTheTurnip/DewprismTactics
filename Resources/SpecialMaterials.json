@@ -1,0 +1,329 @@
+[
+  {
+    "Name": "Pollywog Tail",
+    "Type": "Organic",
+    "RawApplication": "Reduce Rank of Water element damage by 1 (min 1) until end of battle.",
+    "Value": "10"
+  },
+  {
+    "Name": "Pollywog Pearl",
+    "Type": "",
+    "RawApplication": "Gain +1 to your next non-luck Check.",
+    "Value": "5"
+  },
+  {
+    "Name": "Gargoyle Gem",
+    "Type": "Mineral",
+    "RawApplication": "Increase Rank of next attack by 1.",
+    "Value": "25"
+  },
+  {
+    "Name": "Enchanted Stone Fragment",
+    "RawApplication": "Give yourself 25 Temporary Health until the start of your next turn.",
+    "Value": "15"
+  },
+  {
+    "Name": "Nightmare Residue",
+    "Type": "Special",
+    "RawApplication": "On level-up, increase gained max-health by 50%.",
+    "Value": "50"
+  },
+  {
+    "Name": "Royal Armor Piece",
+    "RawApplication": "When taking cover, increase your Cover score by 3.",
+    "Value": "10"
+  },
+  {
+    "Name": "Gudon Eye",
+    "Type": "Organic",
+    "RawApplication": "Reduce penalty of light-factors by 1 rank for 1 hour.",
+    "Value": "5"
+  },
+  {
+    "Name": "Gudon Liver",
+    "Type": "Organic",
+    "RawApplication": "Reduce damage of incoming Fire-element attacks by 1 Rank.",
+    "Value": "7"
+  },
+  {
+    "Name": "Gudon Tail",
+    "Type": "Organic",
+    "RawApplication": "Until the start of your next turn, effects that any of your Vitals are increased by 50%.",
+    "Value": "17"
+  },
+  {
+    "Name": "Pincer Set",
+    "Type": "Metal",
+    "RawApplication": "Increase Critical Threshold by 2 until next of battle.",
+    "Value": "10"
+  },
+  {
+    "Name": "Carapace",
+    "RawApplication": "Your next Guard action increases your Evasion scores by an additional 2 points.",
+    "Value": "20"
+  },
+  {
+    "Name": "Solid Shadow",
+    "Type": "Special",
+    "RawApplication": "Luck: 10. OnPass: Relocate to anywhere on the battlefield.",
+    "Value": "50"
+  },
+  {
+    "Name": "Leather Strip",
+    "Type": "Fabric",
+    "RawApplication": "Undo Broken or Destroyed status from a Weapon.",
+    "Value": "5"
+  },
+  {
+    "Name": "Soul Gem",
+    "Type": "Mineral",
+    "RawApplication": "Restore 100% mana",
+    "Value": "50"
+  },
+  {
+    "Name": "Old Bone",
+    "Type": "Mineral",
+    "RawApplication": "None",
+    "Value": "2"
+  },
+  {
+    "Name": "Soul Fragment",
+    "Type": "Special",
+    "RawApplication": "Restore 10 Health to a neutralized allie in the same space as you.",
+    "Value": "50"
+  },
+  {
+    "Name": "Perma-Ice",
+    "Type": "Mineral",
+    "RawApplication": "Remove Burning.",
+    "Value": "25"
+  },
+  {
+    "Name": "Wild Pork",
+    "Type": "Organic",
+    "RawApplication": "Restore 10% of your max Health.",
+    "Value": "5"
+  },
+  {
+    "Name": "Ootang Tooth",
+    "Type": "Mineral",
+    "RawApplication": "Increase Critical Threshold by 1 until next turn. Can be stacked.",
+    "Value": "3"
+  },
+  {
+    "Name": "Orange Pelt",
+    "Type": "",
+    "RawApplication": "Removes 1 Rank from a Negative status effect (min 0).",
+    "Value": "5"
+  },
+  {
+    "Name": "Behemoth Spine",
+    "Type": "Organic",
+    "RawApplication": "Reduce AP cost of Sprint by 5AP.",
+    "Value": "30"
+  },
+  {
+    "Name": "Behemoth Horn",
+    "Type": "Mineral",
+    "RawApplication": "Increase {MlePwr} by 1 Level for the duration of the battle.",
+    "Value": "30"
+  },
+  {
+    "Name": "Cockadoo Feather",
+    "Type": "Organic",
+    "RawApplication": "None.",
+    "Value": "1"
+  },
+  {
+    "Name": "Bubba Lard",
+    "Type": "Organic",
+    "RawApplication": "Add Fire to weapon's element until end of battle.",
+    "Value": "10"
+  },
+  {
+    "Name": "Bubba Meat",
+    "Type": "",
+    "RawApplication": "Increase Primary Weapon's Rank by 1 until end of battle.",
+    "Value": "50"
+  },
+  {
+    "Name": "Bone Marrow",
+    "Type": "",
+    "RawApplication": "Increase your MlePwr by 2 levels until end of battle.",
+    "Value": "65"
+  },
+  {
+    "Name": "Fire Blob Core",
+    "Type": "Special",
+    "RawApplication": "Change your Element to Fire until end of battle.",
+    "Value": "35"
+  },
+  {
+    "Name": "Fungie Cap",
+    "Type": "Organic",
+    "RawApplication": "Reduce taken damage of next attack by 10%",
+    "Value": "5"
+  },
+  {
+    "Name": "Hellhound Paw",
+    "Type": "Organic",
+    "RawApplication": "Reduce cost of next Movement action by 5AP. Regain 5sta.",
+    "Value": "50"
+  },
+  {
+    "Name": "Imp Heart",
+    "Type": "Special",
+    "RawApplication": "Increase your max Mana, Stamina, and Focus by 10 for the duration of the battle.",
+    "Value": "35"
+  },
+  {
+    "Name": "Divine Sand",
+    "Type": "Mineral",
+    "RawApplication": "Increase next Luck check by 10.",
+    "Value": "100"
+  },
+  {
+    "Name": "Ginger Root",
+    "Type": "Wood",
+    "RawApplication": "Restore 2fcs.",
+    "Value": "1"
+  },
+  {
+    "Name": "Uncooked Monster Meat",
+    "Type": "",
+    "RawApplication": "Restore 5 Health.",
+    "Value": "5"
+  },
+  {
+    "Name": "Beef",
+    "Type": "Organic",
+    "RawApplication": "Restore 5 Health, 1 Stamina, 1 Mana, and 1 Focus.",
+    "Value": "12"
+  },
+  {
+    "Name": "Tropical Fruit",
+    "Type": "",
+    "RawApplication": "Restore 2 Stamina, 2 Mana, and 2 Focus.",
+    "Value": "10"
+  },
+  {
+    "Name": "Whale Blubber",
+    "Type": "",
+    "RawApplication": "Lose 5 Health.",
+    "Value": "10"
+  },
+  {
+    "Name": "Stardust",
+    "Type": "",
+    "RawApplication": "Increase your next Luck check by 5.",
+    "Value": "25"
+  },
+  {
+    "Name": "Whale Oil",
+    "Type": "",
+    "RawApplication": "Lose 10sta.",
+    "Value": "25"
+  },
+  {
+    "Name": "Obsidian Chunk",
+    "Type": "",
+    "RawApplication": "You gain Bleeding 5.",
+    "Value": "5"
+  },
+  {
+    "Name": "Diamond",
+    "Type": "",
+    "RawApplication": "None.",
+    "Value": "100"
+  },
+  {
+    "Name": "Dragon Scale",
+    "Type": "",
+    "RawApplication": "Reduce incoming damage by 5 (min 0) until end of battle.",
+    "Value": "10"
+  },
+  {
+    "Name": "Dragon Tooth",
+    "Type": "",
+    "RawApplication": "Increase Critical Threshold by 5 until end of battle",
+    "Value": "25"
+  },
+  {
+    "Name": "Fragment of Light",
+    "Type": "",
+    "RawApplication": "Choose a status effect belonging to a weapon and make it Stackable.",
+    "Value": "15"
+  },
+  {
+    "Name": "Static Fur",
+    "Type": "",
+    "RawApplication": "Your next attack's element changes to Electric.",
+    "Value": "10"
+  },
+  {
+    "Name": "Musical Note",
+    "Type": "",
+    "RawApplication": "Every member of your team gets +3 to their Initiative check.",
+    "Value": "8"
+  },
+  {
+    "Name": "Silver Chunk",
+    "RawApplication": "Incoming Darkness- and Light-element attacks are reduced by 1 Rank until the start of your next turn.",
+    "Value": "35"
+  },
+  {
+    "Name": "Gold Nugget",
+    "RawApplication": "Choose an enemy combatant and mark them. At the end of combat, the gil they drop is increased by 50%.",
+    "Value": "25"
+  },
+  {
+    "Name": "Moon Tear",
+    "RawApplication": "If you die before the end of this combat, roll Luck 10. Upon success, you're revived with 5 Health.",
+    "Value": "35"
+  },
+  {
+    "Name": "Spider Eye",
+    "RawApplication": "Upon consumption, enemies in your space lose Stealth Mode.",
+    "Value": "20"
+  },
+  {
+    "Name": "Venom Sack",
+    "RawApplication": "You gain Poison {15TL}",
+    "Value": "5"
+  },
+  {
+    "Name": "Spider Tooth",
+    "RawApplication": "Apply Bleeding {TL5} to your primary weapon until the end of the battle.",
+    "Value": "15"
+  },
+  {
+    "Name": "Spider Silk",
+    "RawApplication": "You gain Paralyzed 1",
+    "Value": "10"
+  },
+  {
+    "Name": "Thorax Fragment",
+    "RawApplication": "Increase your Evasion scores by 3 until the start of your next turn.",
+    "Value": "25"
+  },
+  {
+    "Name": "Spider Blood",
+    "RawApplication": "Your element changes to Noble until the end of your turn.",
+    "Value": "35"
+  },
+  {
+    "Name": "Red Gills",
+    "RawApplication": "Grants water breathing for 1 hour.",
+    "Value": "15"
+  },
+  {
+    "Name": "Monster Jelly",
+    "RawApplication": "Increases the restorative effects of a consumable by 1 rank.",
+    "Value": "20"
+  },
+  {
+    "Name": "",
+    "RawApplication": "",
+    "Value": ""
+  }
+]

@@ -61,9 +61,9 @@ Consumables:
 Mods:
 Gil:
 Materials:
-- Organic:
-- Wood:
-- Fabric:
-- Metal:
-- Mineral:
-- Special:
+- Calcic:
+- Meat:
+- Plant.
+- Vital:
+- Arcana:
+- Liquid:
