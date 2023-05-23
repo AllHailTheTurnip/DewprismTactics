@@ -2,13 +2,13 @@
   {
     "Name": "Reactive Stance",
     "Application": "Action-application is changed to Reaction, with the Trigger of \"An enemy combatant declares they're attacking you.\"",
-    "Ingredients": "3x Saber Tooth",
+    "Ingredients": "2x S. Calic (Saber Tooth), 1x H. Liquid, 5x H. Calcic",
     "Check": "10"
   },
   {
     "Name": "Combustible",
     "Application": "The Use-cost of this Ability is now burnable (affix an exclamation mark to the AP cost). Reduce the Ability's Rank by 1 (min 1).",
-    "Ingredients": "1x Obsidian Chunk, 1x Fire Blob Core, 1x Gudon Liver",
+    "Ingredients": "3x H.  1x Gudon Liver",
     "Check": "14"
   },
   {
