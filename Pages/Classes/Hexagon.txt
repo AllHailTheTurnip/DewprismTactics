@@ -42,7 +42,7 @@ A2: Power Conversion Alpha
 Skill-Support-Passive
 Use: TL/turn
 Effect: When prompted to spend Stamina, Mana, or Focus, you can spend your Health instead.
-Every 5 Health spent equates to 3 points of either Stamina, Mana, and/or Focus (leftover points are lost).|
+Every 7 Health spent equates to 3 points of either Stamina, Mana, and/or Focus (leftover points are lost).|
 
 A3: Power Conversion Gamma
 Skill-Support-Passive
