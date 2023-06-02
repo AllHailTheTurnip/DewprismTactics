@@ -56,7 +56,7 @@ Skill-Offensive-Action
 Use: 10AP+5fcs
 Range: 1sp
 Effect: Create a Bomb prop hidden beneath the surface of a space within range.
-You cannot put more than Bomb prop in a space at a given time.
+You cannot put more than one Bomb prop in a space at a given time.
 Solowork: The Bomb prop's effect does not target allie combatants.
 Bomb prop: Combatants that enter this prop's space must make a Luck 15 check,
 whereupon failure this prop is destroyed and all combatants in the space
