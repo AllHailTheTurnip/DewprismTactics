@@ -68,6 +68,7 @@ A4: Launch Combatant
 Skill-Offensive-Action
 Cost: 10AP+2fcs+2sta
 Choose a combatant (referred to as X) from your space to use as ammunition.
+If they're an enemy, they make a Skill evasion check to avoid being used.
 Range: 1sp or {WpnRng}
 Accuracy: Skill
 Effect: X gets to make (1) free action upon being launched.
@@ -104,9 +105,9 @@ reduce the Rank of your primary weapon by 1.|
 A9: Improvised Explosive
 Skill-Offensive-Action
 Cost: 10AP+3fcs
-Effect: Transform either your primary or secondary weapon into an EID. The AID has the same scores as the chosen weapon.
-EID: When dropped, place a 2-turn counter on it. At the end of your turn, reduce the counter by 1. When the counter
-reaches 0, the EID is destroyed and all combatants within 3sp make a Skill Evade check; whereupon failure they each
+Effect: Transform either your primary or secondary weapon into an IED. The IED has the same scores as the chosen weapon.
+IED: When dropped, place a 2-turn counter on it. At the end of your turn, reduce the counter by 1. When the counter
+reaches 0, the IED is destroyed and all combatants within 3sp make a Skill Evade check; whereupon failure they each
 take (9){SklPwr} dmg.|
 
 
