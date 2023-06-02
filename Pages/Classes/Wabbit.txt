@@ -43,7 +43,7 @@ Effect: Roll 1d20 as X/4 (rounded down) as X.
 Make X Basic Attack actions, ignoring maximum uses-per-turn; attacks otherwise cost as normal.|
 
 A2: Duck
-Melee-Defensive-Reaction
+Melee-Defensive-Action
 Use: 5AP+5sta
 Effect: Grant yourself a Duck token.
 Duck token: When a combatant makes an attack check against you, roll Luck 10, whereupon success you evade the attack.|
@@ -91,7 +91,7 @@ Effect: The target's Luck checks automatically land on 8 until the start of your
 A9: Divine Spear
 Skill-Offensive-Item
 Slot: Primary or Secondary Weapon
-Divine Spear (Type: Skill, WC: L, Use: 5AP+(2/turn), Rank: 2, Range: 2, Honed 3)|
+Divine Spear (Type: Skill, WC: L, Use: 5AP+(2/turn), Rank: 2, Range: 1, Honed 3)|
 
 MA1:|
 MA2:|

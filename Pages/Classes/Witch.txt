@@ -34,13 +34,13 @@ Cost: 7mna+(1/battle)
 Effect: Conjure a Heavy Cannon weapon into your space. The cannon is too heavy to personally relocate.
 Spend 5AP to man the cannon as your primary and secondary weapon; cannot fire the cannon unless manned.
 Cannot target combatants within the same space as it.
-Manning the cannon counts as having taken Medium cover. You cannot leave the space until you've unmanned the cannon for 0AP.
+Manning the cannon counts as having taken Light cover. You cannot leave the space until you've unmanned the cannon for 0AP.
 Heavy Cannon (Type: Skill, WC: SH, Cost: 10AP+5sta+3fcs, Rank: 8; Range: 3sp)|
 
 A1: Polymorph!
 Magic-Offensive-Reaction
 Trigger: A combatant inflicts damage to you while within the same space.
-Cost: 5mna+(2/turn)
+Cost: 5mna+(3/battle)
 Range: 0sp
 Evade: Magic
 Effect: Target is turned into a frog until (the afflicted) they leave the space.
