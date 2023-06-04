@@ -51,8 +51,8 @@ Effect: While in the same space as a dead combatant, conjure a Bone Weapon.
 Bone Weapon:
 (Type: [First highest of target's base Mana, Stamina, or Focus],
 WC: NA,
-Use: [target's MleEva],
-Rank: [target's base MlePwr],
+Use: [target's MleEva - rounded to nearest 5],
+Rank: [target's level-1 MlePwr],
 Weight: 1u)
 At Class-Level 10: Weapon also gets Attribute equal to target's Doctrine ability.|
 
