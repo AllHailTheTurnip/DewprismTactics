@@ -52,7 +52,7 @@ If you choose it, or are KO'd or killed then the Arena prop and Arena battlefiel
 the affected combatants return to the battlefield as before.|
 
 A1: Rig Space
-Skill-Offensive-Action
+Skill-Defensive-Action
 Use: 10AP+5fcs
 Range: 1sp
 Effect: Create a Bomb prop hidden beneath the surface of a space within range.
@@ -63,25 +63,25 @@ whereupon failure this prop is destroyed and all combatants in the space
 take (2){SklPwr} damage.|
 
 A2: Oil Trap
-Skill-Offensive-Action
+Skill-Defensive-Action
 Use: 5AP
 Range: 2sp
 Effect: Create an invisible Oil Trap prop within range.
 Oil Trap prop: An enemy combatant entering into the space of this prop causes it to be destroyed
 and create an Oil Spill prop.
 Oil Spill prop: Checks made by enemy combatants this prop's space increase their
-Critical Failure threshold by 1.|
+Critical Failure threshold by 4.|
 
 A3: Slander
-Skill-Offensive-Action
-Use: 10AP
+Skill-Defensive-Action
+Use: 5AP
 Range: 3sp
 Teamwork: Increase the difficulty of the proceeding Skill check by TmWrk.
 Evade: Skill
-Effect: Reduce the target's Critical Threshold by (1).|
+Effect: Disable Critical bonus until end of target's next turn.|
 
 A4: Falling Anvil
-Skill-Offensive-Action
+Skill-Defensive-Action
 Use: 10AP+5mna
 Teamwork: Increase Range by 3sp.
 Range: 0sp
@@ -112,7 +112,7 @@ Effect: Make a Luck 10 check. Upon success, the offending combatant
  cannot target you again until the start of your next turn.|
 
 A7: Rig Exit
-Magic-Offensive-Action
+Magic-Defensive-Action
 Use: 10AP+7mna
 Range: 0sp
 Effect: Create a Rigged Exit token on your combatant.
@@ -121,7 +121,7 @@ away from the token's owner, react by destroying this token,
 canceling the action, and inflicting (1){MgcPwr} damage.|
 
 A8: Bear Trap
-Skill-Offensive-Action
+Skill-Defensive-Action
 Use: 10AP+5fcs
 Range: 1sp
 Effect: Create a Bear Trap prop within range.

@@ -69,12 +69,12 @@ You may spend an additional 3sta to make an extra unarmed attack, or 7sta to mak
 
 A6: Mime Action
 Magic-Defense-Reaction
-Trigger: A combatant makes an action.
+Trigger: A combatant resolves an action against you and finishes their turn.
 Use: 3fcs
 Range: Battlefield LoS
 Solowork: Reduce the proceeding Luck check by 3{OutNum}.
 Luck: 15
-Effect: Execute the same action, for free, using the same scores, as the target after their action is resolved.|
+Effect: Execute the same action for free after their action is resolved.|
 
 A7: Gang Attack
 Magic-Offensive-Reaction

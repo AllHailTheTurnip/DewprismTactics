@@ -44,11 +44,12 @@ This effect can stack up to {CL} times.|
 
 A1: Eruption
 Melee-Offensive-Action
-Use: 10AP+3mna+5sta+(X Max Health)
-Range: 0sp
+X = 10 (at the start of battle).
+Use: 10AP+3mna+5sta+X
+Range: 0sp AoE
 Evade: Melee
-OnHit: Target takes (X/15)MlePwr damage.
-Teamwork: Instead, target takes (X/10)MlePwr damage.|
+OnHit: Target takes (X)MlePwr damage.
+Teamwork: Instead, target takes (X+2)MlePwr damage.|
 
 A2: Throw Slag
 Melee-Offensive-Action
