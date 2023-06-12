@@ -34,10 +34,9 @@ Skill-Offensive-Action
 Use: 10AP+5fcs
 Choose either Mode A or Mode B
 Mode A:
-Range: 0sp
+Range: 1sp
 Accuracy: Skill
 Dmg: (3){SklPwr}
-
 Mode B:
 Range: 2sp
 Accuracy: Skill -3
@@ -50,7 +49,7 @@ Effect: Choose an enemy on the battlefield to target.
 Increase your Evasion by 5 against any of their incoming Accuracy
 checks until the start of your next turn.|
 
-A2: Omnscience
+A2: Omniscience
 Skill-Support-Action
 Use: 7fcs
 Range: 1sp
@@ -59,7 +58,7 @@ Effect: Ignore an enemy's Stealth evasion modifiers if they're within range.| //
 A3: Deflect
 Skill-Defensive-Reaction
 Trigger: An enemy targets you with an ability.
-Use: 5fcs+(1/turn)
+Use: 5fcs+(2/turn)
 Evade: Skill
 Effect: Redirect the ability's target to an enemy combatant within
  the ability's range (if no range is listed, range is 0sp).| // Retarget attack to enemy in space.
@@ -71,7 +70,7 @@ Effect: You gain High cover until the beginning of your next attack. | // Create
 
 A5: Quick Warp
 Skill-Support-Action
-Use: 3fcs+(3/battle)
+Use: 3fcs+(1/turn)
 A = (1d20/2)-5
 B = (1d20/2)-5
 Effect: Move Asp north and Bsp east, walls and barriers;
