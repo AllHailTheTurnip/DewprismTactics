@@ -40,7 +40,7 @@ Melee-Support-Action
 Use: 20AP
 Teamwork: The Effect also applies allies in your space.
 Solowork: Roll Luck 10, whereupon success the AP cost is refunded.
-Effect: Restore 25% of your max Health and 50% of your max Mana, Stamina, and Focus.|
+Effect: Restore 25% of your max Health and 50% of your max Stamina, Mana, and Focus.|
 
 A2: Gore
 Melee-Offensive-Action

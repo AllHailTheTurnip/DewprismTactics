@@ -47,7 +47,7 @@ Every 7 Health spent equates to 3 points of either Stamina, Mana, and/or Focus (
 A3: Power Conversion Gamma
 Skill-Support-Passive
 Use: TL/turn
-Effect: You can spend 5 points of Mana, Stamina, and/or Focus to regain 5 Health.|
+Effect: You can spend 5 points of Stamina, Mana, and/or Focus to regain 5 Health.|
 
 A4: Overcharge Burst
 Skill-Offensive-Action

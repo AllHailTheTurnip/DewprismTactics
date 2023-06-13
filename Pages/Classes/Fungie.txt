@@ -85,7 +85,7 @@ Skill-Support-Action
 Use: 10AP+5fcs
 Solowork: Increase the range of this ability by 2sp.
 Range: 0sp
-Teamwork: In addition to the Effect, reduce the Mana, Stamina, and/or Focus cost by 3 (min 0).
+Teamwork: In addition to the Effect, reduce the Stamina, Mana, and/or Focus cost by 3 (min 0).
 Effect: Choose an ally and reduce the AP cost of their next action by 5AP (minimum 0).|
 
 A7: Play While Waiting

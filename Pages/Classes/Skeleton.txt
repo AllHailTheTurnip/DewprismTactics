@@ -49,7 +49,7 @@ Skill-Support-Action
 Use: 15AP+5sta
 Effect: While in the same space as a dead combatant, conjure a Bone Weapon.
 Bone Weapon:
-(Type: [First highest of target's base Mana, Stamina, or Focus],
+(Type: [First highest of target's base Stamina, Mana, or Focus],
 WC: NA,
 Use: [target's MleEva - rounded to nearest 5],
 Rank: [target's level-1 MlePwr],

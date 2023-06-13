@@ -120,7 +120,7 @@
   },
   {
     "Name": "Mushroom Soup",
-    "Application": "Restore [10] of your Mana, Stamina, and Focus.",
+    "Application": "Restore [10] of your Stamina, Mana, and Focus.",
     "Ingredients": "2x Plant, 1x Liquid",
     "CraftCheck": "8",
     "Value": "20"

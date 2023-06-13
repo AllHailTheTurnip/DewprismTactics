@@ -13,8 +13,8 @@ A handful of modern witches understand the power of technology and innovation, a
 
 VITALS
 Health: 45|
-Mana: 12|
 Stamina: 10|
+Mana: 12|
 Focus: 15|
 
 SCORES

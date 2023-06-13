@@ -173,7 +173,7 @@
   {
     "Name": "Imp Heart",
     "Type": "Special",
-    "RawApplication": "Increase your max Mana, Stamina, and Focus by 10 for the duration of the battle.",
+    "RawApplication": "Increase your max Stamina, Mana, and Focus by 10 for the duration of the battle.",
     "Value": "35"
   },
   {
