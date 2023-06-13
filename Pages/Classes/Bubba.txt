@@ -34,7 +34,8 @@ Melee-Support-Passive
 X = 0.
 Solowork: Increase X by 3.
 Effect: Increase the Rank of your Melee-type attacks by 1.
-Reduce your Melee and Skill evasion to {X}.|
+Reduce your Melee and Skill evasion to {X}.
+Melee self-checks ignore Accuracy modifier.|
 
 A1: Downward Strike
 Melee-Offensive-Action

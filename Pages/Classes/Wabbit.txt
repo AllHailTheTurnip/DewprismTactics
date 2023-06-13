@@ -69,8 +69,9 @@ Effect: You are immune to Doom, Paralyze, and Dispirited.|
 
 A6: Atonement
 Magic-Support-Action
-Use: 1/battle
-Effect: Remove your Noble element status. Remove any negative status effects. Restore your Health to full.|
+Use: 10AP+(1/battle)
+Effect: Change your element to neutral; it cannot be changed for the rest of the battle.
+Remove any negative status effects. Restore your Health to full.|
 
 A7: Minor Miracle
 Magic-Support-Action
