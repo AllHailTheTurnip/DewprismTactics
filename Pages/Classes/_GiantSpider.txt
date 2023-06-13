@@ -39,8 +39,8 @@ Effect: Ignore difficult terrain.
 Coat with Poison
 Skill-Offensive-Action
 Use: 10AP+4fcs
-Range: Any ally on the battlefield.
-If the ally's Primary weapon doesn't already have it, give it the attribute of Poison (1){SklPwr}.
+Range: Yourself or an ally on the battlefield.
+If the target's Primary weapon doesn't already have it, give it the attribute of Poison (1){SklPwr}.
 Solowork: Alternatively, you may use this ability again to increase the Poison attribute's Rank by 1.
 
 Tactical Roll
