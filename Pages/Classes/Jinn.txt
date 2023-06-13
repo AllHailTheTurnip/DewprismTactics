@@ -43,7 +43,7 @@ Dmg: (3){MgcPwr} wind.|
 A2: Whiplash
 Magic-Offensive-Reaction
 Trigger: An incoming attack missed.
-Cost: 3/battle
+Cost: 1/turn
 Effect: Inflict 1/2 the potential damage to the attacker.|
 
 A3: Harrowing Missile
