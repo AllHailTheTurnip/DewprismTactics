@@ -90,11 +90,10 @@ Effect: If your next potentially damaging action this turn misses, any Props in 
 and the space becomes Difficult Terrain.
 Teamwork: Combatants (including allies) in your space are knocked prone.|
 
-A8: Reckless Strike
-Melee-Offensive-Action
-Use: 5AP
-Accuracy: Melee
-Effect: Make a Basic Attack. If the attack misses, you hit yourself instead.|
+A8: Aimed Strike
+Melee-Support-Action
+Use: 5fcs
+Effect: Double the AP cost of your next action and increase its Accuracy/Evade check by 5.
 
 A9: Smash Limb
 Melee-Offensive-Action
