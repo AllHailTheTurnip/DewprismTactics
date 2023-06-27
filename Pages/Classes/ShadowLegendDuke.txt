@@ -53,7 +53,7 @@ Use: 5mna+10AP
 Range: {SklPwr/15}sp
 You become surrounded by illusionary copies of yourself. Increase your Evasion scores by 2+{MgcPwr/10} until your next
 turn. When your turn starts, you burn 10-{DL}AP and make one basic attack against 1 enemy in range.
-You may an additional 5mna for every extra enemy within you wish to target.|
+You may spend an additional 5mna for every extra enemy within you wish to target.|
 
 A3: Water Walk
 Focus-Support-Passive
