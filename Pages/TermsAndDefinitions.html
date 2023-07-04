@@ -1239,7 +1239,18 @@
             A variable equal to the amount of enemies (minus one) sharing your space with you.
         </td>
     </tr>
-
+    <tr>
+        <td>
+            IfKO
+        </td>
+        <td>
+            An ability modifier for when your character is in a knocked-out state.
+        </td>
+        <td>
+            The IfKO modifier implicitly dictates that the ability can still be used under special conditions
+            while your character is knocked-out.
+        </td>
+    </tr>
     <tr>
         <td>
             Natural
@@ -1516,8 +1527,9 @@
             appears above your person.
         </td>
         <td>
-            At 0 health, you take the Knocked-Out status. You cannot
-            many any actions and your Evasions are at 0.
+            At 0 health, you take the Knocked-Out status. While
+            you still take your turn as normal with 20AP, you cannot
+            make any actions unless they have the IfKO modifier.
             If your health reaches negative its max, you're dead.
         </td>
     </tr>
@@ -1532,6 +1544,18 @@
             You're dead and can no longer participate in the fight.
             Unless you have a Coin of Revival on your
             person, you will not respawn after the fight.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Neutralized
+        </td>
+        <td>
+            You are no longer able to participate in the battle.
+        </td>
+        <td>
+            This status is achieved when your character is either dead or knocked-out.
+            The battle ends when all combatants of all but one party are neutralized.
         </td>
     </tr>
     <!-- Elements -->
@@ -1770,7 +1794,7 @@
             score.
         </td>
         <td>
-            Starting from highest score to lowest, once all combatant
+            Starting from the highest score to lowest, once all combatant
             have taken their turn, a round is counted as
             passed and another begins.
         </td>

@@ -2,39 +2,107 @@ Gizmo-Gia-Gias
 Microcosm
 
 
-Title:|
-Subtitle:|
-Description:|
+Title: Phantom Valen|
+Subtitle: Immortal Ghost|
+Description: In response to the death of Idealism at the turn of the century, a secret society of scholars formed under
+the singular mission objective: to survive the end of the world and create a new one rooted in reason and rationality.
+The gardeners of this new world would be called Phantom Valens: men who had forsaken their mortal forms to remain forever
+in the mortal realm as powerful spirits.
+    <p>Though the end of the world never came, the Phantom Valens persist. Solemn yet not solitary, they live under
+    a message of rebirth without redemption, carrying an idealistic vision which much like themselves refuses to die.</p>
+    <p>Phantom Valens specialize is alteration magic, using their vast arsenal of spells to twist and warp reality
+    as they see fit. They can weaken their enemies, sabotage strategies, and strengthen their allies with impunity.</p>|
 ???
 
 VITALS
 Health: 15|
 Mana: 25|
 Stamina: 5|
-Focus: 20|
+Focus: 25|
 
 SCORES
 Initiative: 10|
 Carry: 10u|
-Element: Neutral|
+Element: Light|
 
 STATS
 Melee: (Power: 3, Evasion: 15, Accuracy: 0)|
-Magic: (Power: 7, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 6, Evasion: 12, Accuracy: 0)|
+Magic: (Power: 5, Evasion: 10, Accuracy: +3)|
+Skill: (Power: 3, Evasion: 12, Accuracy: +1)|
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Spiritual Being
+Magic-Support-Passive
+Effect: The owner is treated as permanently having the knocked-out status and is considered neutralized.
+You cannot make movement actions but instead may teleport to anywhere on the battlefield for 10AP+(1/turn).
+Abilities belonging to the owner all gain the modifier "IfKO: Can still use normally."|
 
+A1: Warp Space
+Magic-Support-Action
+Use: 10AP+7mna
+Range: 3sp
+Effect: Choose a space within range and subdivide it into 2 spaces.
+If there are combatants within the space then you choose which new space they'll be placed into.|
+
+A2: Gizmo-Gia-Gias
+Magic-Offensive-Action
+Use: 10AP+7mna
+Range: 1sp
+Evade: Magic
+Effect: Target takes Paralysis 2. |
+
+A3: Seal Ability
+Magic-Offensive-Action
+Use: 20AP
+Range: 2sp
+Evade: Magic
+Effect: Disable the target's ability for the rest of the battle.|
+
+A4: Adjust Range
+Magic-Supportive-Action
+Use: 10AP+5mna+(1/turn)
+Range: 0sp
+If the target is an allie then skip the Evade check.
+Evade: Magic
+Effect: Choose an ability belonging to yourself or another combatant and increase or decrease its range by 1sp (min 0sp).|
+
+A5: Adjust Limits
+Magic-Supportive-Action
+Use: 10AP+5mna+3fcs+(1/turn)
+Range: 3sp
+If the target is an allie then skip the Evade check.
+Evade: Magic
+Effect: Choose an ability belonging to yourself or another combatant and increase or decrease its uses-per-turn by 1 (min 1). |
+
+A6: Power Over Tokens
+Magic-Offensive-Action
+Use: 10AP+3mna
+Range: 3sp
+Effect: Choose one
+1) The targeted token is destroyed (but not removed from battlefield)
+2) The targeted token is restored.|
+
+A7: Power Over Cover
+Magic-Offensive-Action
+Use: 10AP+5mna
+Range: 2sp
+Effect: Increase or decrease a barrier's cover bonus by 3 (max 18, min 3).|
+
+A8: Power Over Props
+Magic-Offensive-Action
+Use: 10AP+3mna
+Range: 3sp
+Effect: Choose one:
+1) Destroy a targeted prop (but do not remove from battlefield)
+2) Restore a targeted prop.|
+
+A9: Power Over Efficiency
+Magic-Offensive-Action
+Use: 10AP+7mna
+Range: 1sp
+If the target is an allie then skip the Evade check.
+Evade: Magic
+Effect: Choose a target's ability and increase or decrease its Mana, Focus, and/or Stamina cost(s) by 2 (min 1, max 7)|
 
 MA1:|
 MA2:|
