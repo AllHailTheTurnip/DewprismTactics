@@ -98,7 +98,7 @@ Effect: Choose one:
 
 A9: Power Over Efficiency
 Magic-Offensive-Action
-Use: 10AP+7mna
+Use: 10AP+7mna+(5/battle)
 Range: 1sp
 If the target is an allie then skip the Evade check.
 Evade: Magic
