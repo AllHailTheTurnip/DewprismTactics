@@ -62,7 +62,7 @@ A4: Adjust Range
 Magic-Supportive-Action
 Use: 10AP+5mna+(1/turn)
 Range: 0sp
-If the target is an allie then skip the Evade check.
+If the target is an ally then skip the Evade check.
 Evade: Magic
 Effect: Choose an ability belonging to yourself or another combatant and increase or decrease its range by 1sp (min 0sp).|
 
@@ -70,7 +70,7 @@ A5: Adjust Limits
 Magic-Supportive-Action
 Use: 10AP+5mna+3fcs+(1/turn)
 Range: 3sp
-If the target is an allie then skip the Evade check.
+If the target is an ally then skip the Evade check.
 Evade: Magic
 Effect: Choose an ability belonging to yourself or another combatant and increase or decrease its uses-per-turn by 1 (min 1). |
 
@@ -100,7 +100,7 @@ A9: Power Over Efficiency
 Magic-Offensive-Action
 Use: 10AP+7mna+(5/battle)
 Range: 1sp
-If the target is an allie then skip the Evade check.
+If the target is an ally then skip the Evade check.
 Evade: Magic
 Effect: Choose a target's ability and increase or decrease its Mana, Focus, and/or Stamina cost(s) by 2 (min 1, max 7)|
 
