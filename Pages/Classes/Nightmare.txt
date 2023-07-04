@@ -77,7 +77,8 @@ Effect: Move an addition 1sp.|
 A6:Manifest
 Magic-Support-Action
 Use: 10AP+Xmna
-Restore X{MgcPwr} Health.|
+IfKO: Amount of restored Health is halved.
+Effect: Restore X{MgcPwr} Health.|
 
 A7:Carry
 Melee-Support-Passive
@@ -97,6 +98,7 @@ Magic-Support-Action
 X = 1.
 Solowork: Increase X by 1.
 Use: 3mna+(X/turn)
+IfKO: Increase Use cost by 6mna.
 Effect: Increase your Skill Accuracy checks by 1.|
 
 MA1:|

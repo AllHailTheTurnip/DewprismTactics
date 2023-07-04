@@ -60,6 +60,7 @@ Magic-Offensive-Action
 Use: 10AP-7mna
 Range: 0sp+{MlePwr/15}
 Luck: 17
+IfKO: Reduce Luck check difficulty by 5.
 Teamwork: Increase Critical Threshold to by 3 (max 3).
 OnPass: Target gets Doomed 3-(0).|
 
@@ -81,6 +82,7 @@ OnPass: Target's Luck checks get -(1).|
 
 A7:Ward Against Danger
 Magic-Defensive-Reaction
+IfKO: Use as normal.
 Trigger: An allie within 0sp is targeted by an enemy.
 Use: Xmna
 Effect: Targeted allie gets +X/3 to their Evasion scores until the end of the action.|

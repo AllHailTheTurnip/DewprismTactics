@@ -52,6 +52,7 @@ For each hit, deal (1){SklPwr} damage.|
 A2:Blossom
 Skill-Offensive-Action
 Use: 20AP
+IfKO: Use as normal.
 Range: 1+({TL}/4)sp AoE circle.
 Check: Skill
 X = 1
@@ -96,6 +97,7 @@ OnPass: Choose a positive status effect to undo.|
 A8:Attract Bees
 Melee-Defensive-Action
 Use: 5AP+5Sta
+IfKO: Set Cost to 7Sta+(1/turn)
 Create a Bee Swarm token anywhere along the (relative) south border of the battlefield.
 At the end of your turn, the Bee Swarm token moves 1sp towards the nearest enemy Combatant,
 whereupon it moves into the space, the token is destroyed and the nearest enemy takes (3){MlePwr} damage.|

@@ -43,6 +43,7 @@ A2: Mrow!
 Skill-Offensive-Action
 Use: 5AP
 Range: 2sp circle AoE
+IfKO: Reduce Rank by 1.
 Accuracy: Skill
 Effect: Targets have -(2) on their next check.|
 
@@ -81,6 +82,7 @@ A7: Charge Up!
 Magic-Support-Action
 Use: 10mna+10AP
 Range: 1sp
+IfKO: Reduce range by 1sp.
 Effect: Restore 5 Mana to an allie and increase the ranks of all of their applicable
 abilities by 1. End your turn.|
 

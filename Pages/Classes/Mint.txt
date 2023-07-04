@@ -43,6 +43,7 @@ A1: Flying Kick
 A2: Scheme
     Skill-Support-Action
     Use: (1/2turn)+5fcs.
+    IfKO: Increase Use by 1/turn.
     Create a Scheme counter (3) and grant it to yourself or an ally.
     Scheme counter: (1)+{TL/3} bonus to all the holder's Talent and Accuracy checks for their next 3 turns.|
 A3: Magic Burst
@@ -70,6 +71,7 @@ A6: Fireball
 A7: Acquire Magic
     Magic-Support-Action
     Use: 10AP+5fcs
+    IfKO: Use as normal.
     While in the same space of a KO'd or dead combatant, choose one of their
      non-doctrine Magic-type abilities to add to your abilities list until
      Battle Transience or until an hour has passed.|

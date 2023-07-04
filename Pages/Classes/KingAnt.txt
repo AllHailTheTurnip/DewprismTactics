@@ -79,6 +79,7 @@ A6: Terraform
 Melee-Support-Action
 Teamwork: Pay 10AP instead of 20AP!.
 Use: 5sta+20AP!
+IfKO: Increase cost by 1/battle.
 Effect: Create a Cube prop.
 Remove cubic meter of material from the surrounding environment.
 Cube prop: For 10AP, can be moved 1sp. Can cover 1 combatant at a time.|
@@ -86,14 +87,14 @@ Cube prop: For 10AP, can be moved 1sp. Can cover 1 combatant at a time.|
 A7: Odor Trail
 Melee-Support-Action
 Use: 5sta
+IfKO: Increase Cost by 20AP.
 Teamwork: Allies in your space may assist by making this action for free.
 Effect: Make a free movement action, each space you move into creates an Odor prop.
 Odor prop: Movement between adjacent Odor props counts as one space of movement.|
 
-A8: Conjure Pincers
-Melee-Offense-Action
-Use: 5sta+20AP
-Effect: Conjure a Pincers weapon into your free hand (if both hands are full, it appears in your inventory)
+A8: Pincers
+Melee-Offense-Item
+Slot: Primary or Secondary
 Pincers (Type: Skill, WC: M, Use: 10AP, Power: 3, Weight: 1u, Element: Wind; Sever)|
 
 A9: Break Bonds

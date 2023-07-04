@@ -40,6 +40,7 @@ Melee-Offensive-Action
 Use: 10AP+3sta+5mna
 Range: 0sp AoE
 Accuracy: Melee+5
+IfKO: Reduce Accuracy check by 5 and reduce this ability's Rank by 2.
 Dmg: (3){MlePwr} fire
 OnCrit: Target gets Burning 3|
 
@@ -97,6 +98,7 @@ A8: Gift Item
 Skill-Support-Action
 Solowork: Increase the range of this ability by 1.
 Range: 0sp
+IfKO: Increase range by 2sp.
 Effect: You may give an item to an ally.|
 
 A9: Uppercut

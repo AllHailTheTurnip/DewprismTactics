@@ -31,6 +31,8 @@ If your possessor is knocked-out or dies, or if your Mana is drained passed 5, y
 A1: Energy Scythes
 Magic-Offensive-Action
 Cost: 10AP+5mna
+Solowork: Increase range by 1sp.
+Teamwork: Increase Accuracy check by +2.
 Range: 1sp
 Accuracy: Magic
 Effect: Target up to three individual combatants within range.
@@ -46,13 +48,15 @@ Dmg: (1){MgcPwr}|
 A3: Zone of Endurance
 Magic-Defensive-Action
 Cost: 10AP+3mna+3fcs+(1/turn)
+IfKO: Increase cost by 10AP.
 Range: 0sp circle AoE
 Luck: 15.
-OnPass: Reducing taken damage to your allies by (2) ranks until start of your next turn.|
+OnPass: Reduce taken damage to your allies by (2) ranks until start of your next turn.|
 
 A4: Sovereignty
 Magic-Support-Passive
-Effect: At the start of each turn, regain 3 Mana, 3 Focus, and 3 Stamina.|
+Effect: At the start of each turn, regain 3 Mana, 3 Focus, and 3 Stamina.
+IfKO: Reduce recovered amount of Mana, Stamina and Focus by 2.|
 
 A5: Conjure Marble Wall
 Magic-Support-Action
@@ -65,6 +69,7 @@ Each Marble Wall possesses 15{PL} Health and is Neutral typed.|
 A6: Pull into Microcosm
 Magic-Support-Action
 Cost: 10AP+7mna
+Teamwork: Adjust Cost by -3mna and +3fcs.
 Range: 0sp
 Evade: Magic
 Effect: The caster and the target each get a Soul dummy placed into a 5x5x5sp microcosm.
@@ -83,6 +88,7 @@ Book of Cosmos (1+{PL/10} per battle, you may increase the Rank of a Magic-type 
 A9: Alter Spell
 Magic-Support-Action
 Cost: 20AP+7mna
+Solowork: You may choose a third Magic-type ability to target.
 Effect: Choose two Magic-type abilities to target.
 Choose a sentence from each of the targeted abilities' Effect segments to swap with each other.
 Choose one of the targeted spells to disable until the end of combat.|

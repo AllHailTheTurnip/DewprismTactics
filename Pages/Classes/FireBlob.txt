@@ -64,6 +64,7 @@ Magic-Defensive-Passive
 Effect: If the Rank of an incoming attack is over 4, reduce it to 4.|
 
 A4: Scorching Touch
+IfKO: Treat this ability as Passive with no trigger.
 Magic-Offensive-Reaction
 Trigger: An enemy in the same space succeeded in an Accuracy check against you.
 Luck: 10
@@ -95,6 +96,7 @@ Effect: Choose one of your Abilities to give to all allies within range.
 Affected allies gain that Ability until the end of their next turn.|
 
 A8: Puddle
+IfKO: Treat this ability as Passive.
 Melee-Support-Action
 Solowork: Incoming damage while prone is halved.
 Use: 3fcs+(1/turn)

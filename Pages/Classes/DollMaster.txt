@@ -50,6 +50,7 @@ A2: Call Guard
 Skill-Support-Action
 Use: 5AP+5fcs
 Range: 3sp
+IfKO: Increase the Use cost of this ability by (1/turn).
 Evade: Skill
 Effect: Choose an enemy combatant within range. Negate any Evasion modifiers
 they have until the end of their turn.|
@@ -88,9 +89,10 @@ of their turn.|
 A6: Vanish
 Skill-Defensive-Reaction
 Trigger: You gain Stealth.
-Solowork: Ignore the Use-cost.
+Solowork: Ignore the Use cost.
 Use: 5fcs+5sta
-Effect: Teleport yourself into any of the enemy spaces.|
+Effect: Teleport yourself into any space occupied by enemy combatants.
+IfKO: You instead teleport to any space occupied by allies.|
 
 A7: Demand Surrender
 Skill-Offensive-Action

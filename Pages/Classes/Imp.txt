@@ -86,8 +86,9 @@ OnPass: Choose yourself and a target (animate or inanimate) and swap locations w
 A6: Bind To Object
 Magic-Defense-Action
 Use: 5AP+7mna
+IfKO: Double Use cost.
 Range: 0sp
-Effect: Choose an inanimate and non-enchanted object of 3 unit less weight to inhabit.
+Effect: Choose an inanimate and non-enchanted object of 3 units-or-less weight to inhabit.
 Your physical form is bound within the object.
 While bound to an object, you may only make Movement actions.
 If the object is destroyed while you're bound you are remove from the battle.|
@@ -102,6 +103,7 @@ At any point during your or any of your Masters's turns, you may choose to give 
 A8: Become Invisible
 Magic-Support-Action
 Use: 5mna+(1/turn)
+IfKO: Double mna cost.
 Effect: You take the Invisible status.
 While Invisible, your Evasion scores are increased to 20.
 After attacking, you must spend 5mna to retain the Invisible status.

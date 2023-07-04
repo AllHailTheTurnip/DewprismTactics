@@ -55,6 +55,7 @@ A1: Tidal Wave
 Magic-Offensive-Action
 Use: 10AP+7mna
 Range: Battlefield AoE
+IfKO: Set Range to 2sp.
 Evade: Magic
 OnHit: Inflict {1}MgcPwr damage.|
 
@@ -76,6 +77,7 @@ A4: Fog
 Magic-Defensive-Action
 Use: 10AP+3mna
 Range: 1sp
+IfKO: Increase range by 2sp.
 Effect: Create a Fog token. All allies sharing the Fog's space gain Very Light Cover.
 If they already have cover, improve their Cover's luck checks by 5.
 The Fog token expires after three rounds have passed.|

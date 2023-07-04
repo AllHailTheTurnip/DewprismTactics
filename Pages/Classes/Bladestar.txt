@@ -36,7 +36,7 @@ Skill: (Power: 4, Evasion: 8, Accuracy: +3)|
 Abilities
 Doctrine: Invent Weapon
 Skill-Support-Action
-Use Cost: 2Sta+3fcs+20AP!
+Cost: 2Sta+3fcs+20AP!
 Effect: Any weapons are moved to inventory.
 Choose one type: Melee, Magic, Skill.
 Choose an Attribute any attribute from the primary Attribute list.
@@ -71,6 +71,7 @@ A5: Reconfigure Element
 Magic-Support-Action
 Cost: 5mgc+10AP
 Teamwork: You may also change it to noble.
+IfKO: You may only change between fire, water, and wind.
 Effect: Choose a weapon and change its element (except noble) to one of your choosing.|
 
 A6: Hone Style
@@ -88,6 +89,7 @@ A8: Tap Out
 Skill-Defense-Reaction
 Trigger: Your health reaches 0.
 Use: 5sta+3fcs
+IfKO: Use as normal.
 Effect: You are removed from the battlefield and your health is set to 1.|
 
 A9: Summon Animal Companion

@@ -83,7 +83,8 @@ Effect: Target gains Flight until the end of their next turn.|
 
 A6: Gather Flock
 Magic-Support-Action
-Use: 10AP+3mna
+Cost: 10AP+3mna
+IfKO: Reduce Cost to 10AP.
 Range: Any ally within 1sp+{MgcPwr/15}.
 X = 1
 Solowork: Increase X by 1.
@@ -101,7 +102,8 @@ Effect: Create a copy of yourself. Your copy has your exact base Scores, Abiliti
 
 A8: Rocket Flap
 Melee-Support-Action
-Use: 5sta
+Cost: 5sta
+IfKO: Increase cost by 5sta.
 Effect: Move across up to 1+{MlePwr/10}sp through the air and into another ground space.|
 
 A9: Slow Fall

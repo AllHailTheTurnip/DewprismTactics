@@ -36,22 +36,26 @@ Melee-Offensive-Action
 Cost: 10AP
 Range: 0sp
 Accuracy: Melee
+Solowork: Increase Rank by 1.
 Dmg: (1){MlePwr}, inflicts Burning 2|
 
 A2: Rush
 Melee-Movement-Action
 Cost: 10AP+5sta
+Teamwork: Reduce cost by 3sta.
 Effect: Move up to 2sp in any direction, ignoring rough terrain and checks for gaps equal to 1sp.|
 
 A3: Nether Leap
 Magic-Movement-Action
 Cost: 5AP+3mna
+Solowork: Reduce Cost by 3mna.
 Effect You are removed from the Battlefield and placed into an imaginary space called the Nether.
 You cannot do anything except spend an additional 5AP!+3mna (at any point) to reappear anywhere on the Battlefield.|
 
 A4: Howl
 Melee-Offensive-Action
 Cost: 10AP+3sta+1mna
+IfKO: Increase Cost by 10AP.
 Range: 2sp cone AoE
 Evade: Magic
 Effect: Affected combatants choose one of their non-disabled Defensive abilities and disable them.|
@@ -59,12 +63,14 @@ Effect: Affected combatants choose one of their non-disabled Defensive abilities
 A5: Fiendish Aura
 Magic-Offensive-Passive
 Range: 0sp
+IfKO: Increase Range by 1sp.
 Effect: Enemy combatants cannot use supportive abilities within range of you.|
 
 A6: Devour Soul
 Magic-Offensive-Action
 Cost: 10AP+5mna
 Range: 1sp
+Teamwork: Increas range by 1sp.
 Accuracy: Magic
 Effect: Disable a combatant's ability (owner's choice) until end of battle.|
 

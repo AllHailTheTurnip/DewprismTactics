@@ -41,6 +41,7 @@ A1: Warp Space
 Magic-Support-Action
 Use: 10AP+7mna
 Range: 3sp
+Teamwork: Reduce Use cost by 2mna.
 Effect: Choose a space within range and subdivide it into 2 spaces.
 If there are combatants within the space then you choose which new space they'll be placed into.|
 
@@ -54,6 +55,7 @@ Effect: Target takes Paralysis 2. |
 A3: Seal Ability
 Magic-Offensive-Action
 Use: 20AP
+Teamwork: Set Use cost to 10AP+(1/turn).
 Range: 2sp
 Evade: Magic
 Effect: Disable the target's ability for the rest of the battle.|

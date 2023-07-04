@@ -40,6 +40,7 @@ A1: Fling "Dirt"
 Melee-Offensive-Action
 Use: 10AP
 Range: 1sp
+IfKO: Reduce Range by 1sp.
 Accuracy: Melee
 Dmg: (1){MlePwr}
 OnCrit: Poison 5.|
@@ -57,6 +58,7 @@ A3: Flee
 Skill-Defensive-Reaction
 Trigger: An enemy combatant targets you for an attack.
 Use: 3sta+1fcs
+IfKO: Reduce your health by {TL}15.
 Solowork: Improve the proceeding Self-Check by 2.
 Self-Check: Skill
 Effect: Make a free movement action away from the combatant.|

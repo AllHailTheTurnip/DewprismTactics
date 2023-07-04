@@ -13,7 +13,7 @@ Subtitle: Playful Spirits|
 Description: The original fungies were toadstools from a magical forest that were gifted with life. Yet stricken with
 mortality - that they might one day die - they chose to spend their limited years having fun. They played, danced,
 played music, and sang. Yet ever weary of other mortals, they always vanished into when someone neared by. Traditionally,
-they been the staunch friends of other magical creatures, and even wizards.
+they have been the staunch friends of other magical creatures, and even wizards.
 Today, though natural fungie remain limited to their home dwellings, their druids - Fungie, of the same title -
 carry on their free-spirited nature across the world. Telling their stories, singing their songs, and using their
 tricks. Fungie today are known as carefree folk, singing and dancing in the woodland way.|
@@ -69,6 +69,7 @@ take (3){MgcPwr} damage.|
 A4: Toddle
 Melee-Support-Action
 Use: 3sta
+IfKO: Increase cost by 3sta.
 Effect: Make a Movement action.|
 
 A5: Summon Flying Star
@@ -108,6 +109,7 @@ See Saw prop: while one combatant is standing on an end, the other end becomes a
 A9: Regrow
 Melee-Support-Action
 Use: 15AP
+IfKO: Reduce amount of restored health by 50%.
 Effect: Restore 30{TL} health. Any disabled abilities are re-enabled. End your turn.|
 
 MA1:|

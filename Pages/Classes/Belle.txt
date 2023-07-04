@@ -103,12 +103,14 @@ Magic-Offensive-Action
 Use: 5AP+1mna
 Range: 0sp
 Accuracy: Melee
+IfKO: Make a Luck 10 check to proceed.
 Effect: Target gets Burning (1).
 Solowork: If target is already burning, increase the Rank by 2.|
 
 A8:Channel Power
 Magic-Offensive-Action
 Use: 5mna+(1/turn)
+IfKO: Increase cost by 2mna.
 Effect: Increase the Rank of your next action by 1.
 Teamwork: Reduce the Critical Threshold of your next action by TmWrk.|
 

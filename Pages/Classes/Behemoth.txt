@@ -28,6 +28,7 @@ Abilities
 Doctrine: Bull Rush
 Melee-Offensive-Action
 Cost: 10AP+7sta
+IfKO: You instead target a combatant in your space and inflict (2){MlePwr} damage.
 Effect: Move 2sp in any available direction. Any enemy combatants in any of the spaces you entered (or left) take (2){MlePwr} damage.|
 
 A1: Roar!
@@ -39,7 +40,8 @@ OnHit: Target combatant reduces their MlePwr by 3 (min 1) until the end of battl
 
 A2: Impale
 Melee-Offensive-Action
-Cost: 10AP+1sta
+Cost: 10AP+3sta
+Teamwork: Set cost to 10AP+(1/turn).
 Range: 0sp
 Accuracy: Melee
 Dmg: (3){MleDmg}, inflicts Bleeding (1){MlePwr}.|
@@ -47,6 +49,7 @@ Dmg: (3){MleDmg}, inflicts Bleeding (1){MlePwr}.|
 A3: Counter Attack
 Melee-Offensive-Reaction
 Trigger: An enemy combatant resolves an attack against you.
+Solowork: Gain advantage on the proceeding Luck check.
 Cost: 5sta
 Luck: 10
 OnPass: Make a free unarmed attack action against the attacker.|
@@ -56,12 +59,14 @@ Skill-Offensive-Reaction
 Trigger: You declare an attack action.
 Cost: 5AP+3fcs+(1/turn)
 Range: 0sp
-Effect: Allied combatant in your space make a Luck 15 check, whereupon success they each make a free attack action to attack the same combatant as you.|
+IfKO: Use as normal but choose only one allied combatant in your space instead.
+Effect: Allied combatants in your space make a Luck 15 check, whereupon success they each make a free attack action to attack the same combatant as you.|
 
 A5: Meteor
 Magic-Offensive-Action
 Cost: 20AP+5mna
-Range: Battlefield
+Range: 3sp
+Teamwork: Increase range to Battlefield.
 Effect: Choose a target space within range. Every combatant within that space makes a Magic evade check.
 Upon failure, target combatant(s) takes (5){MgcPwr} fire damage.|
 
@@ -81,7 +86,8 @@ Effect: Target takes Burning 25%|
 
 A8: Fortitude
 Melee-Defensive-Passive
-Effect: You are immune to poison, bleed, and burning.|
+Effect: You are immune to poison, bleed, and burning.
+Solowork: You are also immune to Paralysis.|
 
 A9: Obliterate
 Melee-Offensive-Action

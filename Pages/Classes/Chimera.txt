@@ -31,6 +31,7 @@ Abilities
 Doctrine: Amalgamation
 Magic-Support-Passive
 Use: 1/turn
+IfKO: Use as normal.
 Effect: You can gain access to the Doctrine Ability of any allies within your space.|
 
 A1: Following Weapon
@@ -83,7 +84,8 @@ OnHit: Enemy takes (3){MgcPwr} electric damage.|
 A7: Shadowstep
 Magic-Support-Action
 Solowork: Reduce the Use-cost by 5AP+3mna.
-Use: 10AP+5mna
+Cost: 10AP+5mna
+IfKO: Increase cost by 1/battle.
 Range: 2sp
 Effect: Target a combatant in range and teleport to their space.|
 

@@ -38,6 +38,7 @@ Reduce your Melee and Skill evasion to {X}.
 Melee self-checks ignore Accuracy modifier.|
 
 A1: Downward Strike
+IfKO: This ability becomes a Reaction, where the trigger is "You gain the knocked-out status."
 Melee-Offensive-Action
 Use: 10AP+10sta
 Range: 0sp
@@ -66,7 +67,8 @@ unless the DM deems it impossible.|
 
 A4: Snarl
 Melee-Offensive-Action
-Use: 5AP+3fcs
+Cost: 5AP+3fcs
+IfKO: Increase Cost by 10AP.
 Range: 3sp
 Effect: Gain Aggro until your next turn begins.|
 

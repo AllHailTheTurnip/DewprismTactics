@@ -54,6 +54,7 @@ Use: 10AP+5mna
 Range: 0sp
 Teamwork: You may skip the self-check for allies.
 Evade: Magic
+IfKO: You may only copy one ability regardless of DL.
 Effect: Choose a combatant within range
 and learn one of their non-doctrine abilities until the end of the battle.
 You may copy up to {DL} different abilities, otherwise you may choose one
@@ -108,6 +109,7 @@ A8: Lead Away
 Skill-Offensive-Action
 Solowork: Reduce the Use-cost by 1/turn.
 Use: 5AP+5fcs+(1/turn)
+IfKO: Increase cost by 1/turn.
 Range: Battlefield (line of sight)
 Evade: Skill
 Effect: Affected target makes a free Sprint action in your direction.|

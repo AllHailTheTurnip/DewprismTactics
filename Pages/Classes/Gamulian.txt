@@ -38,6 +38,7 @@ as new ones are brought in.|
 A1: Power Nap
 Melee-Support-Action
 Use: 20AP
+IfKO: Increase cost by 7sta+7fcs.
 Teamwork: The Effect also applies allies in your space.
 Solowork: Roll Luck 10, whereupon success the AP cost is refunded.
 Effect: Restore 25% of your max Health and 50% of your max Stamina, Mana, and Focus.|
@@ -101,6 +102,7 @@ free movement action towards the offender.|
 A9: Zone of Peace
 Skill-Defensive-Passive.
 Use: 5fcs
+IfKO: Increase cost by 1/turn.
 Solowork: Increase the range of this ability by 1sp.
 Range: 0sp
 Effect: An ability that would be triggered in your range does not trigger.|
