@@ -39,22 +39,20 @@ Accuracy: Skill
 Dmg: (3){SklPwr}
 Mode B:
 Range: 2sp
-Accuracy: Skill -3
-Dmg: (1){SklPwr}|
+Accuracy: Skill -2
+Dmg: (2){SklPwr}|
 
 A1: Foresight
 Skill-Defensive-Action
-Use: 15AP+7fcs
-Effect: Choose an enemy on the battlefield to target.
-Increase your Evasion by 5 against any of their incoming Accuracy
-checks until the start of your next turn.|
+Use: 7fcs+(1/turn)
+Effect: Increas all of your Accuracy and Evade checks by 5 until the start of your turn.|
 
 A2: Omniscience
 Skill-Support-Action
 Use: 7fcs
 IfKO: Increase Use cost by 3fcs.
 Range: 1sp
-Effect: Ignore an enemy's Stealth evasion modifiers if they're within range.| // See in dark and ignore Stealth.
+Effect: You and your allies ignore an enemy's Stealth evasion modifiers if they're within range.| // See in dark and ignore Stealth.
 
 A3: Deflect
 Skill-Defensive-Reaction
