@@ -59,7 +59,6 @@ A3: Deflect
 Skill-Defensive-Reaction
 Trigger: An enemy targets you with an ability.
 Use: 5fcs+(2/turn)
-Accuracy: Skill
 Effect: You change the ability's target(s) to instead target enemy combatants. The ability proceeds as normal.| // Retarget attack to enemy in space.
 
 A4: Psychic Shield
