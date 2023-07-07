@@ -104,4 +104,6 @@ Effect: When making a Movement action, you may pay its AP cost with 3fcs.|
 
 MA1: Opened Eyes|
 MA2: Final Flash|
-MA3:|
+MA3: Wellspring of Thought
+Skill-Support-Action
+Effect: You have unlimited Focus.|
