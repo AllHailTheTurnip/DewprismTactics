@@ -113,10 +113,10 @@ Effect: Take possession of a KO'd target's body. While possessing, substitute th
 Health, Melee, Magic, and Skill scores with yours.
 At Class Level 5, you can draw from the target's Mana, Focus, and Stamina pools.
 At Class Level 10, you gain access to their Abilities.
-At Class Level 15, you can possess the target if they're dead; substitute their Health
+At Class Level 15, you can possess the target if they're dead and cannot lose possession while they're dead; substitute their Health
 with yours.
 At Class Level 20, targets cannot become conscious again until you leave.
-Duration: 3 turns, or until the target regains consciousness.
+Duration: 3 turns, or until the target regains consciousness, or until target dies.
 OnCrit: Treat your CL as if it was +5 greater for this ability.|
 
 MA1:|
