@@ -70,7 +70,7 @@ A6: Devour Soul
 Magic-Offensive-Action
 Cost: 10AP+5mna
 Range: 1sp
-Teamwork: Increas range by 1sp.
+Teamwork: Increases range by 1sp.
 Accuracy: Magic
 Effect: Disable a combatant's ability (owner's choice) until end of battle.|
 
