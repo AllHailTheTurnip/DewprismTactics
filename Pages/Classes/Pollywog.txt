@@ -40,8 +40,8 @@ Doctrine: Elemental Adaptation
 
 A1: Hover
     Skill-Support-Passive
-    IfKO: Use as normal.
-    Your movement is unaffected by difficult or dangerous terrain, even while swimming.|
+    IfKO: Spend 10AP+7sta to move 1sp in addition to this ability's effect.
+    Effect: Your movement is unaffected by difficult or dangerous terrain, even while swimming.|
 A2: Quick Slap
     Melee-Offensive-Action
     Use: 5AP
