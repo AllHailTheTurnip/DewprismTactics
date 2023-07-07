@@ -107,7 +107,7 @@ Effect: A See-Saw prop the length of the space appears on the battlefield.
 See Saw prop: while one combatant is standing on an end, the other end becomes a 1sp-tall ramp to an adjacent space.|
 
 A9: Regrow
-Melee-Support-Action
+Magic-Support-Action
 Use: 15AP
 IfKO: Reduce amount of restored health by 50%.
 Effect: Restore 30{TL} health. Any disabled abilities are re-enabled. End your turn.|
