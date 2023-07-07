@@ -73,8 +73,8 @@ Skill-Support-Action
 Use: 3fcs+(1/turn)
 A = (1d20/2)-5
 B = (1d20/2)-5
-Effect: Move Asp north and Bsp east, walls and barriers;
- if you would move out of bounds or onto bottomless pit (or lava),
+Effect: Move Asp north and Bsp east.
+ If you would move out of bounds or onto bottomless pit (or lava),
   stop at the lost possible safe space.| // Move to another space.
 
 A6: Energy Ring
