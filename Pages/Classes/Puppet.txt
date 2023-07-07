@@ -49,7 +49,7 @@ Effect: You are immune to Prone.|
 
 A2: Enchanted Object
 Magic-Support-Passive
-IfKO: Also increase Magic-type ability Use costs by 3mna.
+IfKO: Also increases IfKO-compatible your Magic-type abilities Use costs by 3mna.
 Effect: Increase Magic-type checks by +3.|
 
 A3: Scout
