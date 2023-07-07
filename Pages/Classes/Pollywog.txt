@@ -40,6 +40,7 @@ Doctrine: Elemental Adaptation
 
 A1: Hover
     Skill-Support-Passive
+    IfKO: Use as normal.
     Your movement is unaffected by difficult or dangerous terrain, even while swimming.|
 A2: Quick Slap
     Melee-Offensive-Action
@@ -56,6 +57,7 @@ A3: Chomp
 A4: Lay Egg
     Skill-Support-Action
     Cost: 5Fcs+(1/battle)
+    IfKO: Increase Cost by 20AP.
     Place an Egg prop at your feet.
     Upon your death, the egg hatches and you respawn at the Puddle - all your Vital scores and status effects
     are restored to their battle-start states.|

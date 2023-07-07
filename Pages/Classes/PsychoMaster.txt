@@ -52,6 +52,7 @@ checks until the start of your next turn.|
 A2: Omniscience
 Skill-Support-Action
 Use: 7fcs
+IfKO: Increase Use cost by 3fcs.
 Range: 1sp
 Effect: Ignore an enemy's Stealth evasion modifiers if they're within range.| // See in dark and ignore Stealth.
 
@@ -82,6 +83,7 @@ Skill-Offensive-Action
 Use: 10AP+5fcs
 Range: 0sp Circle AoE
 Evade: Skill
+IfKO: Increase Evade difficulty by 3.
 Dmg: (2){SklPwr}| // Target enemies in space
 
 A7: Mindwash

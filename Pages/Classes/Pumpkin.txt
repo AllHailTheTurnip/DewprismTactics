@@ -28,6 +28,7 @@ Doctrine: Self-Destruct
 Magic-Offensive-Action
 Use: 5mna+(3/battle)
 Range: 2sp
+IfKO: Reduce Range to 0sp.
 Evade: Magic
 Effect: Damage at 0sp is equal to (5){MgwPwr} fire.
 Damage at 1sp is equal to (3){MgwPwr} fire.
@@ -38,6 +39,7 @@ A1: Pumpkin Grenade
 Skill-Offensive-Action
 Use: 10AP+3fcs+(5/battle)
 Range: 0sp+{TL/5} circle AoE
+Solowork: Increase Range by 1sp.
 Evade: Skill
 Dmg: (2){SklPwr} fire|
 
@@ -58,7 +60,8 @@ A4: Pumpkin Mine
 Magic-Defensive-Action
 Use: 5AP+3mna+(3/turn)
 Range: 1sp
-Effect: Create a Pumpkin Mine prop within range .
+Effect: Create a Pumpkin Mine prop within range.
+Teamwork: Increase Rank by 1.
 Pumpkin Mine prop: If an opponent would enter into the same space as this token, it explodes and inflicts (2){MgcPwr} dmg to all combatants within the space.|
 
 A5: Charge!
@@ -70,6 +73,7 @@ Effect: The target must spend 3sta to leave the space or else take (1){MleDmg}.|
 A6: Smokescreen
 Magic-Supportive-Action
 Cost: 10AP+(1/turn)
+IfKO: Increase Cost by 5sta.
 Range: 1sp
 Effect: Create a Smokescreen prop within range.
 Smokescreen prop: All allied combatants within this prop's space are counted as having Medium coverage.|
@@ -86,7 +90,8 @@ A8: Fission Reaction
 Magic-Offensive-Action
 Range: 1sp AoE
 Variable: X = All enemy combatants in a space within range and all the enemy combatants in any touching spaces.
-Cost: 10AP+(X3)mna+(1/turn)
+Use: 10AP+(X3)mna+(1/turn)
+Solowork: Use cost is equal to 10AP+(X)mna+(1/turn)
 Evade: Magic
 Effect: Inflict (X){MgwPwr} dmg to all targeted combatants.|
 
@@ -95,6 +100,7 @@ Melee-Offensive-Action
 Cost: 10AP+2mna
 Range: 0sp
 Accuracy: Melee
+Teamwork: Increase Accuracy by 2.
 OnHit: Target takes (2){MleDmg} and gains Burning 1|
 
 MA1:|

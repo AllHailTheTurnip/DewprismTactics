@@ -38,12 +38,14 @@ A1:Doubleteam
 Melee-Offensive-Reaction
 Trigger: You attack an enemy
 Use: 5fcs
+IfKO: Increase Use cost by 10AP.
 Teamwork: Increase the Critical Threshold of your allies' next attack by 1.
 Effect: Grant a free basic attack to an ally in your space.|
 
 A2:Shove
 Melee-Offensive-Action
 Use: 10AP+5sta
+Solowork: Reduce Use cost by 3sta.
 Range: 0sp
 Accuracy: Melee
 OnPass: Enemy is forced away from up to {TL/4}sp.|
@@ -66,6 +68,7 @@ OnPass: Targeted item is destroyed.|
 
 A5: Cornering the Prey
 Melee-Support-Passive
+IfKO: It costs an additional 5AP for a combatant to move into your space.
 Effect: Increase your attack's Rank by 1 for every wall adjacent (up to 4) to the target.|
 
 A6:Intimidate

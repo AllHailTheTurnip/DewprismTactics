@@ -64,6 +64,7 @@ A4:Fearsome Roar!
 Melee-Offensive-Action
 Use: 10AP+5sta
 Range: 1sp AoE circle
+IfKO: Reduce Range by 1sp, make it single-target.
 Evade: Melee
 OnHit: Variable I is equal to 1d20 divided the by 2, rounding down.
 Ability of index I is disabled. 0 is equal to your Doctrine ability.|
@@ -103,6 +104,7 @@ A9:Whirlwind
 Melee-Offensive-Action
 Teamwork: You may replace the Use-cost with 1/2turn.
 Use: 20AP+7mna
+IfKO: Increase Use cost by 7mna.
 Range: 1sp AoE circle
 Evade: Melee
 OnHit: Combatant take 15{TL} damage. |

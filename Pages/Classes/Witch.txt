@@ -40,8 +40,10 @@ Heavy Cannon (Type: Skill, WC: SH, Cost: 10AP+5sta+3fcs, Rank: 8; Range: 3sp)|
 A1: Polymorph!
 Magic-Offensive-Reaction
 Trigger: A combatant inflicts damage to you while within the same space.
-Cost: 5mna+(3/battle)
+Use: 7mna+(3/battle)
+Teamwork: Reduce Use cost by 2mna.
 Range: 0sp
+IfKO: Increase Range by 1sp.
 Evade: Magic
 Effect: Target is turned into a frog until (the afflicted) they leave the space.
 While as a frog, they may only make Movement-based actions.|
@@ -61,12 +63,13 @@ Cost: 10AP+1fcs
 Choose an item from your inventory to use as ammunition.
 Range: 1sp or {WpnRng}
 Accuracy: Skill
+Solowork: Increase Accuracy check by 2.
 Effect: If the item was a consumable, the target involuntarily consumes the item.
 If the item was non-consumable, then (5){TL} dmg is inflicted.|
 
 A4: Launch Combatant
 Skill-Offensive-Action
-Cost: 10AP+2fcs+2sta
+Use: 10AP+2fcs+2sta
 Choose a combatant (referred to as X) from your space to use as ammunition.
 If they're an enemy, they make a Skill evasion check to avoid being used.
 Range: 1sp or {WpnRng}
@@ -92,19 +95,22 @@ Dmg: (X){SklPwr}.|
 A7: Metal Slug
 Skill-Offensive-Action
 Cost: 10AP+3sta+2fcs+(1/turn)
-Range: 5sp
+Range: 3sp
+Solowork: Increase Range by 2sp.
 Accuracy: Skill
 Effect: Inflict (4){SklPwr} to target. Inflict (1){SklPwr} to self.|
 
 A8: Barrage
 Skill-Offensive-Action
 Cost: 20AP
+Teamwork: Adjust Use cost to 10AP+(1/turn).
 Effect: Make three Skill-based offensive actions; do not pay the AP costs. Once all attacks have been resolved,
 reduce the Rank of your primary weapon by 1.|
 
 A9: Improvised Explosive
 Skill-Offensive-Action
 Cost: 10AP+3fcs
+IfKO: Use as normal.
 Effect: Transform either your primary or secondary weapon into an IED. The IED has the same scores as the chosen weapon.
 IED: When dropped, place a 2-turn counter on it. At the end of your turn, reduce the counter by 1. When the counter
 reaches 0, the IED is destroyed and all combatants within 3sp make a Skill Evade check; whereupon failure they each

@@ -30,6 +30,7 @@ Skill-Offensive-Action
 Cost: 10AP+3sta
 Range: 0sp
 Accuracy: Skill
+Teamwork: Increase critical threshold by {TmWrk}.
 Dmg: (3){SklPwr}, Target takes Bleeding (1){SklPwr}
 OnCrit: Choose an ability to disable.|
 
@@ -50,12 +51,16 @@ Effect: Move one space in any direction.|
 A4: Clever Idea
 Skill-Movement-Reaction
 Trigger: An opponent resolves their attack against you.
-Cost: 7sta
-Effect: Relocate an ally to a space adjacent to your attacker's space.|
+Use: 7sta
+IfKO: Increase Use cost by 3sta.
+Teamwork: Reduce Use cost by 2sta.
+Effect: Relocate an allie to a space adjacent to your attacker's space.|
 
 A5: Pack Strategy
 Skill-Support-Action
-Cost: 4fcs+(1/turn)
+Cost: 5fcs+(1/turn)
+IfKO: Choose an ally within 1sp of you to enter your space for free.
+Solowork: Reduce Use cost by 2fcs.
 Effect: You and allies sharing your space gain advantage on your next non-Luck checks.|
 
 A6: Purge the Weak
@@ -69,6 +74,7 @@ Skill-Offensive-Action
 Cost: 10AP+5fcs
 Range: 1sp
 Evade: Skill
+Solowork: Increase Evade check difficulty by 2.
 Dmg: Inflict Paralyze (1).|
 
 A8: Scaled Hide

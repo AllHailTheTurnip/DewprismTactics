@@ -43,6 +43,7 @@ Doctrine: Acquire Shape
 A1: Carry Spirit
     Magic-Support-Action
     Use: 5Mna
+    IfKO: Increase Use cost by 7sta.
     Range: 0sp
     If an ally had died since your last turn, you may create a Spirit token from a fragment of their spirit.
     Spirit Token: While on the same space of a body that is over 0HP, for 5AP the token can be destroyed, releasing the spirit into the new body.|
@@ -54,7 +55,7 @@ A2: Block
     Effect: Incoming damage is reduced by the damage of your Primary or Secondary weapon.|
 A3: Avenge Ally
     Skill-Support-Reaction
-    Trigger: An ally dies.
+    Trigger: An allie dies.
     Teamwork: Increase this ability's Luck check by 2.
     Luck: 10
     OnPass: Increase your {MlePwr} by (1).|
@@ -67,6 +68,7 @@ A5: Path of Duty
     Magic-Defensive-Reaction
     Trigger: An enemy combatant targets you with a Magic-type ability.
     Use: 5Mna
+    IfKO: Increase Use cost by 5mna.
     Effect: Restore TL Stamina, and Focus.|
 A6: Call Friend
     Skill-Support-Reaction

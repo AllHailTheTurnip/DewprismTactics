@@ -94,6 +94,7 @@ A5: Spike Pit
 Magic-Defensive-Action
 Use: 10AP+5mna
 Range: 1sp
+IfKO: Reduce Range to 0sp.
 Solowork: Increase the Rank of this ability by 1.
 Effect: Create a Spike Pit marker on yourself.
 Spike Pit token: If an enemy enters within range of this token's owner,
@@ -132,6 +133,7 @@ Paralyzed (2).|
 A9: Discreet Motion
 Skill-Offensive-Action
 Use: 3fcs
+IfKO: Increase Use cost by 6fcs.
 Effect: Your next action will not invoke any effects either by abilities,
 tokens, or props.|
 

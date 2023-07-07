@@ -62,6 +62,7 @@ Skill-Support-Action
 Teamwork: Reduce Use-cost by 5AP+1fcs.
 Use: 10AP+3fcs
 Range: 0sp.
+IfKO: Use as normal.
 Effect: Restore a disabled ability or disabled action.|
 
 A6: Pierce Piece
@@ -75,8 +76,9 @@ Solowork: The destroyed token or prop's owner takes (1){SklPwr} damage.|
 A7:Conjure Antidote
 Skill-Support-Action
 Use: 10AP
+IfKO: Increase Use cost by 5fcs.
 Range: 0sp
-Remove Poison or Paralyze.|
+Effect: Remove Poison or Paralyze.|
 
 A8:Throw Caltrop
 Skill-Defensive-Action

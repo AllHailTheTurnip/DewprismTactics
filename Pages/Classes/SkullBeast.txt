@@ -29,8 +29,9 @@ Doctrine: Self Resurrection
     Melee-Defensive-Reactive
     Trigger: Your health reaches 0.
     Use: 5mna.
-    Your corpse is given a Revival counter (2).
-    At the end of each round, reduce counter by 1.
+    IfKO: Increase Use cost by 5mna+5sta.
+    Your corpse is given a Revival counter 2.
+    Revival counter: At the end of each round, reduce counter by 1.
     At 0, you revive with fully restored Vital scores.|
 A1: Upscale
     Magic-Support-Action
@@ -91,7 +92,8 @@ A9: Rest
     Skill-Support-Action
     Use: 20AP for Mode A, OR 20AP+5cs+(1/3turn) for Mode B
     Mode A: Recover 50% of your max Health, Stamina, Mana, and Focus.
-    Mode B: Recover 50% of your max Health, Stamina, Mana, and Focus and remove any negative status effects.|
+    Mode B: Recover 50% of your max Health, Stamina, Mana, and Focus and remove any negative status effects.
+    IfKO: Multiply Use cost by 2.|
 
 MA1: Unresting
     Magic-Support-Passive

@@ -30,7 +30,8 @@ Skill: (Power: 6, Evasion: 15, Accuracy: -1)|
 Abilities
 Doctrine: Tireless
 Melee-Support-Passive
-Effect: Spend 5AP to restore 5 mana, 5 stamina, and 5 focus.|
+Effect: Spend 5AP to restore 5 mana, 5 stamina, and 5 focus.
+IfKO: Instead pay 7sta+7mna+7fcs to regain (1){MgcPwr} health.|
 
 A1: Undead
 Magic-Support-Passive
@@ -39,9 +40,9 @@ Healing from enemy combatants is taken as damage.|
 
 A2: Play Dead
 Skill-Support-Action/Reaction
-Trigger: You take damage (voluntary).
+Trigger: You take damage.
 Use: 10AP
-Effect: You falsely gain the Dead status, taking the appearance of a dead combatant.
+Effect: You may falsely gain the Dead status, taking the appearance of a dead combatant.
 While falsely dead, the only action you can make is to remove the Dead status.|
 
 A3: Salvage Bone Weapon
@@ -89,7 +90,9 @@ Effect: Remove a negative status effect.|
 A9: Horrifying
 Skill-Defensive-Action
 Cost: 5fcs
+Range: 3sp
 Accuracy: Skill
+IfKO: Reduce Accuracy check by 3.
 OnPass: Opponent returns to their previous space.|
 
 MA1:|

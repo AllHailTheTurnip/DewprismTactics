@@ -34,6 +34,7 @@ Effect: Attacks made against you from out of your space are reduced by 2 Ranks.
 A1: Waddle-Waddle
 Melee-Support-Action
 Use: 5sta+(1/turn)
+IfKO: Increase Use cost by 5sta.
 Solowork: If moving into a space with allied combatants, refund the Use-cost.
 Effect: Make a movement action if you haven't already.|
 
@@ -81,6 +82,7 @@ Use: 20AP+15mna.
 Range: 2sp AoE circle.
 Evade: Magic
 Effect: Variable Z is equal to your Max Health.
+IfKO: Variable Z is instead equal to 1/4th your Max Health.
 Hit combatants within your space take Z light damage.
 Hit combatants 1sp away from you take Z/2 light damage.
 Hit combatants 2sp away from you take Z/4 light damage.

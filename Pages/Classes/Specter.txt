@@ -85,6 +85,7 @@ Solowork: Reduce the Use-cost by 5AP.
 Use: 15AP+3fcs
 Range: 1sp
 Evade: Magic
+IfKO: Reduce Evade difficulty by 3.
 OnPass: Target gains Paralyzed 3.|
 
 A7: Drown
@@ -107,6 +108,7 @@ Magic-Support-Action
 Use: 10AP+7mna
 Range: 0sp
 Luck: 10-{TL/2}
+IfKO: Increase Luck check difficulty by 10.
 Effect: Take possession of a KO'd target's body. While possessing, substitute theirs
 Health, Melee, Magic, and Skill scores with yours.
 At Class Level 5, you can draw from the target's Mana, Focus, and Stamina pools.

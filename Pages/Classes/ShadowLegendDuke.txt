@@ -35,6 +35,7 @@ Abilities
 Doctrine: *Poof*
 Skill-Movement-Action
 Use: 1fcs+1sta+1mna+5AP
+IfKO: Increase Use cost by 15AP.
 Range: 1+[CL/3]sp
 Effect: Relocate yourself to any space within range.|
 
@@ -58,8 +59,9 @@ You may spend an additional 5mna for every extra enemy within you wish to target
 A3: Water Walk
 Focus-Support-Passive
 Teamwork: You allies are affected by this ability as well.
-You can walk on water without sinking (or choose to fall in, it's cool).
+Effect: You can walk on water without sinking (or choose to fall in, it's cool).
 Likewise, waterfalls are treated as solid objects that can be climbed.|
+IfKO: Use as normal.
 
 A4: Secret Fist
 Melee-Offense-Action

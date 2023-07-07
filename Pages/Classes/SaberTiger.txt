@@ -47,6 +47,7 @@ A2: Dismember
 A3: Lick Wounds
     Melee-Supportive-Action
     Use: 10AP
+    IfKO: Increase Use cost by 5sta+5fcs.
     Range: 0sp
     X = 15.
     Solowork: Increase X by 5.
@@ -76,7 +77,8 @@ A8: Fearsome Roar
     Cost: 10AP
     Range: 3sp
     Accuracy: Skill
-    OnPass: Reduce the target's Magic evasion by 2.|
+    OnPass: Reduce the target's Magic evasion by 2.
+    IfKO: End your turn.|
 A9: Assassin's Blade
     Magic-Support-Item
     Slot: Primary Weapon
