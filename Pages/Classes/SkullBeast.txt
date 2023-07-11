@@ -78,7 +78,7 @@ A7: Deluxe Fireball
     Magic-Offensive-Action
     Use: 10AP+5mna
     Teamwork: Increase range by 1sp.
-    Range: 0sp
+    Range: 1sp
     Accuracy: Magic
     OnHit: target takes (5){MgcPwr} fire damage. Increase the mna cost by 5 for every additional use in a single turn.|
 A8: Horrifying Screech
