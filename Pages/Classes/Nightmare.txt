@@ -44,9 +44,9 @@ OnFail: Unaffected enemy combatants are pushed away from you until they leave th
 
 A1:Chase
 Melee-Offensive-Action
-Use: 10AP+(Xsta/3)
+Use: 10AP+(3Xsta)
 Effect: Choose a combatant on the battlefield. Move up to Xsp in direction of target.
- Target must spend Xsta and move Xsp away or else take (3){MlePwr} damage.
+ Target must spend 3Xsta and move Xsp away or else take (3){MlePwr} damage.
 Solowork: Gain {15TL} health from hitting the target. |
 
 A2:Royal Armor
@@ -66,7 +66,7 @@ Melee-Offensive-Action
 Use: 10sta
 Range: 0sp
 Accuracy: Melee
-Target is hurled into the sky. On their next they fall to the ground and take (3){5TL} fall damage.|
+Target is hurled into the sky. On their next turn they fall to the ground and take (3){5TL} fall damage.|
 
 A5: Gallop
 Melee-Support-Reaction
