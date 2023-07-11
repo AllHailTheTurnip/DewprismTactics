@@ -55,7 +55,7 @@ Range: 1sp
 Effect: You and your allies ignore an enemy's Stealth evasion modifiers if they're within range.
 This expires at the start of your next turn.| // See in dark and ignore Stealth.
 
-A3: Deflect
+A3: Mirror Shield
 Skill-Defensive-Reaction
 Trigger: An enemy targets you with an ability.
 Use: 5fcs+(2/turn)
