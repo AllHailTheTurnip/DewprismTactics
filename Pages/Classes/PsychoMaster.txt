@@ -59,7 +59,7 @@ A3: Mirror Shield
 Skill-Defensive-Reaction
 Trigger: An enemy targets you with an ability.
 Use: 5fcs+(2/turn)
-Effect: You change the ability's target(s) to instead target enemy combatants. The ability proceeds as normal.| // Retarget attack to enemy in space.
+Effect: You must change the ability's target(s) to instead target enemy combatants - excepting the ability's owner. The ability proceeds as normal.| // Retarget attack to enemy in space.
 
 A4: Psychic Shield
 Skill-Defensive-Action
