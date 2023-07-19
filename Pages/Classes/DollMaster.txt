@@ -46,13 +46,13 @@ Range: 3sp
 Effect: Choose an ally within range. Increase the Critical threshold for all
 checks made during their next action by (4).|
 
-A2: Call Guard
+A2: Predict Guard
 Skill-Support-Action
 Use: 5AP+5fcs
 Range: 3sp
 IfKO: Increase the Use cost of this ability by (1/turn).
 Evade: Skill
-Effect: Choose an enemy combatant within range. Negate any Evasion modifiers
+Effect: Choose an enemy combatant within range. Negate any positive Evasion modifiers
 they have until the end of their turn.|
 
 A3: Efficiency
@@ -76,7 +76,7 @@ While under your control, the target is regarded as an allie to your team, influ
 the targeting of their abilities where applicable.
 Please note: You cannot make the target attack themselves or flee the battlefield.|
 
-A5: Call Attack
+A5: Predict Attack
 Skill-Support-Action
 Teamwork: Improve Use-cost by 1/turn.
 Use: 5AP+5fcs+(1/turn)
@@ -100,7 +100,7 @@ Use: 10AP+5fcs+(3/battle)
 Range: 1sp
 Evade: Skill
 Effect: Target gains the Surrendered status. While the target has Surrendered,
-they are counted as neutralized to the conflict and cannot take turns.
+they are counted as neutralized to the conflict and cannot make actions (including movement and basic ones).
 At the beginning of their turn, they may make a Skill self-check, whereupon
 success they lose the Surrendered status and re-enter the conflict as normal.|
 

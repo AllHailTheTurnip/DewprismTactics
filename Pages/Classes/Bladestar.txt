@@ -98,7 +98,7 @@ Use: 3fcs+5AP
 Effect: Create a creature with Vitals and Scores to 1/4th of yours, while Stats are equal to yours.
 It has no abilities, and weapon ranks are all 1; the beast is considered unarmed.
 You control the creature. It spawns in your space.
-Choose a special special ability for it...
+Choose a special ability for it...
 A. Flight (The animal can move in any direction, including vertical)
 B. Night Eyes (The animal treats lighting conditions as regular)
 C. Gills (The animal can breathe under water)
