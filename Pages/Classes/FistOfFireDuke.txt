@@ -55,7 +55,7 @@ OnCrit: Target gets Burning 3|
 A3: Momentum
 Skill-Support-Reaction
 Trigger: You declare that you are about to use an ability.
-X = 1.
+Variable: X =1.
 Solowork: Increase X by 2.
 Use: X/turn
 Effect: You may increase the Use-cost by 50% to increase its Rank by 1

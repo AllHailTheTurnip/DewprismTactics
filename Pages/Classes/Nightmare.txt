@@ -95,7 +95,7 @@ OnPass: Enemy combatants take (2){MgcPwr} electric damage.|
 
 A9:Hone Strike
 Magic-Support-Action
-X = 1.
+Variable: X =1.
 Solowork: Increase X by 1.
 Use: 3mna+(X/turn)
 IfKO: Increase Use cost by 6mna.

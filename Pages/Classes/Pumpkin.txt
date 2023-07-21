@@ -89,7 +89,7 @@ Dmg: (2){SklPwr}|
 A8: Fission Reaction
 Magic-Offensive-Action
 Range: 1sp AoE
-Variable: X = All enemy combatants in a space within range and all the enemy combatants in any touching spaces.
+Variable: X =All enemy combatants in a space within range and all the enemy combatants in any touching spaces.
 Use: 10AP+(X3)mna+(1/turn)
 Solowork: Use cost is equal to 10AP+(X)mna+(1/turn)
 Evade: Magic

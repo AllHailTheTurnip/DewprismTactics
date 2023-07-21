@@ -5,14 +5,14 @@ Description:|
 
 VITALS
 Health: 75|
-Mana: 20|
+Mana: 25|
 Stamina: 5|
 Focus: 5|
 
 SCORES
 Initiative: 10|
 Carry: 7u|
-Element: Light|
+Element: Light/Light|
 
 STATS
 Melee: (Power: 3, Evasion: 15, Accuracy: 0)|
@@ -20,17 +20,81 @@ Magic: (Power: 7, Evasion: 15, Accuracy: 0)|
 Skill: (Power: 3, Evasion: 15, Accuracy: 0)|
 
 Abilities
-Doctrine: Resurrect Player
-// Become a shield for another combatant|
-A1: Shield of Protection|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine: Resurrect
+Magic-Defensive-Action
+Use: 10AP+7mna+(1/3turn)
+Range: 3sp
+Effect: Restore a Dead combatant back to life at 1+{TL5}% of their Health restored. Remove any negative statuses.|
+
+A1: Shield of Protection
+Magic-Defensive-Action
+Use: 7mna+(1/3turn)
+Range: 3sp
+Effect: Remove your combatant from the battlefield and grant the Shield of Protection status to the combatant of your
+choice. While under the Shield of Protection, the target gains temporary Health equal to your Max Health but automatically fails
+any Evade checks.
+If the temp health from Shield of Protection runs out or if you (the caster) spend 5AP during your turn, then the status
+is removed and your combatant is returned to the battlefield.|
+
+A2: Revitalize
+Magic-Support-Action
+Use: 10AP+Xmna
+Range: 2sp
+Effect: Restore X15 Health to a combatant of your choice.
+Reduce your Max Mana by X.|
+
+A3: Energize
+Magic-Support-Action
+Use: 10AP+Xmna
+Range: 2sp
+Effect: Restore X/2 stamina, mana, and focus to a combatant of your choice.
+Reduce your Max Mana by X.|
+
+A4: Reset
+Magic-Support-Action
+Mode A:
+    Use: 10AP+5mna
+    Range: 1sp
+    Effect: Reset the (x/battle) counter of an ability back to 0 uses this battle.
+
+Mode B:
+    Use: 10AP+3mna
+    Range: 3sp
+    Effect: Reset the (1/yturn) counter of an ability to 0 uses.|
+
+A5: Spirit of Companionship
+Magic-Support-Action
+Use: 10AP+5mna
+Range: 3sp
+Effect: Grant the Companionship token to a combatant.
+Companionship: combatants with this token have their compatible abilities invoke the Teamwork modifier at all times.|
+
+A6: Spirit of Isolation
+Magic-Support-Action
+Use: 10AP+5mna
+Range: 3sp
+Effect: Grant the Isolation token to a combatant.
+Isolation token: combatants with this token have their compatible abilities invoke the Solowork modifier at all times.|
+
+A7: Forgiveness
+Magic-Defensive-Action
+Use: 5mna
+Range: 3sp
+Effect: Remove one negative status from a combatant.|
+
+A8: Grace
+Magic-Defensive-Reaction
+Trigger: An allie combatant is prompted to make a self-check check.
+Use: 5mna
+Range: 3sp
+Effect: Grant -6 to the target's self-check.|
+
+A9: Blessing of Guidance
+Magic-Support-Action
+Use: 10AP+5sta+3fcs+(1/turn)
+Range: 3sp
+Effect: Grant +6 to the target's next accuracy check.
+Luck 15: Target's next accuracy check automatically passes.|
 
 
 MA1:|

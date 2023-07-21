@@ -59,7 +59,7 @@ A3: Efficiency
 Skill-Support-Action
 Use: 7fcs+(1/turn)
 Range: 1sp
-X = 5AP.
+Variable: X =5AP.
 Solowork: Increase X by 3sta+3mna+3fcs.
 Effect: Target an ally within range. Grant an additional X to their next
 turn.|

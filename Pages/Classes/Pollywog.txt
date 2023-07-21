@@ -51,7 +51,7 @@ A3: Chomp
     Melee-Offensive-Action
     Cost: 10AP
     Range: 0sp
-    X = neutral.
+    Variable: X =neutral.
     Solowork: remove X.
     Enemy takes (1){MlePwr} X damage.|
 A4: Lay Egg

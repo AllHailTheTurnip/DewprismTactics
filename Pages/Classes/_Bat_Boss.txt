@@ -43,7 +43,7 @@ Melee-Offensive-Action
 Use: 10AP+3sta
 Range: 0sp
 Accuracy: Melee
-X = Make a Luck 10 check, whereupon success you increase the Rank (max 5) of this ability.
+Variable: X =Make a Luck 10 check, whereupon success you increase the Rank (max 5) of this ability.
 Effect: Execute X and repeat until the Luck check fails. Inflict (1){MlePwr} damage.|
 
 A3: Absorb Power

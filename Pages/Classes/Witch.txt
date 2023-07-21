@@ -89,7 +89,7 @@ Skill-Offensive-Action
 Cost: 15AP+5fcs
 Range: 3sp Cone AoE
 Evade: Skill
-Variable: X = 5 divided by all targeted combatants (cannot target more than 5).
+Variable: Variable: X =5 divided by all targeted combatants (cannot target more than 5).
 Dmg: (X){SklPwr}.|
 
 A7: Metal Slug

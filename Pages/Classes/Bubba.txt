@@ -31,7 +31,7 @@ Skill: (Power: 3, Evasion: 5, Accuracy: -2)|
 Abilities
 Doctrine: Brutal Bulk
 Melee-Support-Passive
-X = 0.
+Variable: X =0.
 Solowork: Increase X by 3.
 Effect: Increase the Rank of your Melee-type attacks by 1.
 Reduce your Melee and Skill evasion to {X}.

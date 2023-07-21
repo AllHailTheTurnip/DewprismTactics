@@ -49,7 +49,7 @@ A3: Lick Wounds
     Use: 10AP
     IfKO: Increase Use cost by 5sta+5fcs.
     Range: 0sp
-    X = 15.
+    Variable: X =15.
     Solowork: Increase X by 5.
     Restore (X){TL} health to yourself or your target.|
 A4: Bloody Feast

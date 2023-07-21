@@ -59,7 +59,7 @@ A3:Camouflage
 Melee-Defense-Action
 Use: 10AP
 IfKO: Use as normal.
-X = End your turn.
+Variable: X =End your turn.
 Teamwork: Nullify X.
 Effect: X. Increase your MleEva by 5+{MlePwr} until your next action.|
 

@@ -98,7 +98,7 @@ A9: Center of Attention
 Melee-Support-Passive
 Range: 1sp
 Solowork: Nullify X.
-X = If you have aggro...
+Variable: X =If you have aggro...
 Effect: X, enemies within range will ignore their Danger threshold.|
 
 MA1: STAAAAAAAAAR!|

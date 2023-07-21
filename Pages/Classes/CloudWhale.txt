@@ -46,7 +46,7 @@ and they can't pay the stamina cost, then they are consumed.
 Consumed combatants take (3){MgcPwr} damage.
 
 Conclusion:
-X = 10
+Variable: X =10
 Solowork: Increase X by 10.
 Regain X% of the consumed max health of any combatants consumed.
 They respawn as though they'd fallen down a bottomless pit.|

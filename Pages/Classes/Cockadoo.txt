@@ -86,7 +86,7 @@ Magic-Support-Action
 Cost: 10AP+3mna
 IfKO: Reduce Cost to 10AP.
 Range: Any ally within 1sp+{MgcPwr/15}.
-X = 1
+Variable: X =1
 Solowork: Increase X by 1.
 Effect: Choose X target to be the waypoint. Choose up to 1+{MgcPwr/10} allies to be subjects.
 Each subject is instantly relocated to an adjacent space beside the waypoint.|

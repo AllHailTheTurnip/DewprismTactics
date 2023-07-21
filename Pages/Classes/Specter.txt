@@ -70,7 +70,7 @@ OnHit: Target loses (1){MgcPwr/4} focus.|
 
 A4: Arcane Shield
 Magic-Defense-Passive
-X = incoming damage.
+Variable: X =incoming damage.
 Effect: You may spend X/10mna to neutralize incoming damage.|
 
 A5: Terrify

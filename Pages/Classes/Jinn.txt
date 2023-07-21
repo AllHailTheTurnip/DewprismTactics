@@ -59,7 +59,7 @@ Magic-Support-Action
 Cost: 10AP
 IfKO: Reduce Range to 1sp.
 Range: Battlefield
-X = 20%
+Variable: X =20%
 Y = 20
 Solowork: Increase X by 20% and reduce Y by 1; you may do this as until X is 100%.
 Effect: Reduce your Max Health by X. Chose a target and roll 1d20 as A. If A >= Y, the target dies and removed from combat.|
