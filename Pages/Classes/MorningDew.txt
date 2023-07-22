@@ -1,7 +1,13 @@
 Title: Morning Dew|
 Subtitle: The Ultimate Defender|
-Description:|
-???
+Description:
+The history of civilization is bound in  a prophecy foretelling the return of the
+Morning Dew, a lost angel destined to safeguard the world from impending doom.
+Devoted followers, known also as the Morning Dew, live a life of meekness and generosity,
+ awaiting the lost angel's reappearance. They possess the extraordinary ability to revive fallen comrades.
+ With this unique power, they stand resolute in their commitment,
+  eagerly anticipating the day when they might fight alongside the Morning Dew in the ultimate battle for the
+  realm's salvation.|
 
 VITALS
 Health: 75|
@@ -15,16 +21,18 @@ Carry: 7u|
 Element: Light/Light|
 
 STATS
-Melee: (Power: 3, Evasion: 15, Accuracy: 0)|
-Magic: (Power: 7, Evasion: 15, Accuracy: 0)|
-Skill: (Power: 3, Evasion: 15, Accuracy: 0)|
+Melee: (Power: 3, Evasion: 10, Accuracy: 0)|
+Magic: (Power: 4, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 3, Evasion: 10, Accuracy: 0)|
 
 Abilities
-Doctrine: Resurrect
+Doctrine: Aura of Life
 Magic-Defensive-Action
 Use: 10AP+7mna+(1/3turn)
 Range: 3sp
-Effect: Restore a Dead combatant back to life at 1+{TL5}% of their Health restored. Remove any negative statuses.|
+Effect: Restore a Dead combatant back to life at 1+{TL5}% (max 100%) of their Health restored. Remove any negative statuses.
+Magic-Support-Passive
+Effect: Increase Support and Defensive abilities by 2 ranks.|
 
 A1: Shield of Protection
 Magic-Defensive-Action
@@ -32,13 +40,14 @@ Use: 7mna+(1/3turn)
 Range: 3sp
 Effect: Remove your combatant from the battlefield and grant the Shield of Protection status to the combatant of your
 choice. While under the Shield of Protection, the target gains temporary Health equal to your Max Health but automatically fails
-any Evade checks.
+any Evade checks. Any afflicted status effects are negated.
 If the temp health from Shield of Protection runs out or if you (the caster) spend 5AP during your turn, then the status
 is removed and your combatant is returned to the battlefield.|
 
 A2: Revitalize
 Magic-Support-Action
 Use: 10AP+Xmna
+IfKO: Inflict (3){MgwPwr} damage to yourself.
 Range: 2sp
 Effect: Restore X15 Health to a combatant of your choice.
 Reduce your Max Mana by X.|
@@ -46,33 +55,38 @@ Reduce your Max Mana by X.|
 A3: Energize
 Magic-Support-Action
 Use: 10AP+Xmna
-Range: 2sp
+Range: (2)sp
 Effect: Restore X/2 stamina, mana, and focus to a combatant of your choice.
 Reduce your Max Mana by X.|
 
 A4: Reset
 Magic-Support-Action
+Solowork: Increase range for both modes by 1sp.
 Mode A:
-    Use: 10AP+5mna
+    Use: 10AP+5mna-(0)mna
     Range: 1sp
     Effect: Reset the (x/battle) counter of an ability back to 0 uses this battle.
 
 Mode B:
-    Use: 10AP+3mna
+    Use: 10AP+3mna-(0)mna
     Range: 3sp
     Effect: Reset the (1/yturn) counter of an ability to 0 uses.|
 
 A5: Spirit of Companionship
 Magic-Support-Action
 Use: 10AP+5mna
+Teamwork: If targeting an allie within your space then remove the mana cost.
 Range: 3sp
 Effect: Grant the Companionship token to a combatant.
-Companionship: combatants with this token have their compatible abilities invoke the Teamwork modifier at all times.|
+Companionship: combatants with this token have their compatible abilities invoke the Teamwork modifier at all times;
+it is considered that they're with at least (1) allied combatants.|
 
 A6: Spirit of Isolation
 Magic-Support-Action
 Use: 10AP+5mna
 Range: 3sp
+IfKO: Change the effect of this ability to instead permanently (until end of battle) disable the Teamwork modifier
+for all abilities on an enemy combatant within range.
 Effect: Grant the Isolation token to a combatant.
 Isolation token: combatants with this token have their compatible abilities invoke the Solowork modifier at all times.|
 
@@ -80,21 +94,22 @@ A7: Forgiveness
 Magic-Defensive-Action
 Use: 5mna
 Range: 3sp
-Effect: Remove one negative status from a combatant.|
+Effect: Remove (1) negative status from a combatant.|
 
 A8: Grace
 Magic-Defensive-Reaction
 Trigger: An allie combatant is prompted to make a self-check check.
+Teamwork: Affected target gets advantage on their self-check.
 Use: 5mna
 Range: 3sp
-Effect: Grant -6 to the target's self-check.|
+Effect: Grant -(6) to the target's self-check.|
 
-A9: Blessing of Guidance
-Magic-Support-Action
-Use: 10AP+5sta+3fcs+(1/turn)
-Range: 3sp
-Effect: Grant +6 to the target's next accuracy check.
-Luck 15: Target's next accuracy check automatically passes.|
+A9: Shield of Longevity
+Magic-Defensive-Action
+Solowork: Reduce Use cost by 2mna.
+Use: 5AP+5mna
+Effect: You can only lose up to 30-{TL/5}% of your total health before the start of your next turn. Any additional damage after that
+is instead redirected towards the attacker.|
 
 
 MA1:|

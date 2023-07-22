@@ -1,9 +1,9 @@
 Title: Evening Dew|
 Subtitle: The Ultimate Attacker|
 Description: The history of all civilization is bookended by a prophecy - that at the end of days, a lost angel would
-return to Earth and drown it fire. Though those times are well off anf the lost angel is nowhere to be found, a following
+return to Earth and drown it fire. Though those times are well away and the lost angel is nowhere to be found, a following
 has regardless formed around them. Their foremost practitioners, styling themselves as Evening Dews, have secluded themselves
-hoping and waiting that one day, when the lost angel makes their way back, that they too might ride by their side.
+hoping and waiting that one day when the lost angel makes their way back, that they too might ride by their side.
     <p>Evening Dews are masters of mind, body, and will, honing their abilities to cause as much destruction as
     possible. As a backup measure, they are enchanted to return stronger than ever, should they be downed in combat.</p>|
 
@@ -49,7 +49,7 @@ Solowork: Reduce Use cost by 2sta.
 Effect: Move 2sp in any direction.
 Range: Battlefield AoE
 Evade: Melee
-OnHit: Take (1){MlePwr} dmg.|
+OnHit: Take (1){MlePwr} dmg and is made Prone.|
 
 A4: Serial Killing
 Skill-Offensive-Reaction
