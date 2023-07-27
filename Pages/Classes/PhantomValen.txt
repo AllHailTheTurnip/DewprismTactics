@@ -108,8 +108,7 @@ Range: 1sp
 IfKO: Reduce Range to 0sp and increase Evade check difficulty by 3.
 If the target is an ally then skip the Evade check.
 Evade: Magic
-Effect: Choose a target's ability and increase or decrease its Mana, Focus, and/or Stamina cost(s) by 2 (min 1, max 7)
-You cannot target yourself.|
+Effect: Choose a target's ability and increase or decrease its Mana, Focus, and/or Stamina cost(s) by 2 (min 1, max 7)|
 
 MA1:|
 MA2:|
