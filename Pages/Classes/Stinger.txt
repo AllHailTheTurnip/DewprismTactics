@@ -35,7 +35,7 @@ Melee-Defensive-Reaction
 Trigger: You are attacked by an enemy.
 Use: 3sta
 Effect: Increase your MleEva by 5 until the end of the attack.
-After the attack is resolved, move 1+(TL/4)sp in any diagonally direction.
+After the attack is resolved, move up 1+(TL/4)sp in any direction.
 Teamwork: Increase your MleEva by 7 instead.|
 
 A2: Shrink Down
