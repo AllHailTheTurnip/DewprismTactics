@@ -106,7 +106,7 @@ Use: 5mna+(1/turn)
 IfKO: Double mna cost.
 Effect: You take the Invisible status.
 While Invisible, your Evasion scores are increased to 20.
-After attacking, you must spend 5mna to retain the Invisible status.
+After attacking, you lose the Invisible status.
 At the beginning of each turn, spend 5mna to retain the Invisible status.|
 
 A9: Jinx!
