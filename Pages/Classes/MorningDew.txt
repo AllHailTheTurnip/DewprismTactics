@@ -40,7 +40,7 @@ Use: 7mna+(1/3turn)
 Range: 3sp
 Effect: Remove your combatant from the battlefield and grant the Shield of Protection status to the combatant of your
 choice. While under the Shield of Protection, the target gains temporary Health equal to your Max Health but automatically fails
-any Evade checks. Any afflicted status effects are negated.
+any Evade checks or checks against Accuracy. Any afflicted status effects are negated.
 If the temp health from Shield of Protection runs out or if you (the caster) spend 5AP during your turn, then the status
 is removed and your combatant is returned to the battlefield.|
 
