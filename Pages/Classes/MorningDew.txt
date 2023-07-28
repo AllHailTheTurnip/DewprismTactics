@@ -28,7 +28,7 @@ Skill: (Power: 3, Evasion: 10, Accuracy: 0)|
 Abilities
 Doctrine: Aura of Life
 Magic-Defensive-Action
-Use: 10AP+7mna+(1/3turn)
+Use: 10AP+7mna+(2/battle)
 Range: 3sp
 Effect: Restore a Dead combatant back to life at 1+{TL5}% (max 100%) of their Health restored. Remove any negative statuses.
 Magic-Support-Passive

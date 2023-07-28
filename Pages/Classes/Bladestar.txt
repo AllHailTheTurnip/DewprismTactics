@@ -50,9 +50,9 @@ Effect: Increase the rank of any weapon you have equipped by 1.|
 
 A2: Upgrade Use
 Skill-Support-Action
-Use: 2fcs+15AP
-Effect: Reduce the Sta/Fcs/Mgc use-cost of an equipped weapon by 1 (minimum 0).
-Otherwise, reduce the AP cost of an equipped weapon by 2 (minimum 2).|
+Use: 3fcs+15AP
+Effect: Reduce the Sta/Fcs/Mgc use-cost of an equipped weapon by (1) (minimum 0).
+Otherwise, reduce the AP cost of an equipped weapon by (2) (minimum 5).|
 
 A3: Upgrade Attributes
 Skill-Support-Action

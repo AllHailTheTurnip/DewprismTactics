@@ -28,7 +28,7 @@ Skill: (Power: 4, Evasion: 12, Accuracy: 0)|
 
 Abilities
 Doctrine: Monstrous Shape
-At the beginning of battle after you roll for initiation use this ability once for free.
+At the beginning of battle after you roll for initiative use this ability once for free.
 Magic-Support-Action
 Use: 10AP
 You can only be in one mode at a time. Switching between modes removes the bonuses and penalties of the previous
