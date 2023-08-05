@@ -65,7 +65,7 @@ Abilities with (x/turn) Use costs are increased by (+2/turn)|
 
 A6: Crushing Strike
 Melee-Offensive-Action
-Cost: 10AP+7sta
+Use: 10AP+7sta
 Solowork: Range gains AoE.
 Teamwork: Range gains +1sp.
 Range: 0sp

@@ -114,6 +114,24 @@ Use: 10AP
 Effect: For the next three rounds, while you have Aggro, reduce incoming damage by 1 Rank.
 Solowork: In addition, attack ranks cannot be increased from rolling critical.|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Tsunami
+Melee-Offensive-Action
+Use: 10AP+7mna
+Range: Battlefield AoE
+Effect: Choose a horizontal direction; all affected combatants are moved (2)sp in that direction.
+Evade: Melee+3
+Dmg: (3){MlePwr}|
+
+MA2: Endless Rain
+Magic-Offensive-Passive
+Effect: At the beginning of combat create a Flood prop in your space.
+At the beginning of each following expand the Flood prop into each (max 4) adjacent spaces.
+The Flood prop cannot expand into bottomless pits; they simply fall in.
+Spaces with a Flood prop in them count as difficult terrain
+If the Flood cannot expand into any more horizontal spaces, then the Flood props expand vertically.|
+
+MA3: Immensity
+Melee-Support-Passive
+Effect: You now take up (3) spaces at all times and treated as being 1sp tall.
+You are so big that other combatants cannot fit into your space.
+You can be climbed for 10AP.|

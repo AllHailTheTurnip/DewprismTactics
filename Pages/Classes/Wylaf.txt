@@ -109,6 +109,21 @@ Range: 1sp AoE circle
 Evade: Melee
 OnHit: Combatant take 15{TL} damage. |
 
-MA1: Undying|
-MA2: Form of the Dragon|
-MA3:|
+MA1: Gift of Immortality
+Magic-Defensive-Passive
+Effect: While you can be KO'd you cannot take the Dead status.
+At the beginning of each turn you regain (1){MgcPwr} health.|
+
+MA2: Form of the Dragon
+Magic-Offensive-Passive
+Effect: All incoming damage is halved.
+Movement actions can now be made in direction.
+Increase the Rank of all your offensive and defensive actions by 2.
+At the beginning of each turn you regain 3mna+3sta+3fcs.|
+
+MA3: River of Flames
+Magic-Offensive-Action
+Use: 10AP+10mna+(1/2turn)
+Range: Battlefield Cone AoE
+Accuracy: Magic+6
+Effect: Inflicts (5){MgcPwr} fire dmg, targets are afflicted with Burning 5.|

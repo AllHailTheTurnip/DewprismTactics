@@ -43,7 +43,7 @@ Magic-Defensive-Action
 Use: 10AP+7mna
 Effect: Every enemy combatant takes the Charmed status
  While a combatant has the Charmed status, you (the caster) are considered a
-non-combatant ally and cannot be directly targeted by attacks,
+non-combatant allie and cannot be directly targeted by attacks,
 even indirectly via AoE. Please note: the Charmed status cannot stack.
 At the beginning of each enemy combatant's turn, they may make a Magic Self-check,
 whereupon success they lose the Charmed status.|

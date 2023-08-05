@@ -67,12 +67,12 @@ Pumpkin Mine prop: If an opponent would enter into the same space as this token,
 A5: Charge!
 Melee-Offensive-Reaction
 Trigger: You move into a space with an enemy combatant.
-Cost: 5sta
+Use: 5sta
 Effect: The target must spend 3sta to leave the space or else take (1){MleDmg}.|
 
 A6: Smokescreen
 Magic-Supportive-Action
-Cost: 10AP+(1/turn)
+Use: 10AP+(1/turn)
 IfKO: Increase Cost by 5sta.
 Range: 1sp
 Effect: Create a Smokescreen prop within range.
@@ -80,7 +80,7 @@ Smokescreen prop: All allied combatants within this prop's space are counted as 
 
 A7: Artillery Strike
 Skill-Offensive-Action
-Cost: 15AP+3mna
+Use: 15AP+3mna
 Range: 5sp
 Choose {TL}/5 individual spaces that are 4-5sp away from the caster to target.
 Accuracy: Skill
@@ -97,7 +97,7 @@ Effect: Inflict (X){MgwPwr} dmg to all targeted combatants.|
 
 A9: Caustic Bite
 Melee-Offensive-Action
-Cost: 10AP+2mna
+Use: 10AP+2mna
 Range: 0sp
 Accuracy: Melee
 Teamwork: Increase Accuracy by 2.

@@ -100,9 +100,18 @@ Skill-Offensive-Item
 Slot: Primary or Secondary Weapon
 Divine Spear (Type: Skill, WC: L, Use: 5AP+(2/turn), Rank: 2, Range: 1, Honed 3)|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Curse Breaker
+Magic-Defensive-Passive
+Effect: When you kill an enemy combatant, any damage or negative statuses (except Death) inflicted to your allies is undone.|
+
+MA2: Perfect Pierce
+Skill-Offensive-Action
+Use: 10fcs+10sta
+Effect: Your next attack-type action's potential damage cannot be reduced by elemental differences or opposing ability effects.|
+
+MA3: Locus of Control
+Skill-Support-Passive
+Effect: When using an ability you have full control over who it does or does not target.|
 
 
 

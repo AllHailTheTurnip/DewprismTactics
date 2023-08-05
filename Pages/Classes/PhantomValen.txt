@@ -65,7 +65,7 @@ A4: Adjust Range
 Magic-Supportive-Action
 Use: 10AP+5mna+(1/turn)
 Range: 0sp
-If the target is an ally then skip the Evade check.
+If the target is an allie then skip the Evade check.
 Evade: Magic
 Effect: Choose an ability belonging to yourself or another combatant and increase or decrease its range by 1sp (min 0sp).|
 
@@ -73,7 +73,7 @@ A5: Adjust Limits
 Magic-Supportive-Action
 Use: 10AP+5mna+3fcs+(1/turn)
 Range: 3sp
-If the target is an ally then skip the Evade check.
+If the target is an allie then skip the Evade check.
 Evade: Magic
 Effect: Choose an ability belonging to yourself or another combatant and increase or decrease its uses-per-turn by 1 (min 1). |
 
@@ -106,10 +106,25 @@ Magic-Offensive-Action
 Use: 10AP+7mna+(5/battle)
 Range: 1sp
 IfKO: Reduce Range to 0sp and increase Evade check difficulty by 3.
-If the target is an ally then skip the Evade check.
+If the target is an allie then skip the Evade check.
 Evade: Magic
 Effect: Choose a target's ability and increase or decrease its existing Mana, Focus, and Stamina costs by 2 (min 1, max 7).|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Full Seal
+Magic-Offensive-Action
+Use: 10AP+10mna
+Range: 2sp
+Accuracy: Magic
+Effect: The target cannot use any abilities until the end of the battle.|
+
+MA2: Master's Command
+Magic-Support-Action
+Use: 10fcs+(1/turn)
+Range: Battlefield
+Evade: Skill
+Effect: The affected combatant is treated as an extension of yourself; you make actions through them by spending
+your AP and their resources (mana, stamina, focus) to execute actions.|
+
+MA3: Stroke of Brilliance
+Skill-Support-Action
+Effect: Abilities and actions are no longer limited by per-turn Use restraints.|

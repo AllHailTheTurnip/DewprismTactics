@@ -23,7 +23,7 @@ Abilities
 Hide
 Melee-Defensive-Reaction
 Trigger: A combatant's turn begins.
-Cost: 5Sta
+Use: 5Sta
 You may gain Stealth status and make a free movement action.
 
 Scout
@@ -39,7 +39,7 @@ Effect: Ignore difficult terrain.
 Coat with Poison
 Skill-Offensive-Action
 Use: 10AP+4fcs
-Range: Yourself or an ally on the battlefield.
+Range: Yourself or an allie on the battlefield.
 If the target's Primary weapon doesn't already have it, give it the attribute of Poison (1){SklPwr}.
 Solowork: Alternatively, you may use this ability again to increase the Poison attribute's Rank by 1.
 

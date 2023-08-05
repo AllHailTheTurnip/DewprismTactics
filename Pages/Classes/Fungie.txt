@@ -87,17 +87,17 @@ Use: 10AP+5fcs
 Solowork: Increase the range of this ability by 2sp.
 Range: 0sp
 Teamwork: In addition to the Effect, reduce the Stamina, Mana, and/or Focus cost by 3 (min 0).
-Effect: Choose an ally and reduce the AP cost of their next action by 5AP (minimum 0).|
+Effect: Choose an allie and reduce the AP cost of their next action by 5AP (minimum 0).|
 
 A7: Play While Waiting
 Skill-Support-Action
 Use: 10AP+7mna
 Range: {TL/15}
-Effect: Remove an ally from the battlefield. While away, they cannot make actions
+Effect: Remove an allie from the battlefield. While away, they cannot make actions
 or be targeted by any effects. Once their turn begins, they return to the battlefield at their
  original position.
 Luck: 15
-OnPass: The ally is granted advantage on their next (1) roll(s).|
+OnPass: The allie is granted advantage on their next (1) roll(s).|
 
 A8: Conjure See-Saw!
 Magic-Support-Action
@@ -112,6 +112,21 @@ Use: 15AP
 IfKO: Reduce amount of restored health by 50%.
 Effect: Restore 30{TL} health. Any disabled abilities are re-enabled. End your turn.|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Cordyceps Spores
+Skill-Offensive-Reaction
+Trigger: You take damage.
+Effect: Your attacker is gets the Infected 3 status.
+Infected status behaves like Doomed except when it kills the combatant, any allied combatants in their space also
+take the Infected 3 status.|
+
+MA2: Passive Growth
+Melee-Support-Passive
+Effect: At the beginning of your turn regain (1){MlePwr} health. Increase your max health by (1){MlePwr}.|
+
+MA3: Bad Trip
+Magic-Defensive-Reaction
+Trigger: You take damage.
+Luck: 10
+OnPass: Your attacker is inflicted with the Hallucinogen 3 status.
+ With this status, every time they make offensive action, they make a Luck 15 check, whereupon failure
+ you (the owner of this ability) get to choose who they targetArm instead.|

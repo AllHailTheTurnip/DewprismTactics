@@ -30,12 +30,12 @@ Skill: (Power: 4, Evasion: 8, Accuracy: +5)|
 Abilities
 Doctrine: Conjure Heavy Cannon
 Magic-Support-Action
-Cost: 7mna+(1/battle)
+Use: 7mna+(1/battle)
 Effect: Conjure a Heavy Cannon weapon into your space. The cannon is too heavy to personally relocate.
 Spend 5AP to man the cannon as your primary and secondary weapon; cannot fire the cannon unless manned.
 Cannot target combatants within the same space as it.
 Manning the cannon counts as having taken Low cover. You cannot leave the space until you've unmanned the cannon for 0AP.
-Heavy Cannon (Type: Skill, WC: SH, Cost: 10AP+5sta+3fcs, Rank: 8; Range: 3sp)|
+Heavy Cannon (Type: Skill, WC: SH, Use: 10AP+5sta+3fcs, Rank: 8; Range: 3sp)|
 
 A1: Polymorph!
 Magic-Offensive-Reaction
@@ -50,7 +50,7 @@ While as a frog, they may only make Movement-based actions.|
 
 A2: Levitating Platform
 Magic-Defensive-Action
-Cost: 3mna+(1/turn)
+Use: 3mna+(1/turn)
 Range: 1sp
 Effect: Conjure a Levitating Platform into the space of your choice.
 Levitating Platform: A platform large enough for three combatants.
@@ -59,7 +59,7 @@ It costs 3mna/turn keep move the platform or keep it from falling.|
 
 A3: Launch Item
 Skill-Offensive-Action
-Cost: 10AP+1fcs
+Use: 10AP+1fcs
 Choose an item from your inventory to use as ammunition.
 Range: 1sp or {WpnRng}
 Accuracy: Skill
@@ -79,14 +79,14 @@ Upon hitting the target, inflict (7){X's TL} damage to target.|
 
 A5: Pepper Shot
 Skill-Offensive-Action
-Cost: 5AP+2fcs
+Use: 5AP+2fcs
 Range: 3sp Cone AoE
 Accuracy: Skill
 Effect: Target takes (1+X){SklPwr/2} dmg, where X is equal to 3 minus how many spaces the attack traveled.|
 
 A6: Grape Shot
 Skill-Offensive-Action
-Cost: 15AP+5fcs
+Use: 15AP+5fcs
 Range: 3sp Cone AoE
 Evade: Skill
 Variable: Variable: X =5 divided by all targeted combatants (cannot target more than 5).
@@ -94,7 +94,7 @@ Dmg: (X){SklPwr}.|
 
 A7: Metal Slug
 Skill-Offensive-Action
-Cost: 10AP+3sta+2fcs+(1/turn)
+Use: 10AP+3sta+2fcs+(1/turn)
 Range: 3sp
 Solowork: Increase Range by 2sp.
 Accuracy: Skill
@@ -102,21 +102,37 @@ Effect: Inflict (4){SklPwr} to target. Inflict (1){SklPwr} to self.|
 
 A8: Barrage
 Skill-Offensive-Action
-Cost: 20AP
+Use: 20AP
 Teamwork: Adjust Use cost to 10AP+(1/turn).
 Effect: Make three Skill-based offensive actions; do not pay the AP costs. Once all attacks have been resolved,
 reduce the Rank of your primary weapon by 1.|
 
 A9: Improvised Explosive
 Skill-Offensive-Action
-Cost: 10AP+3fcs
+Use: 10AP+3fcs
 IfKO: Use as normal.
 Effect: Transform either your primary or secondary weapon into an IED. The IED has the same scores as the chosen weapon.
 IED: When dropped, place a 2-turn counter on it. At the end of your turn, reduce the counter by 1. When the counter
 reaches 0, the IED is destroyed and all combatants within 3sp make a Skill Evade check; whereupon failure they each
 take (9){SklPwr} dmg.|
 
+MA1: Anti-Material Round
+Skill-Offensive-Action
+Use: 10AP+7fcs+(1/2turn)
+Range: 3sp
+Accuracy: Skill
+Effect: Inflict (2){SklPwr} dmg. Disable one of the target's abilities.|
 
-MA1:|
-MA2:|
-MA3:|
+MA2: Dragon's Breath
+Skill-Offensive-Action
+Use: 10AP+7mna+(1/turn)
+Range: 1sp single-space AoE
+Evade: Skill
+Effect: Inflict (1){SklPwr} fire dmg. Inflict Burning (3){SklPwr}.|
+
+MA3: Grant Power
+Magic-Support-Action
+Use: 10AP+5mna+(1/turn)
+Range: 0sp AoE
+Effect: Choose one of your abilities. Allies in your space get a copy of your chosen ability to
+ use at will.|

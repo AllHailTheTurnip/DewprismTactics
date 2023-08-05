@@ -48,7 +48,7 @@ Effect: When making an unarmed attack, you may half your inflicted damage and re
 
 Horrifying
 Skill-Defensive-Action
-Cost: 5fcs
+Use: 5fcs
 Accuracy: Skill
 OnPass: Opponent returns to their previous space.
 

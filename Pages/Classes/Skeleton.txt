@@ -84,12 +84,12 @@ Effect: Increase your Critical Failure Threshold by 2.|
 A8: Reassemble
 Magic-Support-Action
 Teamwork: Allies in your space gain access to this ability.
-Cost: 5AP+3fcs+5mna
+Use: 5AP+3fcs+5mna
 Effect: Remove a negative status effect.|
 
 A9: Horrifying
 Skill-Defensive-Action
-Cost: 5fcs
+Use: 5fcs
 Range: 3sp
 Accuracy: Skill
 IfKO: Reduce Accuracy check by 3.

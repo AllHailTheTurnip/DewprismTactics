@@ -25,7 +25,7 @@ Skill: (Power: 6, Evasion: 12, Accuracy: +3)|
 Abilities
 Doctrine: Elemental Vortex
 Magic-Offensive-Action
-Cost: 10AP+5mna
+Use: 10AP+5mna
 Range: 1sp Cone AoE
 Accuracy: Magic
 Dmg: (3){MgcPwr}
@@ -33,7 +33,7 @@ Effect: Inflicts critical damage if damaged element is either Wind, Water, or Fi
 
 A1: Burning Bite
 Melee-Offensive-Action
-Cost: 10AP
+Use: 10AP
 Range: 0sp
 Accuracy: Melee
 Solowork: Increase Rank by 1.
@@ -41,20 +41,20 @@ Dmg: (1){MlePwr}, inflicts Burning 2|
 
 A2: Rush
 Melee-Movement-Action
-Cost: 10AP+5sta
+Use: 10AP+5sta
 Teamwork: Reduce cost by 3sta.
 Effect: Move up to 2sp in any direction, ignoring rough terrain and checks for gaps equal to 1sp.|
 
 A3: Nether Leap
 Magic-Movement-Action
-Cost: 5AP+3mna
+Use: 5AP+3mna
 Solowork: Reduce Cost by 3mna.
 Effect You are removed from the Battlefield and placed into an imaginary space called the Nether.
 You cannot do anything except spend an additional 5AP!+3mna (at any point) to reappear anywhere on the Battlefield.|
 
 A4: Howl
 Melee-Offensive-Action
-Cost: 10AP+3sta+1mna
+Use: 10AP+3sta+1mna
 IfKO: Increase Cost by 10AP.
 Range: 2sp cone AoE
 Evade: Magic
@@ -68,7 +68,7 @@ Effect: Enemy combatants cannot use supportive abilities within range of you.|
 
 A6: Devour Soul
 Magic-Offensive-Action
-Cost: 10AP+5mna
+Use: 10AP+5mna
 Range: 1sp
 Teamwork: Increases range by 1sp.
 Accuracy: Magic
@@ -76,14 +76,14 @@ Effect: Disable a combatant's ability (owner's choice) until end of battle.|
 
 A7: Shocking Bite
 Magic-Offensive-Action
-Cost: 10AP+5mna
+Use: 10AP+5mna
 Range: 0sp
 Accuracy: Magic
 Effect: Inflicts (1){MlePwr} damage and (2){MgcPwr} electric damage to the combatant. Other enemy combatants in the same space take (1){MgcPwr} electric damage.|
 
 A8: Storm
 Magic-Offensive-Action
-Cost: 15AP+3fcs+5mna
+Use: 15AP+3fcs+5mna
 Range: 3sp AoE Circle
 Effect: Targeted enemy combatants roll 1d20 as A.
 If A is 10 or greater, enemy combatant takes (1){MgcPwr} electric damage.
@@ -91,7 +91,7 @@ If A is also 17 or greater, enemy combatant takes Paralysis 1.|
 
 A9: Answer Master
 Melee-Supportive-Action
-Cost: 10AP
+Use: 10AP
 Range: Battlefield
 Effect: Grant another combatant a Master's Call token.
 Master's Call token: Spend 5AP to Destroy this token. The token's creator is summoned into your space.|

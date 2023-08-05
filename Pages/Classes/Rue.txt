@@ -45,8 +45,8 @@ A1: Carry Spirit
     Use: 5Mna
     IfKO: Increase Use cost by 7sta.
     Range: 0sp
-    If an ally had died since your last turn, you may create a Spirit token from a fragment of their spirit.
-    Spirit Token: While on the same space of a body that is over 0HP, for 5AP the token can be destroyed, releasing the spirit into the new body.|
+    If an allie has died since your last turn, you may create a Spirit token based on the fallen allie.
+    Spirit Token: While on the same space of a body that is over 0HP, you can destroy the Spirit Token and gain the fallen allie's abilities.|
 A2: Block
     Melee-Defense-Reaction
     Trigger: An enemy attacks you.
@@ -99,6 +99,16 @@ A9: Chain Attack
     OnCrit: Increase the attack's Rank by 1.|
 
 
-MA1: Inner Power|
-MA2: Path of Free Will|
-MA3:|
+MA1: Inner Power
+Magic-Offensive-Reaction
+Trigger: An allie is neutralized by an enemy combatant.
+Effect: The next attack against the offending enemy combatant automatically succeeds and inflicts an additional (5){MlePwr} dmg.|
+
+MA2: Path of Free Will
+Magic-Defensive-Passive
+Effect: You are immune to non-damage effects; only attacks that reduce your health can harm you.|
+
+MA3: Soul Bind
+Magic-Defensive-Reaction
+Trigger: Combat ends.
+Effect: Freely revive up to (1) of your fallen comrades.|

@@ -61,7 +61,7 @@ Effect: Move (1)sp in any direction; you are not affected by difficult terrain.|
 
 A3: Copy Spell
 Skill-Support-Reaction
-Cost: 5fcs
+Use: 5fcs
 Trigger: A combatant within {SklPwr/15}sp uses a Magic-type ability.
 Luck: 8
 OnPass: You gain the targeted spell as an ability, indexed after your tenth ability.
@@ -83,9 +83,9 @@ Effect: Target gains Flight until the end of their next turn.|
 
 A6: Gather Flock
 Magic-Support-Action
-Cost: 10AP+3mna
+Use: 10AP+3mna
 IfKO: Reduce Cost to 10AP.
-Range: Any ally within 1sp+{MgcPwr/15}.
+Range: Any allie within 1sp+{MgcPwr/15}.
 Variable: X =1
 Solowork: Increase X by 1.
 Effect: Choose X target to be the waypoint. Choose up to 1+{MgcPwr/10} allies to be subjects.
@@ -102,7 +102,7 @@ Effect: Create a copy of yourself. Your copy has your exact base Scores, Abiliti
 
 A8: Rocket Flap
 Melee-Support-Action
-Cost: 5sta
+Use: 5sta
 IfKO: Increase cost by 5sta.
 Effect: Move across up to 1+{MlePwr/10}sp through the air and into another ground space.|
 
@@ -110,6 +110,22 @@ A9: Slow Fall
 Melee-Support-Passive
 Effect: You do not take fall damage.|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Deafening Screech
+Skill-Offensive-Action
+Use: 10AP
+Range: 3sp
+Effect: Enemy combatants within range get the Deaf status for the rest of the battle.
+Deaf status: You cannot be effected or targeted by allie abilities.|
+
+MA2: Colorful Feathers
+Skill-Support-Action
+Use: 10AP
+Effect: Add an ability from your Sideboard to your current Ability list.|
+
+MA3: Bite Finger Off!
+Skill-Offensive-Action
+Use: 10AP+7fcs
+Range: (0)sp
+Accuracy: Skill+3
+Effect: Disable the target's Primary or Secondary weapon slot for the rest of the battle.
+Target gets Bleeding (2){SklPwr}.|

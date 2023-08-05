@@ -40,7 +40,7 @@ Trigger: You attack an enemy
 Use: 5fcs
 IfKO: Increase Use cost by 10AP.
 Teamwork: Increase the Critical Threshold of your allies' next attack by 1.
-Effect: Grant a free basic attack to an ally in your space.|
+Effect: Grant a free basic attack to an allie in your space.|
 
 A2:Shove
 Melee-Offensive-Action

@@ -67,7 +67,7 @@ unless the DM deems it impossible.|
 
 A4: Snarl
 Melee-Offensive-Action
-Cost: 5AP+3fcs
+Use: 5AP+3fcs
 IfKO: Increase Cost by 10AP.
 Range: 3sp
 Effect: Gain Aggro until your next turn begins.|

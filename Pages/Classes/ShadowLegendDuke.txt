@@ -109,18 +109,21 @@ Effect: The allie gets to make a free luck roll. Upon beating 8, they steal an u
 A9: Guess Next Move
 Skill-Support-Action
 Use: 3fcs+5AP
-Effect: Declare an enemy combatant and ally combatant (or yourself). The enemy gets disadvantage on any checks against them
+Effect: Declare an enemy combatant and allie combatant (or yourself). The enemy gets disadvantage on any checks against them
 until the start of your next turn.|
 
 MA1: Snag!
 Skill-Support-Reaction
 Trigger: Your health reaches 0
-Target: Any combatant that was, at any point, in the same space as you during combat.
-Effect: Choose an item from the target inventory and add it to yours or an ally's.|
+Target: Any combatant that was - at any point -  in the same space as you during combat.
+Effect: Choose an item from the target inventory and add it to yours or an allie's.|
 
 MA2: Study
 Skill-Support-Passive
 Effect: At the beginning of combat, learn an ability from each enemy combatant and add the abilities
 to your abilities list in addition to the ones you already have. This lasts until the end of combat.|
 
-MA3:|
+MA3: Shadow Clone Technique: Perfect Perspective
+Skill-Support-Action
+Use: 10fcs+(1/turn)
+Effect: Your next roll d20 naturally lands on 20.|

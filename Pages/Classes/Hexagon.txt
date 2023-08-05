@@ -92,6 +92,13 @@ Effect: Targeted combatant cannot leave your space until the beginning of your n
 
 MA1: Invincible
 Melee-Defensive-Passive
-Incoming damage is reduced to 0. Counts as a Neutralized combatant in regards to KO'd players.|
-MA2:|
-MA3:|
+Effect: Incoming damage is reduced to 0. You now count as a Neutralized combatant.|
+
+MA2: Reactor Core
+Magic-Support-Action
+Effect: At the beginning of each turn your Mana, Stamina, and Focus are restored to full.|
+
+MA3: Supercharge
+Skill-Support-Passive
+Use: 7mna+5sta+7fcs
+Effect: Increase the Rank of your next action by 2.|

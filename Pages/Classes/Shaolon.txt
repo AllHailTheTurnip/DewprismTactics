@@ -27,7 +27,7 @@ Skill: (Power: 6, Evasion: 10, Accuracy: +3)|
 Abilities
 Doctrine: Eviscerate
 Skill-Offensive-Action
-Cost: 10AP+3sta
+Use: 10AP+3sta
 Range: 0sp
 Accuracy: Skill
 Teamwork: Increase critical threshold by {TmWrk}.
@@ -45,7 +45,7 @@ Raptor Claws (Type: Skill, WC: L, Rank: 2, Use: 5AP+(2/turn); inflicts Bleeding 
 
 A3: Stride
 Melee-Movement-Action
-Cost: 1/turn
+Use: 1/turn
 Effect: Move one space in any direction.|
 
 A4: Clever Idea
@@ -58,20 +58,20 @@ Effect: Relocate an allie to a space adjacent to your attacker's space.|
 
 A5: Pack Strategy
 Skill-Support-Action
-Cost: 5fcs+(1/turn)
-IfKO: Choose an ally within 1sp of you to enter your space for free.
+Use: 5fcs+(1/turn)
+IfKO: Choose an allie within 1sp of you to enter your space for free.
 Solowork: Reduce Use cost by 2fcs.
 Effect: You and allies sharing your space gain advantage on your next non-Luck checks.|
 
 A6: Purge the Weak
 Skill-Offensive-Action
-Cost: 5AP
+Use: 5AP
 Range: 0sp
 Effect: If an opponent's health is down to 10% of their max, their health is reduced to 0.|
 
 A7: Predatory Gaze
 Skill-Offensive-Action
-Cost: 10AP+5fcs
+Use: 10AP+5fcs
 Range: 1sp
 Evade: Skill
 Solowork: Increase Evade check difficulty by 2.

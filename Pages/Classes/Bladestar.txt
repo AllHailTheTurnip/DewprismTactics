@@ -36,11 +36,12 @@ Skill: (Power: 4, Evasion: 8, Accuracy: +3)|
 Abilities
 Doctrine: Invent Weapon
 Skill-Support-Action
-Cost: 2Sta+3fcs+20AP!
-Effect: Any weapons are moved to inventory.
+Use: 2Sta+3fcs+20AP!
+Effect: Create a weapon with the following statistics:
 Choose one type: Melee, Magic, Skill.
-Choose an Attribute any attribute from the primary Attribute list.
-Create a Medium-weight weapon of your chosen type and chosen Attribute; add it into your free hand.|
+Choose its element to be either fire, water, or wind.
+Choose to grant it one of the abilities: Honed 3, Artisan 2, Ranged 1, Throwable 2, Charmed 3, Compressed.
+Create a Medium-weight weapon of your chosen type; add it into your free hand.|
 
 A1: Upgrade Damage
 Skill-Support-Action
@@ -69,7 +70,7 @@ Push (2), Honed (3), or Artisan (2).|
 
 A5: Reconfigure Element
 Magic-Support-Action
-Cost: 5mgc+10AP
+Use: 5mgc+10AP
 Teamwork: You may also change it to noble.
 IfKO: You may only change between fire, water, and wind.
 Effect: Choose a weapon and change its element (except noble) to one of your choosing.|
@@ -101,10 +102,28 @@ You control the creature. It spawns in your space.
 Choose a special ability for it...
 A. Flight (The animal can move in any direction, including vertical)
 B. Night Eyes (The animal treats lighting conditions as regular)
-C. Gills (The animal can breathe under water)
+C. Gills (The animal can breathe underwater)
 D. Paws (The animal's movement cost is half yours).
 The animal appears in the same space as the one you started in, and takes its turns after yours.|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Sudden Strike
+Skill-Offensive-Action
+Use: 10AP+5fcs+5sta
+Range: 3sp
+Effect: Inflict (3){SklPwr} dmg and target gets Prone. End your turn.|
+
+MA2: Master's Mark
+Skill-Support-Action
+Use: 10fcs
+Range: 0sp
+Effect: Choose a weapon within range and grant it Honed 6, Artisan 6, and Oversized 2.|
+
+MA3: Invent Weapon II
+Skill-Support-Action
+Use: 10AP
+Effect: Create a weapon with the following statistics:
+Choose one type: Melee, Magic, Skill.
+Choose its element to be either fire, water, wind, electric, metal, light, or dark.
+Choose to grant it two of the abilities: Honed 6, Artisan 3, Ranged 2, Throwable 5, Charmed 6, Compressed.
+Choose its size (which will determine cost): Very Light, Light, Medium, Heavy, or Very Heavy.
+Add the created weapon to your free hand.|

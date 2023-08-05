@@ -92,7 +92,7 @@ Trigger: You are attacked
 Use: 10AP
 Range: 0sp
 Accuracy: Melee
-OnPass: Choose a positive status effect to undo.|
+OnPass: Inflict (3){MlePwr} dmg. Choose a positive status effect to undo.|
 
 A8:Attract Bees
 Melee-Defensive-Action
@@ -108,6 +108,15 @@ Use: 20AP
 Create three consumable Fruits and put them your inventory.
 Fruit: On consumption, restore (45){TL} Health.|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Sacred Lotus
+Melee-Support-Passive
+Effect: Health restored to a combatant (including yourself) by any of your abilities is increased by 100%.|
+
+MA2: Grow!
+Melee-Defensive-Action
+Use: 20AP+10sta
+Effect: Increase your Max Health by 50%. Restore your Health to full.|
+
+MA3: Shared Beauty
+Magic-Support-Passive
+Effect: Your abilities that only target you can now target allies.|

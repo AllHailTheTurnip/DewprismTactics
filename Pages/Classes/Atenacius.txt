@@ -30,7 +30,7 @@ If your possessor is knocked-out or dies, or if your Mana is drained passed 5, y
 
 A1: Energy Scythes
 Magic-Offensive-Action
-Cost: 10AP+5mna
+Use: 10AP+5mna
 Solowork: Increase range by 1sp.
 Teamwork: Increase Accuracy check by +2.
 Range: 1sp
@@ -40,14 +40,14 @@ Dmg: (2){MgcPwr}|
 
 A2: Energy Missiles
 Magic-Offensive-Action
-Cost: 5AP+2mna
+Use: 5AP+2mna
 Range: 3sp
 Accuracy: Magic+3
 Dmg: (1){MgcPwr}|
 
 A3: Zone of Endurance
 Magic-Defensive-Action
-Cost: 10AP+3mna+3fcs+(1/turn)
+Use: 10AP+3mna+3fcs+(1/turn)
 IfKO: Increase cost by 10AP.
 Range: 0sp circle AoE
 Luck: 15.
@@ -60,7 +60,7 @@ IfKO: Reduce recovered amount of Mana, Stamina and Focus by 2.|
 
 A5: Conjure Marble Wall
 Magic-Support-Action
-Cost: 5AP+5mna+(3/turn)
+Use: 5AP+5mna+(3/turn)
 Range: 2sp
 Effect: Create a Marble Wall prop along the border between two connected spaces.
 Combatants cannot move between spaces blocked by a Marble Wall prop.
@@ -68,7 +68,7 @@ Each Marble Wall possesses 15{PL} Health and is Neutral typed.|
 
 A6: Pull into Microcosm
 Magic-Support-Action
-Cost: 10AP+7mna
+Use: 10AP+7mna
 Teamwork: Adjust Cost by -3mna and +3fcs.
 Range: 0sp
 Evade: Magic
@@ -87,7 +87,7 @@ Book of Cosmos (1+{PL/10} per battle, you may increase the Rank of a Magic-type 
 
 A9: Alter Spell
 Magic-Support-Action
-Cost: 20AP+7mna
+Use: 20AP+7mna
 Solowork: You may choose a third Magic-type ability to target.
 Effect: Choose two Magic-type abilities to target.
 Choose a sentence from each of the targeted abilities' Effect segments to swap with each other.

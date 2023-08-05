@@ -59,9 +59,9 @@ A4: Bloody Feast
 A5: Tactical Retreat
     Melee-Supportive-Reaction
     Use: 3sta
-    Trigger: Your or an ally takes damage.
+    Trigger: Your or an allie takes damage.
     Range: {TL/2}sp instant
-    Make a free movement action and take a nearby ally within range with you by your side.|
+    Make a free movement action and take a nearby allie within range with you by your side.|
 A6: Astounding Speed
     Melee-Support-Reaction
     Trigger: You make a basic Movement action
@@ -69,12 +69,12 @@ A6: Astounding Speed
     You move an additional space.|
 A7: Sharpen Edge
     Skill-Support-Action
-    Cost: 31-{TL}AP
+    Use: 31-{TL}AP
     Teamwork: Increase your Crit rank by 1.
     Increase your Crit threshold by 1.|
 A8: Fearsome Roar
     Skill-Offensive-Action
-    Cost: 10AP
+    Use: 10AP
     Range: 3sp
     Accuracy: Skill
     OnPass: Reduce the target's Magic evasion by 2.
@@ -83,3 +83,20 @@ A9: Assassin's Blade
     Magic-Support-Item
     Slot: Primary Weapon
     Assassin's Blade (Skill, WC: VL, Rank: 1 Metal, Artisan +2)|
+
+MA1: Superior Speed
+Skill-Offensive-Action
+Use: 10sta
+Effect: Reduce the cost of all actions for the duration of your turn by 10AP (min 5). |
+
+MA2: Gore
+Skill-Offensive-Action
+Use: 10AP+5sta+(3/battle)
+Accuracy: Skill
+Range: 2sp
+Effect: Inflict Bleeding (5){SklPwr}.|
+
+MA3: Superior Vitality
+Skill-Support-Passive
+Use: (3/battle)
+Effect: Your next used defensive or supportive ability has no Use cost.|

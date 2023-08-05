@@ -120,8 +120,16 @@ Trigger: You end your turn.
 Use: 3sta
 Effect: Make a free movement action.|
 
-MA1: Control
+MA1: Dominant
 Magic-Support-Passive
-Effect: You get a bonus 10AP to put towards controlling Drone-intelligence combatants in your space.|
-MA2:|
-MA3:|
+Effect: During your turn you gain 10AP that can be used through any allie combatants in your space.|
+
+MA2: Amaterasu
+Magic-Offensive-Passive
+Effect: Any Burning statuses inflicted by this user cannot be reduced in rank or extinguished.|
+
+MA3: Ugly Slap
+Melee-Offensive-Action
+Use: 10AP+(1/2turn)
+Range: 0sp
+Effect: Inflict (3){MlePwr} dmg and subtract 10AP from the target's next turn.|

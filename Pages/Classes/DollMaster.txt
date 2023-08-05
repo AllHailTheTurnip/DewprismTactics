@@ -43,7 +43,7 @@ A1: Guided Strike
 Skill-Support-Action
 Use: 5AP+3fcs+(1/turn)
 Range: 3sp
-Effect: Choose an ally within range. Increase the Critical threshold for all
+Effect: Choose an allie within range. Increase the Critical threshold for all
 checks made during their next action by (4).|
 
 A2: Predict Guard
@@ -61,7 +61,7 @@ Use: 7fcs+(1/turn)
 Range: 1sp
 Variable: X =5AP.
 Solowork: Increase X by 3sta+3mna+3fcs.
-Effect: Target an ally within range. Grant an additional X to their next
+Effect: Target an allie within range. Grant an additional X to their next
 turn.|
 
 A4: Mind Control

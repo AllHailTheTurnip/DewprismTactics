@@ -103,7 +103,7 @@ Effect: You may give an item to an ally.|
 
 A9: Uppercut
 Skill-Offensive-Action
-Cost: 10AP
+Use: 10AP
 Range: 0sp
 Accuracy: Skill
 Dmg: (2){SklPwr} neutral.

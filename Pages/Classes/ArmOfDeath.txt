@@ -103,9 +103,24 @@ Effect: The targeted enemy is marked with Wrath.
 Wrath mark: You may only move towards or make actions against the creator of this mark.
 If you succeed in afflicting a negative status affect or inflicting damage, this mark is removed.|
 
-MA1: Undefeatable|
-MA2: |
-MA3: |
+MA1: Invulnerable
+Melee-Defensive-Action
+Use: (1/battle)
+Effect: For the next 2 turns all taken damage is reduced by (5) ranks.|
+
+MA2: Provoke to Unhinged Rage
+Skill-Offensive-Reaction
+Trigger: You kill a combatant.
+Range: 3sp
+Effect: Afflict a target of your choice with the Unhinged Rage (5) status.
+Combats with the Unhinged Rage X status must inflict X ranks of damage against you (the afflicter)
+each turn or else they self-inflict (3){SklDmg}.|
+
+MA3: Deathly Grip II
+Melee-Support-Passive
+Effect: Increase the Range attribute of all your abilities by 1sp.
+Increase the Accuracy check (where applicable) of all affected abilities
+by 3.|
 
 
 

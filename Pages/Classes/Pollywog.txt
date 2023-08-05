@@ -49,14 +49,14 @@ A2: Quick Slap
     Make an unarmed water-element attack.|
 A3: Chomp
     Melee-Offensive-Action
-    Cost: 10AP
+    Use: 10AP
     Range: 0sp
     Variable: X =neutral.
     Solowork: remove X.
     Enemy takes (1){MlePwr} X damage.|
 A4: Lay Egg
     Skill-Support-Action
-    Cost: 5Fcs+(1/battle)
+    Use: 5Fcs+(1/battle)
     IfKO: Increase Cost by 20AP.
     Place an Egg prop at your feet.
     Upon your death, the egg hatches and you respawn at the Puddle - all your Vital scores and status effects
@@ -69,21 +69,41 @@ A5: Water Gun
     OnPass: Target takes (3){SklPwr} water dmg.|
 A6: Follow
     Melee-Support-Reaction
-    Trigger: An ally makes a movement action.
-    Cost: 2Sta
+    Trigger: An allie makes a movement action.
+    Use: 2Sta
     Make a free movement action to follow in their direction.|
 A7: Hide
     Melee-Defensive-Reaction
     Trigger: A combatant's turn begins.
-    Cost: 5Sta
+    Use: 5Sta
     You may gain Stealth status and make a free movement action.|
 A8: Nurture
     Magic-Support-Action
-    Cost: 10AP+3sta
+    Use: 10AP+3sta
     Range: 0sp
     Teamwork: Rank is equal allies in space (max 3).
     Restore (0){MgcPwr} Health to an ally.|
 A9: Regroup
     Magic-Support-Action
-    Cost: 5Mna
-    Choose an ally to be given a Regroup token. The user of the token may destroy the token and teleport beside the token's donor.|
+    Use: 5Mna
+    Choose an allie to be given a Regroup token. The user of the token may destroy the token and teleport beside the token's donor.|
+
+MA1: Gigantism
+Melee-Support-Passive
+Effect: You now as tall as (1)sp and are considered large enough to climb for 10AP.
+Increase your Melee power by (1){50}%.
+All range variables for all abilities (including movement) are increased by (1)sp.|
+
+MA2: Rapid Adaptation
+Skill-Defensive-Reaction
+Trigger: You take damage.
+Effect: You are now immune to damage that shares the element of the attack (this includes neutral and noble).|
+
+MA3: Abiogenesis
+Melee-Support-Passive
+Effect: At the beginning of combat create a Puddle prop in your starting space.
+At the beginning of each turn make a Luck 15 check, whereupon success a new Pollywog combatant is created at the Puddle prop.
+The Pollywog combatant is the same level as Puddle prop's creator, but possesses only the Pollywog class and as such
+will have Scores, Stats, and Abilities reflecting it.
+The new Pollywog combatant rolls for initiative and is under the control of the Puddle prop's creator.|
+

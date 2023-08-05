@@ -64,7 +64,7 @@ Effect: Target and make a basic attack action with an equipped non-range weapon 
 A3: Firing Line
 Skill-Support-Action
 Use: 5sta+3fcs+(1/2turns).
-Effect: Each ally within ({SklPwr}/15)sp gets 10+{CL}AP for their next turn.|
+Effect: Each allie within ({SklPwr}/15)sp gets 10+{CL}AP for their next turn.|
 
 A4: Ignoble
 Magic-Support-Passive
@@ -103,6 +103,17 @@ Use: 10AP
 Luck: 15
 Remove any status effects that target your Movement.|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Carapace
+Melee-Defensive-Passive
+Effect: You are immune to damage that is neither fire, water, or wind.|
+
+MA2: Super Strength
+Melee-Support-Passive
+Effect: If your ability's Range is 0 increase its Rank by 3.|
+
+MA3: Swarm Tactics
+Skill-Support-Reaction
+Trigger: You target an enemy.
+Use: 10fcs
+Range: (0)sp
+Effect: Allies in your space make a free action that costs 10AP or less against the same target as you.|

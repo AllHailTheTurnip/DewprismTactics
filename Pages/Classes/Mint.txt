@@ -87,9 +87,20 @@ A9: Ward Danger
     Solowork: Increase range by 1sp.
     Range: 0sp
     Teamwork: Can simultaneously target every allie in range.
-    Create a Ward marker and grant it to yourself or an ally within range (max 1/combatant).
+    Create a Ward marker and grant it to yourself or an allie within range (max 1/combatant).
     Ward marker: while marked, +5 to {MgcEva}.|
 
-MA1: World Domination|
-MA2:|
-MA3:|
+MA1: World Domination, Baby!
+Magic-Support-Action
+Use: (3/battle)
+Effect: Restore your Mana to full. You gain an additional 10AP for this turn.|
+
+MA2: Cosmos
+Magic-Support-Action
+Use: 7mna
+Effect: Your next Magic-type action increases its range to Battlefield AoE.|
+
+MA3: Hyper
+Magic-Support-Action
+Use: 5mna
+Effect: Your next Magic-type action increases its Rank by 5.|

@@ -101,6 +101,27 @@ Solowork: Nullify X.
 Variable: X =If you have aggro...
 Effect: X, enemies within range will ignore their Danger threshold.|
 
-MA1: STAAAAAAAAAR!|
-MA2:|
-MA3:|
+MA1: STAAAAAAAAAR!
+Melee-Offensive-Action
+Use: 10AP+10sta
+Effect: All cover and props on the battlefield are destroyed. The combatant takes (8){MlePwr} dmg.
+Range: Battlefield
+Accuracy: Melee
+Effect: Inflict (8){MlePwr} dmg to the target.
+Range: Battlefield AoE
+Evade: Melee
+Effect: Target is Prone.|
+
+MA2: Shooting Star II
+Melee-Offensive-Action
+Use: 10AP
+Range: Battlefield
+Teamwork: Increase the rank of Critical damage for this attack by 2.
+Accuracy: Skill+3
+Evade: Melee
+OnHit: Inflict (6){MlePwr} damage.|
+
+MA3: Aura of Hope
+Magic-Defensive-Passive
+Range: (1)sp AoE
+Effect: Allied combatant in your space gain +3 to any Luck check made.|

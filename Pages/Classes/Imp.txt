@@ -116,6 +116,22 @@ Range: {TL/5}
 Luck: 12
 OnPass: Target is jinxed. All their Luck checks have disadvantage.|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Jinx! II
+Magic-Offense-Action
+Use: 10AP+5mna
+Range: {TL/4}
+Luck: 8
+OnPass: Target is jinxed II. All their Luck automatically fail.|
+
+MA2: Flash Damage
+Magic-Offensive-Action
+Use: 5mna
+Effect: If your next attack-type check naturally rolls 15 or higher, the attack inflicts Prone.|
+
+MA3: Mass Illusion
+Magic-Offensive-Reaction
+Trigger: You are about to take damage or have a status afflicted against you.
+Use: 3mna
+Luck: 10
+OnPass: The attack misses. You automatically teleport to another space on the battlefield.|
+

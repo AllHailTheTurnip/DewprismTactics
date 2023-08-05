@@ -102,8 +102,19 @@ Skill-Offensive-Passive
 Effect: When making a Movement action, you may pay its AP cost with 3fcs.|
 // Replace AP cost with focus cost.
 
-MA1: Opened Eyes|
-MA2: Final Flash|
+MA1: Opened Eyes
+Skill-Support-Passive
+Effect:
+Increase your Skill-type actions by 3 ranks.
+Skill-type abilities no longer have use-per-turn costs.|
+
+MA2: Final Flash
+Skill-Support-Action
+Use: 10fcs
+Range: 4sp
+Accuracy: Skill
+Effect: Inflict (10){SklDmg} to a combatant. You are removed from the battle.|
+
 MA3: Wellspring of Thought
 Skill-Support-Action
-Effect: You have unlimited Focus.|
+Effect: You have unlimited Focus\.|

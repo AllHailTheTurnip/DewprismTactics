@@ -27,20 +27,20 @@ Skill: (Power: 3, Evasion: 11, Accuracy: 0)|
 Abilities
 Doctrine: Bull Rush
 Melee-Offensive-Action
-Cost: 10AP+7sta
+Use: 10AP+7sta
 IfKO: You instead target a combatant in your space and inflict (2){MlePwr} damage.
 Effect: Move 2sp in any available direction. Any enemy combatants in any of the spaces you entered (or left) take (2){MlePwr} damage.|
 
 A1: Roar!
 Melee-Offensive-Action
-Cost: 10AP+3sta+3fcs
+Use: 10AP+3sta+3fcs
 Range: 2sp Cone AoE
 Evade: Melee
 OnHit: Target combatant reduces their MlePwr by 3 (min 1) until the end of battle.|
 
 A2: Impale
 Melee-Offensive-Action
-Cost: 10AP+3sta
+Use: 10AP+3sta
 Teamwork: Set cost to 10AP+(1/turn).
 Range: 0sp
 Accuracy: Melee
@@ -50,21 +50,21 @@ A3: Counter Attack
 Melee-Offensive-Reaction
 Trigger: An enemy combatant resolves an attack against you.
 Solowork: Gain advantage on the proceeding Luck check.
-Cost: 5sta
+Use: 5sta
 Luck: 10
 OnPass: Make a free unarmed attack action against the attacker.|
 
 A4: Group Rush
 Skill-Offensive-Reaction
 Trigger: You declare an attack action.
-Cost: 5AP+3fcs+(1/turn)
+Use: 5AP+3fcs+(1/turn)
 Range: 0sp
 IfKO: Use as normal but choose only one allied combatant in your space instead.
 Effect: Allied combatants in your space make a Luck 15 check, whereupon success they each make a free attack action to attack the same combatant as you.|
 
 A5: Meteor
 Magic-Offensive-Action
-Cost: 20AP+5mna
+Use: 20AP+5mna
 Range: 3sp
 Teamwork: Increase range to Battlefield.
 Effect: Choose a target space within range. Every combatant within that space makes a Magic evade check.
@@ -72,14 +72,14 @@ Upon failure, target combatant(s) takes (5){MgcPwr} fire damage.|
 
 A6: Maelstrom
 Magic-Offensive-Action
-Cost: 10AP+5mna
+Use: 10AP+5mna
 Range: 3sp AoE
 Evade: Magic
 Effect: Any combatants that failed the check move 1sp close to you.|
 
 A7: Flare
 Magic-Offensive-Action
-Cost: 10AP+7mna
+Use: 10AP+7mna
 Range: 2sp
 Accuracy: Magic
 Effect: Target takes Burning 25%|
@@ -91,7 +91,7 @@ Solowork: You are also immune to Paralysis.|
 
 A9: Obliterate
 Melee-Offensive-Action
-Cost: 10AP+7sta+(1/battle)
+Use: 10AP+7sta+(1/battle)
 Range: 1sp
 Accuracy: Melee
 Evade: Melee

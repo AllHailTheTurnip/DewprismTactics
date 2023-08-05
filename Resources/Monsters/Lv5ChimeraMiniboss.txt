@@ -41,7 +41,7 @@ Acrobatic: 3|
 Arts: 0|
 
 Equipment
-PrimaryWeapon: Red Scythe (Type: Skill, WC: 3, Cost: 10AP, Rank: 3, Wt: 1u; Range 1)|
+PrimaryWeapon: Red Scythe (Type: Skill, WC: 3, Use: 10AP, Rank: 3, Wt: 1u; Range 1)|
 SecondaryWeapon:|
 Tools:|
 Consumables:|

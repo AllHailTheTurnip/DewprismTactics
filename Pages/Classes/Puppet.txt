@@ -87,21 +87,32 @@ A8: Conjure Controller
 Magic-Support-Action
 Use: 5AP+3mna
 Range: 0sp
-Effect: Create a Controller item and give it to an ally within range. You are regarded as the Controller's puppet.
+Effect: Create a Controller item and give it to an allie within range. You are regarded as the Controller's puppet.
 Controller: While equipped, treat the puppet as an extension of yourself; any actions you make, you may have the
 puppet perform instead.|
 
 A9: Reassemble
 Skill-Support-Passive
 Range: 0sp
-Effect: While KO'd, an ally within range may spend 10AP to revive you at 1HP.
-While dead, an ally within range may spend 10AP+3fcs to revive you at 1HP.
+Effect: While KO'd, an allie within range may spend 10AP to revive you at 1HP.
+While dead, an allie within range may spend 10AP+3fcs to revive you at 1HP.
 Note: If you are dead by the end of combat, the ability cannot be used.|
 
 MA1: Full Alert
 Skill-Defense-Reaction
-Range: CL/5
+Range: TL/5
 Trigger: An enemy combatant makes a movement action within range.
 Effect: Make a free action (ability or basic) against the intruding combatant.|
-MA2:|
-MA3:|
+
+MA2: Puppet Master
+Magic-Support-Action
+Use: 10AP+5mna+(3/battle)
+Range: Battlefield
+Effect: When a combatant dies it is resurrected with (5){MgcPwr} Health under the control
+of this ability's user.
+If more tha one user has the Puppet Master ability, the fallen combatant is put under control of the user
+who most recently took their turn.|
+
+MA3: Nonliving Matter
+Melee-Defensive-Passive
+Effect: You are immune to elemental attacks. Neutral damage is halved.|
