@@ -101,6 +101,22 @@ Trigger: Your health is reduced to 1{MlePwr} or less.
 Use: 5sta
 Make a free Movement action, but you can only move in the opposite direction of your attacker.|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Plunder
+Skill-Offensive-Action
+Use: 10AP+5sta+3fcs
+Range: 0sp
+Accuracy: Melee +3
+Effect: Inflict (3){MlwPwr} dmg. Steal one item from your target's inventory and add it to your own.|
+
+MA2: Vanish
+Skill-Support-Action
+Use: 10fcs
+Effect: All accuracy checks made against you automatically fail and all Evade you make checks automatically succeed until the start of your next turn.|
+
+MA3: Smokescreen
+Skill-Support-Action
+Use: 5AP+5sta
+Range: 1sp
+Effect: Create a Smokescreen prop within range. The Smokescreen prop covers up to 3 adjacent spaces.
+Smokescreen prop: Enemy combatants within this prop's space get -6 for any Accuracy checks they make in this space.
+In addition, Evade checks get +6 to their difficulty. This prop vanishes 3 turns after it was created.|

@@ -96,6 +96,25 @@ Range: Battlefield
 Effect: Grant another combatant a Master's Call token.
 Master's Call token: Spend 5AP to Destroy this token. The token's creator is summoned into your space.|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Inferno
+Magic-Offensive-Action
+Use: 10AP+10mna
+Range: 3sp AoE circle
+Accuracy: Magic +3
+Effect: Hit enemies take (5){MgcPwr} dmg and take Burning 5.
+Spaces within range become scorched; enemies that enter a scorched space take Burning 1.|
+
+MA2: Aether Shroud
+Magic-Defensive-Action
+Use: 12mna+(3/battle)
+Effect: Grant yourself the Aether Shroud status until the end of combat.
+Aether Shroud status: Increase your Evasion scores by 3.
+You become immune to negative status effects afflicted by combatants.
+Successful enemy melee-type attacks counter with (2){MgcPwr} dmg to the attacker.|
+
+MA3: Archfiend's Curse
+Melee-Support-Action
+Use: 10AP+7sta+7mna
+Effect: Grant yourself the Archfiend status for the next (3) turns.
+Archfiend status: If any of your attack-type accuracy checks roll a natural 20,
+the attack automatically hits and the targeted combatant's health is reduced to 0.|

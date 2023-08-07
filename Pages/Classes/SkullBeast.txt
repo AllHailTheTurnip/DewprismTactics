@@ -108,5 +108,5 @@ MA2: Throw
 MA3: Merciless Chase
     Melee-Offensive-Reaction
     Trigger: Your health reaches 0.
-    Effect: You are immune to being knocked-out. Movement actions cost 5AP. You are immune to non-critical damage.|
+    Effect: You become immune to being knocked-out. Movement actions let you move up to (2) spaces at once. You are immune to non-critical damage.|
 

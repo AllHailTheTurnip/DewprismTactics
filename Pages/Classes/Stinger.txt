@@ -93,3 +93,23 @@ Skill-Support-Action
 Use: 5AP
 Range: Combatant in same space.
 Removes Bleed|
+
+MA1: Autoreaction
+Skill-Support-Action
+Use: 5fcs
+Effect: Bypass an ability's trigger (freely decide whatever the trigger might've been) and invoke the ability for free.|
+
+MA2: Shrapnel Bomb
+Skill-Offensive-Action
+Use: 10AP+10fcs
+Range: 1sp AoE circle
+Dmg: (2){SklPwr} dmg.
+Range: 2sp AoE circle
+Evade: Skill
+Dmg: (3){SklPwr} dmg|
+
+MA3: Grand Rapier
+Skill-Offensive-Item
+Slot: Primary
+Grand Rapier (Type: Skill, WC: VL, Use: (4/turn), Rank: 1;
+Increase this weapon's Rank by 1 for every successful accuracy check made with it until the end of the turn.)|

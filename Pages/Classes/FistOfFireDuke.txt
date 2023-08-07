@@ -112,7 +112,8 @@ OnPass: Target becomes Prone.|
 
 MA1: Full Hold Back
 Melee-Defensive-Action
-Effect: Target in adjacent space of your choice cannot leave the space until
+Use: 5AP+7sta
+Effect: Targets in adjacent space of your choice cannot leave the space until
 the end of your next turn.|
 
 MA2: Rush!
@@ -121,5 +122,5 @@ Effect: Reduce the stamina cost of your abilities to 0.|
 
 MA3: Pursue
 Melee-Support-Passive
-Use: 2/turn
+Use: 4/turn
 Effect: Make a free Movement action.|
