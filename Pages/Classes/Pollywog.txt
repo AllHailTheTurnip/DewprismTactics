@@ -65,7 +65,7 @@ A5: Water Gun
     Skill-Offensive-Action
     Cost 10AP + 3Fcs
     Range: 1sp
-    Accuracy: Skl
+    Accuracy: Skill
     OnPass: Target takes (3){SklPwr} water dmg.|
 A6: Follow
     Melee-Support-Reaction
