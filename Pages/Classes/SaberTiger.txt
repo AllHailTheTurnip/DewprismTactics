@@ -59,7 +59,7 @@ A4: Bloody Feast
 A5: Tactical Retreat
     Melee-Supportive-Reaction
     Use: 3sta
-    Trigger: Your or an allie takes damage.
+    Trigger: You or an allie takes damage.
     Range: {TL/2}sp instant
     Make a free movement action and take a nearby allie within range with you by your side.|
 A6: Astounding Speed
