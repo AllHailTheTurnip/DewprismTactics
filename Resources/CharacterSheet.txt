@@ -17,16 +17,12 @@ Scores
 Initiative:
 Element:
 Carry:
-                1   2   3   4   5   6   7   8
-Melee Damage
-Magic Damage
-Skill Damage
-
 
 Stats
-Melee (Power: , Evasion: , Accuracy: )
-Magic (Power: , Evasion: , Accuracy: )
-Skill (Power: , Evasion: , Accuracy: )
+                        1   2   3   4   5   6   7   8
+Melee Eva:  Acc:    Pwr:
+Magic Eva:  Acc:    Pwr:
+Skill Eva:  Acc:    Pwr:
 
 Talents
 Craft	 :
