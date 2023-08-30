@@ -95,6 +95,22 @@ Accuracy: Skill
 IfKO: Reduce Accuracy check by 3.
 OnPass: Opponent returns to their previous space.|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Lich Resurgence
+Magic-Defensive-Action
+Use: 10AP + 10mna
+Range: 2sp AoE
+Effect: The user gains the Lich status for (3) turns. While possessing the Lich status, the user can lose health but
+cannot die, no matter how low their health goes.
+For (3) turns enemies within range are pushed away and out of range.|
+
+MA2: Touch of Undeath
+Magic-Support-Action
+Use: 10AP+12mna
+Range: 0sp
+Effect: The targeted combatant becomes immortal, but now counts as a neutralized combatant.|
+
+MA3: Oblivion's Grasp
+Magic-Offensive-Action
+Use: 15AP+12mna
+Range: 3sp AoE
+Effect: All enemies in range gain the Doomed 3 status.|

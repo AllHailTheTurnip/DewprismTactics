@@ -101,6 +101,24 @@ Use: 3mna+(X/turn)
 IfKO: Increase Use cost by 6mna.
 Effect: Increase your Skill Accuracy checks by 1.|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Stampede
+Melee-Offensive-Action
+Use: 20AP + 15sta
+Range: Battlefield AoE
+Accuracy: Melee
+Effect: Affected combatant is pushed to the edge of the battlefield away from the user and takes (6){MlePwr} electric damage.|
+
+MA2: Shadowmeld
+Magic-Support-Action
+Use: 10AP+10mna
+Effect: User turns into a magical shadow that moves abodily.
+The shadow has no depth and can squeeze through any imperfectly sealed surface.
+The shadow cannot be targeted by combatants and likewise cannot target other combatants.
+At the beginning of the user's next turn they may pay an additional 5mna to persist this effect; otherwise they return to normal.|
+
+MA3: Fury
+Magic-Offensive-Action
+Use: 25AP + 12mna
+Range: Battlefield AoE
+Evade: Magic
+Effect: Inflicts (5){MgcPwr} damage. User increases the rank of all their Magic-type abilities and equipment by 1.|

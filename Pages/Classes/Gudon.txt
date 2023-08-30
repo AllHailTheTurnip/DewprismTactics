@@ -66,7 +66,7 @@ Effect: X. Increase your MleEva by 5+{MlePwr} until your next action.|
 A4:Regenerate
 Magic-Support-Passive
 IfKO: Use as normal.
-Use: 7mna+5AP
+Use: 5AP+7mna
 Effect: Choose a disabled ability/action and re-enable it.|
 
 A5:Heavy Sweep
@@ -79,13 +79,13 @@ OnHit: Inflict Primary weapon damage. On Critical, target becomes Prone.|
 
 A6:Shed Scales
 Melee-Support-Action
-Use: 1/2turns.
+Use: (1/2turns)
 Effect: Reduce Movement AP cost by 5 (min 0) and increase uses-per-turn by 1.
-Reduce max health by (2){MlePwr}.|
+Reduce max health by (1){MlePwr}.|
 
-A7:Low-Light Vision
+A7:Thermal Vision
 Skill-Support-Passive
-Effect: You are unaffected by Visibility penalties under 100%.|
+Effect: Ignore enemy evasion modifiers.|
 
 A8:Stable Stance
 Melee-Support-Passive
@@ -94,10 +94,19 @@ Effect: You cannot be knocked Prone.|
 
 A9:Carnivore
 Melee-Support-Passive
-Effect: When making an unarmed attack, you may half your inflicted damage and regain an equal amount as health.|
+Effect: When making an unarmed attack you may regain an amount equal to half your inflicted damage as health.|
 
-MA1:|
+MA1: Regrow Limbs
+Melee-Support-Passive
+Effect: At the beginning of your turn choose one:
+A) Remove a negative status effect (ignores death and KO)
+B) Recover (2){MlePwr} health.|
 
-MA2:|
+MA2: Improved Camouflage
+Melee-Defensive-Passive
+Effect: Increase your Evasion scores by 5.|
 
-MA3:|
+MA3: Titanium Claws
+Melee-Offensive-Item
+Slot: Primary and Secondary
+2x Razor Claws (Type: Melee, WC: L, Use:5AP+(3/turn), Rank: 2; On hit, disable one of the target's abilities.)|

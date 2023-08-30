@@ -122,6 +122,21 @@ Teamwork: Restore the original duration of the acquired token or status.
 Effect: Choose a combatant within range with an active Status or Token
 and create a copy of that Status/Token to apply to yourself.|
 
-MA1:|
-MA2:|
+MA1: Perfect Abomination
+Magic-Support-Action
+Use: (3/battle)
+Range: Battlefield AoE
+Effect: You may change any of your scores to match the current and max scores of any combatants on the battlefield. This includes
+changing your Health, Stamina, Mana, Focus, Element, Initiative, Element, Carry, Melee scores, Magic scores, Skill scores,
+and Abilities (including Doctrine). You can pick and choose which stats are copied from any amount of combatants as well; you
+don't have to choose just one.|
+
+MA2: Identity Crisis
+Magic-Offensive-Action
+Use: 10AP+12mna
+Range: Battlefield AoE
+Effect: All enemy combatants take the Pandemonium status for (3) turns. Combatants with the Pandemonium cannot tell
+allies from enemies and must a Luck 10 check when making an Attack-type action - whereupon failure, the enemy combatant reassigns
+the attack's target before the original combatant resolves the action.|
+
 MA3:|

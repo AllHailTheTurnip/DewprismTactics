@@ -87,14 +87,14 @@ Trigger: An allie within 0sp is targeted by an enemy.
 Use: Xmna
 Effect: Targeted allie gets +X/3 to their Evasion scores until the end of the action.|
 
-A8: Petrify
+A8: Cause Hesitation
 Magic-Offensive-Action
 Solowork: Reduce Use-cost by 5mna. Increase Accuracy by 2.
-Use: 10AP+10mna
+Use: 10AP+7mna
 Range: 0sp
-Accuracy: Magic
 Roll twice for this ability.
-Subtract (5) Action Points from their next turn for every passed check.|
+Accuracy: Magic
+Effect: Subtract (1)5 Action Points from their next turn for every passed check.|
 
 A9: Rip and Tear
 Melee-Offensive-Action
@@ -105,6 +105,25 @@ Roll 1+{TL/5} times for this ability.
 Target takes (1){MlePwr} damage
 Target now has Bleeding {TL}.|
 
-MA1: Perfect Petrification|
-MA2: Ascension|
-MA3: Universal Cry|
+MA1: Perfect Petrification
+Magic-Offensive-Action
+Use: 10AP+10mna
+Range: 2sp
+Accuracy: Magic
+Evade: Magic
+Effect: Target gains the Petrified status for (2) turns. While petrified, the victim skips their turn.|
+
+MA2: Ascension
+Magic-Support-Action
+Use: 15AP+10mna+5sta
+Effect: Gain the Ascended status for (3) turns. While ascended, you are considered to be out-of-range from all enemy actions.
+All of your actions have unlimited range.|
+
+MA3: Universal Cry
+Magic-Offensive-Action
+Use: 20AP+12mna
+Range: Battlefield AoE
+Evade: Magic
+This ability automatically affects allies.
+Effect: If the target is an enemy, their Stamina, Mana, and Focus are all reduced by 10.
+If the target is an allie, the Ranks of all their abilities and actions are increased by (1) for (3) turns.|
