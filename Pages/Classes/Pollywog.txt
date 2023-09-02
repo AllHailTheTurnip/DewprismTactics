@@ -51,7 +51,7 @@ A3: Chomp
     Melee-Offensive-Action
     Use: 10AP
     Range: 0sp
-    Variable: X =neutral.
+    Variable: X = neutral.
     Solowork: remove X.
     Enemy takes (1){MlePwr} X damage.|
 A4: Lay Egg

@@ -54,10 +54,10 @@ Skill-Offensive-Action
 Use: 20AP
 IfKO: Use as normal.
 Range: 1+({TL}/4)sp AoE circle.
-Check: Skill
-Variable: X =1
+Accuracy: Skill
+Variable: X = 1
 Solowork: Increase X by 1.
-OnPass: Affected enemy makes X Movement action(s) in the direction of your position.|
+OnPass: Affected enemies makes X Movement action(s) in the direction of your position.|
 
 A3:Photosynthesis
 Melee-Support-Action

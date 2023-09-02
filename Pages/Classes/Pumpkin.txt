@@ -103,6 +103,26 @@ Accuracy: Melee
 Teamwork: Increase Accuracy by 2.
 OnHit: Target takes (2){MleDmg} and gains Burning 1|
 
-MA1:|
-MA2:|
-MA3:|
+MA1: Pumpkin Pie Surprise
+Magic-Support-Action
+Use: 5AP+(1/turn)
+Effect: Create a 6x Pumpkin Pie Slice consumables and place it into your inventory.
+Pumpkin Pie Slice (Use: 5AP. Effect: Regain (2){MgcPwr} health. If you were already at full health, increase your Power scores by 25%.|
+
+MA2: Barrage Roll
+Melee-Offensive-Action
+Use: 10AP+7sta
+Range: 0sp circle AoE
+Evade: Melee
+Effect: Inflict (1){MgcPwr} damage and then make a free basic action. Move 1sp in any direction. Repeat this process
+ up to (3) times.|
+
+MA3: Pumpkin Bomb
+Melee-Offensive-Action
+Use: 20AP+12sta
+Range: 3sp
+Evade: Magic+3
+Effect: Inflict damage equal to (3-X){MlePwr}, where X is equal to the distance in spaces between the action's user and
+the targeted combatant. Afflicted combatant takes Burning 5.
+Create 8x Pumpkin Chunks in any space within range.
+Pumpkin Chunk (Use: 5AP. Effect: Restore (1){MlePwr} health and regain 5 mana, 5 stamina, and 5 focus.|

@@ -40,7 +40,8 @@ Skill: (Power: 3, Evasion: 6, Accuracy: 2)|
 Abilities
 Doctrine: Form of Friend
 Magic-Defensive-Action
-Use: 10AP+7mna
+Use: 10AP+5mna
+Evade: Magic
 Effect: Every enemy combatant takes the Charmed status
  While a combatant has the Charmed status, you (the caster) are considered a
 non-combatant allie and cannot be directly targeted by attacks,
@@ -139,4 +140,9 @@ Effect: All enemy combatants take the Pandemonium status for (3) turns. Combatan
 allies from enemies and must a Luck 10 check when making an Attack-type action - whereupon failure, the enemy combatant reassigns
 the attack's target before the original combatant resolves the action.|
 
-MA3:|
+MA3: Deep Charm
+Magic-Defensive-Action
+Use: 10AP+12mna+6fcs
+Range: 2sp
+Evade: Magic
+Effect: Targeted combatant permanently gains the Charmed status.|

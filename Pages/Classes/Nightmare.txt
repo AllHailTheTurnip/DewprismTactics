@@ -9,7 +9,7 @@ catches most people off guard - often making it seem like they fall right out of
 guardians and warriors - yet wherever one goes, it is wisest to just stay out of their way.
 </p>|
 
-Top-down
+Top-down`
 Great scores
 Good stats
 limited abilities
@@ -24,7 +24,7 @@ Focus: 10|
 SCORES
 Initiative: 13|
 Carry: 20u|
-Element: Darkness|
+Element: Dark|
 
 STATS
 Melee: (Power: 4, Evasion: 12, Accuracy: 0)|

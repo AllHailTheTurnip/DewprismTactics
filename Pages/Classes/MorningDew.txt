@@ -111,7 +111,22 @@ Use: 5AP+5mna
 Effect: You can only lose up to 30-{TL/5}% of your total health before the start of your next turn. Any additional damage after that
 is instead redirected towards the attacker.|
 
+MA1: Blessing
+Magic-Defensive-Action
+Use: 20AP+12mna
+Range: Battlefield AoE
+Effect: All allie combatants within your range gain the Indestructible status for (1) turn.
+Indestructible: Incoming damage is reduced to 0.|
 
-MA1:|
-MA2:|
-MA3:|
+MA2: Eternal Blossom
+Magic-Support-Action
+Use: 3mna+(3/turn)
+Range: Battlefield
+Effect: Choose an allie and extend one of their status effects by 1 turn.|
+
+MA3: Wall of Light
+Magic-Support-Action
+Use: 5mna+(3/turn)
+Range: 3sp
+Effect: Create a Wall of Light prop within the space of your choice. The Wall of Light prop blocks travel (and aiming)
+between the space it's in and the adjacent space of your choice.|
