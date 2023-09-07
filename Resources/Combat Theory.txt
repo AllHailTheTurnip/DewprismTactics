@@ -146,3 +146,13 @@ Heavy       100
 Miniboss    200
 Boss        400
 
+Leveling Perspective (Exponential)
+lvl
+1   save the neighborhood.
+5   save the town.
+10  save the city.
+15  save the county.
+20  save the country.
+25  save the world.
+
+

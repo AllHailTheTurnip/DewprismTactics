@@ -8,6 +8,8 @@
                 src="../Resources/ReturnMenu.js"></script>
         <script type="text/javascript"
                 src="../Resources/PrintVehicles.js"></script>
+        <script type="text/javascript"
+                src="../Resources/AdventuringIndex.js"></script>
         <style>
             table {
                 width: 100%;
@@ -26,10 +28,8 @@
         </style>
 
     </head>
-    <body>
-
-
-        <h1>
+    <body id="TopOfDocument">
+        <h1 id="Adventuring">
             Adventuring
         </h1>
         <div class="Side">
@@ -58,13 +58,15 @@
 
         <div>
             <h3>Index</h3>
-            Such empty. Wow
+            <ul id="index">
+
+            </ul>
         </div>
         <!-- -->
         <!-- -->
         <!-- -->
         <hr>
-        <h1>
+        <h1 id="Civilization">
             Civilization
         </h1>
         During your travels, you'll come across towns and cities where you can
@@ -88,7 +90,7 @@
             abundance.<br>
             A village is defined as a settlement with a relatively small
             population (1-500 people).<br>
-            A town is defined as as settlement with an okay-sized population
+            A town is defined as settlement with an okay-sized population
             (500-1,500).<br>
             And a city is defined as a settlement with an large population
             (1,500+).
@@ -245,7 +247,7 @@
         NPCs who are traveling with the party but aren't a part of the ground,
         are not considered members.
         <p>
-            In general, a create with standard sapience (human-like) are allowed
+            In general, a creature with standard sapience (human-like) are allowed
             in all settlements. However, all
             monsters and animals of lower-intelligence must wear a collar with
             their given name on it, if they're
@@ -551,7 +553,7 @@
             </tr>
         </table>
         <hr>
-        <h2>
+        <h2 id="Guilds">
             Guilds
         </h2>
         Guilds are organizations that specialize in finding work for their
@@ -1051,7 +1053,7 @@
             is declared the victor. Behind curtains, the exchange is made.
         </p>
         <hr>
-        <h2>
+        <h2 id="Services">
             NPC Services
         </h2>
         In every settlement, there is certain to be at least one person,
@@ -1427,14 +1429,13 @@
 
 
         <hr>
-        <h1>
+        <h1 id="Dungeons">
             Dungeons
         </h1>
         Dungeons are dangerous places, often remote from society and filled with
         dangers. Yet, for all the dangers they
         pose, they are likewise filled with treasures that only the most capable
-        of acquiring. As the saying goes,
-        there is no risk without reward.
+        can acquire. As the saying goes, there is no risk without reward.
         <p>
             While dungeons exist in the traditional term, Dewprism Tactics uses
             dungeon to mean any formal area meant
@@ -1442,7 +1443,7 @@
             any size
             and difficulty. This means that forests, caves, castles, and even
             churches
-            can all technically dungeons.
+            can all technically be dungeons.
         </p>
         <p>
             On a more formulaic note, it is assumed that dungeons will possess
@@ -1456,7 +1457,7 @@
             build them, how to populate them,
             how to grade them, and how to run them.
         </p>
-        <h2>
+        <h2 id="Design">
             Design
         </h2>
         When designing your dungeon, the first thing you should do is
@@ -1489,42 +1490,590 @@
             characters, and the traps should all deal appropriate damage for the
             dungeon's level.
         </p>
-        <h2>
+        <p>
+            A good place to start is with the chart below. Though not the absolute rule, it's a good place
+            to start when fleshing out your dungeon.<br/>
+            Keep mind that the dungeons are scaled assuming that your party consists of four people. Elements
+            that should be adjusted proportionately to match your party's size will be marked with an asterisk.
+        </p>
+        <table>
+            <tr>
+                <th>
+                    Element
+                </th>
+                <th>
+                    Small
+                </th>
+                <th>
+                    Medium
+                </th>
+                <th>
+                    Large
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Rooms
+                </td>
+                <td>
+5
+                </td>
+                <td>
+8
+                </td>
+                <td>
+12
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Rest Area
+                </td>
+                <td>
+0
+                </td>
+                <td>
+1
+                </td>
+                <td>
+2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Traps
+                </td>
+                <td>
+1
+                </td>
+                <td>
+3
+                </td>
+                <td>
+5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Battles
+                </td>
+                <td>
+2
+                </td>
+                <td>
+4
+                </td>
+                <td>
+7
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Minibosses
+                </td>
+                <td>
+0
+                </td>
+                <td>
+1
+                </td>
+                <td>
+2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Bosses
+                </td>
+                <td>
+1
+                </td>
+                <td>
+1
+                </td>
+                <td>
+1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Treasures
+                </td>
+                <td>
+1
+                </td>
+                <td>
+3
+                </td>
+                <td>
+5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Puzzles
+                </td>
+                <td>
+1
+                </td>
+                <td>
+2
+                </td>
+                <td>
+3
+                </td>
+            </tr>
+        </table>
+        <p>
+            Dungeons tend to have a difficulty-curve to them. This helps the players dip their toe into
+            the adventure without the risk of losing their leg. Normally, the flow should go as such:
+        </p>
+        <ol>
+            <li>
+                <b>Starting</b>: An easy, introductory fight or challenge that teaches players about the theming and
+                general challenge of the dungeon's horrors.
+            </li>
+            <li>
+                <b>Middle</b>: A slighter harder conflict that ramps up the tension, pushing the players to test their
+                solutions. This is usually where the miniboss first appears.
+            </li>
+            <li>
+                <b>End</b>: Near the end of the dungeon there should be no more bars held; all that the players
+                have learned will now be put to test against them in full force.
+            </li>
+        </ol>
+
+        <h2 id="Battlefields">
             Battlefields
         </h2>
-        <h2>
-            Floors
-        </h2>
-        <h2>
+        <p>Battlefields are an essential part of each dungeon. Put simply, battlefields are areas
+        designated by the DM (you) for combat. There will typically be enemy combatants waiting for the party
+        to arrive so that combat can officially begin.</p>
+        <p>
+            As the DM, you should design battlefields first around flow and then around function. When it
+            comes to it, a battlefield is simply a web of spots that players must navigate before getting
+            within range against their opponents. Movement has a lot to do with it, and between finding cover,
+            avoiding hazard, and controlling range, combatants should feel the need to position themselves properly.
+        </p>
+        <p>
+            There is a math to the design of dungeons, however. Each one should follow certain dimensions (in spaces),
+            and should offer a proper amount of cover places and (possibly) traps.
+        </p>
+        <table>
+            <tr>
+                <th>
+                    Properties
+                </th>
+                <th>
+                    Small
+                </th>
+                <th>
+                    Medium
+                </th>
+                <th>
+                    Large
+                </th>
+            </tr>
+            <tr>
+                <td>Spaces</td>
+                <td>9</td>
+                <td>18</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Cover</td>
+                <td>3</td>
+                <td>6</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Hazards</td>
+                <td>0</td>
+                <td>2</td>
+                <td>5</td>
+            </tr>
+        </table>
+        <p>Most battlefields aren't flat. In fact, some can be quite steep. While how you represent
+        the topography is up to you, you should consider how your combatants might utilize
+        the terrain to give themselves the advantage.
+        </p>
+        <p>
+            <i>As an advice, I tend to represent height on a map with little notations such as "0h", "1h",
+                "3h" and so on, where H stands for Height in spaces.</i>
+        </p>
+        <h2 id="Battles">
             Battles
         </h2>
-        <h2>
-            Boss Fights
-        </h2>
-        <h2>
+        <p>
+            Battles are the meat and potatoes of Dewprism Tactics. It's why everybody
+            is here. On the battlefield your players have a chance to prove
+            themselves as heroes, champions, and defenders. As an aside, it is also
+            a chance for them to make some money, collect resources, and earn experience.
+        </p>
+        <p>
+            Each battle should be enough of a challenge to the players that everyone gets at
+            least one turn, with the enemy being tough enough that they aren't all wiped-out
+            in a single blow. On the other hand, players should feel that their efforts
+            have tangible results, that they are - to some degree - strong and capable.
+            Thus you want to place enemies between being glass and being sponges.
+        </p>
+        <p>
+            There are essentially two kinds of battles: 1) Hoard Battles and 2) Boss Battles.
+        </p>
+        <p>
+            Hoard Battles are your typically group of 3-4 enemies that are all converging
+            on your group with the intent to destroy them. These consist of a mishmash of
+            different opponents of varying intelligence. Normally these battles range from
+            easy to medium in difficulty, and happen all throughout the dungeon.
+        </p>
+        <p>
+            Boss Battles are tests of strength and endurance, fought against a single mighty foe.
+            Each dungeon has at least two boss fights: one against a miniboss at the midway point
+            and one against the primary boss near the end. <br/>
+            <sub>There is technically a third kind of boss: the Final Boss, found
+            at the end of the campaign.</sub>
+        </p>
+        <h2 id="Loot">
             Loot
         </h2>
-        <h2>
-            Traps
+        <p>
+            The real reward from your dungeon excursions comes in the form of <b>loot</b>!
+            Loot is anything of value that you get to keep with you. Loot represents more than
+            just money, but the improvement of your life in the world of Rasdan. Loot
+            lets you buy more helpful items, such as potions, vehicles, and homes.
+            Other loot can make you more powerful by granting helpful bonuses.
+        </p>
+        <p>
+            Typically, the base reward for defeating (not necessarily killing) an enemy
+            is based on the monster's level and rank.
+        </p>
+        <div class="mini">
+            <math>Gil = 100 &#215; (Lvl &#215; Rank)</math><br/>
+            Ranks:
+            <ul>
+                <li>
+                    Normal = 100
+                </li>
+                <li>
+                    Miniboss = 200
+                </li>
+                <li>
+                    Boss = 400
+                </li>
+                <li>
+                    Final Boss = 800
+                </li>
+            </ul>
+        </div>
+        <p>
+            More important fights will tend to reward players with not just gil, but
+            with special features.
+        </p>
+        <ul>
+            <li>
+                Resurrection coins.
+            </li>
+            <li>
+                Permanent buffs.
+            </li>
+            <li>
+                Plot-advancing items.
+            </li>
+            <li>
+                Improved approval in town.
+            </li>
+            <li>
+                A new companion.
+            </li>
+            <li>
+                Unique abilities.
+            </li>
+        </ul>
+        <h2 id="TrapsAndHazards">
+            Traps and Hazards
         </h2>
+        <p>
+            Part of the fun of dungeons are the traps and hazards you'll come across.
+            These are instances in which characters will have to quickly react with
+            a check of some kind, putting their reaction and prowess to the test
+            in order to avoid some kind of harm. While the standard trap intends to
+            harm your characters, more clever traps can inflict different kinds of
+            penalties.
+        </p>
+        <p>
+            Generally speaking, traps can be found throughout the dungeon and exist
+            at all times - in other words, they can be found outside and inside
+            of combat. Like with most dungeons, the safer traps should be
+            found at the front of the beginning as a means of teaching the players
+            the rules of traps and what dangers they pose, while in later
+            parts they become more aggressive.
+        </p>
+        <p>
+            Most traps are cleverly hidden and are sprung either when the player
+            performs an action such as tripping a wire, opening a door, or stepping
+            on a secret plate - but they can get more creative than that. Players
+            can take the initiative and try to discover these traps in order to avoid
+            by first making a Skill self-check. Once the trap has been discovered,
+            players can declare their attempt to steer away from it, or try to disarm it.
+        </p>
+        <p>
+            Hazards on the other hand aren't deliberately traps, but can pose as threats
+            to one's health if not properly navigated. Obstacles such as tall cliffs,
+            rooms filled with spilled oil, icy floors, and unstable bridges all count as hazards.
+        </p>
+        <p>
+            Like with traps, hazards require an initial check for safe navigation.
+            Generally, a Navigation, Scholar, or Craft check should do the trick. However,
+            you can also check with your Melee, Magic, or Skill if the need arises (which
+            it likely will).
+        </p>
+        <div>
+            <p>
+                Below are the difficulty ratings for traps.
+            </p>
+            <ul>
+                <li>
+                    Very Easy - 5
+                </li>
+                <li>
+                    Easy - 8
+                </li>
+                <li>
+                    Medium - 10
+                </li>
+                <li>
+                    Hard - 13
+                </li>
+                <li>
+                    Very Hard - 15
+                </li>
+            </ul>
+        </div>
+
         <hr>
-        <h1>
+        <h1 id="Exploration">
             Exploration
         </h1>
-        <h2>
+        Exploration is a key part of every adventure. The chance to gain experience, to discover
+        something lost, venture to new places, and collect useful supplies. Without the exploration,
+        your adventure wouldn't be much of an adventure.
+        <h2 id="Foraging">
             Foraging
         </h2>
-        <h2>
+        <p>While out and about (specifically, outside of combat), you can attempt to forage for materials
+        and supplies. Foraging is a check made attempting to collect gil, materials, and consumables
+        without having to kill monster for it. However, foraging has the chance to offer rewards
+        that couldn't normally be found on monsters. When foraging, you're doing more than just scavenging,
+            but you're digging around and looking under every nook and cranny.</p>
+        <p>
+            Foraging is simple. Outside of combat declare to your DM that you'd like to forage, and then
+            make a Harvest check. Make your Talent check, where the higher you roll the better the results.
+        </p>
+        <p>
+            Being more specific about your intentions can yield better results by granting bonuses. You can
+            mention that you'd like to forage for X amount of hours, that you're looking for a specific
+            <i>something</i>, or that you're looking in a certain place. However, being specific
+            also increases the chance that you won't find what you were looking for because it simply
+            isn't there.
+        </p>
+        <div>
+            <ul>
+                <li>
+                    Specific area.
+                    <ul>
+                        <li>
+                            Room +3
+                        </li>
+                        <li>
+                            Space +5
+                        </li>
+                        <li>
+                            Object +7
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Specific thing.
+                    <ul>
+                        <li>
+                            By application +3
+                        </li>
+                        <li>
+                            By name +5
+                        </li>
+                        <li>
+                            By appearance +7
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Amount of hours.
+                    <ul>
+                        <li>
+                            1 hour +0
+                        </li>
+                        <li>
+                            2 hours +3
+                        </li>
+                        <li>
+                            3 hours +5
+                        </li>
+                        <li>
+                            4 hours +6
+                        </li>
+                        <li>
+                            6 hours +7
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <h2 id="LevelGrinding">
             Level Grinding
         </h2>
-        <h2>
-            Wandering
+        If your players are under-leveled for an upcoming dungeon and don't want to gain
+        levels through side-quests, you can send them out into the wilderness for an indeterminate
+            amount of time to kill monsters until they've gained the required experience. It's
+        fast, efficient, and keeps the game on tempo.
+        <p>
+            Obviously, this isn't as fun as going out to do missions, so should only be considered
+            if:
+        </p>
+        <ol>
+            <li>
+                your campaign may be forced to end sooner than you'd hoped, and thus needs to be resolved
+            sooner than later, or
+            </li>
+            <li>
+                you haven't prepared any sidequests.
+            </li>
+        </ol>
+        <p>
+            Level-grinding is considered a safe but slow process - you can gain levels, but <i>slowly.</i>
+            The higher your level, the slower the process becomes. (Remember, quick and significant growth
+            comes from being challenged!)
+        </p>
+        <div>
+            If you're using the Experience method of growth, gain 1000xp per days of level-grinding.<br/>
+            If you're using the Milestone method of growth, you must level-grind for as many days as
+            is your current level.
+        </div>
+        <p>
+            Keep in mind however that as you gain more levels, the amount of monsters you can meaningfully
+            grind XP from decreases. Days turn to weeks, weeks to months, and months to years.
+        </p>
+        <ul>
+            <li>
+                Level 1-4 = days.
+            </li>
+            <li>
+                Level 5-9 = weeks.
+            </li>
+            <li>
+                Level 10-14 = months.
+            </li>
+            <li>
+                Level 15-19 = years.
+            </li>
+        </ul>
+        <h2 id="Scouting">
+            Scouting
         </h2>
-        <h2>
+            When entering a new area, you have option to try and scout it. This allows you to fill in the
+            blank areas of the map ahead of time, so that you and the other players have an idea of what
+            to expect and how to prepare for it. You could even get a sneak-attack on your opponents.
+        <p>
+            To go scouting, declare to the DM that you want to scout the area. Depending on the size
+            of the dungeon, the amount of time to properly scout it will vary - that is of course if you're
+            able to access all the areas.
+        </p>
+        <ul>
+            <li>
+                Small area - 0 hours.
+            </li>
+            <li>
+                Medium area - 1 hour.
+            </li>
+            <li>
+                Large area - 2 hours.
+            </li>
+        </ul>
+        <p>
+            Depending on the dungeon you're in, the difficulty of scouting will increase. This means
+            that the minimum score you have to get to not get caught by monsters in a fight will increase.
+            The difficulty tends to scale with the monster density of an area. Density in this case
+            will be a secret number that only the DM knows at first, but can be calculated by taking the total
+            number of monsters divided by the total number of rooms.
+        </p>
+        <sub>You might need a calculator for this.</sub>
+        <ul>
+            <li>
+                <0.5 = 1-5
+            </li>
+            <li>
+                0.5-0.9 = 6-9
+            </li>
+            <li>
+                1-1.5 = 10-15
+            </li>
+            <li>
+                >1.5 = 16-20
+            </li>
+        </ul>
+        <p>
+            The risk for getting caught is starting combat surrounded by monsters while the rest of
+            your party is on the other side of the dungeon. If you fail the scouting check, then you're
+            discovered by the monsters and combat instantly starts - everyone rolls for initiative.
+        </p>
+        <p>
+            Alternatively, you can break a scouting mission into smaller chunks to make it more manageable.
+            Instead of scouting the entire area, you can choose to scout a room at a time. In this case,
+            you'll be making checks to sneak past a quantified amount of monsters from one room
+            to another.
+        </p>
+        <p>
+            To do this, declare that you'd like to scout the next area through a certain passageway. Your
+            character steadily opens the door and peaks through, to which you're shown how many enemies
+            are in the room along with what passage ways there are at first glance - then you pull back before
+            being spotted. This is when you can decide to make a Skill check against the general
+            difficulty of density of the room. If you succeed, then you successfully make it through the room
+            to the desires passageway without getting caught and can do it again if you want.
+        </p>
+        <p>
+            When you want to return, you have to remake all the sneak-checks in reverse order to return to your
+            party.
+        </p>
+        <p>
+            Beware, just like with the normal scouting check, if you're caught while sneaking around then combat
+            begins.
+        </p>
+        <p>
+            If your allies wish to, they can also join you for sneaking around the area. But they must also
+            make their own scouting checks at the same time as you do. If either of you fail, then battle begins.
+        </p>
+        <h2 id="Spelunking">
             Spelunking
         </h2>
+        Spelunking is a combination of scouting and foraging. Instead of going out into the woods to look
+        for materials and supplies, you instead delve into a dungeon to look for items that can only be
+        found in there. Unlike with scouting, you don't learn the area, you just get items.
+        <p>
+            To make a spelunking check, you first declare that you're going into the dungeon to go spelunking.
+            In this, you combine the potential bonuses from foraging with the dangers
+            of scouting.
+        </p>
+        <p>
+            If you succeed in spelunking, you'll return to your party with items that can only be found from
+            this dungeon - some of which might not be recoverable even from defeating monsters. But beware,
+            if you're caught while out spelunking, you'll end up in combat.
+        </p>
+        <p>
+            Just like with scouting, you can break the spelunking expedition into chunks by sneaking
+            from room to room.
+        </p>
         <hr>
-        <h1>
+        <h1 id="Travel">
             Travel
         </h1>
         The world is beautiful and mysterious, and for those reason you'll
@@ -1635,7 +2184,7 @@
             </li>
 
         </ul>
-        <h2>
+        <h2 id="Sea">
             By Sea
         </h2>
         While swimming, your efficiency is reduced when traveling through water.
@@ -1654,7 +2203,7 @@
             traveling over water, it is best to have purchased a boat -
             the size is irrelevant.
         </p>
-        <h2>
+        <h2 id="Land">
             By Land
         </h2>
         Traveling across land on a vehicle isn't too different from traveling
@@ -1665,7 +2214,7 @@
             This is because they use half the speed score of the creature
             pulling them.
         </p>
-        <h2>
+        <h2 id="Air">
             By Air
         </h2>
         Traveling by air is by far faster than either sea and land. The skies
@@ -1680,7 +2229,7 @@
             an air-vehicle - though it may be a bit pricey.
         </p>
 
-        <h2>
+        <h2 id="Vehicles">
             Vehicles
         </h2>
         While it's fun to travel by foot, it is also slow. In a world where
@@ -1760,25 +2309,182 @@
         from every outing with a bag full of precious antiques, then this will
         be quite affordable for you.
         </p>
-        <h2>
+        <h2 id="Teleport">
             Teleport
         </h2>
+        While some class abilities offer the power of short-range teleportation, there exist services
+        out there that can enable you to teleport over vast distances - we're talking town to town, country
+        to country. This can be exceedingly useful if you're short on time and have money to spare.
+        <p>
+            Teleportation is done through special stone circles called teleportation pads. Each pad
+            is about 10ft wide and can hold up to 20 people at a time. Teleportation is mana-intensive
+            and can quickly wear-down the pad, so the cost of use can start out expensive. However,
+            there are plenty of people with the funds and requirements to be someplace far away <i>right now.</i>
+        </p>
+        <ul>
+            <li>
+                Next city: 1,000g
+            </li>
+            <li>
+                Next county: 5,000g
+            </li>
+            <li>
+                Across country: 15,000g
+            </li>
+            <li>
+                Across planet: 45,000g
+            </li>
+        </ul>
+        <p>
+            Keep in mind that not all locations have teleportation pads. They are typically only found in
+            cities at certain locations.
+        </p>
         <hr>
-        <h1>
+
+        <h1 id="Time">
             Time
         </h1>
-        <h2>
+        Time in the world of Rasdan flows much in the same way as it does in our world. There are 24 hours
+        in a way, seven days in a week, twelve months in a year - but only 360 days in a year. This means
+        that each month only has 30 days. This is for your benefit, to make keeping the calendar easier.
+        <p>
+            When playing, you typically only measure time spent while traveling or resting. Conversations and
+            battles aren't specifically counted, but the DM can round them up into a handful of hours.
+        </p>
+        <h2 id="Timeskips">
             Timeskips
         </h2>
-        <h2>
+        There may come times when a certain arc of the campaign has resolved and now the party is waiting
+        for things to pick-up again. This might be because the enemy has gone into hiding and will need
+        a long time to recover from their losses, or it might be because one of the heroes has taken
+        up education and will be busy for the next several weeks or months. Heck, maybe one of the heroes
+        has died and we need to wait a few years for his nephew to get old enough to join the party.
+        To resolve all of these, the DM is allowed to ask the party if they'd like to do a timeskip.
+        <p>
+            A timeskip gives players a chance to keep their adventurers meaningfully busy while they wait
+            for a period of time to pass. While in a timeskip they get free rein to pursue whatever they want to.
+            This can be anything from taking a job to save-up funds, learning a new language, building a home,
+            or gaining levels.
+        </p>
+        <p>
+            While it's not possible to cover <i>all</i> the possible things you can do in here, there are a
+            few things I can mention.
+        </p>
+        <ul>
+            <li>
+                Working a trade (carpenter, smith, cobbler, mason) yields about 100g a day, earning about 600 a week.
+                Between expenses (rent, food, repairs), they can save up about 300g in a week.
+            </li>
+            <li>
+                It'll take one person 3 months to build a house by themselves.
+            </li>
+            <li>
+                It takes around 3 years to become fluent in a new language.
+            </li>
+            <li>
+                It normally takes 1 month to increase a Talent by 1 point, but the higher your Talent, the more time is required.
+                <ul>
+                    <li>
+                        1-3 = 1 month.
+                    </li>
+                    <li>
+                        4-5 = 6 months.
+                    </li>
+                    <li>
+                        6-7 = 1 year.
+                    </li>
+                    <li>
+                        8-9 = 3 years.
+                    </li>
+                    <li>
+                        10+ = 5 years.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2 id="Calendar">
             The Calendar
         </h2>
-
+        There are 30 days in each month, and twelve months in a year. There are four seasons, which tend
+    to flow in a cyclical fashion.
+        <p>The months are...</p>
+        <ol>
+           <li>
+               Young Spring
+           </li>
+            <li>
+                High Spring
+            </li>
+            <li>
+                Low Spring
+            </li>
+            <li>
+                Young Summer
+            </li>
+            <li>
+                High Summer
+            </li>
+            <li>
+                Low Summer
+            </li>
+            <li>
+                Young Fall
+            </li>
+            <li>
+                High Fall
+            </li>
+            <li>
+                Low Fall
+            </li>
+            <li>
+                Young Winter
+            </li>
+            <li>
+                High Winter
+            </li>
+            <li>
+                Low Winter
+            </li>
+        </ol>
+    <p>
+        As deduced by the names, seasons follow throughout the year and varying degrees of strength.
+        Spring takes over winter in Young Spring, reaching its height with High Spring, and waning with
+        Low Spring as Summer creeps in.
+    </p>
+    <p>
+        Like all worlds, there are various holidays that tend to be observed from nation to nation,
+        while a handful of holidays are observed across the world. The global holidays are...
+    </p>
+    <ul>
+        <li>
+            New Life. The height of Spring, held during the day and ending around 10PM. It celebrates
+            warmth and community, having survived through winter. Though in more advanced places where
+            surviving the winter isn't that big of a concern, there are still plenty of feasts and festivals.
+        </li>
+        <li>
+            Harvest. Popular all over, it is a day of celebration for a plentiful harvest. It is celebrated with
+            delicious beverages (many of which are alcoholic) and tasty treats. Rumor has it that this is
+            also when the world of the dead is particularly close to the world of the living.
+        </li>
+        <li>
+            Rain Dance. Though no longer associated with ancient rituals of dancing to invoke rain, Rain Dance
+            celebrations are observed all over the globe. It is a time of song, dance, and communal merriment
+            as farmers give thanks for the rain that makes crops grow. Meanwhile in the cities, Rain Dance
+            is celebrated to give thanks for the rain that relieves the dry, hot heat.
+        </li>
+        <li>
+            New Year's. The only weeklong holiday, New Year's celebrations take place during the final
+            week of the year and reach their peak on New Year's Eve. It is a time when families and communities
+            huddle together for warm meals, songs, and the exchange of gifts. It is a time when the power of togetherness
+            prevails against the power of chill and death.
+        </li>
+    </ul>
     </body>
     <footer>
         <script>
             ImplementReturnMenu();
             InsertVehiclesList();
+            BuildIndex();
         </script>
     </footer>
 </html>

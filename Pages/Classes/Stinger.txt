@@ -48,7 +48,7 @@ A3: Coat with Poison
 Skill-Offensive-Action
 Use: 10AP+4fcs
 Range: Any allie on the battlefield.
-If the ally's Primary weapon doesn't already have it, give it the attribute of Poison (1){SklPwr/5}.
+If the ally's Primary weapon doesn't already have it, give it the attribute of Poison (1){SklPwr}.
 Solowork: Alternatively, you may use this ability again to increase the Poison attribute's Rank by 1.|
 
 A4: Throwing Needles
