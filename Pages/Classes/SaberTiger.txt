@@ -69,7 +69,7 @@ A6: Astounding Speed
     You move an additional space.|
 A7: Sharpen Edge
     Skill-Support-Action
-    Use: 31-{TL}AP
+    Use: 10AP+(1/turn)
     Teamwork: Increase your Crit rank by 1.
     Increase your Crit threshold by 1.|
 A8: Fearsome Roar
