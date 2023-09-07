@@ -72,7 +72,7 @@ Use: 3Sta
 Luck: 8
 The attacker is given a Spore marker.
 You are the Spore marker's creator.
-Spore Marker: Lose (1){Creator's MlePwr} health. The creator gains any health lost this way.|
+Spore Marker: At the beginning of your turn, lose (1){Creator's MlePwr} health. The creator gains any health lost this way.|
 
 A5:Grow Bark
 Melee-Defensive-Action
