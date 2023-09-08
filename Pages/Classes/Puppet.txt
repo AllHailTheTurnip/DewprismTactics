@@ -115,4 +115,4 @@ who most recently took their turn.|
 
 MA3: Nonliving Matter
 Melee-Defensive-Passive
-Effect: You are immune to elemental attacks. Neutral damage is halved.|
+Effect: Damage from elemental-attacks is halved.|

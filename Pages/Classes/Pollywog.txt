@@ -97,7 +97,8 @@ All range variables for all abilities (including movement) are increased by (1)s
 MA2: Rapid Adaptation
 Skill-Defensive-Reaction
 Trigger: You take damage.
-Effect: You are now immune to damage that shares the element of the attack (this includes neutral and noble).|
+Effect: You are now immune to damage that shares the element of the attack (this includes neutral and noble)
+You can be immune up to (3) kinds of elements at once; the newest immunity overwrites the oldest.|
 
 MA3: Abiogenesis
 Melee-Support-Passive

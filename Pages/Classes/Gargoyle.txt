@@ -115,7 +115,7 @@ Effect: Target gains the Petrified status for (2) turns. While petrified, the vi
 
 MA2: Ascension
 Magic-Support-Action
-Use: 15AP+10mna+5sta
+Use: 15AP+10mna+5sta+(1/battle)
 Effect: Gain the Ascended status for (3) turns. While ascended, you are considered to be out-of-range from all enemy actions.
 All of your actions have unlimited range.|
 

@@ -96,7 +96,7 @@ Removes Bleed|
 
 MA1: Autoreaction
 Skill-Support-Action
-Use: 5fcs
+Use: 5fcs+(2/turn)
 Effect: Bypass an ability's trigger (freely decide whatever the trigger might've been) and invoke the ability for free.|
 
 MA2: Shrapnel Bomb
