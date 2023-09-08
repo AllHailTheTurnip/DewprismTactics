@@ -107,7 +107,8 @@ Effect: When you kill an enemy combatant, any damage or negative statuses (excep
 MA2: Perfect Pierce
 Skill-Offensive-Action
 Use: 10fcs+10sta
-Effect: Your next attack-type action's potential damage cannot be reduced by elemental differences or opposing ability effects.|
+Effect: Your next attack-type action's potential damage cannot be reduced by elemental disadvantage or opposing ability effects.
+The action's accuracy check increases by 6.|
 
 MA3: Locus of Control
 Skill-Support-Passive

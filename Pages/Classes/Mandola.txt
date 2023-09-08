@@ -115,8 +115,9 @@ Effect: Health restored to a combatant (including yourself) by any of your abili
 MA2: Grow!
 Melee-Defensive-Action
 Use: 20AP+10sta
-Effect: Increase your Max Health by 50%. Restore your Health to full.|
+Effect: Increase your Max Health by 50%. Restore your Health to full. Incoming damaged is halved until the start
+of your next turn.|
 
 MA3: Shared Beauty
 Magic-Support-Passive
-Effect: Your abilities that only target you can now target allies.|
+Effect: Your abilities that only target you can now also target allies.|
