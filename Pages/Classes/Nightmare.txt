@@ -90,12 +90,12 @@ Teamwork: Reduce Use-cost by 5AP.
 Use: 15AP!+5mna
 AoE: {TL}sp circle
 Enemy combatants within AoE are pushed away from you until outside of your AoE.
-Accuracy: Melee
+Accuracy: Magic
 OnPass: Enemy combatants take (2){MgcPwr} electric damage.|
 
 A9:Hone Strike
 Magic-Support-Action
-Variable: X =1.
+Variable: X = 1.
 Solowork: Increase X by 1.
 Use: 3mna+(X/turn)
 IfKO: Increase Use cost by 6mna.

@@ -41,7 +41,7 @@ Skill-Offensive-Action
 Use: 10AP+2fcs+2sta
 Solowork: Reduce Use cost by 2sta.
 Effect: Roll 1d20 as X/4 (rounded down) as X.
-Make X Basic Attack actions, ignoring maximum uses-per-turn; attacks otherwise cost as normal.|
+Make X Basic Attack actions, ignoring maximum uses-per-turn and AP cost; attacks otherwise cost as normal.|
 
 A2: Duck
 Melee-Defensive-Action
