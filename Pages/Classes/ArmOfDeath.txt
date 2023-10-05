@@ -81,7 +81,7 @@ If you do not pay for this ability again by the end of your next turn, you fall 
 
 A7: Aura of the Apex Predator
 Melee-Support-Passive
-Range: Battlefield
+Range: 0sp
 IfKO: This remains in effect while KO.
 Effect: While your remaining Health is above 50% of its max, enemy combatants must
 spend 5AP from their next turn to move out of your space at the end of your turn.|

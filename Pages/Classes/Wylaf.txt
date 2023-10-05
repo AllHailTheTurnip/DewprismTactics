@@ -107,7 +107,7 @@ Use: 20AP+7mna
 IfKO: Increase Use cost by 7mna.
 Range: 1sp AoE circle
 Evade: Melee
-OnHit: Combatant take 15{TL} damage. |
+OnHit: Combatant take 15{TL} damage.|
 
 MA1: Gift of Immortality
 Magic-Defensive-Passive
