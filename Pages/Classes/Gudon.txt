@@ -64,7 +64,7 @@ Teamwork: Nullify X.
 Effect: X. Increase your MleEva by 5+{MlePwr} until your next action.|
 
 A4:Regenerate
-Magic-Support-Passive
+Magic-Support-Action
 IfKO: Use as normal.
 Use: 5AP+7mna
 Effect: Choose a disabled ability/action and re-enable it.|

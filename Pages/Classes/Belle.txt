@@ -80,7 +80,7 @@ Use: 10AP+5mna
 Range: Battlefield
 Effect: Choose three connected spaces along the battlefield. Every enemy
 combatant within those spaces makes a Melee Evade check, whereupon failure are
-inflicted with (1){MgcPwr} damage.|
+inflicted with (1){MgcPwr} fire damage.|
 
 A5:Burning Shuriken
 Magic-Offensive-Action
