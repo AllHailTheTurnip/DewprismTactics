@@ -73,7 +73,7 @@ Effect: Noble-element is treated as Neutral, and Neutral cannot inflict critical
 A5: Improved Aim
 Skill-Support-Passive
 Use: 3fcs+{TL}fcs
-Effect: Increase your Accuracy checks by +X.|
+Effect: Increase your Accuracy checks by +2.|
 
 A6: Terraform
 Melee-Support-Action
