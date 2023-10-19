@@ -49,7 +49,7 @@ Solowork: Damaged target gets Burning (MgcPwr).|
 
 A1:Venom Fangs
 Melee-Offense-Passive
-Your unarmed attacks inflict Poison (1){15TL}|
+Your unarmed attacks inflict Poison (1){5TL}|
 
 A2:Hardy Appetite
 Skill-Support-Passive

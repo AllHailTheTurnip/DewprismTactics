@@ -95,7 +95,7 @@ Odor prop: Movement between adjacent Odor props counts as one space of movement.
 A8: Pincers
 Melee-Offense-Item
 Slot: Primary or Secondary
-Pincers (Type: Skill, WC: M, Use: 10AP, Rank: 3, Weight: 1u, Element: Wind; Sever 3)|
+Pincers (Type: Skill, WC: M, Use: 10AP, Rank: 3, Weight: 1u, Element: Wind; Sever (1){SklPwr})|
 
 A9: Break Bonds
 Melee-Support-Action
