@@ -61,7 +61,7 @@ Use: 10AP
 IfKO: Use as normal.
 Variable: X =End your turn.
 Teamwork: Nullify X.
-Effect: X. Increase your MleEva by 5+{MlePwr} until your next action.|
+Effect: X. Increase your MleEva by 5 until your next action.|
 
 A4:Regenerate
 Magic-Support-Action
@@ -80,8 +80,7 @@ OnHit: Inflict Primary weapon damage. On Critical, target becomes Prone.|
 A6:Shed Scales
 Melee-Support-Action
 Use: (1/2turns)
-Effect: Reduce Movement AP cost by 5 (min 0) and increase uses-per-turn by 1.
-Reduce max health by (1){MlePwr}.|
+Effect: Inflict (1){MlePwr} damage to yourself and increase your Movement action's uses-per-turn by 1.|
 
 A7:Thermal Vision
 Skill-Support-Passive
