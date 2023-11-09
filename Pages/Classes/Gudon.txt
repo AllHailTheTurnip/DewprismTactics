@@ -80,7 +80,7 @@ OnHit: Inflict Primary weapon damage. On Critical, target becomes Prone.|
 A6:Shed Scales
 Melee-Support-Action
 Use: (1/2turns)
-Effect: Inflict (1){MlePwr} damage to yourself and increase your Movement action's uses-per-turn by 1.|
+Effect: Inflict (1){MlePwr} damage to yourself and grant yourself +1 free movement actions each turn.|
 
 A7:Thermal Vision
 Skill-Support-Passive
