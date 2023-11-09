@@ -89,7 +89,7 @@ spend 5AP from their next turn to move out of your space at the end of your turn
 A8: Murder
 Skill-Offensive-Action
 Teamwork: Increase Use by 1/turn.
-Use: (1/turn)
+Use: 3sta+3fcs+(1/turn)
 Range: 0sp
 Solowork: Increase Rank by 1.
 Effect: If the target has less than (2){your SklPwr} Health remaining, their health is reduced to negative its max (dead).|
