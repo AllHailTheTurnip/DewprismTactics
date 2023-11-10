@@ -49,7 +49,7 @@ B Mode
     Accuracy: Melee
     Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts (1){SklPwr} damage.|
 
-A1: Ready Attack
+A1: Counter Attack
 Skill-Support-Action
 Use: 2sta+3fcs
 Effect: Choose an Action-application Ability or basic Action to ready. Treat the readied action as a reaction that

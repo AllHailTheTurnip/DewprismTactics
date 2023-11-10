@@ -45,7 +45,7 @@ Use: 5mna+10AP
 Range: 0sp+{mgc/15} AoE Ray.
 Accuracy: Magic
 Damage: (4){MgcPwr} fire
-Solowork: Damaged target gets Burning (MgcPwr).|
+Solowork: Damaged target gets Burning (2).|
 
 A1:Venom Fangs
 Melee-Offense-Passive

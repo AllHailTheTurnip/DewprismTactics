@@ -201,7 +201,7 @@
     </tr>
     <tr>
         <td>
-            Level
+            Level (CL)
         </td>
         <td>
             Your character level.
@@ -209,6 +209,18 @@
         <td>
             Considered from your class levels, this indicates your
             character's total experience.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Level Bonus (LB)
+        </td>
+        <td>
+            A progress-based score multiplier.
+        </td>
+        <td>
+            If the game uses exponential growth rules, you use the Level Bonus to control the growth
+            of your Vitals and Power scores.
         </td>
     </tr>
     <!-- Vitals.  -->
@@ -233,7 +245,19 @@
         <td>
             As you take damage in combat, your health is reduced. When
             it reaches 0, you're knocked-out.
-            When it reaches negative its original score, you're dead.
+            When it reaches negative-half its original score, you're dead.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Temporary Health
+        </td>
+        <td>
+            Extra health in the form of protection.
+        </td>
+        <td>
+            This health is stacked on top of your normal health. As you take damage, your temporary health is
+            first depleted. Your temporary health lasts until it expires or is used up.
         </td>
     </tr>
     <tr>
@@ -1477,8 +1501,7 @@
                     Failing the Stealth check when moving.
                 </li>
                 <li>
-                    An enemy combatant makes a Skill Accuracy check against
-                    you and succeeds.
+                    An enemy combatant makes a Skill Self-Check and succeeds.
                 </li>
             </ul>
         </td>

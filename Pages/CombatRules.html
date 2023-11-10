@@ -550,11 +550,10 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     <h3>
         Defending with Shield
     </h3>
-    AP Use: 10<br>
-    Declare that you are defending and which shield you'll be using. Add the shield's Protection
-    to your Health until the start of your next turn.<br>
-    The shield's protection score is not damaged by defending - only the bonus health. If the health bonus is depleted,
-    any excess damage rolls over.
+    AP Use: 5<br>
+    Declare that you are defending and which shield you'll be using. Gain temporary health equal to the shield's Protection
+    until the start of your next turn.<br>
+    The shield's protection score is not damaged by defending - only the temp health.
 
     <h3>
         Guarding
@@ -570,30 +569,23 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     AP Cost: 5<br>
     If your space has cover (such as walls or trees),
     declare that you are taking cover and where.
-    While taking cover, make Luck checks against incoming attacks, whereupon
-    success, the attack is considered to have missed. This lasts until
-    the start of your next turn, or until the cover is destroyed.
-    Taking more cover improves your chances of success.
+    While taking cover, grant yourself temporary health equal to {CL}(X5), where X is equal to the cover's rank.<br>
+    If using Exponential growth, increase your temporary health by your {LB}(X5) instead.
     <ul>
         <li>
-            Very Low Cover: Luck: 18
+            Very Low Cover: Rank 1
         </li>
         <li>
-            Low Cover: Luck: 15
+            Low Cover: Rank 2
         </li>
         <li>
-            Medium Cover: Luck: 12
+            Medium Cover: Rank 3
         </li>
         <li>
-            High Cover: Luck: 10
+            High Cover: Rank 4
         </li>
         <li>
-            Very High Cover: Luck: 8
-        </li>
-        <li>
-            Full Cover: Luck: 5
-            You gain full when you're in a fully enclosed area. The doors and windows are shut and no one can see
-            you.
+            Very High Cover: Rank 5
         </li>
     </ul>
 
@@ -643,7 +635,7 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
 
     <hr>
     <h3>
-        Destroy
+        Destroy Item
     </h3>
     AP Cost: 10 <br>
     Declare that you wish to destroy an object.
@@ -653,6 +645,16 @@ If you attack an unsuspecting opponent, either before battle has started, or if 
     Additionally, you can also target environment features such as bushes, small trees, doors,
     pillars, and stairs.
 
+    <h3>
+        Destroying Terrain
+    </h3>
+    AP Cost: 20AP<br>
+    Declare that you want to destroy a piece of the environment, such as a wall, a hill, a large tree,
+    and so forth. Once destroyed, the obstacle is considered to be in multiple pieces, no longer restricting movement.<br>
+    <sub>By prudent measure, differentiate terrain from items as anything that is too heavy for you to lift.</sub><br>
+    Generally speaking, the extent of destruction is limited to the space that the obstacle occupied. For example,
+    if a wall spans across 5 spaces and you attempt to destroy it, then a large hole in the wall will be made in the space
+    you're occupying.
     <hr>
 
     <h3>

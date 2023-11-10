@@ -45,7 +45,7 @@ Teamwork: Ignore the sta and mna Use-cost.
 Use: 10AP+3sta+3mna
 Range: Battlefield AoE Ray
 Effect: Move in a straight path to another end of the battlefield or until
-you would hit an obstacle. Make a Basic attack against up to 1+{TL}
+you would hit an obstacle. Make a free Basic attack against up to 1+{TL}
 enemy Combatants that were in your Ray of range as you moved.|
 
 A2:Scale Armor

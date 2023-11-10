@@ -64,7 +64,7 @@ Use: 5AP+5mna+(3/turn)
 Range: 2sp
 Effect: Create a Marble Wall prop along the border between two connected spaces.
 Combatants cannot move between spaces blocked by a Marble Wall prop.
-Each Marble Wall possesses 15{PL} Health and is Neutral typed.|
+Each Marble Wall possesses 15{CL} Health and is Neutral typed.|
 
 A6: Pull into Microcosm
 Magic-Support-Action
