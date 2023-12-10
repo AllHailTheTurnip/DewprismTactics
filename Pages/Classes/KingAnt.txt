@@ -82,7 +82,7 @@ Use: 5sta+20AP!
 IfKO: Increase cost by 1/battle.
 Effect: Create a Cube prop.
 Remove a cubic meter of material from the surrounding environment.
-Cube prop: For 10AP, can be moved 1sp. Can cover 1 combatant at a time.|
+Cube prop: For 10AP, can be moved 1sp. Can provide Medium cover 1 combatant at a time.|
 
 A7: Odor Trail
 Melee-Support-Action
