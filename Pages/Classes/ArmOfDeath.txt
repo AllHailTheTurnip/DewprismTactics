@@ -32,7 +32,8 @@ Effect: Increase the Range attribute of all your abilities by 1sp.
 Increase the Accuracy check (where applicable) of all affected abilities
 by 3.
 After using an Offensive action, decrease your Evasion scores by 3 until
-the start of your next turn.|
+the start of your next turn.
+"Your transfigured arm possesses an immense scale that makes it especially lethal but also unwieldy."|
 
 A1: Shadow Missile
 Magic-Offensive-Action
@@ -41,29 +42,33 @@ Solowork: Increase Range by 1sp.
 Range: 1sp
 Effect: The target must pay 3sta to make a Magic Evade check.
 If they cannot pay the stamina or fail the Evade check, they are hit.
-Dmg: (3){MgcPwr}|
+Dmg: (3){MgcPwr}
+"A fissure of eviscerating darkness that hones in on your opponent's position."|
 
 A2: Clawed Swipe
 Melee-Offensive-Action
 Use: 10AP+3sta
 Range: 0sp
 Accuracy: Melee
-Variable: X =Make a Luck 10 check, whereupon success you increase the Rank (max 5) of this ability.
-Effect: Execute X and repeat until the Luck check fails. Inflict (1){MlePwr} damage.|
+Variable: X=Make a Luck 10 check, whereupon success you increase the Rank (max 5) of this ability.
+Effect: Execute X and repeat until the Luck check fails. Inflict (1){MlePwr} damage.
+"Your razor-like claws tear flesh and steel alike."|
 
 A3: Absorb Power
 Magic-Support-Action
 Use: 20AP
 Range: 0sp
-Effect: If the combatant is dead, you may increase your Power scores by 1/5 (min 0) of their own.
+Effect: If the combatant is dead, you may increase your Power scores by 1/5 (min 1) of their own.
 Remove the combatant's body from battle.
-IfKO: You may restore an amount of your health equal to 1/4th the target's health.|
+IfKO: You may restore an amount of your health equal to 1/4th the target's health.
+"Their body turns to dust as what little strength they once possessed now belongs to you."|
 
 A4: Destroy
 Melee-Offensive-Action
 Use: 10AP+3sta+3mna
 Range: 0sp
-Effect: Target a structure (wall, ceiling, floor, et cetera), prop, or item in range and destroy it.|
+Effect: Target a structure (wall, ceiling, floor, et cetera), prop, or item in range and destroy it.
+"You conjure a massive blast of energy, totally destroying any obstacles before you."|
 
 A5: Snatch
 Skill-Offensive-Action
@@ -71,20 +76,23 @@ Use: 10AP+(1/turn)
 Range: 1sp
 Accuracy: Skill
 Effect: Move into the same space as the target. Inflict (1){SklPwr} damage.
- Target cannot make actions until the start of their next turn.|
+Target cannot make actions until the start of their next turn.
+"Acting quickly, you seize your opponent in an iron grip."|
 
 A6: Wings
 Magic-Support-Action
 Use: 3mna+(1/turn)
 Effect: You may make Movement actions in any direction, regardless of terrain.
-If you do not pay for this ability again by the end of your next turn, you fall to the ground.|
+If you do not pay for this ability again by the end of your next turn, you fall to the ground.
+"A pair of red wings from an uncertain material extend from your back, granting you flight."|
 
 A7: Aura of the Apex Predator
 Melee-Support-Passive
 Range: 0sp
 IfKO: This remains in effect while KO.
 Effect: While your remaining Health is above 50% of its max, enemy combatants must
-spend 5AP from their next turn to move out of your space at the end of your turn.|
+spend 5AP from their next turn to move out of your space at the end of your turn.
+"Your presence has a certain energy to that makes lesser people flee for their lives."|
 
 A8: Murder
 Skill-Offensive-Action
@@ -92,7 +100,8 @@ Teamwork: Increase Use by 1/turn.
 Use: 3sta+3fcs+(1/turn)
 Range: 0sp
 Solowork: Increase Rank by 1.
-Effect: If the target has less than (2){your SklPwr} Health remaining, their health is reduced to negative its max (dead).|
+Effect: If the target has less than (2){your SklPwr} Health remaining, their health is reduced to negative its max (dead).
+"With cold indifference you purge the weak."|
 
 A9: Invoke Wrath
 Skill-Support-Reaction
@@ -101,12 +110,14 @@ Teamwork: Improve difficulty of Evade by 3.
 Evade: Skill
 Effect: The targeted enemy is marked with Wrath.
 Wrath mark: You may only move towards or make actions against the creator of this mark.
-If you succeed in afflicting a negative status affect or inflicting damage, this mark is removed.|
+If you succeed in afflicting a negative status affect or inflicting damage, this mark is removed.
+"After killing their most precious friend, you see a darker side of them that wasn't there before."|
 
 MA1: Invulnerable
 Melee-Defensive-Action
 Use: (1/battle)
-Effect: For the next 2 turns all taken damage is reduced by (5) ranks.|
+Effect: For the next 2 turns all taken damage is reduced by (5) ranks.
+"You cannot defeat me."|
 
 MA2: Provoke to Unhinged Rage
 Skill-Offensive-Reaction
@@ -114,13 +125,15 @@ Trigger: You kill a combatant.
 Range: 3sp
 Effect: Afflict a target of your choice with the Unhinged Rage (5) status.
 Combats with the Unhinged Rage X status must inflict X ranks of damage against you (the afflicter)
-each turn or else they self-inflict (3){SklDmg}.|
+each turn or else they self-inflict (3){SklDmg}.
+"Robbed of everything but hatred, the real fight begins."|
 
 MA3: Deathly Grip II
 Melee-Support-Passive
 Effect: Increase the Range attribute of all your abilities by 1sp.
 Increase the Accuracy check (where applicable) of all affected abilities
-by 3.|
+by 3.
+"No matter how beautiful your play, Death wins in the end."|
 
 
 

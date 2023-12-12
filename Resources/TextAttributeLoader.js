@@ -4,6 +4,7 @@ function GetTxtAttribute(attr) {
 
     const suffix = ':'
     const endl = '|';
+    const flavor = "~~~";
 
     attr = attr + suffix;
 

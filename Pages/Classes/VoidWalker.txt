@@ -1,0 +1,171 @@
+Title: Void Walker|
+Subtitle: A Supernatural Assassin.|
+Description: The Void Walker uses a combination of deadly weapons
+ and otherworldly powers to slay their targets. Aside from being strong in mid-to-long combat, they also possess an
+ arsenal of unique abilities to make them both versatile and unpredictable.
+    Void Walkers distinguish themselves from plain magical assassins by the mark upon
+    their forehead - the mark of Enmity. Thanks to their pact, they can flash across the battlefield in instant,
+    possess the minds of others, summon swarms of pestilence, and even freeze time.
+    People have communed with Enmity since days of hunter-gatherers, but it wasn't
+    until the turn of the millennium that men began making pacts with him. Awaking
+    from restless dreams, they were equipped with wondrous and terrifying powers.
+    Yet throughout all times in all places, a single constant has been observed:
+    a Void Walker's tooth is always turned towards the powerful.|
+
+VITALS
+Health: 25|
+Mana: 20|
+Stamina: 18|
+Focus: 18|
+
+SCORES
+Initiative: 12|
+Carry: 5u|
+Element: Dark|
+
+STATS
+Melee: (Power: 3, Evasion: 8, Accuracy: 2)|
+Magic: (Power: 6, Evasion: 8, Accuracy: 0)|
+Skill: (Power: 5, Evasion: 12, Accuracy: 2)|
+
+Abilities
+Doctrine: Enmity's Pact
+Magic-Support-Passive
+Effect: You cannot regain Health, Stamina, Mana, or Focus during combat.
+Teamwork modifiers for your abilities no longer activate.
+You may now attack every combatant within an action's range as if it was AoE.
+"You asked for power and I've given it to you - all I ask for in return is the time
+you hoped to gain with it."|
+
+A1: Wristbow
+Skill-Offensive-Item
+You are granted 3x Standard Darts, 2x Needle Darts, and 2x Poison Darts.
+At CL 5 you gain: +1x Needle Dart, +1x Poison Dart, and 2x Incendiary Darts.
+Non-Standard Darts become Standard Darts after their first use. Roll Harvest 10 to retrieve a dart after use.
+Needle Darts cannot be recovered after use; they're too fragile.
+Wristbow (Type: Skill, WC: VL, Use: (2/turn), Rank: NA; Range: 3sp, Artisan 5, only uses Darts)
+Standard Dart: (Rank: 3 metal)
+Needle Dart: (Rank: 2, inflicts Bleeding {SklPwr})
+Poison Dart: (Rank: 1; inflicts Poison (2){SklPwr})
+Incendiary Dart: (Rank: 2, inflicts Burning 5)
+"As their fellow guard fell to the ground, they saw the bolt embedded in his back.
+When they looked behind to see who had shot it, the assassin was already gone."|
+
+A2: Hailfire Trap
+Skill-Offensive-Item
+Effect: You are granted 3+{TL/10} Hailfire Traps props.
+It costs 5AP to plant one of these props. They can stick to any solid surface.
+A Skill 10+{Creator's SklAcc/5} check is required to spot and approach the device
+without it exploding. A Skill 15 check is required to disarm the trap; rolling
+5 or below causes it to explode with critical damage.
+Hailfire Trap: When an enemy combatant enters the same space as this prop, it
+ violently explodes, inflicting (5){SklPwr} metal damage to all combatants in
+ the space.
+"As if aware of the person near, the unsuspecting wad of shrapnel and putty exploded.
+When the smoke cleared the mass of flesh and blood on the floor was unrecognizable,
+while every other inch in the room was perforated."|
+
+A3: Bone Rune - Agility
+Magic-Support-Item
+Effect: At the beginning of combat 1x Bone Rune of Agility is added to your inventory.
+Bone Rune of Agility: While in your inventory, improve your Movement Action cost by (1/turn)
+Agility-checks automatically succeed. You gain Disadvantage on all your Luck checks.
+"An old rib bone with several strange runes carved into it.
+If you listen closely, you can hear a strange hissing noise coming from it.
+In exchange for improved agility and speed, the user is consigned to ill fortune."|
+
+A4: Bone Rune - Strength
+Magic-Support-Item
+Effect: At the beginning of combat 1x Bone Rune of Strength is added to your inventory.
+Bone Rune of Strength: While in your inventory, improve your Melee-Power by 2 points.
+Increase the damage you take by {MlePwr}.
+"An old piece of human skull with runes carved on the inside.
+Users of the rune have been known to die in terrible, bloody battles."|
+
+A5: Conjure Pestilence
+Magic-Offensive-Action
+Use: 10AP+3mna
+Range: 2sp
+Evasion: Magic
+Effect: Destroy all consumable items within a combatant's inventory.
+"Wounded, the guard reached into his pocket for a healing elixir - but
+when he pulled the stopper, there was nothing inside but ashes..."|
+
+A6: Constrain
+Magic-Support-Action
+Use: 10AP+3mna+2fcs
+Range: 2+{TL/5}sp
+Evasion: Magic-3
+Effect: The targeted combatant's MleEva score is reduced to 0 until the
+end of their next turn.
+"The assassin reached out a hand as if to grab the air - and suddenly the Duke was
+done on his knees, seemingly bound by invisible chains."|
+
+A7: Flash Step
+Magic-Support-Action
+Use: 3mna+(3/turn)
+Range: 2sp+{CL/2}
+Effect: Instantly move in a straight line in any direction.
+This effect cannot trigger enemy abilities.
+"And in the blink of an eye, he was gone..."|
+
+A8: Premonition
+Magic-Support-Action
+Use: 5mna
+Effect: Replace your next check with a Luck 15-{TL/2} check (this can be stacked).
+"Surrounded on all sides, the assassin was finished - but as their spears went for the kill,
+none of them hit their mark. It was as if he already saw their attack before they even thought of them."|
+
+A9: Doppelganger
+Magic-Defense-Action
+Use: 10AP+5mna
+Range: 5sp
+Effect: Create two Doppelganger props anywhere within range.
+A Doppelganger is an animated clone of yourself. If it is attacked, it is destroyed.
+Increase your Evasion scores by 3 until the start of your next turn.
+If you would take damage before your next turn, negate the damage, and swap
+places with the Doppelganger prop of your choice; the remaining prop are destroyed.
+"I spent the whole night talking to her. But when I looked out the window I saw
+a woman who looked exactly like her - her clone. When I turned back to ask about it,
+the knife was already at my throat."|
+
+MA1: Freeze Time
+Magic-Offensive-Action
+Cost: 15AP+10mna+(3/battle)
+Effect: All other combatants are frozen in time; their Evasion scores are treated as 0.
+Any of their Reaction-type abilities cannot trigger and their Passive abilities are disabled until
+the end of your turn.
+Any damage inflicted automatically counts as critical.
+You gain an additional 20AP.
+"The massacre is still a mystery - at one moment the assassin was cornered, wounded
+and exhausted - but in the blink of an eye everything changed. Twenty men lay dead
+and the assassin was gone for good."|
+
+MA2: Possession
+Magic-Offensive-Action
+Cost: 12mna+(1/battle)
+Range: 3sp
+Duration: (3) full turns.
+Effect: Effectively combine your combatant with the target combatant by removing your token from
+the battlefield and seizing control of the target combatant.
+Until the end of your turn, you have access to all of the target's abilities and actions, including
+your own abilities. When the ability expires, your token is returned to the battlefield
+in the same space as the targeted combatant. If the targeted combatant dies while in your possession, you die also.
+"My friend returned from his bathroom break, but he was acting odd, as if he didn't recognize me or his surroundings.
+Explaining he'd slipped and hit his head, I helped him inside the fort. Shortly afterwards, I heard the
+assassin had gotten in and killed five men... "|
+
+MA3: Enter the Void
+Magic-Support-Action
+Use: 15mna+(1/turn)
+Duration: (1) full turn
+Range: 3sp sphere AoE
+Effect: Until the ability expires, all attack actions you execute within range
+automatically hit with critical damage.
+"No man can defeat a dragon - or so I naively thought. When the assassin put his hands
+together, an aura of darkness surrounded him in the courtyard, encircling the dragon within.
+As it raised its head to roar, the assassin swung his blade through the air - and though
+they were forty feet apart, the dragon's head still fell from the base of its serpentine neck."|
+
+
+

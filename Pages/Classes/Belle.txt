@@ -43,36 +43,38 @@ Doctrine:Eruption
 Magic-Offensive-Action
 Use: 15AP+7mna
 Solowork: Increase Range by 1sp.
-Range: 0sp AoE
-Evade: Magic
-OnHit: Target takes (3){MgcPwr} damage.|
+Range: {TL/4}sp AoE
+Evade: Magic+{CL}
+OnHit: Target takes (3){MgcPwr} damage.
+"Unable to bottle your fury, an inferno pours out from you."|
 
 A1:Burning Shield
 Magic-Defensive-Action
 Use: 10AP+5mna
 Range: 2sp
 Effect: Give yourself three Shield props. Each prop follows you wherever you go.
-After two rounds, pick a unique target for each Shield prop to target;
-extra props simply vanish.
+After two rounds, pick a unique target for each Shield prop to target; extra props simply vanish.
 Make a Magic Accuracy check against each target;
 on hit, inflict (1){MgcPwr} damage and destroy the prop.
-If an enemy combatant enters into your space before the Props are fired,
-inflict (1){MgcPwr} damage and destroy the prop.|
+If an enemy combatant enters into your space before the Props are fired inflict (1){MgcPwr} damage and destroy the prop.
+"Fire can protect as well as destroy."|
 
 A2:Missile
 Magic-Offensive-Action
 Use: 10AP+3mna
 Range: 2sp
 Effect: Target every enemy combatant in a space within range. Each targeted combatant
- makes a Magic Evade check. On hit, they take (2){MgcPwr} damage.|
+ makes a Magic Evade check. On hit, they take (2){MgcPwr} damage.
+"Rain burning hell upon your opponents."|
 
 A3:Solar Ray
 Magic-Offensive-Action
 Use: 10AP+7mna
-Range: 2sp Circle
+Range: 2sp Circle AoE
 Evade: Magic
 Teamwork: Increase the rank for this attack by 3 ranks.
-Effect: Target gets Burning (2).|
+Effect: Target gets Burning (2).
+"Gathering power from yourself and your allies, you unleash a beam of burning light."|
 
 A4:Pillars of Fire
 Magic-Offensive-Action
@@ -80,14 +82,16 @@ Use: 10AP+5mna
 Range: Battlefield
 Effect: Choose three connected spaces along the battlefield. Every enemy
 combatant within those spaces makes a Melee Evade check, whereupon failure are
-inflicted with (1){MgcPwr} and take Burning (1).|
+inflicted with (1){MgcPwr} and take Burning (1).
+"Stomping your foot, the battlefield quakes as burning fissures sprout from the earth."|
 
 A5:Burning Shuriken
 Magic-Offensive-Action
 Use: 5AP+3mna+3fcs
 Range: 1sp
 Accuracy: Magic
-OnHit: Inflict (1){MgcPwr} fire damage.|
+OnHit: Inflict (1){MgcPwr} fire damage.
+"A small burst of flame that scorches the flesh."|
 
 A6:Flamethrower
 Magic-Offensive-Action
@@ -95,41 +99,54 @@ Use: 15AP+7mna
 Range: 1sp
 Effect: Target two touching spaces within range and place a Fire prop
 in each space. Combatants in a targeted space must make a Melee Evade check or
-else get Burning {MgcPwr/10}. Combatants that enter a space with a Fire prop
-must also make a similar check, or else catch on fire.|
+else get Burning ({MgcPwr/10}). Combatants that enter a space with a Fire prop
+must also make a similar check, or else get Burning ({MgcPwr/10}).
+"With both your palms placed in front of you, a stream of burning fuel spills out over the battlefield."|
 
 A7:Ignite
 Magic-Offensive-Action
 Use: 5AP+1mna
 Range: 0sp
-Accuracy: Melee
 IfKO: Make a Luck 10 check to proceed.
 Effect: Target gets Burning (1).
-Solowork: If target is already burning, increase the Rank by 2.|
+Solowork: If target is already burning, increase the Rank by 2.
+"One spark is all it takes for things to lose control."|
 
 A8:Channel Power
 Magic-Offensive-Action
 Use: 5mna+(1/turn)
 IfKO: Increase cost by 2mna.
 Effect: Increase the Rank of your next action by 1.
-Teamwork: Reduce the Critical Threshold of your next action by TmWrk.|
+Teamwork: Reduce the Critical Threshold of your next action by TmWrk.
+"Reaching inside, you find your well of power."|
 
 A9:Backflip
 Melee-Defensive-Reaction
 Trigger: You end your turn.
 Use: 3sta
-Effect: Make a free movement action.|
+Effect: Make a free movement action.
+"You quickly leap out of the area before the next volley can get you."|
 
 MA1: Dominant
 Magic-Support-Passive
-Effect: During your turn you gain 10AP that can be used through any allie combatants in your space.|
+Effect: At the beginning of your turn you gain 10AP+3sta+3mna+5fcs that can be used through any allie combatants in your space.
+Regardless of consent, you may choose one of their actions abilities or actions and have them execute it.
+This doesn't subtract from their resource pool or from your own; any leftover AP, stamina, mana, or focus from this
+ability is lost.
+"Your commanding presence compels those around you to obey your orders."|
 
 MA2: Amaterasu
 Magic-Offensive-Passive
-Effect: Any Burning statuses inflicted by this user cannot be reduced in rank or extinguished.|
+Effect: Any Burning statuses inflicted by this user cannot be reduced in rank or extinguished.
+Magic-Offensive-Action
+Cost: 5mna
+Range: 3sp AoE
+Effect: enemies with the Burning status increase the rank of their Burning status by 2.
+"A black fire that burns ice-cold yet devours everything it touches."|
 
 MA3: Ugly Slap
 Melee-Offensive-Action
 Use: 10AP+(1/2turn)
 Range: 0sp
-Effect: Inflict (3){MlePwr} dmg and subtract 10AP from the target's next turn.|
+Effect: Inflict (3){MlePwr} dmg and subtract 10AP from the target's next turn.
+"You slap the person so hard they are not only knocked to the ground but are deeply humiliated."|
