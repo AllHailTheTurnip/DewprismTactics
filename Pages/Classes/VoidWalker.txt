@@ -32,6 +32,7 @@ Abilities
 Doctrine: Enmity's Pact
 Magic-Support-Passive
 Effect: You cannot regain Health, Stamina, Mana, or Focus during combat.
+Solowork: Increase you Evasion checks by 2.
 Teamwork modifiers for your abilities no longer activate.
 You may now attack every combatant within an action's range as if it was AoE.
 "You asked for power and I've given it to you - all I ask for in return is the time
@@ -76,8 +77,9 @@ In exchange for improved agility and speed, the user is consigned to ill fortune
 
 A4: Bone Rune - Strength
 Magic-Support-Item
+Solowork: Increase the rank of your unarmed attacks by 2.
 Effect: At the beginning of combat 1x Bone Rune of Strength is added to your inventory.
-Bone Rune of Strength: While in your inventory, improve your Melee-Power by 2 points.
+Bone Rune of Strength: While in your inventory, improve your Melee-Power by (1){25}%.
 Increase the damage you take by {MlePwr}.
 "An old piece of human skull with runes carved on the inside.
 Users of the rune have been known to die in terrible, bloody battles."|
@@ -87,6 +89,7 @@ Magic-Offensive-Action
 Use: 10AP+3mna
 Range: 2sp
 Evasion: Magic
+Teamwork: Target gains Poisoned {SklPwr}
 Effect: Destroy all consumable items within a combatant's inventory.
 "Wounded, the guard reached into his pocket for a healing elixir - but
 when he pulled the stopper, there was nothing inside but ashes..."|
@@ -96,14 +99,14 @@ Magic-Support-Action
 Use: 10AP+3mna+2fcs
 Range: 2+{TL/5}sp
 Evasion: Magic-3
-Effect: The targeted combatant's MleEva score is reduced to 0 until the
-end of their next turn.
+Effect: The targeted combatant's MleEva score is reduced to 0 until the end of their next turn.
 "The assassin reached out a hand as if to grab the air - and suddenly the Duke was
 done on his knees, seemingly bound by invisible chains."|
 
 A7: Flash Step
 Magic-Support-Action
 Use: 3mna+(3/turn)
+IfKO: Increase cost by 20AP.
 Range: 2sp+{CL/2}
 Effect: Instantly move in a straight line in any direction.
 This effect cannot trigger enemy abilities.
@@ -111,8 +114,9 @@ This effect cannot trigger enemy abilities.
 
 A8: Premonition
 Magic-Support-Action
+Teamwork: You may replace the use-cost with 5sta.
 Use: 5mna
-Effect: Replace your next check with a Luck 15-{TL/2} check (this can be stacked).
+Effect: Replace your next check with a Luck 15-{CL, max 10} check (this can be stacked).
 "Surrounded on all sides, the assassin was finished - but as their spears went for the kill,
 none of them hit their mark. It was as if he already saw their attack before they even thought of them."|
 
@@ -120,6 +124,7 @@ A9: Doppelganger
 Magic-Defense-Action
 Use: 10AP+5mna
 Range: 5sp
+IfKO: Increase cost by (1/battle).
 Effect: Create two Doppelganger props anywhere within range.
 A Doppelganger is an animated clone of yourself. If it is attacked, it is destroyed.
 Increase your Evasion scores by 3 until the start of your next turn.

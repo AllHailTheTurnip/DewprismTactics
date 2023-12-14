@@ -897,7 +897,7 @@
         </td>
         <td>
             Choose one of the presented modes and follow through with
-            the instructions.<br>
+            the instructions.</br>
             Conclusion is done at the end, no matter which Mode you
             chose.
         </td>
@@ -912,8 +912,25 @@
         <td>
             Some abilities have a duration modifier, which indicates the conditions
             for which an ability (or an aspect thereof) expires. This can be a
-            measure of turns, certain events, or when a stat drops low enough.<br>
+            measure of turns, certain events, or when a stat drops low enough.</br>
             When a duration is complete, it's called expiration.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Repeat/EndRepeat
+        </td>
+        <td>
+            A counter used for executing portions of an ability multiple times.
+        </td>
+        <td>
+            The repeat modifier indicates that any instructions following it should
+            be executed to their fullest before being executed again. The modifier
+            possesses a condition indicating when to stop repeating - typically,
+            an amount that counts down to 0.</br>
+            Some abilities also have an EndRepeat modifier which encloses which instructions
+            intended to be repeated; everything after the EndRepeat modifier is only ran once the
+            repeat has finished.
         </td>
     </tr>
     <tr>

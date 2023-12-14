@@ -33,7 +33,8 @@ Increase the Accuracy check (where applicable) of all affected abilities
 by 3.
 After using an Offensive action, decrease your Evasion scores by 3 until
 the start of your next turn.
-"Your transfigured arm possesses an immense scale that makes it especially lethal but also unwieldy."|
+"The stranger's right was immense and claw-like, like something terrible out of a nightmare
+realized in physical form."|
 
 A1: Shadow Missile
 Magic-Offensive-Action
