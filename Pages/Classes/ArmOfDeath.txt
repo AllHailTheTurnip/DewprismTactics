@@ -33,7 +33,7 @@ Increase the Accuracy check (where applicable) of all affected abilities
 by 3.
 After using an Offensive action, decrease your Evasion scores by 3 until
 the start of your next turn.
-"The stranger's right was immense and claw-like, like something terrible out of a nightmare
+"The stranger's right arm was immense and claw-like, like something terrible out of a nightmare
 realized in physical form."|
 
 A1: Shadow Missile
