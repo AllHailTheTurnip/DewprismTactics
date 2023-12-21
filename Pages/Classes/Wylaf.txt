@@ -125,9 +125,9 @@ Teamwork: You may replace the Use-cost with 1/2turn.
 Use: 20AP+7mna
 IfKO: Increase Use cost by 7mna.
 Range: 1sp AoE circle
-Evade: Melee
+Evade: Melee+3
 OnHit: Combatant take 10{TL} damage.
-"Nearly defeated, the dragon knight stood tall once last time and called forth for the winds to obey him.
+"Nearly defeated, the dragon knight stood tall one last time and called forth for the winds to obey him.
 The winds answered, at which a wind unlike anything ever seen before fell upon the battlefield and struck
 his enemies to the ground."|
 

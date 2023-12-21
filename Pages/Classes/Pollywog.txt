@@ -36,69 +36,89 @@ Doctrine: Elemental Adaptation
     Effect: Change your base element to either fire, water, or wind.
     Mode B:
     Use: 5AP+7mna.
-    Effect: Change your base element to either darkness, light, electric, or metal.|
+    Effect: Change your base element to either darkness, light, electric, or metal.
+    "They're an odd but resilient people. Be it swamps, desert, ashlands, or caves, they adapt and survive."|
 
 A1: Hover
     Skill-Support-Passive
     IfKO: Spend 10AP+7sta to move 1sp in addition to this ability's effect.
-    Effect: Your movement is unaffected by difficult or dangerous terrain, even while swimming.|
+    Effect: Your movement is unaffected by difficult or dangerous terrain, even while swimming.
+    "With a grace that betrays their lanky stature, they move through every terrain as if born in it."|
+
 A2: Quick Slap
     Melee-Offensive-Action
     Use: 5AP
     Teamwork: You may change the element of this attack to your base element.
-    Make an unarmed water-element attack.|
+    Make an unarmed water-element attack.
+    "He literally slapped me in the face with an old fish. I'm fine, but the shame will follow me to the grave."|
+
 A3: Chomp
     Melee-Offensive-Action
     Use: 10AP
     Range: 0sp
     Variable: X = neutral.
     Solowork: remove X.
-    Enemy takes (1){MlePwr} X damage.|
+    Enemy takes (1){MlePwr} X damage.
+    "With iron stomachs, the Pollywog folk feast on anything that moves."|
+
 A4: Lay Egg
     Skill-Support-Action
     Use: 5Fcs+(1/battle)
     IfKO: Increase Cost by 20AP.
     Place an Egg prop at your feet.
     Upon your death, the egg hatches and you respawn at the Puddle - all your Vital scores and status effects
-    are restored to their battle-start states.|
+    are restored to their battle-start states.
+    "Yes, Pollywogs are mammalian. Despite that, they sometimes do something unnatural."|
+
 A5: Water Gun
     Skill-Offensive-Action
     Cost 10AP + 3Fcs
     Range: 1sp
     Accuracy: Skill
-    OnPass: Target takes (3){SklPwr} water dmg.|
+    OnPass: Target takes (3){SklPwr} water dmg.
+    "A tradition passed down from generation to generation is the art of hunting with a mouthful of water."|
+
 A6: Follow
     Melee-Support-Reaction
     Trigger: An allie makes a movement action.
     Use: 2Sta
-    Make a free movement action to follow in their direction.|
+    Make a free movement action to follow in their direction.
+    "They often travel in groups - not just for safety, but for companionship."|
+
 A7: Hide
     Melee-Defensive-Reaction
     Trigger: A combatant's turn begins.
     Use: 5Sta
-    You may gain Stealth status and make a free movement action.|
+    You may gain Stealth status and make a free movement action.
+    "I wasn't paying attention, but one second he was there, and the next he was gone."|
+
 A8: Nurture
     Magic-Support-Action
     Use: 10AP+3sta
     Range: 0sp
     Teamwork: Rank is equal allies in space (max 3).
-    Restore (0){MgcPwr} Health to an ally.|
+    Restore (0){MgcPwr} Health to an ally.
+    "A squad of Pollywogs is a hardy force."|
+
 A9: Regroup
     Magic-Support-Action
     Use: 5Mna
-    Choose an allie to be given a Regroup token. The user of the token may destroy the token and teleport beside the token's donor.|
+    Choose an allie to be given a Regroup token. The user of the token may destroy the token and teleport beside the token's donor.
+    "Contrary to modern people, Pollywogs instinctively group together in response to threats."|
 
 MA1: Gigantism
 Melee-Support-Passive
 Effect: You now as tall as (1)sp and are considered large enough to climb for 10AP.
 Increase your Melee power by (1){50}%.
-All range variables for all abilities (including movement) are increased by (1)sp.|
+All range variables for all abilities (including movement) are increased by (1)sp.
+"Legend has it that during prehistoric times, the early Pollywog people grew to tremendous sizes."|
 
 MA2: Rapid Adaptation
 Skill-Defensive-Reaction
 Trigger: You take damage.
 Effect: You are now immune to damage that shares the element of the attack (this includes neutral and noble)
-You can be immune up to (3) kinds of elements at once; the newest immunity overwrites the oldest.|
+You can be immune up to (3) kinds of elements at once; the newest immunity overwrites the oldest.
+"Unless his attacker is creative, a Pollywog warrior is nigh indestructible."|
 
 MA3: Abiogenesis
 Melee-Support-Passive
@@ -106,5 +126,6 @@ Effect: At the beginning of combat create a Puddle prop in your starting space.
 At the beginning of each turn make a Luck 15 check, whereupon success a new Pollywog combatant is created at the Puddle prop.
 The Pollywog combatant is the same level as Puddle prop's creator, but possesses only the Pollywog class and as such
 will have Scores, Stats, and Abilities reflecting it.
-The new Pollywog combatant rolls for initiative and is under the control of the Puddle prop's creator.|
+The new Pollywog combatant rolls for initiative and is under the control of the Puddle prop's creator.
+"The Pollywog creation myth says that life first began in the swamps."|
 
