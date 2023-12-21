@@ -54,6 +54,7 @@ A4: Reckless Shove
     Melee-Offensive-Action
     Teamwork: You may replace the Use cost with 5AP+5sta.
     Use: 10AP
+    Range: 0sp
     Accuracy: Melee
     Damage: (1){MlePwr}
     Luck: 10
