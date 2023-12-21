@@ -101,7 +101,7 @@ Range: 2+{TL/5}sp
 Evasion: Magic-3
 Effect: The targeted combatant's MleEva score is reduced to 0 until the end of their next turn.
 "The assassin reached out a hand as if to grab the air - and suddenly the Duke was
-done on his knees, seemingly bound by invisible chains."|
+down on his knees, seemingly bound by invisible chains."|
 
 A7: Flash Step
 Magic-Support-Action

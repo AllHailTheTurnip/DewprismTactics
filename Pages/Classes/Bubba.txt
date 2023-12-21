@@ -24,7 +24,7 @@ Carry: 15u|
 Element: Dark|
 
 STATS
-Melee: (Power: 7, Evasion: 5, Accuracy: -5)|
+Melee: (Power: 7, Evasion: 5, Accuracy: 0)|
 Magic: (Power: 3, Evasion: 8, Accuracy: 0)|
 Skill: (Power: 3, Evasion: 5, Accuracy: -2)|
 
@@ -35,15 +35,15 @@ Variable: X =0.
 Solowork: Increase X by 3.
 Effect: Increase the Rank of your Melee-type attacks by 1.
 Reduce your Melee and Skill evasion to {X}.
-Melee self-checks ignore Accuracy modifier.|
+Melee Accuracy checks take -5.|
 
 A1: Downward Strike
-IfKO: This ability becomes a Reaction, where the trigger is "You gain the knocked-out status."
+IfKO: Upon falling unconscious, you may instantly use this ability once for free.
 Melee-Offensive-Action
 Use: 10AP+10sta
 Range: 0sp
 Accuracy: Melee
-Effect: Make a Basic Attack with +1 Rank and +3 crit-range. End your turn.|
+Effect: Make a Basic Attack with +(1) Rank and +3 crit-range. End your turn.|
 
 A2: Headbutt
 Melee-Offensive-Action

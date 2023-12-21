@@ -18,7 +18,7 @@ Stamina: 20|
 Focus: 10|
 
 SCORES
-Initiative: 0|
+Initiative: 5|
 Carry: 15u|
 Element: Fire|
 

@@ -10,7 +10,7 @@ Stamina: 5|
 Focus: 5|
 
 SCORES
-Initiative: 5|
+Initiative: 7|
 Carry: 10u|
 Element: Neutral|
 
