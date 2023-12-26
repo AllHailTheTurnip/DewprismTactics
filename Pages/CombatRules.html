@@ -115,9 +115,33 @@
             The attack has a range but ignores walls and combatants standing between you and your target.
         </li>
     </ul>
-    Unless specified, if an ability only has range specified, assume it's a projectile. If it has neither
-    range nor targeting parameter, assume it is melee. Finally, if the ability itself has no range attribute,
-    then the effect is universal - meaning it is uninhibited by range.
+       <h4>Range Specifiers</h4>
+       Range specifiers often have a minimum and maximum range. These specifiers follow a common format.
+       <ul>
+           <li>
+               X - meant to be read as "up to X". You can target enemies up to X spaces away.
+           </li>
+           <li>
+               X-Y - anywhere between the minimum X and the maximum Y. Anything too close or too far away cannot be targeted.
+           </li>
+           <li>
+               =X - you can only target combatants exactly X spaces away.
+           </li>
+           <li>
+               -Y - otherwise read as 0-Y. The target has to be equal to or closer than Y spaces.
+           </li>
+           <li>
+               X- - target must be at least X spaces away, but no closer.
+           </li>
+           <li>
+               !X - the opposite of =X; the target cannot be X spaces away.
+           </li>
+       </ul>
+        <p>
+            Some abilities can increase (or decrease) the range of an ability. Unless otherwise specified as min or max,
+            assume that it only targets the maximum range.
+        </p>
+
 
     <h3>
         Area of Effect (AoE)
@@ -125,9 +149,12 @@
     Some abilities have a Range modifier called AoE. These abilities target whichever enemies are within the specified space, instead of a specific target. In addition, AoE range tends to have
     shape-specifiers that describe a pattern, such as a circle, a cone, or a ray.
         <p>
-        If your AoE ability makes an Accuracy check, then the check is to be made against <i>every</i> targeted combatant. With every passed check, affected enemies take damage as normal.
+        If your AoE ability makes an Accuracy check, then the check is to be made against <i>every</i> targeted combatant within the designated space(s). With every passed check, affected enemies take damage as normal.
         However, if your AoE has an Evade check, then all targeted enemies make Evade checks instead.
         </p>
+       <p>
+           Unless otherwise denoted with the Smart modifier, assume that an AoE effect targets enemies and allies the same.
+       </p>
 
     <h3>
         Initiative

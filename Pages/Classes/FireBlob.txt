@@ -67,8 +67,7 @@ A4: Scorching Touch
 IfKO: Treat this ability as Passive with no trigger.
 Magic-Offensive-Reaction
 Trigger: An enemy in the same space succeeded in an Accuracy check against you.
-Luck: 10
-Effect: The enemy gets Burning {MgcPwr/10}|
+Effect: The enemy gets Burning (1)|
 
 A5: River of Magma
 Magic-Offensive-action

@@ -127,5 +127,5 @@ At the beginning of each turn make a Luck 15 check, whereupon success a new Poll
 The Pollywog combatant is the same level as Puddle prop's creator, but possesses only the Pollywog class and as such
 will have Scores, Stats, and Abilities reflecting it.
 The new Pollywog combatant rolls for initiative and is under the control of the Puddle prop's creator.
-"The Pollywog creation myth says that life first began in the swamps."|
+"The Pollywog origin myth says that life first began in the swamps."|
 
