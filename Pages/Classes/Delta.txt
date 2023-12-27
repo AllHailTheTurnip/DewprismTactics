@@ -70,7 +70,7 @@ Reducing incoming AoE-ranged damage by {Pressure}.
 After taking AoE-ranged damage, increase the Pressure counter by 1.
 This marker expires at the beginning of your next turn when a fresh marker is created.
 "That's your misconception. These monsters were born in darkness at the bottom of the ocean -
-immense pressure is part of their natural environment."|
+immense pressure is their natural habitat."|
 
 A4: Life Pact
 Melee-Defensive-Passive

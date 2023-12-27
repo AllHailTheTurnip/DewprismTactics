@@ -32,24 +32,28 @@ Doctrine: Self Resurrection
     IfKO: Increase Use cost by 5mna+5sta.
     Your corpse is given a Revival counter 2.
     Revival counter: At the end of each round, reduce counter by 1.
-    At 0, you revive with fully restored Vital scores.|
+    At 0, you revive with fully restored Vital scores.
+    "The Skull Beasts are neither dead nor alive - ultimately, they are inevitable. "|
 A1: Upscale
     Magic-Support-Action
     Use: 7mna+(1/3turn).
     Teamwork: Reduce the (1/3turn) to (1/2turn).
-    Reduce your MleEva by 5 and increase your MlePwr by 2 levels.|
+    Reduce your MleEva by 5 and increase your MlePwr by 2 levels.
+    "The first Skull Beasts were larger than life monsters."|
 A2: Full Charge
     Melee-Offensive-Action
     Solowork: You may add 5sta to the Use-cost and increase the Rank of this action by 1.
     Use: 15AP+5sta
     For the duration of this action you are unaffected by difficult terrain.
     Make a free movement action.
-    Make a Melee check against any combatants you enter into the space of; on hit, they take (2){MlePwr} neutral damage.|
+    Make a Melee check against any combatants you enter into the space of; on hit, they take (2){MlePwr} neutral damage.
+    "Unhinged and unbound, the Skull Beast warrior took off with a stampede."|
 A3: Enormous Leap
     Melee-Supportive-Action
     Use: 2sta
     Range: 1+{CL/3}sp LoS
-    Ignore a surface's elevation and jump up (or down) to it.|
+    Ignore a surface's elevation and jump up (or down) to it.
+    "We had the high-ground; victory was supposed to be ours. But in an instant the Skull Beast had ascended."|
 A4: Reckless Shove
     Melee-Offensive-Action
     Teamwork: You may replace the Use cost with 5AP+5sta.
@@ -58,15 +62,18 @@ A4: Reckless Shove
     Accuracy: Melee
     Damage: (1){MlePwr}
     Luck: 10
-    OnPass: The enemy is knocked prone
-    OnCrit: The enemy is moved away from you by 1sp.|
+    OnPass: The target is knocked prone
+    OnCrit: You may make a free basic attack.
+    "It was a wild shove that left us on our backs and winded."|
 A5: Jump Back
     Melee-Defensive-Reaction
     Trigger: User falls into a bottomless pit.
     Use: 3Sta
     Luck: 5
     OnPass: Make a free movement action out of the pit from where you fell.
-    OnCrit: User may also make a free action.|
+    OnCrit: User may also make a free action.
+    "In an act of self-sacrifice, the bridge was destroyed and the Skull Beast fell with it... yet mere moments later
+    the Skull Beast crawled back up. How many lives have we wasted trying to kill that monster?"|
 A6: Firebreath
     Magic-Offensive-Action
     Use: 10AP+7Mna
@@ -74,40 +81,51 @@ A6: Firebreath
     Range: 0sp
     Make an Accuracy check against (up to) three unique targets.
     Accuracy: Magic
-    OnHit: targets take (3){MgcPwr} fire damage.|
+    OnHit: targets take (3){MgcPwr} fire damage.
+    "The jaws unhinged as a sickly bright light glowed from the back of its throat. In an instant the air
+    blazed with searing fire."|
 A7: Deluxe Fireball
     Magic-Offensive-Action
     Use: 10AP+5mna
     Teamwork: Increase range by 1sp.
     Range: 1sp
     Accuracy: Magic
-    OnHit: target takes (5){MgcPwr} fire damage. Increase the mna cost by 5 for every additional use in a single turn.|
+    OnHit: target takes (5){MgcPwr} fire damage. Increase the mna cost by 5 for every additional use in a single turn.
+    "More in control, it spat out a single ball of flame that hurtled across the battlefield."|
 A8: Horrifying Screech
     Skill-Offensive-Action
     Use: 10AP+5fcs
     Range: {CL/3}sp AoE circle
     Accuracy: Skill
     OnPass: Target is forced away from user until outside of range.
-    OnCrit: Target loses 10AP from their next turn.|
+    OnCrit: Target loses 10AP from their next turn.
+    "Skull Beast warriors are constantly channeling the original monster - even with the words they speak."|
 A9: Rest
     Skill-Support-Action
     Use: 20AP for Mode A, OR 20AP+5cs+(1/3turn) for Mode B
     Mode A: Recover 50% of your max Health, Stamina, Mana, and Focus.
     Mode B: Recover 50% of your max Health, Stamina, Mana, and Focus and remove any negative status effects.
-    IfKO: Multiply Use cost by 2.|
+    IfKO: Multiply Use cost by 2.
+    "At the height of the battle, he paused for a moment to rest. All it took was just a moment, but he was back on
+    his feet, good as new."|
 
-MA1: Unresting
+MA1: Inner Maelstrom
     Magic-Support-Passive
     Effect: Once per turn, you may execute a Magic-type ability for free.
+    "The greatest Skull Beast had an endless supply of magic. We never stood a chance."|
 
 MA2: Throw
     Melee-Offensive-Action
     Use: 10AP
     Range: 0sp
-    Effect: The target is thrown {TL} spaces in the direction of your choice.|
+    Effect: The target is thrown {TL} spaces in the direction of your choice.
+    If the target stops at an obstacle, inflict (X){MlePwr} damage, where X is equal to the remaining {TL} spaces.
+    "Huge and immensely powerful, my comrade was hurtled off his feet and into the wall at blinding speeds."|
 
 MA3: Merciless Chase
     Melee-Offensive-Reaction
     Trigger: Your health reaches 0.
-    Effect: You become immune to being knocked-out. Movement actions let you move up to (2) spaces at once. You are immune to non-critical damage.|
+    Effect: You become immune to being knocked-out. Movement actions let you move up to (2) spaces at once. You are immune to non-critical damage.
+    "Risen from the dead and angrier than ever, the Skull Beast just wouldn't be stopped. We ran and we ran for our lives,
+    but ultimately, we were cut down."|
 

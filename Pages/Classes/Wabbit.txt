@@ -95,8 +95,8 @@ Effect: Choose one:
 1) Remove a negative status effect.
 2) Restore 50% of a combatant's max health.
 3) Reset the X/turn or X/battle counter of an ability.
-"It was strange. I remembered her starting the battle with three of those teardrop birthmarks on her cheek,
-but when the battle was over, there were just two."|
+"The battle went perfectly. Though, it was strange. I remembered her starting the battle with three of those teardrop birthmarks on her cheek,
+but when it was over, there were just two."|
 
 A8: Predestination
 Magic-Offensive-Action
@@ -105,19 +105,18 @@ Range: 2sp
 Accuracy: Magic
 Teamwork: Increase Accuracy check by 2.
 Effect: The target's Luck checks automatically land on 8 until the start of your next turn.
-"Life is pretty good when the future is uncertain - there's still room for miracles.
-How do you live if someone has already determined your demise?"|
+"Life is pretty good when the future is uncertain - there's still room for miracles."|
 
 A9: Divine Spear
 Skill-Offensive-Item
 Slot: Primary or Secondary Weapon
 Divine Spear (Type: Skill, WC: L, Use: 5AP+(2/turn), Rank: 2, Range: 1, Honed 3)
-"Even with the halo I was still sceptical, but when she produced her golden spear - I knew."|
+"Even with the halo I was still skeptical, but when she produced her golden spear - I knew."|
 
 MA1: Curse Breaker
 Magic-Defensive-Passive
 Effect: When you kill an enemy combatant, any damage or negative statuses (except Death) inflicted to you or your allies is undone.
-"The High Wabbit struck a final blow that wiped her opponent from existence - and with it, every wound and curse it left behind was gone."|
+"The High Wabbit struck a final blow that wiped her opponent from existence - and with it, every wound and curse they'd left behind was gone."|
 
 MA2: Perfect Pierce
 Skill-Offensive-Action
