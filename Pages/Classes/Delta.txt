@@ -55,7 +55,7 @@ Effect: You may only target combatants who have already targeted you at least on
 
 A2: Potion Injection System
 Skill-Defensive-Reaction
-Trigger: Your health drops below 10% of its max.
+Trigger: Your health drops below 25% of its max.
 IfKO: You die.
 Use: (1/turn)
 Effect: If you have any health-restoring consumables in your inventory, consume (1) for free.
@@ -65,8 +65,8 @@ Effect: If you have any health-restoring consumables in your inventory, consume 
 
 A3: Pressure Resistance
 Melee-Defensive-Passive
-Effect: At the beginning of your turn create a Pressure counter valued at 1.
-Reducing incoming AoE-ranged damage by {Pressure}.
+Effect: At the beginning of your turn create a Pressure counter valued at (1).
+Reduce incoming AoE-ranged damage by {Pressure} ranks.
 After taking AoE-ranged damage, increase the Pressure counter by 1.
 This marker expires at the beginning of your next turn when a fresh marker is created.
 "That's your misconception. These monsters were born in darkness at the bottom of the ocean -
