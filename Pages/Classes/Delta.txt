@@ -65,21 +65,22 @@ Effect: If you have any health-restoring consumables in your inventory, consume 
 
 A3: Pressure Resistance
 Melee-Defensive-Passive
-Effect: Reduce the rank of incoming damage by (1) for every enemy combatant in your space (minimum 0).
-Reduce damage from AoE-range attacks by {CL}, min 0.
-All actions cost an additional 3sta; if at the end of your turn your stamina is below 3, you gain Prone.
+Effect: At the beginning of your turn create a Pressure counter valued at 1.
+Reducing incoming AoE-ranged damage by {Pressure}.
+After taking AoE-ranged damage, increase the Pressure counter by 1.
+This marker expires at the beginning of your next turn when a fresh marker is created.
 "That's your misconception. These monsters were born in darkness at the bottom of the ocean -
-immense pressure is part of their natural environment. "|
+immense pressure is part of their natural environment."|
 
 A4: Life Pact
 Melee-Defensive-Passive
 IfKO: This ability behaves as normal.
-Effect: At the beginning of combat, choose an allie with lower max-health than you to form a Life Pact with.
+Effect: At the beginning of combat, choose the allie with the lowest max-health to form a Life Pact with.
 If an enemy combatant were to target that allie, then you mark the enemy combatant with a Death marker (max 1 per enemy).
 Enemies with the Death marker take an additional 10%(CL) damage from you.
 However, whatever negative status effect afflicts your Life Pact target are also shared with you - including KO and death.
-"I don't know what happened. The Delta was perfectly healthy, but when that little girl he liked so much died, he fell
-into a coma. An hour later, he was dead. Were we wrong to associate intelligence with empathy?"|
+"I don't know what happened. The Delta was perfectly healthy, but when that little girl it liked so much died, it fell
+into a coma. An hour later, it was dead. Were we wrong to associate intelligence with empathy?"|
 
 A5: Tesla Coil
 Magic-Offensive-Action
@@ -151,7 +152,7 @@ Skill-Support-Action
 Use: 10AP+7fcs
 Range: 0sp
 Effect: Target any amount of combatants within range. You may freely copy up to {CL} extra abilities into your list.
-"The part of a Delta that isn't machine is flesh - but the genes are like plastic, allowing it to adapt
+"The part of a Delta that isn't machine is living tissue - but the genes are like plastic, allowing it to adapt
 to almost any situation. Imagine what could be done if one were to unlock that power freely?"|
 
 

@@ -1,0 +1,40 @@
+Title: Conduiteer|
+Subtitle: Magical Swordfighter|
+Description: |
+???
+
+VITALS
+Health: 45|
+Mana: 15|
+Stamina: 15|
+Focus: 15|
+
+SCORES
+Initiative: 10|
+Carry: 10u|
+Element: Neutral|
+
+STATS
+Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
+Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
+Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
+
+Abilities
+Doctrine:|
+A1:|
+A2:|
+A3:|
+A4:|
+A5:|
+A6:|
+A7:|
+A8:|
+A9:|
+
+
+MA1:|
+MA2:|
+MA3:|
+
+
+
