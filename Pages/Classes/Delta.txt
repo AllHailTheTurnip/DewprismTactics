@@ -35,7 +35,7 @@ Skill-Support-Passive
 Effect: All your abilities are treated as items.
 Skill-Support-Reaction
 Trigger: You take damage.
-Disable X of your abilities to reduce the attack's rank by X.
+Disable X of your abilities to reduce the attack's rank by X+2.
 Skill-Support-Action
 Use: 5AP+5fcs
 Range: 0sp

@@ -36,62 +36,74 @@ Skill: (Power: 4, Evasion: 8, Accuracy: +3)|
 Abilities
 Doctrine: Invent Weapon
 Skill-Support-Action
-Use: 2Sta+3fcs+20AP!
+Use: 2Sta+3fcs+10AP+(2/battle)
 Effect: Create a weapon with the following statistics:
 Choose one type: Melee, Magic, Skill.
 Choose its element to be either fire, water, or wind.
-Choose to grant it one of the abilities: Honed 3, Artisan 2, Ranged 1, Throwable 2, Charmed 3, Compressed.
-Create a Medium-weight weapon of your chosen type; add it into your free hand.|
+Choose to grant it one of the abilities: Honed 3, Artisan 2, Ranged 1, Throwable 2, Charmed 3.
+Create a Medium-weight weapon of your chosen type; add it into your free hand.
+"I am a vagabond, a freelancer, and an inventor!"|
 
 A1: Upgrade Damage
 Skill-Support-Action
 Teamwork: Reduce the AP cost of this ability by 5 (min 5).
 Use: 3fcs+15AP+(1/turn)
-Effect: Increase the rank of any weapon you have equipped by 1.|
+Effect: Increase the rank of any weapon you have equipped by 1.
+"Given time and patience, any weapon can be improved."|
 
 A2: Upgrade Use
 Skill-Support-Action
 Use: 3fcs+15AP
 Effect: Reduce the Sta/Fcs/Mgc use-cost of an equipped weapon by (1) (minimum 0).
-Otherwise, reduce the AP cost of an equipped weapon by (2) (minimum 5).|
+Otherwise, reduce the AP cost of an equipped weapon by (2) (minimum 5).
+"I left him with my warhammer for the night. When I returned in the morning, not much about it had changed.
+It was amazing, actually. The warhammer was half its weight but it still hit as hard as ever."|
 
 A3: Upgrade Attributes
 Skill-Support-Action
 Solowork: Reduce the AP cost of this ability by 5{OutNum} (min 5).
-Effect: 5fcs+20AP
-Use: Choose an attribute of an equipped weapon and increase by 1.|
+Effect: 5fcs+10AP+(1/turn)
+Use: Choose an attribute of an equipped weapon and increase by 1.
+"I don't know what he did to my bow, but now it shoots farther than ever."|
 
 A4: Reconfigure Attribute
 Skill-Support-Action
 Use: 5fcs+15AP
 Solowork: Increase the Rank of this ability by 1.
 Effect: Switch out one of your currently equipped weapon's Attributes for either
-Push (2), Honed (3), or Artisan (2).|
+Push (2), Honed (3), or Artisan (2).
+"He has a small kit that he carries around with him wherever he goes. All
+he needs is a few minutes and your weapon has a completely new edge."|
 
 A5: Reconfigure Element
 Magic-Support-Action
 Use: 5mgc+10AP
 Teamwork: You may also change it to noble.
 IfKO: You may only change between fire, water, and wind.
-Effect: Choose a weapon and change its element (except noble) to one of your choosing.|
+Effect: Choose a weapon and change its element (except noble) to one of your choosing.
+"He is also a magician - so good in fact, that he can change your weapon's very element."|
 
 A6: Hone Style
 Skill-Support-Action
 Use: 5fcs
 Effect: Choose a type: Skill, Magic, or Melee. Gain {DL} Evasion against abilities of
-that type until the beginning of your next turn.|
+that type until the beginning of your next turn.
+"A man of the forge, a man of the battlefield. He knows a weapon's finesse well enough
+to dodge just most any attack."|
 
 A7: Stoke Heart
 Magic-Support-Action
 Use: 7sta+10AP
-Effect: Gain advantage the next 1+{MgcPwr/5} checks.|
+Effect: Gain advantage the next 1+{MgcPwr/5} checks.
+"The man has passion!"|
 
 A8: Tap Out
 Skill-Defense-Reaction
 Trigger: Your health reaches 0.
 Use: 5sta+3fcs
 IfKO: Use as normal.
-Effect: You are removed from the battlefield and your health is set to 1.|
+Effect: You are removed from the battlefield and your health is set to 1.
+"Enough! I've had enough. Ow, I think you knocked a tooth out..."|
 
 A9: Summon Animal Companion
 Skill-support-Action
@@ -104,19 +116,22 @@ A. Flight (The animal can move in any direction, including vertical)
 B. Night Eyes (The animal treats lighting conditions as regular)
 C. Gills (The animal can breathe underwater)
 D. Paws (The animal's movement cost is half yours).
-The animal appears in the same space as the one you started in, and takes its turns after yours.|
+The animal appears in the same space as the one you started in, and takes its turns after yours.
+"And this is my little buddy, Martin Wolf."|
 
 MA1: Sudden Strike
 Skill-Offensive-Action
-Use: 10AP+5fcs+5sta
+Use: 10AP+3fcs+3sta
 Range: 3sp
-Effect: Inflict (3){SklPwr} dmg and target gets Prone. End your turn.|
+Effect: Inflict (3){SklPwr} dmg and target gets Prone. End your turn.
+"Men with Romantic hearts tend to have all sorts of tricks up their sleeves."|
 
 MA2: Master's Mark
 Skill-Support-Action
 Use: 10fcs
 Range: 0sp
-Effect: Choose a weapon within range and grant it Honed 6, Artisan 6, and Oversized 2.|
+Effect: Choose a weapon within range and grant it Honed 6, Artisan 6, and Oversized 2.
+"I've been in this profession for 40 years - and this my masterpiece."|
 
 MA3: Invent Weapon II
 Skill-Support-Action
@@ -126,4 +141,5 @@ Choose one type: Melee, Magic, Skill.
 Choose its element to be either fire, water, wind, electric, metal, light, or dark.
 Choose to grant it two of the abilities: Honed 6, Artisan 3, Ranged 2, Throwable 5, Charmed 6, Compressed.
 Choose its size (which will determine cost): Very Light, Light, Medium, Heavy, or Very Heavy.
-Add the created weapon to your free hand.|
+Add the created weapon to your free hand.
+"I've been in this profession my whole life - special pieces like this come naturally now."|

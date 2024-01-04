@@ -10,15 +10,15 @@ and nameless ninjas. In this time, legends such as the Shadow first emerged. He 
  fearsome and magical, possessing the power to challenge corrupt shoguns and rescue maidens
  from fiery dragons. He fought for the poor, humbled the mighty, and brought peace to the
  land.
-    Though the time of the Shadow has ended, though who carry on his name and his talents
+    Though the time of the Shadow has ended, those who carry on his name and his talents
     continue in the world. Shadow Legends, as they're called, are a wandering bunch, often
     acting solo and moving from town to town, looking for signs of the same war their
     progenitor fought years ago.|
 
 VITALS
 Health: 30|
-Mana: 20|
 Stamina: 15|
+Mana: 20|
 Focus: 20|
 
 SCORES
@@ -70,7 +70,8 @@ Use: 5fcs+2sta+15AP
 Range: 0sp
 Accuracy: Melee
 OnHit: Inflict 3{MlePwr} base-element damage to their Health.
-If Crit, apply it to rank of secondary effects (below). Roll 1d20.
+If Crit, apply it to rank of secondary effects (below).
+Roll 1d20.
 1-5: Drain (2){SklPwr} from their Health
 6-10: Inflict (1){SklPwr/4} to their Stamina.
 11-15: Inflict (1){SklPwr/4} to their Mana.

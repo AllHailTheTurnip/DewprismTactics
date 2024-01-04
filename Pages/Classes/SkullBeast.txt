@@ -112,15 +112,15 @@ A9: Rest
 MA1: Inner Maelstrom
     Magic-Support-Passive
     Effect: Once per turn, you may execute a Magic-type ability for free.
-    "The greatest Skull Beast had an endless supply of magic. We never stood a chance."|
+    "The Skull Beast had an endless supply of magic. We never stood a chance."|
 
 MA2: Throw
     Melee-Offensive-Action
     Use: 10AP
     Range: 0sp
-    Effect: The target is thrown {TL} spaces in the direction of your choice.
-    If the target stops at an obstacle, inflict (X){MlePwr} damage, where X is equal to the remaining {TL} spaces.
-    "Huge and immensely powerful, my comrade was hurtled off his feet and into the wall at blinding speeds."|
+    Effect: The target is thrown {CL} spaces in the direction of your choice.
+    If the target stops at an obstacle, destroy the obstacle and inflict (5){MlePwr}; the target keeps going until they've reached {CL} spaces.
+    "The strike was sudden and almost lazy - but it was enough to hurtle my comrade through seven stone walls."|
 
 MA3: Merciless Chase
     Melee-Offensive-Reaction

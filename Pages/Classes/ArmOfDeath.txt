@@ -131,9 +131,10 @@ each turn or else they self-inflict (3){SklDmg}.
 
 MA3: Deathly Grip II
 Melee-Support-Passive
-Effect: Increase the Range attribute of all your abilities by 1sp.
+Effect: Increase the Range attribute of all your abilities by 2sp.
+Increase the Rank of all your abilities by 1.
 Increase the Accuracy check (where applicable) of all affected abilities
-by 3.
+by 5.
 "No matter how beautiful your play, Death wins in the end."|
 
 
