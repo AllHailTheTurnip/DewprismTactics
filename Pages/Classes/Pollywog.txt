@@ -16,7 +16,7 @@ Mana: 17|
 Stamina: 12|
 Focus: 15|
 
-SCORES
+MEASURES
 Initiative: 10|
 Carry: 7u|
 Element: Water|

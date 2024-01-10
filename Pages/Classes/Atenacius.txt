@@ -1,6 +1,14 @@
 Title: Atenacius|
 Subtitle: Wizened Master|
-Description: |
+Description: During the height of the rule of Aeons, the Atenacious emerged as a caste of combat mages. Chosen from early childhood for
+             their innate talents, they were taken and baptized into a world of magic and danger. For the next 18 years they would be disciplined
+             for a single purpose: to preserve the arcane arts, no matter the foe.
+             	Though the age of Aeons came to an end, the Atenacious persist as protectors of ancient wisdom. They are the perfect
+             hybrid of philosopher and magician, displaying a keen wisdom tempered by lethal potential. Though the world is steadily sinking into
+             chaos, the Atenacious persist in not just body but soul.
+             	Combatively, the Atenacious rely upon necromancy and arcane engineering. Biologically speaking, no Atenaciouses are alive;
+             their souls are bound within reliquaries. The ascension from their mortal forms has only served to improve their magical prowess - not
+             to mention being effectively ageless.|
 ???
 
 VITALS

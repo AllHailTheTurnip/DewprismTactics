@@ -34,10 +34,11 @@ Skill: (Power: 3, Evasion: 14, Accuracy: +2)|
 Abilities
 Doctrine: *Poof*
 Skill-Movement-Action
-Use: 1fcs+1sta+1mna+5AP
+Use: 5AP+1fcs+1sta+1mna
 IfKO: Increase Use cost by 15AP.
-Range: 1+[CL/3]sp
-Effect: Relocate yourself to any space within range.|
+Range: 2+[CL/3]sp
+Effect: Relocate yourself to any space within range.
+"The excellence of ninkj"|
 
 A1: Throwing Stars
 Skill-Offense-Action
