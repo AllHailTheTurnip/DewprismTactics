@@ -35,10 +35,10 @@ Abilities
 Doctrine: *Poof*
 Skill-Movement-Action
 Use: 5AP+1fcs+1sta+1mna
-IfKO: Increase Use cost by 15AP.
+IfKO: Set cost to (1/turn).
 Range: 2+[CL/3]sp
 Effect: Relocate yourself to any space within range.
-"The excellence of ninkj"|
+"The Shadow Legend's greatest trick is making you doubt your own eyes."|
 
 A1: Throwing Stars
 Skill-Offense-Action
