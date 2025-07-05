@@ -103,8 +103,8 @@ Health Potion: Upon consumption gain {MgcPwr}(3) health.|
 
 
 MA1: Reincarnate|
-MA2: Miracle|
-MA3:|
+MA2: Miracle Cure|
+MA3: Level Up|
 
 
 
