@@ -29,11 +29,7 @@ Trigger: You are in the same space as a dead enemy.
 Use: (1/turn)
 Range: 0sp
 Effect: Add a Shadow token to yourself and destroy the enemy's body.
-<<<<<<< HEAD
 Choose one: Mode A, Mode B, or Mode C.
-=======
-Choose one: Mode A, Mode B, or Mode D.
->>>>>>> cd033ec5ca7985da195ab6e4f8fb76ed82c01524
 Mode A: Up to (3) times, increase increase your Health, Mana, Stamina, and/or Focus by 5 points.
 Mode B: Up to (2) times, increease your MlePwr, MgcPwr, or SklPwr by 1 point.
 Mode C: Increase the rank of a non-Doctrine ability by (1).|
