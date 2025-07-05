@@ -1,0 +1,110 @@
+Title: Skiamancer|
+Subtitle: Soul Binder|
+Description: Skiamancers in their past lifes were powerful warlocks who were driven to 
+unraveling all the mysteries of life and death. Yet in having been granted their wish, 
+they were reborn from the beginning as husks of their former selves. Now living a vacuous 
+existence, they drawn strength by stealing the souls of slain foes.|
+???
+
+VITALS
+Health: 5|
+Mana: 15|
+Stamina: 5|
+Focus: 5|
+
+SCORES
+Initiative: 11|
+Carry: 10u|
+Element: Darkness|
+
+STATS
+Melee: (Power: 1, Evasion: 15, Accuracy: -1)|
+Magic: (Power: 1, Evasion: 12, Accuracy: 0)|
+Skill: (Power: 1, Evasion: 10, Accuracy: -1)|
+
+Abilities
+Doctrine: Steal Shadow
+Magic-Support-Trigger
+Trigger: You are in the same space as a dead enemy.
+Use: (1/turn)
+Range: 0sp
+Effect: Add a Shadow token to yourself and destroy the enemy's body.
+Choose one: Mode A, Mode B, or Mode D.
+Mode A: Up to (3) times, increase increase your Health, Mana, Stamina, and/or Focus by 5 points.
+Mode B: Up to (2) times, increease your MlePwr, MgcPwr, or SklPwr by 1 point.
+Mode C: Increase the rank of a non-Doctrine ability by (1).|
+
+A1: Shade Servant
+Magic-Support-Action
+Use: 10AP+3mna
+Range: 1sp
+Can only use on dead combatant.
+Accuracy: Magic
+Effect: Create a Shade Servant under your control with the same Stats, Abilities and memories as the dead combatant. 
+Its Element will be Darkness and it'll take its turn after yours.
+It has no health, but for every (5) damage it takes, your mana pool subtracts 1 point.
+You may dismiss the Shade Servant at any point, where it'll return to your space.|
+
+A2: Cast Shadow
+Magic-Support-Action
+Use: 5AP+3mna
+Effect: Separate your shadow from yourself as an individual entity.
+Your shadow has 10AP to spend once per turn.
+Similar to a shadow, it can climb up and down sheer surfaces as if they were flat.
+Your shadow shares its senses with you.
+If it takes damage, the spell is broken and the shadow fades away.|
+
+A3: Shadow Step
+Magic-Movement-Action
+Use: 5AP+3mna
+Range: (5)sp
+Effect: While in a shaded spot, you can transport to another shaded spot on the battlefield.|
+
+A4: Blind
+Magic-Offense-Action
+Use: 10AP+5mna
+Range: 3sp
+Accuracy: Magic
+Effect: Target takes the Blind (2) status effect.
+Blind (X): Target's Accuracy checks take -5 and Movement actions have a Luck10 roll to head into the correct space. The effect lasts for X turns.|
+
+A5: Second Strike
+Magic-Defense-Reaction
+Trigger: Your health has dropped below 0 and you aren't dead.
+Use: (1/battle)+3sta.
+Effect: Make a free attack using a nat-20 on the Accuracy roll. Any damage inflicted is regained as Health.|
+
+A6: Curse of Stagnation
+Magic-Offense-Action
+Use: 15AP+7mna
+Range: 3ps AoE
+Evade: Magic
+Effect: Upon failure to resist, target is afflicted with Stagnation (5).
+Stagnation (X): Target cannot increase the max value of any of their VSSA's for the next X turns.|
+
+A7: Ritualistic Dagger
+Magic-Offense-Item
+Slot: Primary/Secondary
+Item: Ritualistic Dagger (Type: Melee, Rank: 2, Element: Neutral, Range: 0sp; Effect: On hit, target is Afflicted with Dread.)
+Dread: If target's Health drops to 0, they die instantly and are removed from the battlefield.|
+
+A8: Swap Places
+Magic-Movement-Action
+Use: 5AP+3mna
+Range: battlefield
+Evade: Magic+3
+Effect: Swap places with an enemy combatant.|
+
+A9: Conjure Potion
+Magic-Support-Action
+Use: 10AP+5mna
+Effect: Conjure a Health Potion into an open hand.
+Health Potion: Upon consumption gain {MgcPwr}(3) health.|
+
+
+MA1: Reincarnate|
+MA2: Miracle|
+MA3:|
+
+
+
