@@ -1,5 +1,5 @@
-Title:Racketeer|
-Subtitle:Backhanded Fighter|
+Title:Racketeer
+Subtitle:Backhanded Fighter
 Description:Racketeers are far from an oddity in the world - they are born and bred in the poorest
 pits of society, quietly devouring each other like unborn sharks they are strong enough
 to break free. Eventually, they leave their nest and into the searing light of day. Their scars cross
@@ -7,116 +7,116 @@ their faces like canyons, their teeth are mangled and stained brown,
 their skin is like leather, and their eyes are bloodshot with an insatiable hunger for blood and smoke.
 <p>Though not all racketeers go off to become the plight of the civilized world, the few that get wise
 and learn to blend in with the commonfolk go on to become sellswords and manhunters. They are are a deadly
-mixture of prudence and brutality.</p>|
+mixture of prudence and brutality.</p>
 ???
 
 VITALS
-Health: 40|
-Mana: 13|
-Stamina: 20|
-Focus: 13|
+Health: 105
+Mana: 91
+Stamina: 210
+Focus: 91
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 10
+Carry: 10u
+Element: Neutral
 
-STATS
-Melee: (Power: 5, Evasion: 8, Accuracy: +2)|
-Magic: (Power: 5, Evasion: 12, Accuracy: -3)|
-Skill: (Power: 6, Evasion: 12, Accuracy: -1)|
+Cores
+Mind: (Power: 125, Resistance: 91, Evasion: 120, Accuracy: 90)
+Body: (Power: 100, Resistance: 108, Evasion: 80, Accuracy: 120)
+Will: (Power: 100, Resistance: 91, Evasion: 120, Accuracy: 70)
 
 Abilities
 Doctrine:Hack-N-Slash
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 4sta+(1/2turn)
 Choose a combatant and move 1sp in their initial direction.
 When you enter within melee-range of the opponent, deal (1){MlePwr} damage. The target is knocked prone.
-If possible, continue to move into the next space in a straight line.|
+If possible, continue to move into the next space in a straight line.
 
 A1:Doubleteam
-Melee-Offensive-Reaction
+Body-Offensive-Reaction
 Trigger: You attack an enemy
 Use: 5fcs
 IfKO: Increase Use cost by 10AP.
 Teamwork: Increase the Critical Threshold of your allies' next attack by 1.
-Effect: Grant a free basic attack to an allie in your space.|
+Effect: Grant a free basic attack to an allie in your space.
 
 A2:Shove
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+5sta
 Solowork: Reduce Use cost by 3sta.
 Range: 0sp
 Accuracy: Melee
-OnPass: Enemy is forced away from up to {TL/4}sp.|
+OnPass: Enemy is forced away from up to {TL/4}sp.
 
 A3:Kidnap
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+3sta
 Range: 0sp
 Teamwork: Automatically pass the Accuracy check.
 Accuracy: Melee
-OnPass: The target is grabbed. You make a free Movement action with the target in tow. Release the target.|
+OnPass: The target is grabbed. You make a free Movement action with the target in tow. Release the target.
 
 A4:Smash Item
-Melee-Offensive-Action
+Body-Offensive-Action
 Use:10AP
 Range: 0sp
 Look at the target's Equipment and choose an item to target.
 Accuracy: Melee
-OnPass: Targeted item is destroyed.|
+OnPass: Targeted item is destroyed.
 
 A5: Cornering the Prey
-Melee-Support-Passive
+Body-Support-Passive
 IfKO: It costs an additional 5AP for a combatant to move into your space.
-Effect: Increase your attack's Rank by 1 for every wall adjacent (up to 4) to the target.|
+Effect: Increase your attack's Rank by 1 for every wall adjacent (up to 4) to the target.
 
 A6:Intimidate
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 15AP+3fcs
 Accuracy: Skill
 OnPass: Target cannot make any basic Movement actions until the end of their next turn.
-OnCrit: Target also cannot use any class Abilities until the end of their next turn.|
+OnCrit: Target also cannot use any class Abilities until the end of their next turn.
 
 A7:Menacing Invitation
-Skill-Support-Action
+Mind-Support-Action
 Solowork: You may substitute the Use-cost with 1/2turn.
 Use: 10AP+5sta
 Range: 3sp
 Choose an enemy combatant within range to grant the Menacing Invitation consumable to.
 Menacing Invitation: On the owner's turn, the owner makes a Skill self-check,
 whereupon failure, they are transported to this token's creator's space.
-Upon success, this token is destroyed.|
+Upon success, this token is destroyed.
 
 A8:Burgle
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP
 Range: 0sp
 Accuracy: Melee
-OnPass: Choose an item from the target's inventory and add it to your own.|
+OnPass: Choose an item from the target's inventory and add it to your own.
 
 A9:Tactical Retreat
-Skill-Defense-Reaction
+Mind-Defense-Reaction
 Trigger: Your health is reduced to 1{MlePwr} or less.
 Use: 5sta
-Make a free Movement action, but you can only move in the opposite direction of your attacker.|
+Make a free Movement action, but you can only move in the opposite direction of your attacker.
 
 MA1: Plunder
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+5sta+3fcs
 Range: 0sp
 Accuracy: Melee +3
-Effect: Inflict (3){MlwPwr} dmg. Steal one item from your target's inventory and add it to your own.|
+Effect: Inflict (3){MlwPwr} dmg. Steal one item from your target's inventory and add it to your own.
 
 MA2: Vanish
-Skill-Support-Action
+Mind-Support-Action
 Use: 10fcs
-Effect: All accuracy checks made against you automatically fail and all Evade you make checks automatically succeed until the start of your next turn.|
+Effect: All accuracy checks made against you automatically fail and all Evade you make checks automatically succeed until the start of your next turn.
 
 MA3: Smokescreen
-Skill-Support-Action
+Mind-Support-Action
 Use: 5AP+5sta
 Range: 1sp
 Effect: Create a Smokescreen prop within range. The Smokescreen prop covers up to 3 adjacent spaces.
 Smokescreen prop: Enemy combatants within this prop's space get -6 for any Accuracy checks they make in this space.
-In addition, Evade checks get +6 to their difficulty. This prop vanishes 3 turns after it was created.|
+In addition, Evade checks get +6 to their difficulty. This prop vanishes 3 turns after it was created.

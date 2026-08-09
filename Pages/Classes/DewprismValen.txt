@@ -1,35 +1,35 @@
 Unique sorcerer of really unique abilities
 
-Title: Dewprism Valen|
-Subtitle: Magically Enhanced Monstrosity|
+Title: Dewprism Valen
+Subtitle: Magically Enhanced Monstrosity
 Description: Near the turn of the century doomsday cults started appearing in large numbers all across the planet, either
 foretelling of the end or trying to bring it about. The Dewprism Valens were among the latter. They were a secret
 society split apart from the Phantom Valens with the grand scheme of bringing about the end of the world.
 <p>To do this, they transformed themselves into magically enhanced monstrosities, capable of tackling any force,
  no matter how vast or challenging. Dewprism Valens utilize a mixture of magic and martial arts to grind away at
- their opponent while also enhancing themselves.</p>|
+ their opponent while also enhancing themselves.</p>
 ???
 
 VITALS
-Health: 60|
-Mana: 20|
-Stamina: 15|
-Focus: 25|
+Health: 105
+Mana: 210
+Stamina: 105
+Focus: 315
 
 SCORES
-Initiative: 13|
-Carry: 12u|
-Element: Noble/Light|
+Initiative: 13
+Carry: 12u
+Element: Noble/Light
 
-STATS
-Melee: (Power: 3, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 3)|
-Skill: (Power: 4, Evasion: 12, Accuracy: 0)|
+Cores
+Mind: (Power: 75, Resistance: 138, Evasion: 120, Accuracy: 100)
+Body: (Power: 50, Resistance: 113, Evasion: 100, Accuracy: 100)
+Will: (Power: 100, Resistance: 125, Evasion: 100, Accuracy: 130)
 
 Abilities
 Doctrine: Monstrous Shape
 At the beginning of battle after you roll for initiative use this ability once for free.
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP
 You can only be in one mode at a time. Switching between modes removes the bonuses and penalties of the previous
 mode before the new mode's bonuses are applied.
@@ -43,50 +43,50 @@ Mode B:
 
 Mode C:
     Effect: Increase all your action ranks by 2.
-    Increase incoming damage by 1 rank.|
+    Increase incoming damage by 1 rank.
 
 A1: Vault Leap
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+5sta
 Solowork: Reduce Use cost by 3sta.
 Range: 1sp
-Effect: Move into another space within range. Inflict (1){MlePwr} to an enemy combatant in that space.|
+Effect: Move into another space within range. Inflict (1){MlePwr} to an enemy combatant in that space.
 
 A2: Homing Barrage
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+5mna
 Range: 2sp
 Variable: X = roll (1d20)/5
 Teamwork: Roll with advantage to determine value of variable X.
 Accuracy: Magic
-Dmg: (X){MgcPwr}|
+Dmg: (X){MgcPwr}
 
 A3: Energy Syphon
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+(5/battle)+(1/turn)
 Range: 2sp
 Evade: Magic
 Effect: Steal 5 points of Stamina, Mana, and Focus from a target and add the points to your own
-Stamina, Mana, and Focus.|
+Stamina, Mana, and Focus.
 
 A4: Bloodfeast
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+5fcs
 Range: 0sp
 IfKO: Increase cost by 5sta+(1/turn).
 Accuracy: Skill
-Effect: Reduce the target's health by (3){SklDmg} and increase your health by (3){SklDmg}.|
+Effect: Reduce the target's health by (3){SklDmg} and increase your health by (3){SklDmg}.
 
 A5: Cursed Mark
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+7mna
 Range: 3sp
 Evade: Magic
 Effect: When a target makes an offensive action, they first roll Luck 5, whereupon failure their action backfires and they hit themselves instead.
-This status lasts 3 turns.|
+This status lasts 3 turns.
 
 A6: Minor Transformation
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+3mna+(1/turn)
 Teamwork: Implement Mode D: Switch around your Stamina, Mana, and Focus scores to your liking.
 Mode A:
@@ -94,31 +94,31 @@ Mode A:
 Mode B:
     Effect: Switch around your Accuracy scores to your liking.
 Mode C:
-    Effect: Switch around your Power scores to your liking.|
+    Effect: Switch around your Power scores to your liking.
 
 A7: Elemental Suppression
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+5mna+5fcs+5sta
 IfKO: Use as normal.
 Effect: Grant yourself the Elemental Suppression token.
 Elemental Suppression token: Choose three of your abilities and change their element to match your element.
-Change your Element to neutral.|
+Change your Element to neutral.
 
 A8: Overwhelming Force
-Melee-Support-Action
+Body-Support-Action
 Use: 5sta+(1/turn)
 Solowork: Change Use cost by +(1/turn).
 Effect: For the next action you make, the targeted combatant(s) must spend an additional 3sta before an Evade or Accuracy
-check is made, or else the attack automatically hits.|
+check is made, or else the attack automatically hits.
 
 A9: Dimensional Warp
-Magic-Defensive-Reaction
+Will-Defensive-Reaction
 Trigger: You take damage.
 Use: 7mna
 Range: 2sp
-Effect: You may teleport to any space on the battlefield. You can take any combatants in range with you by force.|
+Effect: You may teleport to any space on the battlefield. You can take any combatants in range with you by force.
 
 
-MA1:|
-MA2:|
-MA3:|
+MA1:
+MA2:
+MA3:

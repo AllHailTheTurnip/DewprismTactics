@@ -8,125 +8,125 @@ Conjure enormous, flattening ball.
 Waste your time.
 Can sprout out of the ground.
 
-Title: Fungie|
-Subtitle: Playful Spirits|
+Title: Fungie
+Subtitle: Playful Spirits
 Description: The original fungies were toadstools from a magical forest that were gifted with life. Yet stricken with
 mortality - that they might one day die - they chose to spend their limited years having fun. They played, danced,
 played music, and sang. Yet ever weary of other mortals, they always vanished into when someone neared by. Traditionally,
 they have been the staunch friends of other magical creatures, and even wizards.
 Today, though natural fungie remain limited to their home dwellings, their druids - Fungie, of the same title -
 carry on their free-spirited nature across the world. Telling their stories, singing their songs, and using their
-tricks. Fungie today are known as carefree folk, singing and dancing in the woodland way.|
+tricks. Fungie today are known as carefree folk, singing and dancing in the woodland way.
 
 VITALS
-Health: 30|
-Mana: 20|
-Stamina: 10|
-Focus: 5|
+Health: 105
+Mana: 210
+Stamina: 70
+Focus: 35
 
 SCORES
-Initiative: 7|
-Carry: 8u|
-Element: Water|
+Initiative: 7
+Carry: 8u
+Element: Water
 
-STATS
-Melee: (Power: 4, Evasion: 10, Evasion: +1)|
-Magic: (Power: 7, Evasion: 15, Evasion: +2)|
-Skill: (Power: 3, Evasion: 5, Evasion: 0)|
+Cores
+Mind: (Power: 50, Resistance: 63, Evasion: 50, Accuracy: 100)
+Body: (Power: 75, Resistance: 75, Evasion: 100, Accuracy: 110)
+Will: (Power: 150, Resistance: 100, Evasion: 150, Accuracy: 120)
 
 Abilities
 Doctrine: Headbash
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+2sta
 Range: 0sp
 Accuracy: Melee
 Damage: (3){MlePwr}
-OnHit: If they haven't already been affected by this ability, target loses 5AP from their next turn.|
+OnHit: If they haven't already been affected by this ability, target loses 5AP from their next turn.
 
 A1: Defensive Stance
-Skill-Defensive-Action
+Mind-Defensive-Action
 Solowork: Ignore the AP cost of this ability.
 Use: 10AP+3fcs
 Effect: End your turn. Until the start of your next turn, if you're attacked,
-you may use your Doctrine ability for free.|
+you may use your Doctrine ability for free.
 
 A2: Conjure Tuba
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+3mna
 Range: Self
 Effect: Generate a Tuba.
-Tuba (WC: VH, AP: 10+2sta, Power: 0 Wind, Weight: 4u; Pushes target back 1+{MgcPwr/15}sp.)|
+Tuba (WC: VH, AP: 10+2sta, Power: 0 Wind, Weight: 4u; Pushes target back 1+{MgcPwr/15}sp.)
 
 A3: Conjure Enormous Ball
-Magic-Support-Action
+Will-Support-Action
 Use:10AP+3mna
 Range: 0sp
 Effect: Conjure a ball prop with a diameter of 0sp (3~ meters wide) and weighs 3u.
 The ball is magical and can only be moved by standing on it and spending 10AP.
 If you move the ball from or into an enemy's space, they must spend 3sta to move into another space, or else
-take (3){MgcPwr} damage.|
+take (3){MgcPwr} damage.
 
 A4: Toddle
-Melee-Support-Action
+Body-Support-Action
 Use: 3sta
 IfKO: Increase cost by 3sta.
-Effect: Make a Movement action.|
+Effect: Make a Movement action.
 
 A5: Summon Flying Star
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+3mna
 Effect: Create a Flying Star prop in your space.
 The star occupies a 1 square meter of space and is considered flat.
 Spend 5AP+2mna to stand atop and move the prop up to 1+{MgcPwr/10} spaces in any direction.
 The star has 15{TL} health, 0 evasion, and vanishes when its health reaches 0.
-Teamwork: You may make a free movement action the turn it is created.|
+Teamwork: You may make a free movement action the turn it is created.
 
 A6: Give Instructions
-Skill-Support-Action
+Mind-Support-Action
 Use: 10AP+5fcs
 Solowork: Increase the range of this ability by 2sp.
 Range: 0sp
 Teamwork: In addition to the Effect, reduce the Stamina, Mana, and/or Focus cost by 3 (min 0).
-Effect: Choose an allie and reduce the AP cost of their next action by 5AP (minimum 0).|
+Effect: Choose an allie and reduce the AP cost of their next action by 5AP (minimum 0).
 
 A7: Play While Waiting
-Skill-Support-Action
+Mind-Support-Action
 Use: 10AP+7mna
 Range: {TL/15}
 Effect: Remove an allie from the battlefield. While away, they cannot make actions
 or be targeted by any effects. Once their turn begins, they return to the battlefield at their
  original position.
 Luck: 15
-OnPass: The allie is granted advantage on their next (1) roll(s).|
+OnPass: The allie is granted advantage on their next (1) roll(s).
 
 A8: Conjure See-Saw!
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+3mna
 Range: 0sp
 Effect: A See-Saw prop the length of the space appears on the battlefield.
-See Saw prop: while one combatant is standing on an end, the other end becomes a 1sp-tall ramp to an adjacent space.|
+See Saw prop: while one combatant is standing on an end, the other end becomes a 1sp-tall ramp to an adjacent space.
 
 A9: Regrow
-Magic-Support-Action
+Will-Support-Action
 Use: 15AP
 IfKO: Reduce amount of restored health by 50%.
-Effect: Restore 30{TL} health. Any disabled abilities are re-enabled. End your turn.|
+Effect: Restore 30{TL} health. Any disabled abilities are re-enabled. End your turn.
 
 MA1: Cordyceps Spores
-Skill-Offensive-Reaction
+Mind-Offensive-Reaction
 Trigger: You take damage.
 Effect: Your attacker is gets the Infected 3 status.
 Infected status behaves like Doomed except when it kills the combatant, any allied combatants in their space also
-take the Infected 3 status.|
+take the Infected 3 status.
 
 MA2: Passive Growth
-Melee-Support-Passive
-Effect: At the beginning of your turn regain (1){MlePwr} health. Increase your max health by (1){MlePwr}.|
+Body-Support-Passive
+Effect: At the beginning of your turn regain (1){MlePwr} health. Increase your max health by (1){MlePwr}.
 
 MA3: Bad Trip
-Magic-Defensive-Reaction
+Will-Defensive-Reaction
 Trigger: You take damage.
 Luck: 10
 OnPass: Your attacker is inflicted with the Hallucinogen 3 status.
  With this status, every time they make offensive action, they make a Luck 15 check, whereupon failure
- you (the owner of this ability) get to choose who they targetArm instead.|
+ you (the owner of this ability) get to choose who they targetArm instead.

@@ -1,27 +1,27 @@
-Title: Saber Tiger|
-Subtitle: Swift and Lethal|
+Title: Saber Tiger
+Subtitle: Swift and Lethal
 Description: Saber Tigers are expert assassins, trained in a variety of fighting methods ranging from
 the secret arts to the dark arts.
     <p>Stranger than mere killers, their methodology can be
 gruesome and quite possibly sickening, where at times it becomes hard to find respectable
 work. Factoring against that, with their reputation for success, Saber Tigers have become
-prime commission for crime lords and kings alike.</p>|
+prime commission for crime lords and kings alike.</p>
 
 VITALS
-Health: 30|
-Mana: 15|
-Stamina: 13|
-Focus: 17|
+Health: 105
+Mana: 105
+Stamina: 91
+Focus: 147
 
 SCORES
-Initiative: 15|
-Carry: 5u|
-Element: Wind|
+Initiative: 15
+Carry: 5u
+Element: Wind
 
-STATS
-Melee: (Power: 3, Evasion: 12, Accuracy: 0)|
-Magic: (Power: 3, Evasion: 10, Accuracy: -1)|
-Skill: (Power: 6, Evasion: 9, Accuracy: +1)|
+Cores
+Mind: (Power: 125, Resistance: 93, Evasion: 90, Accuracy: 110)
+Body: (Power: 50, Resistance: 83, Evasion: 120, Accuracy: 100)
+Will: (Power: 50, Resistance: 88, Evasion: 100, Accuracy: 90)
 
 ABILITIES
 Doctrine: Assassinate
@@ -31,19 +31,19 @@ Doctrine: Assassinate
     Effect: Leap through the air into the same space as your target.
     Teamwork: This ability's Luck check gains Advantage.
     Luck: 18
-    OnPass: Target takes damage equal to their remaining health.|
+    OnPass: Target takes damage equal to their remaining health.
 A1: Leap
     Skill-Support-Action
     Use: 10AP
     Range: 2sp
-    Jump into a space within range.|
+    Jump into a space within range.
 A2: Dismember
     Melee-Offensive-Action
     Use: 10AP+5Sta
     Range: 0sp
     Solowork: Increase the proceeding Melee check by 2.
     Accuracy: Melee
-    OnPass: Choose to disable either your opponent's Primary or Secondary attacks (the primary or secondary weapon are also dropped.)|
+    OnPass: Choose to disable either your opponent's Primary or Secondary attacks (the primary or secondary weapon are also dropped.)
 A3: Lick Wounds
     Melee-Supportive-Action
     Use: 10AP
@@ -51,51 +51,51 @@ A3: Lick Wounds
     Range: 0sp
     Variable: X =15.
     Solowork: Increase X by 5.
-    Restore (X){TL} health to yourself or your target.|
+    Restore (X){TL} health to yourself or your target.
 A4: Bloody Feast
     Melee-Supportive-Passive
     Use: 5sta+(1/turn)
-    Attacking a dead target restores health equal to half the damage inflicted.|
+    Attacking a dead target restores health equal to half the damage inflicted.
 A5: Tactical Retreat
     Melee-Supportive-Reaction
     Use: 3sta
     Trigger: You or an allie takes damage.
     Range: 1+{TL/2}sp instant
-    Make a free movement action and take a nearby allie within range with you by your side.|
+    Make a free movement action and take a nearby allie within range with you by your side.
 A6: Astounding Speed
     Melee-Support-Reaction
     Trigger: You make a basic Movement action
     Use: 3sta
-    You move an additional space.|
+    You move an additional space.
 A7: Sharpen Edge
     Skill-Support-Action
     Use: 10AP+(1/turn)
     Teamwork: Increase your Crit rank by 1.
-    Increase your Crit threshold by 1.|
+    Increase your Crit threshold by 1.
 A8: Fearsome Roar
     Skill-Offensive-Action
     Use: 10AP
     Range: 3sp
     Effect: Reduce the target's Magic evasion by 3.
-    IfKO: End your turn.|
+    IfKO: End your turn.
 A9: Assassin's Blade
     Magic-Support-Item
     Slot: Primary Weapon
-    Assassin's Blade (Skill, WC: VL, Rank: 1, Use: (2/turn) Metal, Artisan +2)|
+    Assassin's Blade (Skill, WC: VL, Rank: 1, Use: (2/turn) Metal, Artisan +2)
 
 MA1: Superior Speed
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10sta
-Effect: Reduce the cost of all actions for the duration of your turn by 10AP (min 5). |
+Effect: Reduce the cost of all actions for the duration of your turn by 10AP (min 5).
 
 MA2: Gore
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+5sta+(3/battle)
 Accuracy: Skill
 Range: 2sp
-Effect: Inflict Bleeding (5){SklPwr}.|
+Effect: Inflict Bleeding (5){SklPwr}.
 
 MA3: Superior Vitality
-Skill-Support-Passive
+Mind-Support-Passive
 Use: (3/battle)
-Effect: Your next used defensive or supportive ability has no Use cost.|
+Effect: Your next used defensive or supportive ability has no Use cost.

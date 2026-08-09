@@ -1,53 +1,53 @@
-Title: Evening Dew|
-Subtitle: The Ultimate Attacker|
+Title: Evening Dew
+Subtitle: The Ultimate Attacker
 Description: The history of all civilization is bookended by a prophecy - that at the end of days, a lost angel would
 return to Earth and drown it fire. Though those times are well away and the lost angel is nowhere to be found, a following
 has regardless formed around them. Their foremost practitioners, styling themselves as Evening Dews, have secluded themselves
 hoping and waiting that one day when the lost angel makes their way back, that they too might ride by their side.
     <p>Evening Dews are masters of mind, body, and will, honing their abilities to cause as much destruction as
-    possible. As a backup measure, they are enchanted to return stronger than ever, should they be downed in combat.</p>|
+    possible. As a backup measure, they are enchanted to return stronger than ever, should they be downed in combat.</p>
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 105
+Mana: 105
+Stamina: 105
+Focus: 105
 
 SCORES
-Initiative: 15|
-Carry: 8u|
-Element: Dark/Dark|
+Initiative: 15
+Carry: 8u
+Element: Dark/Dark
 
-STATS
-Melee: (Power: 3, Evasion: 10, Accuracy: +5)|
-Magic: (Power: 3, Evasion: 10, Accuracy: +5)|
-Skill: (Power: 3, Evasion: 10. Accuracy: +5)|
+Cores
+Mind: (Power: 50, Resistance: 100, Evasion: 100, Accuracy: 150)
+Body: (Power: 50, Resistance: 100, Evasion: 100, Accuracy: 150)
+Will: (Power: 50, Resistance: 100, Evasion: 100, Accuracy: 150)
 
 Abilities
 Doctrine: Greater Revival
-Magic-Support-Reaction
+Mind-Support-Reaction
 Trigger: You lose the Dead or KO'd Status.
 Effect: You gain 1 level until the end of the battle.
 "Upon fighting his first incarnation, we were barely able to survive. Later that night his cultists
-returned and brought him back, stronger and more fearsome than ever."|
+returned and brought him back, stronger and more fearsome than ever."
 
 A1: Spiked Halo
-Magic-Offensive-Item
+Will-Offensive-Item
 Slot: Gear
 Spiked Halo (Grants Artisan 2 to all attacks).
-"Like an angel of war, he wore a halo of barbed wire."|
+"Like an angel of war, he wore a halo of barbed wire."
 
 A2: Buzzsaw Dance
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+3sta+3fcs
 Range: =1sp AoE circle
 Accuracy: Skill
 Dmg: (3){SklPwr}.
 "Without any warning he started sprinting, twirling around the battlefield in a large circle faster than the eye could
-track. We'd been caught in his trap."|
+track. We'd been caught in his trap."
 
 A3: Earthquake Stomp
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+7sta
 Solowork: Reduce Use cost by 2sta.
 Effect: Move 2sp in any direction.
@@ -56,72 +56,72 @@ Evade: Melee
 OnHit: Take (1){MlePwr} dmg and is made Prone.
 "Tactics didn't work against it. Surrounded on all sides from positions high and low, the monster simply
 jumped into the air and came down with a powerful stomp that shook the battlefield.
-That is when the real massacre began."|
+That is when the real massacre began."
 
 A4: Serial Killing
-Skill-Offensive-Reaction
+Mind-Offensive-Reaction
 Trigger: You kill a combatant.
 Teamwork: Allies in your space gain 5AP to their next turn.
 Effect: Regain 10AP (max 20).
-"Taken over with a bloodlust, the Evening Dew kept on killing and killing."|
+"Taken over with a bloodlust, the Evening Dew kept on killing and killing."
 
 A5: Rush!
-Skill-Support-Passive
+Mind-Support-Passive
 Effect: Abilities with (x/battle) Use costs are increased by (+2/battle).
 Abilities with (1/yturn) Use costs are increased by (+2/yturn)
 Abilities with (x/turn) Use costs are increased by (+2/turn)
-"A dark angel, it is unbound by mortal limits."|
+"A dark angel, it is unbound by mortal limits."
 
 A6: Crushing Strike
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+7sta
 Solowork: Range gains AoE.
 Teamwork: Range gains +1sp.
 Range: 0sp
 Accuracy: Melee
 Dmg: (4){MlePwr} Honed 4
-"The Evening Dew is a cursed angel, and by a twisted nature it is bound to destroy everything it comes across."|
+"The Evening Dew is a cursed angel, and by a twisted nature it is bound to destroy everything it comes across."
 
 A7: Path of Flame
-Magic-Support-Reaction
+Will-Support-Reaction
 Trigger: You leave a space.
 Use: 5mna
 IfKO: Increase Use cost by 5mna.
 Effect: Place a Flame prop in the space you left.
 Flame prop: Upon entering or ending your turn in the same space as this prop, the combatant is afflicted with Burning (3).
-"The Evening Dew leaves a trail of ashes."|
+"The Evening Dew leaves a trail of ashes."
 
 A8: Zealous Abandon
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 5fcs
 Effect: If your next action has 1sp Range then grant it AoE until the end of the action. It also targets allies.
-"We thought the Evening Dew could tell friends from foes - what a naive thought. Blood is blood."|
+"We thought the Evening Dew could tell friends from foes - what a naive thought. Blood is blood."
 
 A9: Path of the Bloodletter.
-Magic-Offensive-Passive
+Will-Offensive-Passive
 Effect: All actions have their rank increased by 2. Every action costs an additional (1){MlePwr} health.
 IfKO: This ability behaves as normal.
 "A spirit of suffering, the Evening Dew is not excluded from its gruesome process. But that is the secret
-of its power. For there is power in blood, and the Evening Dew's power abounds."|
+of its power. For there is power in blood, and the Evening Dew's power abounds."
 
 MA1: Apocalypse
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 20AP+15mna
 Effect: All combatants on the battlefield (including you and your allies) are afflicted with Doom 3.
 "Across the world a brass bell tolled three times. On the third strike the world fell silent,
-the weak with the strong were wiped away, and time came to a final halt."|
+the weak with the strong were wiped away, and time came to a final halt."
 
 MA2: Resurrection Ritual
-Magic-Defensive-Reaction
+Will-Defensive-Reaction
 Trigger: A combatant is killed.
 Effect: Restore all vital scores to full. If you're KO or dead, revive with full vital scores.
 "His followers gathered beneath the first full moon on winter. Taking a wild man as sacrifice, they spilled
-his blood upon the snow. The moon turned red, and out from the darkness he arose."|
+his blood upon the snow. The moon turned red, and out from the darkness he arose."
 
 MA3: Slicing Song
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+10fcs
 Range: Battlefield
 Effect: All enemy combatants within range take (3){SklPwr} metal damage and are afflicted with Bleed {SklPwr}.
 "It was a horrible sound, high and cutting like the sound of metal claws scraping. Invisible knives danced
-through the air."|
+through the air."

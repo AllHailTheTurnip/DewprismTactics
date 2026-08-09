@@ -1,7 +1,7 @@
 
 
-Title: Skeleton|
-Subtitle: Withered Warrior|
+Title: Skeleton
+Subtitle: Withered Warrior
 Description: Some believe that the first skeleton was a monk who, after fasting for
 30 days, achieved a heightened-state of being and, instead of succumbing to starvation,
 became nearly immortal. Before ascending, he taught everything he knew to his disciples.
@@ -9,44 +9,44 @@ Later on, when their nation was attacked by raiders and the disciples were scatt
 across the empire, they used their knowledge to help them survive.<br>
     <p>While that's still considered a myth, it is absolutely certain that Skeleton
     have their name for a reason. Their fasting has reduced them to skin and bones,
-    yet their heightened states have granted power. A mysterious magic surrounds them.</p>|
+    yet their heightened states have granted power. A mysterious magic surrounds them.</p>
 
 VITALS
-Health: 15|
-Mana: 5|
-Stamina: 5|
-Focus: 5|
+Health: 105
+Mana: 35
+Stamina: 35
+Focus: 35
 
 SCORES
-Initiative: 10|
-Carry: 5u|
-Element: Wind/Dark|
+Initiative: 10
+Carry: 5u
+Element: Wind/Dark
 
-STATS
-Melee: (Power: 3, Evasion: 12, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: -1)|
-Skill: (Power: 6, Evasion: 15, Accuracy: -1)|
+Cores
+Mind: (Power: 125, Resistance: 50, Evasion: 150, Accuracy: 90)
+Body: (Power: 50, Resistance: 50, Evasion: 120, Accuracy: 100)
+Will: (Power: 100, Resistance: 50, Evasion: 100, Accuracy: 90)
 
 Abilities
 Doctrine: Tireless
-Melee-Support-Passive
+Body-Support-Passive
 Effect: Spend 5AP to restore 5 mana, 5 stamina, and 5 focus.
-IfKO: Instead pay 7sta+7mna+7fcs to regain (1){MgcPwr} health.|
+IfKO: Instead pay 7sta+7mna+7fcs to regain (1){MgcPwr} health.
 
 A1: Undead
-Magic-Support-Passive
+Will-Support-Passive
 Effect: Does not become Knocked-Out at 0 Health. Immune to Doom. Cannot drown.
-Healing from enemy combatants is taken as damage.|
+Healing from enemy combatants is taken as damage.
 
 A2: Play Dead
-Skill-Support-Action/Reaction
+Mind-Support-Action/Reaction
 Trigger: You take damage.
 Use: 10AP
 Effect: You may falsely gain the Dead status, taking the appearance of a dead combatant.
-While falsely dead, the only action you can make is to remove the Dead status.|
+While falsely dead, the only action you can make is to remove the Dead status.
 
 A3: Salvage Bone Weapon
-Skill-Support-Action
+Mind-Support-Action
 Use: 15AP+5sta
 Effect: While in the same space as a dead combatant, conjure a Bone Weapon.
 Bone Weapon:
@@ -55,62 +55,62 @@ WC: NA,
 Use: [target's MleEva - rounded to nearest 5],
 Rank: [target's level-1 MlePwr],
 Weight: 1u)
-At Class-Level 10: Weapon also gets Attribute equal to target's Doctrine ability.|
+At Class-Level 10: Weapon also gets Attribute equal to target's Doctrine ability.
 
 A4: Skeletal
-Magic-Support-Passive
-Effect: Any taken melee-type damage is halved.|
+Will-Support-Passive
+Effect: Any taken Body-type damage is halved.
 
 A5: Savage Strike
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP
 Range: 0sp
 Teamwork: If your Accuracy check naturally rolls 15 or higher, auto-pass the Luck check.
 Accuracy: Melee
 OnHit: Inflict (2){MlePwr} damage.
 Luck: 10
-OnPass: Disable Melee (Target cannot make Melee-type actions.)|
+OnPass: Disable Melee (Target cannot make Body-type actions.)
 
 A6: Lightweight
-Melee-Support-Passive
+Body-Support-Passive
 Solowork: +5 to Melee Self-Checks.
-Effect: +10 to Acrobatics checks.|
+Effect: +10 to Acrobatics checks.
 
 A7: Fragile
-Melee-Support-Passive
+Body-Support-Passive
 Solowork: Increase your Critical Success Threshold by 2.
-Effect: Increase your Critical Failure Threshold by 2.|
+Effect: Increase your Critical Failure Threshold by 2.
 
 A8: Reassemble
-Magic-Support-Action
+Will-Support-Action
 Teamwork: Allies in your space gain access to this ability.
 Use: 5AP+3fcs+5mna
-Effect: Remove a negative status effect.|
+Effect: Remove a negative status effect.
 
 A9: Horrifying
-Skill-Defensive-Action
+Mind-Defensive-Action
 Use: 5fcs
 Range: 3sp
 Accuracy: Skill
 IfKO: Reduce Accuracy check by 3.
-OnPass: Opponent returns to their previous space.|
+OnPass: Opponent returns to their previous space.
 
 MA1: Lich Resurgence
-Magic-Defensive-Action
+Will-Defensive-Action
 Use: 10AP + 10mna
 Range: 2sp AoE
 Effect: The user gains the Lich status for (3) turns. While possessing the Lich status, the user can lose health but
 cannot die, no matter how low their health goes.
-For (3) turns enemies within range are pushed away and out of range.|
+For (3) turns enemies within range are pushed away and out of range.
 
 MA2: Touch of Undeath
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+12mna
 Range: 0sp
-Effect: The targeted combatant becomes immortal, but now counts as a neutralized combatant.|
+Effect: The targeted combatant becomes immortal, but now counts as a neutralized combatant.
 
 MA3: Oblivion's Grasp
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 15AP+12mna
 Range: 3sp AoE
-Effect: All enemies in range gain the Doomed 3 status.|
+Effect: All enemies in range gain the Doomed 3 status.

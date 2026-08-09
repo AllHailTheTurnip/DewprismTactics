@@ -1,5 +1,5 @@
-Title: Puppet|
-Subtitle: Cursed Soldiers|
+Title: Puppet
+Subtitle: Cursed Soldiers
 Description: During their mortal lives they were soldiers bound in eternal slavery to
 wizarding masters. Even in death their chains remained; their masters bound their souls
 within crude puppets. And so they remained as soldiers ever after, endlessly patrolling
@@ -14,105 +14,105 @@ quirks, and behaviors - persists. They are rational creatures with irrational na
 they can reason and make weighted decisions, but their inmost natures decree that they
 should serve a master. There are legends of puppets who have had their eternal chains broken,
 but they are just legends.
-</p>|
+</p>
 ???
 
 VITALS
-Health: 30|
-Mana: 10|
-Stamina: 15|
-Focus: 17|
+Health: 105
+Mana: 70
+Stamina: 105
+Focus: 147
 
 SCORES
-Initiative: 13|
-Carry: 8u|
-Element: Wind|
+Initiative: 13
+Carry: 8u
+Element: Wind
 
-STATS
-Melee: (Power: 3, Evasion: 12, Accuracy: -2)|
-Magic: (Power: 4, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 3, Evasion: 6, Accuracy: +1)|
+Cores
+Mind: (Power: 50, Resistance: 93, Evasion: 60, Accuracy: 110)
+Body: (Power: 50, Resistance: 88, Evasion: 120, Accuracy: 80)
+Will: (Power: 75, Resistance: 75, Evasion: 100, Accuracy: 100)
 
 Abilities
 Doctrine: High Alert
-Skill-Defensive-Reaction
+Mind-Defensive-Reaction
 Use: 3fcs
 Teamwork: Replace this ability's Range with TL/5.
 Range: CL/5
 Trigger: An enemy combatant enters within range.
 Solowork: You may spend an additional 5sta to grant the proceeding Accuracy check Advantage.
-Effect: Make a free basic attack against the intruding enemy combatant.|
+Effect: Make a free basic attack against the intruding enemy combatant.
 
 A1: Strung-Up
-Melee-Defense-Passive
-Effect: You are immune to Prone.|
+Body-Defense-Passive
+Effect: You are immune to Prone.
 
 A2: Enchanted Object
-Magic-Support-Passive
-IfKO: Also increases IfKO-compatible your Magic-type abilities Use costs by 3mna.
-Effect: Increase Magic-type checks by +3.|
+Will-Support-Passive
+IfKO: Also increases IfKO-compatible your Will-type abilities Use costs by 3mna.
+Effect: Increase Will-type checks by +3.
 
 A3: Scout
-Melee-Support-Action
+Body-Support-Action
 Use: 5sta
 Teamwork: An allie in your space may follow you.
-Effect: Make a Movement action.|
+Effect: Make a Movement action.
 
 A4: Unliving
-Magic-Support-Passive
-Effect: Immune to Asleep, Bleeding, and Poison|
+Will-Support-Passive
+Effect: Immune to Asleep, Bleeding, and Poison
 
 A5: Wild Flail
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP
 Effect: Make an unarmed attack (include only your Melee Power for damage) with +5 to its accuracy check.
-You may spend an additional 3sta to make an extra unarmed attack, or 7sta to make two extra unarmed attacks.|
+You may spend an additional 3sta to make an extra unarmed attack, or 7sta to make two extra unarmed attacks.
 
 A6: Mime Action
-Magic-Defense-Reaction
+Will-Defense-Reaction
 Trigger: A combatant resolves an action against you and finishes their turn.
 Use: 3fcs
 Range: Battlefield LoS
 Solowork: Reduce the proceeding Luck check by 3{OutNum}.
 Luck: 15
-Effect: Execute the same action for free after their action is resolved.|
+Effect: Execute the same action for free after their action is resolved.
 
 A7: Gang Attack
-Magic-Offensive-Reaction
+Will-Offensive-Reaction
 Trigger: An allie within the same space makes an attack against an opponent.
 IfKO: Make a Luck 10 check to use.
-Effect: You may spend 5fcs to make a free basic attack action at the same target.|
+Effect: You may spend 5fcs to make a free basic attack action at the same target.
 
 A8: Conjure Controller
-Magic-Support-Action
+Will-Support-Action
 Use: 5AP+3mna
 Range: 0sp
 Effect: Create a Controller item and give it to an allie within range. You are regarded as the Controller's puppet.
 Controller: While equipped, treat the puppet as an extension of yourself; any actions you make, you may have the
-puppet perform instead.|
+puppet perform instead.
 
 A9: Reassemble
-Skill-Support-Passive
+Mind-Support-Passive
 Range: 0sp
 Effect: While KO'd, an allie within range may spend 10AP to revive you at 1HP.
 While dead, an allie within range may spend 10AP+3fcs to revive you at 1HP.
-Note: If you are dead by the end of combat, the ability cannot be used.|
+Note: If you are dead by the end of combat, the ability cannot be used.
 
 MA1: Full Alert
-Skill-Defense-Reaction
+Mind-Defense-Reaction
 Range: TL/5
 Trigger: An enemy combatant makes a movement action within range.
-Effect: Make a free action (ability or basic) against the intruding combatant.|
+Effect: Make a free action (ability or basic) against the intruding combatant.
 
 MA2: Puppet Master
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+5mna+(3/battle)
 Range: Battlefield
 Effect: When a combatant dies it is resurrected with (5){MgcPwr} Health under the control
 of this ability's user.
 If more tha one user has the Puppet Master ability, the fallen combatant is put under control of the user
-who most recently took their turn.|
+who most recently took their turn.
 
 MA3: Nonliving Matter
-Melee-Defensive-Passive
-Effect: Damage from elemental-attacks is halved.|
+Body-Defensive-Passive
+Effect: Damage from elemental-attacks is halved.

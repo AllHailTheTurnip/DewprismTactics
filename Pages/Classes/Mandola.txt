@@ -3,8 +3,8 @@ Ranged -
 regenerative "plantlike"
 Wall-like
 
-Title:Mandola|
-Subtitle:Evergreen Sentinel|
+Title:Mandola
+Subtitle:Evergreen Sentinel
 Description:The Mandola is a type of fighter named for the viscious Mandola plants that grow in rocky
 terrain. The plants, which adapted through the years to cling to life and fight with bullet seeds and
 sharp teeth, live on in the legacy of the new Mandolas. They are part herbalist, part sniper. and part
@@ -13,111 +13,111 @@ guard tower.
 The Mandola's creed is to protect without flaw. They stay their ground, rooted like plants, turning
 any hostile environment into their home. Many of them have even discovered the secrets of natural
 regeneration and can recover from just about any injury in a matter of minutes. Yet like all plants,
-no Mandola is truly ever the same, as they vary from region to region. </p>|
+no Mandola is truly ever the same, as they vary from region to region. </p>
 
 VITALS
-Health: 50|
-Mana: 12|
-Stamina: 8|
-Focus: 20|
+Health: 105
+Mana: 84
+Stamina: 56
+Focus: 210
 
 SCORES
-Initiative: 5|
-Carry: 6u|
-Element: Wind|
+Initiative: 5
+Carry: 6u
+Element: Wind
 
-STATS
-Melee: (Power: 6, Evasion: 8, Accuracy: +2)|
-Magic: (Power: 3, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 6, Evasion: 6, Accuracy: -1)|
+Cores
+Mind: (Power: 125, Resistance: 117, Evasion: 60, Accuracy: 90)
+Body: (Power: 125, Resistance: 87, Evasion: 80, Accuracy: 120)
+Will: (Power: 50, Resistance: 97, Evasion: 100, Accuracy: 100)
 
 Abilities
 Doctrine:Take Root
-Melee-Support-Action
+Body-Support-Action
 Teamwork: Instead of 15AP, you may spend 7sta instead.
 Use: 15AP
 Your Movement is disabled as you become affixed to the surface of your choice; you are unaffected by
 forced-movement effects.
 At the end of your turn, restore (3){MlePwr} Health.
-You can re-enable your Movement at any point after the turn this Ability was used.|
+You can re-enable your Movement at any point after the turn this Ability was used.
 
 A1:Seed Gun
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+3fcs
 Range: 1sp
 Make three accuracy checks as part of this ability.
 Accuracy: Skill
-For each hit, deal (1){SklPwr} damage.|
+For each hit, deal (1){SklPwr} damage.
 
 A2:Blossom
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 20AP
 IfKO: Use as normal.
 Range: 1+({TL}/4)sp AoE circle.
 Accuracy: Skill
 Variable: X = 1
 Solowork: Increase X by 1.
-OnPass: Affected enemies makes X Movement action(s) in the direction of your position.|
+OnPass: Affected enemies makes X Movement action(s) in the direction of your position.
 
 A3:Photosynthesis
-Melee-Support-Action
+Body-Support-Action
 Use: 10AP+3fcs
 Increase max Health and current Health by (1){MlePwr}
-Solowork: Remove any negative status effects.|
+Solowork: Remove any negative status effects.
 
 A4:Parasite Spore
-Melee-Offensive-Reaction
+Body-Offensive-Reaction
 Trigger: You take damage.
 Use: 3Sta
 Luck: 8
 The attacker is given a Spore marker.
 You are the Spore marker's creator.
-Spore Marker: At the beginning of your turn, lose (1){Creator's MlePwr} health. The creator gains any health lost this way.|
+Spore Marker: At the beginning of your turn, lose (1){Creator's MlePwr} health. The creator gains any health lost this way.
 
 A5:Grow Bark
-Melee-Defensive-Action
+Body-Defensive-Action
 Teamwork: Instead of paying 20AP, you may pay 5AP+(1/turn).
 Use: 20AP
-Increase MleEva by (2) (Max 20).|
+Increase MleEva by (2) (Max 20).
 
 A6:Tangle of Vines
-Skill-Defensive-Action
+Mind-Defensive-Action
 Use: 10AP+5sta
 Create a Tangle of Vine prop in your space.
-Tangle of Vine: Enemy actions made in the same space as this prop cost an extra 5AP+1sta.|
+Tangle of Vine: Enemy actions made in the same space as this prop cost an extra 5AP+1sta.
 
 A7:Acid Splash
-Melee-Offensive-Action/Reaction
+Body-Offensive-Action/Reaction
 Trigger: You are attacked
 Use: 10AP
 Range: 0sp
 Accuracy: Melee
-OnPass: Inflict (3){MlePwr} dmg. Choose a positive status effect to undo.|
+OnPass: Inflict (3){MlePwr} dmg. Choose a positive status effect to undo.
 
 A8:Attract Bees
-Melee-Defensive-Action
+Body-Defensive-Action
 Use: 5AP+5Sta
 IfKO: Set Cost to 7Sta+(1/turn)
 Create a Bee Swarm token anywhere along the (relative) south border of the battlefield.
 At the end of your turn, the Bee Swarm token moves 1sp towards the nearest enemy Combatant,
-whereupon it moves into the space, the token is destroyed and the nearest enemy takes (3){MlePwr} damage.|
+whereupon it moves into the space, the token is destroyed and the nearest enemy takes (3){MlePwr} damage.
 
 A9:Bear Fruit
-Melee-Support-Action
+Body-Support-Action
 Use: 20AP
 Create three consumable Fruits and put them your inventory.
-Fruit: On consumption, restore (45){TL} Health.|
+Fruit: On consumption, restore (45){TL} Health.
 
 MA1: Sacred Lotus
-Melee-Support-Passive
-Effect: Health restored to a combatant (including yourself) by any of your abilities is increased by 100%.|
+Body-Support-Passive
+Effect: Health restored to a combatant (including yourself) by any of your abilities is increased by 100%.
 
 MA2: Grow!
-Melee-Defensive-Action
+Body-Defensive-Action
 Use: 20AP+10sta
 Effect: Increase your Max Health by 50%. Restore your Health to full. Incoming damaged is halved until the start
-of your next turn.|
+of your next turn.
 
 MA3: Shared Beauty
-Magic-Support-Passive
-Effect: Your abilities that only target you can now also target allies.|
+Will-Support-Passive
+Effect: Your abilities that only target you can now also target allies.

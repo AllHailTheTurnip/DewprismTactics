@@ -1,33 +1,33 @@
-Title: Cloud Whale|
-Subtitle: Master of Wind and Seas|
+Title: Cloud Whale
+Subtitle: Master of Wind and Seas
 Description: Cloud Whales were the first ones to master the wind and water.
 Following in the footsteps of the original cloud whales, who were monstrous
 creatures that lived over stormy seas, the Cloud Whale warriors likewise
 learned to control wind and water to defeat their enemies.
 <p>Today, Cloud Whales are an oddity, as it's so difficult to train into one.
 They typically begin as sea-side monks or sailors, who in turn learn
-to copy the actual cloud whales.</p>|
+to copy the actual cloud whales.</p>
 
 
 VITALS
-Health: 60|
-Mana: 20|
-Stamina: 15|
-Focus: 10|
+Health: 105
+Mana: 210
+Stamina: 105
+Focus: 70
 
 SCORES
-Initiative: 6|
-Carry: 15u|
-Element: Wind/Electric|
+Initiative: 6
+Carry: 15u
+Element: Wind/Electric
 
-STATS
-Melee: (Power: 5, Evasion: 6, Accuracy: 0)|
-Magic: (Power: 6, Evasion: 8, Accuracy: 1)|
-Skill: (Power: 3, Evasion: 12, Accuracy: 0)|
+Cores
+Mind: (Power: 50, Resistance: 100, Evasion: 120, Accuracy: 100)
+Body: (Power: 100, Resistance: 113, Evasion: 60, Accuracy: 100)
+Will: (Power: 125, Resistance: 125, Evasion: 80, Accuracy: 110)
 
 Abilities
 Doctrine: Vortex
-Magic-Offensive-Action
+Will-Offensive-Action
 Choose one: Mode A or Mode B.
 Mode A:
 Use: 20AP!+5mna.
@@ -49,89 +49,89 @@ Conclusion:
 Variable: X =10
 Solowork: Increase X by 10.
 Regain X% of the consumed max health of any combatants consumed.
-They respawn as though they'd fallen down a bottomless pit.|
+They respawn as though they'd fallen down a bottomless pit.
 
 A1: Tidal Wave
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+7mna
 Range: Battlefield AoE
 IfKO: Set Range to 2sp.
 Evade: Magic
-OnHit: Inflict {1}MgcPwr damage.|
+OnHit: Inflict {1}MgcPwr damage.
 
 A2: Rain Gun
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 5AP+3mna+3fcs
 Teamwork: +1 to Range.
 Range: 1sp
 Accuracy: Magic
-OnHit: (2){MgcPwr}|
+OnHit: (2){MgcPwr}
 
 A3: Glide
-Magic-Support-Action
+Will-Support-Action
 Use: 3mna
 Effect: Ignore Difficult Terrain for the duration
-of the round.|
+of the round.
 
 A4: Fog
-Magic-Defensive-Action
+Will-Defensive-Action
 Use: 10AP+3mna
 Range: 1sp
 IfKO: Increase range by 2sp.
 Effect: Create a Fog token. All allies sharing the Fog's space gain Very Light Cover.
 If they already have cover, improve their Cover's luck checks by 5.
-The Fog token expires after three rounds have passed.|
+The Fog token expires after three rounds have passed.
 
 A5: Monsoon
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+3mna
 Range: 2sp AoE
 Effect: Choose a space within range to target.
 All enemy combatants within the targeted space make an Evade check.
-On failure, they take (2){MgcPwr} water damage.|
+On failure, they take (2){MgcPwr} water damage.
 
 A6: Dive
-Melee-Support-Action
+Body-Support-Action
 Use: 3sta
-Effect: Ignore any fall damage you might take.|
+Effect: Ignore any fall damage you might take.
 
 A7: Immensity
-Melee-Support-Passive
+Body-Support-Passive
 Teamwork: Enemy combatants cannot enter your space.
 Effect: AoE attacks cannot target beyond your space. Enemy combatants treat
-your space as difficult terrain.|
+your space as difficult terrain.
 
 A8: Heavy Rain
-Skill-Defensive-Action
+Mind-Defensive-Action
 Use: 3mna
 Range: Battlefield
 Effect: Fire-element attacks are Reduced in rank by 2, to a minimum of 0. This
-effect lasts until the start of your next turn.|
+effect lasts until the start of your next turn.
 
 A9: Surface Storm
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP
 Effect: For the next three rounds, while you have Aggro, reduce incoming damage by 1 Rank.
-Solowork: In addition, attack ranks cannot be increased from rolling critical.|
+Solowork: In addition, attack ranks cannot be increased from rolling critical.
 
 MA1: Tsunami
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+7mna
 Range: Battlefield AoE
 Effect: Choose a horizontal direction; all affected combatants are moved (2)sp in that direction.
 Evade: Melee+3
-Dmg: (3){MlePwr}|
+Dmg: (3){MlePwr}
 
 MA2: Endless Rain
-Magic-Offensive-Passive
+Will-Offensive-Passive
 Effect: At the beginning of combat create a Flood prop in your space.
 At the beginning of each following expand the Flood prop into each (max 4) adjacent spaces.
 The Flood prop cannot expand into bottomless pits; they simply fall in.
 Spaces with a Flood prop in them count as difficult terrain
-If the Flood cannot expand into any more horizontal spaces, then the Flood props expand vertically.|
+If the Flood cannot expand into any more horizontal spaces, then the Flood props expand vertically.
 
 MA3: Immensity
-Melee-Support-Passive
+Body-Support-Passive
 Effect: You now take up (3) spaces at all times and treated as being 1sp tall.
 You are so big that other combatants cannot fit into your space.
-You can be climbed for 10AP.|
+You can be climbed for 10AP.

@@ -1,115 +1,115 @@
-Title: Stinger|
-Subtitle: Agile and Piercing|
+Title: Stinger
+Subtitle: Agile and Piercing
 Description: The name stinger comes from the combative style of the West Heaven imperial guards who
 use a blend of puncturing weapons and acrobatics techniques to defeat opponents. In recent years the
 style has been migrated across the planet, being adapted to new climates.
 <p>
 Today, Stingers are generally understood to be fighters that use a blend of poisons, needles,
 and good footwork. They can be spotted just about anywhere - especially by the thorns of their armor.
-</p>|
+</p>
 
 VITALS
-Health: 30|
-Mana: 10|
-Stamina: 15|
-Focus: 20|
+Health: 105
+Mana: 70
+Stamina: 105
+Focus: 210
 
 SCORES
-Initiative: 10|
-Carry: 8u|
-Element: Wind|
+Initiative: 10
+Carry: 8u
+Element: Wind
 
-STATS
-Melee: (Power: 4, Evasion: 14, Accuracy: +2)|
-Magic: (Power: 3, Evasion: 9, Accuracy: 0)|
-Skill: (Power: 6, Evasion: 12, Accuracy: +1)|
+Cores
+Mind: (Power: 125, Resistance: 100, Evasion: 120, Accuracy: 110)
+Body: (Power: 75, Resistance: 88, Evasion: 140, Accuracy: 120)
+Will: (Power: 50, Resistance: 75, Evasion: 90, Accuracy: 100)
 
 Abilities
 Doctrine: Thorny Armor
-Skill-Defensive-Reaction
+Mind-Defensive-Reaction
 Trigger: An enemy declares making a melee-range attack against you.
-Inflict (1){SklPwr} metal damage to each enemy in same space.|
+Inflict (1){SklPwr} metal damage to each enemy in same space.
 
 A1: Tactical Roll
-Melee-Defensive-Reaction
+Body-Defensive-Reaction
 Trigger: You are attacked by an enemy.
 Use: 3sta
 Effect: Increase your MleEva by 5 until the end of the attack.
 After the attack is resolved, move up 1+(TL/4)sp in any direction.
-Teamwork: Increase your MleEva by 7 instead.|
+Teamwork: Increase your MleEva by 7 instead.
 
 A2: Shrink Down
-Magic-Defensive-Action
+Will-Defensive-Action
 Use: 5AP+5mna
 Increase Evasion scores by 50%, reduce your Power scores by 50%.
-At the beginning of your next turn, restore your Evasion and Power scores.|
+At the beginning of your next turn, restore your Evasion and Power scores.
 
 A3: Coat with Poison
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+4fcs
 Range: Any allie on the battlefield.
 If the ally's Primary weapon doesn't already have it, give it the attribute of Poison (1){SklPwr}.
-Solowork: Alternatively, you may use this ability again to increase the Poison attribute's Rank by 1.|
+Solowork: Alternatively, you may use this ability again to increase the Poison attribute's Rank by 1.
 
 A4: Throwing Needles
-Skill-Passive-Action
+Mind-Passive-Action
 Use: 10AP
 Effect: Create (1){TL} Throwing Needles tokens.
-Throwing Needle token: Spend 5AP to destroy this token and target a combatant within 1sp with a Skill Accuracy check. On hit, inflict (1){SklPwr} damage.|
+Throwing Needle token: Spend 5AP to destroy this token and target a combatant within 1sp with a Skill Accuracy check. On hit, inflict (1){SklPwr} damage.
 
 A5: Acupuncture
-Skill-Support-Action
+Mind-Support-Action
 Teamwork: Reduce Use-cost by 5AP+1fcs.
 Use: 10AP+3fcs
 Range: 0sp.
 IfKO: Use as normal.
-Effect: Restore a disabled ability or disabled action.|
+Effect: Restore a disabled ability or disabled action.
 
 A6: Pierce Piece
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+3fcs
 Range: 0s[+(TL/4)]
 Accuracy: Skill
 OnPass: Destroy a targeted token or prop.
-Solowork: The destroyed token or prop's owner takes (1){SklPwr} damage.|
+Solowork: The destroyed token or prop's owner takes (1){SklPwr} damage.
 
 A7:Conjure Antidote
-Skill-Support-Action
+Mind-Support-Action
 Use: 10AP
 IfKO: Increase Use cost by 5fcs.
 Range: 0sp
-Effect: Remove Poison or Paralyze.|
+Effect: Remove Poison or Paralyze.
 
 A8:Throw Caltrop
-Skill-Defensive-Action
+Mind-Defensive-Action
 Use: 5AP+5fcs
 Teamwork: Increase range by 1sp.
 Range: 0sp
 Place a Caltrop props in range.
-Caltrop prop: Counts as difficult terrain. Upon entering space, take 1{SklPwr} damage.|
+Caltrop prop: Counts as difficult terrain. Upon entering space, take 1{SklPwr} damage.
 
 A9:Suture
-Skill-Support-Action
+Mind-Support-Action
 Use: 5AP
 Range: Combatant in same space.
-Removes Bleed|
+Removes Bleed
 
 MA1: Autoreaction
-Skill-Support-Action
+Mind-Support-Action
 Use: 5fcs+(2/turn)
-Effect: Bypass an ability's trigger (freely decide whatever the trigger might've been) and invoke the ability for free.|
+Effect: Bypass an ability's trigger (freely decide whatever the trigger might've been) and invoke the ability for free.
 
 MA2: Shrapnel Bomb
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+10fcs
 Range: 1sp AoE circle
 Dmg: (2){SklPwr} dmg.
 Range: 2sp AoE circle
 Evade: Skill
-Dmg: (3){SklPwr} dmg|
+Dmg: (3){SklPwr} dmg
 
 MA3: Grand Rapier
-Skill-Offensive-Item
+Mind-Offensive-Item
 Slot: Primary
 Grand Rapier (Type: Skill, WC: VL, Use: (4/turn), Rank: 1;
-Increase this weapon's Rank by 1 for every successful accuracy check made with it until the end of the turn.)|
+Increase this weapon's Rank by 1 for every successful accuracy check made with it until the end of the turn.)

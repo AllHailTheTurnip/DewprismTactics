@@ -1,90 +1,90 @@
-Title: Shaolon|
-Subtitle: Bloodthirsty Raptor|
+Title: Shaolon
+Subtitle: Bloodthirsty Raptor
 Description: Originally meaning "Talon", Shaolons utilize an arsenal of sharp weapons
 inspired by raptors such as hawks and eagles. Their kind first appeared in the eastern barrenlands as private assassins
 for the Patriarchs, but during the turn of the millennium their reign came to an end and the disenfranchised Shaolons sought employment under the highest bidders.
  The history of the Shaolon is stained in blood, where at no point does it seem to have found redemption. A Shaolon's
  doctrine is defined by a kind of reptilian pragmatism, where there exists no other hierarchy than prey and predator - the devourer and the devoured.
  Like most animals, Shaolons have adapted to the modern world. They serve in the rotted belly of the underworld,
- hired killers of ill regard.|
+ hired killers of ill regard.
 
 VITALS
-Health: 40|
-Mana: 15|
-Stamina: 17|
-Focus: 12|
+Health: 105
+Mana: 105
+Stamina: 147
+Focus: 84
 
 SCORES
-Initiative: 15|
-Carry: 8u|
-Element: Electric|
+Initiative: 15
+Carry: 8u
+Element: Electric
 
-STATS
-Melee: (Power: 6, Evasion: 8, Accuracy: +2)|
-Magic: (Power: 3, Evasion: 8, Accuracy: 0)|
-Skill: (Power: 6, Evasion: 10, Accuracy: +3)|
+Cores
+Mind: (Power: 125, Resistance: 88, Evasion: 100, Accuracy: 130)
+Body: (Power: 125, Resistance: 101, Evasion: 80, Accuracy: 120)
+Will: (Power: 50, Resistance: 96, Evasion: 80, Accuracy: 100)
 
 Abilities
 Doctrine: Eviscerate
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+3sta
 Range: 0sp
 Accuracy: Skill
 Teamwork: Increase critical threshold by {TmWrk}.
 Dmg: (3){SklPwr}, Target takes Bleeding (1){SklPwr}
-OnCrit: Choose an ability to disable.|
+OnCrit: Choose an ability to disable.
 
 A1: Razor Teeth
-Skill-Offensive-Passive
-Effect: Unarmed attacks inflict Bleeding (1){SklPwr}|
+Mind-Offensive-Passive
+Effect: Unarmed attacks inflict Bleeding (1){SklPwr}
 
 A2: Raptor Claw
-Skill-Offensive-Item
+Mind-Offensive-Item
 Slot: Primary
-Raptor Claws (Type: Skill, WC: L, Rank: 2, Use: 5AP+(2/turn); inflicts Bleeding (1){SklPwr})|
+Raptor Claws (Type: Skill, WC: L, Rank: 2, Use: 5AP+(2/turn); inflicts Bleeding (1){SklPwr})
 
 A3: Stride
-Melee-Movement-Action
+Body-Movement-Action
 Use: 1/turn
-Effect: Move one space in any direction.|
+Effect: Move one space in any direction.
 
 A4: Clever Idea
-Skill-Movement-Reaction
+Mind-Movement-Reaction
 Trigger: An opponent resolves their attack against you.
 Use: 7sta
 IfKO: Increase Use cost by 3sta.
 Teamwork: Reduce Use cost by 2sta.
-Effect: Relocate an allie to a space adjacent to your attacker's space.|
+Effect: Relocate an allie to a space adjacent to your attacker's space.
 
 A5: Pack Strategy
-Skill-Support-Action
+Mind-Support-Action
 Use: 5fcs+(1/turn)
 IfKO: Choose an allie within 1sp of you to enter your space for free.
 Solowork: Reduce Use cost by 2fcs.
-Effect: You and allies sharing your space gain advantage on your next non-Luck checks.|
+Effect: You and allies sharing your space gain advantage on your next non-Luck checks.
 
 A6: Purge the Weak
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 5AP
 Range: 0sp
-Effect: If an opponent's health is down to 10% of their max, their health is reduced to 0.|
+Effect: If an opponent's health is down to 10% of their max, their health is reduced to 0.
 
 A7: Predatory Gaze
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+5fcs
 Range: 1sp
 Evade: Skill
 Solowork: Increase Evade check difficulty by 2.
-Dmg: Inflict Paralyze (1).|
+Dmg: Inflict Paralyze (1).
 
 A8: Scaled Hide
-Melee-Offensive-Passive
-Effect: You are immune to abilities that disable your own abilities.|
+Body-Offensive-Passive
+Effect: You are immune to abilities that disable your own abilities.
 
 A9: Balancing Tail
-Melee-Movement-Passive
-Effect: You are unaffected by difficult terrain.|
+Body-Movement-Passive
+Effect: You are unaffected by difficult terrain.
 
-MA1:|
-MA2:|
-MA3:|
+MA1:
+MA2:
+MA3:

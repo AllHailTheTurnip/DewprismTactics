@@ -1,106 +1,106 @@
-Title: Atenacius|
-Subtitle: Wizened Master|
-Description: During the height of the rule of Aeons, the Atenacious emerged as a caste of combat mages. Chosen from early childhood for
+Title: Atenacius
+Subtitle: Wizened Master
+Description: During the height of the rule of First Masters, the Atenacious emerged as a caste of combat mages. Chosen from early childhood for
              their innate talents, they were taken and baptized into a world of magic and danger. For the next 18 years they would be disciplined
              for a single purpose: to preserve the arcane arts, no matter the foe.
-             	Though the age of Aeons came to an end, the Atenacious persist as protectors of ancient wisdom. They are the perfect
+                 Though the age of First Masters came to an end, the Atenacious persist as protectors of ancient wisdom. They are the perfect
              hybrid of philosopher and magician, displaying a keen wisdom tempered by lethal potential. Though the world is steadily sinking into
              chaos, the Atenacious persist in not just body but soul.
-             	Combatively, the Atenacious rely upon necromancy and arcane engineering. Biologically speaking, no Atenaciouses are alive;
+                 Combatively, the Atenacious rely upon necromancy and arcane engineering. Biologically speaking, no Atenaciouses are alive;
              their souls are bound within reliquaries. The ascension from their mortal forms has only served to improve their magical prowess - not
-             to mention being effectively ageless.|
+             to mention being effectively ageless.
 ???
 
 VITALS
-Health: 60|
-Mana: 30|
-Stamina: 5|
-Focus: 5|
+Health: 105
+Mana: 420
+Stamina: 35
+Focus: 35
 
 SCORES
-Initiative: 7|
-Carry: 10u|
-Element: Neutral|
+Initiative: 7
+Carry: 10u
+Element: Neutral
 
-STATS
-Melee: (Power: 4, Evasion: 10, Accuracy: 2)|
-Magic: (Power: 4, Evasion: 10, Accuracy: 3)|
-Skill: (Power: 5, Evasion: 10, Accuracy: 3)|
+Cores
+Mind: (Power: 100, Resistance: 88, Evasion: 100, Accuracy: 130)
+Body: (Power: 75, Resistance: 88, Evasion: 100, Accuracy: 120)
+Will: (Power: 75, Resistance: 150, Evasion: 100, Accuracy: 130)
 
 Abilities
 Doctrine: Spirit-Bound
-Magic-Defensive-Passive
+Will-Defensive-Passive
 Effect: You do not count as a combatant and are a spirit sealed in a Reliquary.
 At the start of combat choose a combatant to add your Reliquary to their inventory.
 Bound to a Reliquary, you do not possess a health score and cannot die, neither can you leave the same space as your Reliquary.
 Your turn is taken immediately after your possessor's turn.
-If your possessor is knocked-out or dies, or if your Mana is drained passed 5, you become disabled.|
+If your possessor is knocked-out or dies, or if your Mana is drained passed 5, you become disabled.
 
 A1: Energy Scythes
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+5mna
 Solowork: Increase range by 1sp.
 Teamwork: Increase Accuracy check by +2.
 Range: 1sp
 Accuracy: Magic
 Effect: Target up to three individual combatants within range.
-Dmg: (2){MgcPwr}|
+Dmg: (2){MgcPwr}
 
 A2: Energy Missiles
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 5AP+2mna
 Range: 3sp
 Accuracy: Magic+3
-Dmg: (1){MgcPwr}|
+Dmg: (1){MgcPwr}
 
 A3: Zone of Endurance
-Magic-Defensive-Action
+Will-Defensive-Action
 Use: 10AP+3mna+3fcs+(1/turn)
 IfKO: Increase cost by 10AP.
 Range: 0sp circle AoE
 Luck: 15.
-OnPass: Reduce taken damage to your allies by (2) ranks until start of your next turn.|
+OnPass: Reduce taken damage to your allies by (2) ranks until start of your next turn.
 
 A4: Sovereignty
-Magic-Support-Passive
+Will-Support-Passive
 Effect: At the start of each turn, regain 3 Mana, 3 Focus, and 3 Stamina.
-IfKO: Reduce recovered amount of Mana, Stamina and Focus by 2.|
+IfKO: Reduce recovered amount of Mana, Stamina and Focus by 2.
 
 A5: Conjure Marble Wall
-Magic-Support-Action
+Will-Support-Action
 Use: 5AP+5mna+(3/turn)
 Range: 2sp
 Effect: Create a Marble Wall prop along the border between two connected spaces.
 Combatants cannot move between spaces blocked by a Marble Wall prop.
-Each Marble Wall possesses 15{CL} Health and is Neutral typed.|
+Each Marble Wall possesses 15{CL} Health and is Neutral typed.
 
 A6: Pull into Microcosm
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+7mna
 Teamwork: Adjust Cost by -3mna and +3fcs.
 Range: 0sp
 Evade: Magic
 Effect: The caster and the target each get a Soul dummy placed into a 5x5x5sp microcosm.
 Soul dummies are duplicates of their originals, however, each Dummy possess (MaxMna)5 Health and shares its AP pool with the original.
-If a Soul dummy's health reaches 0, then the original's Mana and Health is set to 0.|
+If a Soul dummy's health reaches 0, then the original's Mana and Health is set to 0.
 
 A7: Ancient Knowledge
-Magic-Support-Passive
-Effect: Increase your Magic self-checks and Evade checks by 5.|
+Will-Support-Passive
+Effect: Increase your Magic self-checks and Evade checks by 5.
 
 A8: Book of Cosmos
-Magic-Offensive-Item
+Will-Offensive-Item
 Slot: Primary and Secondary
-Book of Cosmos (1+{PL/10} per battle, you may increase the Rank of a Magic-type ability by 5 until the end of the action.)|
+Book of Cosmos (1+{PL/10} per battle, you may increase the Rank of a Will-type ability by 5 until the end of the action.)
 
 A9: Alter Spell
-Magic-Support-Action
+Will-Support-Action
 Use: 20AP+7mna
-Solowork: You may choose a third Magic-type ability to target.
-Effect: Choose two Magic-type abilities to target.
+Solowork: You may choose a third Will-type ability to target.
+Effect: Choose two Will-type abilities to target.
 Choose a sentence from each of the targeted abilities' Effect segments to swap with each other.
-Choose one of the targeted spells to disable until the end of combat.|
+Choose one of the targeted spells to disable until the end of combat.
 
-MA1:|
-MA2:|
-MA3:|
+MA1:
+MA2:
+MA3:

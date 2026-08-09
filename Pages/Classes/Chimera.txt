@@ -1,5 +1,5 @@
-Title:Chimera|
-Subtitle: Three-headed Monster|
+Title:Chimera
+Subtitle: Three-headed Monster
 Description: Chimeras are not natural, but are instead glued together from many living
 things, resulting in an abomination. Though there are relatively few of them out in the
 world, their reputation is widely known and feared. Their unnatural state has shrouded
@@ -9,118 +9,118 @@ sense of identity. Being sewn together from so many constituents, many tend to
 lose themselves later in life, succumbing to a madness that aligns closer
 to wild animals than humans.</p>
 <p>Most often, chimeras roam the land in search of belonging. However, they have
-nothing much to offer - aside from their savage power.</p>|
+nothing much to offer - aside from their savage power.</p>
 
 VITALS
-Health: 60|
-Mana: 17|
-Stamina: 13|
-Focus: 15|
+Health: 105
+Mana: 147
+Stamina: 91
+Focus: 105
 
 SCORES
-Initiative: 10|
-Carry: 12u|
-Element: Dark/Electric|
+Initiative: 10
+Carry: 12u
+Element: Dark/Electric
 
-STATS
-Melee: (Power: 4, Evasion: 9, Accuracy: +2)|
-Magic: (Power: 6, Evasion: 8, Accuracy: +1)|
-Skill: (Power: 5, Evasion: 9, Accuracy: +2)|
+Cores
+Mind: (Power: 100, Resistance: 113, Evasion: 90, Accuracy: 120)
+Body: (Power: 75, Resistance: 108, Evasion: 90, Accuracy: 120)
+Will: (Power: 125, Resistance: 118, Evasion: 80, Accuracy: 110)
 
 Abilities
 Doctrine: Amalgamation
-Magic-Support-Passive
+Will-Support-Passive
 Use: 1/turn
 IfKO: Use as normal.
-Effect: You can gain access to the Doctrine Ability of any allies within your space.|
+Effect: You can gain access to the Doctrine Ability of any allies within your space.
 
 A1: Following Weapon
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+5mna
 Range: {TL/5}
 Effect: Choose up to 1+{MgcPwr/15} targets within range.
 Throw your primary weapon; you cannot use it while it's in flight.
 At the beginning of a target's turn, they must spend Stamina equal to your {MleEva} to dodge your weapon, otherwise
  they take (1){MleDamage}.
-Once all targets have avoided or taken damage, you regain your weapon.|
+Once all targets have avoided or taken damage, you regain your weapon.
 
 A2: Death's Head
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+7mna
 Range: 1sp
 Luck: 15
 Teamwork: Reduce Luck difficulty check by TmWrk.
-OnPass: Target gets Doomed 3-(0).|
+OnPass: Target gets Doomed 3-(0).
 
 A3: Sleeper's Head
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+3mna
 Range: 1sp
 Accuracy: Magic
-OnPass: Target gets Asleep (3).|
+OnPass: Target gets Asleep (3).
 
 A4: Dragon's head
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+5mna
 Range: 0sp AoE
 Accuracy: Magic
-OnHit: Combatants takes (3){MgcPwr} fire damage.|
+OnHit: Combatants takes (3){MgcPwr} fire damage.
 
 A5: Wild Swipe
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+3sta
 Range: 0sp AoE
 Teamwork: Add +2 to this ability's accuracy check.
 Accuracy: Melee
-OnHit: Combatant takes (2){MlePwr} damage|
+OnHit: Combatant takes (2){MlePwr} damage
 
 A6: Lightning Storm
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 25AP+10mna!
 Range: Battlefield AoE
 Accuracy: Magic
-OnHit: Enemy takes (3){MgcPwr} electric damage.|
+OnHit: Enemy takes (3){MgcPwr} electric damage.
 
 A7: Shadowstep
-Magic-Support-Action
+Will-Support-Action
 Solowork: Reduce the Use-cost by 5AP+3mna.
 Use: 10AP+5mna
 IfKO: Increase cost by 1/battle.
 Range: 2sp
-Effect: Target a combatant in range and teleport to their space.|
+Effect: Target a combatant in range and teleport to their space.
 
 A8: Crescent Dash
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+3sta+3mna
 Variable: X =1
 Solowork: Increase X by (1).
 Effect: Move up 2 spaces away. You make a free basic attack against X
-enemies as you move.|
+enemies as you move.
 
 A9: Disgusting Laughter
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+5mna
 Range: 1sp AoE
 Luck: 10
 Teamwork: Increase the Rank of this ability by 1.
-OnPass: Enemy gets Slowed (3).|
+OnPass: Enemy gets Slowed (3).
 
 MA1: Bar Escape
-Skill-Offensive-Passive
+Mind-Offensive-Passive
 Effect: While in combat, it is impossible
-for your opponents to flee the battlefield.|
+for your opponents to flee the battlefield.
 
 MA2: Item Tether
-Magic-Support-Passive
+Will-Support-Passive
 Effect: Your life can be bound to an item that is contained within you.
 Upon death, the item is dropped.
-You can be resurrected for 50 mana paid at once.|
+You can be resurrected for 50 mana paid at once.
 
 MA3: Soul Transfer
-Magic-Defensive-Reaction
+Will-Defensive-Reaction
 Trigger: You die.
 Effect: If a copy of your body exists within 1 mile of you,
 your soul can transfer to the new body.
 Note: To make a craft a new body, you'll need
-1,000gil worth of materials, a Craft score of 15, and 24 hours of labor.|
+1,000gil worth of materials, a Craft score of 15, and 24 hours of labor.
 

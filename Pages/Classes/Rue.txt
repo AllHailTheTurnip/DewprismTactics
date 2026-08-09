@@ -4,9 +4,9 @@
 - Poor agility
 - Reliant on magic
 
-Title: Rue|
+Title: Rue
 
-Subtitle: Shapeshifting Avenger|
+Subtitle: Shapeshifting Avenger
 Description:
 A stranger surrounded in mystery and enchantment. They possess the disturbing power
 to take the form of the recently deceased, often using it to their advantage in fights.
@@ -14,101 +14,101 @@ to take the form of the recently deceased, often using it to their advantage in 
 shapeshifting trick. Legend has it that they aren't even truly human, instead,
 being magical creatures wrought in the shape of humans by ancient magicians.
 No Rue has ever given a straight answer to that theory, which seems to be the
-only consistent quality that they cling to.</p>|
+only consistent quality that they cling to.</p>
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 17|
-Focus: 12|
+Health: 105
+Mana: 105
+Stamina: 147
+Focus: 84
 
 SCORES
-Initiative: 10|
-Carry: 5u|
-Element: Electric & Light|
+Initiative: 10
+Carry: 5u
+Element: Electric & Light
 
-STATS
-Melee: (Power: 6, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 8, Accuracy: -2)|
-Skill: (Power: 3, Evasion: 10, Accuracy: +1)|
+Cores
+Mind: (Power: 50, Resistance: 93, Evasion: 100, Accuracy: 110)
+Body: (Power: 125, Resistance: 105, Evasion: 100, Accuracy: 100)
+Will: (Power: 100, Resistance: 100, Evasion: 80, Accuracy: 80)
 
 ABILITIES
 Doctrine: Acquire Shape
-    Magic-Support-Reaction
+Mind-Support-Reaction
     Trigger: An enemy combatant dies.
     Use: 5mna
     Give yourself a Shape token based on the dead combatant.
     Shape token: For 5AP you reassign your appearance, Scores, Stats, and Abilities to those of the combatant you got this token from.
-    For 5AP you can return to your original state.|
+    For 5AP you can return to your original state.
 A1: Carry Spirit
     Magic-Support-Action
     Use: 5Mna
     IfKO: Increase Use cost by 7sta.
     Range: 0sp
     If an allie has died since your last turn, you may create a Spirit token based on the fallen allie.
-    Spirit Token: While on the same space of a body that is over 0HP, you can destroy the Spirit Token and gain the fallen allie's abilities.|
+    Spirit Token: While on the same space of a body that is over 0HP, you can destroy the Spirit Token and gain the fallen allie's abilities.
 A2: Block
     Melee-Defense-Reaction
     Trigger: An enemy attacks you.
     Use: 3Sta
     Solowork: Increase the rank of your Primary or Secondary weapon for this ability.
-    Effect: Incoming damage is reduced by the damage of your Primary or Secondary weapon.|
+    Effect: Incoming damage is reduced by the damage of your Primary or Secondary weapon.
 A3: Avenge Ally
     Skill-Support-Reaction
     Trigger: An allie dies.
     Teamwork: Increase this ability's Luck check by 2.
     Luck: 10
-    OnPass: Increase your {MlePwr} by (1).|
+    OnPass: Increase your {MlePwr} by (1).
 A4: Arc Slash
     Melee-Offensive-Action
     Use: 10AP
     Range: 0sp
-    Every enemy combatant within range takes (1){MlePwr} damage.|
+    Every enemy combatant within range takes (1){MlePwr} damage.
 A5: Path of Duty
     Magic-Defensive-Reaction
-    Trigger: An enemy combatant targets you with a Magic-type ability.
+    Trigger: An enemy combatant targets you with a Will-type ability.
     Use: 5Mna
     IfKO: Increase Use cost by 5mna.
-    Effect: Restore TL Stamina, and Focus.|
+    Effect: Restore TL Stamina, and Focus.
 A6: Call Friend
     Skill-Support-Reaction
     Trigger: You finished making a movement action.
     Teamwork: Ignore the Use-cost of this ability.
     Use: 3fcs
-    Choose an ally. They may make a free movement action in your direction.|
+    Choose an ally. They may make a free movement action in your direction.
 A7: Wander
     Skill-Support-Action
     Use: 10AP
     Roll d20 as 'A', d20 as 'B'
     South is towards your starting position.
     If A > 10, move up to 1sp+{DL} east; else, move up to 1sp+{DL} west.
-    If B > 10, move up to 1sp+{DL} north; else, move up to 1sp+{DL} south.|
+    If B > 10, move up to 1sp+{DL} north; else, move up to 1sp+{DL} south.
 A8: Dive Slash
     Melee-Offensive-Action
     Use: 10AP+7Sta
     Range: {CL/4} LoS
     Choose an enemy within range and leap through the air towards them.
     Make a free attack action with +5 to your accuracy check.
-    Solowork: Critical damage from this attack is increased by 1 Rank.|
+    Solowork: Critical damage from this attack is increased by 1 Rank.
 A9: Chain Attack
     Skill-Support-Reaction
     Trigger: You hit with a basic attack action.
     Use: 3sta+(3/Round)
     Luck: 15
     OnPass: Make another attack action at the damaged combatant.
-    OnCrit: Increase the attack's Rank by 1.|
+    OnCrit: Increase the attack's Rank by 1.
 
 
 MA1: Inner Power
-Magic-Offensive-Reaction
+Will-Offensive-Reaction
 Trigger: An allie is neutralized by an enemy combatant.
-Effect: The next attack against the offending enemy combatant automatically succeeds and inflicts an additional (5){MlePwr} dmg.|
+Effect: The next attack against the offending enemy combatant automatically succeeds and inflicts an additional (5){MlePwr} dmg.
 
 MA2: Path of Free Will
-Magic-Defensive-Passive
-Effect: You are immune to non-damage effects; only attacks that reduce your health can harm you.|
+Will-Defensive-Passive
+Effect: You are immune to non-damage effects; only attacks that reduce your health can harm you.
 
 MA3: Soul Bind
-Magic-Defensive-Reaction
+Will-Defensive-Reaction
 Trigger: Combat ends.
-Effect: Freely revive up to (1) of your fallen comrades.|
+Effect: Freely revive up to (1) of your fallen comrades.

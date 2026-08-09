@@ -1,6 +1,6 @@
-Title: Doll Master|
-Subtitle: Mysterious Mastermind|
-Description: The original Doll Masters were first created during the reign of the Aeons
+Title: Doll Master
+Subtitle: Mysterious Mastermind
+Description: The original Doll Masters were first created during the reign of the First Masters
 as chief servants. Bereft of individual will, they commanded with their master's authority.
 In classical fashion, they are similar to royal
 <p>
@@ -8,64 +8,64 @@ In combat, they utilize a mixture of magic, technique, and martial prowess to
 coordinate their allies and take control of their enemies. They are frustrating
 to fight as they are helpful to fight with.
 </p>
-<p> With the disappearance of the Aeons, many Doll Masters simply shut down and
+<p> With the disappearance of the First Masters, many Doll Masters simply shut down and
 never awoke. However, many defective Doll Masters stayed awake to wander the planet
 in search of a new master to serve. However, it shall be known that no Doll Master
 has ever forgotten their first master, and long for the day when they return.
-</p>|
+</p>
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 20|
-Focus: 20|
+Health: 105
+Mana: 105
+Stamina: 210
+Focus: 210
 
 SCORES
-Initiative: 12|
-Carry: 10u|
-Element: Noble|
+Initiative: 12
+Carry: 10u
+Element: Noble
 
-STATS
-Melee: (Power: 5, Evasion: 12, Accuracy: 0)|
-Magic: (Power: 4, Evasion: 14, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 12, Accuracy: 2)|
+Cores
+Mind: (Power: 100, Resistance: 113, Evasion: 120, Accuracy: 120)
+Body: (Power: 100, Resistance: 113, Evasion: 120, Accuracy: 100)
+Will: (Power: 75, Resistance: 100, Evasion: 140, Accuracy: 100)
 
 Abilities
 Doctrine: Seal Power
-Magic-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+7mna
 Teamwork: Increase Range by TmWrk.
 Range: 2sp
 Evade: Magic
-Effect: All of the target's abilities are disabled until the end of their next turn.|
+Effect: All of the target's abilities are disabled until the end of their next turn.
 
 A1: Guided Strike
-Skill-Support-Action
+Mind-Support-Action
 Use: 5AP+3fcs+(1/turn)
 Range: 3sp
 Effect: Choose an allie within range. Increase the Critical threshold for all
-checks made during their next action by (4).|
+checks made during their next action by (4).
 
 A2: Predict Guard
-Skill-Support-Action
+Mind-Support-Action
 Use: 5AP+5fcs
 Range: 3sp
 IfKO: Increase the Use cost of this ability by (1/turn).
 Evade: Skill
 Effect: Choose an enemy combatant within range. Negate any positive Evasion modifiers
-they have until the end of their turn.|
+they have until the end of their turn.
 
 A3: Efficiency
-Skill-Support-Action
+Mind-Support-Action
 Use: 7fcs+(1/turn)
 Range: 1sp
 Variable: X =5AP.
 Solowork: Increase X by 3sta+3mna+3fcs.
 Effect: Target an allie within range. Grant an additional X to their next
-turn.|
+turn.
 
 A4: Mind Control
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+7mna+7fcs+(1/2turn)
 Range: 2sp
 Evade: Magic
@@ -74,50 +74,50 @@ Effect: The target is put under your complete control of their actions until the
 You have (2)5AP to spend through the controlled combatant until you end your turn.
 While under your control, the target is regarded as an allie to your team, influencing
 the targeting of their abilities where applicable.
-Please note: You cannot make the target attack themselves or flee the battlefield.|
+Please note: You cannot make the target attack themselves or flee the battlefield.
 
 A5: Predict Attack
-Skill-Support-Action
+Mind-Support-Action
 Teamwork: Improve Use-cost by 1/turn.
 Use: 5AP+5fcs+(1/turn)
 Range: 2sp
 Effect: Grant a Called Attack token to a target within range.
 Called Attack token: If an enemy attacks you, you may choose to destroy this
  token and reduce their Accuracy check by 5 or increase your Evasion check by 5 for the duration
-of their turn.|
+of their turn.
 
 A6: Vanish
-Skill-Defensive-Reaction
+Mind-Defensive-Reaction
 Trigger: You gain Stealth.
 Solowork: Ignore the Use cost.
 Use: 5fcs+5sta
 Effect: Teleport yourself into any space occupied by enemy combatants.
-IfKO: You instead teleport to any space occupied by allies.|
+IfKO: You instead teleport to any space occupied by allies.
 
 A7: Demand Surrender
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+5fcs+(3/battle)
 Range: 1sp
 Evade: Skill
 Effect: Target gains the Surrendered status. While the target has Surrendered,
 they are counted as neutralized to the conflict and cannot make actions (including movement and basic ones).
 At the beginning of their turn, they may make a Skill self-check, whereupon
-success they lose the Surrendered status and re-enter the conflict as normal.|
+success they lose the Surrendered status and re-enter the conflict as normal.
 
 A8: Diligence
-Melee-Support-Reaction
+Body-Support-Reaction
 Trigger: You succeeded against an Evade check.
-Effect: Restore your Stamina, Mana, and Focus by 3 points.|
+Effect: Restore your Stamina, Mana, and Focus by 3 points.
 
 A9: Demoralize
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+3fcs
 Range: 1sp
-Effect: Choose either an opponent's weapon or an ability and reduce its Rank by 1.|
+Effect: Choose either an opponent's weapon or an ability and reduce its Rank by 1.
 
-MA1: Revelation|
-MA2: Swear Loyalty|
-MA3: Bestow Purpose|
+MA1: Revelation
+MA2: Swear Loyalty
+MA3: Bestow Purpose
 
 
 

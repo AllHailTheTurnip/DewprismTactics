@@ -1,7 +1,7 @@
 
 
-Title: Imp|
-Subtitle: Enchanted Prankster|
+Title: Imp
+Subtitle: Enchanted Prankster
 Description: Imps have always been around the world - whether as invisible spirits in the woods and old houses, or
 dancing and joking around in the company of wizards. Imps are magical, possessing a sect of magic arts thought
 long lost to the mortal realm. However, not all Imps are of impish descent, for there are many folk - mortals like
@@ -11,127 +11,127 @@ Or maybe causing trouble for a well-meaning wizard or two.<br>
 Imps have more tricks up their sleeves than they know what to do with, and can be either a delight or a
 great frustration, depending on if you're on their good-side or not. Surely, they have it in them
 to be the sliest thieves, the most cunning of foxes, and the most mysterious of mages - if it weren't for
-the fact that every one of their spells was a novelty joke.|
+the fact that every one of their spells was a novelty joke.
 
 VITALS
-Health: 35|
-Mana: 15|
-Stamina: 10|
-Focus: 5|
+Health: 105
+Mana: 105
+Stamina: 70
+Focus: 35
 
 SCORES
-Initiative: 11|
-Carry: 10u|
-Element: Water|
+Initiative: 11
+Carry: 10u
+Element: Water
 
-STATS
-Melee: (Power: 3, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 4, Evasion: 15, Accuracy: +4)|
-Skill: (Power: 3, Evasion: 14, Accuracy: -1)|
+Cores
+Mind: (Power: 50, Resistance: 67, Evasion: 140, Accuracy: 90)
+Body: (Power: 50, Resistance: 79, Evasion: 100, Accuracy: 100)
+Will: (Power: 75, Resistance: 92, Evasion: 150, Accuracy: 140)
 
 Abilities
 Doctrine: Starburst
-Magic-Offense-Action
+Will-Offense-Action
 Use: 10AP+1mna
 Range: {TL}/4
 Accuracy: Magic
 Damage: (3){MgcPwr}
-OnHit: Target is knocked prone.|
+OnHit: Target is knocked prone.
 
 A1: Conjure Block
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+3mna
 Teamwork: Ignore mana cost of this ability.
 Range: 0sp
 Effect: Conjure a Block prop of magical material.
 The Block occupies 1 cubic meter of space and is considered Medium cover.
-The Block prop has 75+{75PL} health; at 0 health, the block vanishes.|
+The Block prop has 75+{75PL} health; at 0 health, the block vanishes.
 
 A2: Trip!
-Skill-Passive-Reaction
+Mind-Passive-Reaction
 Trigger: Enemy makes Movement Action within ability range.
 Use: 1fcs
 Range: {TL}/4
 Solowork: Gain advantage on the Luck check.
 Luck: 15
 OnPass: Target's next Movement costs an additional 2sta.
-If their stamina at 2 or less, they become prone.|
+If their stamina at 2 or less, they become prone.
 
 A3: Swap Items
-Magic-Offense-Action
+Will-Offense-Action
 Use: 10AP+5mna
 Range: [CL/3]
 Accuracy: Magic
 OnPass: Exchange an unequipped item from your inventory with an unequipped
-item of your choice from the target's inventory.|
+item of your choice from the target's inventory.
 
 A4: Swap Abilities
-Magic-Offense-Action
+Will-Offense-Action
 Solowork: Reduce Use-cost by 5AP.
 Use: 15AP+5mna
 Range: 0sp
 Accuracy: Magic
 OnPass: Roll two d20's and halve the results (rounded up). The first d20 targets your abilities from 1 to 10,
-while the second d20 targets your opponent's abilities from 1 to 10. Exchange the two targeted abilities.|
+while the second d20 targets your opponent's abilities from 1 to 10. Exchange the two targeted abilities.
 
 A5: Swap Places
-Magic-Offense-Action
+Will-Offense-Action
 Use: 10AP+5mna
 Reduce Use cost by 1AP+1mna when you reach level 4, 8, 12, 16, and 20.
 Range: 3sp
 Teamwork: Increase Accuracy check by 2.
 Accuracy: Magic
-OnPass: Choose yourself and a target (animate or inanimate) and swap locations with them.|
+OnPass: Choose yourself and a target (animate or inanimate) and swap locations with them.
 
 A6: Bind To Object
-Magic-Defense-Action
+Will-Defense-Action
 Use: 5AP+7mna
 IfKO: Double Use cost.
 Range: 0sp
 Effect: Choose an inanimate and non-enchanted object of 3 units-or-less weight to inhabit.
 Your physical form is bound within the object.
 While bound to an object, you may only make Movement actions.
-If the object is destroyed while you're bound you are remove from the battle.|
+If the object is destroyed while you're bound you are remove from the battle.
 
 A7: New Master
-Skill-Support-Action
+Mind-Support-Action
 Use: 10AP+3fcs
 Range: 0sp
 Effect: Choose 1+{DL} allies on the battlefield to be your Master(s).
-At any point during your or any of your Masters's turns, you may choose to give any amount of your Health, Stamina, Mana, or Focus to them.|
+At any point during your or any of your Masters's turns, you may choose to give any amount of your Health, Stamina, Mana, or Focus to them.
 
 A8: Become Invisible
-Magic-Support-Action
+Will-Support-Action
 Use: 5mna+(1/turn)
 IfKO: Double mna cost.
 Effect: You take the Invisible status.
 While Invisible, your Evasion scores are increased to 20.
 After attacking, you lose the Invisible status.
-At the beginning of each turn, spend 5mna to retain the Invisible status.|
+At the beginning of each turn, spend 5mna to retain the Invisible status.
 
 A9: Jinx!
-Magic-Offense-Action
+Will-Offense-Action
 Use: 10AP+3mna
 Range: {TL/5}
 Luck: 12
-OnPass: Target is jinxed. All their Luck checks have disadvantage.|
+OnPass: Target is jinxed. All their Luck checks have disadvantage.
 
 MA1: Jinx! II
-Magic-Offense-Action
+Will-Offense-Action
 Use: 10AP+5mna
 Range: {TL/4}
 Luck: 8
-OnPass: Target is jinxed II. All their Luck automatically fail.|
+OnPass: Target is jinxed II. All their Luck automatically fail.
 
 MA2: Flash Damage
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 5mna
-Effect: If your next attack-type check naturally rolls 15 or higher, the attack inflicts Prone.|
+Effect: If your next attack-type check naturally rolls 15 or higher, the attack inflicts Prone.
 
 MA3: Mass Illusion
-Magic-Offensive-Reaction
+Will-Offensive-Reaction
 Trigger: You are about to take damage or have a status afflicted against you.
 Use: 3mna
 Luck: 10
-OnPass: The attack misses. You automatically teleport to another space on the battlefield.|
+OnPass: The attack misses. You automatically teleport to another space on the battlefield.
 

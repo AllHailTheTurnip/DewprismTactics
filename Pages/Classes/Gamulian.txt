@@ -1,30 +1,30 @@
-Title: Gamulian|
-Subtitle:Mob Fighter|
+Title: Gamulian
+Subtitle:Mob Fighter
 Description: Gamulians are fearsome folk, accustomed to living in trees
 and relying on their vast numbers to defeat their opponents. With the advent
 of the new age, the Gamulian has spread to become a class of fighter, iconic
-for its careful, yet riotous, fighting style.|
+for its careful, yet riotous, fighting style.
 
 
 VITALS
-Health: 25|
-Mana: 15|
-Stamina: 17|
-Focus: 15|
+Health: 105
+Mana: 105
+Stamina: 147
+Focus: 105
 
 SCORES
-Initiative: 8|
-Carry: 7u|
-Element: Wind|
+Initiative: 8
+Carry: 7u
+Element: Wind
 
-STATS
-Melee: (Power: 3, Evasion: 9, Accuracy: +2)|
-Magic: (Power: 4, Evasion: 9, Accuracy: 0)|
-Skill: (Power: 3, Evasion: 8, Accuracy: -1)|
+Cores
+Mind: (Power: 50, Resistance: 83, Evasion: 80, Accuracy: 90)
+Body: (Power: 50, Resistance: 88, Evasion: 90, Accuracy: 120)
+Will: (Power: 75, Resistance: 83, Evasion: 90, Accuracy: 100)
 
 Abilities
 Doctrine: Call for Kin
-Skill-Support-Action
+Mind-Support-Action
 Use: 10AP+3sta+3fcs
 Range: 0sp
 Effect: Create a clone combatant of yourself at the edge of the battlefield,
@@ -33,38 +33,38 @@ The clone's max Vitals and Power scores are equal to half of yours.
 Upon being created, it rolls initiative. The clone vanishes after
 1 in-game hour, or until defeated. You may only create 1+{TL/5} at a time.
 If you attempt to create more than your maximum, the oldest ones de-spawn
-as new ones are brought in.|
+as new ones are brought in.
 
 A1: Power Nap
-Melee-Support-Action
+Body-Support-Action
 Use: 20AP
 IfKO: Increase cost by 7sta+7fcs.
 Teamwork: The Effect also applies allies in your space.
 Solowork: Roll Luck 10, whereupon success the AP cost is refunded.
-Effect: Restore 25% of your max Health and 50% of your max Stamina, Mana, and Focus.|
+Effect: Restore 25% of your max Health and 50% of your max Stamina, Mana, and Focus.
 
 A2: Gore
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+5sta
 Range: Weapon's Range
 Accuracy: Melee
-Effect: Opponent takes (1){MlePwr} damage and gets Bleeding (MlePwr/5).|
+Effect: Opponent takes (1){MlePwr} damage and gets Bleeding (MlePwr/5).
 
 A3: Retaliate
-Melee-Offensive-Reaction
+Body-Offensive-Reaction
 Trigger: You take damage.
 Use: 1+{TL/5}battle.
 Effect: After the offender's action resolves, you may immediately make an
- action, paying half Use-cost (min 5AP) from your next turn as normal.|
+ action, paying half Use-cost (min 5AP) from your next turn as normal.
 
 A4: Pole Bind
-Skill-Support-Action
+Mind-Support-Action
 Use: 10AP+3fcs
 Effect: If your weapon does not have Extended or Reach,
-give it Extended 1 or Reach 1.|
+give it Extended 1 or Reach 1.
 
 A5: Craft Home
-Skill-Support-Action
+Mind-Support-Action
 Use: XAP
 Range: 0sp
 Teamwork: Gain an additional 5AP to this Effect for every additional allie in your space.
@@ -74,39 +74,39 @@ creating it determined its Protection...
 10AP: Low.
 15AP: Medium.
 20AP: High.
-25AP: Very High.|
+25AP: Very High.
 
 A6: Conjure Tree
-Magic-Support-Action
+Will-Support-Action
 Use: 5AP+Xmna
 Range: 1sp
 Effect: Create a Tree prop within range. The Tree can be ascended or descended
 for 10AP, treated as a natural staircase.
-The Tree prop can reach up to 1+{X/2} spaces high.|
+The Tree prop can reach up to 1+{X/2} spaces high.
 
 A7: Dance!
-Skill-Support-Action
+Mind-Support-Action
 Use: 10AP
 Range: 1sp
 Teamwork: This Effect may also apply to teammates in your space.
-Effect: Move into a viable space within range. Regain 3mna+3fcs+3sta.|
+Effect: Move into a viable space within range. Regain 3mna+3fcs+3sta.
 
 A8: Swarm
-Skill-Offensive-Reaction
+Mind-Offensive-Reaction
 Trigger: You are attacked.
 Use: Xsta
 Range: 1+{TL/5}sp
 Effect: Choose up to (X/3) allied combatants within range to make a
-free movement action towards the offender.|
+free movement action towards the offender.
 
 A9: Zone of Peace
-Skill-Defensive-Passive.
+Mind-Defensive-Passive.
 Use: 5fcs
 IfKO: Increase cost by 1/turn.
 Solowork: Increase the range of this ability by 1sp.
 Range: 0sp
-Effect: An ability that would be triggered in your range does not trigger.|
+Effect: An ability that would be triggered in your range does not trigger.
 
-MA1:|
-MA2:|
-MA3:|
+MA1:
+MA2:
+MA3:

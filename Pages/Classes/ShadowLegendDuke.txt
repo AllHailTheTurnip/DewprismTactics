@@ -3,8 +3,8 @@ Moves: energy wave, throwing stars, *poof*, shadow clones
 Strengths: basically ninjas, including naruto.
 Weaknesses: lightweight, meant for taking on multiple, weak enemies.
 
-Title:Shadow Legend|
-Subtitle:An agile and fearsome ninja warrior|
+Title:Shadow Legend
+Subtitle:An agile and fearsome ninja warrior
 Description:Shadow Legends are a relic from bygone era - an era of warring shoguns,
 and nameless ninjas. In this time, legends such as the Shadow first emerged. He was
  fearsome and magical, possessing the power to challenge corrupt shoguns and rescue maidens
@@ -13,59 +13,59 @@ and nameless ninjas. In this time, legends such as the Shadow first emerged. He 
     Though the time of the Shadow has ended, those who carry on his name and his talents
     continue in the world. Shadow Legends, as they're called, are a wandering bunch, often
     acting solo and moving from town to town, looking for signs of the same war their
-    progenitor fought years ago.|
+    progenitor fought years ago.
 
 VITALS
-Health: 30|
-Stamina: 15|
-Mana: 20|
-Focus: 20|
+Health: 105
+Stamina: 105
+Mana: 210
+Focus: 210
 
 SCORES
-Initiative: 12|
-Carry: 5u|
-Element: Dark|
+Initiative: 12
+Carry: 5u
+Element: Dark
 
-STATS
-Melee: (Power: 3, Evasion: 12, Accuracy: +0)|
-Magic: (Power: 4, Evasion: 13, Accuracy: +2)|
-Skill: (Power: 3, Evasion: 14, Accuracy: +2)|
+Cores
+Mind: (Power: 50, Resistance: 100, Evasion: 140, Accuracy: 120)
+Body: (Power: 50, Resistance: 88, Evasion: 120, Accuracy: 100)
+Will: (Power: 75, Resistance: 100, Evasion: 130, Accuracy: 120)
 
 Abilities
 Doctrine: *Poof*
-Skill-Movement-Action
+Mind-Movement-Action
 Use: 5AP+1fcs+1sta+1mna
 IfKO: Set cost to (1/turn).
 Range: 2+[CL/3]sp
 Effect: Relocate yourself to any space within range.
-"The Shadow Legend's greatest trick is making you doubt your own eyes."|
+"The Shadow Legend's greatest trick is making you doubt your own eyes."
 
 A1: Throwing Stars
-Skill-Offense-Action
+Mind-Offense-Action
 Use: 3fcs+10AP
 Range: 1sp
 Select up to three combatants within range to target. A check is made against each one.
 Solowork: Increase Accuracy check by 2.
 Accuracy: Skill
-OnHit: Target takes (3){SklPwr} Metal damage.|
+OnHit: Target takes (3){SklPwr} Metal damage.
 
 A2: Shadow Clone Technique: Mantis Mirrorhouse
-Magic-Defense-Action
+Will-Defense-Action
 Use: 5mna+10AP
 Range: {SklPwr/15}sp
 You become surrounded by illusionary copies of yourself. Increase your Evasion scores by 2+{MgcPwr/10} until your next
 turn. When your turn starts, you burn 10-{DL}AP and make one basic attack against 1 enemy in range.
-You may spend an additional 5mna for every extra enemy within you wish to target.|
+You may spend an additional 5mna for every extra enemy within you wish to target.
 
 A3: Water Walk
 Focus-Support-Passive
 Teamwork: You allies are affected by this ability as well.
 Effect: You can walk on water without sinking (or choose to fall in, it's cool).
-Likewise, waterfalls are treated as solid objects that can be climbed.|
+Likewise, waterfalls are treated as solid objects that can be climbed.
 IfKO: Use as normal.
 
 A4: Secret Fist
-Melee-Offense-Action
+Body-Offense-Action
 Teamwork: Reduce the AP cost of this ability by 5.
 Use: 5fcs+2sta+15AP
 Range: 0sp
@@ -76,15 +76,15 @@ Roll 1d20.
 1-5: Drain (2){SklPwr} from their Health
 6-10: Inflict (1){SklPwr/4} to their Stamina.
 11-15: Inflict (1){SklPwr/4} to their Mana.
-16-20: Inflict (1){SklPwr/4} to their Focus.|
+16-20: Inflict (1){SklPwr/4} to their Focus.
 
 A5:Energy Wave
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 5mna+10AP
 Accuracy: Magic
 Teamwork: This ability will not affect your allies.
 Range: 1sp AoE circle
-OnHit: Afflicted targets in target space takes (3){MgcPwr} water damage.|
+OnHit: Afflicted targets in target space takes (3){MgcPwr} water damage.
 
 A6:Summon Ancient Weapon
 Use: 5fcs+(1/turn)
@@ -92,40 +92,40 @@ Range: Self
 Condition: Your dominant hand is empty.
 Teamwork: The Ancient Sword's chosen element can also be Light, Darkness, Electric, or Metal. If your whole team is in your space, you may also include Noble.
 Effect: Conjure an Ancient Sword into your dominant hand. Choose its element (wind, water, or fire).
-Ancient Sword (Type: Melee, WC: M, Use: 10AP, Rank: 3)|
+Ancient Sword (Type: Melee, WC: M, Use: 10AP, Rank: 3)
 
 A7: Catch Weapon
-Skill-Defense-Reaction
+Mind-Defense-Reaction
 Trigger: A combatant makes an attack with their primary or secondary weapon.
 Use: 3Fcs
 Luck: 15-[TL/2]
 OnPass: No damage is taken.
 Solowork: Increase Critical Threshold by 2.
-OnCrit: The caught weapon is taken and added to your inventory.|
+OnCrit: The caught weapon is taken and added to your inventory.
 
 A8: Useful Distraction
-Skill-Support-Reaction
+Mind-Support-Reaction
 Trigger: A combatant attacks you while an allie is in the same space.
-Effect: The allie gets to make a free luck roll. Upon beating 8, they steal an unequipped item from the top of the target's inventory.|
+Effect: The allie gets to make a free luck roll. Upon beating 8, they steal an unequipped item from the top of the target's inventory.
 
 A9: Guess Next Move
-Skill-Support-Action
+Mind-Support-Action
 Use: 3fcs+5AP
 Effect: Declare an enemy combatant and allie combatant (or yourself). The enemy gets disadvantage on any checks against them
-until the start of your next turn.|
+until the start of your next turn.
 
 MA1: Snag!
-Skill-Support-Reaction
+Mind-Support-Reaction
 Trigger: Your health reaches 0
 Target: Any combatant that was - at any point -  in the same space as you during combat.
-Effect: Choose an item from the target inventory and add it to yours or an allie's.|
+Effect: Choose an item from the target inventory and add it to yours or an allie's.
 
 MA2: Study
-Skill-Support-Passive
+Mind-Support-Passive
 Effect: At the beginning of combat, learn an ability from each enemy combatant and add the abilities
-to your abilities list in addition to the ones you already have. This lasts until the end of combat.|
+to your abilities list in addition to the ones you already have. This lasts until the end of combat.
 
 MA3: Shadow Clone Technique: Perfect Perspective
-Skill-Support-Action
+Mind-Support-Action
 Use: 10fcs+(1/turn)
-Effect: Your next roll d20 naturally lands on 20.|
+Effect: Your next roll d20 naturally lands on 20.

@@ -2,8 +2,8 @@
 // Can copy anything of the other players
 // Can reclassify self as an ally
 
-Title: Mode Master|
-Subtitle: Form-stealing Spy|
+Title: Mode Master
+Subtitle: Form-stealing Spy
 Description: Mode Masters a modern form of terror that quietly emerged from
 the last great war. They are the ultimate insurgent, a master of shape-shifting,
 possessing an arsenal of occult techniques to blend in with a crowd. Their
@@ -19,27 +19,27 @@ can ever truly be sure.</p>
 KNOWING it. To fight a Mode Master is to fight every person you've
 ever loved, to seat yourself so deep in paranoia you can never return from it.
 When the time comes, they tend to assume the form of a wild beast in
-order to make the murder look like an accident.</p>|
+order to make the murder look like an accident.</p>
 
 VITALS
-Health: 30|
-Mana: 25|
-Stamina: 20|
-Focus: 20|
+Health: 105
+Mana: 315
+Stamina: 210
+Focus: 210
 
 SCORES
-Initiative: 10|
-Carry: 7u|
-Element: Neutral|
+Initiative: 10
+Carry: 7u
+Element: Neutral
 
-STATS
-Melee: (Power: 3, Evasion: 7, Accuracy: 0)|
-Magic: (Power: 3, Evasion: 8, Accuracy: 4)|
-Skill: (Power: 3, Evasion: 6, Accuracy: 2)|
+Cores
+Mind: (Power: 50, Resistance: 100, Evasion: 60, Accuracy: 120)
+Body: (Power: 50, Resistance: 100, Evasion: 70, Accuracy: 100)
+Will: (Power: 50, Resistance: 113, Evasion: 80, Accuracy: 140)
 
 Abilities
 Doctrine: Form of Friend
-Magic-Defensive-Action
+Will-Defensive-Action
 Use: 10AP+5mna
 Evade: Magic
 Effect: Every enemy combatant takes the Charmed status
@@ -47,10 +47,10 @@ Effect: Every enemy combatant takes the Charmed status
 non-combatant allie and cannot be directly targeted by attacks,
 even indirectly via AoE. Please note: the Charmed status cannot stack.
 At the beginning of each enemy combatant's turn, they may make a Magic Self-check,
-whereupon success they lose the Charmed status.|
+whereupon success they lose the Charmed status.
 
 A1: Copy Ability
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+5mna
 Range: 0sp
 Teamwork: You may skip the self-check for allies.
@@ -59,90 +59,90 @@ IfKO: You may only copy one ability regardless of DL.
 Effect: Choose a combatant within range
 and learn one of their non-doctrine abilities until the end of the battle.
 You may copy up to {DL} different abilities, otherwise you may choose one
-of your already copied abilities to remove before you copy another one.|
+of your already copied abilities to remove before you copy another one.
 
 A2: Copy Element
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+3mna
 Range: 1sp
 Effect: Target a combatant within range and
-change your element to match theirs.|
+change your element to match theirs.
 
 A3: Copy Melee
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+5mna+3sta
 Range: 1sp
 Effect: Choose a combat within range. Change your Melee Scores (Power, Evasion,
-and Accuracy) to match the target's Melee Scores.|
+and Accuracy) to match the target's Melee Scores.
 
 A4: Copy Magic
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+5mna
 Range: 1sp
 Effect: Choose a combatant within range. Change your Magic Scores (Power, Evasion,
-and Accuracy) to match the target's Magic Scores.|
+and Accuracy) to match the target's Magic Scores.
 
 A5: Copy Skill
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+5mna+2fcs
 Range: 1sp
 Effect: Choose a combat within range. Change your Skill Scores (Power, Evasion,
-and Accuracy) to match the target's Skill Scores.|
+and Accuracy) to match the target's Skill Scores.
 
 A6: Copy Health
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+7mna
 Solowork: Increase Range to Battlefield.
 Range: 0sp
 Evade: Magic
 Effect: Choose a combatant within range to target.
 Change your max Health to match the target's max Health.
-Multiply your current Health by {target's current Health}/{target's max Health}|
+Multiply your current Health by {target's current Health}/{target's max Health}
 
 A7: Copy Weapon
-Magic-Support-Action
+Will-Support-Action
 Use: 5AP+3mna
 Range: 2sp
 Effect: Target a combatant within range and one of your currently equipped
-weapons. Change your weapon to match the attributes of the target's primary weapon.|
+weapons. Change your weapon to match the attributes of the target's primary weapon.
 
 A8: Lead Away
-Skill-Offensive-Action
+Mind-Offensive-Action
 Solowork: Reduce the Use-cost by 1/turn.
 Use: 5AP+5fcs+(1/turn)
 IfKO: Increase cost by 1/turn.
 Range: Battlefield (line of sight)
 Evade: Skill
-Effect: Affected target makes a free Sprint action in your direction.|
+Effect: Affected target makes a free Sprint action in your direction.
 
 A9: Copy Token or Status
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+7mna
 Range: 2sp
 Teamwork: Restore the original duration of the acquired token or status.
 Effect: Choose a combatant within range with an active Status or Token
-and create a copy of that Status/Token to apply to yourself.|
+and create a copy of that Status/Token to apply to yourself.
 
 MA1: Perfect Abomination
-Magic-Support-Action
+Will-Support-Action
 Use: (3/battle)
 Range: Battlefield AoE
 Effect: You may change any of your scores to match the current and max scores of any combatants on the battlefield. This includes
 changing your Health, Stamina, Mana, Focus, Element, Initiative, Element, Carry, Melee scores, Magic scores, Skill scores,
 and Abilities (including Doctrine). You can pick and choose which stats are copied from any amount of combatants as well; you
-don't have to choose just one.|
+don't have to choose just one.
 
 MA2: Identity Crisis
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+12mna
 Range: Battlefield AoE
 Effect: All enemy combatants take the Pandemonium status for (3) turns. Combatants with the Pandemonium cannot tell
 allies from enemies and must a Luck 10 check when making an Attack-type action - whereupon failure, the enemy combatant reassigns
-the attack's target before the original combatant resolves the action.|
+the attack's target before the original combatant resolves the action.
 
 MA3: Deep Charm
-Magic-Defensive-Action
+Will-Defensive-Action
 Use: 10AP+12mna+6fcs
 Range: 2sp
 Evade: Magic
-Effect: Targeted combatant permanently gains the Charmed status.|
+Effect: Targeted combatant permanently gains the Charmed status.

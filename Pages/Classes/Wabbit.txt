@@ -1,5 +1,5 @@
-Title: Wabbit|
-Subtitle: Divine soldier.|
+Title: Wabbit
+Subtitle: Divine soldier.
 Description:Wabbits are group of specially trained martial artists with divine origins. Using a combination of agility,
             acrobatics, and grace, they coordinate to take down their opponents.
             <p>Historically, Wabbits were first trained by a kind of seraphim, warriors from the Overworld who had come to ours on
@@ -9,85 +9,85 @@ Description:Wabbits are group of specially trained martial artists with divine o
             <p>Defectors of the faith sold themselves as instructors in the Wabbit arts, turning it instead into a tool of all-out war.
             This in turn brought down a judgement and a curse: that whoever practices this art in the name of War shall know nothing
             but war for the rest of their lives. And so the curse rang true. Today, most Wabbit soldiers operate in the employ of
-            mercenary guilds, ill-willed noblemen, and as stormtroopers for warlords.</p>|
+            mercenary guilds, ill-willed noblemen, and as stormtroopers for warlords.</p>
 
 VITALS
-Health: 35|
-Mana: 17|
-Stamina: 17|
-Focus: 15|
+Health: 105
+Mana: 147
+Stamina: 147
+Focus: 105
 
 SCORES
-Initiative: 14|
-Carry: 8u|
-Element: Noble|
+Initiative: 14
+Carry: 8u
+Element: Noble
 
-STATS
-Melee: (Power: 5, Evasion: 8, Accuracy: 0)|
-Magic: (Power: 6, Evasion: 8, Accuracy: 0)|
-Skill: (Power: 4, Evasion: 8, Accuracy: +1)|
+Cores
+Mind: (Power: 75, Resistance: 92, Evasion: 80, Accuracy: 110)
+Body: (Power: 100, Resistance: 97, Evasion: 80, Accuracy: 100)
+Will: (Power: 125, Resistance: 97, Evasion: 80, Accuracy: 100)
 
 Abilities
 Doctrine: Agile Flight
-Melee-Support-Action
+Body-Support-Action
 Trigger: You make a movement action.
 Use: Xsta
 Effect: Increase your evasion scores by X/3 until the start of your next turn.
 You may move diagonally upwards up to X/3sp. At the end of your turn you fall slowly by 1sp.
 You end your turn.
-"Carried by sacred wings, the Wabbits soar through combat."|
+"Carried by sacred wings, the Wabbits soar through combat."
 
 A1: Multi Strike
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+2fcs+2sta
 Solowork: Reduce Use cost by 2sta.
 Effect: Roll 1d20 as X/4 (rounded down) as X.
 Make X Basic Attack actions, ignoring maximum uses-per-turn and AP cost; attacks otherwise cost as normal.
-"I didn't know what I was expecting - her stamina is beyond imagination. The flurry of blows just never ended."|
+"I didn't know what I was expecting - her stamina is beyond imagination. The flurry of blows just never ended."
 
 A2: Duck
-Melee-Defensive-Action
+Body-Defensive-Action
 Use: 5sta+(4/turn)
 Effect: Grant yourself a Duck token.
 Teamwork: grant a Duck token to an allie within your space.
 Duck token: When a combatant makes an attack check against you, roll Luck 10, whereupon success you evade the attack.
-"I came in for the finishing blow - or so I thought. As if sensing the future, the Wabbit warrior ducked out of the way."|
+"I came in for the finishing blow - or so I thought. As if sensing the future, the Wabbit warrior ducked out of the way."
 
 A3: Aura of Protection
-Magic-Defensive-Action
+Will-Defensive-Action
 Use: 7mna
 Range: 0sp circle AoE
 IfKO: This ability no longer affects enemies.
 Effect: Vital restoration effects are increased by 25% until the start of your next turn.
 This only applies to you and your allies.
-"I can't explain it, but I feel safer around her."|
+"I can't explain it, but I feel safer around her."
 
 A4: Aura of Harm
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 7mna
 Range: 0sp circle AoE
 IfKO: Incoming damage to yourself and allies is not increased.
 Effect: Damage taken by enemy combatants is increased by 25% until the start of your next turn.
 This also applies to you and your allies.
 "There was this invisible energy around her - an electricity crackling in the air - that made our strikes land
-harder than they ever have."|
+harder than they ever have."
 
 A5: Halo
-Magic-Defensive-Item
+Will-Defensive-Item
 Slot: Gear
 Effect: You are immune to Doom, Paralyze, and Dispirited.
-"I grew up believing that Wabbits were angels because of their halos. There's some truth to that."|
+"I grew up believing that Wabbits were angels because of their halos. There's some truth to that."
 
 A6: Atonement
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+(1/battle)
 Effect: Change your element to neutral; it cannot be changed for the rest of the battle.
 Remove any negative status effects. Restore your Health to full.
 "Battered and bloodied, I saw her drop to her knees. She was praying. When her prayer concluded, she stood up again.
-All her wounds were gone - but her radiance had left her also."|
+All her wounds were gone - but her radiance had left her also."
 
 A7: Minor Miracle
-Magic-Support-Action
+Will-Support-Action
 Use: 7mna+(3/battle)
 Range: 1sp
 Solowork: Increase Range by 1sp.
@@ -96,40 +96,40 @@ Effect: Choose one:
 2) Restore 50% of a combatant's max health.
 3) Reset the X/turn or X/battle counter of an ability.
 "The battle went perfectly. Though, it was strange. I remembered her starting the battle with three of those teardrop birthmarks on her cheek,
-but when it was over, there were just two."|
+but when it was over, there were just two."
 
 A8: Predestination
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+5mna
 Range: 2sp
 Accuracy: Magic
 Teamwork: Increase Accuracy check by 2.
 Effect: The target's Luck checks automatically land on 8 until the start of your next turn.
-"Life is pretty good when the future is uncertain - there's still room for miracles."|
+"Life is pretty good when the future is uncertain - there's still room for miracles."
 
 A9: Divine Spear
-Skill-Offensive-Item
+Mind-Offensive-Item
 Slot: Primary or Secondary Weapon
 Divine Spear (Type: Skill, WC: L, Use: 5AP+(2/turn), Rank: 2, Range: 1, Honed 3)
-"Even with the halo I was still skeptical, but when she produced her golden spear - I knew."|
+"Even with the halo I was still skeptical, but when she produced her golden spear - I knew."
 
 MA1: Curse Breaker
-Magic-Defensive-Passive
+Will-Defensive-Passive
 Effect: When you kill an enemy combatant, any damage or negative statuses (except Death) inflicted to you or your allies is undone.
-"The High Wabbit struck a final blow that wiped her opponent from existence - and with it, every wound and curse they'd left behind was gone."|
+"The High Wabbit struck a final blow that wiped her opponent from existence - and with it, every wound and curse they'd left behind was gone."
 
 MA2: Perfect Pierce
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 5fcs+5sta
 Effect: Your next attack-type action's potential damage cannot be reduced by elemental disadvantage or opposing ability effects.
 The action's accuracy check increases by 6.
 "The Dark Knight's shield was immense, nearly 800lbs of boilerplate steel. Yet the High Wabbit's spear rammed right through
-as if it was made of paper."|
+as if it was made of paper."
 
 MA3: Locus of Control
-Skill-Support-Passive
+Mind-Support-Passive
 Effect: When using an ability you have full control over who it does or does not target.
-"The High Wabbit is always in control. Always."|
+"The High Wabbit is always in control. Always."
 
 
 

@@ -1,5 +1,5 @@
-Title: King Ant|
-Subtitle: Soldier from the Depths|
+Title: King Ant
+Subtitle: Soldier from the Depths
 Description: King Ant is a moniker that was originally taken by escaped slave-soldiers of the Heaven Kingdom, prior
 to nation's split. Conscripted from infancy as simply Soldier Ants, they were raised to be brutal and fearless fighters
  - matched only by their perfect obedience. However, with collapse of the old regime, many slaves found the opportunity
@@ -7,7 +7,7 @@ to nation's split. Conscripted from infancy as simply Soldier Ants, they were ra
  took on new titles as King Ants - those who are owned by no one.<br>
  Today, King Ants typically roam in bands of 3-10, though few have been known to wonder solo. They are recognized
  throughout primarily as mercenaries who rarely take a client more than once before setting on their way. However,
- when working as a group, they become nearly unstoppable.|
+ when working as a group, they become nearly unstoppable.
 
 + Good with teams
 + good ranged
@@ -19,24 +19,24 @@ to nation's split. Conscripted from infancy as simply Soldier Ants, they were ra
 - Poor Vitals, Scores, and Stats
 
 VITALS
-Health: 25|
-Mana: 10|
-Stamina: 10|
-Focus: 10|
+Health: 105
+Mana: 70
+Stamina: 70
+Focus: 70
 
 SCORES
-Initiative: 10|
-Carry: 12u|
-Element: Fire|
+Initiative: 10
+Carry: 12u
+Element: Fire
 
-STATS
-Melee: (Power: 4, Evasion: 11, Accuracy: +2)|
-Magic: (Power: 3, Evasion: 8, Accuracy: -1)|
-Skill: (Power: 6, Evasion: 11, Accuracy: +1)|
+Cores
+Mind: (Power: 125, Resistance: 71, Evasion: 110, Accuracy: 110)
+Body: (Power: 75, Resistance: 71, Evasion: 110, Accuracy: 120)
+Will: (Power: 50, Resistance: 71, Evasion: 80, Accuracy: 90)
 
 Abilities
 Doctrine: Assault Rifle
-Skill-Offense-Action
+Mind-Offense-Action
 Use: 10AP
 (Choose Mode A or B)
 A Mode
@@ -47,73 +47,73 @@ A Mode
 B Mode
     Range: 1sp AoE
     Accuracy: Melee
-    Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts (1){SklPwr} damage.|
+    Effect: Make an Accuracy check against up to separate 3 targets; each success inflicts (1){SklPwr} damage.
 
 A1: Counter Attack
-Skill-Support-Action
+Mind-Support-Action
 Use: 2sta+3fcs
 Effect: Choose an Action-application Ability or basic Action to ready. Treat the readied action as a reaction that
-is triggered when you are attacked. This lasts until the start of your next turn.|
+is triggered when you are attacked. This lasts until the start of your next turn.
 
 A2: Multi-slash
-Skill-Offense-Action
+Mind-Offense-Action
 Use: 5sta+10AP
 Solowork: Increase following Accuracy checks by 2.
-Effect: Target and make a basic attack action with an equipped non-range weapon against every enemy within 0sp of you.|
+Effect: Target and make a basic attack action with an equipped non-range weapon against every enemy within 0sp of you.
 
 A3: Firing Line
-Skill-Support-Action
+Mind-Support-Action
 Use: 5sta+3fcs+(1/2turns).
-Effect: Each allie within ({SklPwr}/15)sp gets 10+{CL}AP for their next turn.|
+Effect: Each allie within ({SklPwr}/15)sp gets 10+{CL}AP for their next turn.
 
 A4: Ignoble
-Magic-Support-Passive
-Effect: Noble-element is treated as Neutral, and Neutral cannot inflict critical damage.|
+Will-Support-Passive
+Effect: Noble-element is treated as Neutral, and Neutral cannot inflict critical damage.
 
 A5: Improved Aim
-Skill-Support-Passive
+Mind-Support-Passive
 Use: 3fcs+{TL}fcs
-Effect: Increase your Accuracy checks by +2.|
+Effect: Increase your Accuracy checks by +2.
 
 A6: Terraform
-Melee-Support-Action
+Body-Support-Action
 Teamwork: Pay 10AP instead of 20AP!.
 Use: 5sta+20AP!
 IfKO: Increase cost by 1/battle.
 Effect: Create a Cube prop.
 Remove a cubic meter of material from the surrounding environment.
-Cube prop: For 10AP, can be moved 1sp. Can provide Medium cover 1 combatant at a time.|
+Cube prop: For 10AP, can be moved 1sp. Can provide Medium cover 1 combatant at a time.
 
 A7: Odor Trail
-Melee-Support-Action
+Body-Support-Action
 Use: 5sta
 IfKO: Increase Cost by 20AP.
 Teamwork: Allies in your space may assist by making this action for free.
 Effect: Make a free movement action, each space you move into creates an Odor prop.
-Odor prop: Movement between adjacent Odor props counts as one space of movement.|
+Odor prop: Movement between adjacent Odor props counts as one space of movement.
 
 A8: Pincers
-Melee-Offense-Item
+Body-Offense-Item
 Slot: Primary or Secondary
-Pincers (Type: Skill, WC: M, Use: 10AP, Rank: 3, Weight: 1u, Element: Wind; Sever (1){SklPwr})|
+Pincers (Type: Skill, WC: M, Use: 10AP, Rank: 3, Weight: 1u, Element: Wind; Sever (1){SklPwr})
 
 A9: Break Bonds
-Melee-Support-Action
+Body-Support-Action
 Use: 10AP
 Luck: 15
-Remove any status effects that target your Movement.|
+Remove any status effects that target your Movement.
 
 MA1: Carapace
-Melee-Defensive-Passive
-Effect: You are immune to damage that is neither fire, water, or wind.|
+Body-Defensive-Passive
+Effect: You are immune to damage that is neither fire, water, or wind.
 
 MA2: Super Strength
-Melee-Support-Passive
-Effect: If your ability's Range is 0 increase its Rank by 3.|
+Body-Support-Passive
+Effect: If your ability's Range is 0 increase its Rank by 3.
 
 MA3: Swarm Tactics
-Skill-Support-Reaction
+Mind-Support-Reaction
 Trigger: You target an enemy.
 Use: 10fcs
 Range: (0)sp
-Effect: Allies in your space make a free action that costs 10AP or less against the same target as you.|
+Effect: Allies in your space make a free action that costs 10AP or less against the same target as you.

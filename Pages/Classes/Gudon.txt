@@ -1,5 +1,5 @@
-Title: Gudon|
-Subtitle: Hotblooded Guardian|
+Title: Gudon
+Subtitle: Hotblooded Guardian
 Description: Strong, durable, and focused, gudons are a class of guard that utilize
 magical firebreath and good positioning to surprise and subdue heedless invaders.
 
@@ -10,7 +10,7 @@ the world of light for good. Yet rather than assimilate, their warriors put thei
 talents to the test as security escorts, miners, and hunters. Thanks to their
 low-light vision, their natural hardiness in scarce environments, and their unique
 magic, gudons made a name for themselves. More than anything, this popularity was
-how their culture would survive. |
+how their culture would survive.
 
 low-speed
 fire-elemental
@@ -23,89 +23,89 @@ fire-breathing
 wide-swipe
 
 VITALS
-Health: 60|
-Mana: 20|
-Stamina: 10|
-Focus: 15|
+Health: 105
+Mana: 210
+Stamina: 70
+Focus: 105
 
 SCORES
-Initiative: 8|
-Carry: 15u|
-Element: Fire|
+Initiative: 8
+Carry: 15u
+Element: Fire
 
-STATS
-Melee: (Power: 5, Evasion: 8, Accuracy: +3)|
-Magic: (Power: 5, Evasion: 10, Accuracy: +1)|
-Skill: (Power: 4, Evasion: 5, Accuracy: -3)|
+Cores
+Mind: (Power: 75, Resistance: 113, Evasion: 50, Accuracy: 70)
+Body: (Power: 100, Resistance: 100, Evasion: 80, Accuracy: 130)
+Will: (Power: 100, Resistance: 125, Evasion: 100, Accuracy: 110)
 
 Abilities
 Doctrine: Firebreath
-Magic-Offense-Action
+Body-Offense-Action
 Use: 5mna+10AP
 Range: 0sp+{MgcPwr/15} AoE Ray.
 Accuracy: Magic
 Damage: (4){MgcPwr} fire
-Solowork: Damaged target gets Burning (2).|
+Solowork: Damaged target gets Burning (2).
 
 A1:Venom Fangs
-Melee-Offense-Passive
-Your unarmed attacks inflict Poison (1){5TL}|
+Body-Offense-Passive
+Your unarmed attacks inflict Poison (1){5TL}
 
 A2:Hardy Appetite
-Skill-Support-Passive
-Stamina, Mana, and/or Focus regained from consumables is increased by 5{TL}|
+Mind-Support-Passive
+Stamina, Mana, and/or Focus regained from consumables is increased by 5{TL}
 
 A3:Camouflage
-Melee-Defense-Action
+Body-Defense-Action
 Use: 10AP
 IfKO: Use as normal.
 Variable: X =End your turn.
 Teamwork: Nullify X.
-Effect: X. Increase your MleEva by 5 until your next action.|
+Effect: X. Increase your MleEva by 5 until your next action.
 
 A4:Regenerate
-Magic-Support-Action
+Will-Support-Action
 IfKO: Use as normal.
 Use: 5AP+7mna
-Effect: Choose a disabled ability/action and re-enable it.|
+Effect: Choose a disabled ability/action and re-enable it.
 
 A5:Heavy Sweep
-Melee-Offense-Action
+Body-Offense-Action
 Solowork: Reduce Use-cost by 4sta.
 Use: 7sta+10AP
 Range: Every opponent within adjacent space.
 Accuracy: Melee
-OnHit: Inflict Primary weapon damage. On Critical, target becomes Prone.|
+OnHit: Inflict Primary weapon damage. On Critical, target becomes Prone.
 
 A6:Shed Scales
-Melee-Support-Action
+Body-Support-Action
 Use: (1/2turns)
-Effect: Inflict (1){MlePwr} damage to yourself and grant yourself +1 free movement actions each turn.|
+Effect: Inflict (1){MlePwr} damage to yourself and grant yourself +1 free movement actions each turn.
 
 A7:Thermal Vision
-Skill-Support-Passive
-Effect: Ignore enemy evasion modifiers.|
+Mind-Support-Passive
+Effect: Ignore enemy evasion modifiers.
 
 A8:Stable Stance
-Melee-Support-Passive
+Body-Support-Passive
 Teamwork: This ability also applies to your allies.
-Effect: You cannot be knocked Prone.|
+Effect: You cannot be knocked Prone.
 
 A9:Carnivore
-Melee-Support-Passive
-Effect: When making an unarmed attack you may regain an amount equal to half your inflicted damage as health.|
+Body-Support-Passive
+Effect: When making an unarmed attack you may regain an amount equal to half your inflicted damage as health.
 
 MA1: Regrow Limbs
-Melee-Support-Passive
+Body-Support-Passive
 Effect: At the beginning of your turn choose one:
 A) Remove a negative status effect (ignores death and KO)
-B) Recover (2){MlePwr} health.|
+B) Recover (2){MlePwr} health.
 
 MA2: Improved Camouflage
-Melee-Defensive-Passive
-Effect: Increase your Evasion scores by 5.|
+Body-Defensive-Passive
+Effect: Increase your Evasion scores by 5.
 
 MA3: Titanium Claws
-Melee-Offensive-Item
+Body-Offensive-Item
 Slot: Primary and Secondary
-2x Razor Claws (Type: Melee, WC: L, Use:5AP+(3/turn), Rank: 2; On hit, disable one of the target's abilities.)|
+2x Razor Claws (Type: Melee, WC: L, Use:5AP+(3/turn), Rank: 2; On hit, disable one of the target's abilities.)

@@ -1,31 +1,31 @@
-Title: Pumpkin|
-Subtitle: A high-hitting chaotic fiend.|
+Title: Pumpkin
+Subtitle: A high-hitting chaotic fiend.
 Description: During the Zhongguo Dynasty, the Pumpkin was a highly valued and feared warrior on the battlefield.
 <p>As special soldiers, Pumpkins have been trained in the art of explosive warfare,
  using (you guessed it!) pumpkins enchanted to explode and inflict damage on enemy troops and fortifications.
  Their ability to quickly traverse the battlefield, as well as drop from trees and ceilings have made them invaluable for surprise assaults.</p>
 <p>To become a Pumpkin, soldiers would undergo rigorous training in the use of explosives and combat tactics - often losing limbs in the process.
- Today, Pumpkins act as both readily available shock-troopers and farmers, tending the pumpkin fields for their most precious utility.</p>|
+ Today, Pumpkins act as both readily available shock-troopers and farmers, tending the pumpkin fields for their most precious utility.</p>
 
 VITALS
-Health: 40|
-Mana: 17|
-Stamina: 20|
-Focus: 15|
+Health: 105
+Mana: 147
+Stamina: 210
+Focus: 105
 
 SCORES
-Initiative: 12|
-Carry: 8u|
-Element: Fire|
+Initiative: 12
+Carry: 8u
+Element: Fire
 
-STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: +2)|
-Magic: (Power: 6, Evasion: 8, Accuracy: +1)|
-Skill: (Power: 4, Evasion: 11, Accuracy: -3)|
+Cores
+Mind: (Power: 75, Resistance: 96, Evasion: 110, Accuracy: 70)
+Body: (Power: 100, Resistance: 108, Evasion: 100, Accuracy: 120)
+Will: (Power: 125, Resistance: 101, Evasion: 80, Accuracy: 110)
 
 Abilities
 Doctrine: Self-Destruct
-Magic-Offensive-Action
+Mind-Offensive-Action
 Use: 5mna+(3/battle)
 Range: 2sp
 IfKO: Reduce Range to 0sp.
@@ -33,96 +33,96 @@ Evade: Magic
 Effect: Damage at 0sp is equal to (5){MgwPwr} fire.
 Damage at 1sp is equal to (3){MgwPwr} fire.
 Damage at 2sp is equal to (1){MgwPwr} fire.
-You are removed from the battlefield. Self-inflict {MgcPwr} dmg to respawn at the start of your next turn from your starting point.|
+You are removed from the battlefield. Self-inflict {MgcPwr} dmg to respawn at the start of your next turn from your starting point.
 
 A1: Pumpkin Grenade
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+3fcs+(5/battle)
 Range: 0sp+{TL/5} circle AoE
 Solowork: Increase Range by 1sp.
 Evade: Skill
-Dmg: (2){SklPwr} fire|
+Dmg: (2){SklPwr} fire
 
 A2: Wheeling Roll
-Skill-Supportive-Action
+Mind-Supportive-Action
 Use: 5AP
-Effect: Move 1sp in any non-vertical direction.|
+Effect: Move 1sp in any non-vertical direction.
 
 A3: Tactical Drop
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP+3fcs+5mna
 Range: 5sp
 Effect: Temporarily remove yourself from the battlefield; you are considered to be hiding somewhere in the ceiling (even if you're outdoors!)
 You may drop out of the ceiling at during another combatant's turn and be granted 10AP (you must cover the SMF costs) to attack the acting combatant.
-If you do not attack before your next turn you automatically come out of hiding.|
+If you do not attack before your next turn you automatically come out of hiding.
 
 A4: Pumpkin Mine
-Magic-Defensive-Action
+Will-Defensive-Action
 Use: 5AP+3mna+(3/turn)
 Range: 1sp
 Effect: Create a Pumpkin Mine prop within range.
 Teamwork: Increase Rank by 1.
-Pumpkin Mine prop: If an opponent would enter into the same space as this token, it explodes and inflicts (2){MgcPwr} dmg to all combatants within the space.|
+Pumpkin Mine prop: If an opponent would enter into the same space as this token, it explodes and inflicts (2){MgcPwr} dmg to all combatants within the space.
 
 A5: Charge!
-Melee-Offensive-Reaction
+Body-Offensive-Reaction
 Trigger: You move into a space with an enemy combatant.
 Use: 5sta
-Effect: The target must spend 3sta to leave the space or else take (1){MleDmg}.|
+Effect: The target must spend 3sta to leave the space or else take (1){MleDmg}.
 
 A6: Smokescreen
-Magic-Supportive-Action
+Will-Supportive-Action
 Use: 10AP+(1/turn)
 IfKO: Increase Cost by 5sta.
 Range: 1sp
 Effect: Create a Smokescreen prop within range.
-Smokescreen prop: All allied combatants within this prop's space are counted as having Medium coverage.|
+Smokescreen prop: All allied combatants within this prop's space are counted as having Medium coverage.
 
 A7: Artillery Strike
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 15AP+3mna
 Range: 5sp
 Choose {TL}/5 individual spaces that are 4-5sp away from the caster to target.
 Accuracy: Skill
-Dmg: (2){SklPwr}|
+Dmg: (2){SklPwr}
 
 A8: Fission Reaction
-Magic-Offensive-Action
+Will-Offensive-Action
 Range: 1sp AoE
 Variable: X =All enemy combatants in a space within range and all the enemy combatants in any touching spaces.
 Use: 10AP+(X3)mna+(1/turn)
 Solowork: Use cost is equal to 10AP+(X)mna+(1/turn)
 Evade: Magic
-Effect: Inflict (X){MgwPwr} dmg to all targeted combatants.|
+Effect: Inflict (X){MgwPwr} dmg to all targeted combatants.
 
 A9: Caustic Bite
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+2mna
 Range: 0sp
 Accuracy: Melee
 Teamwork: Increase Accuracy by 2.
-OnHit: Target takes (2){MleDmg} and gains Burning 1|
+OnHit: Target takes (2){MleDmg} and gains Burning 1
 
 MA1: Pumpkin Pie Surprise
-Magic-Support-Action
+Will-Support-Action
 Use: 5AP+(1/turn)
 Effect: Create a 6x Pumpkin Pie Slice consumables and place it into your inventory.
-Pumpkin Pie Slice (Use: 5AP. Effect: Regain (2){MgcPwr} health. If you were already at full health, increase your Power scores by 25%.|
+Pumpkin Pie Slice (Use: 5AP. Effect: Regain (2){MgcPwr} health. If you were already at full health, increase your Power scores by 25%.
 
 MA2: Barrage Roll
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+7sta
 Range: 0sp circle AoE
 Evade: Melee
 Effect: Inflict (1){MgcPwr} damage and then make a free basic action. Move 1sp in any direction. Repeat this process
- up to (3) times.|
+ up to (3) times.
 
 MA3: Pumpkin Bomb
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 20AP+12sta
 Range: 3sp
 Evade: Magic+3
 Effect: Inflict damage equal to (3-X){MlePwr}, where X is equal to the distance in spaces between the action's user and
 the targeted combatant. Afflicted combatant takes Burning 5.
 Create 8x Pumpkin Chunks in any space within range.
-Pumpkin Chunk (Use: 5AP. Effect: Restore (1){MlePwr} health and regain 5 mana, 5 stamina, and 5 focus.|
+Pumpkin Chunk (Use: 5AP. Effect: Restore (1){MlePwr} health and regain 5 mana, 5 stamina, and 5 focus.

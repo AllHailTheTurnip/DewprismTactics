@@ -1,40 +1,40 @@
-Title:|
-Subtitle:|
-Description:|
+Title:
+Subtitle:
+Description:
 ???
 
 VITALS
-Health: 45|
-Mana: 15|
-Stamina: 15|
-Focus: 15|
+Health: 105
+Mana: 105
+Stamina: 105
+Focus: 105
 
 SCORES
-Initiative: 10|
-Carry: 10u|
-Element: Neutral|
+Initiative: 10
+Carry: 10u
+Element: Neutral
 
-STATS
-Melee: (Power: 5, Evasion: 10, Accuracy: 0)|
-Magic: (Power: 5, Evasion: 10, Accuracy: 0)|
-Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
+Cores
+Mind: (Power: 100, Resistance: 100, Evasion: 100, Accuracy: 100)
+Body: (Power: 100, Resistance: 100, Evasion: 100, Accuracy: 100)
+Will: (Power: 100, Resistance: 100, Evasion: 100, Accuracy: 100)
 
 Abilities
-Doctrine:|
-A1:|
-A2:|
-A3:|
-A4:|
-A5:|
-A6:|
-A7:|
-A8:|
-A9:|
+Doctrine:
+A1:
+A2:
+A3:
+A4:
+A5:
+A6:
+A7:
+A8:
+A9:
 
 
-MA1:|
-MA2:|
-MA3:|
+MA1:
+MA2:
+MA3:
 
 
 

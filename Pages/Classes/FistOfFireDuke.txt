@@ -1,5 +1,5 @@
-Title: Fist of Fire|
-Subtitle: Rapid-fire Melee Fighter|
+Title: Fist of Fire
+Subtitle: Rapid-fire Melee Fighter
 Description: The Fist of Fire branches from the very same order as the Shadow Legends.
 The Fists of Fire believe in a brilliant, passionate life. Much like a fire, they burn bright
 and hot, often leading them to early graves.
@@ -7,78 +7,78 @@ and hot, often leading them to early graves.
 The Fist of Fire specializes in a close- to mid-range combat,
 utilizing special techniques to string together powerful attacks before
 their opponent can fit one in.
-</p>|
+</p>
 
 VITALS
-Health: 25|
-Mana: 10|
-Stamina: 18|
-Focus: 12|
+Health: 105
+Mana: 70
+Stamina: 168
+Focus: 84
 
 SCORES
-Initiative: 15|
-Carry: 7u|
-Element: Fire|
+Initiative: 15
+Carry: 7u
+Element: Fire
 
-STATS
-Melee: (Power: 6, Evasion: 8, Accuracy: +3)|
-Magic: (Power: 4, Evasion: 10, Accuracy: -1)|
-Skill: (Power: 5, Evasion: 12, Accuracy: +5)|
+Cores
+Mind: (Power: 100, Resistance: 76, Evasion: 120, Accuracy: 150)
+Body: (Power: 125, Resistance: 91, Evasion: 80, Accuracy: 130)
+Will: (Power: 75, Resistance: 71, Evasion: 100, Accuracy: 90)
 
 Abilities
 Doctrine: Flurry of Blows
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+3sta+3fcs
 Range: 0sp
 Teamwork: Improve this ability's Effect to make
  an additional Melee Accuracy check.
 Effect: Make 2+{TL/5} Melee Accuracy checks.
-Inflict (1){MlePwr} fire damage per hit.|
+Inflict (1){MlePwr} fire damage per hit.
 
 A1: Burning Star
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP+3sta+5mna
 Range: 0sp AoE
 Accuracy: Melee+5
 IfKO: Reduce Accuracy check by 5 and reduce this ability's Rank by 2.
 Dmg: (3){MlePwr} fire
-OnCrit: Target gets Burning 3|
+OnCrit: Target gets Burning 3
 
 A2: Burning Path
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 3sta+3mna+10AP
 Range: 1sp AoE Ray
 Accuracy: Melee
 Dmg: (2){MlePwr} fire
-OnCrit: Target gets Burning 3|
+OnCrit: Target gets Burning 3
 
 A3: Momentum
-Skill-Support-Reaction
+Mind-Support-Reaction
 Trigger: You declare that you are about to use an ability.
 Variable: X =1.
 Solowork: Increase X by 2.
 Use: X/turn
 Effect: You may increase the Use-cost by 50% to increase its Rank by 1
-for the duration of the turn.|
+for the duration of the turn.
 
 A4: Diving Strike
-Melee-Offensive-Action
+Body-Offensive-Action
 Use: 10AP
 Effect: Target a combatant exactly 2sp away. You leap through the air, ignoring
 difficult terrain, and land in their space.
 Make a basic attack against the targeted combatant.
 Teamwork: Improve the Effect by allowing yourself to make a
-non-basic attack after landing.|
+non-basic attack after landing.
 
 A5: Hold Back
-Melee-Defensive-Action
+Body-Defensive-Action
 Use: 7sta+5AP
 Effect: All enemy combatants in an adjacent space of your choice cannot move out of that space
 until the end of your next turn. End your turn.
-If you fall unconscious or die before the end of your next turn, the effect is canceled.|
+If you fall unconscious or die before the end of your next turn, the effect is canceled.
 
 A6: Explosive Touch
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+5mna
 Range: 0sp
 Effect: The touched item violently explodes (destroying it in the process).
@@ -86,41 +86,41 @@ Every combatant (including you) in the space must pass a Melee Evasion self-chec
 to avoid taking damage. Upon failure, the combatant takes (unit weight){MgcPwr} damage.
 To explode an item currently in possession of an enemy combatant, the
 owner must pass a Skill Evasion self-check.
-You may only target single-part items between 1u-5u in weight.|
+You may only target single-part items between 1u-5u in weight.
 
 A7: Combo
-Skill-Offensive-Reaction
+Mind-Offensive-Reaction
 Trigger: You finish resolving an action.
 Luck: 10
-OnPass: The Use cost of the next action is reduced by 50%.|
+OnPass: The Use cost of the next action is reduced by 50%.
 
 A8: Gift Item
-Skill-Support-Action
+Mind-Support-Action
 Solowork: Increase the range of this ability by 1.
 Range: 0sp
 IfKO: Increase range by 2sp.
-Effect: You may give an item to an ally.|
+Effect: You may give an item to an ally.
 
 A9: Uppercut
-Skill-Offensive-Action
+Mind-Offensive-Action
 Use: 10AP
 Range: 0sp
 Accuracy: Skill
 Dmg: (2){SklPwr} neutral.
 Luck: 10
-OnPass: Target becomes Prone.|
+OnPass: Target becomes Prone.
 
 MA1: Full Hold Back
-Melee-Defensive-Action
+Body-Defensive-Action
 Use: 5AP+7sta
 Effect: Targets in adjacent space of your choice cannot leave the space until
-the end of your next turn.|
+the end of your next turn.
 
 MA2: Rush!
-Skill-Offensive-Passive
-Effect: Reduce the stamina cost of your abilities to 0.|
+Mind-Offensive-Passive
+Effect: Reduce the stamina cost of your abilities to 0.
 
 MA3: Pursue
-Melee-Support-Passive
+Body-Support-Passive
 Use: 4/turn
-Effect: Make a free Movement action.|
+Effect: Make a free Movement action.

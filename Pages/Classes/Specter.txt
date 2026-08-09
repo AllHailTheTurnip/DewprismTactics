@@ -12,8 +12,8 @@ Can...
 - Flood X
 - Paralyze X
 
-Title: Specter|
-Subtitle: Otherworldly Terror|
+Title: Specter
+Subtitle: Otherworldly Terror
 Description: A kind of ghost, Specters have carried nothing with them from their past life except for their anger and
 suffering - as to the cause of that, not even they know. And so, they wander the earth looking for a solution - often
 spending an eternity in a strange and increasingly-alien world.<br>
@@ -21,91 +21,91 @@ When a specter comes around the room becomes cold and fires go out. Their breath
 turn you to ice. Walls, barriers, and mundane weapons mean nothing to them.<br>
 Specters come into the world with no memories of their past lives, but they are rational and coherent enough to know
 what must be done. Only if they can solve the mystery of their past-live's miseries will they be able to pass on into
-the next one - that is, if they don't go mad before then.|
+the next one - that is, if they don't go mad before then.
 ???
 
 VITALS
-Health: 15|
-Mana: 30|
-Stamina: 5|
-Focus: 15|
+Health: 105
+Mana: 420
+Stamina: 35
+Focus: 105
 
 SCORES
-Initiative: 10|
-Carry: 5u|
-Element: Water/Dark|
+Initiative: 10
+Carry: 5u
+Element: Water/Dark
 
-STATS
-Melee: (Power: 3, Evasion: 8, Accuracy: -3)|
-Magic: (Power: 6, Evasion: 10, Accuracy: +3)|
-Skill: (Power: 5, Evasion: 10, Accuracy: 0)|
+Cores
+Mind: (Power: 100, Resistance: 75, Evasion: 100, Accuracy: 100)
+Body: (Power: 50, Resistance: 50, Evasion: 80, Accuracy: 70)
+Will: (Power: 125, Resistance: 113, Evasion: 100, Accuracy: 130)
 
 Abilities
 Doctrine: Dweller of the Spirit Realm
-Magic-Support-Passive
+Will-Support-Passive
 Teamwork: When attacked, you may spend 7mna to also become immune to fire-, water-, and wind-type damage for the duration of the attack.
 Effect: You are immune to neutral-type damage.
-Dead and KO'd allies in your space still trigger abilities with Teamwork.|
+Dead and KO'd allies in your space still trigger abilities with Teamwork.
 
 A1: Ghost Step
-Magic-Support-Reaction
+Will-Support-Reaction
 Trigger: You move from one space to another.
 Use: 3mna
 Teamwork: You may spend an additional 2mna for every teammate who wishes to follow you; they make a free movement action into the space you enter.
-Effect: You can move through solid surfaces, ignoring barriers and walls, until the end of your turn.|
+Effect: You can move through solid surfaces, ignoring barriers and walls, until the end of your turn.
 
 A2: Invisible
-Magic-Defense-Action
+Will-Defense-Action
 Use: 7mna
 Effect: Turn invisible, where all your Evasion scores are increased to 20.
 While invisible, no one except your allies can see you, however other invisible combatants can see you.
-Performing any checks will cause you to become visible again.|
+Performing any checks will cause you to become visible again.
 
 A3: Haunt
-Magic-Attack-Action
+Will-Attack-Action
 Use: 10AP+3mna+3fcs
 Range: {TL/5}sp
 Accuracy: Magic
-OnHit: Target loses (1){MgcPwr/4} focus.|
+OnHit: Target loses (1){MgcPwr/4} focus.
 
 A4: Arcane Shield
-Magic-Defense-Passive
+Will-Defense-Passive
 Variable: X =incoming damage.
-Effect: You may spend X/10mna to neutralize incoming damage.|
+Effect: You may spend X/10mna to neutralize incoming damage.
 
 A5: Terrify
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+1fcs+(1/turn)
 Range: 1sp (Choose up to 1+{TL/5} targets.)
 Evade: Magic
-OnHit: Target loses (1){SklPwr/3} focus.|
+OnHit: Target loses (1){SklPwr/3} focus.
 
 A6: Paralyzing Presence
-Magic-Offensive-Action
+Will-Offensive-Action
 Solowork: Reduce the Use-cost by 5AP.
 Use: 15AP+3fcs
 Range: 1sp
 Evade: Magic
 IfKO: Reduce Evade difficulty by 3.
-OnPass: Target gains Paralyzed 3.|
+OnPass: Target gains Paralyzed 3.
 
 A7: Drown
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+7mna
 Range: 1sp
 Luck: 15
-OnHit: Target gains Doomed 3-(0).|
+OnHit: Target gains Doomed 3-(0).
 
 A8: Freezing Touch
-Magic-Offensive-Action
+Will-Offensive-Action
 Use: 10AP+3mna
 Range: 0sp
 Solowork: The targeted combatant cannot use their Accuracy in the proceeding Evade check.
 Evade: Magic
-OnHit: Target becomes Frozen 1+{TL/10}.|
+OnHit: Target becomes Frozen 1+{TL/10}.
 
 A9: Possession
-Magic-Support-Action
+Will-Support-Action
 Use: 10AP+7mna
 Range: 0sp
 Luck: 10-{TL/2}
@@ -118,8 +118,8 @@ At Class Level 15, you can possess the target if they're dead and cannot lose po
 with yours.
 At Class Level 20, targets cannot become conscious again until you leave.
 Duration: 3 turns, or until the target regains consciousness, or until target dies.
-OnCrit: Treat your CL as if it was +5 greater for this ability.|
+OnCrit: Treat your CL as if it was +5 greater for this ability.
 
-MA1:|
-MA2:|
-MA3:|
+MA1:
+MA2:
+MA3:
