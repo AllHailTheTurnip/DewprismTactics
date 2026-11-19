@@ -77,51 +77,86 @@ function onLoadMonster() {
     SetHTMLByID("Loot");
 }
 
+// Top-level fields of a class file. Each one starts a line as "Key: value" and runs
+// until the next top-level field or section header, so multi-line descriptions and
+// ability blocks (with their own "Use:", "Effect:" lines) are kept whole.
+const classFields = [
+    "Title", "Subtitle", "Description",
+    "Health", "Stamina", "Mana", "Focus",
+    "Initiative", "Carry", "Element",
+    "Melee", "Magic", "Skill",
+    "Doctrine",
+    "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10",
+    "MA1", "MA2", "MA3"
+];
+const classSectionHeaders = ["VITALS", "SCORES", "STATS", "ABILITIES"];
+
+function ParseClassFile(text) {
+    const fields = {};
+    const lines = text.replace(/\r\n?/g, "\n").split("\n");
+    const fieldPattern = new RegExp("^(" + classFields.join("|") + "):\\s?(.*)$");
+    let current = null;
+
+    for (const line of lines) {
+        const match = line.match(fieldPattern);
+        if (match) {
+            current = match[1];
+            fields[current] = [match[2]];
+        } else if (classSectionHeaders.includes(line.trim())) {
+            current = null;
+        } else if (current !== null) {
+            fields[current].push(line);
+        }
+    }
+
+    for (const key in fields) {
+        fields[key] = fields[key].join("\n").trim();
+    }
+    return fields;
+}
+
 function onLoadClass()
 {
-    accessedFile = this.response;
 
-    var Title = "Title";
-    var Subtitle = "Subtitle";
-    var Description = "Description"
-    var Health = "Health";
-    var Stamina = "Stamina";
-    var Mana = "Mana";
-    var Focus = "Focus";
-    var Initiative = "Initiative";
-    var Carry = "Carry";
-    var Element = "Element";
-    var Melee = "Melee";
-    var Magic = "Magic";
-    var Skill = "Skill";
+    if (this.status !== 200 && this.status !== 0) {
+        for (const id of classFields) {
+            const el = document.getElementById(id);
+            if (el) el.innerText = "";
+        }
+        document.getElementById("Title").innerText = "Class not found";
+        return;
+    }
 
+    const fields = ParseClassFile(this.responseText);
 
-    document.getElementById(Title).innerHTML = GetTxtAttribute(Title);
-    document.getElementById(Subtitle).innerHTML = GetTxtAttribute(Subtitle);
-    document.getElementById(Stamina).innerText = GetTxtAttribute(Stamina);
-    document.getElementById(Health).innerText = GetTxtAttribute(Health);
-    document.getElementById(Mana).innerText = GetTxtAttribute(Mana);
-    document.getElementById(Focus).innerText = GetTxtAttribute(Focus);
-    document.getElementById(Initiative).innerText = GetTxtAttribute(Initiative);
-    document.getElementById(Carry).innerText = GetTxtAttribute(Carry);
-    document.getElementById(Element).innerText = GetTxtAttribute(Element);
-    document.getElementById(Melee).innerText = GetTxtAttribute(Melee);
-    document.getElementById(Magic).innerText = GetTxtAttribute(Magic);
-    document.getElementById(Skill).innerText = GetTxtAttribute(Skill);
-    document.getElementById(Description).innerHTML = GetTxtAttribute(Description);
-    document.getElementById("Doctrine").innerText = GetTxtAttribute("Doctrine");
-    document.getElementById("A1").innerText = GetTxtAttribute("A1");
-    document.getElementById("A2").innerText = GetTxtAttribute("A2");
-    document.getElementById("A3").innerText = GetTxtAttribute("A3");
-    document.getElementById("A4").innerText = GetTxtAttribute("A4");
-    document.getElementById("A5").innerText = GetTxtAttribute("A5");
-    document.getElementById("A6").innerText = GetTxtAttribute("A6");
-    document.getElementById("A7").innerText = GetTxtAttribute("A7");
-    document.getElementById("A8").innerText = GetTxtAttribute("A8");
-    document.getElementById("A9").innerText = GetTxtAttribute("A9");
-    document.getElementById("MA1").innerText = GetTxtAttribute("MA1");
-    document.getElementById("MA2").innerText = GetTxtAttribute("MA2");
-    document.getElementById("MA3").innerText = GetTxtAttribute("MA3");
+    // Title, subtitle and description may contain HTML (e.g. <p> tags).
+    const htmlFields = ["Title", "Subtitle", "Description"];
+
+    for (const id of classFields) {
+        const el = document.getElementById(id);
+        if (!el) continue;
+
+        const value = fields[id] || "";
+        if (htmlFields.includes(id)) {
+            el.innerHTML = value;
+        } else {
+            el.innerText = value;
+        }
+
+        // Hide ability slots the class doesn't have (and the divider after them).
+        if (el.tagName === "LI") {
+            el.style.display = value ? "" : "none";
+            const next = el.nextElementSibling;
+            if (next && next.tagName === "HR") next.style.display = value ? "" : "none";
+        }
+    }
+
+    // Classes no longer define Melee/Magic/Skill; only show Stats if one is present.
+    const stats = document.getElementById("Stats");
+    if (stats) {
+        stats.style.display = (fields.Melee || fields.Magic || fields.Skill) ? "" : "none";
+    }
+
 }
 
 function LoadMonster(name) {
