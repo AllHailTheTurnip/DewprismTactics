@@ -89,20 +89,30 @@ const classFields = [
     "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10",
     "MA1", "MA2", "MA3"
 ];
-const classSectionHeaders = ["VITALS", "SCORES", "STATS", "ABILITIES"];
+// Fields that are always a single line ("Health: 35"). Anything after that line belongs elsewhere.
+const singleLineClassFields = [
+    "Title", "Subtitle",
+    "Health", "Stamina", "Mana", "Focus",
+    "Initiative", "Carry", "Element",
+    "Melee", "Magic", "Skill"
+];
+// Section headings that end a multi-line field (matched case-insensitively, on a line of their own).
+const classSectionHeaders = ["VITALS", "SCORES", "STATS", "CORES", "ABILITIES", "MASTER ABILITIES"];
 
 function ParseClassFile(text) {
     const fields = {};
     const lines = text.replace(/\r\n?/g, "\n").split("\n");
-    const fieldPattern = new RegExp("^(" + classFields.join("|") + "):\\s?(.*)$");
+    const fieldPattern = new RegExp("^\\s*(" + classFields.join("|") + ")\\s*:\\s?(.*)$");
     let current = null;
 
     for (const line of lines) {
         const match = line.match(fieldPattern);
         if (match) {
-            current = match[1];
-            fields[current] = [match[2]];
-        } else if (classSectionHeaders.includes(line.trim())) {
+            const key = match[1];
+            fields[key] = [match[2]];
+            // Single-line fields never collect the lines that follow them.
+            current = singleLineClassFields.includes(key) ? null : key;
+        } else if (classSectionHeaders.includes(line.trim().toUpperCase())) {
             current = null;
         } else if (current !== null) {
             fields[current].push(line);
