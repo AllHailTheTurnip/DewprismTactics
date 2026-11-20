@@ -77,6 +77,10 @@ function onLoadMonster() {
     SetHTMLByID("Loot");
 }
 
+// A class holds only its title, subtitle, description, element(s) and abilities. Vitals, scores and
+// cores belong to the character, so the Classes page doesn't show them. Older TTRPG class files still
+// list them under VITALS and SCORES; only their Element line is used.
+//
 // Top-level fields of a class file. Each one starts a line as "Key: value" and runs
 // until the next top-level field or section header, so multi-line descriptions and
 // ability blocks (with their own "Use:", "Effect:" lines) are kept whole.
@@ -139,6 +143,9 @@ function onLoadClass()
 
     const fields = ParseClassFile(this.responseText);
 
+    // "Lightning" and "Electric" are the same element; Electric is the canonical name.
+    if (fields.Element) fields.Element = fields.Element.replace(/\bLightning\b/gi, "Electric");
+
     // Title, subtitle and description may contain HTML (e.g. <p> tags).
     const htmlFields = ["Title", "Subtitle", "Description"];
 
@@ -161,11 +168,6 @@ function onLoadClass()
         }
     }
 
-    // Classes no longer define Melee/Magic/Skill; only show Stats if one is present.
-    const stats = document.getElementById("Stats");
-    if (stats) {
-        stats.style.display = (fields.Melee || fields.Magic || fields.Skill) ? "" : "none";
-    }
 
 }
 

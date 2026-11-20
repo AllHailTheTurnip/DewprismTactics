@@ -28,6 +28,7 @@ function InjectKarmicDiceRollerIntoElement() {
         Dice Roller.
         <br>
         <button onclick="RollKarmicDice()">Roll</button>
+        <button onclick="RollKarmicDiceWithExcellence()" title="Roll twice and keep the higher">Roll with Excellence</button>
         <p id="KarmicDiceResult"></p>
         `;
 }
@@ -79,10 +80,9 @@ function ShuffleTest() {
     SetResults(output);
 }
 
-function RollKarmicDice() {
-    // Get the result and move onto the next iteration.
+// Draws the next result from the bag, reshuffling once every result has been used.
+function DrawKarmicDie() {
     let singleRoll = results[index];
-    presentResult = singleRoll;
     index++;
 
     // Reset when all results have been used.
@@ -91,9 +91,32 @@ function RollKarmicDice() {
         ShuffleResults();
     }
 
+    return singleRoll;
+}
+
+function RollKarmicDice() {
+    let singleRoll = DrawKarmicDie();
+    presentResult = singleRoll;
+
     // Update the page with the result.
     if (showResult)
         SetResults(singleRoll);
+
+    return singleRoll;
+}
+
+// Excellence (replaces advantage on checks): roll the check twice and take the higher.
+// Both rolls come from the same karmic bag, as they do in the game.
+function RollKarmicDiceWithExcellence() {
+    let first = DrawKarmicDie();
+    let second = DrawKarmicDie();
+    let kept = Math.max(first, second);
+    presentResult = kept;
+
+    if (showResult)
+        SetResults(kept + " <small>(rolled " + first + " and " + second + ")</small>");
+
+    return kept;
 }
 
 // Automatically shuffles the results at the beginning.

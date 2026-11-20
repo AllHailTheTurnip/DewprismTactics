@@ -108,41 +108,7 @@
 
         </div>
         <div id="DamageCalculator">
-            Damage Calculator<br>
-            <table style="width: inherit;" id="DmgTable" onload="LoadCookies()">
-                <tr id="RankRow">
-                    <th>
-                        Type
-                    </th>
-                    <th>
-                        Power
-                    </th>
-                    <th>
-                        Rank 1
-                    </th>
-                    <th>
-                        Rank 2
-                    </th>
-                    <th>
-                        Rank 3
-                    </th>
-                    <th>
-                        Rank 4
-                    </th>
-                    <th>
-                        Rank 5
-                    </th>
-                    <th>
-                        Rank 6
-                    </th>
-                    <th>
-                        Rank 7
-                    </th>
-                    <th>
-                        Rank 8
-                    </th>
-                </tr>
-            </table>
+
         </div>
         <footer>
             <sub>Designed by Caleb Clanton - Miraculous Games. </sub>
@@ -158,9 +124,7 @@
                 src="Resources/DamageCalculator.js"></script>
         <script>
             InjectKarmicDiceRollerIntoElement();
-            CreateCalculationField("Melee");
-            CreateCalculationField("Magic");
-            CreateCalculationField("Skill");
+            InjectDamageCalculatorIntoElement();
         </script>
     </footer>
 </html>
