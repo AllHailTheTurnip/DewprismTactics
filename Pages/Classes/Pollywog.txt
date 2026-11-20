@@ -69,9 +69,11 @@ Make a free movement action to follow in their direction.
 
 A7: Hide
 Body-Defensive-Reaction
-Trigger: An enemy combatant's is granted a turn.
+Trigger: An enemy combatant is granted a turn (before it begins).
 Use: 8sta
-You may move to the nearest space that is not in the line of sight of any enemy combatants.
+Hiding spot: Draw a line from each enemy combatant to you. Of the obstacles those lines cross, take the one nearest
+to you; the nearest space beside it is your hiding spot. If there is no hiding spot, you can't use this ability.
+Effect: Move straight into your hiding spot. This counts as a movement action (Bleeding applies).
 "I wasn't paying attention, but one second he was there, and the next he was gone."
 
 A8: Nurture
