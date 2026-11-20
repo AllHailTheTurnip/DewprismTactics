@@ -1,37 +1,20 @@
-
-
 Title: Skeleton
 Subtitle: Withered Warrior
+Element: Wind/Dark
 Description: Some believe that the first skeleton was a monk who, after fasting for
 30 days, achieved a heightened-state of being and, instead of succumbing to starvation,
 became nearly immortal. Before ascending, he taught everything he knew to his disciples.
 Later on, when their nation was attacked by raiders and the disciples were scattered
 across the empire, they used their knowledge to help them survive.<br>
-    <p>While that's still considered a myth, it is absolutely certain that Skeleton
-    have their name for a reason. Their fasting has reduced them to skin and bones,
-    yet their heightened states have granted power. A mysterious magic surrounds them.</p>
+<p>While that's still considered a myth, it is absolutely certain that Skeleton
+have their name for a reason. Their fasting has reduced them to skin and bones,
+yet their heightened states have granted power. A mysterious magic surrounds them.</p>
 
-VITALS
-Health: 105
-Mana: 35
-Stamina: 35
-Focus: 35
+ABILITIES
 
-SCORES
-Initiative: 10
-Carry: 5u
-Element: Wind/Dark
-
-Cores
-Mind: (Power: 125, Resistance: 50, Evasion: 150, Accuracy: 90)
-Body: (Power: 50, Resistance: 50, Evasion: 120, Accuracy: 100)
-Will: (Power: 100, Resistance: 50, Evasion: 100, Accuracy: 90)
-
-Abilities
 Doctrine: Tireless
 Body-Support-Passive
-Effect: Spend 5AP to restore 5 mana, 5 stamina, and 5 focus.
-IfKO: Instead pay 7sta+7mna+7fcs to regain (1){MgcPwr} health.
+Effect: Spend 1AP to restore 5 mana, 5 stamina, and 5 focus.
 
 A1: Undead
 Will-Support-Passive
@@ -41,13 +24,13 @@ Healing from enemy combatants is taken as damage.
 A2: Play Dead
 Mind-Support-Action/Reaction
 Trigger: You take damage.
-Use: 10AP
+Use: 2AP
 Effect: You may falsely gain the Dead status, taking the appearance of a dead combatant.
 While falsely dead, the only action you can make is to remove the Dead status.
 
 A3: Salvage Bone Weapon
 Mind-Support-Action
-Use: 15AP+5sta
+Use: 4AP+16sta
 Effect: While in the same space as a dead combatant, conjure a Bone Weapon.
 Bone Weapon:
 (Type: [First highest of target's base Stamina, Mana, or Focus],
@@ -63,11 +46,11 @@ Effect: Any taken Body-type damage is halved.
 
 A5: Savage Strike
 Body-Offensive-Action
-Use: 10AP
+Use: 2AP
 Range: 0sp
 Teamwork: If your Accuracy check naturally rolls 15 or higher, auto-pass the Luck check.
 Accuracy: Melee
-OnHit: Inflict (2){MlePwr} damage.
+OnHit: Inflict (6){MlePwr} damage.
 Luck: 10
 OnPass: Disable Melee (Target cannot make Body-type actions.)
 
@@ -84,20 +67,19 @@ Effect: Increase your Critical Failure Threshold by 2.
 A8: Reassemble
 Will-Support-Action
 Teamwork: Allies in your space gain access to this ability.
-Use: 5AP+3fcs+5mna
+Use: 1AP+8fcs+16mna
 Effect: Remove a negative status effect.
 
 A9: Horrifying
 Mind-Defensive-Action
-Use: 5fcs
+Use: 16fcs
 Range: 3sp
 Accuracy: Skill
-IfKO: Reduce Accuracy check by 3.
 OnPass: Opponent returns to their previous space.
 
 MA1: Lich Resurgence
 Will-Defensive-Action
-Use: 10AP + 10mna
+Use: 2AP+24mna
 Range: 2sp AoE
 Effect: The user gains the Lich status for (3) turns. While possessing the Lich status, the user can lose health but
 cannot die, no matter how low their health goes.
@@ -105,12 +87,12 @@ For (3) turns enemies within range are pushed away and out of range.
 
 MA2: Touch of Undeath
 Will-Support-Action
-Use: 10AP+12mna
+Use: 2AP+36mna
 Range: 0sp
 Effect: The targeted combatant becomes immortal, but now counts as a neutralized combatant.
 
 MA3: Oblivion's Grasp
 Will-Offensive-Action
-Use: 15AP+12mna
+Use: 4AP+36mna
 Range: 3sp AoE
 Effect: All enemies in range gain the Doomed 3 status.

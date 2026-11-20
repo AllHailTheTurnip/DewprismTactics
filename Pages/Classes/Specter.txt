@@ -1,19 +1,6 @@
-Ghost
-Water/told type thing
-Undead
-
-Can...
-- Walk through walls X
-- Pass through mundane things X
-- Invisible X
-- Cause fear X
-- Freeze breath/touch X
-- Drown (Like The Ring) X
-- Flood X
-- Paralyze X
-
 Title: Specter
 Subtitle: Otherworldly Terror
+Element: Water/Dark
 Description: A kind of ghost, Specters have carried nothing with them from their past life except for their anger and
 suffering - as to the cause of that, not even they know. And so, they wander the earth looking for a solution - often
 spending an eternity in a strange and increasingly-alien world.<br>
@@ -24,81 +11,65 @@ what must be done. Only if they can solve the mystery of their past-live's miser
 the next one - that is, if they don't go mad before then.
 ???
 
-VITALS
-Health: 105
-Mana: 420
-Stamina: 35
-Focus: 105
+ABILITIES
 
-SCORES
-Initiative: 10
-Carry: 5u
-Element: Water/Dark
-
-Cores
-Mind: (Power: 100, Resistance: 75, Evasion: 100, Accuracy: 100)
-Body: (Power: 50, Resistance: 50, Evasion: 80, Accuracy: 70)
-Will: (Power: 125, Resistance: 113, Evasion: 100, Accuracy: 130)
-
-Abilities
 Doctrine: Dweller of the Spirit Realm
 Will-Support-Passive
-Teamwork: When attacked, you may spend 7mna to also become immune to fire-, water-, and wind-type damage for the duration of the attack.
+Teamwork: When attacked, you may spend 16mna to also become immune to fire-, water-, and wind-type damage for the duration of the attack.
 Effect: You are immune to neutral-type damage.
 Dead and KO'd allies in your space still trigger abilities with Teamwork.
 
 A1: Ghost Step
 Will-Support-Reaction
 Trigger: You move from one space to another.
-Use: 3mna
-Teamwork: You may spend an additional 2mna for every teammate who wishes to follow you; they make a free movement action into the space you enter.
+Use: 8mna
+Teamwork: You may spend an additional 6mna for every teammate who wishes to follow you; they make a free movement action into the space you enter.
 Effect: You can move through solid surfaces, ignoring barriers and walls, until the end of your turn.
 
 A2: Invisible
 Will-Defense-Action
-Use: 7mna
+Use: 16mna
 Effect: Turn invisible, where all your Evasion scores are increased to 20.
 While invisible, no one except your allies can see you, however other invisible combatants can see you.
 Performing any checks will cause you to become visible again.
 
 A3: Haunt
 Will-Attack-Action
-Use: 10AP+3mna+3fcs
+Use: 2AP+8mna+8fcs
 Range: {TL/5}sp
 Accuracy: Magic
-OnHit: Target loses (1){MgcPwr/4} focus.
+OnHit: Target loses (4){MgcPwr/4} focus.
 
 A4: Arcane Shield
 Will-Defense-Passive
 Variable: X =incoming damage.
-Effect: You may spend X/10mna to neutralize incoming damage.
+Effect: You may spend X/12mna to neutralize incoming damage.
 
 A5: Terrify
 Will-Offensive-Action
-Use: 10AP+1fcs+(1/turn)
+Use: 2AP+4fcs+(1/turn)
 Range: 1sp (Choose up to 1+{TL/5} targets.)
 Evade: Magic
-OnHit: Target loses (1){SklPwr/3} focus.
+OnHit: Target loses (4){SklPwr/3} focus.
 
 A6: Paralyzing Presence
 Will-Offensive-Action
-Solowork: Reduce the Use-cost by 5AP.
-Use: 15AP+3fcs
+Solowork: Reduce the Use-cost by 1AP.
+Use: 4AP+8fcs
 Range: 1sp
 Evade: Magic
-IfKO: Reduce Evade difficulty by 3.
 OnPass: Target gains Paralyzed 3.
 
 A7: Drown
 Will-Offensive-Action
-Use: 10AP+7mna
+Use: 2AP+16mna
 Range: 1sp
 Luck: 15
 OnHit: Target gains Doomed 3-(0).
 
 A8: Freezing Touch
 Will-Offensive-Action
-Use: 10AP+3mna
+Use: 2AP+8mna
 Range: 0sp
 Solowork: The targeted combatant cannot use their Accuracy in the proceeding Evade check.
 Evade: Magic
@@ -106,10 +77,9 @@ OnHit: Target becomes Frozen 1+{TL/10}.
 
 A9: Possession
 Will-Support-Action
-Use: 10AP+7mna
+Use: 2AP+16mna
 Range: 0sp
 Luck: 10-{TL/2}
-IfKO: Increase Luck check difficulty by 10.
 Effect: Take possession of a KO'd target's body. While possessing, substitute theirs
 Health, Melee, Magic, and Skill scores with yours.
 At Class Level 5, you can draw from the target's Mana, Focus, and Stamina pools.
@@ -121,5 +91,7 @@ Duration: 3 turns, or until the target regains consciousness, or until target di
 OnCrit: Treat your CL as if it was +5 greater for this ability.
 
 MA1:
+
 MA2:
+
 MA3:

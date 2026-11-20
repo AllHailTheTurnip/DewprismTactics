@@ -1,99 +1,92 @@
 Title: Saber Tiger
 Subtitle: Swift and Lethal
+Element: Wind
 Description: Saber Tigers are expert assassins, trained in a variety of fighting methods ranging from
 the secret arts to the dark arts.
-    <p>Stranger than mere killers, their methodology can be
+<p>Stranger than mere killers, their methodology can be
 gruesome and quite possibly sickening, where at times it becomes hard to find respectable
 work. Factoring against that, with their reputation for success, Saber Tigers have become
 prime commission for crime lords and kings alike.</p>
 
-VITALS
-Health: 105
-Mana: 105
-Stamina: 91
-Focus: 147
-
-SCORES
-Initiative: 15
-Carry: 5u
-Element: Wind
-
-Cores
-Mind: (Power: 125, Resistance: 93, Evasion: 90, Accuracy: 110)
-Body: (Power: 50, Resistance: 83, Evasion: 120, Accuracy: 100)
-Will: (Power: 50, Resistance: 88, Evasion: 100, Accuracy: 90)
-
 ABILITIES
+
 Doctrine: Assassinate
-    Skill-Offensive-Action
-    Use: 10AP+3Fcs+3Sta
-    Range: (1)+{TL/4}sp
-    Effect: Leap through the air into the same space as your target.
-    Teamwork: This ability's Luck check gains Advantage.
-    Luck: 18
-    OnPass: Target takes damage equal to their remaining health.
+Mind-Offensive-Action
+Use: 2AP+8fcs+8sta
+Range: (1)+{TL/4}sp
+Effect: Leap through the air into the same space as your target.
+Teamwork: This ability's Luck check gains Advantage.
+Luck: 18
+OnPass: Target takes damage equal to their remaining health.
+
 A1: Leap
-    Skill-Support-Action
-    Use: 10AP
-    Range: 2sp
-    Jump into a space within range.
+Mind-Support-Action
+Use: 2AP
+Range: 2sp
+Jump into a space within range.
+
 A2: Dismember
-    Melee-Offensive-Action
-    Use: 10AP+5Sta
-    Range: 0sp
-    Solowork: Increase the proceeding Melee check by 2.
-    Accuracy: Melee
-    OnPass: Choose to disable either your opponent's Primary or Secondary attacks (the primary or secondary weapon are also dropped.)
+Body-Offensive-Action
+Use: 2AP+16sta
+Range: 0sp
+Solowork: Increase the proceeding Melee check by 2.
+Accuracy: Melee
+OnPass: Choose to disable either your opponent's Primary or Secondary attacks (the primary or secondary weapon are also dropped.)
+
 A3: Lick Wounds
-    Melee-Supportive-Action
-    Use: 10AP
-    IfKO: Increase Use cost by 5sta+5fcs.
-    Range: 0sp
-    Variable: X =15.
-    Solowork: Increase X by 5.
-    Restore (X){TL} health to yourself or your target.
+Body-Supportive-Action
+Use: 2AP
+Range: 0sp
+Variable: X =15.
+Solowork: Increase X by 5.
+Restore (X){TL} health to yourself or your target.
+
 A4: Bloody Feast
-    Melee-Supportive-Passive
-    Use: 5sta+(1/turn)
-    Attacking a dead target restores health equal to half the damage inflicted.
+Body-Supportive-Passive
+Use: 16sta+(1/turn)
+Attacking a dead target restores health equal to half the damage inflicted.
+
 A5: Tactical Retreat
-    Melee-Supportive-Reaction
-    Use: 3sta
-    Trigger: You or an allie takes damage.
-    Range: 1+{TL/2}sp instant
-    Make a free movement action and take a nearby allie within range with you by your side.
+Body-Supportive-Reaction
+Use: 8sta
+Trigger: You or an allie takes damage.
+Range: 1+{TL/2}sp instant
+Make a free movement action and take a nearby allie within range with you by your side.
+
 A6: Astounding Speed
-    Melee-Support-Reaction
-    Trigger: You make a basic Movement action
-    Use: 3sta
-    You move an additional space.
+Body-Support-Reaction
+Trigger: You make a basic Movement action
+Use: 8sta
+You move an additional space.
+
 A7: Sharpen Edge
-    Skill-Support-Action
-    Use: 10AP+(1/turn)
-    Teamwork: Increase your Crit rank by 1.
-    Increase your Crit threshold by 1.
+Mind-Support-Action
+Use: 2AP+(1/turn)
+Teamwork: Multiply your Crit rank by 1.5.
+Increase your Crit threshold by 1.
+
 A8: Fearsome Roar
-    Skill-Offensive-Action
-    Use: 10AP
-    Range: 3sp
-    Effect: Reduce the target's Magic evasion by 3.
-    IfKO: End your turn.
+Mind-Offensive-Action
+Use: 2AP
+Range: 3sp
+Effect: Reduce the target's Magic evasion by 3.
+
 A9: Assassin's Blade
-    Magic-Support-Item
-    Slot: Primary Weapon
-    Assassin's Blade (Skill, WC: VL, Rank: 1, Use: (2/turn) Metal, Artisan +2)
+Will-Support-Item
+Slot: Primary Weapon
+Assassin's Blade (Skill, WC: VL, Rank: 4, Use: (2/turn) Metal, Artisan +2)
 
 MA1: Superior Speed
 Mind-Offensive-Action
-Use: 10sta
-Effect: Reduce the cost of all actions for the duration of your turn by 10AP (min 5).
+Use: 24sta
+Effect: Reduce the cost of all actions for the duration of your turn by 2AP (min 1).
 
 MA2: Gore
 Mind-Offensive-Action
-Use: 10AP+5sta+(3/battle)
+Use: 2AP+16sta+(3/battle)
 Accuracy: Skill
 Range: 2sp
-Effect: Inflict Bleeding (5){SklPwr}.
+Effect: Inflict Bleeding (16){SklPwr}.
 
 MA3: Superior Vitality
 Mind-Support-Passive

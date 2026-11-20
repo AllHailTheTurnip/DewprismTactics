@@ -1,56 +1,41 @@
 Title: Psycho Master
 Subtitle: Mental Warrior
+Element: Neutral
 Description: Psycho Masters are both one of the oldest warrior classes to exist in history, yet one of the newest to truly flourish.
 The first Psycho Masters were hermit sages who, in a quest for greater understanding of the connection between the inner world of the mind
 and the outer world of matter underwent intense training to bridge the two. Since their first conception, there has only been 1-3 Psycho Masters
 throughout history; the student would seek out the master and learn from them, where in time the master would perish and the student would continue
 the cycle. Today, Psycho Masters range in the thousands and are spread throughout the world. Their powers are both feared and coveted.
 <p>
-    Psycho Masters posses the coveted power of psychokinesis. They can reach out from their minds and into the outer world, grabbing
-    things and people from far away and toying with them with an otherworldly strength. They can have a range of omniscience and therefor
-    spend most of their time with eyes closed. Between their powers and their subdued manners, Psycho Masters make for frightening opponents.
+Psycho Masters posses the coveted power of psychokinesis. They can reach out from their minds and into the outer world, grabbing
+things and people from far away and toying with them with an otherworldly strength. They can have a range of omniscience and therefor
+spend most of their time with eyes closed. Between their powers and their subdued manners, Psycho Masters make for frightening opponents.
 </p>
 ???
 
-VITALS
-Health: 105
-Mana: 35
-Stamina: 105
-Focus: 420
+ABILITIES
 
-SCORES
-Initiative: 10
-Carry: 10u
-Element: Neutral
-
-Cores
-Mind: (Power: 150, Resistance: 125, Evasion: 120, Accuracy: 140)
-Body: (Power: 50, Resistance: 88, Evasion: 60, Accuracy: 70)
-Will: (Power: 50, Resistance: 63, Evasion: 80, Accuracy: 80)
-
-Abilities
 Doctrine: Psychic Crush
 Mind-Offensive-Action
-Use: 10AP+5fcs
+Use: 2AP+16fcs
 Choose either Mode A or Mode B
 Mode A:
 Range: 1sp
 Accuracy: Skill
-Dmg: (3){SklPwr}
+Dmg: (8){SklPwr}
 Mode B:
 Range: 2sp
 Accuracy: Skill -2
-Dmg: (2){SklPwr}
+Dmg: (6){SklPwr}
 
 A1: Foresight
 Mind-Defensive-Action
-Use: 7fcs+(1/turn)
+Use: 16fcs+(1/turn)
 Effect: Increase all of your Accuracy and Evade checks by 5 until the start of your turn.
 
 A2: Omniscience
 Mind-Support-Action
-Use: 7fcs
-IfKO: Increase Use cost by 3fcs.
+Use: 16fcs
 Range: 1sp
 Effect: You and your allies ignore an enemy's Stealth evasion modifiers if they're within range.
 This expires at the start of your next turn. // See in dark and ignore Stealth.
@@ -58,62 +43,61 @@ This expires at the start of your next turn. // See in dark and ignore Stealth.
 A3: Mirror Shield
 Mind-Defensive-Reaction
 Trigger: An enemy targets you with an ability.
-Use: 5fcs+(2/turn)
+Use: 16fcs+(2/turn)
 Effect: You must change the ability's target(s) to instead target enemy combatants - excepting the ability's owner. The ability proceeds as normal. // Retarget attack to enemy in space.
 
 A4: Psychic Shield
 Mind-Defensive-Action
-Use: 10AP+5fcs
+Use: 2AP+16fcs
 Effect: You gain High cover until the beginning of your next attack.  // Create heavy cover.
 
 A5: Quick Warp
 Mind-Support-Action
-Use: 3fcs+(1/turn)
+Use: 8fcs+(1/turn)
 A = (1d20/2)-5
 B = (1d20/2)-5
 Effect: Move Asp north and Bsp east.
- If you would move out of bounds or onto bottomless pit (or lava),
-  stop at the lost possible safe space. // Move to another space.
+If you would move out of bounds or onto bottomless pit (or lava),
+stop at the lost possible safe space. // Move to another space.
 
 A6: Energy Ring
 Mind-Offensive-Action
-Use: 10AP+5fcs
+Use: 2AP+16fcs
 Range: 0sp Circle AoE
 Evade: Skill
-IfKO: Increase Evade difficulty by 3.
-Dmg: (2){SklPwr} // Target enemies in space
+Dmg: (6){SklPwr} // Target enemies in space
 
 A7: Mindwash
 Mind-Offensive-Action
-Use: 10AP+5fcs+(1/2turn)
+Use: 2AP+16fcs+(1/2turn)
 Range: 1sp
 Evade: Skill
 Effect: Disable a target's ability (your choice). // Disable an ability.
 
 A8: Telekinetic Shove
 Mind-Offensive-Action
-Use: 10AP+5fcs
+Use: 2AP+16fcs
 Range: 0sp
 Accuracy: Skill +3
 Effect: Move target up to {DL}sp in any direction. // Push an opponent.
 
 A9: Levitate
 Mind-Offensive-Passive
-Effect: When making a Movement action, you may pay its AP cost with 3fcs.
+Effect: When making a Movement action, you may pay its AP cost with 8fcs.
 // Replace AP cost with focus cost.
 
 MA1: Opened Eyes
 Mind-Support-Passive
 Effect:
-Increase your Mind-type actions by 3 ranks.
+Multiply the ranks of your Mind-type actions by 2.5.
 Mind-type abilities no longer have use-per-turn costs.
 
 MA2: Final Flash
 Mind-Support-Action
-Use: 10fcs
+Use: 24fcs
 Range: 4sp
 Accuracy: Skill
-Effect: Inflict (10){SklDmg} to a combatant. You are removed from the battle.
+Effect: Inflict (16){SklDmg} to a combatant. You are removed from the battle.
 
 MA3: Wellspring of Thought
 Mind-Support-Action

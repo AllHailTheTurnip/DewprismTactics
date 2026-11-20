@@ -1,33 +1,19 @@
 Title: Wabbit
 Subtitle: Divine soldier.
-Description:Wabbits are group of specially trained martial artists with divine origins. Using a combination of agility,
-            acrobatics, and grace, they coordinate to take down their opponents.
-            <p>Historically, Wabbits were first trained by a kind of seraphim, warriors from the Overworld who had come to ours on
-            a mission of protection for the Elect. They trained the monks of Tomb Hill in the art of divine combat and left.
-            The sacred combat arts were passed on from one generation to the next, making way for the Elect to protect themselves,
-            that they might worship in peace. Yet it didn't stay that way.</p>
-            <p>Defectors of the faith sold themselves as instructors in the Wabbit arts, turning it instead into a tool of all-out war.
-            This in turn brought down a judgement and a curse: that whoever practices this art in the name of War shall know nothing
-            but war for the rest of their lives. And so the curse rang true. Today, most Wabbit soldiers operate in the employ of
-            mercenary guilds, ill-willed noblemen, and as stormtroopers for warlords.</p>
-
-VITALS
-Health: 105
-Mana: 147
-Stamina: 147
-Focus: 105
-
-SCORES
-Initiative: 14
-Carry: 8u
 Element: Noble
+Description: Wabbits are group of specially trained martial artists with divine origins. Using a combination of agility,
+acrobatics, and grace, they coordinate to take down their opponents.
+<p>Historically, Wabbits were first trained by a kind of seraphim, warriors from the Overworld who had come to ours on
+a mission of protection for the Elect. They trained the monks of Tomb Hill in the art of divine combat and left.
+The sacred combat arts were passed on from one generation to the next, making way for the Elect to protect themselves,
+that they might worship in peace. Yet it didn't stay that way.</p>
+<p>Defectors of the faith sold themselves as instructors in the Wabbit arts, turning it instead into a tool of all-out war.
+This in turn brought down a judgement and a curse: that whoever practices this art in the name of War shall know nothing
+but war for the rest of their lives. And so the curse rang true. Today, most Wabbit soldiers operate in the employ of
+mercenary guilds, ill-willed noblemen, and as stormtroopers for warlords.</p>
 
-Cores
-Mind: (Power: 75, Resistance: 92, Evasion: 80, Accuracy: 110)
-Body: (Power: 100, Resistance: 97, Evasion: 80, Accuracy: 100)
-Will: (Power: 125, Resistance: 97, Evasion: 80, Accuracy: 100)
+ABILITIES
 
-Abilities
 Doctrine: Agile Flight
 Body-Support-Action
 Trigger: You make a movement action.
@@ -39,15 +25,15 @@ You end your turn.
 
 A1: Multi Strike
 Mind-Offensive-Action
-Use: 10AP+2fcs+2sta
-Solowork: Reduce Use cost by 2sta.
+Use: 2AP+6fcs+6sta
+Solowork: Reduce Use cost by 6sta.
 Effect: Roll 1d20 as X/4 (rounded down) as X.
 Make X Basic Attack actions, ignoring maximum uses-per-turn and AP cost; attacks otherwise cost as normal.
 "I didn't know what I was expecting - her stamina is beyond imagination. The flurry of blows just never ended."
 
 A2: Duck
 Body-Defensive-Action
-Use: 5sta+(4/turn)
+Use: 16sta+(4/turn)
 Effect: Grant yourself a Duck token.
 Teamwork: grant a Duck token to an allie within your space.
 Duck token: When a combatant makes an attack check against you, roll Luck 10, whereupon success you evade the attack.
@@ -55,18 +41,16 @@ Duck token: When a combatant makes an attack check against you, roll Luck 10, wh
 
 A3: Aura of Protection
 Will-Defensive-Action
-Use: 7mna
+Use: 16mna
 Range: 0sp circle AoE
-IfKO: This ability no longer affects enemies.
 Effect: Vital restoration effects are increased by 25% until the start of your next turn.
 This only applies to you and your allies.
 "I can't explain it, but I feel safer around her."
 
 A4: Aura of Harm
 Will-Offensive-Action
-Use: 7mna
+Use: 16mna
 Range: 0sp circle AoE
-IfKO: Incoming damage to yourself and allies is not increased.
 Effect: Damage taken by enemy combatants is increased by 25% until the start of your next turn.
 This also applies to you and your allies.
 "There was this invisible energy around her - an electricity crackling in the air - that made our strikes land
@@ -80,7 +64,7 @@ Effect: You are immune to Doom, Paralyze, and Dispirited.
 
 A6: Atonement
 Will-Support-Action
-Use: 10AP+(1/battle)
+Use: 2AP+(1/battle)
 Effect: Change your element to neutral; it cannot be changed for the rest of the battle.
 Remove any negative status effects. Restore your Health to full.
 "Battered and bloodied, I saw her drop to her knees. She was praying. When her prayer concluded, she stood up again.
@@ -88,7 +72,7 @@ All her wounds were gone - but her radiance had left her also."
 
 A7: Minor Miracle
 Will-Support-Action
-Use: 7mna+(3/battle)
+Use: 16mna+(3/battle)
 Range: 1sp
 Solowork: Increase Range by 1sp.
 Effect: Choose one:
@@ -100,7 +84,7 @@ but when it was over, there were just two."
 
 A8: Predestination
 Will-Offensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 2sp
 Accuracy: Magic
 Teamwork: Increase Accuracy check by 2.
@@ -110,7 +94,7 @@ Effect: The target's Luck checks automatically land on 8 until the start of your
 A9: Divine Spear
 Mind-Offensive-Item
 Slot: Primary or Secondary Weapon
-Divine Spear (Type: Skill, WC: L, Use: 5AP+(2/turn), Rank: 2, Range: 1, Honed 3)
+Divine Spear (Type: Skill, WC: L, Use: 1AP+(2/turn), Rank: 6, Range: 1, Honed 3)
 "Even with the halo I was still skeptical, but when she produced her golden spear - I knew."
 
 MA1: Curse Breaker
@@ -120,7 +104,7 @@ Effect: When you kill an enemy combatant, any damage or negative statuses (excep
 
 MA2: Perfect Pierce
 Mind-Offensive-Action
-Use: 5fcs+5sta
+Use: 16fcs+16sta
 Effect: Your next attack-type action's potential damage cannot be reduced by elemental disadvantage or opposing ability effects.
 The action's accuracy check increases by 6.
 "The Dark Knight's shield was immense, nearly 800lbs of boilerplate steel. Yet the High Wabbit's spear rammed right through
@@ -130,6 +114,3 @@ MA3: Locus of Control
 Mind-Support-Passive
 Effect: When using an ability you have full control over who it does or does not target.
 "The High Wabbit is always in control. Always."
-
-
-

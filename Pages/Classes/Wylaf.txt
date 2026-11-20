@@ -1,6 +1,7 @@
-Title:Wylaf
-Subtitle:Knight of an Ancient Order
-Description:The Wylafs descend from a great lineage of honor and fighting prowess,
+Title: Wylaf
+Subtitle: Knight of an Ancient Order
+Element: Fire
+Description: The Wylafs descend from a great lineage of honor and fighting prowess,
 first given to them by the dragon god Wylaf in the First Age. They are
 considered the perfect fighters: strong, agile, cunning, and impervious to
 all forms of damage. More so, they are bound to a code that transcends
@@ -11,31 +12,16 @@ you meet them. Their stature is perfect, their aura palpable, and their
 skill perfect. It is said that they fight with the fury of the dragon gods
 of old.</p>
 <p>Becoming a Wylaf takes a lifetime of commitment, leaving the
-   individual estranged from normal society. By the time their training is
-   completed, they can only ever be a Wylaf. Born, raised, and buried
-   with their sword.</p>
+individual estranged from normal society. By the time their training is
+completed, they can only ever be a Wylaf. Born, raised, and buried
+with their sword.</p>
 
-VITALS
-Health: 105
-Mana: 147
-Stamina: 210
-Focus: 147
+ABILITIES
 
-SCORES
-Initiative: 10
-Carry: 10u
-Element: Fire
-
-Cores
-Mind: (Power: 50, Resistance: 105, Evasion: 80, Accuracy: 120)
-Body: (Power: 125, Resistance: 113, Evasion: 50, Accuracy: 120)
-Will: (Power: 125, Resistance: 105, Evasion: 80, Accuracy: 100)
-
-Abilities
 Doctrine: Divine Pact
 Will-Support-Passive
 Effect: You are immune to Noble-element damage.
-Incoming damage is reduced by 1 Rank (to a min of 1).
+Incoming damage is multiplied by 0.5 (to a min of 1).
 Your max Stamina, Mana, and Focus are halved at the beginning of combat
 and are restored at the end.
 "Standing before the dragon, he held the blade against his palm and sliced in.
@@ -43,10 +29,10 @@ As blood fell upon the arid ground a sudden weakness took hold of him.
 Fallen to his knees, he felt the power being drained, taken by the dragon.
 A moment passed, wherethen the man rose to his feet. Hard scales covered his skin."
 
-A1:Charging Slash
+A1: Charging Slash
 Mind-Offensive-Action
 Teamwork: Ignore the sta and mna Use-cost.
-Use: 10AP+3sta+3mna
+Use: 2AP+8sta+8mna
 Range: Battlefield AoE Ray
 Effect: Move in a straight path to another end of the battlefield or until
 you would hit an obstacle. Make a free Basic attack against up to 1+{TL}
@@ -54,76 +40,74 @@ enemy Combatants that were in your Ray of range as you moved.
 "In one moment the dragon knight raised his sword, at which he took off with the swiftness
 of an arrow carried by the wind. His opponents were slain, and there he stood alone."
 
-A2:Scale Armor
+A2: Scale Armor
 Body-Defensive-Reaction
 Trigger: You are targeted by an attack.
-Use: 5sta
+Use: 16sta
 Luck: 20-{CL}
 Effect: Final incoming damage is reduced to 0.
 "The dragon knight was fast and agile - but even then when a blow struck it did nothing at all."
 
-A3:Ancient Wisdom
+A3: Ancient Wisdom
 Will-Support-Action
-Use: 7sta+7fcs+7mna
+Use: 16sta+16fcs+16mna
 Effect: Your next Accuracy, Luck, or Evade check automatically succeeds.
 "A dragon's wisdom is ancient and vast, and to them the future is a thing to be learned from."
 
-A4:Fearsome Roar!
+A4: Fearsome Roar!
 Body-Offensive-Action
-Use: 10AP+5sta
+Use: 2AP+16sta
 Repeat: 3 times per target.
 Range: 1sp AoE circle
-IfKO: Reduce Range by 1sp, make it single-target.
 Evade: Melee
 OnHit: Variable I is equal to 1d20 divided the by 2, rounding down.
 Ability of index I is disabled. 0 is equal to your Doctrine ability.
 "The dragon knight roared in a terrible, inhuman way. All at once a
 chill took hold of his enemies. They raised their weapons once more,
- but found that their abilities had abandoned them."
+but found that their abilities had abandoned them."
 
-A5:Lance
+A5: Lance
 Mind-Support-Action
 Teamwork: This ability also counts as passive and has no use-cost.
-Use: 3sta+3fcs
+Use: 8sta+8fcs
 Effect: Increase the Ranged or Extended attribute of your next action by 1sp.
 "Dragon knights have often fought ranged weapons, since as spears and lances.
 Even still, their cunning and agility allow them an improved reach."
 
-A6:Winged Flight
+A6: Winged Flight
 Will-Support-Action
-Use: 5sta+(1/battle)
+Use: 16sta+(1/battle)
 Effect: Create and give yourself the Dragon Wings token.
 Solowork: You may alternatively give any allied combatant the Dragon Wings token instead.
-Dragon Wings token: when making a Movement action, spend an additional 3sta to also
+Dragon Wings token: when making a Movement action, spend an additional 8sta to also
 move vertically or glide horizontally.
 "Where at once a man in armor stood before them, a pair of vast emerald-green wings
 unfolded from behind him. With a powerful gust of wind, the dragon knight took off."
 
 A7: Death by a Thousand Cuts
 Mind-Offensive-Action
-Use: 10AP
+Use: 2AP
 Solowork: Treat Range as an AoE circle.
 Range: 0sp
 Accuracy: Skill+3
-OnHit: Inflict Bleeding (1){SklPwr}; if target already has Bleeding, increase the Rank by 1.
+OnHit: Inflict Bleeding (4){SklPwr}; if target already has Bleeding, increase the Rank by 1.
 "It's not the blade that kills you, but the bloodloss..."
 
-A8:Inferno
+A8: Inferno
 Will-Offensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 1sp
 Effect: Create a Fire Pillar prop in the targeted space.
 At the beginning of their turns, enemy combatants in the
 same space as Fire Pillar must
-pay 5sta or take Burning (1){MgcPwr/5}.
+pay 16sta or take Burning (4){MgcPwr/5}.
 "With a wave of his hand, an ancient magic unfurled over the battlefield in the form
 of a vast pillar of whirling fire."
 
-A9:Whirlwind
+A9: Whirlwind
 Body-Offensive-Action
 Teamwork: You may replace the Use-cost with 1/2turn.
-Use: 20AP+7mna
-IfKO: Increase Use cost by 7mna.
+Use: 4AP+16mna
 Range: 1sp AoE circle
 Evade: Melee+3
 OnHit: Combatant take 10{TL} damage.
@@ -134,7 +118,7 @@ his enemies to the ground."
 MA1: Gift of Immortality
 Will-Defensive-Passive
 Effect: While you can be KO'd you cannot take the Dead status.
-At the beginning of each turn you regain (1){MgcPwr} health.
+At the beginning of each turn you regain (4){MgcPwr} health.
 "The greatest of dragon knights was said to be truly unstoppable.
 Stricken by blasts of lightning and hellfire, he fell lifeless to the ground...
 Yet mere moments later the wounds were restored and slowly rose up."
@@ -143,16 +127,16 @@ MA2: Form of the Dragon
 Will-Offensive-Passive
 Effect: All incoming damage is halved.
 Movement actions can now be made in direction.
-Increase the Rank of all your offensive and defensive actions by 2.
+Multiply the Rank of all your offensive and defensive actions by 2.
 At the beginning of each turn you regain 3mna+3sta+3fcs.
 "Having lived a thousand years and fought in 10,000 battles, the Divine Pact
 was fulfilled. The dragon knight cast off his armor, his human form, and
- became himself a dragon."
+became himself a dragon."
 
 MA3: River of Flames
 Will-Offensive-Action
-Use: 10AP+10mna+(1/2turn)
+Use: 2AP+24mna+(1/2turn)
 Range: Battlefield Cone AoE
 Accuracy: Magic+6
-Effect: Inflicts (5){MgcPwr} fire dmg, targets are afflicted with Burning 5.
+Effect: Inflicts (16){MgcPwr} fire dmg, targets are afflicted with Burning 5.
 "Where once there was an army is now just a field of ashes."

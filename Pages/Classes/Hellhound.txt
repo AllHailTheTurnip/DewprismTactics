@@ -1,61 +1,46 @@
 Title: Hellhound
 Subtitle: Elemental Savage
+Element: Fire
 Description: The first Hellhounds are believed to have once been demons who escaped from the underworld.
 Twisted and transformed by their journey, they were reduced to wild, violent animals. Ever onward, they were cursed to wander the mortal realm for eternity, bound by crude, animals minds that were unable to enjoy the freedom they risked so much for.
 While today's Hellhounds are nothing like their predecessors, they have managed to capture and maintain that brutal, hellish fighty fury that once made them a terror upon the earth.
- Utilizing a mixture of high agility, martial arts, and magic, Hellhounds commandeer the battlefield.
+Utilizing a mixture of high agility, martial arts, and magic, Hellhounds commandeer the battlefield.
 ???
 
-VITALS
-Health: 105
-Mana: 210
-Stamina: 147
-Focus: 105
+ABILITIES
 
-SCORES
-Initiative: 12
-Carry: 10u
-Element: Fire
-
-Cores
-Mind: (Power: 125, Resistance: 100, Evasion: 120, Accuracy: 130)
-Body: (Power: 75, Resistance: 105, Evasion: 100, Accuracy: 80)
-Will: (Power: 100, Resistance: 113, Evasion: 100, Accuracy: 120)
-
-Abilities
 Doctrine: Elemental Vortex
 Will-Offensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 1sp Cone AoE
 Accuracy: Magic
-Dmg: (3){MgcPwr}
+Dmg: (8){MgcPwr}
 Effect: Inflicts critical damage if damaged element is either Wind, Water, or Fire.
 
 A1: Burning Bite
 Body-Offensive-Action
-Use: 10AP
+Use: 2AP
 Range: 0sp
 Accuracy: Melee
-Solowork: Increase Rank by 1.
-Dmg: (1){MlePwr}, inflicts Burning 2
+Solowork: Multiply Rank by 1.5.
+Dmg: (4){MlePwr}, inflicts Burning 2
 
 A2: Rush
 Body-Movement-Action
-Use: 10AP+5sta
-Teamwork: Reduce cost by 3sta.
+Use: 2AP+16sta
+Teamwork: Reduce cost by 8sta.
 Effect: Move up to 2sp in any direction, ignoring rough terrain and checks for gaps equal to 1sp.
 
 A3: Nether Leap
 Will-Movement-Action
-Use: 5AP+3mna
-Solowork: Reduce Cost by 3mna.
+Use: 1AP+8mna
+Solowork: Reduce Cost by 8mna.
 Effect You are removed from the Battlefield and placed into an imaginary space called the Nether.
-You cannot do anything except spend an additional 5AP!+3mna (at any point) to reappear anywhere on the Battlefield.
+You cannot do anything except spend an additional 1AP!+8mna (at any point) to reappear anywhere on the Battlefield.
 
 A4: Howl
 Body-Offensive-Action
-Use: 10AP+3sta+1mna
-IfKO: Increase Cost by 10AP.
+Use: 2AP+8sta+4mna
 Range: 2sp cone AoE
 Evade: Magic
 Effect: Affected combatants choose one of their non-disabled Defensive abilities and disable them.
@@ -63,12 +48,11 @@ Effect: Affected combatants choose one of their non-disabled Defensive abilities
 A5: Fiendish Aura
 Will-Offensive-Passive
 Range: 0sp
-IfKO: Increase Range by 1sp.
 Effect: Enemy combatants cannot use supportive abilities within range of you.
 
 A6: Devour Soul
 Will-Offensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 1sp
 Teamwork: Increases range by 1sp.
 Accuracy: Magic
@@ -76,45 +60,45 @@ Effect: Disable a combatant's ability (owner's choice) until end of battle.
 
 A7: Shocking Bite
 Will-Offensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 0sp
 Accuracy: Magic
-Effect: Inflicts (1){MlePwr} damage and (2){MgcPwr} electric damage to the combatant. Other enemy combatants in the same space take (1){MgcPwr} electric damage.
+Effect: Inflicts (4){MlePwr} damage and (6){MgcPwr} electric damage to the combatant. Other enemy combatants in the same space take (4){MgcPwr} electric damage.
 
 A8: Storm
 Will-Offensive-Action
-Use: 15AP+3fcs+5mna
+Use: 4AP+8fcs+16mna
 Range: 3sp AoE Circle
 Effect: Targeted enemy combatants roll 1d20 as A.
-If A is 10 or greater, enemy combatant takes (1){MgcPwr} electric damage.
+If A is 10 or greater, enemy combatant takes (4){MgcPwr} electric damage.
 If A is also 17 or greater, enemy combatant takes Paralysis 1.
 
 A9: Answer Master
 Body-Supportive-Action
-Use: 10AP
+Use: 2AP
 Range: Battlefield
 Effect: Grant another combatant a Master's Call token.
-Master's Call token: Spend 5AP to Destroy this token. The token's creator is summoned into your space.
+Master's Call token: Spend 1AP to Destroy this token. The token's creator is summoned into your space.
 
 MA1: Inferno
 Will-Offensive-Action
-Use: 10AP+10mna
+Use: 2AP+24mna
 Range: 3sp AoE circle
 Accuracy: Magic +3
-Effect: Hit enemies take (5){MgcPwr} dmg and take Burning 5.
+Effect: Hit enemies take (16){MgcPwr} dmg and take Burning 5.
 Spaces within range become scorched; enemies that enter a scorched space take Burning 1.
 
 MA2: Aether Shroud
 Will-Defensive-Action
-Use: 12mna+(3/battle)
+Use: 36mna+(3/battle)
 Effect: Grant yourself the Aether Shroud status until the end of combat.
 Aether Shroud status: Increase your Evasion scores by 3.
 You become immune to negative status effects afflicted by combatants.
-Successful enemy Body-type attacks counter with (2){MgcPwr} dmg to the attacker.
+Successful enemy Body-type attacks counter with (6){MgcPwr} dmg to the attacker.
 
 MA3: Archfiend's Curse
 Body-Support-Action
-Use: 10AP+7sta+7mna
+Use: 2AP+16sta+16mna
 Effect: Grant yourself the Archfiend status for the next (3) turns.
 Archfiend status: If any of your attack-type accuracy checks roll a natural 20,
 the attack automatically hits and the targeted combatant's health is reduced to 0.

@@ -1,60 +1,45 @@
 Title: Morning Dew
 Subtitle: The Ultimate Defender
+Element: Light/Light
 Description:
 The history of civilization is bound in  a prophecy foretelling the return of the
 Morning Dew, a lost angel destined to safeguard the world from impending doom.
 Devoted followers, known also as the Morning Dew, live a life of meekness and generosity,
- awaiting the lost angel's reappearance. They possess the extraordinary ability to revive fallen comrades.
- With this unique power, they stand resolute in their commitment,
-  eagerly anticipating the day when they might fight alongside the Morning Dew in the ultimate battle for the
-  realm's salvation.
+awaiting the lost angel's reappearance. They possess the extraordinary ability to revive fallen comrades.
+With this unique power, they stand resolute in their commitment,
+eagerly anticipating the day when they might fight alongside the Morning Dew in the ultimate battle for the
+realm's salvation.
 
-VITALS
-Health: 105
-Mana: 315
-Stamina: 35
-Focus: 35
+ABILITIES
 
-SCORES
-Initiative: 10
-Carry: 7u
-Element: Light/Light
-
-Cores
-Mind: (Power: 50, Resistance: 100, Evasion: 100, Accuracy: 100)
-Body: (Power: 50, Resistance: 100, Evasion: 100, Accuracy: 100)
-Will: (Power: 75, Resistance: 150, Evasion: 100, Accuracy: 100)
-
-Abilities
 Doctrine: Aura of Life
 Will-Defensive-Action
-Use: 10AP+7mna+(2/battle)
+Use: 2AP+16mna+(2/battle)
 Range: 3sp
 Effect: Restore a Dead combatant back to life at 1+{TL5}% (max 100%) of their Health restored. Remove any negative statuses.
 Will-Support-Passive
-Effect: Increase Support and Defensive abilities by 2 ranks.
+Effect: Multiply the ranks of Support and Defensive abilities by 2.
 
 A1: Shield of Protection
 Will-Defensive-Action
-Use: 7mna+(1/3turn)
+Use: 16mna+(1/3turn)
 Range: 3sp
 Effect: Reduce your max Health by 20% (min 10 Health). Remove your combatant from the battlefield and grant the Shield of Protection status to the combatant of your
 choice. While under the Shield of Protection, the target gains temporary Health equal to your Health at the time of use but automatically fails
 any Evade checks or checks against Accuracy. Any afflicted status effects are negated.
-If the temp health from Shield of Protection runs out or if you (the caster) spend 5AP during your turn, then the status
+If the temp health from Shield of Protection runs out or if you (the caster) spend 1AP during your turn, then the status
 is removed and your combatant is returned to the battlefield.
 
 A2: Revitalize
 Will-Support-Action
-Use: 10AP+Xmna
-IfKO: Inflict (3){MgwPwr} damage to yourself.
+Use: 2AP+Xmna
 Range: 2sp
 Effect: Restore X15 Health to a combatant of your choice.
 Reduce your Max Mana by X.
 
 A3: Energize
 Will-Support-Action
-Use: 10AP+Xmna
+Use: 2AP+Xmna
 Range: (2)sp
 Effect: Restore X/2 stamina, mana, and focus to a combatant of your choice.
 Reduce your Max Mana by X.
@@ -63,18 +48,18 @@ A4: Reset
 Will-Support-Action
 Solowork: Increase range for both modes by 1sp.
 Mode A:
-    Use: 10AP+5mna-(0)mna
-    Range: 1sp
-    Effect: Reset the (x/battle) counter of an ability back to 0 uses this battle.
+Use: 2AP+16mna-(0)mna
+Range: 1sp
+Effect: Reset the (x/battle) counter of an ability back to 0 uses this battle.
 
 Mode B:
-    Use: 10AP+3mna-(0)mna
-    Range: 3sp
-    Effect: Reset the (1/yturn) counter of an ability to 0 uses.
+Use: 2AP+8mna-(0)mna
+Range: 3sp
+Effect: Reset the (1/yturn) counter of an ability to 0 uses.
 
 A5: Spirit of Companionship
 Will-Support-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Teamwork: If targeting an allie within your space then remove the mana cost.
 Range: 3sp
 Effect: Grant the Companionship token to a combatant.
@@ -83,16 +68,14 @@ it is considered that they're with at least (1) allied combatants.
 
 A6: Spirit of Isolation
 Will-Support-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 3sp
-IfKO: Change the effect of this ability to instead permanently (until end of battle) disable the Teamwork modifier
-for all abilities on an enemy combatant within range.
 Effect: Grant the Isolation token to a combatant.
 Isolation token: combatants with this token have their compatible abilities invoke the Solowork modifier at all times.
 
 A7: Forgiveness
 Will-Defensive-Action
-Use: 5mna
+Use: 16mna
 Range: 3sp
 Effect: Remove (1) negative status from a combatant.
 
@@ -100,33 +83,33 @@ A8: Grace
 Will-Defensive-Reaction
 Trigger: An allie combatant is prompted to make a self-check check.
 Teamwork: Affected target gets advantage on their self-check.
-Use: 5mna
+Use: 16mna
 Range: 3sp
 Effect: Grant -(6) to the target's self-check.
 
 A9: Shield of Longevity
 Will-Defensive-Action
-Solowork: Reduce Use cost by 2mna.
-Use: 5AP+5mna
+Solowork: Reduce Use cost by 6mna.
+Use: 1AP+16mna
 Effect: You can only lose up to 30-{TL/5}% of your total health before the start of your next turn. Any additional damage after that
 is instead redirected towards the attacker.
 
 MA1: Blessing
 Will-Defensive-Action
-Use: 20AP+12mna
+Use: 4AP+36mna
 Range: Battlefield AoE
 Effect: All allie combatants within your range gain the Indestructible status for (1) turn.
 Indestructible: Incoming damage is reduced to 0.
 
 MA2: Eternal Blossom
 Will-Support-Action
-Use: 3mna+(3/turn)
+Use: 8mna+(3/turn)
 Range: Battlefield
 Effect: Choose an allie and extend one of their status effects by 1 turn.
 
 MA3: Wall of Light
 Will-Support-Action
-Use: 5mna+(3/turn)
+Use: 16mna+(3/turn)
 Range: 3sp
 Effect: Create a Wall of Light prop within the space of your choice. The Wall of Light prop blocks travel (and aiming)
 between the space it's in and the adjacent space of your choice.

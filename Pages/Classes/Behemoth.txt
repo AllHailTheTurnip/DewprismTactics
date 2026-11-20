@@ -1,5 +1,6 @@
 Title: Behemoth
 Subtitle: Behemoth - Powerful Beast
+Element: Neutral
 Description: In the days of old, the Behemoths were heavenly beasts, tasked with aiding the gods in the creation of the planet.
 With great strength they moved mountains, tilled the ground deep and wide to make oceans, and even set the moon in the sky.
 When their work was finished, they gods called them into stables deep beneath the earth, never to be seen again.
@@ -8,78 +9,61 @@ Today, Behemoths are revered as the foremost champions of strength and endurance
 In addition, they practice the very same magic that once set the moon in the sky, calling upon meteors and whirlpools to crush their opponents.</p<
 ???
 
-VITALS
-Health: 105
-Mana: 70
-Stamina: 147
-Focus: 70
+ABILITIES
 
-SCORES
-Initiative: 8
-Carry: 15u
-Element: Neutral
-
-Cores
-Mind: (Power: 50, Resistance: 113, Evasion: 110, Accuracy: 100)
-Body: (Power: 125, Resistance: 130, Evasion: 130, Accuracy: 120)
-Will: (Power: 100, Resistance: 113, Evasion: 80, Accuracy: 100)
-
-Abilities
 Doctrine: Bull Rush
 Body-Offensive-Action
-Use: 10AP+7sta
-IfKO: You instead target a combatant in your space and inflict (2){MlePwr} damage.
-Effect: Move 2sp in any available direction. Any enemy combatants in any of the spaces you entered (or left) take (2){MlePwr} damage.
+Use: 2AP+16sta
+Effect: Move 2sp in any available direction. Any enemy combatants in any of the spaces you entered (or left) take (6){MlePwr} damage.
 
 A1: Roar!
 Body-Offensive-Action
-Use: 10AP+3sta+3fcs
+Use: 2AP+8sta+8fcs
 Range: 2sp Cone AoE
 Evade: Melee
 OnHit: Target combatant reduces their MlePwr by 3 (min 1) until the end of battle.
 
 A2: Impale
 Body-Offensive-Action
-Use: 10AP+3sta
-Teamwork: Set cost to 10AP+(1/turn).
+Use: 2AP+8sta
+Teamwork: Set cost to 2AP+(1/turn).
 Range: 0sp
 Accuracy: Melee
-Dmg: (3){MleDmg}, inflicts Bleeding (1){MlePwr}.
+Dmg: (8){MleDmg}, inflicts Bleeding (4){MlePwr}.
 
 A3: Counter Attack
 Body-Offensive-Reaction
 Trigger: An enemy combatant resolves an attack against you.
 Solowork: Gain advantage on the proceeding Luck check.
-Use: 5sta
+Use: 16sta
 Luck: 10
 OnPass: Make a free unarmed attack action against the attacker.
 
 A4: Group Rush
 Mind-Offensive-Reaction
 Trigger: You declare an attack action.
-Use: 5AP+3fcs+(1/turn)
+Use: 1AP+8fcs+(1/turn)
 Range: 0sp
-IfKO: Use as normal but choose only one allied combatant in your space instead.
 Effect: Allied combatants in your space make a Luck 15 check, whereupon success they each make a free attack action to attack the same combatant as you.
 
 A5: Meteor
 Will-Offensive-Action
-Use: 20AP+5mna
+Use: 4AP+16mna
 Range: 3sp
 Teamwork: Increase range to Battlefield.
 Effect: Choose a target space within range. Every combatant within that space makes a Magic evade check.
-Upon failure, target combatant(s) takes (5){MgcPwr} fire damage.
+Upon failure, target combatant(s) takes (16){MgcPwr} fire damage.
 
 A6: Maelstrom
 Will-Offensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 3sp AoE
 Evade: Magic
 Effect: Any combatants that failed the check move 1sp close to you.
 
 A7: Flare
 Will-Offensive-Action
-Use: 10AP+7mna
+Use: 2AP+16mna
 Range: 2sp
 Accuracy: Magic
 Effect: Target takes Burning 25%
@@ -91,12 +75,14 @@ Solowork: You are also immune to Paralysis.
 
 A9: Obliterate
 Body-Offensive-Action
-Use: 10AP+7sta+(1/battle)
+Use: 2AP+16sta+(1/battle)
 Range: 1sp
 Accuracy: Melee
 Evade: Melee
-Dmg: Inflict (7){MlePwr} damage.
+Dmg: Inflict (16){MlePwr} damage.
 
 MA1: King
+
 MA2: Meteor Shower (targets entire battlefield)
+
 MA3:

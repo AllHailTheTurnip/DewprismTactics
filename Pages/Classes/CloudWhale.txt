@@ -1,5 +1,6 @@
 Title: Cloud Whale
 Subtitle: Master of Wind and Seas
+Element: Wind/Electric
 Description: Cloud Whales were the first ones to master the wind and water.
 Following in the footsteps of the original cloud whales, who were monstrous
 creatures that lived over stormy seas, the Cloud Whale warriors likewise
@@ -8,42 +9,26 @@ learned to control wind and water to defeat their enemies.
 They typically begin as sea-side monks or sailors, who in turn learn
 to copy the actual cloud whales.</p>
 
+ABILITIES
 
-VITALS
-Health: 105
-Mana: 210
-Stamina: 105
-Focus: 70
-
-SCORES
-Initiative: 6
-Carry: 15u
-Element: Wind/Electric
-
-Cores
-Mind: (Power: 50, Resistance: 100, Evasion: 120, Accuracy: 100)
-Body: (Power: 100, Resistance: 113, Evasion: 60, Accuracy: 100)
-Will: (Power: 125, Resistance: 125, Evasion: 80, Accuracy: 110)
-
-Abilities
 Doctrine: Vortex
 Will-Offensive-Action
 Choose one: Mode A or Mode B.
 Mode A:
-Use: 20AP!+5mna.
+Use: 4AP!+16mna.
 Range: 3sp cone.
-Effect: Do this (3) times: every targeted combatant must spend 3sta or else
+Effect: Do this (3) times: every targeted combatant must spend 8sta or else
 be moved 1sp toward you. If they are pulled into your space or are already in it,
 and they can't pay the stamina cost, then they are consumed.
-Consumed combatants take (2){MgcPwr} damage.
+Consumed combatants take (6){MgcPwr} damage.
 
 Mode B:
-Use: 20AP+10mna
+Use: 4AP+24mna
 Range: 3sp circle.
-Effect: Do this (3) times: every targeted combatant must spend 5sta or else
+Effect: Do this (3) times: every targeted combatant must spend 16sta or else
 be moved 1sp toward you. If they are pulled into your space or are already in it,
 and they can't pay the stamina cost, then they are consumed.
-Consumed combatants take (3){MgcPwr} damage.
+Consumed combatants take (8){MgcPwr} damage.
 
 Conclusion:
 Variable: X =10
@@ -53,46 +38,44 @@ They respawn as though they'd fallen down a bottomless pit.
 
 A1: Tidal Wave
 Will-Offensive-Action
-Use: 10AP+7mna
+Use: 2AP+16mna
 Range: Battlefield AoE
-IfKO: Set Range to 2sp.
 Evade: Magic
-OnHit: Inflict {1}MgcPwr damage.
+OnHit: Inflict (4){MgcPwr} damage.
 
 A2: Rain Gun
 Will-Offensive-Action
-Use: 5AP+3mna+3fcs
+Use: 1AP+8mna+8fcs
 Teamwork: +1 to Range.
 Range: 1sp
 Accuracy: Magic
-OnHit: (2){MgcPwr}
+OnHit: (6){MgcPwr}
 
 A3: Glide
 Will-Support-Action
-Use: 3mna
+Use: 8mna
 Effect: Ignore Difficult Terrain for the duration
 of the round.
 
 A4: Fog
 Will-Defensive-Action
-Use: 10AP+3mna
+Use: 2AP+8mna
 Range: 1sp
-IfKO: Increase range by 2sp.
 Effect: Create a Fog token. All allies sharing the Fog's space gain Very Light Cover.
 If they already have cover, improve their Cover's luck checks by 5.
 The Fog token expires after three rounds have passed.
 
 A5: Monsoon
 Will-Offensive-Action
-Use: 10AP+3mna
+Use: 2AP+8mna
 Range: 2sp AoE
 Effect: Choose a space within range to target.
 All enemy combatants within the targeted space make an Evade check.
-On failure, they take (2){MgcPwr} water damage.
+On failure, they take (6){MgcPwr} water damage.
 
 A6: Dive
 Body-Support-Action
-Use: 3sta
+Use: 8sta
 Effect: Ignore any fall damage you might take.
 
 A7: Immensity
@@ -103,24 +86,24 @@ your space as difficult terrain.
 
 A8: Heavy Rain
 Mind-Defensive-Action
-Use: 3mna
+Use: 8mna
 Range: Battlefield
-Effect: Fire-element attacks are Reduced in rank by 2, to a minimum of 0. This
+Effect: Fire-element attacks are multiplied by 0.25 (0.5^2). This
 effect lasts until the start of your next turn.
 
 A9: Surface Storm
 Will-Offensive-Action
-Use: 10AP
-Effect: For the next three rounds, while you have Aggro, reduce incoming damage by 1 Rank.
+Use: 2AP
+Effect: For the next three rounds, while you have Aggro, multiply incoming damage by 0.5.
 Solowork: In addition, attack ranks cannot be increased from rolling critical.
 
 MA1: Tsunami
 Body-Offensive-Action
-Use: 10AP+7mna
+Use: 2AP+16mna
 Range: Battlefield AoE
 Effect: Choose a horizontal direction; all affected combatants are moved (2)sp in that direction.
 Evade: Melee+3
-Dmg: (3){MlePwr}
+Dmg: (8){MlePwr}
 
 MA2: Endless Rain
 Will-Offensive-Passive
@@ -134,4 +117,4 @@ MA3: Immensity
 Body-Support-Passive
 Effect: You now take up (3) spaces at all times and treated as being 1sp tall.
 You are so big that other combatants cannot fit into your space.
-You can be climbed for 10AP.
+You can be climbed for 2AP.

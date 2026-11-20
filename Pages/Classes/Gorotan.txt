@@ -1,90 +1,72 @@
-
-
-Title:Gorotan
-Subtitle:Electrically Charged Hunter
+Title: Gorotan
+Subtitle: Electrically Charged Hunter
+Element: Electric
 Description: The first Gorotans were disciples of the feline god Goro, a massive feline
 who first created lightning and sent Omnitheon to the abyss in the First of Days. Their
 ancient order has existed since the first millennia, and though now it is old and whithered,
 these thunderous monks continue live the legend.
 
-VITALS
-Health: 105
-Mana: 210
-Stamina: 70
-Focus: 105
+ABILITIES
 
-SCORES
-Initiative: 15
-Carry: 10u
-Element: Electric
-
-Cores
-Mind: (Power: 50, Resistance: 113, Evasion: 100, Accuracy: 110)
-Body: (Power: 50, Resistance: 100, Evasion: 50, Accuracy: 100)
-Will: (Power: 100, Resistance: 125, Evasion: 80, Accuracy: 120)
-
-Abilities
 Doctrine: Lightning Strike
 Will-Offensive-Action
-Use: 10AP
+Use: 2AP
 Range: 3sp+{TL/4}
 Accuracy: Skill
-Damage: Deal electric (3){MgcPwr} to the target.
+Damage: Deal electric (8){MgcPwr} to the target.
 Solowork: After inflicting damage, regain 3mna.
 
 A1: Star Barrier
 Will-Defensive-Action
-Use: 3mna+5AP+(1/turn)
+Use: 8mna+1AP+(1/turn)
 Effect: Choose to target enemy combatants either in the same space or at 3sp away.
-Targeted enemies must make a Skill self-check, whereupon failure take 1{MgcPwr} electric
+Targeted enemies must make a Skill self-check, whereupon failure take (4){MgcPwr} electric
 damage.
 
 A2: Mrow!
 Mind-Offensive-Action
-Use: 5AP
+Use: 1AP
 Range: 2sp circle AoE
-IfKO: Reduce Rank by 1.
 Accuracy: Skill
 Effect: Targets have -(2) on their next check.
 
 A3: Swipe
 Body-Offensive-Action
-Use: 10AP
+Use: 2AP
 Range: 0sp
-Effect: Target takes 1{MgcPwr} neutral damage.
-Teamwork: Change the Effect to target takes 1{MgcPwr} damage.
+Effect: Target takes (4){MgcPwr} neutral damage.
+Teamwork: Change the Effect to target takes (4){MgcPwr} damage.
 
 A4: Pounce
 Body-Offensive-Action
-Use: 10AP+3sta
+Use: 2AP+8sta
 Range: 2sp
 Effect: Move to a space within range as a free Movement action.
-Enemies must spend 3sta to move to another space or else take
-1{MleDmg} neutral damage.
+Enemies must spend 8sta to move to another space or else take
+(4){MleDmg} neutral damage.
 
 A5: Electric Arc
 Will-Offensive-Action
-Use: 10AP+3mna
+Use: 2AP+8mna
 Range: 1sp
 Accuracy: Magic
-The target must spend 3sta to move another space or else
+The target must spend 8sta to move another space or else
 the accuracy check gains +5.
 OnHit: The target takes electric Magic Damage.
 
 A6: Prowl
 Mind-Defensive-Action
 Teamwork: Ignore the Use-cost of this ability.
-Use: 5fcs
+Use: 16fcs
 Effect: You do not trigger Reaction-applicable abilities until
 the start of your next turn.
 
 A7: Charge Up!
 Will-Support-Action
-Use: 10mna+10AP
+Use: 24mna+2AP
 Range: 1sp
-IfKO: Reduce range by 1sp.
-Effect: Restore 5 Mana to an allie and increase the ranks of all of their applicable
-abilities by 1. End your turn.
+Effect: Restore 5 Mana to an allie and multiply the ranks of all of their applicable
+abilities by 1.5. End your turn.
 
 A8: Deflate
 Will-Support-Reaction
@@ -101,5 +83,7 @@ Effect: Your health is reduced to 0. The targeted allie gains your
 Doctrine Ability as an extra ability.
 
 MA1:
+
 MA2:
+
 MA3:

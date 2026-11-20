@@ -1,5 +1,6 @@
 Title: Puppet
 Subtitle: Cursed Soldiers
+Element: Wind
 Description: During their mortal lives they were soldiers bound in eternal slavery to
 wizarding masters. Even in death their chains remained; their masters bound their souls
 within crude puppets. And so they remained as soldiers ever after, endlessly patrolling
@@ -17,30 +18,15 @@ but they are just legends.
 </p>
 ???
 
-VITALS
-Health: 105
-Mana: 70
-Stamina: 105
-Focus: 147
+ABILITIES
 
-SCORES
-Initiative: 13
-Carry: 8u
-Element: Wind
-
-Cores
-Mind: (Power: 50, Resistance: 93, Evasion: 60, Accuracy: 110)
-Body: (Power: 50, Resistance: 88, Evasion: 120, Accuracy: 80)
-Will: (Power: 75, Resistance: 75, Evasion: 100, Accuracy: 100)
-
-Abilities
 Doctrine: High Alert
 Mind-Defensive-Reaction
-Use: 3fcs
+Use: 8fcs
 Teamwork: Replace this ability's Range with TL/5.
 Range: CL/5
 Trigger: An enemy combatant enters within range.
-Solowork: You may spend an additional 5sta to grant the proceeding Accuracy check Advantage.
+Solowork: You may spend an additional 16sta to grant the proceeding Accuracy check Advantage.
 Effect: Make a free basic attack against the intruding enemy combatant.
 
 A1: Strung-Up
@@ -49,12 +35,11 @@ Effect: You are immune to Prone.
 
 A2: Enchanted Object
 Will-Support-Passive
-IfKO: Also increases IfKO-compatible your Will-type abilities Use costs by 3mna.
 Effect: Increase Will-type checks by +3.
 
 A3: Scout
 Body-Support-Action
-Use: 5sta
+Use: 16sta
 Teamwork: An allie in your space may follow you.
 Effect: Make a Movement action.
 
@@ -64,14 +49,14 @@ Effect: Immune to Asleep, Bleeding, and Poison
 
 A5: Wild Flail
 Body-Offensive-Action
-Use: 10AP
+Use: 2AP
 Effect: Make an unarmed attack (include only your Melee Power for damage) with +5 to its accuracy check.
-You may spend an additional 3sta to make an extra unarmed attack, or 7sta to make two extra unarmed attacks.
+You may spend an additional 8sta to make an extra unarmed attack, or 16sta to make two extra unarmed attacks.
 
 A6: Mime Action
 Will-Defense-Reaction
 Trigger: A combatant resolves an action against you and finishes their turn.
-Use: 3fcs
+Use: 8fcs
 Range: Battlefield LoS
 Solowork: Reduce the proceeding Luck check by 3{OutNum}.
 Luck: 15
@@ -80,12 +65,11 @@ Effect: Execute the same action for free after their action is resolved.
 A7: Gang Attack
 Will-Offensive-Reaction
 Trigger: An allie within the same space makes an attack against an opponent.
-IfKO: Make a Luck 10 check to use.
-Effect: You may spend 5fcs to make a free basic attack action at the same target.
+Effect: You may spend 16fcs to make a free basic attack action at the same target.
 
 A8: Conjure Controller
 Will-Support-Action
-Use: 5AP+3mna
+Use: 1AP+8mna
 Range: 0sp
 Effect: Create a Controller item and give it to an allie within range. You are regarded as the Controller's puppet.
 Controller: While equipped, treat the puppet as an extension of yourself; any actions you make, you may have the
@@ -94,8 +78,8 @@ puppet perform instead.
 A9: Reassemble
 Mind-Support-Passive
 Range: 0sp
-Effect: While KO'd, an allie within range may spend 10AP to revive you at 1HP.
-While dead, an allie within range may spend 10AP+3fcs to revive you at 1HP.
+Effect: While KO'd, an allie within range may spend 2AP to revive you at 1HP.
+While dead, an allie within range may spend 2AP+8fcs to revive you at 1HP.
 Note: If you are dead by the end of combat, the ability cannot be used.
 
 MA1: Full Alert
@@ -106,9 +90,9 @@ Effect: Make a free action (ability or basic) against the intruding combatant.
 
 MA2: Puppet Master
 Will-Support-Action
-Use: 10AP+5mna+(3/battle)
+Use: 2AP+16mna+(3/battle)
 Range: Battlefield
-Effect: When a combatant dies it is resurrected with (5){MgcPwr} Health under the control
+Effect: When a combatant dies it is resurrected with (16){MgcPwr} Health under the control
 of this ability's user.
 If more tha one user has the Puppet Master ability, the fallen combatant is put under control of the user
 who most recently took their turn.

@@ -1,5 +1,6 @@
-Title:Chimera
+Title: Chimera
 Subtitle: Three-headed Monster
+Element: Dark/Electric
 Description: Chimeras are not natural, but are instead glued together from many living
 things, resulting in an abomination. Though there are relatively few of them out in the
 world, their reputation is widely known and feared. Their unnatural state has shrouded
@@ -11,42 +12,26 @@ to wild animals than humans.</p>
 <p>Most often, chimeras roam the land in search of belonging. However, they have
 nothing much to offer - aside from their savage power.</p>
 
-VITALS
-Health: 105
-Mana: 147
-Stamina: 91
-Focus: 105
+ABILITIES
 
-SCORES
-Initiative: 10
-Carry: 12u
-Element: Dark/Electric
-
-Cores
-Mind: (Power: 100, Resistance: 113, Evasion: 90, Accuracy: 120)
-Body: (Power: 75, Resistance: 108, Evasion: 90, Accuracy: 120)
-Will: (Power: 125, Resistance: 118, Evasion: 80, Accuracy: 110)
-
-Abilities
 Doctrine: Amalgamation
 Will-Support-Passive
 Use: 1/turn
-IfKO: Use as normal.
 Effect: You can gain access to the Doctrine Ability of any allies within your space.
 
 A1: Following Weapon
 Body-Offensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: {TL/5}
-Effect: Choose up to 1+{MgcPwr/15} targets within range.
+Effect: Choose up to 1+{MgcPwr} targets within range.
 Throw your primary weapon; you cannot use it while it's in flight.
 At the beginning of a target's turn, they must spend Stamina equal to your {MleEva} to dodge your weapon, otherwise
- they take (1){MleDamage}.
+they take (4){MleDamage}.
 Once all targets have avoided or taken damage, you regain your weapon.
 
 A2: Death's Head
 Will-Offensive-Action
-Use: 10AP+7mna
+Use: 2AP+16mna
 Range: 1sp
 Luck: 15
 Teamwork: Reduce Luck difficulty check by TmWrk.
@@ -54,44 +39,43 @@ OnPass: Target gets Doomed 3-(0).
 
 A3: Sleeper's Head
 Will-Offensive-Action
-Use: 10AP+3mna
+Use: 2AP+8mna
 Range: 1sp
 Accuracy: Magic
 OnPass: Target gets Asleep (3).
 
 A4: Dragon's head
 Will-Offensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 0sp AoE
 Accuracy: Magic
-OnHit: Combatants takes (3){MgcPwr} fire damage.
+OnHit: Combatants takes (8){MgcPwr} fire damage.
 
 A5: Wild Swipe
 Body-Offensive-Action
-Use: 10AP+3sta
+Use: 2AP+8sta
 Range: 0sp AoE
 Teamwork: Add +2 to this ability's accuracy check.
 Accuracy: Melee
-OnHit: Combatant takes (2){MlePwr} damage
+OnHit: Combatant takes (6){MlePwr} damage
 
 A6: Lightning Storm
 Will-Offensive-Action
-Use: 25AP+10mna!
+Use: 8AP+24mna!
 Range: Battlefield AoE
 Accuracy: Magic
-OnHit: Enemy takes (3){MgcPwr} electric damage.
+OnHit: Enemy takes (8){MgcPwr} electric damage.
 
 A7: Shadowstep
 Will-Support-Action
-Solowork: Reduce the Use-cost by 5AP+3mna.
-Use: 10AP+5mna
-IfKO: Increase cost by 1/battle.
+Solowork: Reduce the Use-cost by 1AP+8mna.
+Use: 2AP+16mna
 Range: 2sp
 Effect: Target a combatant in range and teleport to their space.
 
 A8: Crescent Dash
 Mind-Offensive-Action
-Use: 10AP+3sta+3mna
+Use: 2AP+8sta+8mna
 Variable: X =1
 Solowork: Increase X by (1).
 Effect: Move up 2 spaces away. You make a free basic attack against X
@@ -99,10 +83,10 @@ enemies as you move.
 
 A9: Disgusting Laughter
 Mind-Offensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 1sp AoE
 Luck: 10
-Teamwork: Increase the Rank of this ability by 1.
+Teamwork: Multiply the Rank of this ability by 1.5.
 OnPass: Enemy gets Slowed (3).
 
 MA1: Bar Escape
@@ -123,4 +107,3 @@ Effect: If a copy of your body exists within 1 mile of you,
 your soul can transfer to the new body.
 Note: To make a craft a new body, you'll need
 1,000gil worth of materials, a Craft score of 15, and 24 hours of labor.
-

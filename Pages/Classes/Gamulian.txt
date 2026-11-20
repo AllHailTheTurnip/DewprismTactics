@@ -1,31 +1,16 @@
 Title: Gamulian
-Subtitle:Mob Fighter
+Subtitle: Mob Fighter
+Element: Wind
 Description: Gamulians are fearsome folk, accustomed to living in trees
 and relying on their vast numbers to defeat their opponents. With the advent
 of the new age, the Gamulian has spread to become a class of fighter, iconic
 for its careful, yet riotous, fighting style.
 
+ABILITIES
 
-VITALS
-Health: 105
-Mana: 105
-Stamina: 147
-Focus: 105
-
-SCORES
-Initiative: 8
-Carry: 7u
-Element: Wind
-
-Cores
-Mind: (Power: 50, Resistance: 83, Evasion: 80, Accuracy: 90)
-Body: (Power: 50, Resistance: 88, Evasion: 90, Accuracy: 120)
-Will: (Power: 75, Resistance: 83, Evasion: 90, Accuracy: 100)
-
-Abilities
 Doctrine: Call for Kin
 Mind-Support-Action
-Use: 10AP+3sta+3fcs
+Use: 2AP+8sta+8fcs
 Range: 0sp
 Effect: Create a clone combatant of yourself at the edge of the battlefield,
 closest to your starting position.
@@ -37,29 +22,28 @@ as new ones are brought in.
 
 A1: Power Nap
 Body-Support-Action
-Use: 20AP
-IfKO: Increase cost by 7sta+7fcs.
+Use: 4AP
 Teamwork: The Effect also applies allies in your space.
 Solowork: Roll Luck 10, whereupon success the AP cost is refunded.
 Effect: Restore 25% of your max Health and 50% of your max Stamina, Mana, and Focus.
 
 A2: Gore
 Body-Offensive-Action
-Use: 10AP+5sta
+Use: 2AP+16sta
 Range: Weapon's Range
 Accuracy: Melee
-Effect: Opponent takes (1){MlePwr} damage and gets Bleeding (MlePwr/5).
+Effect: Opponent takes (4){MlePwr} damage and gets Bleeding ({MlePwr}).
 
 A3: Retaliate
 Body-Offensive-Reaction
 Trigger: You take damage.
 Use: 1+{TL/5}battle.
 Effect: After the offender's action resolves, you may immediately make an
- action, paying half Use-cost (min 5AP) from your next turn as normal.
+action, paying half Use-cost (min 1AP) from your next turn as normal.
 
 A4: Pole Bind
 Mind-Support-Action
-Use: 10AP+3fcs
+Use: 2AP+8fcs
 Effect: If your weapon does not have Extended or Reach,
 give it Extended 1 or Reach 1.
 
@@ -67,26 +51,26 @@ A5: Craft Home
 Mind-Support-Action
 Use: XAP
 Range: 0sp
-Teamwork: Gain an additional 5AP to this Effect for every additional allie in your space.
+Teamwork: Gain an additional 1AP to this Effect for every additional allie in your space.
 Effect: Create a Home prop that fully occupies 1sp. The amount of AP spent on
 creating it determined its Protection...
-5AP: Very Low.
-10AP: Low.
-15AP: Medium.
-20AP: High.
-25AP: Very High.
+0AP: Very Low.
+1AP: Low.
+2AP: Medium.
+4AP: High.
+6AP: Very High.
 
 A6: Conjure Tree
 Will-Support-Action
-Use: 5AP+Xmna
+Use: 1AP+Xmna
 Range: 1sp
 Effect: Create a Tree prop within range. The Tree can be ascended or descended
-for 10AP, treated as a natural staircase.
+for 2AP, treated as a natural staircase.
 The Tree prop can reach up to 1+{X/2} spaces high.
 
 A7: Dance!
 Mind-Support-Action
-Use: 10AP
+Use: 2AP
 Range: 1sp
 Teamwork: This Effect may also apply to teammates in your space.
 Effect: Move into a viable space within range. Regain 3mna+3fcs+3sta.
@@ -101,12 +85,13 @@ free movement action towards the offender.
 
 A9: Zone of Peace
 Mind-Defensive-Passive.
-Use: 5fcs
-IfKO: Increase cost by 1/turn.
+Use: 16fcs
 Solowork: Increase the range of this ability by 1sp.
 Range: 0sp
 Effect: An ability that would be triggered in your range does not trigger.
 
 MA1:
+
 MA2:
+
 MA3:

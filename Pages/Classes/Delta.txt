@@ -1,72 +1,55 @@
 Title: Delta
 Subtitle: Technological abominations.
+Element: Water/Metal
 Description: Deltas are the persistent tanks of the battlefield. More machine than man, they can replace broken parts
 on the fly, while also being able to deliver devastating blows on a whim. While limited to close-range combat, their
 natural physical strength and anti-ranged abilities force their opponents into unwinnable situations.
-   <p>A Delta's life is defined by brutality. Once just mere peasants living on the dredges of society, they were
-   kidnapped and taken to a remote laboratory deep within the ocean to be used in nefarious experiments. Mindwashed
-   and surgically mutilated, they were then permanently grafted into iron suits and fitted with augmentations.
-    Unable to speak, deformed, and of twisted nature, they live masked lives of quiet, unconscious servitude.</p>
-    <p>Sometimes Deltas escape their confinement and wander onto land. Though not normally aggressive,
-    they are simple natured, having an animal-like impulse to protect their allies. Some might say they are like
-    sharks with the endurance of whales and the minds of birds.</p>
+<p>A Delta's life is defined by brutality. Once just mere peasants living on the dredges of society, they were
+kidnapped and taken to a remote laboratory deep within the ocean to be used in nefarious experiments. Mindwashed
+and surgically mutilated, they were then permanently grafted into iron suits and fitted with augmentations.
+Unable to speak, deformed, and of twisted nature, they live masked lives of quiet, unconscious servitude.</p>
+<p>Sometimes Deltas escape their confinement and wander onto land. Though not normally aggressive,
+they are simple natured, having an animal-like impulse to protect their allies. Some might say they are like
+sharks with the endurance of whales and the minds of birds.</p>
 
-Anti-AoE
+ABILITIES
 
-VITALS
-Health: 105
-Mana: 105
-Stamina: 315
-Focus: 35
-
-SCORES
-Initiative: 8
-Carry: 15u
-Element: Water/Metal
-
-Cores
-Mind: (Power: 50, Resistance: 75, Evasion: 50, Accuracy: 120)
-Body: (Power: 125, Resistance: 125, Evasion: 120, Accuracy: 100)
-Will: (Power: 75, Resistance: 100, Evasion: 80, Accuracy: 120)
-
-Abilities
 Doctrine: Complete Augmentation
 Mind-Support-Passive
 Effect: All your abilities are treated as items.
 Mind-Support-Reaction
 Trigger: You take damage.
-Disable X of your abilities to reduce the attack's rank by X+2.
+Disable X of your abilities to multiply the attack's rank by 0.5^(X+2).
 Mind-Support-Action
-Use: 5AP+5fcs
+Use: 1AP+16fcs
 Range: 0sp
 Effect: If the target combatant is KO, Prone, or Dead, or otherwise willing,
-you can take their ability and add it to your inventory as an item. For 5AP you can swap
- one of your abilities (enabled or disabled) with an ability from your inventory.
+you can take their ability and add it to your inventory as an item. For 1AP you can swap
+one of your abilities (enabled or disabled) with an ability from your inventory.
 "It's unnerving to fight a Delta. Whatever punishment you put them through, they just tear off the broken parts
- and replace them with whatever they have available. Mortals, machines - what are they really?"
+and replace them with whatever they have available. Mortals, machines - what are they really?"
 
 A1: Brutal Right-Hook
 Body-Offensive-Action
-Use: 10AP+7sta+(1/turn)
+Use: 2AP+16sta+(1/turn)
 Solowork: Increase range by 1sp.
 Range: 0sp
-Effect: You may only target combatants who have already targeted you at least once. Inflict (5){MlePwr} damage to a valid enemy combatant.
+Effect: You may only target combatants who have already targeted you at least once. Inflict (16){MlePwr} damage to a valid enemy combatant.
 "A Delta doesn't go starting fights - but you best believe they end them.
 
 A2: Potion Injection System
 Mind-Defensive-Reaction
 Trigger: Your health drops below 25% of its max.
-IfKO: You die.
 Use: (1/turn)
 Effect: If you have any health-restoring consumables in your inventory, consume (1) for free.
 "The magician's lightning blast hit dead-on - machine parts and flesh went flying in all directions!
- But in the next moment, the gadget on its back started humming, liquids were being injected, and in the next
-  moment the Delta got right back up as if nothing had happened."
+But in the next moment, the gadget on its back started humming, liquids were being injected, and in the next
+moment the Delta got right back up as if nothing had happened."
 
 A3: Pressure Resistance
 Body-Defensive-Passive
 Effect: At the beginning of your turn create a Pressure counter valued at (1).
-Reduce incoming AoE-ranged damage by {Pressure} ranks.
+Multiply incoming AoE-ranged damage by 0.5^{Pressure}.
 After taking AoE-ranged damage, increase the Pressure counter by 1.
 This marker expires at the beginning of your next turn when a fresh marker is created.
 "That's your misconception. These monsters were born in darkness at the bottom of the ocean -
@@ -74,7 +57,6 @@ immense pressure is their natural habitat."
 
 A4: Life Pact
 Body-Defensive-Passive
-IfKO: This ability behaves as normal.
 Effect: At the beginning of combat, choose the allie with the lowest max-health to form a Life Pact with.
 If an enemy combatant were to target that allie, then you mark the enemy combatant with a Death marker (max 1 per enemy).
 Enemies with the Death marker take an additional 10%(CL) damage from you.
@@ -84,29 +66,29 @@ into a coma. An hour later, it was dead. Were we wrong to associate intelligence
 
 A5: Tesla Coil
 Will-Offensive-Action
-Use: 5AP+3mna+(1/turn)
+Use: 1AP+8mna+(1/turn)
 Range: 0-1sp
 Evade: Magic
 Solowork: Increase max-range by 1sp.
-Effect: Inflict (2){MgcPwr} electric damage.
+Effect: Inflict (6){MgcPwr} electric damage.
 OnCrit: Target gains Burning (5).
 "We thought we had the advantage of distance on it - but we were wrong. Reaching out its bulky hand, with palms upon,
 a bolt of lightning leaped out."
 
 A6: Drilling Strike
 Body-Offensive-Action
-Teamwork: Reduce Use-cost by 3fcs.
-Use: 10AP+5sta+3fcs
+Teamwork: Reduce Use-cost by 8fcs.
+Use: 2AP+16sta+8fcs
 Range: 1-3sp
-Effect: Move to a target within line-of-sight and within range. Roll 3x Luck 10, where for each success increase the rank
-of the ability by 1.
-Make a Melee-Accuracy check against the target. Upon success, inflict (3){MlePwr} damage.
+Effect: Move to a target within line-of-sight and within range. Roll 3x Luck 10, where for each success add 0.5 to the
+ability's Rank multiplier.
+Make a Melee-Accuracy check against the target. Upon success, inflict (8){MlePwr} damage.
 "The Delta looked more fit for mining - an easy enough target. But with an unpronounced burst of speed, it leapt right
 at us."
 
 A7: Grapple
 Body-Offensive-Action
-Use: 5AP+5sta
+Use: 1AP+16sta
 Range: 0sp
 Teamwork: Increase Accuracy and Melee checks by +3.
 Accuracy: Melee
@@ -118,18 +100,18 @@ the right time - and like that, he was pulped."
 
 A8: Ice Spear
 Will-Offensive-Action
-Use: 10AP+3mna+2sta
+Use: 2AP+8mna+6sta
 Range: 1-1+{CL/3}sp
 Accuracy: Skill
-Effect: Inflict (3){MgcPwr} water damage.
+Effect: Inflict (8){MgcPwr} water damage.
 Luck 10: Target gains Frozen 1.
 "It reached out its gloved hand, palm open and fingers out-stretched. A layer of ice quickly formed over,
 at which like from a ballista, a spear of ice went screaming out."
 
 A9: Upgrade Weapon
 Mind-Support-Action
-Use: 5AP+3fcs+(1/turn)
-Effect: Increase the Rank of an item or weapon in your possession or inventory by 1.
+Use: 1AP+8fcs+(1/turn)
+Effect: Multiply the Rank of an item or weapon in your possession or inventory by 1.5.
 "The Deltas have an instinctive understanding of their own physiognomy, and being more machine-than-man,
 it's like they're natural-born engineers."
 
@@ -141,7 +123,7 @@ Take away the chains, and you have a god."
 
 MA2: Enter Abyss
 Will-Offensive-Action
-Use: 7mna+(1/battle)
+Use: 16mna+(1/battle)
 Effect: All spaces on the battlefield become flooded with water up to 10sp high.
 Only you are unaffected by the flooding.
 "Magic is an act of soul-searching. Deltas aren't supposed to have souls - but I suspect they still do.
@@ -149,11 +131,8 @@ I imagine if you looked inside, you'd find the abyss they crawled out from."
 
 MA3: Genetic Paintbrush
 Mind-Support-Action
-Use: 10AP+7fcs
+Use: 2AP+16fcs
 Range: 0sp
 Effect: Target any amount of combatants within range. You may freely copy up to {CL} extra abilities into your list.
 "The part of a Delta that isn't machine is living tissue - but the genes are like plastic, allowing it to adapt
 to almost any situation. Imagine what could be done if one were to unlock that power freely?"
-
-
-

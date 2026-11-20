@@ -1,5 +1,6 @@
 Title: Fist of Fire
 Subtitle: Rapid-fire Melee Fighter
+Element: Fire
 Description: The Fist of Fire branches from the very same order as the Shadow Legends.
 The Fists of Fire believe in a brilliant, passionate life. Much like a fire, they burn bright
 and hot, often leading them to early graves.
@@ -9,47 +10,31 @@ utilizing special techniques to string together powerful attacks before
 their opponent can fit one in.
 </p>
 
-VITALS
-Health: 105
-Mana: 70
-Stamina: 168
-Focus: 84
+ABILITIES
 
-SCORES
-Initiative: 15
-Carry: 7u
-Element: Fire
-
-Cores
-Mind: (Power: 100, Resistance: 76, Evasion: 120, Accuracy: 150)
-Body: (Power: 125, Resistance: 91, Evasion: 80, Accuracy: 130)
-Will: (Power: 75, Resistance: 71, Evasion: 100, Accuracy: 90)
-
-Abilities
 Doctrine: Flurry of Blows
 Body-Offensive-Action
-Use: 10AP+3sta+3fcs
+Use: 2AP+8sta+8fcs
 Range: 0sp
 Teamwork: Improve this ability's Effect to make
- an additional Melee Accuracy check.
+an additional Melee Accuracy check.
 Effect: Make 2+{TL/5} Melee Accuracy checks.
-Inflict (1){MlePwr} fire damage per hit.
+Inflict (4){MlePwr} fire damage per hit.
 
 A1: Burning Star
 Body-Offensive-Action
-Use: 10AP+3sta+5mna
+Use: 2AP+8sta+16mna
 Range: 0sp AoE
 Accuracy: Melee+5
-IfKO: Reduce Accuracy check by 5 and reduce this ability's Rank by 2.
-Dmg: (3){MlePwr} fire
+Dmg: (8){MlePwr} fire
 OnCrit: Target gets Burning 3
 
 A2: Burning Path
 Body-Offensive-Action
-Use: 3sta+3mna+10AP
+Use: 8sta+8mna+2AP
 Range: 1sp AoE Ray
 Accuracy: Melee
-Dmg: (2){MlePwr} fire
+Dmg: (6){MlePwr} fire
 OnCrit: Target gets Burning 3
 
 A3: Momentum
@@ -58,12 +43,12 @@ Trigger: You declare that you are about to use an ability.
 Variable: X =1.
 Solowork: Increase X by 2.
 Use: X/turn
-Effect: You may increase the Use-cost by 50% to increase its Rank by 1
+Effect: You may increase the Use-cost by 50% to multiply its Rank by 1.5
 for the duration of the turn.
 
 A4: Diving Strike
 Body-Offensive-Action
-Use: 10AP
+Use: 2AP
 Effect: Target a combatant exactly 2sp away. You leap through the air, ignoring
 difficult terrain, and land in their space.
 Make a basic attack against the targeted combatant.
@@ -72,14 +57,14 @@ non-basic attack after landing.
 
 A5: Hold Back
 Body-Defensive-Action
-Use: 7sta+5AP
+Use: 16sta+1AP
 Effect: All enemy combatants in an adjacent space of your choice cannot move out of that space
 until the end of your next turn. End your turn.
 If you fall unconscious or die before the end of your next turn, the effect is canceled.
 
 A6: Explosive Touch
 Will-Offensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 0sp
 Effect: The touched item violently explodes (destroying it in the process).
 Every combatant (including you) in the space must pass a Melee Evasion self-check
@@ -98,21 +83,20 @@ A8: Gift Item
 Mind-Support-Action
 Solowork: Increase the range of this ability by 1.
 Range: 0sp
-IfKO: Increase range by 2sp.
 Effect: You may give an item to an ally.
 
 A9: Uppercut
 Mind-Offensive-Action
-Use: 10AP
+Use: 2AP
 Range: 0sp
 Accuracy: Skill
-Dmg: (2){SklPwr} neutral.
+Dmg: (6){SklPwr} neutral.
 Luck: 10
 OnPass: Target becomes Prone.
 
 MA1: Full Hold Back
 Body-Defensive-Action
-Use: 5AP+7sta
+Use: 1AP+16sta
 Effect: Targets in adjacent space of your choice cannot leave the space until
 the end of your next turn.
 

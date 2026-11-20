@@ -1,40 +1,33 @@
 Title:
 Subtitle:
+Element: Neutral
 Description:
 ???
 
-VITALS
-Health: 105
-Mana: 105
-Stamina: 105
-Focus: 105
+ABILITIES
 
-SCORES
-Initiative: 10
-Carry: 10u
-Element: Neutral
-
-Cores
-Mind: (Power: 100, Resistance: 100, Evasion: 100, Accuracy: 100)
-Body: (Power: 100, Resistance: 100, Evasion: 100, Accuracy: 100)
-Will: (Power: 100, Resistance: 100, Evasion: 100, Accuracy: 100)
-
-Abilities
 Doctrine:
+
 A1:
+
 A2:
+
 A3:
+
 A4:
+
 A5:
+
 A6:
+
 A7:
+
 A8:
+
 A9:
 
-
 MA1:
+
 MA2:
+
 MA3:
-
-
-

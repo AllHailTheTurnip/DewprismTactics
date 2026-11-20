@@ -1,69 +1,50 @@
-Gizmo-Gia-Gias
-Microcosm
-
-
 Title: Phantom Valen
 Subtitle: Immortal Ghost
+Element: Light
 Description: In response to the death of Idealism at the turn of the century, a secret society of scholars formed under
 the singular mission objective: to survive the end of the world and create a new one rooted in reason and rationality.
 The gardeners of this new world would be called Phantom Valens: men who had forsaken their mortal forms to remain forever
 in the mortal realm as powerful spirits.
-    <p>Though the end of the world never came, the Phantom Valens persist. Solemn yet not solitary, they live under
-    a message of rebirth without redemption, carrying an idealistic vision which much like themselves refuses to die.</p>
-    <p>Phantom Valens specialize is alteration magic, using their vast arsenal of spells to twist and warp reality
-    as they see fit. They can weaken their enemies, sabotage strategies, and strengthen their allies with impunity.</p>
+<p>Though the end of the world never came, the Phantom Valens persist. Solemn yet not solitary, they live under
+a message of rebirth without redemption, carrying an idealistic vision which much like themselves refuses to die.</p>
+<p>Phantom Valens specialize is alteration magic, using their vast arsenal of spells to twist and warp reality
+as they see fit. They can weaken their enemies, sabotage strategies, and strengthen their allies with impunity.</p>
 ???
 
-VITALS
-Health: 105
-Mana: 315
-Stamina: 35
-Focus: 315
+ABILITIES
 
-SCORES
-Initiative: 10
-Carry: 10u
-Element: Light
-
-Cores
-Mind: (Power: 50, Resistance: 100, Evasion: 120, Accuracy: 110)
-Body: (Power: 50, Resistance: 50, Evasion: 150, Accuracy: 100)
-Will: (Power: 100, Resistance: 100, Evasion: 100, Accuracy: 130)
-
-Abilities
 Doctrine: Spiritual Being
 Will-Support-Passive
 Effect: The owner is treated as permanently having the knocked-out status and is considered neutralized.
-You cannot make movement actions but instead may teleport to anywhere on the battlefield for 10AP+(1/turn).
-Abilities belonging to the owner all gain the modifier "IfKO: Can still use normally."
+You cannot make movement actions but instead may teleport to anywhere on the battlefield for 2AP+(1/turn).
 
 A1: Warp Space
 Will-Support-Action
-Use: 10AP+7mna
+Use: 2AP+16mna
 Range: 3sp
-Teamwork: Reduce Use cost by 2mna.
+Teamwork: Reduce Use cost by 6mna.
 Effect: Choose a space within range and subdivide it into 2 spaces.
 If there are combatants within the space then you choose which new space they'll be placed into.
 
 A2: Gizmo-Gia-Gias
 Will-Offensive-Action
-Use: 10AP+7mna
+Use: 2AP+16mna
 Range: 1sp
 Evade: Magic
-Solowork: Increase Rank by 1.
+Solowork: Multiply Rank by 1.5.
 Effect: Target takes Paralysis (2).
 
 A3: Seal Ability
 Will-Offensive-Action
-Use: 20AP
-Teamwork: Set Use cost to 10AP+(1/turn).
+Use: 4AP
+Teamwork: Set Use cost to 2AP+(1/turn).
 Range: 2sp
 Evade: Magic
 Effect: Disable the target's ability for the rest of the battle.
 
 A4: Adjust Range
 Will-Supportive-Action
-Use: 10AP+5mna+(1/turn)
+Use: 2AP+16mna+(1/turn)
 Range: 0sp
 If the target is an allie then skip the Evade check.
 Evade: Magic
@@ -71,7 +52,7 @@ Effect: Choose an ability belonging to yourself or another combatant and increas
 
 A5: Adjust Limits
 Will-Supportive-Action
-Use: 10AP+5mna+3fcs+(1/turn)
+Use: 2AP+16mna+8fcs+(1/turn)
 Range: 3sp
 If the target is an allie then skip the Evade check.
 Evade: Magic
@@ -79,23 +60,22 @@ Effect: Choose an ability belonging to yourself or another combatant and increas
 
 A6: Power Over Tokens
 Will-Offensive-Action
-Use: 10AP+3mna
+Use: 2AP+8mna
 Range: 3sp
 Effect: Choose one
 1) The targeted token is destroyed (but not removed from battlefield)
-Solowork: Inflict (1){MgcPwr} dmg to token's creator.
+Solowork: Inflict (4){MgcPwr} dmg to token's creator.
 2) The targeted token is restored.
 
 A7: Power Over Cover
 Will-Offensive-Action
-Use: 10AP+5mna
-IfKO: Increase Use cost by 5mna.
+Use: 2AP+16mna
 Range: 2sp
 Effect: Increase or decrease a barrier's cover bonus by 3 (max 18, min 3).
 
 A8: Power Over Props
 Will-Offensive-Action
-Use: 10AP+3mna
+Use: 2AP+8mna
 Range: 3sp
 Effect: Choose one:
 1) Destroy a targeted prop (but do not remove from battlefield)
@@ -103,23 +83,22 @@ Effect: Choose one:
 
 A9: Power Over Efficiency
 Will-Offensive-Action
-Use: 10AP+7mna+(5/battle)
+Use: 2AP+16mna+(5/battle)
 Range: 1sp
-IfKO: Reduce Range to 0sp and increase Evade check difficulty by 3.
 If the target is an allie then skip the Evade check.
 Evade: Magic
-Effect: Choose a target's ability and increase or decrease its existing Mana, Focus, and Stamina costs by 2 (min 1, max 7).
+Effect: Choose a target's ability and increase or decrease its existing Mana, Focus, and Stamina costs by 6 (min 4, max 16).
 
 MA1: Full Seal
 Will-Offensive-Action
-Use: 10AP+10mna
+Use: 2AP+24mna
 Range: 2sp
 Accuracy: Magic
 Effect: The target cannot use any abilities until the end of the battle.
 
 MA2: Master's Command
 Will-Support-Action
-Use: 10fcs+(1/turn)
+Use: 24fcs+(1/turn)
 Range: Battlefield
 Evade: Skill
 Effect: The affected combatant is treated as an extension of yourself; you make actions through them by spending

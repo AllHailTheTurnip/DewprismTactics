@@ -1,16 +1,7 @@
-Interloper
-A giant red parrot
-Kinda slow, fat.
-Hovers up-and-down
-Doesn't touch ground
-Good with language?
-Very very loud!
-Forms a flock
-Lays eggs?
-
-Title:Cockadoo
-Subtitle:Spirit of Teamwork
-Description:As the saying goes, "Birds of a feather flock together," and the same is true for the Cockadoo. Cockadoos
+Title: Cockadoo
+Subtitle: Spirit of Teamwork
+Element: Wind
+Description: As the saying goes, "Birds of a feather flock together," and the same is true for the Cockadoo. Cockadoos
 have traditionally been a nomadic folk, migrating south for the winter with their feathered friends. As per the
 tradition of their folk, they dress in color clothes, singing their ancient songs, and bringing delight (and
 apprehension) wherever they go.
@@ -19,92 +10,75 @@ learned from the animals, and they've learned from the land they've traveled for
 learned the value of a companion. Their abilities focus on coordinating and empowering their fellow fighters to
 gain the advantage over their opponents, while they themselves have primarily reactionary abilities.
 
-VITALS
-Health: 105
-Mana: 105
-Stamina: 210
-Focus: 105
+ABILITIES
 
-SCORES
-Initiative: 8
-Carry: 7u
-Element: Wind
-
-Cores
-Mind: (Power: 125, Resistance: 79, Evasion: 120, Accuracy: 80)
-Body: (Power: 100, Resistance: 92, Evasion: 150, Accuracy: 150)
-Will: (Power: 75, Resistance: 79, Evasion: 100, Accuracy: 100)
-
-Abilities
 Doctrine: Proximity Strike
 Mind-Defensive-Reaction
 Solowork: Ignore the Use-cost of this ability.
-Use: 3fcs
+Use: 8fcs
 Trigger: An opponent enters same space as you.
 Make a Basic Attack action against the encroaching target.
 
 A1: Peck!
 Body-Offensive-Action
-Use: 5AP
+Use: 1AP
 Range: 0sp
 Accuracy: Melee
-Damage: (1){MlePwr}
+Damage: (4){MlePwr}
 Teamwork: Reduce Luck difficulty by 4.
 Luck: 12
-OnPass: Bleeding (1){MlePwr/5}
+OnPass: Bleeding (4){MlePwr/5}
 
 A2: Flight
 Body-Movement-Action
-Use: 20AP
-Teamwork: Increase the rank of this ability by TmWrk.
+Use: 4AP
+Teamwork: Multiply the rank of this ability by ({TmWrk}*0.5+1).
 Effect: Move (1)sp in any direction; you are not affected by difficult terrain.
 
 A3: Copy Spell
 Mind-Support-Reaction
-Use: 5fcs
-Trigger: A combatant within {SklPwr/15}sp uses a Will-type ability.
+Use: 16fcs
+Trigger: A combatant within {SklPwr}sp uses a Will-type ability.
 Luck: 8
 OnPass: You gain the targeted spell as an ability, indexed after your tenth ability.
 You may only copy one ability at a time.
-OnCrit: Increase the copied spell's Rank by 1 (if applicable).
+OnCrit: Multiply the copied spell's Rank by 1.5 (if applicable).
 
 A4: Deafening Screech
 Body-Offensive-Action
-Use: 10AP+5sta+2fcs
-Range: All enemy combatants within {MlePwr/10}sp.
+Use: 2AP+16sta+6fcs
+Range: All enemy combatants within {MlePwr}sp.
 Accuracy: Melee
 OnPass: Target is now deaf. Any Will-type ability checks now have disadvantage.
 
 A5: Gift of Wings
 Mind-Support-Action
-Use: 10AP+3fcs
+Use: 2AP+8fcs
 Range: {TL/5} friendly combatant.
 Effect: Target gains Flight until the end of their next turn.
 
 A6: Gather Flock
 Will-Support-Action
-Use: 10AP+3mna
-IfKO: Reduce Cost to 10AP.
-Range: Any allie within 1sp+{MgcPwr/15}.
+Use: 2AP+8mna
+Range: Any allie within 1sp+{MgcPwr}.
 Variable: X =1
 Solowork: Increase X by 1.
-Effect: Choose X target to be the waypoint. Choose up to 1+{MgcPwr/10} allies to be subjects.
+Effect: Choose X target to be the waypoint. Choose up to 1+{MgcPwr} allies to be subjects.
 Each subject is instantly relocated to an adjacent space beside the waypoint.
 
 A7: Hatch Egg
 Body-Support-Action
-Use: 15AP+5sta
+Use: 4AP+16sta
 Range: 0sp.
 Effect: Create a copy of yourself. Your copy has your exact base Scores, Abilities, and Evasion Stats,
- while having Vitals and Power Stats equal to 1/4 your own.
- You choose the monster's Role, but its intelligence is equal to a Drone.
- Its initiative is equal to yours, and takes its turn after you.
+while having Vitals and Power Stats equal to 1/4 your own.
+You choose the monster's Role, but its intelligence is equal to a Drone.
+Its initiative is equal to yours, and takes its turn after you.
 
 A8: Rocket Flap
 Body-Support-Action
-Use: 5sta
-IfKO: Increase cost by 5sta.
-Effect: Move across up to 1+{MlePwr/10}sp through the air and into another ground space.
+Use: 16sta
+Effect: Move across up to 1+{MlePwr}sp through the air and into another ground space.
 
 A9: Slow Fall
 Body-Support-Passive
@@ -112,20 +86,20 @@ Effect: You do not take fall damage.
 
 MA1: Deafening Screech
 Mind-Offensive-Action
-Use: 10AP
+Use: 2AP
 Range: 3sp
 Effect: Enemy combatants within range get the Deaf status for the rest of the battle.
 Deaf status: You cannot be effected or targeted by allie abilities.
 
 MA2: Colorful Feathers
 Mind-Support-Action
-Use: 10AP
+Use: 2AP
 Effect: Add an ability from your Sideboard to your current Ability list.
 
 MA3: Bite Finger Off!
 Mind-Offensive-Action
-Use: 10AP+7fcs
+Use: 2AP+16fcs
 Range: (0)sp
 Accuracy: Skill+3
 Effect: Disable the target's Primary or Secondary weapon slot for the rest of the battle.
-Target gets Bleeding (2){SklPwr}.
+Target gets Bleeding (6){SklPwr}.

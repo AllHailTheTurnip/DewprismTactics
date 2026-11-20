@@ -1,5 +1,6 @@
 Title: Jinn
 Subtitle: Reality-bending Spirit
+Element: Light
 Description: It was once believed that the Universe was made almost perfect but for a single flaw: one star out of the infinitude was set imperfectly and came crashing down to Earth.
 The story goes that one day a lowly shepherdess chanced upon the fallen star. Rather than go on the journey to set the star back in the sky,
 she harvested its magic in order to become the new queen of the world. Or so she tried. Cursed by the gods for her selfishness,
@@ -8,26 +9,11 @@ the shepherdess was transformed into a wish-granting spirit, imprisoned forever 
 Jinns utilize special reality-warping magic to fight their battles. Occasionally, they employ wishes of their own bypass the laws of nature and either raise their allies up the heavens or drag their opponents down to hell.</p>
 ???
 
-VITALS
-Health: 105
-Mana: 315
-Stamina: 56
-Focus: 35
+ABILITIES
 
-SCORES
-Initiative: 10
-Carry: 10u
-Element: Light
-
-Cores
-Mind: (Power: 50, Resistance: 63, Evasion: 100, Accuracy: 80)
-Body: (Power: 50, Resistance: 70, Evasion: 80, Accuracy: 80)
-Will: (Power: 50, Resistance: 113, Evasion: 150, Accuracy: 110)
-
-Abilities
 Doctrine: Grant Wish
 Will-Support-Action
-Use: 10AP+7mna+(3/battle)
+Use: 2AP+16mna+(3/battle)
 Effect: Choose (1):
 1) Charisma: Gain the Charismatic status. Charismatic: Automatically pass the first Luck check of a Befriend action, and gain +5 to the following check.
 2) Second Wind: Choose a KO'd combatant to revive at 50% health and fully restored Stamina, Mana, and Focus.
@@ -35,11 +21,10 @@ Effect: Choose (1):
 
 A1: Whirlwind
 Will-Offensive-Action
-Use: 10AP+3mna
+Use: 2AP+8mna
 Range: 0sp AoE
-IfKO: Range is no longer AoE.
 Accuracy: Magic
-Dmg: (3){MgcPwr} wind.
+Dmg: (8){MgcPwr} wind.
 
 A2: Whiplash
 Will-Offensive-Reaction
@@ -49,15 +34,14 @@ Effect: Inflict 1/2 the potential damage to the attacker.
 
 A3: Harrowing Missile
 Will-Offensive-Action
-Use: 10AP+(1/3th total max mana)
+Use: 2AP+(1/3th total max mana)
 Range: 1sp
 Accuracy: Magic+1
-Dmg: (4){MgcPwr}
+Dmg: (12){MgcPwr}
 
 A4: Blood Offering
 Will-Support-Action
-Use: 10AP
-IfKO: Reduce Range to 1sp.
+Use: 2AP
 Range: Battlefield
 Variable: X =20%
 Y = 20
@@ -67,24 +51,24 @@ Effect: Reduce your Max Health by X. Chose a target and roll 1d20 as A. If A >= 
 A5: Lamp
 Will-Support-Item
 Slot: Tool
-Effect: For 5AP the Lamp can be "rubbed", and the Lamp's owner is summoned to the possessor.
+Effect: For 1AP the Lamp can be "rubbed", and the Lamp's owner is summoned to the possessor.
 
 A6: Alter Ability
 Will-Support-Action
-Use: 10AP+3mna+3fcs+3sta+(1/battle)
+Use: 2AP+8mna+8fcs+8sta+(1/battle)
 Teamwork: You mean target an allie within your space.
 Effect: Choose an ability (excepting this one) and remove one of its sentences.
 
 A7: Sandstorm
 Will-Offensive-Action
-Use: 10AP+3mna+1fcs+(1/battle)
+Use: 2AP+8mna+4fcs+(1/battle)
 Range: 4sp
 Effect: Create a Sandstorm prop that covers up to 3 adjacent spaces.
-Sandstorm prop: Combatants who end their turn within the same space as this prop take (2){PL15} wind damage.
+Sandstorm prop: Combatants who end their turn within the same space as this prop take (6){PL15} wind damage.
 
 A8: Minor Wish
 Will-Support-Action
-Use: 10AP+(1/battle)
+Use: 2AP+(1/battle)
 Teanwork: Ignore the AP cost.
 Effect: Choose one from the following list:
 1) Increase your Melee, Skill, and Magic by one level.
@@ -93,20 +77,20 @@ Effect: Choose one from the following list:
 
 A9: Foresight
 Will-Support-Action
-Use: 15AP+7mna+3fcs
-Solowork: Reduce Cost by 3fcs.
+Use: 4AP+16mna+8fcs
+Solowork: Reduce Cost by 8fcs.
 Effect: Privately roll 3d20 and record the results in a list ordered from first-rolled to last-rolled. Grant yourself the Foresight status.
 Foresight status: Whenever you would roll a d20, you may instead substitute it with the first-most result from your private list of recorded rolls and then remove the record from the list.
- When the list is empty, you lose the Foresight status.
-
+When the list is empty, you lose the Foresight status.
 
 MA1: Unfettered Wish
 Will-Support-Action
-Use: 10AP+7mna+(1/battle)
+Use: 2AP+16mna+(1/battle)
 Effect: Choose (1):
 1) Switch Sides: Choose a combatant to become friendly to you and your team.
 2) Resurrection: Choose a combatant to be brought back from a KO'd state or Death at full health and free of negative statuses.
 3) Death. Choose a combatant to take damage equal to {TL45}.
 
 MA2: Cosmic Powers
+
 MA3:

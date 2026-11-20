@@ -1,7 +1,6 @@
-
-
 Title: Fire Blob
 Subtitle: Steady Incinerator
+Element: Fire
 Description: Fire Blobs are hot-blooded warriors who burn everything in their
 path. Their combat style is honed from the slow-moving rivers of lava that
 erupt from volcanoes. Later in time, as the island nation that first homed
@@ -10,34 +9,18 @@ for the Royal Army.
 <p>Today, Fire Blobs continue their awe-inspiring yet destructive tradition,
 carrying the power of the volcano into every fight they enter.</p>
 
+ABILITIES
 
-VITALS
-Health: 105
-Mana: 147
-Stamina: 210
-Focus: 70
-
-SCORES
-Initiative: 5
-Carry: 15u
-Element: Fire
-
-Cores
-Mind: (Power: 75, Resistance: 88, Evasion: 60, Accuracy: 110)
-Body: (Power: 100, Resistance: 113, Evasion: 80, Accuracy: 130)
-Will: (Power: 75, Resistance: 105, Evasion: 100, Accuracy: 100)
-
-Abilities
 Doctrine: Build Pressure
 Body-Offensive-Action
 Choose one: Mode A or Mode B.
 Mode A:
-Use: 10AP+3fcs
-Effect: Increase the Rank of your next attack by 1.
+Use: 2AP+8fcs
+Effect: Multiply the Rank of your next attack by 1.5.
 
 Mode B:
-Use: 20AP+5fcs
-Effect: Increase the Rank of your next attack by 3.
+Use: 4AP+16fcs
+Effect: Multiply the Rank of your next attack by 2.5.
 
 Conclusion:
 This effect can stack up to {CL} times.
@@ -45,7 +28,7 @@ This effect can stack up to {CL} times.
 A1: Eruption
 Body-Offensive-Action
 Variable: X =10 (at the start of battle).
-Use: 10AP+3mna+5sta+X
+Use: 2AP+8mna+16sta+X
 Range: 0sp AoE
 Evade: Melee
 OnHit: Target takes (X)MlePwr damage.
@@ -53,7 +36,7 @@ Teamwork: Instead, target takes (X+2)MlePwr damage.
 
 A2: Throw Slag
 Body-Offensive-Action
-Use: 5AP+1sta+1mna
+Use: 1AP+4sta+4mna
 Range: 1sp
 Accuracy: Melee
 Solowork: Increase Critical Threshold of this attack by 3.
@@ -61,55 +44,55 @@ OnHit: Inflict (1)MlePwr dmg.
 
 A3: Newtonian Fluidity
 Will-Defensive-Passive
-Effect: If the Rank of an incoming attack is over 4, reduce it to 4.
+Effect: Cap incoming Melee damage to {MaxHP}/(4)
 
 A4: Scorching Touch
-IfKO: Treat this ability as Passive with no trigger.
 Will-Offensive-Reaction
 Trigger: An enemy in the same space succeeded in an Accuracy check against you.
 Effect: The enemy gets Burning (1)
 
 A5: River of Magma
 Will-Offensive-action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 0sp
 Effect: Create a Magma Flow prop within range.
 You cannot create two Magma Flow props in the same space.
 If you create a Magma Flow prop in an adjacent space,
-reduce the AP cost of this by 5.
+reduce the AP cost of this by 1.
 Magma Flow Prop: An enemy combatant that enters into this space
-must spend 5AP or else get Burning (1){creator's MlePwr/5}
+must spend 1AP or else get Burning (4){creator's MlePwr/5}
 
 A6: Lunge
 Body-Offensive-Action
-Use: 10AP+3sta
+Use: 2AP+8sta
 Teamwork: You may move up to 1sp before making your accuracy check.
 Accuracy: Melee +3
-OnHit: Target takes (2){MleDmg}.
+OnHit: Target takes (6){MleDmg}.
 
 A7: Radiant Power
 Will-Support-Action
-Use: 3mna+3fcs+(1/turn)
+Use: 8mna+8fcs+(1/turn)
 Range: 2sp AoE
 Effect: Choose one of your Abilities to give to all allies within range.
 Affected allies gain that Ability until the end of their next turn.
 
 A8: Puddle
-IfKO: Treat this ability as Passive.
 Body-Support-Action
 Solowork: Incoming damage while prone is halved.
-Use: 3fcs+(1/turn)
+Use: 8fcs+(1/turn)
 Effect: You become Prone and end your turn.
-All enemies in the same space as you take Burning (1){MlePwr/10}.
+All enemies in the same space as you take Burning (4){MlePwr/10}.
 
 A9: Force Retreat
 Mind-Defensive-Action
-Use: 10AP+5fcs
+Use: 2AP+16fcs
 Range: 0sp AoE
 Evade: Skill
 OnHit: Target is forced into the next adjacent space away from you.
-If they cannot move away into an adjacent space, they take (3){SklPwr} fire damage.
+If they cannot move away into an adjacent space, they take (8){SklPwr} fire damage.
 
 MA1:
+
 MA2:
+
 MA3:

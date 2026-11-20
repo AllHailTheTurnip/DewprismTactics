@@ -1,0 +1,98 @@
+Title: Identilect
+Subtitle: Shapeshifting Avenger
+Element: Electric & Light
+Description:
+A stranger surrounded in mystery and dark science. They possess the disturbing secrets
+to take the form of the recently deceased, often using it to their advantage in fights.
+<p>No one knows where the original Identilects came from or where they learned their
+shapeshifting trick. Legend has it that they aren't even truly human, instead,
+being constructs wrought in the shape of humans by the First Masters.
+No Identilect has ever given a straight answer to that theory, which seems to be the
+only consistent quality that they cling to.</p>
+
+ABILITIES
+
+Doctrine: Learn Shape
+Mind-Support-Reaction
+Trigger: An enemy combatant dies.
+Use: 16fcs
+Give yourself a Shape token based on the dead combatant.
+Shape token: For 1AP you reassign your appearance, Scores, Stats, and Abilities to those of the combatant you got this token from.
+For 1AP you can return to your original state.
+
+A1: Psychum Jar
+Mind-Support-Item
+Slot: Inventory
+Soul Jar ()
+
+
+A2: Block
+Body-Defense-Reaction
+Trigger: An enemy attacks you.
+Use: 8sta
+Solowork: Increase the rank of your Primary or Secondary weapon for this ability.
+Effect: Incoming damage is reduced by the damage of your Primary or Secondary weapon.
+
+A3: Avenge Ally
+Mind-Support-Reaction
+Trigger: An allie dies.
+Teamwork: Increase this ability's Luck check by 2.
+Luck: 10
+OnPass: Increase your {MlePwr} by (1).
+
+A4: Arc Slash
+Body-Offensive-Action
+Use: 2AP
+Range: 0sp
+Every enemy combatant within range takes (4){MlePwr} damage.
+
+A5: Path of Duty
+Will-Defensive-Reaction
+Trigger: An enemy combatant targets you with a Will-type ability.
+Use: 16mna
+Effect: Restore TL Stamina, and Focus.
+
+A6: Call Friend
+Mind-Support-Reaction
+Trigger: You finished making a movement action.
+Teamwork: Ignore the Use-cost of this ability.
+Use: 8fcs
+Choose an ally. They may make a free movement action in your direction.
+
+A7: Wander
+Mind-Support-Action
+Use: 2AP
+Roll d20 as 'A', d20 as 'B'
+South is towards your starting position.
+If A > 10, move up to 1sp+{DL} east; else, move up to 1sp+{DL} west.
+If B > 10, move up to 1sp+{DL} north; else, move up to 1sp+{DL} south.
+
+A8: Dive Slash
+Body-Offensive-Action
+Use: 2AP+16sta
+Range: {CL/4} LoS
+Choose an enemy within range and leap through the air towards them.
+Make a free attack action with +5 to your accuracy check.
+Solowork: Critical damage from this attack has its Rank multiplied by 1.5.
+
+A9: Chain Attack
+Mind-Support-Reaction
+Trigger: You hit with a basic attack action.
+Use: 8sta+(3/Round)
+Luck: 15
+OnPass: Make another attack action at the damaged combatant.
+OnCrit: Multiply the attack's Rank by 1.5.
+
+MA1: Inner Power
+Will-Offensive-Reaction
+Trigger: An allie is neutralized by an enemy combatant.
+Effect: The next attack against the offending enemy combatant automatically succeeds and inflicts an additional (16){MlePwr} dmg.
+
+MA2: Path of Free Will
+Will-Defensive-Passive
+Effect: You are immune to non-damage effects; only attacks that reduce your health can harm you.
+
+MA3: Soul Bind
+Will-Defensive-Reaction
+Trigger: Combat ends.
+Effect: Freely revive up to (1) of your fallen comrades.

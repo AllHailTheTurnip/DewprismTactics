@@ -1,42 +1,19 @@
-Traps
-Traps
-More traps
-Micro-dimension
-Falling spike balls
-Rigged tiles
-Conscription
-
-
 Title: Trap Master
 Subtitle: Deceptive Hunter
+Element: Metal
 Description: Trap Masters are a recent develop of the last 200 years, where throughout the civil turmoil, a class of deceptive and clever hunter has emerged.
 Utilizing cleverly hidden and lethal traps, Trap Masters have as a class have been able to make a name for themselves in the world at large.
 They are fearsome, in that any move made against them is a move against yourself. Their art utilizes behavioral psychology in order
 to make the best possible scheme against you. Their arsenal ranges from mines to falling spike-balls, and everything in between.
 <p>Typically, Trap Masters are a lonesome bunch. As a pre-requisite of their trade, they tend to live alone. Elsewise, if you have the cash
- and the necessity, Trap Masters make for wondrous security professionals; thus, it explains why you typically only see Trap Masters
- in the big city in the employment of noblemen and tycoons. As a rule of thumb, any land protected by a Trap Master is a dead man's land.</p>
+and the necessity, Trap Masters make for wondrous security professionals; thus, it explains why you typically only see Trap Masters
+in the big city in the employment of noblemen and tycoons. As a rule of thumb, any land protected by a Trap Master is a dead man's land.</p>
 
-VITALS
-Health: 105
-Mana: 105
-Stamina: 70
-Focus: 147
+ABILITIES
 
-SCORES
-Initiative: 12
-Carry: 15u
-Element: Metal
-
-Cores
-Mind: (Power: 75, Resistance: 93, Evasion: 100, Accuracy: 140)
-Body: (Power: 50, Resistance: 75, Evasion: 80, Accuracy: 130)
-Will: (Power: 50, Resistance: 88, Evasion: 80, Accuracy: 120)
-
-Abilities
 Doctrine: Conjure Arena
 Mind-Support-Action
-Use: 7mgc+(1/battle)
+Use: 4mna+(1/battle)
 Range: 0sp
 Effect: Create an Arena prop and an Arena battlefield. The Arena prop is
 cube-shaped, taking up the entire space it was created in. Combatants
@@ -53,18 +30,18 @@ the affected combatants return to the battlefield as before.
 
 A1: Rig Space
 Mind-Defensive-Action
-Use: 10AP+5fcs
+Use: 2AP+16fcs
 Range: 1sp
 Effect: Create a Bomb prop hidden beneath the surface of a space within range.
 You cannot put more than one Bomb prop in a space at a given time.
 Solowork: The Bomb prop's effect does not target allie combatants.
 Bomb prop: Combatants that enter this prop's space must make a Luck 15 check,
 whereupon failure this prop is destroyed and all combatants in the space
-take (2){SklPwr} damage.
+take (6){SklPwr} damage.
 
 A2: Oil Trap
 Mind-Defensive-Action
-Use: 5AP
+Use: 1AP
 Range: 2sp
 Effect: Create an invisible Oil Trap prop within range.
 Oil Trap prop: An enemy combatant entering into the space of this prop causes it to be destroyed
@@ -74,7 +51,7 @@ Critical Failure threshold by 4.
 
 A3: Slander
 Mind-Defensive-Action
-Use: 5AP
+Use: 1AP
 Range: 3sp
 Teamwork: Increase the difficulty of the proceeding Skill check by TmWrk.
 Evade: Skill
@@ -82,20 +59,19 @@ Effect: Disable Critical bonus until end of target's next turn.
 
 A4: Falling Anvil
 Mind-Defensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Teamwork: Increase Range by 3sp.
 Range: 0sp
 Effect: Create an Anvil prop within range.
 Anvil prop: If a combatant enters this prop's space, it is destroyed and
- the combatant makes a Skill self-check.
- Upon failure, they take (3){5TL} metal damage.
+the combatant makes a Skill self-check.
+Upon failure, they take (8){5TL} metal damage.
 
 A5: Spike Pit
 Will-Defensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 1sp
-IfKO: Reduce Range to 0sp.
-Solowork: Increase the Rank of this ability by 1.
+Solowork: Multiply the Rank of this ability by 1.5.
 Effect: Create a Spike Pit marker on yourself.
 Spike Pit token: If an enemy enters within range of this token's owner,
 destroy the space below the enemy, creating a deep pit.
@@ -103,27 +79,27 @@ The offending enemy makes a Magic Evasion check, whereupon success
 they move to the previous space, or otherwise they fall into the pit.
 The pit requires an Acrobatics 10 check to make a Movement action out.
 At the bottom of the pit is a Spike Trap prop.
-Spike Trap prop: Combatants who land on this token take Bleeding (1){15TL}.
+Spike Trap prop: Combatants who land on this token take Bleeding (4){15TL}.
 
 A6: False Surrender
 Mind-Defensive-Reaction
 Trigger: You take damage from an enemy combatant.
 Use: (3/battle)
 Effect: Make a Luck 10 check. Upon success, the offending combatant
- cannot target you again until the start of your next turn.
+cannot target you again until the start of your next turn.
 
 A7: Rig Exit
 Will-Defensive-Action
-Use: 10AP+7mna
+Use: 2AP+16mna
 Range: 0sp
 Effect: Create a Rigged Exit token on your combatant.
 Rigged Exit token: When an enemy combatant attempts to move beyond 1sp
 away from the token's owner, react by destroying this token,
-canceling the action, and inflicting (1){MgcPwr} damage.
+canceling the action, and inflicting (4){MgcPwr} damage.
 
 A8: Bear Trap
 Mind-Defensive-Action
-Use: 10AP+5fcs
+Use: 2AP+16fcs
 Range: 1sp
 Effect: Create a Bear Trap prop within range.
 Bear Trap prop: Upon entering this prop's space, the combatant makes a
@@ -132,11 +108,12 @@ Paralyzed (2).
 
 A9: Discreet Motion
 Mind-Offensive-Action
-Use: 3fcs
-IfKO: Increase Use cost by 6fcs.
+Use: 8fcs
 Effect: Your next action will not invoke any effects either by abilities,
 tokens, or props.
 
 MA1:
+
 MA2:
+
 MA3:

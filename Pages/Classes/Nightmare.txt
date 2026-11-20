@@ -1,6 +1,7 @@
-Title:Nightmare
-Subtitle:Stampeding Champion
-Description:Nightmares are the last vestiges of a bygone era, back in a time of renown chivalry.
+Title: Nightmare
+Subtitle: Stampeding Champion
+Element: Dark
+Description: Nightmares are the last vestiges of a bygone era, back in a time of renown chivalry.
 The first Nightmares were demon-riders, masters of all weapons and, when mounted on horseback, a
 force to be feared.
 <p>Today, Nightmares are a rare breed, hardly recognizable as a caste, yet unmistakable in combat. They
@@ -9,116 +10,93 @@ catches most people off guard - often making it seem like they fall right out of
 guardians and warriors - yet wherever one goes, it is wisest to just stay out of their way.
 </p>
 
-Top-down`
-Great scores
-Good stats
-limited abilities
-mobile-magic based
+ABILITIES
 
-VITALS
-Health: 105
-Mana: 210
-Stamina: 315
-Focus: 70
-
-SCORES
-Initiative: 13
-Carry: 20u
-Element: Dark
-
-Cores
-Mind: (Power: 25, Resistance: 92, Evasion: 100, Accuracy: 100)
-Body: (Power: 75, Resistance: 129, Evasion: 120, Accuracy: 100)
-Will: (Power: 100, Resistance: 117, Evasion: 120, Accuracy: 120)
-
-Abilities
-Doctrine:Meteoric Crash
+Doctrine: Meteoric Crash
 Body-Offensive-Action
-Use: 10AP+8mna+(1/2turns).
+Use: 2AP+18mna+(1/2turns).
 Choose a combatant to target, then jump into the sky (ignoring the ceiling) and leave the battlefield.
 On your next turn, fall from the sky (ignoring the ceiling) into the target's space.
 Range: 1sp AoE
 Accuracy: Melee
-OnPass: Affected enemy combatants take (5){MlePwr+2} electric damage.
+OnPass: Affected enemy combatants take (16){MlePwr+2} electric damage.
 OnFail: Unaffected enemy combatants are pushed away from you until they leave the AoE.
 
-A1:Chase
+A1: Chase
 Body-Offensive-Action
-Use: 10AP+(3Xsta)
+Use: 2AP+(3Xsta)
 Effect: Choose a combatant on the battlefield. Move up to Xsp in direction of target.
- Target must spend 3Xsta and move Xsp away or else take (3){MlePwr} damage.
+Target must spend 3Xsta and move Xsp away or else take (8){MlePwr} damage.
 Solowork: Gain {15TL} health from hitting the target.
 
-A2:Royal Armor
+A2: Royal Armor
 Will-Defensive-Passive
 Effect: Incoming critical damage is treated as non-critical; it is reduced to deal base damage.
 
-A3:Roar!
+A3: Roar!
 Will-Offensive-Action
-Use: 5mna
+Use: 16mna
 Range: {TL/4}sp AoE
-Teamwork: Increase Rank of this ability by 3.
+Teamwork: Multiply Rank of this ability by 2.5.
 Luck: 12
-OnPass: Target loses 5AP from their next action. Luck checks are reduced by (2) until end of combat.
+OnPass: Target loses 1AP from their next action. Luck checks are reduced by (2) until end of combat.
 
-A4:Throw into the Sky
+A4: Throw into the Sky
 Body-Offensive-Action
-Use: 10sta
+Use: 24sta
 Range: 0sp
 Accuracy: Melee
-Target is hurled into the sky. On their next turn they fall to the ground and take (3){5TL} fall damage.
+Target is hurled into the sky. On their next turn they fall to the ground and take (8){5TL} fall damage.
 
 A5: Gallop
 Body-Support-Reaction
 Trigger: You make a Movement action.
-Use: 2sta
+Use: 6sta
 Effect: Move an addition 1sp.
 
-A6:Manifest
+A6: Manifest
 Will-Support-Action
-Use: 10AP+Xmna
-IfKO: Amount of restored Health is halved.
+Use: 2AP+Xmna
 Effect: Restore X{MgcPwr} Health.
 
-A7:Carry
+A7: Carry
 Body-Support-Passive
 Allies can climb onto your person. When you move, any allies on top of you are also moved.
 
-A8:Shockwave
+A8: Shockwave
 Will-Offensive-Action
-Teamwork: Reduce Use-cost by 5AP.
-Use: 15AP!+5mna
+Teamwork: Reduce Use-cost by 1AP.
+Use: 4AP!+16mna
 AoE: {TL}sp circle
 Enemy combatants within AoE are pushed away from you until outside of your AoE.
 Accuracy: Magic
-OnPass: Enemy combatants take (2){MgcPwr} electric damage.
+OnPass: Enemy combatants take (6){MgcPwr} electric damage.
 
-A9:Hone Strike
+A9: Hone Strike
 Will-Support-Action
 Variable: X = 1.
 Solowork: Increase X by 1.
-Use: 3mna+(X/turn)
-IfKO: Increase Use cost by 6mna.
+Use: 8mna+(X/turn)
 Effect: Increase your Skill Accuracy checks by 1.
 
 MA1: Stampede
 Body-Offensive-Action
-Use: 20AP + 15sta
+Use: 4AP+48sta
 Range: Battlefield AoE
 Accuracy: Melee
-Effect: Affected combatant is pushed to the edge of the battlefield away from the user and takes (6){MlePwr} electric damage.
+Effect: Affected combatant is pushed to the edge of the battlefield away from the user and takes (16){MlePwr} electric damage.
 
 MA2: Shadowmeld
 Will-Support-Action
-Use: 10AP+10mna
+Use: 2AP+24mna
 Effect: User turns into a magical shadow that moves abodily.
 The shadow has no depth and can squeeze through any imperfectly sealed surface.
 The shadow cannot be targeted by combatants and likewise cannot target other combatants.
-At the beginning of the user's next turn they may pay an additional 5mna to persist this effect; otherwise they return to normal.
+At the beginning of the user's next turn they may pay an additional 16mna to persist this effect; otherwise they return to normal.
 
 MA3: Fury
 Will-Offensive-Action
-Use: 25AP + 12mna
+Use: 8AP+36mna
 Range: Battlefield AoE
 Evade: Magic
-Effect: Inflicts (5){MgcPwr} damage. User increases the rank of all their Will-type abilities and equipment by 1.
+Effect: Inflicts (16){MgcPwr} damage. User multiplies the rank of all their Will-type abilities and equipment by 1.5.

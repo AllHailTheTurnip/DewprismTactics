@@ -1,114 +1,96 @@
 Title: Pollywog
 Subtitle: Mobile and Adaptable
+Element: Water
 Description:
 A survivalist found among the harshest environments on the planet. Unfettered by neither land or sea,
-    <p>they tend to travel the world from one land to the next, putting their well-earned wisdom to good use
-    with one odd job after the next.</p>
-    <p>In art and song they've been depicted as eternal travelers, under a sacred oath to live without
+<p>they tend to travel the world from one land to the next, putting their well-earned wisdom to good use
+with one odd job after the next.</p>
+<p>In art and song they've been depicted as eternal travelers, under a sacred oath to live without
 worldly attachments and physical possessions. While in this respect it is closer to a matter of
 culture, no one can deny that culture of skills that are passed on and nurtured into each
 generation of Wanderer has, to some degree, made them ideal for traveling the world.</p>
 
-
-VITALS
-Health: 105
-Mana: 147
-Stamina: 84
-Focus: 105
-
-MEASURES
-Initiative: 10
-Carry: 7u
-Element: Water
-
-Cores
-Mind: (Power: 50, Resistance: 92, Evasion: 90, Accuracy: 90)
-Body: (Power: 75, Resistance: 84, Evasion: 100, Accuracy: 110)
-Will: (Power: 100, Resistance: 97, Evasion: 90, Accuracy: 100)
-
 ABILITIES
+
 Doctrine: Elemental Adaptation
 Body-Support-Action
-    Solowork: Choose between either Mode A or B.
-    Teamwork: You may only choose Mode A.
-    Mode A:
-    Use: 5AP
-    Effect: Change your base element to either fire, water, or wind.
-    Mode B:
-    Use: 5AP+7mna.
-    Effect: Change your base element to either darkness, light, electric, or metal.
-    "They're an odd but resilient people. Be it swamps, desert, ashlands, or caves, they adapt and survive."
+Mode A:
+Use: 1AP
+Effect: Change your base element to either fire, water, or wind.
+Mode B:
+Teamwork: You can additionally choose Noble as an element.
+Use: 1AP+16mna.
+Effect: Change your base element to either darkness, light, electric, or metal.
+"They're an odd but resilient people. Be it swamps, desert, ashlands, or caves, they adapt and survive."
 
 A1: Hover
-    Skill-Support-Passive
-    IfKO: Spend 10AP+7sta to move 1sp in addition to this ability's effect.
-    Effect: Your movement is unaffected by difficult or dangerous terrain, even while swimming.
-    "With a grace that betrays their lanky stature, they move through every terrain as if born in it."
+Mind-Support-Passive
+Effect: Your movement is unaffected by difficult or dangerous terrain, even while swimming.
+"With a grace that betrays their lanky stature, they move through every terrain as if born in it."
 
 A2: Quick Slap
-    Melee-Offensive-Action
-    Use: 5AP
-    Teamwork: You may change the element of this attack to your base element.
-    Make an unarmed water-element attack.
-    "He literally slapped me in the face with an old fish. I'm fine, but the shame will follow me to the grave."
+Body-Offensive-Action
+Use: 1AP
+Teamwork: You may change the element of this attack to your base element.
+Effect: Make an unarmed water-element attack.
+"He literally slapped me in the face with an old fish. I'm fine, but the shame will follow me to the grave."
 
 A3: Chomp
-    Melee-Offensive-Action
-    Use: 10AP
-    Range: 0sp
-    Variable: X = neutral.
-    Solowork: remove X.
-    Enemy takes (1){MlePwr} X damage.
-    "With iron stomachs, the Pollywog folk feast on anything that moves."
+Body-Offensive-Action
+Use: 2AP
+Range: 0sp
+Solowork: Damage inflicts Bleeding ({Bdy:Acc}).
+OnHit: Enemy takes (4){MlePwr} damage.
+"With iron stomachs, the Pollywog folk feast on anything that moves."
 
 A4: Lay Egg
-    Skill-Support-Action
-    Use: 5Fcs+(1/battle)
-    IfKO: Increase Cost by 20AP.
-    Place an Egg prop at your feet.
-    Upon your death, the egg hatches and you respawn at the Puddle - all your Vital scores and status effects
-    are restored to their battle-start states.
-    "Yes, Pollywogs are mammalian. Despite that, they sometimes do something unnatural."
+Mind-Support-Action
+Use: 16fcs+(1/battle)
+Place an Egg prop at your feet.
+Upon your death, the egg hatches and you respawn - all your Vital scores and status effects
+are restored to their battle-start states.
+"Yes, Pollywogs are mammalian. Despite that, they sometimes do something unnatural."
 
 A5: Water Gun
-    Skill-Offensive-Action
-    Cost 10AP + 3Fcs
-    Range: 1sp
-    Accuracy: Skill
-    OnPass: Target takes (3){SklPwr} water dmg.
-    "A tradition passed down from generation to generation is the art of hunting with a mouthful of water."
+Mind-Offensive-Action
+Solowork: Reduce cost by 5fcs
+Cost 2AP + 8Fcs
+Range: 1sp
+Accuracy: Skill
+OnPass: Target takes (8){SklPwr} water dmg.
+"A tradition passed down from generation to generation is the art of hunting with a mouthful of water."
 
 A6: Follow
-    Melee-Support-Reaction
-    Trigger: An allie makes a movement action.
-    Use: 2Sta
-    Make a free movement action to follow in their direction.
-    "They often travel in groups - not just for safety, but for companionship."
+Body-Support-Reaction
+Trigger: An allie makes a movement action.
+Use: 6sta
+Make a free movement action to follow in their direction.
+"They often travel in groups - not just for safety, but for companionship."
 
 A7: Hide
-    Melee-Defensive-Reaction
-    Trigger: A combatant's turn begins.
-    Use: 5Sta
-    You may gain Stealth status and make a free movement action.
-    "I wasn't paying attention, but one second he was there, and the next he was gone."
+Body-Defensive-Reaction
+Trigger: An enemy combatant's is granted a turn.
+Use: 8sta
+You may move to the nearest space that is not in the line of sight of any enemy combatants.
+"I wasn't paying attention, but one second he was there, and the next he was gone."
 
 A8: Nurture
-    Magic-Support-Action
-    Use: 10AP+3sta
-    Range: 0sp
-    Teamwork: Rank is equal allies in space (max 3).
-    Restore (0){MgcPwr} Health to an ally.
-    "A squad of Pollywogs is a hardy force."
+Will-Support-Action
+Use: 2AP+8sta
+Range: 0sp
+Teamwork: Rank is equal allies in space time 2.
+Restore (0){MgcPwr} Health to an ally.
+"A squad of Pollywogs is a hardy force."
 
 A9: Regroup
-    Magic-Support-Action
-    Use: 5Mna
-    Choose an allie to be given a Regroup token. The user of the token may destroy the token and teleport beside the token's donor.
-    "Contrary to modern people, Pollywogs instinctively group together in response to threats."
+Will-Support-Action
+Use: 16mna
+Choose an allie to be given a Regroup token. The user of the token may destroy the token and teleport beside the token's donor.
+"Contrary to modern people, Pollywogs instinctively group together in response to threats."
 
 MA1: Gigantism
 Body-Support-Passive
-Effect: You now as tall as (1)sp and are considered large enough to climb for 10AP.
+Effect: You now as tall as (1)sp and are considered large enough to climb for 2AP.
 Increase your Melee power by (1){50}%.
 All range variables for all abilities (including movement) are increased by (1)sp.
 "Legend has it that during prehistoric times, the early Pollywog people grew to tremendous sizes."
@@ -128,4 +110,3 @@ The Pollywog combatant is the same level as Puddle prop's creator, but possesses
 will have Scores, Stats, and Abilities reflecting it.
 The new Pollywog combatant rolls for initiative and is under the control of the Puddle prop's creator.
 "The Pollywog origin myth says that life first began in the swamps."
-

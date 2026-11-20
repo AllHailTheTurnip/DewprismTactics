@@ -1,66 +1,47 @@
-
-
 Title: Hexagon
 Subtitle: Indestructible Guardian
+Element: Metal
 Description: Hexagons are the unstoppable warriors of the battlefield. Their impregnable hulls and their gift
 of flight made them as terrifying wards of chaos. A millennia ago they served on behalf of their First Master masters,
 but today they are few and far between, lost to the sands of time, or to wandering the earth.
-
-Legend has it the first Hexagons were made from rogue magicians who, once captured, were robbed of their
+<p>Legend has it the first Hexagons were made from rogue magicians who, once captured, were robbed of their
 wills, and had their bodies replaced with hulking metal suits. Trapped inside without any will but that of their
-masters, they were cursed to a false life for the rest of eternity.
+masters, they were cursed to a false life for the rest of eternity.</p>
 
-VITALS
-Health: 105
-Mana: 0
-Stamina: 0
-Focus: 0
+ABILITIES
 
-SCORES
-Initiative: 5
-Carry: 25u
-Element: Metal
-
-Cores
-Mind: (Power: 50, Resistance: 88, Evasion: 50, Accuracy: 100)
-Body: (Power: 125, Resistance: 88, Evasion: 50, Accuracy: 100)
-Will: (Power: 50, Resistance: 88, Evasion: 80, Accuracy: 100)
-
-Abilities
 Doctrine: Mobile Fortress
 Body-Defense-Passive
 Effect: At the beginning of your turn, while conscious, you must pay a total of 3 points
 between your stamina, mana, and focus.
-Throughout each turn, you may negate up to a total of (5){MlePwr} points in damage.
+Throughout each turn, you may negate up to a total of (16){MlePwr} points in damage.
 
 A1: Immense Size
 Body-Defense-Passive
 Effect: You count as being 1sp tall, occupying two vertical spaces at once.
-It costs 10AP to climb on top of you.
+It costs 2AP to climb on top of you.
 
 A2: Power Conversion Alpha
 Mind-Support-Passive
 Use: TL/turn
-IfKO: Increase Health spent by double.
 Effect: When prompted to spend Stamina, Mana, or Focus, you can spend your Health instead.
 Every 7 Health spent equates to 3 points of either Stamina, Mana, and/or Focus (leftover points are lost).
 
 A3: Power Conversion Gamma
 Mind-Support-Passive
 Use: TL/turn
-IfKO: Increase required points by double.
-Effect: You can spend 5 points of Stamina, Mana, and/or Focus to regain 5 Health.
+Effect: You can spend 16 points of Stamina, Mana, and/or Focus to regain 5 Health.
 
 A4: Overcharge Burst
 Mind-Offensive-Action
-Solowork: Increase Rank of this ability by 1.
-Use: 5sta+5mna+5fcs+(1)/turn
-Effect: Increase the rank of an Ability by 1.
+Solowork: Multiply Rank of this ability by 1.5.
+Use: 16sta+16mna+16fcs+(1)/turn
+Effect: Multiply the rank of an Ability by 1.5.
 
 A5: Flight
 Will-Movement-Passive
 Effect: You passively hover above the ground and are not affected by rough terrain.
-Use: 3mna
+Use: 8mna
 Teamwork: Ignore the Use-cost of this ability.
 Effect: When making a movement action, you may move freely in any direction.
 You may fly up to 10sp upwards.
@@ -73,18 +54,18 @@ to 10% of your remaining health each time they are attacked.
 A7: Chase
 Body-Movement-Reaction
 Trigger: An enemy combatant has moved out of your space.
-Use: 5sta
+Use: 16sta
 Effect: Follow the target into their space.
 
 A8: Machine Nature
 Mind-Defensive-Passive
 Effect: Your health can continue to drop after you die.
-An allie can spend 10AP to restore 10% of your health.
+An allie can spend 2AP to restore 10% of your health.
 Teamwork: Increase restored percentage of health by 10%.
 
 A9: Seize
 Body-Offensive-Action
-Use: 10AP+3sta
+Use: 2AP+8sta
 Range: 0sp.
 Solowork: You may make a free Movement action before making the Accuracy check.
 Accuracy: Melee
@@ -100,5 +81,5 @@ Effect: At the beginning of each turn your Mana, Stamina, and Focus are restored
 
 MA3: Supercharge
 Mind-Support-Passive
-Use: 7mna+5sta+7fcs
-Effect: Increase the Rank of your next action by 2.
+Use: 16mna+16sta+16fcs
+Effect: Multiply the Rank of your next action by 2.

@@ -1,97 +1,70 @@
 Title: Gudon
 Subtitle: Hotblooded Guardian
+Element: Fire
 Description: Strong, durable, and focused, gudons are a class of guard that utilize
 magical firebreath and good positioning to surprise and subdue heedless invaders.
-
-The first gudons warriors were a tribal folk who lived in caves and learned to fight
+<p>The first gudons warriors were a tribal folk who lived in caves and learned to fight
 by observing the firebreathing reptiles of the same name. As the world outside developed
 and colonizing forces eventually found their cave, the gudon warriors were forced into
 the world of light for good. Yet rather than assimilate, their warriors put their
 talents to the test as security escorts, miners, and hunters. Thanks to their
 low-light vision, their natural hardiness in scarce environments, and their unique
 magic, gudons made a name for themselves. More than anything, this popularity was
-how their culture would survive.
+how their culture would survive.</p>
 
-low-speed
-fire-elemental
-low-light vision
-venomous unarmed attack
-taste-the-air
-camouflage
-Regenerate lost limbs
-fire-breathing
-wide-swipe
+ABILITIES
 
-VITALS
-Health: 105
-Mana: 210
-Stamina: 70
-Focus: 105
-
-SCORES
-Initiative: 8
-Carry: 15u
-Element: Fire
-
-Cores
-Mind: (Power: 75, Resistance: 113, Evasion: 50, Accuracy: 70)
-Body: (Power: 100, Resistance: 100, Evasion: 80, Accuracy: 130)
-Will: (Power: 100, Resistance: 125, Evasion: 100, Accuracy: 110)
-
-Abilities
 Doctrine: Firebreath
 Body-Offense-Action
-Use: 5mna+10AP
-Range: 0sp+{MgcPwr/15} AoE Ray.
+Use: 16mna+2AP
+Range: 0sp+{MgcPwr} AoE Ray.
 Accuracy: Magic
-Damage: (4){MgcPwr} fire
+Damage: (12){MgcPwr} fire
 Solowork: Damaged target gets Burning (2).
 
-A1:Venom Fangs
+A1: Venom Fangs
 Body-Offense-Passive
-Your unarmed attacks inflict Poison (1){5TL}
+Your unarmed attacks inflict Poison (4){5TL}
 
-A2:Hardy Appetite
+A2: Hardy Appetite
 Mind-Support-Passive
 Stamina, Mana, and/or Focus regained from consumables is increased by 5{TL}
 
-A3:Camouflage
+A3: Camouflage
 Body-Defense-Action
-Use: 10AP
-IfKO: Use as normal.
+Use: 2AP
 Variable: X =End your turn.
 Teamwork: Nullify X.
 Effect: X. Increase your MleEva by 5 until your next action.
 
-A4:Regenerate
+A4: Regenerate
 Will-Support-Action
-IfKO: Use as normal.
-Use: 5AP+7mna
+Use: 1AP+16mna
 Effect: Choose a disabled ability/action and re-enable it.
 
-A5:Heavy Sweep
+A5: Heavy Sweep
 Body-Offense-Action
-Solowork: Reduce Use-cost by 4sta.
-Use: 7sta+10AP
+Solowork: Reduce Use-cost by 12sta.
+Use: 16sta+2AP
 Range: Every opponent within adjacent space.
 Accuracy: Melee
 OnHit: Inflict Primary weapon damage. On Critical, target becomes Prone.
 
-A6:Shed Scales
+A6: Shed Scales
 Body-Support-Action
 Use: (1/2turns)
-Effect: Inflict (1){MlePwr} damage to yourself and grant yourself +1 free movement actions each turn.
+Effect: Inflict (4){MlePwr} damage to yourself and grant yourself +1 free movement actions each turn.
 
-A7:Thermal Vision
+A7: Thermal Vision
 Mind-Support-Passive
 Effect: Ignore enemy evasion modifiers.
 
-A8:Stable Stance
+A8: Stable Stance
 Body-Support-Passive
 Teamwork: This ability also applies to your allies.
 Effect: You cannot be knocked Prone.
 
-A9:Carnivore
+A9: Carnivore
 Body-Support-Passive
 Effect: When making an unarmed attack you may regain an amount equal to half your inflicted damage as health.
 
@@ -99,7 +72,7 @@ MA1: Regrow Limbs
 Body-Support-Passive
 Effect: At the beginning of your turn choose one:
 A) Remove a negative status effect (ignores death and KO)
-B) Recover (2){MlePwr} health.
+B) Recover (6){MlePwr} health.
 
 MA2: Improved Camouflage
 Body-Defensive-Passive
@@ -108,4 +81,4 @@ Effect: Increase your Evasion scores by 5.
 MA3: Titanium Claws
 Body-Offensive-Item
 Slot: Primary and Secondary
-2x Razor Claws (Type: Melee, WC: L, Use:5AP+(3/turn), Rank: 2; On hit, disable one of the target's abilities.)
+2x Razor Claws (Type: Melee, WC: L, Use:1AP+(3/turn), Rank: 6; On hit, disable one of the target's abilities.)

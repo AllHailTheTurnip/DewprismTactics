@@ -1,33 +1,19 @@
 Title: Atenacius
 Subtitle: Wizened Master
+Element: Neutral
 Description: During the height of the rule of First Masters, the Atenacious emerged as a caste of combat mages. Chosen from early childhood for
-             their innate talents, they were taken and baptized into a world of magic and danger. For the next 18 years they would be disciplined
-             for a single purpose: to preserve the arcane arts, no matter the foe.
-                 Though the age of First Masters came to an end, the Atenacious persist as protectors of ancient wisdom. They are the perfect
-             hybrid of philosopher and magician, displaying a keen wisdom tempered by lethal potential. Though the world is steadily sinking into
-             chaos, the Atenacious persist in not just body but soul.
-                 Combatively, the Atenacious rely upon necromancy and arcane engineering. Biologically speaking, no Atenaciouses are alive;
-             their souls are bound within reliquaries. The ascension from their mortal forms has only served to improve their magical prowess - not
-             to mention being effectively ageless.
+their innate talents, they were taken and baptized into a world of magic and danger. For the next 18 years they would be disciplined
+for a single purpose: to preserve the arcane arts, no matter the foe.
+Though the age of First Masters came to an end, the Atenacious persist as protectors of ancient wisdom. They are the perfect
+hybrid of philosopher and magician, displaying a keen wisdom tempered by lethal potential. Though the world is steadily sinking into
+chaos, the Atenacious persist in not just body but soul.
+Combatively, the Atenacious rely upon necromancy and arcane engineering. Biologically speaking, no Atenaciouses are alive;
+their souls are bound within reliquaries. The ascension from their mortal forms has only served to improve their magical prowess - not
+to mention being effectively ageless.
 ???
 
-VITALS
-Health: 105
-Mana: 420
-Stamina: 35
-Focus: 35
+ABILITIES
 
-SCORES
-Initiative: 7
-Carry: 10u
-Element: Neutral
-
-Cores
-Mind: (Power: 100, Resistance: 88, Evasion: 100, Accuracy: 130)
-Body: (Power: 75, Resistance: 88, Evasion: 100, Accuracy: 120)
-Will: (Power: 75, Resistance: 150, Evasion: 100, Accuracy: 130)
-
-Abilities
 Doctrine: Spirit-Bound
 Will-Defensive-Passive
 Effect: You do not count as a combatant and are a spirit sealed in a Reliquary.
@@ -38,37 +24,35 @@ If your possessor is knocked-out or dies, or if your Mana is drained passed 5, y
 
 A1: Energy Scythes
 Will-Offensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Solowork: Increase range by 1sp.
 Teamwork: Increase Accuracy check by +2.
 Range: 1sp
 Accuracy: Magic
 Effect: Target up to three individual combatants within range.
-Dmg: (2){MgcPwr}
+Dmg: (6){MgcPwr}
 
 A2: Energy Missiles
 Will-Offensive-Action
-Use: 5AP+2mna
+Use: 1AP+6mna
 Range: 3sp
 Accuracy: Magic+3
-Dmg: (1){MgcPwr}
+Dmg: (4){MgcPwr}
 
 A3: Zone of Endurance
 Will-Defensive-Action
-Use: 10AP+3mna+3fcs+(1/turn)
-IfKO: Increase cost by 10AP.
+Use: 2AP+8mna+8fcs+(1/turn)
 Range: 0sp circle AoE
 Luck: 15.
-OnPass: Reduce taken damage to your allies by (2) ranks until start of your next turn.
+OnPass: Multiply taken damage to your allies by 0.25 (0.5^2) until start of your next turn.
 
 A4: Sovereignty
 Will-Support-Passive
 Effect: At the start of each turn, regain 3 Mana, 3 Focus, and 3 Stamina.
-IfKO: Reduce recovered amount of Mana, Stamina and Focus by 2.
 
 A5: Conjure Marble Wall
 Will-Support-Action
-Use: 5AP+5mna+(3/turn)
+Use: 1AP+16mna+(3/turn)
 Range: 2sp
 Effect: Create a Marble Wall prop along the border between two connected spaces.
 Combatants cannot move between spaces blocked by a Marble Wall prop.
@@ -76,8 +60,8 @@ Each Marble Wall possesses 15{CL} Health and is Neutral typed.
 
 A6: Pull into Microcosm
 Will-Support-Action
-Use: 10AP+7mna
-Teamwork: Adjust Cost by -3mna and +3fcs.
+Use: 2AP+16mna
+Teamwork: Adjust Cost by -4mna and +4fcs.
 Range: 0sp
 Evade: Magic
 Effect: The caster and the target each get a Soul dummy placed into a 5x5x5sp microcosm.
@@ -91,16 +75,18 @@ Effect: Increase your Magic self-checks and Evade checks by 5.
 A8: Book of Cosmos
 Will-Offensive-Item
 Slot: Primary and Secondary
-Book of Cosmos (1+{PL/10} per battle, you may increase the Rank of a Will-type ability by 5 until the end of the action.)
+Book of Cosmos (1+{CL/10} per battle, you may multiply the Rank of a Will-type ability by 3.5 until the end of the action.)
 
 A9: Alter Spell
 Will-Support-Action
-Use: 20AP+7mna
+Use: 4AP+16mna
 Solowork: You may choose a third Will-type ability to target.
 Effect: Choose two Will-type abilities to target.
 Choose a sentence from each of the targeted abilities' Effect segments to swap with each other.
 Choose one of the targeted spells to disable until the end of combat.
 
 MA1:
+
 MA2:
+
 MA3:

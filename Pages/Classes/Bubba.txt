@@ -1,71 +1,54 @@
 Title: Bubba
-Subtitle:Muscled Titan
+Subtitle: Muscled Titan
+Element: Dark
 Description: Names for an island-dwelling god, Bubbas as a warrior-faction
 sailed across the world and took root in different nations. However, the life of a Bubbas is dangerous,
 and their lives can be short-lived. To become a Bubba is to abandon everything you are in favor of power and power
 alone.
 <p>
-    However, Bubbas that reach their full potential have been known to rival dragons and angels.
-    The battle doctrine of a Bubba is one of overwhelming strength. Through the use of raw physical prowess and
-    hard-hitting weapons, Bubbas have been known to decimate their unlucky opponents.
+However, Bubbas that reach their full potential have been known to rival dragons and angels.
+The battle doctrine of a Bubba is one of overwhelming strength. Through the use of raw physical prowess and
+hard-hitting weapons, Bubbas have been known to decimate their unlucky opponents.
 </p>
 
+ABILITIES
 
-
-VITALS
-Health: 105
-Mana: 70
-Stamina: 105
-Focus: 35
-
-SCORES
-Initiative: 5
-Carry: 15u
-Element: Dark
-
-Cores
-Mind: (Power: 50, Resistance: 100, Evasion: 50, Accuracy: 80)
-Body: (Power: 150, Resistance: 125, Evasion: 50, Accuracy: 100)
-Will: (Power: 50, Resistance: 113, Evasion: 80, Accuracy: 100)
-
-Abilities
 Doctrine: Brutal Bulk
 Body-Support-Passive
 Variable: X =0.
 Solowork: Increase X by 3.
-Effect: Increase the Rank of your Body-type attacks by 1.
+Effect: Multiply the Rank of your Body-type attacks by 1.5.
 Reduce your Melee and Skill evasion to {X}.
 Melee Accuracy checks take -5.
 "He was larger than life, built like a rock with arms as big as trees. Wherever he went the ground shook,
 and when he really meant to, he could destroy."
 
 A1: Downward Strike
-IfKO: Upon falling unconscious, you may instantly use this ability once for free.
 Body-Offensive-Action
-Use: 10AP+10sta
+Use: 2AP+24sta
 Range: 0sp AoE circle
 Accuracy: Melee
-Effect: Make a Basic Attack with +(2) Rank and +3 crit-range. End your turn.
+Effect: Make a Basic Attack with x2 Rank and +3 crit-range. End your turn.
 "The punch rocked the battlefield. Everywhere in a 10ft radius was cratered. I couldn't see what was left
 of my friends who were caught in the attack."
 
 A2: Headbutt
 Body-Offensive-Action
-Use: 5AP+5sta
+Use: 1AP+16sta
 Range: 0sp
 Solowork: Increase the proceeding Accuracy check by 3.
 Accuracy: Melee
-OnHit: Inflict (1){MlePwr} damage. The target is knocked prone.
+OnHit: Inflict (4){MlePwr} damage. The target is knocked prone.
 "A tiny brain only means a thick skull."
 
 A3: Push
 Body-Support-Action
-Use: 10AP+5sta
+Use: 2AP+16sta
 Range: 0sp
 Teamwork: Increase range by 1.
 Effect: Relocate all the localized contents of your space (including yourself and other combatants)
 into any other horizontally adjacent space.
-Enemy combatants may make an Acrobat check against your {MleEva+MleAcc}, whereupon success can spend 10AP from
+Enemy combatants may make an Acrobat check against your {MleEva+MleAcc}, whereupon success can spend 2AP from
 their next turn to make a Movement action to another space.
 Note: Obstacles that span multiple spaces or are attached to another surface are simply snapped in half,
 unless the DM deems it impossible.
@@ -73,8 +56,7 @@ unless the DM deems it impossible.
 
 A4: Snarl
 Body-Offensive-Action
-Use: 5AP+3fcs
-IfKO: Increase Cost by 10AP.
+Use: 1AP+8fcs
 Range: 3sp
 Effect: Gain Aggro until your next turn begins.
 "The beast snarled at us, where all at once it became the only thing worth attacking.
@@ -82,13 +64,13 @@ We had played right into its hands."
 
 A5: Bulk Up
 Body-Support-Action
-Use: 10AP+(1/2turn).
+Use: 2AP+(1/2turn).
 Effect: Increase your MlePwr by 1 level.
 "Gorillas are strong by default - but what would happen if you got it to lift weights?"
 
 A6: Earthquake
 Body-Offensive-Action
-Use: 15AP+5sta
+Use: 4AP+16sta
 Range: 3sp
 Effect: Make a Melee Accuracy check (Z).
 Every combatant within range makes a competitive Melee check against Z.
@@ -98,23 +80,23 @@ Staggered, we fell onto our back."
 
 A7: Collateral Damage
 Body-Offensive-Reaction
-Trigger: An attack action with an outgoing rank of 3 or greater missed.
+Trigger: An attack action with an outgoing rank of 8 or greater missed.
 Effect: Any Props in your space are destroyed and the space becomes Difficult Terrain.
 Teamwork: Combatants in your space are knocked prone.
 "Every attack leaves a crater - nothing is spared."
 
 A8: Aimed Strike
 Body-Support-Action
-Use: 5fcs
+Use: 16fcs
 Effect: Double the AP cost of your next action and increase its Accuracy/Evade check by 5.
 "We were weak and exhausted, and the Bubba knew it. Raising it's hammer, it paused just a moment to aim..."
 
 A9: Smash Limb
 Body-Offensive-Action
-Use: 10AP+3fcs
+Use: 2AP+8fcs
 Range: 0sp
 Accuracy: Melee
-Dmg: (3){MlePwr}
+Dmg: (8){MlePwr}
 Effect: Choose an enemy combatant's limb and mash it.
 Legs: Disable Movement basic action.
 Right Arm: Disable Body-type actions.
@@ -123,9 +105,10 @@ Chest: Disable Will-type actions.
 "While the attack didn't kill him, he was out for the fight."
 
 MA1:
-MA2:
-MA3:
 
+MA2:
+
+MA3:
 
 Themes
 - heavy

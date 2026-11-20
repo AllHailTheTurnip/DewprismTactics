@@ -1,6 +1,7 @@
-Title:Racketeer
-Subtitle:Backhanded Fighter
-Description:Racketeers are far from an oddity in the world - they are born and bred in the poorest
+Title: Racketeer
+Subtitle: Backhanded Fighter
+Element: Neutral
+Description: Racketeers are far from an oddity in the world - they are born and bred in the poorest
 pits of society, quietly devouring each other like unborn sharks they are strong enough
 to break free. Eventually, they leave their nest and into the searing light of day. Their scars cross
 their faces like canyons, their teeth are mangled and stained brown,
@@ -10,57 +11,41 @@ and learn to blend in with the commonfolk go on to become sellswords and manhunt
 mixture of prudence and brutality.</p>
 ???
 
-VITALS
-Health: 105
-Mana: 91
-Stamina: 210
-Focus: 91
+ABILITIES
 
-SCORES
-Initiative: 10
-Carry: 10u
-Element: Neutral
-
-Cores
-Mind: (Power: 125, Resistance: 91, Evasion: 120, Accuracy: 90)
-Body: (Power: 100, Resistance: 108, Evasion: 80, Accuracy: 120)
-Will: (Power: 100, Resistance: 91, Evasion: 120, Accuracy: 70)
-
-Abilities
-Doctrine:Hack-N-Slash
+Doctrine: Hack-N-Slash
 Body-Offensive-Action
-Use: 4sta+(1/2turn)
+Use: 12sta+(1/2turn)
 Choose a combatant and move 1sp in their initial direction.
-When you enter within melee-range of the opponent, deal (1){MlePwr} damage. The target is knocked prone.
+When you enter within melee-range of the opponent, deal (4){MlePwr} damage. The target is knocked prone.
 If possible, continue to move into the next space in a straight line.
 
-A1:Doubleteam
+A1: Doubleteam
 Body-Offensive-Reaction
 Trigger: You attack an enemy
-Use: 5fcs
-IfKO: Increase Use cost by 10AP.
+Use: 16fcs
 Teamwork: Increase the Critical Threshold of your allies' next attack by 1.
 Effect: Grant a free basic attack to an allie in your space.
 
-A2:Shove
+A2: Shove
 Body-Offensive-Action
-Use: 10AP+5sta
-Solowork: Reduce Use cost by 3sta.
+Use: 2AP+16sta
+Solowork: Reduce Use cost by 8sta.
 Range: 0sp
 Accuracy: Melee
 OnPass: Enemy is forced away from up to {TL/4}sp.
 
-A3:Kidnap
+A3: Kidnap
 Body-Offensive-Action
-Use: 10AP+3sta
+Use: 2AP+8sta
 Range: 0sp
 Teamwork: Automatically pass the Accuracy check.
 Accuracy: Melee
 OnPass: The target is grabbed. You make a free Movement action with the target in tow. Release the target.
 
-A4:Smash Item
+A4: Smash Item
 Body-Offensive-Action
-Use:10AP
+Use: 2AP
 Range: 0sp
 Look at the target's Equipment and choose an item to target.
 Accuracy: Melee
@@ -68,54 +53,53 @@ OnPass: Targeted item is destroyed.
 
 A5: Cornering the Prey
 Body-Support-Passive
-IfKO: It costs an additional 5AP for a combatant to move into your space.
-Effect: Increase your attack's Rank by 1 for every wall adjacent (up to 4) to the target.
+Effect: Multiply your attack's Rank by ((W*0.5)+1), where W is the number of walls adjacent to the target (up to 4).
 
-A6:Intimidate
+A6: Intimidate
 Mind-Offensive-Action
-Use: 15AP+3fcs
+Use: 4AP+8fcs
 Accuracy: Skill
 OnPass: Target cannot make any basic Movement actions until the end of their next turn.
 OnCrit: Target also cannot use any class Abilities until the end of their next turn.
 
-A7:Menacing Invitation
+A7: Menacing Invitation
 Mind-Support-Action
 Solowork: You may substitute the Use-cost with 1/2turn.
-Use: 10AP+5sta
+Use: 2AP+16sta
 Range: 3sp
 Choose an enemy combatant within range to grant the Menacing Invitation consumable to.
 Menacing Invitation: On the owner's turn, the owner makes a Skill self-check,
 whereupon failure, they are transported to this token's creator's space.
 Upon success, this token is destroyed.
 
-A8:Burgle
+A8: Burgle
 Mind-Offensive-Action
-Use: 10AP
+Use: 2AP
 Range: 0sp
 Accuracy: Melee
 OnPass: Choose an item from the target's inventory and add it to your own.
 
-A9:Tactical Retreat
+A9: Tactical Retreat
 Mind-Defense-Reaction
-Trigger: Your health is reduced to 1{MlePwr} or less.
-Use: 5sta
+Trigger: Your health is reduced to (4){MlePwr} or less.
+Use: 16sta
 Make a free Movement action, but you can only move in the opposite direction of your attacker.
 
 MA1: Plunder
 Mind-Offensive-Action
-Use: 10AP+5sta+3fcs
+Use: 2AP+16sta+8fcs
 Range: 0sp
 Accuracy: Melee +3
-Effect: Inflict (3){MlwPwr} dmg. Steal one item from your target's inventory and add it to your own.
+Effect: Inflict (8){MlePwr} dmg. Steal one item from your target's inventory and add it to your own.
 
 MA2: Vanish
 Mind-Support-Action
-Use: 10fcs
+Use: 24fcs
 Effect: All accuracy checks made against you automatically fail and all Evade you make checks automatically succeed until the start of your next turn.
 
 MA3: Smokescreen
 Mind-Support-Action
-Use: 5AP+5sta
+Use: 1AP+16sta
 Range: 1sp
 Effect: Create a Smokescreen prop within range. The Smokescreen prop covers up to 3 adjacent spaces.
 Smokescreen prop: Enemy combatants within this prop's space get -6 for any Accuracy checks they make in this space.

@@ -1,9 +1,6 @@
-// ultimate shapeshifter
-// Can copy anything of the other players
-// Can reclassify self as an ally
-
 Title: Mode Master
 Subtitle: Form-stealing Spy
+Element: Neutral
 Description: Mode Masters a modern form of terror that quietly emerged from
 the last great war. They are the ultimate insurgent, a master of shape-shifting,
 possessing an arsenal of occult techniques to blend in with a crowd. Their
@@ -21,29 +18,14 @@ ever loved, to seat yourself so deep in paranoia you can never return from it.
 When the time comes, they tend to assume the form of a wild beast in
 order to make the murder look like an accident.</p>
 
-VITALS
-Health: 105
-Mana: 315
-Stamina: 210
-Focus: 210
+ABILITIES
 
-SCORES
-Initiative: 10
-Carry: 7u
-Element: Neutral
-
-Cores
-Mind: (Power: 50, Resistance: 100, Evasion: 60, Accuracy: 120)
-Body: (Power: 50, Resistance: 100, Evasion: 70, Accuracy: 100)
-Will: (Power: 50, Resistance: 113, Evasion: 80, Accuracy: 140)
-
-Abilities
 Doctrine: Form of Friend
 Will-Defensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Evade: Magic
 Effect: Every enemy combatant takes the Charmed status
- While a combatant has the Charmed status, you (the caster) are considered a
+While a combatant has the Charmed status, you (the caster) are considered a
 non-combatant allie and cannot be directly targeted by attacks,
 even indirectly via AoE. Please note: the Charmed status cannot stack.
 At the beginning of each enemy combatant's turn, they may make a Magic Self-check,
@@ -51,11 +33,10 @@ whereupon success they lose the Charmed status.
 
 A1: Copy Ability
 Will-Support-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 0sp
 Teamwork: You may skip the self-check for allies.
 Evade: Magic
-IfKO: You may only copy one ability regardless of DL.
 Effect: Choose a combatant within range
 and learn one of their non-doctrine abilities until the end of the battle.
 You may copy up to {DL} different abilities, otherwise you may choose one
@@ -63,35 +44,35 @@ of your already copied abilities to remove before you copy another one.
 
 A2: Copy Element
 Will-Support-Action
-Use: 10AP+3mna
+Use: 2AP+8mna
 Range: 1sp
 Effect: Target a combatant within range and
 change your element to match theirs.
 
 A3: Copy Melee
 Will-Support-Action
-Use: 10AP+5mna+3sta
+Use: 2AP+16mna+8sta
 Range: 1sp
 Effect: Choose a combat within range. Change your Melee Scores (Power, Evasion,
 and Accuracy) to match the target's Melee Scores.
 
 A4: Copy Magic
 Will-Support-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 1sp
 Effect: Choose a combatant within range. Change your Magic Scores (Power, Evasion,
 and Accuracy) to match the target's Magic Scores.
 
 A5: Copy Skill
 Will-Support-Action
-Use: 10AP+5mna+2fcs
+Use: 2AP+16mna+6fcs
 Range: 1sp
 Effect: Choose a combat within range. Change your Skill Scores (Power, Evasion,
 and Accuracy) to match the target's Skill Scores.
 
 A6: Copy Health
 Will-Support-Action
-Use: 10AP+7mna
+Use: 2AP+16mna
 Solowork: Increase Range to Battlefield.
 Range: 0sp
 Evade: Magic
@@ -101,7 +82,7 @@ Multiply your current Health by {target's current Health}/{target's max Health}
 
 A7: Copy Weapon
 Will-Support-Action
-Use: 5AP+3mna
+Use: 1AP+8mna
 Range: 2sp
 Effect: Target a combatant within range and one of your currently equipped
 weapons. Change your weapon to match the attributes of the target's primary weapon.
@@ -109,15 +90,14 @@ weapons. Change your weapon to match the attributes of the target's primary weap
 A8: Lead Away
 Mind-Offensive-Action
 Solowork: Reduce the Use-cost by 1/turn.
-Use: 5AP+5fcs+(1/turn)
-IfKO: Increase cost by 1/turn.
+Use: 1AP+16fcs+(1/turn)
 Range: Battlefield (line of sight)
 Evade: Skill
 Effect: Affected target makes a free Sprint action in your direction.
 
 A9: Copy Token or Status
 Will-Offensive-Action
-Use: 10AP+7mna
+Use: 2AP+16mna
 Range: 2sp
 Teamwork: Restore the original duration of the acquired token or status.
 Effect: Choose a combatant within range with an active Status or Token
@@ -134,7 +114,7 @@ don't have to choose just one.
 
 MA2: Identity Crisis
 Will-Offensive-Action
-Use: 10AP+12mna
+Use: 2AP+36mna
 Range: Battlefield AoE
 Effect: All enemy combatants take the Pandemonium status for (3) turns. Combatants with the Pandemonium cannot tell
 allies from enemies and must a Luck 10 check when making an Attack-type action - whereupon failure, the enemy combatant reassigns
@@ -142,7 +122,7 @@ the attack's target before the original combatant resolves the action.
 
 MA3: Deep Charm
 Will-Defensive-Action
-Use: 10AP+12mna+6fcs
+Use: 2AP+36mna+12fcs
 Range: 2sp
 Evade: Magic
 Effect: Targeted combatant permanently gains the Charmed status.

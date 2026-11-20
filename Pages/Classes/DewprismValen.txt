@@ -1,60 +1,44 @@
-Unique sorcerer of really unique abilities
-
 Title: Dewprism Valen
 Subtitle: Magically Enhanced Monstrosity
+Element: Noble/Light
 Description: Near the turn of the century doomsday cults started appearing in large numbers all across the planet, either
 foretelling of the end or trying to bring it about. The Dewprism Valens were among the latter. They were a secret
 society split apart from the Phantom Valens with the grand scheme of bringing about the end of the world.
 <p>To do this, they transformed themselves into magically enhanced monstrosities, capable of tackling any force,
- no matter how vast or challenging. Dewprism Valens utilize a mixture of magic and martial arts to grind away at
- their opponent while also enhancing themselves.</p>
+no matter how vast or challenging. Dewprism Valens utilize a mixture of magic and martial arts to grind away at
+their opponent while also enhancing themselves.</p>
 ???
 
-VITALS
-Health: 105
-Mana: 210
-Stamina: 105
-Focus: 315
+ABILITIES
 
-SCORES
-Initiative: 13
-Carry: 12u
-Element: Noble/Light
-
-Cores
-Mind: (Power: 75, Resistance: 138, Evasion: 120, Accuracy: 100)
-Body: (Power: 50, Resistance: 113, Evasion: 100, Accuracy: 100)
-Will: (Power: 100, Resistance: 125, Evasion: 100, Accuracy: 130)
-
-Abilities
 Doctrine: Monstrous Shape
 At the beginning of battle after you roll for initiative use this ability once for free.
 Will-Support-Action
-Use: 10AP
+Use: 2AP
 You can only be in one mode at a time. Switching between modes removes the bonuses and penalties of the previous
 mode before the new mode's bonuses are applied.
 Mode A:
-    Effect: Increase your Evasion scores by 5.
-    Reduce the rank of any action made while in this mode by 2 (min 1).
+Effect: Increase your Evasion scores by 5.
+Multiply the rank of any action made while in this mode by 0.25 (0.5^2).
 
 Mode B:
-    Effect: Increase your Accuracy scores by 5.
-    Reduce your Evasion scores by 3.
+Effect: Increase your Accuracy scores by 5.
+Reduce your Evasion scores by 3.
 
 Mode C:
-    Effect: Increase all your action ranks by 2.
-    Increase incoming damage by 1 rank.
+Effect: Multiply all your action ranks by 2.
+Multiply the rank of incoming damage by 1.5.
 
 A1: Vault Leap
 Body-Offensive-Action
-Use: 10AP+5sta
-Solowork: Reduce Use cost by 3sta.
+Use: 2AP+16sta
+Solowork: Reduce Use cost by 8sta.
 Range: 1sp
-Effect: Move into another space within range. Inflict (1){MlePwr} to an enemy combatant in that space.
+Effect: Move into another space within range. Inflict (4){MlePwr} to an enemy combatant in that space.
 
 A2: Homing Barrage
 Will-Offensive-Action
-Use: 10AP+5mna
+Use: 2AP+16mna
 Range: 2sp
 Variable: X = roll (1d20)/5
 Teamwork: Roll with advantage to determine value of variable X.
@@ -63,7 +47,7 @@ Dmg: (X){MgcPwr}
 
 A3: Energy Syphon
 Will-Offensive-Action
-Use: 10AP+(5/battle)+(1/turn)
+Use: 2AP+(5/battle)+(1/turn)
 Range: 2sp
 Evade: Magic
 Effect: Steal 5 points of Stamina, Mana, and Focus from a target and add the points to your own
@@ -71,15 +55,14 @@ Stamina, Mana, and Focus.
 
 A4: Bloodfeast
 Mind-Offensive-Action
-Use: 10AP+5fcs
+Use: 2AP+16fcs
 Range: 0sp
-IfKO: Increase cost by 5sta+(1/turn).
 Accuracy: Skill
-Effect: Reduce the target's health by (3){SklDmg} and increase your health by (3){SklDmg}.
+Effect: Reduce the target's health by (8){SklDmg} and increase your health by (8){SklDmg}.
 
 A5: Cursed Mark
 Will-Offensive-Action
-Use: 10AP+7mna
+Use: 2AP+16mna
 Range: 3sp
 Evade: Magic
 Effect: When a target makes an offensive action, they first roll Luck 5, whereupon failure their action backfires and they hit themselves instead.
@@ -87,38 +70,38 @@ This status lasts 3 turns.
 
 A6: Minor Transformation
 Will-Support-Action
-Use: 10AP+3mna+(1/turn)
+Use: 2AP+8mna+(1/turn)
 Teamwork: Implement Mode D: Switch around your Stamina, Mana, and Focus scores to your liking.
 Mode A:
-    Effect: Switch around your Evasion scores to your liking.
+Effect: Switch around your Evasion scores to your liking.
 Mode B:
-    Effect: Switch around your Accuracy scores to your liking.
+Effect: Switch around your Accuracy scores to your liking.
 Mode C:
-    Effect: Switch around your Power scores to your liking.
+Effect: Switch around your Power scores to your liking.
 
 A7: Elemental Suppression
 Will-Support-Action
-Use: 10AP+5mna+5fcs+5sta
-IfKO: Use as normal.
+Use: 2AP+16mna+16fcs+16sta
 Effect: Grant yourself the Elemental Suppression token.
 Elemental Suppression token: Choose three of your abilities and change their element to match your element.
 Change your Element to neutral.
 
 A8: Overwhelming Force
 Body-Support-Action
-Use: 5sta+(1/turn)
+Use: 16sta+(1/turn)
 Solowork: Change Use cost by +(1/turn).
-Effect: For the next action you make, the targeted combatant(s) must spend an additional 3sta before an Evade or Accuracy
+Effect: For the next action you make, the targeted combatant(s) must spend an additional 8sta before an Evade or Accuracy
 check is made, or else the attack automatically hits.
 
 A9: Dimensional Warp
 Will-Defensive-Reaction
 Trigger: You take damage.
-Use: 7mna
+Use: 16mna
 Range: 2sp
 Effect: You may teleport to any space on the battlefield. You can take any combatants in range with you by force.
 
-
 MA1:
+
 MA2:
+
 MA3:

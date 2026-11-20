@@ -1,5 +1,6 @@
 Title: Arm of Death
 Subtitle: Bringer of Disaster
+Element: Dark/Noble
 Description: Another relic from the days of the First Masters, the Arm of Death is theorized
 to have been a kind of last-resort protector. Their power is both brutal and precise,
 where they can direct their destructive energies towards swiftly and quickly eliminating
@@ -9,23 +10,8 @@ the world in search of purpose. They know neither rest nor idle, and are constan
 wandering from one place to the next. They kill anything and anyone that disturbs them,
 yet are always gone as soon as the act is finished.</p>
 
-VITALS
-Health: 105
-Mana: 105
-Stamina: 105
-Focus: 105
+ABILITIES
 
-SCORES
-Initiative: 15
-Carry: 10u
-Element: Dark/Noble
-
-Cores
-Mind: (Power: 125, Resistance: 100, Evasion: 80, Accuracy: 100)
-Body: (Power: 105, Resistance: 125, Evasion: 80, Accuracy: 800)
-Will: (Power: 100, Resistance: 113, Evasion: 80, Accuracy: 110)
-
-Abilities
 Doctrine: Deathly Grip
 Body-Support-Passive
 Effect: Increase the Range attribute of all your abilities by 1sp.
@@ -38,51 +24,50 @@ now realized in physical form."
 
 A1: Shadow Missile
 Will-Offensive-Action
-Use: 10AP+3mna
+Use: 2AP+8mna
 Solowork: Increase Range by 1sp.
 Range: 1sp
-Effect: The target must pay 3sta to make a Magic Evade check.
+Effect: The target must pay 8sta to make a Magic Evade check.
 If they cannot pay the stamina or fail the Evade check, they are hit.
-Dmg: (3){MgcPwr}
+Dmg: (8){MgcPwr}
 "A fissure of eviscerating darkness that hones in on your opponent's position."
 
 A2: Clawed Swipe
 Body-Offensive-Action
-Use: 10AP+3sta
+Use: 2AP+8sta
 Range: 0sp
 Accuracy: Melee
-Variable: X=Make a Luck 10 check, whereupon success you increase the Rank (max 5) of this ability.
-Effect: Execute X and repeat until the Luck check fails. Inflict (1){MlePwr} damage.
+Variable: X=Make a Luck 10 check, whereupon success you add 0.5 to this ability's Rank multiplier (max x3).
+Effect: Execute X and repeat until the Luck check fails. Inflict (4){MlePwr} damage.
 "Your razor-like claws tear flesh and steel alike."
 
 A3: Absorb Power
 Will-Support-Action
-Use: 20AP
+Use: 4AP
 Range: 0sp
 Effect: If the combatant is dead, you may increase your Power scores by 1/5 (min 1) of their own.
 Remove the combatant's body from battle.
-IfKO: You may restore an amount of your health equal to 1/4th the target's health.
 "Their body turns to dust as what little strength they once possessed now belongs to you."
 
 A4: Destroy
 Body-Offensive-Action
-Use: 10AP+3sta+3mna
+Use: 2AP+8sta+8mna
 Range: 0sp
 Effect: Target a structure (wall, ceiling, floor, et cetera), prop, or item in range and destroy it.
 "You conjure a massive blast of energy, totally destroying any obstacles before you."
 
 A5: Snatch
 Mind-Offensive-Action
-Use: 10AP+(1/turn)
+Use: 2AP+(1/turn)
 Range: 1sp
 Accuracy: Skill
-Effect: Move into the same space as the target. Inflict (1){SklPwr} damage.
+Effect: Move into the same space as the target. Inflict (4){SklPwr} damage.
 Target cannot make actions until the start of their next turn.
 "Acting quickly, you seize your opponent in an iron grip."
 
 A6: Wings
 Will-Support-Action
-Use: 3mna+(1/turn)
+Use: 8mna+(1/turn)
 Effect: You may make Movement actions in any direction, regardless of terrain.
 If you do not pay for this ability again by the end of your next turn, you fall to the ground.
 "A pair of red wings from an uncertain material extend from your back, granting you flight."
@@ -90,18 +75,17 @@ If you do not pay for this ability again by the end of your next turn, you fall 
 A7: Aura of the Apex Predator
 Body-Support-Passive
 Range: 0sp
-IfKO: This remains in effect while KO.
 Effect: While your remaining Health is above 50% of its max, enemy combatants must
-spend 5AP from their next turn to move out of your space at the end of your turn.
+spend 1AP from their next turn to move out of your space at the end of your turn.
 "Your presence has a certain energy that makes lesser people flee for their lives."
 
 A8: Murder
 Mind-Offensive-Action
 Teamwork: Increase Use by 1/turn.
-Use: 3sta+3fcs+(1/turn)
+Use: 8sta+8fcs+(1/turn)
 Range: 0sp
-Solowork: Increase Rank by 1.
-Effect: If the target has less than (2){your SklPwr} Health remaining, their health is reduced to negative its max (dead).
+Solowork: Multiply Rank by 1.5.
+Effect: If the target has less than (6){your SklPwr} Health remaining, their health is reduced to negative its max (dead).
 "With cold indifference you purge the weak."
 
 A9: Invoke Wrath
@@ -117,7 +101,7 @@ If you succeed in afflicting a negative status affect or inflicting damage, this
 MA1: Invulnerable
 Body-Defensive-Action
 Use: (1/battle)
-Effect: For the next 2 turns all taken damage is reduced by (5) ranks.
+Effect: For the next 2 turns all taken damage is multiplied by 0.03125 (0.5^5).
 "You cannot defeat me."
 
 MA2: Provoke to Unhinged Rage
@@ -126,16 +110,13 @@ Trigger: You kill a combatant.
 Range: 3sp
 Effect: Afflict a target of your choice with the Unhinged Rage (5) status.
 Combats with the Unhinged Rage X status must inflict X ranks of damage against you (the afflicter)
-each turn or else they self-inflict (3){SklDmg}.
+each turn or else they self-inflict (8){SklDmg}.
 "Robbed of everything but hatred, the real fight begins."
 
 MA3: Deathly Grip II
 Body-Support-Passive
 Effect: Increase the Range attribute of all your abilities by 2sp.
-Increase the Rank of all your abilities by 1.
+Multiply the Rank of all your abilities by 1.5.
 Increase the Accuracy check (where applicable) of all affected abilities
 by 5.
 "No matter how beautiful your play, Death wins in the end."
-
-
-

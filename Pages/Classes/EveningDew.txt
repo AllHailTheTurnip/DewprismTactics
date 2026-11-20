@@ -1,29 +1,15 @@
 Title: Evening Dew
 Subtitle: The Ultimate Attacker
+Element: Dark/Dark
 Description: The history of all civilization is bookended by a prophecy - that at the end of days, a lost angel would
 return to Earth and drown it fire. Though those times are well away and the lost angel is nowhere to be found, a following
 has regardless formed around them. Their foremost practitioners, styling themselves as Evening Dews, have secluded themselves
 hoping and waiting that one day when the lost angel makes their way back, that they too might ride by their side.
-    <p>Evening Dews are masters of mind, body, and will, honing their abilities to cause as much destruction as
-    possible. As a backup measure, they are enchanted to return stronger than ever, should they be downed in combat.</p>
+<p>Evening Dews are masters of mind, body, and will, honing their abilities to cause as much destruction as
+possible. As a backup measure, they are enchanted to return stronger than ever, should they be downed in combat.</p>
 
-VITALS
-Health: 105
-Mana: 105
-Stamina: 105
-Focus: 105
+ABILITIES
 
-SCORES
-Initiative: 15
-Carry: 8u
-Element: Dark/Dark
-
-Cores
-Mind: (Power: 50, Resistance: 100, Evasion: 100, Accuracy: 150)
-Body: (Power: 50, Resistance: 100, Evasion: 100, Accuracy: 150)
-Will: (Power: 50, Resistance: 100, Evasion: 100, Accuracy: 150)
-
-Abilities
 Doctrine: Greater Revival
 Mind-Support-Reaction
 Trigger: You lose the Dead or KO'd Status.
@@ -39,21 +25,21 @@ Spiked Halo (Grants Artisan 2 to all attacks).
 
 A2: Buzzsaw Dance
 Mind-Offensive-Action
-Use: 10AP+3sta+3fcs
+Use: 2AP+8sta+8fcs
 Range: =1sp AoE circle
 Accuracy: Skill
-Dmg: (3){SklPwr}.
+Dmg: (8){SklPwr}.
 "Without any warning he started sprinting, twirling around the battlefield in a large circle faster than the eye could
 track. We'd been caught in his trap."
 
 A3: Earthquake Stomp
 Body-Offensive-Action
-Use: 10AP+7sta
-Solowork: Reduce Use cost by 2sta.
+Use: 2AP+16sta
+Solowork: Reduce Use cost by 6sta.
 Effect: Move 2sp in any direction.
 Range: Battlefield AoE
 Evade: Melee
-OnHit: Take (1){MlePwr} dmg and is made Prone.
+OnHit: Take (4){MlePwr} dmg and is made Prone.
 "Tactics didn't work against it. Surrounded on all sides from positions high and low, the monster simply
 jumped into the air and came down with a powerful stomp that shook the battlefield.
 That is when the real massacre began."
@@ -61,8 +47,8 @@ That is when the real massacre began."
 A4: Serial Killing
 Mind-Offensive-Reaction
 Trigger: You kill a combatant.
-Teamwork: Allies in your space gain 5AP to their next turn.
-Effect: Regain 10AP (max 20).
+Teamwork: Allies in your space gain 1AP to their next turn.
+Effect: Regain 2AP (max 4).
 "Taken over with a bloodlust, the Evening Dew kept on killing and killing."
 
 A5: Rush!
@@ -74,39 +60,37 @@ Abilities with (x/turn) Use costs are increased by (+2/turn)
 
 A6: Crushing Strike
 Body-Offensive-Action
-Use: 10AP+7sta
+Use: 2AP+16sta
 Solowork: Range gains AoE.
 Teamwork: Range gains +1sp.
 Range: 0sp
 Accuracy: Melee
-Dmg: (4){MlePwr} Honed 4
+Dmg: (12){MlePwr} Honed 4
 "The Evening Dew is a cursed angel, and by a twisted nature it is bound to destroy everything it comes across."
 
 A7: Path of Flame
 Will-Support-Reaction
 Trigger: You leave a space.
-Use: 5mna
-IfKO: Increase Use cost by 5mna.
+Use: 16mna
 Effect: Place a Flame prop in the space you left.
 Flame prop: Upon entering or ending your turn in the same space as this prop, the combatant is afflicted with Burning (3).
 "The Evening Dew leaves a trail of ashes."
 
 A8: Zealous Abandon
 Body-Offensive-Action
-Use: 5fcs
+Use: 16fcs
 Effect: If your next action has 1sp Range then grant it AoE until the end of the action. It also targets allies.
 "We thought the Evening Dew could tell friends from foes - what a naive thought. Blood is blood."
 
 A9: Path of the Bloodletter.
 Will-Offensive-Passive
-Effect: All actions have their rank increased by 2. Every action costs an additional (1){MlePwr} health.
-IfKO: This ability behaves as normal.
+Effect: All actions have their rank multiplied by 2. Every action costs an additional (4){MlePwr} health.
 "A spirit of suffering, the Evening Dew is not excluded from its gruesome process. But that is the secret
 of its power. For there is power in blood, and the Evening Dew's power abounds."
 
 MA1: Apocalypse
 Will-Offensive-Action
-Use: 20AP+15mna
+Use: 4AP+48mna
 Effect: All combatants on the battlefield (including you and your allies) are afflicted with Doom 3.
 "Across the world a brass bell tolled three times. On the third strike the world fell silent,
 the weak with the strong were wiped away, and time came to a final halt."
@@ -120,8 +104,8 @@ his blood upon the snow. The moon turned red, and out from the darkness he arose
 
 MA3: Slicing Song
 Mind-Offensive-Action
-Use: 10AP+10fcs
+Use: 2AP+24fcs
 Range: Battlefield
-Effect: All enemy combatants within range take (3){SklPwr} metal damage and are afflicted with Bleed {SklPwr}.
+Effect: All enemy combatants within range take (8){SklPwr} metal damage and are afflicted with Bleed {SklPwr}.
 "It was a horrible sound, high and cutting like the sound of metal claws scraping. Invisible knives danced
 through the air."
